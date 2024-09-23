@@ -9,15 +9,15 @@ from peft import (
     LoraConfig,
     get_peft_model,
     get_peft_model_state_dict,
-    prepare_model_for_int8_training,
     set_peft_model_state_dict,
 )
+
 from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments, Trainer, DataCollatorForSeq2Seq
-from codeinsight import CoNaLaExecDataset
+from codeinsight import CodeInsightDataset
 
 
-train_dataset = CoNaLaExecDataset(source_dir="CodeInsight", mode="fine_tuning", split="train")
-eval_dataset = CoNaLaExecDataset(source_dir="CodeInsight", mode="fine_tuning", split="test")
+train_dataset = CodeInsightDataset(source_dir="CodeInsight", mode="fine_tuning", split="train")
+eval_dataset = CodeInsightDataset(source_dir="CodeInsight", mode="fine_tuning", split="test")
 
 
 ## Load model
@@ -29,8 +29,8 @@ model = AutoModelForCausalLM.from_pretrained(
     torch_dtype=torch.float16,
     device_map="auto",
 )
-# tokenizer = AutoTokenizer.from_pretrained("codellama/CodeLlama-13b-hf")
-tokenizer = AutoTokenizer.from_pretrained("CodeLlama-13b-hf")
+tokenizer = AutoTokenizer.from_pretrained("codellama/CodeLlama-13b-hf")
+
 ### 3. Check base model
 
 
@@ -78,7 +78,6 @@ tokenized_eval_dataset = eval_dataset._dataset.map((generate_and_tokenize_prompt
 ### 5. Setup Lora
 
 model.train() # put model back into training mode
-model = prepare_model_for_int8_training(model)
 
 config = LoraConfig(
     r=16,

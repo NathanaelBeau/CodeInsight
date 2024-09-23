@@ -1,0 +1,2 @@
+Write a python snippet to convert the list lst1 into a list of indexed tuples
+def test(lst1):

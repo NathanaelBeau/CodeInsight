@@ -1,0 +1,4 @@
+split a string str0 at line breaks in python   
+import re
+
+def test(str0):

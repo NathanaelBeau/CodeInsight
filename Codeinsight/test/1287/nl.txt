@@ -1,0 +1,1 @@
+Delete the column var0 from DataFrame df0.

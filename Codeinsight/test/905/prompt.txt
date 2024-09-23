@@ -1,0 +1,2 @@
+Extract a set containing all unique keys from a list of dictionaries lst0. 
+def test(lst0):

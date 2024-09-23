@@ -1,0 +1,2 @@
+Remove duplicate dictionaries from list lst0.
+def test(lst0):

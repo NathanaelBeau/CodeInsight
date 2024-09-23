@@ -1,0 +1,4 @@
+Split the string str0 by digits or non-word characters using the regular expression var0, and return a list of non-empty segments.
+import re
+
+def test(str0, var0):

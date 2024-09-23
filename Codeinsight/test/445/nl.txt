@@ -1,0 +1,1 @@
+Get all indices of the boolean numpy array arr0 where the value is True.

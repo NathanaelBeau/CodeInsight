@@ -1,0 +1,1 @@
+Remove substring var1 from string var0

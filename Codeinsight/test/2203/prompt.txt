@@ -1,0 +1,2 @@
+Check if dictionary dict0 is a subset of another dictionary dict1
+def test(dict0, dict1):

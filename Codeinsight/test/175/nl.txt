@@ -1,0 +1,1 @@
+Find the minimum and maximum values excluding zeros in numpy array (or tuple) arr0  

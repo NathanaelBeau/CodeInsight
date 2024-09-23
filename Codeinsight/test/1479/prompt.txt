@@ -1,0 +1,3 @@
+Flatten the pandas dataframe df0 into a list  
+import pandas as pd
+def test(df0):

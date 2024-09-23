@@ -1,0 +1,2 @@
+Sort all positive numbers before negative numbers in a list named lst0
+def test(lst0):

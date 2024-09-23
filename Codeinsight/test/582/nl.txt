@@ -1,0 +1,1 @@
+ convert a string of hexadecimal values str0 to a list of integers?   

@@ -1,0 +1,1 @@
+# Write a function to count the number of entries with value var1 inside a dictionary var2

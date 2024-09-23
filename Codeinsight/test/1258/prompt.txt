@@ -1,0 +1,2 @@
+Extract the second element from each tuple in the list lst0
+def test(lst0):

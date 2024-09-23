@@ -1,0 +1,4 @@
+create a new NumPy array by stacking three modified versions of the input array arr0, then setting every other column to zero in the resulting array. 
+import numpy as np
+
+def test(arr0):

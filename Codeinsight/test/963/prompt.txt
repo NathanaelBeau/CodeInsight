@@ -1,0 +1,2 @@
+ add two lists elements from lst0 and lst1 into one list using zip to return pairs of elements from list1 and list2  
+def test(lst0, lst1):

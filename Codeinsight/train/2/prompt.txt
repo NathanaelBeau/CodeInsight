@@ -1,0 +1,2 @@
+How to extract elements from a list lst0 using indices from lst1 in Python?
+def test(lst0, lst1):

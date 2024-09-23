@@ -1,0 +1,1 @@
+Sort the list lst0 based on the length of its elements.

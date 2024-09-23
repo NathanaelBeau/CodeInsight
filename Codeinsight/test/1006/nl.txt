@@ -1,0 +1,1 @@
+Count the number of non-NaN elements in the numpy ndarray matrix data.

@@ -1,0 +1,2 @@
+move the last item in list lst0 to the beginning
+def test(lst0):

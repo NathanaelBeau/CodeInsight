@@ -1,0 +1,2 @@
+Remove all uppercased characters from the string s.
+def test(s):

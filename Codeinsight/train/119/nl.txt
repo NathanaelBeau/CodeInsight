@@ -1,0 +1,1 @@
+write a python function to find the smallest divisor of an integer var1 which is not 1.

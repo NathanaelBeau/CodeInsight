@@ -1,0 +1,4 @@
+Extract all digits after the '[' character in a string str0
+import re
+
+def test(str0):

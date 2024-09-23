@@ -1,0 +1,4 @@
+Replace all single word characters in string var0 with the string var1.
+import re
+
+def test(var0, var1):

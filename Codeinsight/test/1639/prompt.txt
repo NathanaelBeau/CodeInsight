@@ -1,0 +1,2 @@
+Index a list lst0 using the values from list lst1 as start and end indices.
+def test(lst0, lst1):

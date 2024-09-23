@@ -1,0 +1,1 @@
+Remove rows with duplicate indexes in a pandas data frame df0, keeping the first occurrence.

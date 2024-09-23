@@ -1,0 +1,2 @@
+Merge two or more lists (lists) with given order of merging  selector  
+def test(lists, selector):

@@ -1,0 +1,4 @@
+find most common elements of a list lst0   with their indice of instance
+from collections import Counter
+
+def test(lst0):

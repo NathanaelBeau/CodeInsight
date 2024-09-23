@@ -1,0 +1,2 @@
+simplest way to Sort a list lst0 based on dictionary values from dict0 in python  using dict.get 
+def test(lst0, dict0):

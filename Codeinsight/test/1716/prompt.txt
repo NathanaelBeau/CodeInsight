@@ -1,0 +1,4 @@
+Convert list of dictionaries lst0 to a pandas DataFrame   
+import pandas as pd
+
+def test(lst0):

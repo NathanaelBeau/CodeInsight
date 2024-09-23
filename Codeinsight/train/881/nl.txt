@@ -1,0 +1,1 @@
+ Check if the object var0 is NaN using numpy or pandas

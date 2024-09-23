@@ -1,0 +1,4 @@
+Find the 'b' character in var0 that's preceded by one or more 'a' characters.
+import re
+
+def test(var0):

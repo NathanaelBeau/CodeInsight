@@ -1,0 +1,4 @@
+How to extract from a list of objects lst0 a list of specific attribute var0?   
+from operator import itemgetter
+
+def test(lst0, var0):

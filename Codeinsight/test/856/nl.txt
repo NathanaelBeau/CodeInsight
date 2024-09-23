@@ -1,0 +1,1 @@
+Convert the string var0 to its hexadecimal representation.

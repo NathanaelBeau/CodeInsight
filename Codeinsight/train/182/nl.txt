@@ -1,0 +1,1 @@
+shifts and scales all numbers in the given list lst1 by the their mean and standard deviation.

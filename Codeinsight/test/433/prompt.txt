@@ -1,0 +1,2 @@
+Convert each element in the list lst0 to an integer if possible; otherwise, return the element as is. Return the resulting list.
+def test(lst0):

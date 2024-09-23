@@ -1,0 +1,1 @@
+Filter the dataframe df0 to keep only rows where the index ends with the substring arg0.

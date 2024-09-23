@@ -1,0 +1,2 @@
+Get the first element of each tuple in a list lst0 in Python   
+def test(lst0):

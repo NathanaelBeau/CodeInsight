@@ -1,0 +1,1 @@
+Generate an array of random floats between var0 and var1 with a size of var2

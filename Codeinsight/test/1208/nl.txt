@@ -1,0 +1,1 @@
+Filter rows in DataFrame df0 based on the regular expression var1 applied to column var0.

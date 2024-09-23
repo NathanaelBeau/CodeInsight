@@ -1,0 +1,2 @@
+Apply each function from the list functions over every value from the list values.
+def test(functions: list, values: list) -> list:

@@ -1,0 +1,3 @@
+Convert selected columns lst0 in a pandas dataframe df0 to a numpy array  
+import pandas as pd
+def test(df0, lst0):

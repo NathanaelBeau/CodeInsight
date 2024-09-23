@@ -1,0 +1,1 @@
+check the data types of all columns in a Pandas DataFrame df0  

@@ -1,0 +1,4 @@
+Match all floats in a string var0 with potentially decimals (or not)
+import re
+
+def test(var0):

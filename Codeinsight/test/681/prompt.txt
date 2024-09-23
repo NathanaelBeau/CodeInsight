@@ -1,0 +1,4 @@
+Combine rows with the same index in dataframe df0 by summing their values.
+import pandas as pd
+
+def test(df0: pd.DataFrame) -> pd.DataFrame:

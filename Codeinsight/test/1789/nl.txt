@@ -1,0 +1,1 @@
+Extract a sublist from a list of strings lst0 starting from index var0 and ending at index var1

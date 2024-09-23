@@ -1,0 +1,2 @@
+swaps the first and last elements of list lst1
+def test(lst1):

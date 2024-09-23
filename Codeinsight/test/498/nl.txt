@@ -1,0 +1,1 @@
+Pandas - replacing column values from column col0 by values var0 and var1 in dataframe df0 

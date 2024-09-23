@@ -1,0 +1,2 @@
+Retrieve all indices of the character char0 from the string word.
+def test(word, char0):

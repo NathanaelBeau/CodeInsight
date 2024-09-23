@@ -1,0 +1,1 @@
+Sort the string str0 in lexicographic order.

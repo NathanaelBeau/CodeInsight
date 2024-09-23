@@ -1,0 +1,1 @@
+Clamp a floating number val0 between min0 and max0.

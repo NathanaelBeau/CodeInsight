@@ -1,0 +1,1 @@
+python - replace the boolean value of a list lst0 with the values from two different lists var0 and var1 with values from var0 for True and values from var1 for False  

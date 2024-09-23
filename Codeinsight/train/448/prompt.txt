@@ -1,0 +1,4 @@
+Capture all numbers with up to three digits in the string var0.
+import re
+
+def test(var0):

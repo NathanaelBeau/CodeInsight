@@ -1,0 +1,4 @@
+Get the first row value from column var0 in a pandas DataFrame df0.
+import pandas as pd
+
+def test(df0, var0):

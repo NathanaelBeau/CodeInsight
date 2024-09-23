@@ -1,0 +1,1 @@
+return the len of each string in the list lst1

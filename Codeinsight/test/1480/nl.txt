@@ -1,0 +1,1 @@
+Display all rows from dataframe df0 that contain at least one NaN value

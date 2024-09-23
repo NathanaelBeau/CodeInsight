@@ -1,0 +1,3 @@
+Get the number of items associated with key key0 in the dictionary dict0
+
+def test(dict0, key0):

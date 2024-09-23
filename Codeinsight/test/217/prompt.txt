@@ -1,0 +1,2 @@
+Replace all occurrences of var1 with var2 in the string var0. If var1 is not found in var0, append var2 to the end of var0.
+def test(var0, var1, var2):

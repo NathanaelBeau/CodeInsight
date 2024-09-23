@@ -1,0 +1,4 @@
+reverse the input string str0
+from functools import reduce
+
+def test(str0):

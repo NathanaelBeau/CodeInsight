@@ -1,0 +1,1 @@
+replacevery high values equal or higher than a treshold var0 by 0 from numpy array arr0

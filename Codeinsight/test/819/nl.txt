@@ -1,0 +1,1 @@
+Sort and reindex a data frame df0 by its year column, then by its month column, then by its day column 

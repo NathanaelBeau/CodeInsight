@@ -1,0 +1,4 @@
+Remove all white spaces from a string str0 using regular expressions.
+import re
+
+def test(str0):

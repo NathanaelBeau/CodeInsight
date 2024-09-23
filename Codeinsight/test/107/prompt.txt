@@ -1,0 +1,4 @@
+Find and return all newline characters in the string var0
+import re
+
+def test(var0):

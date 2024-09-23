@@ -1,0 +1,4 @@
+Normalize a numpy array arr0 to a unit vector.
+import numpy as np
+
+def test(arr0):

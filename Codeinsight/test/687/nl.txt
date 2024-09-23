@@ -1,0 +1,1 @@
+Apply multiple filters specified by condition to a pandas DataFrame df0.

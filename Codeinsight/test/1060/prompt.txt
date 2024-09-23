@@ -1,0 +1,4 @@
+Update the values in column col0 of DataFrame df0 to var1 where the values in column col1 are equal to var0, and return the modified DataFrame.
+import pandas as pd
+
+def test(df0, col1, var0, col0, var1):

@@ -1,0 +1,1 @@
+Design a function that test if a number var1 is in the range from 4 to 10

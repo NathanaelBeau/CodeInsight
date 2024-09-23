@@ -1,0 +1,2 @@
+Convert a byte string var0 into a Unicode string.
+def test(var0):

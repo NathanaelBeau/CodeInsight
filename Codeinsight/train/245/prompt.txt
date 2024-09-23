@@ -1,0 +1,2 @@
+remove all non alphanumeric characters in a string var1
+def test(var1):

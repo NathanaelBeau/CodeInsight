@@ -1,0 +1,1 @@
+ Add number var0 to every element in a list lst0

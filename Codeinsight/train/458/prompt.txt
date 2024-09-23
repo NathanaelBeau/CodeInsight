@@ -1,0 +1,4 @@
+Retrieve the value from the dataframe df0 at the specified row label var0 and column label var1
+import pandas as pd
+
+def test(df0, var0, var1):

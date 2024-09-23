@@ -1,0 +1,4 @@
+getting the opposite diagonal of a numpy array   arr0 
+import numpy as np
+
+def test(arr0):

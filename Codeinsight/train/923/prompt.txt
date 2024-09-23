@@ -1,0 +1,4 @@
+Sort a list of dictionaries lst0 by the date value.
+from datetime import datetime
+
+def test(lst0):

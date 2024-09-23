@@ -1,0 +1,2 @@
+Search for the existence of a specific value var0 for the label var1 in a list of dictionaries lst0
+def test(var0, var1, lst0):

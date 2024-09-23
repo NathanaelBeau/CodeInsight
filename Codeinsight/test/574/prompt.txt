@@ -1,0 +1,2 @@
+Remove false entries from dictionary dict0.
+def test(dict0):

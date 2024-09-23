@@ -1,0 +1,2 @@
+Sort a list of tuples lst0 in descending order by the first value and ascending order by the second value.
+

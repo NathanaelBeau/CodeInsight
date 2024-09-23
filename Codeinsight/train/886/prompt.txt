@@ -1,0 +1,4 @@
+Calculate the weighted standard deviation of a list of numbers lst0 using weights lst1
+import numpy as np
+
+def test(lst0, lst1):

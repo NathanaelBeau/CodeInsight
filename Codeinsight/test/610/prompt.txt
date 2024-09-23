@@ -1,0 +1,5 @@
+Create a pandas DataFrame df0 from a Numpy array arr0, using lst0 for the index and lst1 for column headers.
+import pandas as pd
+import numpy as np
+
+def test(arr0, lst0, lst1):

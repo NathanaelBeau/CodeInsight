@@ -1,0 +1,1 @@
+Select rows from dataframe df0 where the value in column var0 does not equal var1.

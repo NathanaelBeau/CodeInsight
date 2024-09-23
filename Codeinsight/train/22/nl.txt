@@ -1,0 +1,1 @@
+Provide a function that compute the sine of the real var1

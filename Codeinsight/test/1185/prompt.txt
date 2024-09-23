@@ -1,0 +1,2 @@
+In Python,  compare two lists lst0 and lst1 and get all indices of matches   using set
+def test(lst0, lst1):

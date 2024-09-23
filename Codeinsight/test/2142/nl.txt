@@ -1,0 +1,1 @@
+Replacing the empty strings in a string str1 with string str0

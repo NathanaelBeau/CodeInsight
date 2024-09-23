@@ -1,0 +1,1 @@
+Check if list lst0 items contains substrings from another list   lst1

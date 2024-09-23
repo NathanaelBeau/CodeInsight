@@ -1,0 +1,2 @@
+How do you split a list lst0 into evenly sized chunks of var0?   
+def test(lst0, var0):

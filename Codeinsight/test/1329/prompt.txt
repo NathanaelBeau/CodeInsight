@@ -1,0 +1,5 @@
+Pandas : Use groupby on each element of list  lst0  
+import pandas as pd
+from itertools import chain
+
+def test(lst0):

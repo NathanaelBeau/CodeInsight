@@ -1,0 +1,4 @@
+Sort a list of objects lst0 in descending order based on the attribute var0.
+from operator import attrgetter
+
+def test(lst0, var0):

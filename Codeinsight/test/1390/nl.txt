@@ -1,0 +1,1 @@
+Sum all the values in the column named 'other_column' of dataframe df0 where the values in column var0 are equal to var1.

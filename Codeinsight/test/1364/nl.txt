@@ -1,0 +1,1 @@
+Capturing group with findall on string str0 with pattern var0   

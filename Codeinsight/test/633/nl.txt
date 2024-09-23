@@ -1,0 +1,1 @@
+Extract the last segment of a dot-notation string str0

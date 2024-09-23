@@ -1,0 +1,4 @@
+Assign a number to each unique value in a list lst0 based on the order of appearance of the values
+from collections import OrderedDict
+
+def test(lst0):

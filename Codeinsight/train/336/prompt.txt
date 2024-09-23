@@ -1,0 +1,2 @@
+check whether a number var1 is strictly positive
+def test(var1):

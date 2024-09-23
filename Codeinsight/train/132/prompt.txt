@@ -1,0 +1,2 @@
+Counts the Number of Blank Spaces in a string var1
+def test(var1):

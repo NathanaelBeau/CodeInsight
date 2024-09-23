@@ -1,0 +1,1 @@
+assert test([], "var") == [], 'Test failed'

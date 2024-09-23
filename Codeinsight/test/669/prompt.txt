@@ -1,0 +1,2 @@
+Get the column at position var0 from the DataFrame df0.
+def test(df0, var0):

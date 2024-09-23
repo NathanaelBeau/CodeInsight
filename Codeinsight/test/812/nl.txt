@@ -1,0 +1,1 @@
+Trim non-ASCII characters from both the start and end of the string var0

@@ -1,0 +1,1 @@
+return the volume of a cube with side var1

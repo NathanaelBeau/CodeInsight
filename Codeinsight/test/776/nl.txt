@@ -1,0 +1,1 @@
+Create a list of integers starting to 0 to var0 with duplicate values

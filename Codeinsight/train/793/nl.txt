@@ -1,0 +1,1 @@
+Sum all the values in a counter variable named counter0

@@ -1,0 +1,1 @@
+Write a Python program to move all spaces to the front of a given string var1 in single traversal.

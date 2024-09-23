@@ -1,0 +1,5 @@
+Replace all non-numeric entries with NaN in a pandas dataframe df0
+import pandas as pd
+import numpy as np
+
+def test(df0):

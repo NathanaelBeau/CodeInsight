@@ -1,0 +1,1 @@
+Multiply entire column named var0 in a DataFrame df0 with a scalar var1

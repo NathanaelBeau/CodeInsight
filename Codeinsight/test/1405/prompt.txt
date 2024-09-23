@@ -1,0 +1,4 @@
+ sum the product of two list lst0 and lst1 items using sum and map in python  
+from operator import mul
+
+def test(lst0, lst1):

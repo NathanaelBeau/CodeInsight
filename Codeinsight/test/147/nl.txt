@@ -1,0 +1,1 @@
+Filter rows in dataframe df0 where column var0 contains any string from the list lst0.

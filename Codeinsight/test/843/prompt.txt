@@ -1,0 +1,3 @@
+Get all children elements of an ElementTree element var0.
+from xml.etree.ElementTree import Element
+def test(var0):

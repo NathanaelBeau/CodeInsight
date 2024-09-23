@@ -1,0 +1,4 @@
+Reset the index of the dataframe df0.
+import pandas as pd
+
+def test(df0):

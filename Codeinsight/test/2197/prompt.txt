@@ -1,0 +1,2 @@
+Find the index of the last occurrence of value x in the list s.
+def test(x, s):

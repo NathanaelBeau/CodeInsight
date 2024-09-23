@@ -1,0 +1,1 @@
+convert a list lst1 of strings to a list of integers

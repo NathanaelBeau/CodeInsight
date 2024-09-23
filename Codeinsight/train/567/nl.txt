@@ -1,0 +1,1 @@
+in Python,  join a list of tuples lst0 into one list   

@@ -1,0 +1,1 @@
+Creating a dictionary dict0 from a string str0  in oneliner with the values as integers

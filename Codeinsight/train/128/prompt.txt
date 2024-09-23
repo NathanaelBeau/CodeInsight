@@ -1,0 +1,2 @@
+write a python program to input a string var1 and convert input string into all upper case and return the result
+def test(var1):

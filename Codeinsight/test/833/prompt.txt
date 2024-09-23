@@ -1,0 +1,2 @@
+Strip the trailing characters \r\n from each string in the list lst0.
+def test(lst0: list) -> list:

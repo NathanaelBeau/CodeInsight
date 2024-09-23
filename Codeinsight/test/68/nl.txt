@@ -1,0 +1,1 @@
+Get all the second values from a list of lists lst0.

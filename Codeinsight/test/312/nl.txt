@@ -1,0 +1,1 @@
+Count all values in the matrix mat0 that are less than the value val0.  

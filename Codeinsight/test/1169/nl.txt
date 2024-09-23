@@ -1,0 +1,1 @@
+Create a flat dictionary by summing values associated with similar keys in each dictionary of list lst0.

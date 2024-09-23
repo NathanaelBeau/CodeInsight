@@ -1,0 +1,4 @@
+Drop rows specified in the list lst0 from the pandas DataFrame df0.
+import pandas as pd 
+
+def test(df0, lst0):

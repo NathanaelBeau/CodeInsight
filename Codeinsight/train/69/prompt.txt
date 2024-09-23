@@ -1,0 +1,2 @@
+return a lists of positive numbers from an input list lst1
+def test(lst1):

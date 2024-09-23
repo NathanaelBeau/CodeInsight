@@ -1,0 +1,2 @@
+how to parse a list or string lst0 into chunks of fixed length var0  
+def test(lst0, var0):

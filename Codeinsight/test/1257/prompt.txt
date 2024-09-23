@@ -1,0 +1,2 @@
+How to iterate over a range of keys in a dictionary dict0?   
+def test(dict0):

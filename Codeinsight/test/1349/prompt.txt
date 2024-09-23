@@ -1,0 +1,4 @@
+string str0 to list conversion in python   
+import re
+
+def test(str0):

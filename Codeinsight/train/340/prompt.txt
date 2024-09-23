@@ -1,0 +1,2 @@
+Join the items of each tuple in the list of tuples lst0 into a list of strings.
+def test(lst0):

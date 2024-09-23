@@ -1,0 +1,2 @@
+Intent: Convert a variable named var0 to a string
+def test(var0):

@@ -1,0 +1,1 @@
+Write a Python function to check if a number var1 is a power of a given base var2.

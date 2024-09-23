@@ -1,0 +1,4 @@
+Append multiple dataframes together from a list of dataframes lst0
+import pandas as pd
+
+def test(lst0):

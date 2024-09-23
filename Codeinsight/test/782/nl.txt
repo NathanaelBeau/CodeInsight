@@ -1,0 +1,1 @@
+Apply the len function to each entry in the column col0 of DataFrame df0, returning a series with the length of each entry.  

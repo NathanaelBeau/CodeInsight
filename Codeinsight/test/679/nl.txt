@@ -1,0 +1,1 @@
+Count the frequency of each unique value in column var0 of a pandas DataFrame df0.

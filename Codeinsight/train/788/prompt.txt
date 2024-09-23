@@ -1,0 +1,2 @@
+Compose keys from dictionary dict0 with respective values in dictionary dict1
+def test(dict0, dict1):

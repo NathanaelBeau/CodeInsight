@@ -1,0 +1,2 @@
+Index the first and the last n elements var0 of a list lst0  
+def test(lst0, var0):

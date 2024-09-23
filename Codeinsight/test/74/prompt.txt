@@ -1,0 +1,2 @@
+Python remove list elements  from lst0 which are var0
+def test(lst0, var0):

@@ -1,0 +1,2 @@
+Obtain the last index of a list lst0
+def test(lst0):

@@ -1,0 +1,1 @@
+Convert a categorical variable to it&#39;s numerical index on column col0 on dataframe pandas df0 with astype

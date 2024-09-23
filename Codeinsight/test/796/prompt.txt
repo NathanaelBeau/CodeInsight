@@ -1,0 +1,2 @@
+Delete character "M" from a given string str0
+def test(str0):

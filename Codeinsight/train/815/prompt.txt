@@ -1,0 +1,4 @@
+Replace the header of a DataFrame df0 with its first row
+import pandas as pd
+
+def test(df0: pd.DataFrame):

@@ -1,0 +1,2 @@
+Extract the first element from each innermost list of the multidimensional list lst0.
+def test(lst0):

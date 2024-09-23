@@ -1,0 +1,2 @@
+Get a sorted list of characters from the string str0 in lexicographic order, prioritizing lowercase letters.
+def test(str0):

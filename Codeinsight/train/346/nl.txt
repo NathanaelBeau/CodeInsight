@@ -1,0 +1,1 @@
+Extract all the values from the key 'values' in a list of dictionaries lst0.

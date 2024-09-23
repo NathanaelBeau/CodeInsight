@@ -1,0 +1,2 @@
+ get the index value of a list comprehension lst0    
+def test(lst0):

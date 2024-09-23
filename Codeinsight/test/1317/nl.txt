@@ -1,0 +1,1 @@
+ convert ndarray  var0 to array using ravel  

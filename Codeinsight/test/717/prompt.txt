@@ -1,0 +1,5 @@
+Convert the frequencies in pandas series var0 into percentages.
+
+import pandas as pd
+
+def test(var0):

@@ -1,0 +1,1 @@
+return a dictionary frow two lists, lst1 being the keys and lst2 the values

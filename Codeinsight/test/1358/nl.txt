@@ -1,0 +1,1 @@
+Insert a string str0 into a case-insensitive sorted list lst0

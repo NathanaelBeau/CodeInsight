@@ -1,0 +1,1 @@
+Number rows within a dataframe df0 based on a group var0 in increasing orde  

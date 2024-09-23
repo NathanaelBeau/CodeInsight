@@ -1,0 +1,4 @@
+Sort a dictionary var0 by value to iterate over it
+import operator
+
+def test(var0):

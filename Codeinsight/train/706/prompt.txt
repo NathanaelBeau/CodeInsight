@@ -1,0 +1,2 @@
+Functional statement in Python to return the sum of  lists in a list of lists  lst0
+def test(lst0):

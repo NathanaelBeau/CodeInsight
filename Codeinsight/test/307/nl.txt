@@ -1,0 +1,1 @@
+Determine the count of elements that are the same in numpy arrays arr0 and arr1 

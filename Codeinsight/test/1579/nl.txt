@@ -1,0 +1,1 @@
+Strip all leading and trailing whitespaces from every string in a dataframe df0

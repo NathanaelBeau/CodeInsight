@@ -1,0 +1,4 @@
+List of dictionaries from numpy array arr0 without for loop   
+import numpy as np
+
+def test(arr0):

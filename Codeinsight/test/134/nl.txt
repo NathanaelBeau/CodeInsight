@@ -1,0 +1,1 @@
+Determine if each element in list lst0 is less than its corresponding element in list lst1.

@@ -1,0 +1,2 @@
+Convert all tuple elements in a list lst0 into lists
+def test(lst0):

@@ -1,0 +1,3 @@
+Replace the value '-' with 'NaN' in a dataframe df0
+import pandas as pd
+def test(df0):

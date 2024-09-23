@@ -1,0 +1,1 @@
+Find the nearest value var0 in a numpy array lst0 

@@ -1,0 +1,4 @@
+Convert a pandas dataframe df to a list of dictionaries, where each dictionary represents a row and includes the index values.
+import pandas as pd
+
+def test(df: pd.DataFrame) -> list:

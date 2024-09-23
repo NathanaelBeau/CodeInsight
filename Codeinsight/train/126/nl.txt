@@ -1,0 +1,1 @@
+write a python function which takes sentence var1 as input and remove vowels from a sentence

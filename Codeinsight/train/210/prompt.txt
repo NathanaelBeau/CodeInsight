@@ -1,0 +1,2 @@
+extracts the column of index var2 from a numpy array var1
+def test(var1,var2):

@@ -1,0 +1,2 @@
+Sort dictionary dict0 based on the element at position index0 in the lists that are its values.
+def test(dict0, index0):

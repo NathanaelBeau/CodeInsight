@@ -1,0 +1,1 @@
+locate the index of the leftmost value in list lst1 strictly greater than var1

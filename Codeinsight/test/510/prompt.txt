@@ -1,0 +1,5 @@
+Select columns with level 1 label as str0 in a multiindex dataframe df0
+
+import pandas as pd
+
+def test(df0, str0):

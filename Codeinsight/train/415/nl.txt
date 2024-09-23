@@ -1,0 +1,1 @@
+Create a new column A_perc in the dataframe df0 such that its values are the result of dividing each value in column A by the corresponding value in column sum.

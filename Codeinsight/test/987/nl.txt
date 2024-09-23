@@ -1,0 +1,1 @@
+Best way to remove elements var0 from a list lst0   

@@ -1,0 +1,2 @@
+Get max value index for a list of dicts lst0 with enumerate
+def test(lst0):

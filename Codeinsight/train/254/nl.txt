@@ -1,0 +1,1 @@
+Merge rows from dataframe df1 with rows from dataframe df2, and for rows that have the same index, calculate their mean.

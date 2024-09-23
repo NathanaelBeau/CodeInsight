@@ -1,0 +1,2 @@
+Round the number var0 up to 3 decimal points.
+def test(var0: float) -> float:

@@ -1,0 +1,1 @@
+Add key var0 with value var1 to a dictionary dict0

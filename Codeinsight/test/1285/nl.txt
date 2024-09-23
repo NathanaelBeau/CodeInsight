@@ -1,0 +1,1 @@
+Extract values associated with the key 'value' from each dictionary inside the list lst0.

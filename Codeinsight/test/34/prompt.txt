@@ -1,0 +1,2 @@
+return variables var0 without spaces between values with concatenation  
+def test(var0):

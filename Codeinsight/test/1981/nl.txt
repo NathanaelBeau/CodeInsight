@@ -1,0 +1,1 @@
+Check if a string str0 is present in a pandas DataFrame df0

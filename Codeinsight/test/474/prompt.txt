@@ -1,0 +1,4 @@
+Flipping the boolean values in a list lst0 with numpy logical_not in  Python   
+import numpy as np
+
+def test(lst0):

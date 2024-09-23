@@ -1,0 +1,1 @@
+Sort a dictionary var0 with integer keys in ascending order 

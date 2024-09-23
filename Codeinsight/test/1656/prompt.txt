@@ -1,0 +1,2 @@
+Get a list of items in the list lst0 with attribute attr_name equal to var0.
+def test(lst0, var0, attr_name):

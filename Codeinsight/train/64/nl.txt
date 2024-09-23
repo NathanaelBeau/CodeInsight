@@ -1,0 +1,1 @@
+return the day of a week, given the number var1.

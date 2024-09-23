@@ -1,0 +1,1 @@
+Extract all digits after the '[' character in a string str0

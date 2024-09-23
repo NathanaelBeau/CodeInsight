@@ -1,0 +1,3 @@
+Pandas: Subtract the row-wise mean from each element in DataFrame df0, returning the result as a new DataFrame.
+import pandas as pd
+def test(df0):

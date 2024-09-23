@@ -1,0 +1,1 @@
+Check if any of the items in list lst0 appear in the string str0.

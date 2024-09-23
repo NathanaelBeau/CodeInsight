@@ -1,0 +1,2 @@
+Convert a String representation str0 of a Dictionary to a dictionary  with eval
+def test(str0):

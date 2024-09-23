@@ -1,0 +1,4 @@
+Split a string str0 and keep the separators.
+import re
+
+def test(str0: str) -> list:

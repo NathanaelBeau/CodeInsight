@@ -1,0 +1,2 @@
+Generate a list of consecutive numbers from var0 to var1
+def test(var0, var1):

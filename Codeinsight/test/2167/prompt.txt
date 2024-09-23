@@ -1,0 +1,4 @@
+ slice and extend a 2D numpy array  var0 in oneliner
+import numpy as np
+
+def test(var0: np.ndarray) -> np.ndarray:

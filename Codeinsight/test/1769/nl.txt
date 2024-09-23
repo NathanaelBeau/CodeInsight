@@ -1,0 +1,1 @@
+Check if all elements of a list lst0 are of the same type   

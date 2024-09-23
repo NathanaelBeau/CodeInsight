@@ -1,0 +1,2 @@
+Generate a dense meshgrid for given start start0 and start1, end end0 and end1, and step values step0 and step1 for two dimensions.  
+def test(start0, end0, step0, start1, end1, step1):

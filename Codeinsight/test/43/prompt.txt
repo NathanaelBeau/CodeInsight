@@ -1,0 +1,2 @@
+Find the index of the substring 'World' in string var0.
+def test(var0):

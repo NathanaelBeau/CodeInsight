@@ -1,0 +1,1 @@
+return the factors of var1

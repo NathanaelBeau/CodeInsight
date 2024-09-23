@@ -1,0 +1,1 @@
+Group the pandas DataFrame df0 by the column var0 and calculate the sum of each group.

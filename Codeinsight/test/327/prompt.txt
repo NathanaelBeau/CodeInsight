@@ -1,0 +1,4 @@
+Flatten the hierarchical index in columns of dataframe df0."
+import pandas as pd
+
+def test(df0):

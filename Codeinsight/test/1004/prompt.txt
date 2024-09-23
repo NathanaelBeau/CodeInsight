@@ -1,0 +1,3 @@
+concatenate two DataFrames, df0 and df1, along the columns axis (i.e., horizontally), but only include the 'dates' column from df1 in the concatenated result.
+import pandas as pd
+def test(df0, df1):

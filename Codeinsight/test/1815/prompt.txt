@@ -1,0 +1,4 @@
+Split and expand a specified column str0 of a DataFrame df0 by a given delimiter var1, then reorder the DataFrame columns as specified wçth str1. 
+import pandas as pd
+
+def test(df0, str0, var1, str1):

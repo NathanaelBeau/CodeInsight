@@ -1,0 +1,1 @@
+Get the integer index of the first row in DataFrame df0 where column col0 matches the value var0  

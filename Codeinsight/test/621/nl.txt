@@ -1,0 +1,1 @@
+Remove one column var0 for a numpy array   arr0

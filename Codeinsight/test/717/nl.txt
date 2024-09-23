@@ -1,0 +1,2 @@
+Convert the frequencies in pandas series var0 into percentages.
+

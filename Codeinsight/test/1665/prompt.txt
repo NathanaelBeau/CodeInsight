@@ -1,0 +1,2 @@
+Find all tuples in a list lst0 that contain the value '1'.
+def test(lst0):

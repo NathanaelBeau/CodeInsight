@@ -1,0 +1,2 @@
+convert each item in the input list lst0 to a string, then join these string representations with newline characters, and finally return the resulting single string.
+def test(lst0):

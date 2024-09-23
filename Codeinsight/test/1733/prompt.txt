@@ -1,0 +1,2 @@
+Convert list of strings lst0 to int  using list comprehension
+def test(lst0):

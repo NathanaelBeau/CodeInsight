@@ -1,0 +1,1 @@
+Calculate the mean of columns with identical names in the dataframe df0.

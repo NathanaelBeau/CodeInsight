@@ -1,0 +1,4 @@
+Extract the content within the brackets from the string var0.
+import re
+
+def test(var0):

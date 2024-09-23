@@ -1,0 +1,3 @@
+Generate and return all possible combinations of elements from the input list of lists lst0 
+import itertools
+def test(lst0):

@@ -1,0 +1,4 @@
+Python split string str0 on specific regex  r'((?:Friday|Saturday)\s*\d{1,2})'
+import re
+
+def test(str0):

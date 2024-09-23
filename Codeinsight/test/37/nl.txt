@@ -1,0 +1,1 @@
+Replace all values in the column var0 of the pandas DataFrame df0 where they equal condition cond0 with var1.

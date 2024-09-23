@@ -1,0 +1,1 @@
+Convert the sparse matrix mat0 into a dense matrix  

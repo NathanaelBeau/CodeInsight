@@ -1,0 +1,1 @@
+remove the leading and trailing space characters in the string var1

@@ -1,0 +1,1 @@
+Filter out empty strings from a list of strings lst0.

@@ -1,0 +1,2 @@
+Remove the first word from a string named str0   
+def test(str0):

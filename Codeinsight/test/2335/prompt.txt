@@ -1,0 +1,2 @@
+What is the easiest way to convert list with str lst0 into list with int?   
+def test(lst0):

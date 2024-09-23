@@ -1,0 +1,1 @@
+Find all sequences of characters in string var0 that are between the special characters char_start and char_end

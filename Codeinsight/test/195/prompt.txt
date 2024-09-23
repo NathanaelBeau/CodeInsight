@@ -1,0 +1,2 @@
+Python - Update a value var0 by value var1  in a list of tuples lst0  
+def test(lst0, var0, var1):

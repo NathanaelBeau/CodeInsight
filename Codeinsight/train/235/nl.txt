@@ -1,0 +1,1 @@
+return the string var1 repeated var2 times

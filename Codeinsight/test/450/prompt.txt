@@ -1,0 +1,4 @@
+Get the count of unique values for each column in the DataFrame df0  
+import pandas as pd
+
+def test(df0):

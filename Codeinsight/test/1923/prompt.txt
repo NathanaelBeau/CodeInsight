@@ -1,0 +1,2 @@
+Get the number of all keys in a dictionary of dictionaries dict0 in Python   
+def test(dict0):

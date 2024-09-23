@@ -1,0 +1,2 @@
+Remove all whitespace and convert the string var0 to lowercase.
+def test(var0):

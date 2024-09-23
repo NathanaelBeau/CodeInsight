@@ -1,0 +1,2 @@
+Removing character var0 in list of strings   lst0
+def test(lst0, var0):

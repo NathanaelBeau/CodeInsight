@@ -1,0 +1,5 @@
+Conditionally create a new column named col0 in a dataframe df0 where values are label_high if column 'A' is greater than val0 and label_low otherwise
+import pandas as pd
+import numpy as np
+
+def test(df0, col0, val0, label_high, label_low):

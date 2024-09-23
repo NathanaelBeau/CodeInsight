@@ -1,0 +1,1 @@
+delete  character by position var0  from a string str0 using  Python   and replace by var1

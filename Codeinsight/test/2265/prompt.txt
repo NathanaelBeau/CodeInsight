@@ -1,0 +1,3 @@
+Remove word characters in parentheses from the string str0
+import re
+def test(str0):

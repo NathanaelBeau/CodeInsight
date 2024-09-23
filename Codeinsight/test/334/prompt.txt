@@ -1,0 +1,4 @@
+How to calculate percentage of sparsity for a numpy array/matrix  var0?   
+import numpy as np
+from numpy import array
+def test(var0) :

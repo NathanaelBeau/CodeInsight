@@ -1,0 +1,2 @@
+Convert each integer element in the list lst0 to a string.
+def test(lst0):

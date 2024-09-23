@@ -1,0 +1,1 @@
+Extract the decision rules from a scikit-learn decision-tree tree0 using the provided feature names feature_names0 

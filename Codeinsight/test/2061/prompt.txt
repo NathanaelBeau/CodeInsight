@@ -1,0 +1,5 @@
+Set the value in column 'B' of dataframe df to NaN wherever the corresponding value in column 'A' is 0.
+import pandas as pd
+import numpy as np
+
+def test(df: pd.DataFrame) -> pd.DataFrame:

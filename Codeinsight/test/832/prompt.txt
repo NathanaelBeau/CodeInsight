@@ -1,0 +1,2 @@
+Zip the list of tuples lst0 into another list of tuples based on the original tuple indices.
+def test(lst0: list) -> list:

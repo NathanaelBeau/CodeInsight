@@ -1,0 +1,1 @@
+Divide each element in a list lst0 by an integer var0

@@ -1,0 +1,4 @@
+Retrieve all columns of a DataFrame df0 except the one specified by the column name var0 
+import pandas as pd
+
+def test(df0, var0):

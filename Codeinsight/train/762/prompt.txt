@@ -1,0 +1,2 @@
+Sum the second elements from a list of lists lst0.
+def test(lst0):

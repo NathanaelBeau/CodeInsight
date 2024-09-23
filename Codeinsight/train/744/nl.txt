@@ -1,0 +1,1 @@
+Sort a list of version numbers (lst0) separated by dots in ascending order

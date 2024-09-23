@@ -1,0 +1,1 @@
+Perform element-wise logical AND operation on two numpy arrays arr0 and arr1 

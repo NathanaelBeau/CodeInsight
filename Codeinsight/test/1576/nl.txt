@@ -1,0 +1,1 @@
+Extract attribute my_attr from each object in the list lst0.

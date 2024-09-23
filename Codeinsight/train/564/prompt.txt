@@ -1,0 +1,4 @@
+calculate the total number of missing (null) values in a DataFrame df0. 
+import pandas as pd
+
+def test(df0):

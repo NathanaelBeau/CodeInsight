@@ -1,0 +1,1 @@
+ select rows from a DataFrame df0 based on column values with column var0 and value var1   

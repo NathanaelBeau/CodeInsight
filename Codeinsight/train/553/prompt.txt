@@ -1,0 +1,2 @@
+Counting the number of True Booleans in a Python List lst0  with count 
+def test(lst0):

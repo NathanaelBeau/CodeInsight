@@ -1,0 +1,2 @@
+Extract a substring starting from the position var0 to the end of the string x.
+def test(x: str, var0: int) -> str:

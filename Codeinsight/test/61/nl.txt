@@ -1,0 +1,1 @@
+Get the column index of column name var0 in the pandas DataFrame df0.

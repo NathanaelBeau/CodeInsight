@@ -1,0 +1,1 @@
+when given two numbers var1 and var2, return both the division of the first number by second number and also the rest of the division.

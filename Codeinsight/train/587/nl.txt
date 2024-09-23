@@ -1,0 +1,1 @@
+Python, lambda, find minimum value in list lst0  with pandas

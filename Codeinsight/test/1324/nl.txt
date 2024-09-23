@@ -1,0 +1,1 @@
+Check if a key var0 exists in a dictionary dict0

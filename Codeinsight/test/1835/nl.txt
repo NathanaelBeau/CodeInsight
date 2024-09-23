@@ -1,0 +1,1 @@
+python regex get first part of an email address  string str0 

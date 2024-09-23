@@ -1,0 +1,4 @@
+Python sorting - A list of objects   lst0 with operator
+import operator
+
+def test(lst0):

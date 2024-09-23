@@ -1,0 +1,4 @@
+Generate a SHA-256 hash of the string var0, then truncate the hash to the first var1 characters, and return the result.
+import hashlib
+
+def test(var0, var1):

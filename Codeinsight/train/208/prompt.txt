@@ -1,0 +1,2 @@
+return the speed of moving object based of distance var1 travelled in given time var2
+def test(var1,var2):

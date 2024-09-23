@@ -1,0 +1,1 @@
+changing the values of the diagonal of a matrix arr0 in numpy    by var0

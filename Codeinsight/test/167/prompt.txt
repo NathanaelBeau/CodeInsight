@@ -1,0 +1,4 @@
+Sort a dataframe df0 by column 'b' in ascending order and column 'c' in descending order
+import pandas as pd
+
+def test(df0):

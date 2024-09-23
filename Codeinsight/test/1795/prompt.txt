@@ -1,0 +1,2 @@
+removing duplicates of a list of sets lst0 
+def test(lst0):

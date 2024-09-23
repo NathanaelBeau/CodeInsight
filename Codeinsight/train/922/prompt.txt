@@ -1,0 +1,2 @@
+Insert a character char0 after every 2 characters in a string str0.
+def test(str0, char0):

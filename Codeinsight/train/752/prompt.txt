@@ -1,0 +1,2 @@
+Concatenate all integers from a list lst0 to form a single integer
+def test(lst0):

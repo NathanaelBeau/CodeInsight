@@ -1,0 +1,3 @@
+Normalize the pandas dataframe df0 using min-max scaling
+import pandas as pd
+def test(df0):

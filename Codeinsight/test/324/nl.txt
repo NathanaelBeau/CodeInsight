@@ -1,0 +1,1 @@
+Convert the pandas DataFrame df0 to a list of dictionaries.

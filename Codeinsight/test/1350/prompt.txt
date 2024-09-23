@@ -1,0 +1,3 @@
+Bin the column str0 of the dataframe df0 using the bin edges specified in lst0
+import pandas as pd
+def test(df0, str0, lst0):

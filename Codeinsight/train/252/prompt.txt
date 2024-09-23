@@ -1,0 +1,2 @@
+Select rows in dataframe df0 where column 'A' has the value 'foo'.
+def test(df0):

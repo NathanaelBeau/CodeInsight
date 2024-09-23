@@ -1,0 +1,1 @@
+Split a dataframe df0 based on unique values in column var0

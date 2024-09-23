@@ -1,0 +1,4 @@
+Return a sorted version of the list lst0 based on the values of the items at the indices specified by var0 and var1.
+import operator
+
+def test(lst0, var0, var1):

@@ -1,0 +1,1 @@
+Remove all columns with names starting with 'Unnamed' in a pandas dataframe df0 

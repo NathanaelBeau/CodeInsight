@@ -1,0 +1,2 @@
+Extract a list of strings from a delimited string var0, replacing empty strings with 0
+def test(var0):

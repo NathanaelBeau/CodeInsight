@@ -1,0 +1,1 @@
+Append a row with data lst0 to a dataframe df0 and assign it the index label str0

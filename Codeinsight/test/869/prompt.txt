@@ -1,0 +1,2 @@
+Removing items var0 from unnamed lists lst0 in Python   
+def test(lst0, var0):

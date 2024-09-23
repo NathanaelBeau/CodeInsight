@@ -1,0 +1,1 @@
+Retrieve the attribute x from an object obj.

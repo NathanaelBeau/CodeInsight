@@ -1,0 +1,1 @@
+deletes the last element of a list lst1 and return the deleted element

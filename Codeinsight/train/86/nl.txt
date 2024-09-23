@@ -1,0 +1,1 @@
+Write a Python function to calculate number of days between two dates var1 and var2.

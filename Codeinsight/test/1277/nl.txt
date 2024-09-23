@@ -1,0 +1,1 @@
+remove very high values equal or higher than a treshold var0 from numpy array arr0

@@ -1,0 +1,1 @@
+write a Python function to Convert Decimal var1 to Binary

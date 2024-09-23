@@ -1,0 +1,2 @@
+Sort alphabetically a list of string lst0
+def test(lst0):

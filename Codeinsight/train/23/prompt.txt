@@ -1,0 +1,2 @@
+Provide a function that compute the tangent of the real var1
+def test(var1):

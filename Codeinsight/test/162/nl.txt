@@ -1,0 +1,1 @@
+Generate rolling windows of size var0 for a 1D numpy array arr0  

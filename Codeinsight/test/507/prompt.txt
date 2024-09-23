@@ -1,0 +1,4 @@
+ convert a binary (string) str0 into a float value  
+from ast import literal_eval
+
+def test(str0):

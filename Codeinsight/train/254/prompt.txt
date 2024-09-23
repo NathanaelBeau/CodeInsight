@@ -1,0 +1,4 @@
+Merge rows from dataframe df1 with rows from dataframe df2, and for rows that have the same index, calculate their mean.
+import pandas as pd
+
+def test(df1: pd.DataFrame, df2: pd.DataFrame) -> pd.DataFrame:

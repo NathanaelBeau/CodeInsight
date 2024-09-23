@@ -1,0 +1,1 @@
+write a python program which takes an integer var1 as input and add the odd numbers up to var1 and return the result

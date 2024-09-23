@@ -1,0 +1,1 @@
+Retrieve rows from dataframe df0 where column col_name has values in the list lst0.

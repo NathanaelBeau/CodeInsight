@@ -1,0 +1,1 @@
+Clamp an integer var0 between var1 and var2  

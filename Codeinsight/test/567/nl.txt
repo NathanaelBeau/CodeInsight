@@ -1,0 +1,1 @@
+Split the string var1 based on the regular expression pattern var0.

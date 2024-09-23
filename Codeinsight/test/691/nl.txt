@@ -1,0 +1,1 @@
+A pythonic way to insert a space before capital letters   in strings  str0 using regex

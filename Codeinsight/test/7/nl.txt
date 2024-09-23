@@ -1,0 +1,1 @@
+ splitting a string str0 in Python with split on s and z.

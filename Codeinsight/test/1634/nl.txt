@@ -1,0 +1,1 @@
+Inserting a string str0 into a list lst0  at the beginning without getting split into characters   

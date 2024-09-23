@@ -1,0 +1,2 @@
+return the mean value of the numpy vector var1
+def test(var1):

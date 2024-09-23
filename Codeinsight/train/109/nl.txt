@@ -1,0 +1,1 @@
+Write a Python function to check if a given string var1 is an anagram of another given string var2.

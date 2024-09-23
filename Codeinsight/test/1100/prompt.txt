@@ -1,0 +1,2 @@
+Get the starting index of the last occurrence of substring str0 in the string test_string.
+def test(test_string: str, str0: str) -> int:

@@ -1,0 +1,1 @@
+Retrieve the last var0 rows of the pandas DataFrame df0.

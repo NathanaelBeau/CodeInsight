@@ -1,0 +1,2 @@
+Exclude elements of the list lst0 that start with the character char0.
+def test(lst0, char0):

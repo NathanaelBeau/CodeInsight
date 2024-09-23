@@ -1,0 +1,1 @@
+test if 'e' is in the string var1

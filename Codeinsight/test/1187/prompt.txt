@@ -1,0 +1,2 @@
+Compute the sum of all the values in the dictionary dict0 
+def test(dict0: dict):

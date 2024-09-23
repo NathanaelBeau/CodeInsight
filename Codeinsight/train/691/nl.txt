@@ -1,0 +1,1 @@
+Create a new array by adding -1, 0, and 1 to arr0, then zero out every other element in the array. Return the modified array.

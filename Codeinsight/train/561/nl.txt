@@ -1,0 +1,1 @@
+using regular expression to split string str0 in python   

@@ -1,0 +1,1 @@
+Create a new DataFrame with columns named df1 and df2, containing the values from the var0 column of the original df1 and df2 DataFrames, respectively.

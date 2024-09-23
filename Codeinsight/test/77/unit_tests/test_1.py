@@ -1,0 +1,1 @@
+assert test('2')==2, 'Test failed'

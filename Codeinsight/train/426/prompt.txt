@@ -1,0 +1,4 @@
+Rearrange the columns of a pandas DataFrame df0 in the order: 'x', 'y', 'a', 'b'.
+import pandas as pd
+
+def test(df0: pd.DataFrame) -> pd.DataFrame:

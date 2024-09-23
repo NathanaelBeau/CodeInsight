@@ -1,0 +1,1 @@
+assert test("Don't stop the music!") == ['Don', 't', 'stop', 'the', 'music', ''], 'Test failed'

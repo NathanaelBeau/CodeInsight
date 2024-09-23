@@ -1,0 +1,1 @@
+Delete a column var0 from a Pandas DataFrame  df0

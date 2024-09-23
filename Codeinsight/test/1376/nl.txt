@@ -1,0 +1,1 @@
+Regex for removing data in parenthesis   in string str0 

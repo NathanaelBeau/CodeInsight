@@ -1,0 +1,2 @@
+Find an element var0 in first position in a list of tuples lst0
+def test(lst0, var0):

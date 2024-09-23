@@ -1,0 +1,2 @@
+Check if any dictionary in the list lst0 has a key var0 with a value of var1
+def test(lst0, var0, var1):

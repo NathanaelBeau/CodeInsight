@@ -1,0 +1,1 @@
+All combinations of a list of lists  lst0

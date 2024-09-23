@@ -1,0 +1,2 @@
+Check if all elements in a list lst0 are the same   
+def test(lst0):

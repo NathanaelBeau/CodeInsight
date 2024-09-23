@@ -1,0 +1,1 @@
+Checking if the character char0 exists in the string str0

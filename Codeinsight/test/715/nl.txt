@@ -1,0 +1,1 @@
+Delete the row at position var0 in numpy array x.

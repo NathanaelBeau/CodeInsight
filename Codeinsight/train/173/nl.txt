@@ -1,0 +1,1 @@
+Write a python that remove to the first element of the list lst1

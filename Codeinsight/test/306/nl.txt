@@ -1,0 +1,1 @@
+Check if all string elements in the list words are in uppercase.

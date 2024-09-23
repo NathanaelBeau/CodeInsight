@@ -1,0 +1,2 @@
+Pythonic way to fetch all elements in a dictionary dict0, falling between two keys var0 and var1 with filter
+def test(dict0, var0, var1):

@@ -1,0 +1,2 @@
+Insert the string str0 into position var0 of string s.
+def test(s: str, str0: str, var0: int) -> str:

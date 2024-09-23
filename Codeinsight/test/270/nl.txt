@@ -1,0 +1,1 @@
+How do you split a list lst0 into evenly sized chunks of var0?   

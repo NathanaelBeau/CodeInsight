@@ -1,0 +1,3 @@
+Retrieve today's date formatted as YYYY-MM-DD.
+from datetime import date
+def test():

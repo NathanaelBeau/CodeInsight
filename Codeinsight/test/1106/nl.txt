@@ -1,0 +1,1 @@
+Get all keys from a dictionary dict0 where the corresponding value is 1.

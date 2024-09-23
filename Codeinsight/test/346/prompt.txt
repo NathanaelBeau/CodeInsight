@@ -1,0 +1,4 @@
+Matching blank lines with regular expressions    in string str0
+import re
+
+def test(str0):

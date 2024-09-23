@@ -1,0 +1,1 @@
+Remove values that contain numbers from a list of strings lst0

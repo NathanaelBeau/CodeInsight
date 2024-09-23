@@ -1,0 +1,4 @@
+Pandas : Use groupby on each element of list  lst0  
+from collections import Counter
+
+def test(lst0):

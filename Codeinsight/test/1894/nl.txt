@@ -1,0 +1,1 @@
+check if a character is upper-case in Python in string str0   

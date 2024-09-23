@@ -1,0 +1,1 @@
+How can I use python itertools.groupby() and operator to group a list of strings lst0 by their first character?   

@@ -1,0 +1,2 @@
+multiplies two matrices mat1 and mat2
+def test(mat1,mat2):

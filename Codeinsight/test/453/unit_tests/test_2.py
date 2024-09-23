@@ -1,0 +1,1 @@
+assert test('hello') == ['hello'], 'Test failed'

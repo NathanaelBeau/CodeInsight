@@ -1,0 +1,2 @@
+checks if the 3 angles var1,var2 and var3 are those of a triangle
+def test(var1,var2,var3):

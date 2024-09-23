@@ -1,0 +1,1 @@
+create and return a list containing var0 empty lists. 

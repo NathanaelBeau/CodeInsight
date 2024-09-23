@@ -1,0 +1,1 @@
+Design a function that return the summation of var1 and var2

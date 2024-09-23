@@ -1,0 +1,2 @@
+find indexes of all occurrences of a substring str0 in a string str1
+def test(str0: str, str1: str) -> list:

@@ -1,0 +1,1 @@
+From list of integers lst0, get number closest to a given value var0

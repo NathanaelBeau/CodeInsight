@@ -1,0 +1,2 @@
+Write a python program to count the occurrences of the key var1 in the text var2
+def test(var1,var2):

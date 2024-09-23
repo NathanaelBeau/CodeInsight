@@ -1,0 +1,1 @@
+Filter out NaN values from the column named col_name in the pandas DataFrame df0.

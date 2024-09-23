@@ -1,0 +1,1 @@
+write a python function which takes length var1 , breadth var2 as input and return the area of rectangle.

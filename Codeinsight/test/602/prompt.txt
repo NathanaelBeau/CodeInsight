@@ -1,0 +1,2 @@
+merge a list of dicts lst0 into a single dict  with reduce
+def test(lst0):

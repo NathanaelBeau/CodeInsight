@@ -1,0 +1,1 @@
+Search for the existence of a specific value var0 for the label var1 in a list of dictionaries lst0

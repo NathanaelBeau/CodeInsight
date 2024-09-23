@@ -1,0 +1,1 @@
+substract two lists lst1 and lst2 element wise

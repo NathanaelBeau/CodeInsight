@@ -1,0 +1,4 @@
+Merge two dataframes, df0 and df1, based on their indices.  
+import pandas as pd
+
+def test(df0, df1):

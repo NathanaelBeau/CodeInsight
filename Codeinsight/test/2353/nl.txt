@@ -1,0 +1,1 @@
+Drop all columns from a dataframe df0 that have a maximum value greater than 0

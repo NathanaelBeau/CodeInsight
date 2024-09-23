@@ -1,0 +1,4 @@
+Add a new column to a dataframe df0 with multiindex columns. The new column's multiindex is specified by new_column_tuple0, and its values by values_list0.
+import pandas as pd
+
+def test(df0, new_column_tuple0, values_list0):

@@ -1,0 +1,1 @@
+Convert all elements of list lst0 to float values.

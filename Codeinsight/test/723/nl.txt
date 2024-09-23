@@ -1,0 +1,1 @@
+Sum the second elements from a list of lists lst0.

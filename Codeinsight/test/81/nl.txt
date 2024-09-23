@@ -1,0 +1,1 @@
+Find all repeating words in a string var0 using regex.

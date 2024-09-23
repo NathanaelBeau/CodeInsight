@@ -1,0 +1,1 @@
+Create a list by appending components from list lst0 and the reversed list lst1 interchangeably.

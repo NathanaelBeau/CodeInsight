@@ -1,0 +1,2 @@
+ reverse the elements in a sublist lst0   
+def test(lst0):

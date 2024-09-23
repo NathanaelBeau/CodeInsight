@@ -1,0 +1,1 @@
+Remove all key value pairs from a list of dictionaries lst0 where the key is equal to a specific value var0?

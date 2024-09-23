@@ -1,0 +1,2 @@
+Merge two dictionaries, dict0 and dict1, into a single dictionary
+def test(dict0, dict1):

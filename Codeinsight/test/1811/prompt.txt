@@ -1,0 +1,2 @@
+Convert a list of pairs lst0 into a dictionary where each pair represents a key-value pair. 
+def test(lst0):

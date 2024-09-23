@@ -1,0 +1,4 @@
+Find alternating repetitive digit pairs in the string var0.
+import re
+
+def test(var0):

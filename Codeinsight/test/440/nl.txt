@@ -1,0 +1,1 @@
+split a string str0 at line breaks in python   

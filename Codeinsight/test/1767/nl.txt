@@ -1,0 +1,1 @@
+from a list lst0 Create a list of tuples with adjacent list elements if a condition is true  lst0[1:]) if y == 9

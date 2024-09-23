@@ -1,0 +1,2 @@
+Sum each element lst0 with its corresponding element in lst1 based on their respective indices.
+def test(lst0, lst1):

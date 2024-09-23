@@ -1,0 +1,3 @@
+Check if the input string var0 is empty.
+import re
+def test(var0):

@@ -1,0 +1,1 @@
+Apply each function from the list functions over every value from the list values.

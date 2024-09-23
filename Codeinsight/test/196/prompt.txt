@@ -1,0 +1,4 @@
+Filter rows in dataframe df0 where values in column var0 are present in the list lst0 resetting index.
+import pandas as pd
+
+def test(df0, var0, lst0):

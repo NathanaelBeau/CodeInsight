@@ -1,0 +1,4 @@
+Remove rows from DataFrame df0 where column var0 matches the regular expression var1 resetting index
+import pandas as pd
+
+def test(df0, var0, var1):

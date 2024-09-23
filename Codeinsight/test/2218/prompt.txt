@@ -1,0 +1,4 @@
+Return all occurrences of the pattern str0 in the string var0 using a list comprehension.
+import re
+
+def test(str0, var0):

@@ -1,0 +1,2 @@
+Best way to strip punctuation from a string str0 with 
+regex(Regular expression)

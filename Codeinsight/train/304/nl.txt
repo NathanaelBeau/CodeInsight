@@ -1,0 +1,1 @@
+Remove special character from string var0 

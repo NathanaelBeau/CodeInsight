@@ -1,0 +1,2 @@
+Merge all dictionaries present in the list lst0 into a single dictionary
+def test(lst0):

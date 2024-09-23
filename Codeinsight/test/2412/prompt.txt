@@ -1,0 +1,2 @@
+In Python, index a list lst0  with another list  lst1 with map
+def test(lst0, lst1):

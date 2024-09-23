@@ -1,0 +1,1 @@
+Cartesian product of x and y array points  lst0 into single array of 2D points   

@@ -1,0 +1,1 @@
+Split string str0 based on the regular expression pattern pattern.

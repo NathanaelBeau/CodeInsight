@@ -1,0 +1,1 @@
+ convert a list of multiple integers lst0 into a single integer using map with str   

@@ -1,0 +1,1 @@
+Separate the numbers and characters in a string var0

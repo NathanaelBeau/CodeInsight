@@ -1,0 +1,4 @@
+Compare Python Pandas DataFrames df0 and df1 for matching rows at columns var0
+import pandas as pd
+
+def test(df0, df1, var0):

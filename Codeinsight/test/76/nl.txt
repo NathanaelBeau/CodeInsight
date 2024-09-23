@@ -1,0 +1,1 @@
+get key by value var0 in dictionary dict0 with same value in python using  dict.items()  

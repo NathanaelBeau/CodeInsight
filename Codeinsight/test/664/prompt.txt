@@ -1,0 +1,4 @@
+Compute the cosine similarity for the given sparse matrix sparse_matrix0. 
+from sklearn.metrics.pairwise import cosine_similarity
+
+def test(sparse_matrix0):

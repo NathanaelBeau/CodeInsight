@@ -1,0 +1,2 @@
+return the area of a square with side var1
+def test(var1):

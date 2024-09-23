@@ -1,0 +1,1 @@
+Select all columns var0 and var1 from a two index var2 and var3 data frame df0

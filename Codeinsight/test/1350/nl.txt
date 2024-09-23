@@ -1,0 +1,1 @@
+Bin the column str0 of the dataframe df0 using the bin edges specified in lst0

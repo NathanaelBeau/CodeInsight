@@ -1,0 +1,1 @@
+Get the first 100 characters from the string str0.

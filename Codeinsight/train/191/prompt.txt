@@ -1,0 +1,2 @@
+# write a python function that takes in a list lst1 and return a list containing the cube of the elements of the input list lst1
+def test(lst1):

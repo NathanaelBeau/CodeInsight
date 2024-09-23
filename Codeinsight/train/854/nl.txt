@@ -1,0 +1,1 @@
+Locate the first and last non NaN values in a dataframe df0

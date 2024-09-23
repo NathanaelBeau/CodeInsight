@@ -1,0 +1,3 @@
+Compute the operation (either 'mean' or 'std') over the entire dataframe df0 
+import pandas as pd
+def test(df0, operation):

@@ -1,0 +1,1 @@
+Remove character var1 from the string var0.

@@ -1,0 +1,1 @@
+Sort a list of tuples lst0 based on the first element and then by the length of the second element of each tuple.

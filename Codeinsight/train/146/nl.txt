@@ -1,0 +1,1 @@
+check if a name var1 exists in a given list lst1

@@ -1,0 +1,1 @@
+Get the column at position var0 from the DataFrame df0.

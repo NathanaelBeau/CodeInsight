@@ -1,0 +1,1 @@
+Iterate over a multiindex dataframe df0 and return a list of tuples containing the index and the value in column 'A'

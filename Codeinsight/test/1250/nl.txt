@@ -1,0 +1,1 @@
+Return the parity (odd or even) of each element of a list lst0.

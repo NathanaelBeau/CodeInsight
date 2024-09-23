@@ -1,0 +1,2 @@
+Extract the first element from each sub-list in a 2-dimensional list lst0.
+def test(lst0):

@@ -1,0 +1,3 @@
+In a dataframe df0 column var0, replace patterns matching string str0 with string str1.
+import pandas as pd
+def test(df0, var0, str0, str1):

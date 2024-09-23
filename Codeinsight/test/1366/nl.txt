@@ -1,0 +1,1 @@
+Format the dictionary var0 into a string with key-value pairs separated by "=".

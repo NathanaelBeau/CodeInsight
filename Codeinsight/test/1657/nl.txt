@@ -1,0 +1,1 @@
+Calculate the average values for a dataframe df0 by grouping on columns var0 and var1.

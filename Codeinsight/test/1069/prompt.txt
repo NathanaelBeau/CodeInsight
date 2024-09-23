@@ -1,0 +1,2 @@
+Get all possible combinations of items from the 2-dimensional list lst0.
+def test(lst0):

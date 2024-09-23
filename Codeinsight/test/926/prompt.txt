@@ -1,0 +1,4 @@
+Get the var0 next values of a generator func0. Return the result in a list.  
+import itertools
+
+def test(func0, var0):

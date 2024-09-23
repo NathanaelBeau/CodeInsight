@@ -1,0 +1,1 @@
+Add an extra row from a dctionary dict0 to a pandas dataframe  df0

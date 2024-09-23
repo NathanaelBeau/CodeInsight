@@ -1,0 +1,2 @@
+Filter rows in dataframe df0 where column var0 contains alphabetic characters.
+def test(df0, var0):

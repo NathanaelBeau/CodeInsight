@@ -1,0 +1,2 @@
+Sort the string str0 in lexicographic order.
+def test(str0):

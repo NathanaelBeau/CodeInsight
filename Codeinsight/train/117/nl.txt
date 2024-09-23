@@ -1,0 +1,1 @@
+write a python function to subtract two numbers var1 and var2 and return the result.

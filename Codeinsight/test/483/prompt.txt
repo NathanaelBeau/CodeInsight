@@ -1,0 +1,3 @@
+Sort a DataFrame df0 by a column named 'name' using a custom order provided in a list lst0
+import pandas as pd
+def test(df0, lst0):

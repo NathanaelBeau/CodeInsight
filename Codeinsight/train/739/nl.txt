@@ -1,0 +1,1 @@
+Compute the average of a list named lst0.

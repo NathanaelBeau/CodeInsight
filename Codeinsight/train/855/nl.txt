@@ -1,0 +1,1 @@
+Calculate the Euclidean distance between two points var0 and var1 using NumPy

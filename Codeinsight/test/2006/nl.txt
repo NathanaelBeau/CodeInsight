@@ -1,0 +1,1 @@
+Create a matrix with var0 columns and var1 rows all set to 0

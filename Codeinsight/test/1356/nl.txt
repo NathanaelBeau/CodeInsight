@@ -1,0 +1,1 @@
+Check if a value value is a numpy type.

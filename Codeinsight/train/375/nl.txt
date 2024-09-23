@@ -1,0 +1,1 @@
+Filter out duplicate dictionaries in list lst0 based on the 'id' key.

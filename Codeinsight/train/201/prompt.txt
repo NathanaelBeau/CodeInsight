@@ -1,0 +1,2 @@
+return the total surface area of a cube of side var1
+def test(var1):

@@ -1,0 +1,2 @@
+Create a list with var0 zeros
+def test(var0):

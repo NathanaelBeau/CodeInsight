@@ -1,0 +1,3 @@
+ sum values in a column in dataframe pandas df0 that match a given condition which is var0 using  query
+import pandas as pd
+def test(df0, var0):

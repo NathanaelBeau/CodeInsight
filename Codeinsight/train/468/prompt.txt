@@ -1,0 +1,4 @@
+Get the indices of rows in DataFrame df0 where the column var0 matches the value var1.
+import pandas as pd
+
+def test(df0, var0, var1):

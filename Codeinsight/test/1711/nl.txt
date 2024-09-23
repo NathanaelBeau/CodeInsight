@@ -1,0 +1,1 @@
+Get all the values from column 'b' in a dataframe df0

@@ -1,0 +1,1 @@
+ multiply multiple columns by a column in Pandas  dataframe df0 

@@ -1,0 +1,2 @@
+Removing elements from an array arr0 that are in another array   arr1 using list comprehension
+def test(arr0, arr1):

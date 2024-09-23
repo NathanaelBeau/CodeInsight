@@ -1,0 +1,4 @@
+Select rows from the DataFrame df0 where the values in column col0 are greater than value0.
+import pandas as pd
+
+def test(df0, col0, value0):

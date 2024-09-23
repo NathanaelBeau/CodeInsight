@@ -1,0 +1,1 @@
+Remove specific elements by index  of numpy array var0 in a numpy array  arr0

@@ -1,0 +1,4 @@
+Convert the rows from column var0 of dataframe df0 into column headers.
+import pandas as pd
+
+def test(df0, var0):

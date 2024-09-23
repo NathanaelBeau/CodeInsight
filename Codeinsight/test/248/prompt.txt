@@ -1,0 +1,2 @@
+Find the indices of elements in list A that are also present in list B.
+def test(A: list, B: list) -> list:

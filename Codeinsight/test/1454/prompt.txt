@@ -1,0 +1,2 @@
+Collect the keys from dictionary dict0 where the corresponding value matches var0
+def test(dict0, var0):

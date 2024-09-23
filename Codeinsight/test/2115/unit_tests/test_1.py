@@ -1,0 +1,1 @@
+assert test(pd.DataFrame(columns=["col_1", "col_2"], data=np.zeros((2, 2))), pd.DataFrame(columns=["col_3", "col_4"], data=np.ones((2, 2)))).values.shape == (2, 4), 'Test failed'

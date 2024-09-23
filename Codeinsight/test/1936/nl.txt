@@ -1,0 +1,1 @@
+Get key by value in dictionary dict0 with same value equal to var0  

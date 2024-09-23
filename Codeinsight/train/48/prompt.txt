@@ -1,0 +1,2 @@
+remove all the odd numbers from a list lst1 and return the remaining list
+def test(lst1):

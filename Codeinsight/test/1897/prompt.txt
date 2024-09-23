@@ -1,0 +1,5 @@
+Retrieve the last var0 rows of the pandas DataFrame df0.
+import pandas as pd
+
+
+def test(df0, var0):

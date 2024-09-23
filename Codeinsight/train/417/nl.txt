@@ -1,0 +1,1 @@
+Convert strings containing digits in lst0 to integers and store the result in a new list.

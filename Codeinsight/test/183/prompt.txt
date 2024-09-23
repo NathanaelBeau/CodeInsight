@@ -1,0 +1,2 @@
+Extend a numpy array arr0 in both dimensions by var0 rows and var1 columns  
+def test(arr0, var0, var1):

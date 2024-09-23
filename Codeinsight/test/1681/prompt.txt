@@ -1,0 +1,4 @@
+Scale the columns of the pandas dataframe df0 using sklearn's StandardScaler  
+import pandas as pd
+from sklearn.preprocessing import StandardScaler
+def test(df0):

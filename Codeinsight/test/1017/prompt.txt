@@ -1,0 +1,2 @@
+Copy the elements of list lst0 into a new list.
+def test(lst0):

@@ -1,0 +1,1 @@
+return the mean value of the numpy vector var1

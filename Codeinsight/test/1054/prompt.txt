@@ -1,0 +1,4 @@
+Add multiple columns col_names_df1 from DataFrame df1 to DataFrame df0 under new column names col_names_df0.
+import pandas as pd
+
+def test(df0, df1, col_names_df0, col_names_df1):

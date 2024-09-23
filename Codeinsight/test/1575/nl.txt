@@ -1,0 +1,1 @@
+Find the tuple in var0 (a tuple of tuples) where the first element matches str0, and return the second element of that tuple. If no such tuple is found, the function returns None.

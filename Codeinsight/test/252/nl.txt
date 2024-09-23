@@ -1,0 +1,1 @@
+Merge the specified columns (lst0) from DataFrame df0 with DataFrame df1 based on the common column var0, and return the resulting DataFrame.

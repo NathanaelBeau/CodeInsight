@@ -1,0 +1,2 @@
+ simple way to remove multiple spaces in a string  str0 with replace
+def test(str0):

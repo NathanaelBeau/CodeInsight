@@ -1,0 +1,2 @@
+Best way to remove elements var0 from a list lst0   
+def test(lst0: list, var0: set):

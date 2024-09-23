@@ -1,0 +1,1 @@
+Retrieve the indices of the two largest values from the list lst0.

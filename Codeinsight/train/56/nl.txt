@@ -1,0 +1,1 @@
+check whether a string var1 is palindrome or not

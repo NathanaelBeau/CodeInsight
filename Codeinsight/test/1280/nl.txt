@@ -1,0 +1,1 @@
+Sorting a list lst1 in Python using the result from sorting another list   lst0

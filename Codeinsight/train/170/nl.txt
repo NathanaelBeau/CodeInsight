@@ -1,0 +1,1 @@
+return only digits or only aphabetic character from a given string var1

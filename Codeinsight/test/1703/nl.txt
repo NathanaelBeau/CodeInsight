@@ -1,0 +1,1 @@
+Copy keys var0 and assign value  var1 to a new dictionary (Python)   

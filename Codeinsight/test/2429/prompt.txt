@@ -1,0 +1,4 @@
+Replace every occurrence of '\u200b' with '*' in a string str0
+
+import re
+def test(str0):

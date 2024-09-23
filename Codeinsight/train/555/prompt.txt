@@ -1,0 +1,2 @@
+ remove all whitespace  of a string str0 in Python   
+def test(str0):

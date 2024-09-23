@@ -1,0 +1,1 @@
+find the smallest among three numbers var1, var2 and var3

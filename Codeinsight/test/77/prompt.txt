@@ -1,0 +1,2 @@
+Convert a string var0 to integer with decimal
+def test(var0):

@@ -1,0 +1,1 @@
+write a python function returning a random number from var1 to var2

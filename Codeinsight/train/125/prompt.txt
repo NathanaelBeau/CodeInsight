@@ -1,0 +1,2 @@
+write a python function that takes input radius var1 and return area of circle
+def test(var1):

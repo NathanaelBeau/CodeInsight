@@ -1,0 +1,2 @@
+Write a Python function to remove duplicates from a list lst1
+def test(lst1):

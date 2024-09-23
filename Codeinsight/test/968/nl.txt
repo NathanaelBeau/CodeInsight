@@ -1,0 +1,1 @@
+Get the lengths of each word in a sentence named var0

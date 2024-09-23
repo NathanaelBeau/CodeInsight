@@ -1,0 +1,1 @@
+Remove all trailing digits from the end of string s.

@@ -1,0 +1,4 @@
+Remove special character from string var0 
+import re
+
+def test(var0):

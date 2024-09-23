@@ -1,0 +1,1 @@
+Replace occurrences of the regular expression pattern pat0 with str1 in str0, optionally ignoring case sensitivity if bool0 is set True.

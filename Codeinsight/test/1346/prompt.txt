@@ -1,0 +1,4 @@
+Compute the Euclidean distance between two multidimensional points, lst0 and lst1
+import numpy as np
+
+def test(lst0, lst1):

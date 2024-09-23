@@ -1,0 +1,2 @@
+Convert a list of tuples lst0 to list of lists
+def test(lst0):

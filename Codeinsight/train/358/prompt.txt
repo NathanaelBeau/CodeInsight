@@ -1,0 +1,2 @@
+Convert a pandas dataframe df0 with fields 'id' and 'value' into a dictionary where 'id' becomes the key and 'value' becomes the corresponding value.
+def test(df0):

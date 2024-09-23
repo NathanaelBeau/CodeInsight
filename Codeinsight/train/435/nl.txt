@@ -1,0 +1,1 @@
+Replace all occurrences of substring var1 with substring var2 in string var0, ignoring case

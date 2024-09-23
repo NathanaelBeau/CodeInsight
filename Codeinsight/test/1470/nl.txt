@@ -1,0 +1,1 @@
+Get the name of the column in each row of a DataFrame df0 that contains the value var0. Return a Series where each element is a string containing the column name (or 'None') and a boolean indicating whether a match was found.

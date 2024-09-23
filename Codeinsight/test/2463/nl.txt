@@ -1,0 +1,1 @@
+Find all occurrences in string var0 that match any string from the list lst0

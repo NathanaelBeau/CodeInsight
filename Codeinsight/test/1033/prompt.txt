@@ -1,0 +1,2 @@
+Get the first character of the first string in a list lst0   
+def test(lst0) :

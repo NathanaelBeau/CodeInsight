@@ -1,0 +1,2 @@
+Compute the sum of sums of each list in a list of lists lst0.
+def test(lst0):

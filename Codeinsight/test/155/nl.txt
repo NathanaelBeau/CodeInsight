@@ -1,0 +1,1 @@
+Calculate the mean of the nonzero values' indices from the DataFrame df0.

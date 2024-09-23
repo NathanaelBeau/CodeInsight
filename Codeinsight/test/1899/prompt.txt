@@ -1,0 +1,2 @@
+Merge dictionaries from array lst0 into a single dictionary in one expression.
+def test(lst0):

@@ -1,0 +1,2 @@
+Design a function that test if a string var1 is 'azerty'
+def test(var1):

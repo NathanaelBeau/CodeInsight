@@ -1,0 +1,5 @@
+Strip all punctuation characters from the string var0.
+import re
+import string
+
+def test(var0):

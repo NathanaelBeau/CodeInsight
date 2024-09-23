@@ -1,0 +1,2 @@
+Create a list of numbers starting from var0 up to and including var1, incremented by var2
+def test(var0, var1, var2):

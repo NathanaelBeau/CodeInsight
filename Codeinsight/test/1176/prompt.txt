@@ -1,0 +1,2 @@
+Combine two Pandas dataframes var0 and var1 with the same index
+def test(var0, var1):

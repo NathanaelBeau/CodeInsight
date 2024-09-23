@@ -1,0 +1,1 @@
+multiplies each element of a list lst1 of integers by 2

@@ -1,0 +1,1 @@
+calculate and return the average of input numbers in list var1

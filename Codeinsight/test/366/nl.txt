@@ -1,0 +1,1 @@
+Evaluate the truthiness of a Series series0 using the specified method (empty, bool, item, any, or all).

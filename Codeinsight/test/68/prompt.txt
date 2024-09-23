@@ -1,0 +1,2 @@
+Get all the second values from a list of lists lst0.
+def test(lst0):

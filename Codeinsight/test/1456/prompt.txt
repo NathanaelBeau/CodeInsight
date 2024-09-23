@@ -1,0 +1,4 @@
+Transform a string var0 to retain only unique values conserving the order
+from collections import OrderedDict
+
+def test(var0):

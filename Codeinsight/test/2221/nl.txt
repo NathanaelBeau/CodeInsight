@@ -1,0 +1,1 @@
+ get first part of an email address  string str0 with adress from  email.headerregistry

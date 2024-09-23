@@ -1,0 +1,1 @@
+Create a list of integers with lenght var0 with duplicate values in Python   

@@ -1,0 +1,2 @@
+Parse a comma-separated string number var0 into an integer
+def test(var0):

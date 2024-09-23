@@ -1,0 +1,1 @@
+concatenate two strings (str0 and str1) by inserting str1 into str0 at a specific location: after the first character and before the seventh character.

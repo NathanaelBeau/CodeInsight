@@ -1,0 +1,2 @@
+Join two dataframes df0 and df1 based on their index.
+

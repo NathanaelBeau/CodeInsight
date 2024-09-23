@@ -1,0 +1,1 @@
+Write a python program that sums the elements of set var1

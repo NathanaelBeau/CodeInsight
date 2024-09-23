@@ -1,0 +1,1 @@
+Find the longest common prefix between two strings var0 and var1.

@@ -1,0 +1,1 @@
+Replace the header of a DataFrame df0 with its first row

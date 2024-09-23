@@ -1,0 +1,4 @@
+Check if a list lst0 has one or more strings that match any regex var0
+import re
+
+def test(lst0, var0):

@@ -1,0 +1,1 @@
+Write a python program to check if string var1 is a python identifier or keyword

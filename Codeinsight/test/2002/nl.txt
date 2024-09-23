@@ -1,0 +1,1 @@
+Create a new dictionary by mapping the values of dict0 to the corresponding values in dict1.

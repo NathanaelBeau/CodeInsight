@@ -1,0 +1,1 @@
+Swap the first two values in each tuple/list inside the list lst0

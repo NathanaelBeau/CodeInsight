@@ -1,0 +1,2 @@
+Extract dictionary containing specific item var0 for key var1 from list lst0 of dictionaries   
+def test(var0, var1, lst0):

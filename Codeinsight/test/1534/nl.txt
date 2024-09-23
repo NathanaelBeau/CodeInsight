@@ -1,0 +1,1 @@
+Calculate the average of every three columns in the dataframe df0.

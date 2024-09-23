@@ -1,0 +1,1 @@
+Calculate percentage of sparsity for a numpy array/matrix  var0?

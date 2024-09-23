@@ -1,0 +1,1 @@
+Find all possible sequences of elements in a list lst0?   

@@ -1,0 +1,1 @@
+Replace all backslashes in a string var0 with an empty string

@@ -1,0 +1,1 @@
+Delete all duplicates except the first one when they have the same value for the specific key var0 from a list of dictionaries lst0

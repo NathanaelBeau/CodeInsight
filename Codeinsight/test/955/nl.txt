@@ -1,0 +1,1 @@
+Reverse the digits of an integer var0.

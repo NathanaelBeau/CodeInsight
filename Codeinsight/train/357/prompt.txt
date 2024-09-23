@@ -1,0 +1,2 @@
+Retrieve a list of indices from the list lst0 where the elements are non-zero.
+def test(lst0):

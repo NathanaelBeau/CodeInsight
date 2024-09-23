@@ -1,0 +1,4 @@
+Split a column named var0 containing tuples into two separate columns in dataframe df0
+import pandas as pd
+
+def test(df0, var0):

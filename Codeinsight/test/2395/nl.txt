@@ -1,0 +1,1 @@
+Reshape the PyTorch tensor tensor0 to the dimensions specified by shape0  

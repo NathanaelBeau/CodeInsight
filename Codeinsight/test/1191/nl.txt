@@ -1,0 +1,1 @@
+Print the maximum value from a nested list named lst0

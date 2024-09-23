@@ -1,0 +1,1 @@
+Remove rows from dataframe df0 where column var0 has the value var1 resetting index.

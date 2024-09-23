@@ -1,0 +1,1 @@
+Return a list containing elements from the list lst0 where the sum of the elements in each sub-list is greater than 10.

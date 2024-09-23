@@ -1,0 +1,1 @@
+that return the string var1 concatenated var2 times with itself.

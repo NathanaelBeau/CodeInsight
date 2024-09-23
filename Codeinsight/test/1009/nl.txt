@@ -1,0 +1,1 @@
+ find all positions of the maximum value in a list lst0   

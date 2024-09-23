@@ -1,0 +1,1 @@
+write a python function that return biggest character in a string var1

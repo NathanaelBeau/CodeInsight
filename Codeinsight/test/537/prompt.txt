@@ -1,0 +1,2 @@
+sum each value in a list of tuples  lst0 and return it in an dictionary
+def test(lst0):

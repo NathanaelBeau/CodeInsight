@@ -1,0 +1,2 @@
+Removing duplicate characters from a string var0 without without the order    
+def test(var0):

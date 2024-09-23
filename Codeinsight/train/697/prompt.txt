@@ -1,0 +1,2 @@
+How to convert a hex string  str0 to hex number   
+def test(str0):

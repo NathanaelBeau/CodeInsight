@@ -1,0 +1,1 @@
+Retrieve all rows from DataFrame df0 that have duplicate items in column var0.

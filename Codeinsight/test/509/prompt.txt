@@ -1,0 +1,2 @@
+Convert a list of key-value tuples lst0 into a dictionary.
+def test(lst0):

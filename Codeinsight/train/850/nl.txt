@@ -1,0 +1,1 @@
+Check if value var0 is present in the list of column lst0 in dataframe df0

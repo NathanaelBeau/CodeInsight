@@ -1,0 +1,2 @@
+Filter out all strings in the list lst that contain the substring 'ab'.
+def test(lst: list) -> list:

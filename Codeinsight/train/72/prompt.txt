@@ -1,0 +1,2 @@
+return a character var1 from it's ascii integer value
+def test(var1):

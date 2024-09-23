@@ -1,0 +1,1 @@
+Converting a Pandas GroupBy output df0 from Series to DataFrame   

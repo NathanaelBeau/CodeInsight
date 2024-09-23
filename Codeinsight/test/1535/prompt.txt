@@ -1,0 +1,2 @@
+ convert nested list of lists lst0 into a list of tuples in python 3.3 using list comprehension
+def test(lst0):

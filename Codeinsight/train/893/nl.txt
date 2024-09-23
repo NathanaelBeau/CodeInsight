@@ -1,0 +1,1 @@
+Sort a pandas data frame var0 by its column var1 with a custom sorting var2 resetting the index

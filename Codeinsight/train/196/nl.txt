@@ -1,0 +1,1 @@
+return the area of triangle given its base var1 and its height var2

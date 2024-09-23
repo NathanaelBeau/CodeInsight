@@ -1,0 +1,4 @@
+Sort the pandas DataFrame df0 by the columns specified in the list lst0.
+import pandas as pd
+
+def test(df0, lst0):

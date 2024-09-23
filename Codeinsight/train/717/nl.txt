@@ -1,0 +1,1 @@
+Remove all integer values from a list lst0  

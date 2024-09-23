@@ -1,0 +1,2 @@
+takes in three lists lst1, lst2, lst3 of sequences and zips each corresponding element from the list into a tuple and return the list of such tuples
+def test(lst1,lst2,lst3):

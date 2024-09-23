@@ -1,0 +1,4 @@
+Split the data data0 into three sets: train, validation, and test, using the specified sizes train_size0 and val_size0.
+from sklearn.model_selection import train_test_split
+
+def test(data0, train_size0, val_size0):

@@ -1,0 +1,4 @@
+Extract the unique characters from the string str0 while preserving their order, and return them as a list.
+from collections import OrderedDict
+
+def test(str0):

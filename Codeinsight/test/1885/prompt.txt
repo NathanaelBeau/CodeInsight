@@ -1,0 +1,4 @@
+Get the version of the NumPy library. 
+import numpy as np
+import re
+def test():

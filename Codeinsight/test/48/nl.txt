@@ -1,0 +1,1 @@
+Calculate mean for selected rows var1 for selected columns var0 in pandas data frame  df0 

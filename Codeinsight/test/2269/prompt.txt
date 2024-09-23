@@ -1,0 +1,3 @@
+ decode unicode raw literals str0 to readable string?   
+import ast
+def test(str0):

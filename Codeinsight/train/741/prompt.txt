@@ -1,0 +1,4 @@
+Find all rows in dataframe df0 where column var0 contains non-numeric values 
+import pandas as pd
+
+def test(df0, var0):

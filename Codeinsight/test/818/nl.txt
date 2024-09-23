@@ -1,0 +1,1 @@
+Check if both keys var0 and var1 are present in the dictionary d.

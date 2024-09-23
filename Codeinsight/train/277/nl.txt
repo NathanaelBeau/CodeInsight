@@ -1,0 +1,1 @@
+return a list of indices in the input list lst0 where the elements are equal to the value var0. 

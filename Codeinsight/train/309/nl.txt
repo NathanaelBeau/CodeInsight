@@ -1,0 +1,1 @@
+Find groups of consecutive elements in the numpy array arr0. 

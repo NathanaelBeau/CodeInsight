@@ -1,0 +1,5 @@
+Keep column with name var0 as a DataFrame from dataframe df0
+
+import pandas as pd
+
+def test(df0, var0):

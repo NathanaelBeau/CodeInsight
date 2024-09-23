@@ -1,0 +1,4 @@
+Match and remove characters in var0 that have three or more non-consecutive occurrences.
+import re
+
+def test(var0):

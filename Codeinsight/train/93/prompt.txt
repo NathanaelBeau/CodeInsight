@@ -1,0 +1,2 @@
+get the maximum and minimum value in a dictionary var1
+def test(var1):

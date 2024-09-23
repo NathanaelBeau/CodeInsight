@@ -1,0 +1,1 @@
+Change the index of the DataFrame df0 to a multi-level index using the specified columns named str0 and str1

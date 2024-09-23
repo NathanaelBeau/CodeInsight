@@ -1,0 +1,1 @@
+Formatting floats in a numpy array    arr0 with format var0 

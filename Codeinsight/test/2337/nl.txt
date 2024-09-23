@@ -1,0 +1,1 @@
+Calculate the proportion of rows in dataframe trace_df where values in column ratio are greater than 0.

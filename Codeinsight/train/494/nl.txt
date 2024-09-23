@@ -1,0 +1,1 @@
+Concatenate strings from lst0 without space  

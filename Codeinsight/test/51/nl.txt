@@ -1,0 +1,1 @@
+Sort a dataframe df0 by column var0 and reset its index.

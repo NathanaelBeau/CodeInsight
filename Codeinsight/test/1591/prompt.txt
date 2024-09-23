@@ -1,0 +1,3 @@
+Group the columns of the DataFrame df0 by their names and then sum the values within each group
+import pandas as pd
+def test(df0):

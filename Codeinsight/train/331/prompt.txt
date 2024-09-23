@@ -1,0 +1,4 @@
+Check if the variable var0 is either a python list, numpy array, or pandas series  
+import numpy as np
+import pandas as pd
+def test(var0):

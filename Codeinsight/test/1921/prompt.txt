@@ -1,0 +1,4 @@
+Sort a pandas DataFrame df0 based on the values in the column named var0 in ascending order.
+import pandas as pd
+
+def test(df0, var0):

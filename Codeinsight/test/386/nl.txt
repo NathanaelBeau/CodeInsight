@@ -1,0 +1,1 @@
+Check if string var0 only contains characters from string var1

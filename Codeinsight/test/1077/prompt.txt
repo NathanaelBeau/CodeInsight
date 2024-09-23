@@ -1,0 +1,2 @@
+Add 1 to each integer value in a list lst0
+def test(lst0):

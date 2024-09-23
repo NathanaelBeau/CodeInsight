@@ -1,0 +1,1 @@
+Replace occurrences of the regular expression pattern var0 with replacement var1 in string str0.

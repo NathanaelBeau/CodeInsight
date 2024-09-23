@@ -1,0 +1,2 @@
+Count the number of elements in the array arr0.
+def test(arr0):

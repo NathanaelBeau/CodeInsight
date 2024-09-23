@@ -1,0 +1,1 @@
+Split the string var0 on new lines, tabs, and one or more spaces.

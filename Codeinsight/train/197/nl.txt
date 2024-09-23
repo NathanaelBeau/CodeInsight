@@ -1,0 +1,1 @@
+return the euclidean distance between two vectors var1 and var2

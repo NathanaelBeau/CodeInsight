@@ -1,0 +1,2 @@
+Create a list by summing up the respective elements of the tuples present in list lst0.
+def test(lst0: list) -> list:

@@ -1,0 +1,2 @@
+Create a dictionary from a string str0 separated by - and ,
+def test(str0):

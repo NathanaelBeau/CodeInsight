@@ -1,0 +1,3 @@
+Remove duplicates from dataframe df0, based on two columns A,B, keeping row with max value in another column C   
+import pandas as pd
+def test(df0):

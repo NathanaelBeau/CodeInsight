@@ -1,0 +1,1 @@
+Get integer values from a string str0

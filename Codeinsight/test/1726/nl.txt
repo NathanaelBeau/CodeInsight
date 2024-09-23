@@ -1,0 +1,1 @@
+Count the number of duplicate rows in a pandas DataFrame df0.

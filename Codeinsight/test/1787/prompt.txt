@@ -1,0 +1,2 @@
+Create a list c by selecting items from list b based on the indices present in list index.
+def test(b: list, index: list) -> list:

@@ -1,0 +1,2 @@
+Extract all rows from dataframe df0 where the value of column 'Value' is True.
+def test(df0):

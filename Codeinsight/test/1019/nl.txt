@@ -1,0 +1,1 @@
+Query rows from dataframe df0 where column var0 has NaN values or the value 'Other'.

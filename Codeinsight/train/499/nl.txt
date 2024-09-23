@@ -1,0 +1,1 @@
+Remove a specified column named str0 from a given DataFrame df0 

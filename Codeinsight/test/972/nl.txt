@@ -1,0 +1,1 @@
+ Count the occurrences of each unique value in column col0 of DataFrame df0

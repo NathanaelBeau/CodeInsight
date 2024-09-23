@@ -1,0 +1,4 @@
+Use the applymap method to apply the function func to each element of DataFrame df0 in axis var0.
+import pandas as pd
+
+def test(df0, func, var0):

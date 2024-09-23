@@ -1,0 +1,2 @@
+Python "extend" for a dictionary  dict0 with an other dictionary dict1
+def test(dict0, dict1):

@@ -1,0 +1,2 @@
+return a list of var2 times the value var1
+def test(var1,var2):

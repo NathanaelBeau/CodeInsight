@@ -1,0 +1,5 @@
+Calculate the mean values for the rows in list lst0 and columns in list lst1 of the dataframe df0
+import numpy as np
+import pandas as pd
+
+def test(df0, lst0, lst1):

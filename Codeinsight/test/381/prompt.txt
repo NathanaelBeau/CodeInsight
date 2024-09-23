@@ -1,0 +1,3 @@
+Convert a pandas series ser0 into a numpy array 
+import pandas as pd
+def test(ser0):

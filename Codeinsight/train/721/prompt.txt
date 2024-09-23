@@ -1,0 +1,4 @@
+All combinations of a list of lists   lst0
+from itertools import product
+
+def test(lst0):

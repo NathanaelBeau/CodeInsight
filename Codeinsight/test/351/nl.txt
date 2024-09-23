@@ -1,0 +1,1 @@
+How to find the index of a value var0 in 2d array arr0 in Python with np.where   

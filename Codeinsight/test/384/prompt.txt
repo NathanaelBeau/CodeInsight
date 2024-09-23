@@ -1,0 +1,4 @@
+Select columns in DataFrame df0 that match the regular expression var0 and divide their values by var1.
+import pandas as pd
+
+def test(df0, var0, var1):

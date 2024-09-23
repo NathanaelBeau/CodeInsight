@@ -1,0 +1,4 @@
+Get the shape (number of rows and columns) of a dataframe df0
+
+import pandas as pd
+def test(df0):

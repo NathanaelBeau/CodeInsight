@@ -1,0 +1,2 @@
+Sort a dictionary var0 by value to iterate over it
+def test(var0):

@@ -1,0 +1,4 @@
+Group consecutive alphanumerical characters or non-alphanumerical characters together in the string var0.
+import re
+
+def test(var0):

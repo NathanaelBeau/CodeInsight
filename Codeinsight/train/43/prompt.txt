@@ -1,0 +1,2 @@
+return the string var1 in reverse order
+def test(var1):

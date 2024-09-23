@@ -1,0 +1,1 @@
+write a python program to concatenate two dictionaries dict1 and dict2.

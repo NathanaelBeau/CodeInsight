@@ -1,0 +1,1 @@
+Declare a list of length var0 with all elements initialized to 0.

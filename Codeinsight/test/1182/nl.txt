@@ -1,0 +1,1 @@
+Python split string str0 on any regex  var0

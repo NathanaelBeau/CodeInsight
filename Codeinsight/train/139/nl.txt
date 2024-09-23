@@ -1,0 +1,1 @@
+function to remove value var1 from dictionary dict1

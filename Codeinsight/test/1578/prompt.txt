@@ -1,0 +1,2 @@
+Dictionary dict0 to lowercase in Python  for keys and values 
+def test(dict0: Dict[str, str]):

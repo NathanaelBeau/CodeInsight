@@ -1,0 +1,3 @@
+Strip the whitespace from the headers of a dataframe df0
+import pandas as pd
+def test(df0):

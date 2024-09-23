@@ -1,0 +1,4 @@
+Flattening a list of NumPy arrays lst0  
+import numpy as np
+
+def test(lst0):

@@ -1,0 +1,2 @@
+remove empty tuples from a list lst1 of tuples
+def test(lst1):

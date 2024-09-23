@@ -1,0 +1,2 @@
+Transform a string var0 into its corresponding unicode escaped representation
+def test(var0):

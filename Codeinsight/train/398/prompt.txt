@@ -1,0 +1,2 @@
+Count the number of occurrences of substring sub in string s.
+def test(s: str, sub: str) -> int:

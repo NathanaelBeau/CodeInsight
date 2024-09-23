@@ -1,0 +1,2 @@
+check if all the provided lists (lst1, lst2, lst3, lst4, lst5) have the same length as the first list lst0. If they all have the same length, the function returns True; otherwise, it returns False.
+def test(lst0, lst1, lst2, lst3, lst4, lst5):

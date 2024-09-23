@@ -1,0 +1,2 @@
+Create a list of tuples by pairing elements from lst0 and lst1
+def test(lst0, lst1):

@@ -1,0 +1,1 @@
+Extract numbers from string var0 that are accompanied by any word or phrase from the list lst0.

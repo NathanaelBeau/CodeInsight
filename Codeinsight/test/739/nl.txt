@@ -1,0 +1,1 @@
+Pythonic way to get the largest item with the greatest specified attribute at index 1 in a list   lst0 

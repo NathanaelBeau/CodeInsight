@@ -1,0 +1,4 @@
+Split a string str0 into words using multiple word boundary delimiters
+import re
+
+def test(str0):

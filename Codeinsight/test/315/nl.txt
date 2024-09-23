@@ -1,0 +1,2 @@
+Create an empty pandas DataFrame with NaN of type float having a specified number of rows and given columns.
+ 

@@ -1,0 +1,1 @@
+Convert a string str0 into a tuple and append it to another tuple tpl0

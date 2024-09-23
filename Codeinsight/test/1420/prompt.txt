@@ -1,0 +1,4 @@
+Select the row at integer index var0 from the dataframe df0.
+import pandas as pd
+
+def test(df0, var0):

@@ -1,0 +1,2 @@
+Sum the element-wise product of two lists lst0 and lst1 
+def test(lst0, lst1):

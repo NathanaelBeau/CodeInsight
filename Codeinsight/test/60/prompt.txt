@@ -1,0 +1,2 @@
+Transform a list of dictionaries lst0 into a dictionary of dictionaries using the 'key' value from each dictionary as the key for the resulting dictionary
+def test(lst0):

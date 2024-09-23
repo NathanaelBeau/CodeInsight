@@ -1,0 +1,1 @@
+Randomly select an item from the list lst0.

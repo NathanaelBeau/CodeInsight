@@ -1,0 +1,1 @@
+Solve a pair of nonlinear equations defined by the function func using an initial guess initial_guess. 

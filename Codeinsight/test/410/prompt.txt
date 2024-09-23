@@ -1,0 +1,4 @@
+Make new column 'sum' in Panda dataframe df0 by adding values from other columns  lst0
+import pandas as pd
+
+def test(df0, lst0):

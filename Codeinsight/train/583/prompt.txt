@@ -1,0 +1,2 @@
+count the number of a specific character var0 at the end of a string str0 ignoring duplicates   
+def test(str0, var0):

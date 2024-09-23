@@ -1,0 +1,2 @@
+Extend the dictionary dict0 with key/value pairs from dictionary dict1
+def test(dict0, dict1):

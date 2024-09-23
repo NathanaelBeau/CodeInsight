@@ -1,0 +1,2 @@
+A pythonic way to insert a space before capital letters   in strings  str0 in one-liner implementation without using regexp
+def test(str0):

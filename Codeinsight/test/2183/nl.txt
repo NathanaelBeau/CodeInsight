@@ -1,0 +1,1 @@
+Extract the first floating number from a string str0.

@@ -1,0 +1,1 @@
+Extract substrings from every string in the list buckets starting from character position var0 up to var1.

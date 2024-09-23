@@ -1,0 +1,2 @@
+Change the case of the first letter in the string str0.
+def test(str0):

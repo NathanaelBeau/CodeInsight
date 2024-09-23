@@ -1,0 +1,1 @@
+Combine rows in dataframe df0 based on column col0 and sum the values in column col1.

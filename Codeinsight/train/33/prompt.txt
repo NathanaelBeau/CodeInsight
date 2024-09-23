@@ -1,0 +1,2 @@
+join all items in a tuple var1 into a string, using a hash character as separator
+def test(var1):

@@ -1,0 +1,2 @@
+Apply a custom function var0 to a dataframe df0 to create a new column var1
+def test(var0, var1, df0):

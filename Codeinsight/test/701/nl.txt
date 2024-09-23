@@ -1,0 +1,1 @@
+Find all words, including those with accent characters, in the string var0.

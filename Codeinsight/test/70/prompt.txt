@@ -1,0 +1,2 @@
+Get the immediate minimum among a list of numbers lst0 in python   
+def test(lst0):

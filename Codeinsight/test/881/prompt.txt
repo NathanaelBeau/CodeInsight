@@ -1,0 +1,5 @@
+Split a dataframe df0 based on unique values in column var0
+import pandas as pd
+
+
+def test(df0, var0):

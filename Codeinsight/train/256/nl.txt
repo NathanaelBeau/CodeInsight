@@ -1,0 +1,1 @@
+Get the average values from two numpy arrays `old_set` and `new_set`

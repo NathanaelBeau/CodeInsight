@@ -1,0 +1,1 @@
+generate a list of tuples from a pandas DataFrame df0 with the column name and column values   

@@ -1,0 +1,1 @@
+Check if any dictionary in the list lst0 has a key var0 with a value of var1

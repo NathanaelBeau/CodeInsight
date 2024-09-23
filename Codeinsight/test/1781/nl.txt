@@ -1,0 +1,1 @@
+Convert a dictionary var0 into a list of tuples reversing key and value

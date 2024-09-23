@@ -1,0 +1,1 @@
+Use the applymap method to apply the function func to each element of DataFrame df0 in axis var0.

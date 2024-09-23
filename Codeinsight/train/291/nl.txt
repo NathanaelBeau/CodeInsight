@@ -1,0 +1,1 @@
+Curve curvature in numpy  :  calculate the tangential and the radial aceleration vectors at each point of array arr0

@@ -1,0 +1,1 @@
+Retrieve a list that contains all non-empty elements from the list lst0.

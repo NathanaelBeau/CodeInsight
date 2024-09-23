@@ -1,0 +1,1 @@
+Split a string var0 by comma and remove whitespace from the beginning and end of each split 

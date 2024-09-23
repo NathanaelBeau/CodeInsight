@@ -1,0 +1,1 @@
+Count the number of rows for each unique group defined by key_columns in the dataframe df.

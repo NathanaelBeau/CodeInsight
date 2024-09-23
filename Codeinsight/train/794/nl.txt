@@ -1,0 +1,1 @@
+Create a list with var0 number of empty dictionaries

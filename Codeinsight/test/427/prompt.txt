@@ -1,0 +1,4 @@
+split column str0 in dataframe df0 into two columns str1 and str2 by first whitespace ' '
+import pandas as pd
+
+def test(df0, str0, str1, str2):

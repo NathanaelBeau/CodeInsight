@@ -1,0 +1,1 @@
+Convert a list of integers lst0 into a single integer.

@@ -1,0 +1,1 @@
+write a python code to implement Sigmoid function evaluated on var1

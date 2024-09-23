@@ -1,0 +1,1 @@
+Drop the subcolumn 'a' under the main column 'col1' from dataframe df0.

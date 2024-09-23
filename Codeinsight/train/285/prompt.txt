@@ -1,0 +1,4 @@
+Python remove anything that is not a letter or number with regex str object, only ASCII A-Za-z0-9  in string str0
+import re
+
+def test(str0):

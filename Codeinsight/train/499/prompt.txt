@@ -1,0 +1,4 @@
+Remove a specified column named str0 from a given DataFrame df0 
+import pandas as pd
+
+def test(df0, str0):

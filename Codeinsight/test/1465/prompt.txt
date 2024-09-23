@@ -1,0 +1,2 @@
+Multiply each element of the list lst0 by the number var0  
+def test(lst0, var0):

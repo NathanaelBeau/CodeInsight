@@ -1,0 +1,2 @@
+Check if the string var0 contains any upper or lower-case ASCII letters.
+def test(var0):

@@ -1,0 +1,5 @@
+Replace NaN values in the pandas DataFrame df0 with an empty string.
+import numpy as np
+import pandas as pd 
+
+def test(df0):

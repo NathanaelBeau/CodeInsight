@@ -1,0 +1,1 @@
+Group by column var0 in dataframe df0 and sum only the values in column var1

@@ -1,0 +1,1 @@
+Get a pandas DataFrame summing over the rows with identical column names in DataFrame df0.

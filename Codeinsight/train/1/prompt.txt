@@ -1,0 +1,2 @@
+Return a list of all tuples that contain var0 in a list lst0 of tuples.
+def test(var0, lst0):

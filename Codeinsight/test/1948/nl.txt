@@ -1,0 +1,1 @@
+Get indices of the top N  var0 values of a list   lst0 with numpy argsort

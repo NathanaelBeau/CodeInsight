@@ -1,0 +1,2 @@
+Get the first elements from a list of tuples lst0.
+def test(lst0):

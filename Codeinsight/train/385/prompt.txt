@@ -1,0 +1,2 @@
+Insert string str0 after each character of str1.
+def test(str0, str1):

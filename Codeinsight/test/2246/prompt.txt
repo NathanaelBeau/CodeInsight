@@ -1,0 +1,2 @@
+Count all the key-value pairs including nested ones in dictionary dict0.
+def test(dict0):

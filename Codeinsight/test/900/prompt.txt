@@ -1,0 +1,2 @@
+check if all the provided lists (including the first one, lst0, and any additional lists passed as *args) have the same length.  
+def test(lst0, *args):

@@ -1,0 +1,1 @@
+Mapping a function var1 on the first column of a dataframe var0   

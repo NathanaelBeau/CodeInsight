@@ -1,0 +1,1 @@
+check if all of the following items in list lst0 are in a list lst1

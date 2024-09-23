@@ -1,0 +1,4 @@
+Create a dictionary using columns col_name1 and col_name2 from a pandas DataFrame df0.
+import pandas as pd
+
+def test(df0, col_name1, col_name2):

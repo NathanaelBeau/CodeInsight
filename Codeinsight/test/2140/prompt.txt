@@ -1,0 +1,2 @@
+Sum elements in a list lst0 of string numbers
+def test(lst0):

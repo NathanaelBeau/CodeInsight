@@ -1,0 +1,1 @@
+Return dataframe df0 with its last row removed.

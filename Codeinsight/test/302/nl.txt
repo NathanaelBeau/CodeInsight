@@ -1,0 +1,1 @@
+Add an empty column named var0 to a pandas DataFrame df0.

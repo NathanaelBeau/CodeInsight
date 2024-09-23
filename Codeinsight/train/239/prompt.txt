@@ -1,0 +1,2 @@
+substract two lists lst1 and lst2 element wise
+def test(lst1,lst2):

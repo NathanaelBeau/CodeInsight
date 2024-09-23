@@ -1,0 +1,2 @@
+Comparing values in two lists lst0 and lst1 in Python   
+def test(lst0, lst1):

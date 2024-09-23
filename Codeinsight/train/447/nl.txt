@@ -1,0 +1,1 @@
+Remove all square brackets and their contents from the string var0.

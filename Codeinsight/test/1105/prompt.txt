@@ -1,0 +1,2 @@
+Generate a dictionary where each tuple in the list lst0 is stored as a value, and the tuple's first element serves as the corresponding key.
+def test(lst0):

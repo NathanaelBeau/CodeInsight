@@ -1,0 +1,1 @@
+return the union of two lists lst1 and lst2

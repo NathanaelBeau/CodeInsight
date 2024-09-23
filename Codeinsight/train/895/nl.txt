@@ -1,0 +1,2 @@
+Remove all whitespaces from a string var0   
+

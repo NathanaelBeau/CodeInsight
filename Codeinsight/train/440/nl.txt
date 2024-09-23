@@ -1,0 +1,1 @@
+Replace multiple substrings in the string var0 based on the replacement mapping replacements.

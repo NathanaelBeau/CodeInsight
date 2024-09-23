@@ -1,0 +1,1 @@
+assert test([(1, 'a'), (2, 'b'), (1, 'c')]) == {1: 'c', 2: 'b'}, 'Test failed'

@@ -1,0 +1,1 @@
+Find the first occurrence of any substring from list lst0 in string var0

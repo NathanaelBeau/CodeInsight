@@ -1,0 +1,1 @@
+Convert the values in column var0 of the pandas DataFrame df0 from floats to integers.

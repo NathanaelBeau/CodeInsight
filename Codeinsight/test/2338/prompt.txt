@@ -1,0 +1,2 @@
+ python  split a word str0 into a list   
+def test(str0):

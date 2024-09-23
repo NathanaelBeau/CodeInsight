@@ -1,0 +1,2 @@
+Create a null vector of size var1
+def test(var1):

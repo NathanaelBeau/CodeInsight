@@ -1,0 +1,3 @@
+The intent from a developer could be: "Generate a frequency table for a single variable 'variable' in a DataFrame var0.
+import pandas as pd
+def test(var0):

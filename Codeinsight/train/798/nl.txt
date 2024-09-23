@@ -1,0 +1,1 @@
+Replace all semicolons with colons in a string var0

@@ -1,0 +1,4 @@
+Create an empty pandas DataFrame with column names provided in the list lst0.
+import pandas as pd
+
+def test(lst0):

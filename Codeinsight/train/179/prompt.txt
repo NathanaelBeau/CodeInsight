@@ -1,0 +1,2 @@
+would return the sum of first var1 natural numbers, where var1 is the input
+def test(var1):

@@ -1,0 +1,2 @@
+Find the largest integer less than a given number var0.
+def test(var0):

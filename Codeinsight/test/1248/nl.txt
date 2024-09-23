@@ -1,0 +1,1 @@
+Compute the row-wise dot product of two matrices mat0 and mat1  

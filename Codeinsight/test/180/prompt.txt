@@ -1,0 +1,4 @@
+Replace occurrences of string str0 with new string str1 in the specified column str2 of DataFrame df0.
+import pandas as pd
+
+def test(df0, str2, str0, str1):

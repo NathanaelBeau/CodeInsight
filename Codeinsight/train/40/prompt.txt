@@ -1,0 +1,2 @@
+return the counts of character var1 in the string var2
+def test(var1,var2):

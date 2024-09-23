@@ -1,0 +1,1 @@
+Write a Python program to sort (Descending) a dictionary dict1 by value.

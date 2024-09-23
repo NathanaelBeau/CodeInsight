@@ -1,0 +1,2 @@
+adds the elements of two lists lst1 and lst2 itemwise.
+def test(lst1,lst2):

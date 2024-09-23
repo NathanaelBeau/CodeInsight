@@ -1,0 +1,1 @@
+ split a list lst0 into evenly sized chunks of size  var0 with oneliner using list comprehension    

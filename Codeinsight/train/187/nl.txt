@@ -1,0 +1,1 @@
+return the ascii code of a char var1

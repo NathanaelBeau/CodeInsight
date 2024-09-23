@@ -1,0 +1,2 @@
+Set value for key key0 in dict dict0 to 0 if key key0 does not exist or if its value is None.
+def test(dict0, key0):

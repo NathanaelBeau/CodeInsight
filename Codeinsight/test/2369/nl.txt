@@ -1,0 +1,1 @@
+Check if the string var0 contains only alphanumeric characters.

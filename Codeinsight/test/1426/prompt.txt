@@ -1,0 +1,4 @@
+ simple way to remove multiple spaces in a string str0 with regex
+import re
+
+def test(str0):

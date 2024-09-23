@@ -1,0 +1,2 @@
+Retrieve the first value from the dictionary dict0.  
+def test(dict0):

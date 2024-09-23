@@ -1,0 +1,1 @@
+Retrieve the first var0 rows from a dataframe df0

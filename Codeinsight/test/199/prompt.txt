@@ -1,0 +1,2 @@
+Appending value var0 to list at key str0 in Python dictionary  dict0 
+def test(dict0, str0, var0):

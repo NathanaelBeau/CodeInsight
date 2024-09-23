@@ -1,0 +1,1 @@
+Find alternating repetitive digit pairs in the string var0.

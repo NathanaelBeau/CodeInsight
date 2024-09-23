@@ -1,0 +1,2 @@
+Convert all keys in dictionary dict0 to lowercase
+def test(dict0):

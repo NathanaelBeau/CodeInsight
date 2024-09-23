@@ -1,0 +1,1 @@
+Extract the first letter from each word in the string str0.

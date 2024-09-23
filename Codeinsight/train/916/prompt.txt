@@ -1,0 +1,2 @@
+Convert a list lst0 into a concatenated string   
+def test(lst0):

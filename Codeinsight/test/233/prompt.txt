@@ -1,0 +1,4 @@
+Find the 25th, 50th, and 75th percentiles of the values in column column_name0 of dataframe df0.
+import pandas as pd
+
+def test(df0, column_name0):

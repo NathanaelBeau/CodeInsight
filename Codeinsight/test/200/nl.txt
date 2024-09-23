@@ -1,0 +1,1 @@
+Compute the logarithm of the matrix mat0 while efficiently avoiding taking the log of zero values   

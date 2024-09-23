@@ -1,0 +1,4 @@
+Return dataframe df0 with its last row removed.
+import pandas as pd
+
+def test(df0):

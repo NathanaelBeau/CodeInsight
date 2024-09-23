@@ -1,0 +1,1 @@
+Generate a one-hot-encoded dataframe from a column var0 in dataframe df0

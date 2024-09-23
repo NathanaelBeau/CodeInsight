@@ -1,0 +1,1 @@
+takes two numbers var1 and var2. The function divides var1 by var2 and return the result. The function return None, if the second number is 0

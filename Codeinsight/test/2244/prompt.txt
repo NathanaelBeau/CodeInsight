@@ -1,0 +1,4 @@
+Count the number of rows for each group identified by the columns in key_columns in the dataframe df.
+import pandas as pd
+
+def test(df: pd.DataFrame, key_columns: list) -> pd.Series:

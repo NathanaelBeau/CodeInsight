@@ -1,0 +1,1 @@
+Write a python program that multiplies two lists lst1 and lst2 of values itemwise and return the result

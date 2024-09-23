@@ -1,0 +1,2 @@
+takes either a list or tuple lst1 as input and reverses the order of its elements
+def test( lst1 ):

@@ -1,0 +1,1 @@
+Calculate the Mean Squared Error between two lists lst0 and lst1 using Numpy

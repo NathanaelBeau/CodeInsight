@@ -1,0 +1,1 @@
+Extract the content within the brackets from the string var0.

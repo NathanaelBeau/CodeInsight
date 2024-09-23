@@ -1,0 +1,1 @@
+return the largest of the numbers var1, var2 and var3

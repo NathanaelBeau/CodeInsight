@@ -1,0 +1,1 @@
+Combine row with same index summing values of its columns from a dataframe df0

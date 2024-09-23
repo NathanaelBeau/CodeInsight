@@ -1,0 +1,4 @@
+Clone the vector vec0 num_times0 times along the specified axis axis0.
+import numpy as np
+
+def test(vec0, num_times0, axis0=0):

@@ -1,0 +1,1 @@
+Add items var1 to a dictionary of lists lst0 at key var0

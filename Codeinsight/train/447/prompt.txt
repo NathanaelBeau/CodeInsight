@@ -1,0 +1,4 @@
+Remove all square brackets and their contents from the string var0.
+import re
+
+def test(var0):

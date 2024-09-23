@@ -1,0 +1,1 @@
+python pandas flatten a dataframe df0 to a list with numpy  ravel

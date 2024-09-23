@@ -1,0 +1,1 @@
+Replace text var0 by var1 in a string var2

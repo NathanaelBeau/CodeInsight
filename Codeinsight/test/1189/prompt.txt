@@ -1,0 +1,3 @@
+Obtain the unique elements of numpy array arr0 while preserving their original order  
+import numpy as np
+def test(arr0):

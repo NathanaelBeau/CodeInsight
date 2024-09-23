@@ -1,0 +1,4 @@
+Apply a function func to a column named var0 in a pandas DataFrame df0.
+import pandas as pd
+
+def test(df0, var0, func):

@@ -1,0 +1,1 @@
+Move the last item of the list lst0 to its first position.

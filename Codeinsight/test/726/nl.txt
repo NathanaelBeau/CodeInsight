@@ -1,0 +1,1 @@
+ remove multiple columns that end with same text str0 ath the end   in Pandas datframe df0   

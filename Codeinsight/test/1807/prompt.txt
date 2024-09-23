@@ -1,0 +1,2 @@
+Convert character char0 to its corresponding integer representation  
+def test(char0):

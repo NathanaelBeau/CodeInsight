@@ -1,0 +1,1 @@
+Generate all possible combinations (Cartesian product) of elements from the list of lists lst0, and return the results as a list of tuples.

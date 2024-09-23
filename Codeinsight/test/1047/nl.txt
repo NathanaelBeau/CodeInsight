@@ -1,0 +1,1 @@
+Retrieve all the values from the numpy array arr0 excluding the value at index var0  

@@ -1,0 +1,2 @@
+Determine the non-NaN elements in a numpy array arr0.   
+def test(arr0):

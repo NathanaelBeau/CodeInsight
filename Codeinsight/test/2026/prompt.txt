@@ -1,0 +1,3 @@
+Reset the index of dataframe df0 and transfer existing index values into columns.
+import pandas as pd
+def test(df0):

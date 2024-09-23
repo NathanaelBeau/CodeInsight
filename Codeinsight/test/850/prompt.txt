@@ -1,0 +1,4 @@
+Sum of product of combinations in a list lst0 using itertools.combinations
+import itertools
+
+def test(lst0):

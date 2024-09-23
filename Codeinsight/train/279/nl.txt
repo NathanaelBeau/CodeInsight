@@ -1,0 +1,1 @@
+Use the elements of var1 as indices to access and return the corresponding elements from the array arr0.

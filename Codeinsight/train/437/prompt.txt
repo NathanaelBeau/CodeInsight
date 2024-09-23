@@ -1,0 +1,4 @@
+Check if the string var0 contains any non-English characters.
+import re
+
+def test(var0):

@@ -1,0 +1,2 @@
+Get a list comparing two lists of tuples lst0 and lst1 where any first value in lst0 matches the first value in lst1.
+def test(lst0, lst1):

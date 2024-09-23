@@ -1,0 +1,1 @@
+Get max value index for a list of dicts  lst0 on key var0

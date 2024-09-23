@@ -1,0 +1,1 @@
+Copy all elements from a numpy array arr0 to a new numpy array

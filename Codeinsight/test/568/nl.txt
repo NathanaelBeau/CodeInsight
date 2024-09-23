@@ -1,0 +1,1 @@
+Concatenate two DataFrames df0 and df1 while ignoring and resetting their indices  

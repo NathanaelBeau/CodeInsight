@@ -1,0 +1,1 @@
+Intent: Generate a list of integers from 11 to 19 using list comprehension.

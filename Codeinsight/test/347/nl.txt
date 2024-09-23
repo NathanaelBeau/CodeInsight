@@ -1,0 +1,1 @@
+Create a NumPy array data0 that can store elements of different datatypes  

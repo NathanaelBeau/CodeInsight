@@ -1,0 +1,4 @@
+randomly select a variable from a list lst0, and then modify it in python   
+import random
+
+def test(lst0):

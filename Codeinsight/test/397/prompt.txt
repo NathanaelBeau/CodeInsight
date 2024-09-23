@@ -1,0 +1,2 @@
+modify the elements ( multiply x 2) in a list lst0 within list   
+def test(lst0):

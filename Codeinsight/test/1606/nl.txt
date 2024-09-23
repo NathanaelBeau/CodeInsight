@@ -1,0 +1,1 @@
+Filter DataFrame df0 based on the condition cond0 using the query method, and return the resulting DataFrame.

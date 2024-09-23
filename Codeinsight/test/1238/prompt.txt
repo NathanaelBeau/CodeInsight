@@ -1,0 +1,4 @@
+Select distinct values across columns lst0 in a dataframe df0
+import pandas as pd
+
+def test(df0, lst0):

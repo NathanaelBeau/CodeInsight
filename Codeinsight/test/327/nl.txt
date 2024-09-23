@@ -1,0 +1,1 @@
+Flatten the hierarchical index in columns of dataframe df0."

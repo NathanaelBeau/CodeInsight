@@ -1,0 +1,1 @@
+Extract a slice of columns from dataframe df0 starting from start_column0 to end_column0.

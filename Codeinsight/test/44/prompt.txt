@@ -1,0 +1,2 @@
+get a list of items form nested list lst0 where third element of each item contains string 'ar'
+def test(lst0):

@@ -1,0 +1,4 @@
+Convert an HTML string str0 into a readable string text with line breaks.
+from bs4 import BeautifulSoup
+
+def test(str0):

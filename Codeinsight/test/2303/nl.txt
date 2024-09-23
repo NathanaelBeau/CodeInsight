@@ -1,0 +1,1 @@
+Convert an array of indices arr0 into a 1-hot encoded numpy array with a depth of var0.

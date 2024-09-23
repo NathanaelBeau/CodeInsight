@@ -1,0 +1,4 @@
+Split string str0 based on a regular expression   
+import re
+
+def test(str0):

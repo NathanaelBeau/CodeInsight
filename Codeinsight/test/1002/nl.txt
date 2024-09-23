@@ -1,0 +1,1 @@
+Delete elements from the array arr0 along a specified axis var1 at intervals determined by var0. 

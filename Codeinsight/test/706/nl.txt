@@ -1,0 +1,1 @@
+Python- insert a character var0 into a string  str0 at index 1

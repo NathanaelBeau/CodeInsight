@@ -1,0 +1,1 @@
+Replace all single word characters in string var0 with the string var1.

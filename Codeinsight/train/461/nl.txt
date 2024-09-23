@@ -1,0 +1,1 @@
+Select all columns from dataframe df0 except for column var0.

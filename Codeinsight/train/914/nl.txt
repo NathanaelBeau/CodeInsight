@@ -1,0 +1,1 @@
+Check if all elements of a list lst0 of lists in position var0 are different of var1 

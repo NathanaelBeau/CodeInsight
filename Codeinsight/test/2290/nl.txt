@@ -1,0 +1,1 @@
+Find all possible substrings in var0 that begin with characters from the capturing group var1.

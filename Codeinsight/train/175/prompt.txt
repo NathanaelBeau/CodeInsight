@@ -1,0 +1,2 @@
+multiplies 3 numbers var1,var2 and var3 and return the result
+def test(var1,var2,var3):

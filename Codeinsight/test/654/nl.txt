@@ -1,0 +1,2 @@
+Best way to strip punctuation from a string str0 with 
+maketrans and string.punctuation

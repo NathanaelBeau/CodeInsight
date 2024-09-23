@@ -1,0 +1,1 @@
+Group a dataframe df0 by a column named column_name0 and sum the other columns without turning the grouped by column into an index.

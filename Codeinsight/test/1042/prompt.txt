@@ -1,0 +1,4 @@
+Convert the string var0 with format like '3.71B' or '4M' to its numeric equivalent.
+import re
+
+def test(var0):

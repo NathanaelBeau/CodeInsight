@@ -1,0 +1,1 @@
+assert test("Name: Alice Age: 30 City: Wonderland") =="Alice 30 Wonderland", 'Test failed'

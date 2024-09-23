@@ -1,0 +1,1 @@
+Sort a numpy float array A in ascending order for each column.

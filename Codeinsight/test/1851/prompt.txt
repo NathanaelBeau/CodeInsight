@@ -1,0 +1,4 @@
+Convert list of tuples lst0 to list   
+import numpy as np
+
+def test(lst0):

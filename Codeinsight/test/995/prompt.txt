@@ -1,0 +1,2 @@
+string str0 to list conversion in python   
+def test(str0):

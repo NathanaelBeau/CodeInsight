@@ -1,0 +1,1 @@
+Slicing a list lst0 into a list of sub-lists of lenght n  

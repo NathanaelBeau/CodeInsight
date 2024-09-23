@@ -1,0 +1,2 @@
+Encode unicode string str0 to utf-8 code.
+def test(str0):

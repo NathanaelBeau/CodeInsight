@@ -1,0 +1,1 @@
+delete central character  from a string str0 using  Python   replace

@@ -1,0 +1,1 @@
+Retrieve rows from the pandas DataFrame df0 that have the maximum value in groups, grouped by var0 and considering the values in var1.

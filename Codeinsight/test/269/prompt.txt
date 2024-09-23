@@ -1,0 +1,4 @@
+Find the last occurrence of the regular expression pattern in the string var0.
+import re
+
+def test(var0, pattern):

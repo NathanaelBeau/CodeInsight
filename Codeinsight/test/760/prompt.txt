@@ -1,0 +1,2 @@
+Convert list lst0 into a dictionary  using zip
+def test(lst0):

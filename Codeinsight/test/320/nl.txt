@@ -1,0 +1,1 @@
+Combine two pandas Series ser0 and ser1 into a DataFrame.

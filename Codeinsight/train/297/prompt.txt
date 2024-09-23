@@ -1,0 +1,2 @@
+print a character that has unicode value `\u25b2`
+def test():

@@ -1,0 +1,1 @@
+Determine the size (in bytes) of the data type dtype0 using NumPy  

@@ -1,0 +1,3 @@
+Sort a list of tuples lst0 based on the second item in descending order
+from operator import itemgetter 
+def test(lst0):

@@ -1,0 +1,2 @@
+Get the shape (number of rows and columns) of a dataframe df0
+

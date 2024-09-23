@@ -1,0 +1,1 @@
+Numpy: Find column index for element on each row   from vector var0 on matrix var1

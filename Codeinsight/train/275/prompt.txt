@@ -1,0 +1,4 @@
+Remove any words containing digits from the input string str0, and then remove any leading or trailing whitespace from the resulting string.
+import re
+
+def test(str0):

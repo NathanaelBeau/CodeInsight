@@ -1,0 +1,1 @@
+Add an extra column col0 to a NumPy array arr0

@@ -1,0 +1,1 @@
+Remove all text within parentheses, including the parentheses, from string str0.

@@ -1,0 +1,1 @@
+Convert the string s to an integer or a float, depending on its content.

@@ -1,0 +1,5 @@
+Best way to strip punctuation from a string str0 with 
+replace
+import string
+
+def test(str0):

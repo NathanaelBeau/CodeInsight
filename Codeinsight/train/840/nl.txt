@@ -1,0 +1,1 @@
+Add or subtract a time duration (timedelta0) to the index of a dataframe df0 where the index objects are of type datetime.time.

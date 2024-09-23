@@ -1,0 +1,2 @@
+Replacing instances of a character ; by : in a string str0   with replace
+def test(str0):

@@ -1,0 +1,5 @@
+apply a logical operator to all elements in a python list  lst0 with operator
+from functools import reduce
+import operator
+
+def test(lst0):

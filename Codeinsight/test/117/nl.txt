@@ -1,0 +1,2 @@
+Calculate the sum of all elements in a list 
+lst0   

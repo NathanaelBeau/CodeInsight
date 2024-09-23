@@ -1,0 +1,1 @@
+How to get every first element in 2 dimensional list lst0  

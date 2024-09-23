@@ -1,0 +1,1 @@
+ extract numbers(commas) from a string str0 in Python  with regex 

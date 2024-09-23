@@ -1,0 +1,2 @@
+Search a specific element in a list of tuples var0 if var1 is matching the first element
+def test(var0, var1):

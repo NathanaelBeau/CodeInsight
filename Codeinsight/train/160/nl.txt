@@ -1,0 +1,1 @@
+Write a python program to check if two lists lst1 and lst2 are equal

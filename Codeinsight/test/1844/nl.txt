@@ -1,0 +1,1 @@
+Change the data type of the column 'grade' in the dataframe df0 into float and then to int.

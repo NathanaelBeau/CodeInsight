@@ -1,0 +1,2 @@
+Merge a given series var0 with a dataframe df0.
+

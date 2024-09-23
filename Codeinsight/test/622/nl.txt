@@ -1,0 +1,1 @@
+How to add a column to a multi-indexed DataFrame df0?   

@@ -1,0 +1,4 @@
+For Series s0, use the map method to apply the function func.
+import pandas as pd
+
+def test(s0, func):

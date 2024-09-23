@@ -1,0 +1,1 @@
+Filter columns from starting column var0 to end column var1 from dataframe df0 when value var2 appears  

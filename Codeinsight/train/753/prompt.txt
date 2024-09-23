@@ -1,0 +1,3 @@
+Convert a DateTime string var0 to a DateTime object with the format '%Y-%m-%d %H:%M:%S.%f'
+from datetime import datetime
+def test(var0):

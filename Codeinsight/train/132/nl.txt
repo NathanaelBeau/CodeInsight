@@ -1,0 +1,1 @@
+Counts the Number of Blank Spaces in a string var1

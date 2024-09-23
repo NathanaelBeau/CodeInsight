@@ -1,0 +1,1 @@
+Create a new list by repeating each element in the input list lst0 or range a specified number of times var0.

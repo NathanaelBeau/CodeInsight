@@ -1,0 +1,1 @@
+Insert a dictionary {'spam': 5, 'ham': 6} into another dictionary dict0 under the field 'dict3'.

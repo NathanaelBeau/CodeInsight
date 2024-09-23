@@ -1,0 +1,2 @@
+Convert a string representation of a number var0 that includes commas (as thousands separators) into an integer 
+def test(var0):

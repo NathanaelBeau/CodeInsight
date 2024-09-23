@@ -1,0 +1,2 @@
+Parse a string str0 to an integer if it contains a number
+def test(str0):

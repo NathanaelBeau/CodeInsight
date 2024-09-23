@@ -1,0 +1,4 @@
+Filter DataFrame df0 based on the condition cond0 using the query method, and return the resulting DataFrame.
+import pandas as pd
+
+def test(df0, cond0):

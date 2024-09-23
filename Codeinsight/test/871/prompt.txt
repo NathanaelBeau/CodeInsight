@@ -1,0 +1,6 @@
+Generate a random string of length var0, a-z only
+import random
+import string
+
+
+def test(var0):

@@ -1,0 +1,1 @@
+Convert a 3D list lst0 into a 3D NumPy array.

@@ -1,0 +1,1 @@
+write a python function for a string var1 to swap the case of all letters.

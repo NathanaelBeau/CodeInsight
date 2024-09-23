@@ -1,0 +1,4 @@
+Get the average values from two numpy arrays `old_set` and `new_set`
+import numpy as np
+
+def test(old_set: np.ndarray, new_set: np.ndarray) -> np.ndarray:

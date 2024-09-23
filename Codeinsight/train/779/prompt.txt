@@ -1,0 +1,2 @@
+Convert the string str0 into a list of its individual characters
+def test(str0):

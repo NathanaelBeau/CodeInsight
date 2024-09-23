@@ -1,0 +1,1 @@
+Square each element of the 2D numpy array mat0  

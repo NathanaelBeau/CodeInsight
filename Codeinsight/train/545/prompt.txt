@@ -1,0 +1,2 @@
+update dictionary dict0 with dynamic keys and values from var0 in python   
+def test(dict0, var0):

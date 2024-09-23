@@ -1,0 +1,1 @@
+filter out key-value pairs from the dictionary dict0 where the value is equal to var0 

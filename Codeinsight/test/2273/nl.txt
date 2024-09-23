@@ -1,0 +1,1 @@
+Remove key named var0 from a dictionary dict0

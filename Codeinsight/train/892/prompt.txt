@@ -1,0 +1,2 @@
+Removing key values pairs with key var0 from a list lst0 of dictionaries   
+def test(lst0, var0):

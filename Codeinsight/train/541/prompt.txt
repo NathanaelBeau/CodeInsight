@@ -1,0 +1,4 @@
+Rename specific column(s) var0 by var1 in pandas  dataframe df
+import pandas as pd
+
+def  test(df):

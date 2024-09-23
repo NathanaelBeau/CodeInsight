@@ -1,0 +1,1 @@
+Sort a dictionary dct0 by the highest value of its nested list values in descending order   

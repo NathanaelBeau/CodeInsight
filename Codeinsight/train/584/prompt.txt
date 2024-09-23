@@ -1,0 +1,4 @@
+Split strings in tuples into columns var0, in Pandas  dataframe df0 
+import pandas as pd
+
+def test(df0, var0):

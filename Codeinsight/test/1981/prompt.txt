@@ -1,0 +1,4 @@
+Check if a string str0 is present in a pandas DataFrame df0
+import pandas as pd
+
+def test(str0, df0):

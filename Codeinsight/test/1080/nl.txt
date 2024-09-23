@@ -1,0 +1,1 @@
+Check if all elements in the list lst0 are of the type typ0

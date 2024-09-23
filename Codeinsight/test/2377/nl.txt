@@ -1,0 +1,1 @@
+Add the index of the DataFrame df0 as a new column named var0 within the same DataFrame.

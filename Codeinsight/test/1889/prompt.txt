@@ -1,0 +1,4 @@
+Replace sequences of repeated uppercase letters in string var0 with a single lowercase version of that letter.
+import re
+
+def test(var0):

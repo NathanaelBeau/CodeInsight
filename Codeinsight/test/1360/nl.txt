@@ -1,0 +1,1 @@
+Pandas : Use groupby on each element of list  lst0  

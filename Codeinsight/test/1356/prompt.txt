@@ -1,0 +1,4 @@
+Check if a value value is a numpy type.
+import numpy as np
+
+def test(value):

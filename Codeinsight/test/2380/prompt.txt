@@ -1,0 +1,2 @@
+Find the largest difference (delta) between two consecutive integers in the list lst0.
+def test(lst0):

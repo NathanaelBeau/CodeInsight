@@ -1,0 +1,4 @@
+Access an arbitrary element(first one) in a dictionary dict0 in Python   
+import six
+
+def test(dict0):

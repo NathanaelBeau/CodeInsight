@@ -1,0 +1,1 @@
+Retrieve the index of a row from the DataFrame df0 where the value in column column_name0 matches some_value0, and return the index as an integer.  

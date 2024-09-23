@@ -1,0 +1,4 @@
+Get an ordered list of unique items in list lst0  
+import itertools
+
+def test(lst0):

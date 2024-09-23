@@ -1,0 +1,4 @@
+Merge dictionaries from array lst0 into a single dictionary in one expression.
+from collections import ChainMap
+
+def test(lst0):

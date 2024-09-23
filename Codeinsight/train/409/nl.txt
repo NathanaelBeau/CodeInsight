@@ -1,0 +1,1 @@
+Insert the string str0 into position var0 of string s.

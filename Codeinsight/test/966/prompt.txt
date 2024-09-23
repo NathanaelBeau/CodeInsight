@@ -1,0 +1,2 @@
+Remove all empty strings from a list of strings lst0
+def test(lst0):

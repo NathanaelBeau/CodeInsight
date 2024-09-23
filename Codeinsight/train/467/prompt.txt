@@ -1,0 +1,4 @@
+Group rows of a pandas DataFrame df0 based on column var0 and convert the values of column var1 into lists.
+import pandas as pd
+
+def test(df0, var0, var1):

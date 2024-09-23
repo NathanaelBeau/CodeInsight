@@ -1,0 +1,2 @@
+Sort two lists (lst0 and lst1) based on the values in lst0.
+def test(lst0, lst1):

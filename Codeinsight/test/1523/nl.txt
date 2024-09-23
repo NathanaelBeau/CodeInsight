@@ -1,0 +1,1 @@
+regular expression match nothing in string var0

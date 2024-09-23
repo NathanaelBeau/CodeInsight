@@ -1,0 +1,2 @@
+Compute the mean of elements in list lst0.
+def test(lst0):

@@ -1,0 +1,1 @@
+find the iloc of a row str0 in pandas dataframe df0   

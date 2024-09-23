@@ -1,0 +1,1 @@
+Extract the first line from a multi-line string my_string.

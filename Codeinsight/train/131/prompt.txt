@@ -1,0 +1,2 @@
+write a python function to get the most common letter in text var1
+def test(var1):

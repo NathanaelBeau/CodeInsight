@@ -1,0 +1,2 @@
+Remove duplicated whitespaces from a string var0   
+

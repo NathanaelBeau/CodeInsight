@@ -1,0 +1,1 @@
+Write a Python function to check if a nested list lst2 is a subset of another nested list lst1.

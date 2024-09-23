@@ -1,0 +1,4 @@
+Find the max of two or more columns  lst0 in dataframe df0 with pandas   
+import pandas as pd
+
+def test(df0, lst0):

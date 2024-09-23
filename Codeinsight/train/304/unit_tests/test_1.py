@@ -1,0 +1,1 @@
+assert test('a&aa$a%') == 'aaaa', 'Test failed'

@@ -1,0 +1,4 @@
+Pandas DataFrame Groupby two columns lst0 and lst1 and get counts   on dataframe df0
+import pandas as pd
+
+def test(lst0, lst1):

@@ -1,0 +1,2 @@
+Keep the first occurrence of unique values in column var0 while retaining other columns in dataframe df0.
+

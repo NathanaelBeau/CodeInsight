@@ -1,0 +1,1 @@
+List comprehension - converting strings in one list lst0, sum elements and convert to integers in another list   

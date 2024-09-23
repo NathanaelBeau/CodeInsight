@@ -1,0 +1,2 @@
+Check if the string var0 contains any non-English characters.
+def test(var0):

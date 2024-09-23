@@ -1,0 +1,5 @@
+Merge two dataframes df0 and df1 based on a common column named var0
+
+import pandas as pd
+
+def test(df0, df1, var0):

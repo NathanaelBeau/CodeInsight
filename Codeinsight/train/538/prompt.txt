@@ -1,0 +1,4 @@
+ sort a zipped list lst0 in Python  
+import operator
+
+def test(lst0):

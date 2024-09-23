@@ -1,0 +1,1 @@
+Count all integers in a list named lst0.

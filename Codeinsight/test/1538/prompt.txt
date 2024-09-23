@@ -1,0 +1,4 @@
+Find all sequences of characters in string var0 that are between the special characters { and }.
+import re
+
+def test(var0):

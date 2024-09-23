@@ -1,0 +1,1 @@
+Find the indices of rows matching (0,1) in a 2-dimensional numpy array arr0

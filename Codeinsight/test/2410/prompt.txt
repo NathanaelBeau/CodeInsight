@@ -1,0 +1,4 @@
+Extract all characters situated between two $ characters in the provided string string.
+import re
+
+def test(string: str) -> list:

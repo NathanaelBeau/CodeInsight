@@ -1,0 +1,2 @@
+find the sum of elements in list lst1
+def test(lst1):

@@ -1,0 +1,1 @@
+Extract string with Python re.match   from URL string str0

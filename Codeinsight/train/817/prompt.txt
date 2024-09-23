@@ -1,0 +1,4 @@
+Create a cartesian product of two dataframes, df0 and 
+df1
+import pandas as pd
+def test(df0, df1):

@@ -1,0 +1,4 @@
+Split a list lst0 whenever there are repeating elements in the list.
+from itertools import groupby
+
+def test(lst0):

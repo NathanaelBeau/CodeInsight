@@ -1,0 +1,1 @@
+Removing items var0 from unnamed lists lst0 in Python   

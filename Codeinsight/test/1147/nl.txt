@@ -1,0 +1,1 @@
+Check if the input string var0 is empty.

@@ -1,0 +1,1 @@
+Dictionary to lowercase in Python  in dictionary dict0 with generator expression 

@@ -1,0 +1,2 @@
+Python sorting - A list of objects   lst0
+def test(lst0):

@@ -1,0 +1,2 @@
+Get the maximum string length from a nested list lst0.
+def test(lst0):

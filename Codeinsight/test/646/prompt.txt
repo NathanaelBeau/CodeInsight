@@ -1,0 +1,4 @@
+Replace consecutive repeated words in the string var0 with a single occurrence of the word.
+import re
+
+def test(var0):

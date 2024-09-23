@@ -1,0 +1,1 @@
+assert test(pandas.DataFrame([{'a': 15, 'b': 15, 'c': 5}, {'a': 20, 'b': 10, 'c': 7}, {'a': 25, 'b': 30, 'c': 9}]), lambda x: x**2).equals(pandas.DataFrame([{'a': 225, 'b': 15, 'c': 5}, {'a': 400, 'b': 10, 'c': 7}, {'a': 625, 'b': 30, 'c': 9}])), 'Test failed'

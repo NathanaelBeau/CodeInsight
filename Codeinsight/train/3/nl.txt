@@ -1,0 +1,1 @@
+Retrieve today's date formatted as YYYY-MM-DD.

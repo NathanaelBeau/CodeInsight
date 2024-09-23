@@ -1,0 +1,4 @@
+Extract every var0 row from dataframe df0
+import pandas as pd
+
+def test(df0, var0):

@@ -1,0 +1,1 @@
+Convert integer int0 to its corresponding character representation

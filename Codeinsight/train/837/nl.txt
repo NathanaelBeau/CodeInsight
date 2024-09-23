@@ -1,0 +1,1 @@
+Extract the count values from the value_counts() of column column_name0 in dataframe df0.

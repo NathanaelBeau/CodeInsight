@@ -1,0 +1,2 @@
+How do I merge two dictionaries dict0 and dict1 in a single expression (take union of dictionaries)?   
+def test(dict0, dict1):

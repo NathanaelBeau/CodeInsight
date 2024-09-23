@@ -1,0 +1,2 @@
+ convert and extract first elements from  tuple lst0 to a string   
+def test(lst0):

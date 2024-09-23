@@ -1,0 +1,1 @@
+Split the string column var0 of the DataFrame df0 into two new columns var1 and var2 using the delimiter var3.

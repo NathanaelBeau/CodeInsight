@@ -1,0 +1,1 @@
+Select columns in DataFrame df0 that match the regular expression var0 and divide their values by var1.

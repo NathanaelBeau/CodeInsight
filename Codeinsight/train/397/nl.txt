@@ -1,0 +1,1 @@
+Determine the length of the second column in a 2D array named arr0.

@@ -1,0 +1,1 @@
+Convert a datetime.datetime object datetime0 into a Pandas Timestamp object.

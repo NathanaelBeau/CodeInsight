@@ -1,0 +1,1 @@
+return a list of var2 times the value var1

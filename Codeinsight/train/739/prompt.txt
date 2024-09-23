@@ -1,0 +1,2 @@
+Compute the average of a list named lst0.
+def test(lst0):

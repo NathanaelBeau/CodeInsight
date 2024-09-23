@@ -1,0 +1,1 @@
+Calculate the 1D center of mass for a binary numpy array arr0.

@@ -1,0 +1,3 @@
+Return a list containing the index values of a DataFrame df0. 
+import pandas as pd
+def test(df0) :

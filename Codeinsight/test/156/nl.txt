@@ -1,0 +1,1 @@
+Get all items from a list lst0 that contain the substring 'abc'

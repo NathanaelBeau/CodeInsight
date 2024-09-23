@@ -1,0 +1,4 @@
+Drop rows in dataframe df0 whose index values are in the list lst0.
+import pandas as pd
+
+def test(df0, lst0):

@@ -1,0 +1,1 @@
+move the last item in list lst0 to the beginning

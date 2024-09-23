@@ -1,0 +1,1 @@
+convert list lst0 with str into list with int   using numpy

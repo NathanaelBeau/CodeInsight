@@ -1,0 +1,1 @@
+picks out only negative integers from a given list lst1.

@@ -1,0 +1,4 @@
+Merging list of 2 Lists lst0 In in all possible ways - Python   
+import itertools
+
+def test(lst0, lst1):

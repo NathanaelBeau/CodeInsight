@@ -1,0 +1,4 @@
+Parse a string str0 to an integer if it contains a number
+import re
+
+def test(str0):

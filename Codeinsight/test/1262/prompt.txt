@@ -1,0 +1,4 @@
+Compute the average or mean of the column named col_name in the pandas DataFrame df0.
+import pandas as pd
+
+def test(df0, col_name):

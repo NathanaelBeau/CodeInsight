@@ -1,0 +1,1 @@
+Iterate and retrieve a list of numbers starting from var0 and ending just before var1, in reverse order.

@@ -1,0 +1,4 @@
+Averaging the values in a dictionary dict0 for each keys and return a list of tuples
+import pandas as pd
+
+def test(dict0):

@@ -1,0 +1,1 @@
+Pivot the dataframe df0 using column var0 as index, column var1 as columns, and column var2 as values.

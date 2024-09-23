@@ -1,0 +1,1 @@
+Add the list of items items0 to the numpy array arr0  

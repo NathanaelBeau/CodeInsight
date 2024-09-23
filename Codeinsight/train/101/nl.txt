@@ -1,0 +1,1 @@
+Write a Python function to print all permutations with given repetition number var2 of characters of a given string var1.

@@ -1,0 +1,1 @@
+counts the tokens in a string var1

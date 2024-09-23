@@ -1,0 +1,2 @@
+Insert item0 into a list lst0 in a sorted manner based on the second element of each inner list.
+def test(lst0, item0):

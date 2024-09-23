@@ -1,0 +1,1 @@
+check if all the provided lists (the first list lst0 and any additional lists passed as *args) have the same length.

@@ -1,0 +1,1 @@
+Initialize a pandas DataFrame with columns ['A', 'B', 'A1R', 'B2', 'AABB4'].

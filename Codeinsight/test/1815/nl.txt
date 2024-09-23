@@ -1,0 +1,1 @@
+Split and expand a specified column str0 of a DataFrame df0 by a given delimiter var1, then reorder the DataFrame columns as specified with str1.

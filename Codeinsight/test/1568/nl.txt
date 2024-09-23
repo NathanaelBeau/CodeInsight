@@ -1,0 +1,1 @@
+Remove the index name from a pandas DataFrame df0

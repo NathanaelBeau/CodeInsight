@@ -1,0 +1,1 @@
+Flatten an N-dimensional numpy array arr0 into a 1D array

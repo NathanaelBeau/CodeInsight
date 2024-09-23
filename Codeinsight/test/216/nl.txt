@@ -1,0 +1,1 @@
+Remove all matches in the string var0 that match the pattern var1.

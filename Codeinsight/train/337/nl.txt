@@ -1,0 +1,1 @@
+Write a Python function to create a multidimensional list (lists of lists) with zeros of size var1 * var2.

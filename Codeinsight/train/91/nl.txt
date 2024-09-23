@@ -1,0 +1,1 @@
+Write a Python function to merge two dictionaries var1 and var2

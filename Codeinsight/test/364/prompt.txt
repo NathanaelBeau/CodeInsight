@@ -1,0 +1,2 @@
+Get indices of the top N values var0  of a list  lst0
+def test(lst0, var0):

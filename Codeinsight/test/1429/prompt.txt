@@ -1,0 +1,4 @@
+Calculate the rolling mean for the 'value' column in a DataFrame df0, using the timestamps in column str0, over a specified time interval var0
+import pandas as pd
+
+def test(df0, str0, var0):

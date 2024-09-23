@@ -1,0 +1,1 @@
+Python: Getting rid of \u200b from a string str0 without regular expressions   with replace

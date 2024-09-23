@@ -1,0 +1,1 @@
+Drop rows from DataFrame df0 where the value in column col_name is NaN.

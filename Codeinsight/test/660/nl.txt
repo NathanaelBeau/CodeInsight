@@ -1,0 +1,1 @@
+Calculate the mean across multiple pandas DataFrames given in the list lst0 

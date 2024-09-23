@@ -1,0 +1,2 @@
+convert all elements of list lst1 to upper case
+def test(lst1):

@@ -1,0 +1,2 @@
+Check if all lists in the list lst0 contain exactly three occurrences of the integer 1.
+def test(lst0):

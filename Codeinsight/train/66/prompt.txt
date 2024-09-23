@@ -1,0 +1,2 @@
+calculate and return the average of input numbers in list var1
+def test(var1):

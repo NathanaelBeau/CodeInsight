@@ -1,0 +1,4 @@
+Add SUM of values of two LISTS lst0 and lst1 into new LIST   with np.add
+import numpy as np
+
+def test(lst0, lst1):

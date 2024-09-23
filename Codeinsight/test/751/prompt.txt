@@ -1,0 +1,2 @@
+Count occurrences of bigrams in the string var0.
+def test(var0):

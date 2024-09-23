@@ -1,0 +1,1 @@
+Check if var0 is absent from the list lst0.

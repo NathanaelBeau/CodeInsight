@@ -1,0 +1,4 @@
+ Shuffle the rows of dataframe df0 and reset their index. 
+import pandas as pd
+
+def test(df0):

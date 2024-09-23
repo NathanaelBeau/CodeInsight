@@ -1,0 +1,1 @@
+Append a new column with data from list lst0 to a dataframe df0

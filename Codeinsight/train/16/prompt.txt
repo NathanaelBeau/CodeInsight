@@ -1,0 +1,2 @@
+Make a function that reverses the string var1 and return the result
+def test(var1):

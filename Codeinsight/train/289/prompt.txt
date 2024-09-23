@@ -1,0 +1,4 @@
+Removing all non-numeric characters from string str0
+import re
+
+def test(str0):

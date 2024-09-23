@@ -1,0 +1,1 @@
+assert test({"apple": 1, "banana": 2, "cherry": 3}) == 6, 'Test failed'

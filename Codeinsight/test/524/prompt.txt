@@ -1,0 +1,4 @@
+Extract all keys from a list of dictionaries  lst0 with itertools chain 
+from itertools import chain
+
+def test(lst0):

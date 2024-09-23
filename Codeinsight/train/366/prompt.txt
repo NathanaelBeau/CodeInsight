@@ -1,0 +1,2 @@
+Count the number of elements in list lst0 that are greater than the value var0.
+def test(var0, lst0):

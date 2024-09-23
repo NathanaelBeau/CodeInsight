@@ -1,0 +1,1 @@
+replace the first character of a given string var1 by "x"

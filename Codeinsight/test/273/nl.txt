@@ -1,0 +1,1 @@
+convert a binary (string)str0 into a float value   

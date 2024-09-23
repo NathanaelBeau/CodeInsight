@@ -1,0 +1,2 @@
+Find the first dictionary in the list lst0 where the value for key key0 is value0.
+def test(lst0, key0, value0):

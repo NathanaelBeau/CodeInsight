@@ -1,0 +1,2 @@
+Remove stop words from the string var0 based on the list of stop words lst0.
+def test(var0, lst0):

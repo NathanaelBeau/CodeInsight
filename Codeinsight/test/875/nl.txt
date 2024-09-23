@@ -1,0 +1,1 @@
+Convert a byte string str0 to a unicode string

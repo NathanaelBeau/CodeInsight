@@ -1,0 +1,1 @@
+Get the first var0 elements from list lst0 that are not contained in list lst1.

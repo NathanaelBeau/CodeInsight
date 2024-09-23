@@ -1,0 +1,1 @@
+Filter a DataFrame df0 based on a condition. Specifically, return the rows of the DataFrame df0 where the values in the column str0 are equal to str1.

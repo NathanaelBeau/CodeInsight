@@ -1,0 +1,1 @@
+Add a new column var0 in dataframe df0 whose values are the result of dividing values in column var1 by their corresponding values in column var2.

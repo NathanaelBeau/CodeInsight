@@ -1,0 +1,4 @@
+Filter rows from DataFrame df0 where column col_name does not contain the substring substring.
+import pandas as pd
+
+def test(df0, col_name, substring):

@@ -1,0 +1,1 @@
+Python "extend" for a dictionary  dict0 with an other dictionary dict1

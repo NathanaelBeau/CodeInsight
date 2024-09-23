@@ -1,0 +1,4 @@
+Sum the second list items in a list of lists of lists lst0
+import operator
+
+def test(lst0):

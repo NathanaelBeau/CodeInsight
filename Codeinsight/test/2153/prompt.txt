@@ -1,0 +1,3 @@
+Get the integer index of the first row in DataFrame df0 where column col0 matches the value var0  
+import pandas as pd
+def test(df0, col0, var0):

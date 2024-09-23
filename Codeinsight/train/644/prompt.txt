@@ -1,0 +1,4 @@
+List comprehension with an accumulator  on list lst0 with numpy 
+import numpy as np
+
+def test(lst0):

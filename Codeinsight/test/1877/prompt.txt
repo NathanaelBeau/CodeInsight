@@ -1,0 +1,2 @@
+Replace string var1 with var2 in text var0 while preserving the case.
+def test(var0, var1, var2):

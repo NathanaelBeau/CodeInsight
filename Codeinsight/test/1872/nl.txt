@@ -1,0 +1,1 @@
+Append the first element of the list lst0 to the same list.`

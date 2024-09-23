@@ -1,0 +1,2 @@
+Return the absolute value of a number var1
+def test(var1):

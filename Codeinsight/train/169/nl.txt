@@ -1,0 +1,1 @@
+Write a python program to use extend a list lst1 with list lst2 inplace

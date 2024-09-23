@@ -1,0 +1,1 @@
+Averaging the values in a dictionary dict0 for each keys and return a list of tuples

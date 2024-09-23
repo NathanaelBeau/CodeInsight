@@ -1,0 +1,2 @@
+Return all the alphabetical characters in a string str0 and skips all other characters
+def test(str0):

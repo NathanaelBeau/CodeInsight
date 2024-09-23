@@ -1,0 +1,1 @@
+Find all occurrences of the literal asterisk character in the string var0.

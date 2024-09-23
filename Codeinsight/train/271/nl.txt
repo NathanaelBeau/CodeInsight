@@ -1,0 +1,1 @@
+Filter elements from var0 using corresponding Boolean values from tuples created by zipping lst0, lst1, lst2, and lst3, and then join the filtered elements into a comma-separated string for each tuple. 

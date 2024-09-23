@@ -1,0 +1,4 @@
+Python: Split NumPy array based on values in the array arr0   
+import numpy as np
+
+def test(arr0):

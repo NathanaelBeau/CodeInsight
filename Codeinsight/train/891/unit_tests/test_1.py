@@ -1,0 +1,2 @@
+df = pd.DataFrame({'var0': [1, 2, 3], 'var1': ['a', 'b', 'c']})
+assert test('var0', 'var1', df).equals(pd.DataFrame({'var0': [1, 2, 3], 'var1': ['a', 'b', 'c'], 'frequency': [1, 1, 1]})), 'Test failed'

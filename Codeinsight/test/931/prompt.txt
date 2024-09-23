@@ -1,0 +1,2 @@
+Get the indices of tuples in the list of tuples lst0 where the first value is 53.
+def test(lst0):

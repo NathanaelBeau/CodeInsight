@@ -1,0 +1,3 @@
+Remove all whitespaces from a string var0   
+
+def test(var0):

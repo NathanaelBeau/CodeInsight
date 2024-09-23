@@ -1,0 +1,4 @@
+Remove adjacent duplicate elements from a list lst0
+from itertools import groupby
+
+def test(lst0):

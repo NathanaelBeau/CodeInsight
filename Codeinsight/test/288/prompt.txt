@@ -1,0 +1,4 @@
+Split the string var0 by commas that are positioned outside of parentheses.
+import re
+
+def test(var0):

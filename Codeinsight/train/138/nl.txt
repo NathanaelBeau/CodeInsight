@@ -1,0 +1,1 @@
+write a python program to merge 2 dictionaries dict1 and dict2

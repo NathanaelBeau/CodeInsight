@@ -1,0 +1,1 @@
+Generate a list that classifies numbers from list lst0 into 'small' if less than 5, 'medium' if between 5 and 10 (inclusive), or return the number itself if greater than 10

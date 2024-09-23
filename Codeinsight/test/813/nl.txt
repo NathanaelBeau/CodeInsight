@@ -1,0 +1,1 @@
+Get the index values of the pandas DataFrame df0 as a list.

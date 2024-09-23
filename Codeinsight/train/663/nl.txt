@@ -1,0 +1,1 @@
+Delete digits in Python (Regex)   in string str0

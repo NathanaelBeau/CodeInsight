@@ -1,0 +1,2 @@
+Remove all instances of [1, 1] from a list lst0
+def test(lst0):

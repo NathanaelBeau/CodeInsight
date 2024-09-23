@@ -1,0 +1,2 @@
+Combine two sequences var0 and var1 to create a dict where var0 is the key and var1 is the value
+def test(var0, var1):

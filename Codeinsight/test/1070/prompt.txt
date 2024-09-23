@@ -1,0 +1,2 @@
+Replace the single quote (') character from a string str0   using list comprehension
+def test(str0):

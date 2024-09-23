@@ -1,0 +1,4 @@
+Extract row with maximum value in a group pandas dataframe   df0 in column var0
+import pandas as pd
+
+def test(df, var0):

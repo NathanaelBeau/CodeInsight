@@ -1,0 +1,2 @@
+return the number of digits in a given number var1
+def test(var1):

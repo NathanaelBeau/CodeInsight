@@ -1,0 +1,2 @@
+Convert a string s containing characters into its corresponding hex string representation.
+def test(s):

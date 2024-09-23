@@ -1,0 +1,3 @@
+Find all matches of regular expression pattern pattern in string str0 and return their start and end positions along with the matched value.
+import re
+def test(str0: str, pattern: str) -> list:

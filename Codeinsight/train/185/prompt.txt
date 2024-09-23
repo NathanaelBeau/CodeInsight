@@ -1,0 +1,2 @@
+write a python function that return its arguments var1, var2 swapped.
+def test(var1,var2):

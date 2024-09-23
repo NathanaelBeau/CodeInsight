@@ -1,0 +1,1 @@
+Search a specific element in a list of tuples var0 without duplicates if var1 is matching the first element

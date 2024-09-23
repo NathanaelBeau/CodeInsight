@@ -1,0 +1,4 @@
+Filter string var0 to keep only alphanumeric characters, spaces, and ignore non-ASCII characters.
+import re
+
+def test(var0):

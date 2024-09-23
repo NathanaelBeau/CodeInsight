@@ -1,0 +1,2 @@
+Pythonic way to get the largest item in a list   lst0 
+def test(lst0):

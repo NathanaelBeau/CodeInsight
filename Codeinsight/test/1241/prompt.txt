@@ -1,0 +1,4 @@
+Simpler way to create dictionary of separate variables var0
+ 
+  
+def test(var0):

@@ -1,0 +1,2 @@
+replaces the string var1 with string var2 in string var3
+def test(var1,var2,var3):

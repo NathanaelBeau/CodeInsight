@@ -1,0 +1,4 @@
+Combine two dataframes, df1 and df2, by their index."
+import pandas as pd
+
+def test(df1, df2):

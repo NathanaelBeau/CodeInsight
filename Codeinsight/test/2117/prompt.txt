@@ -1,0 +1,3 @@
+Extract all the digits from a string str0 and return them as a list
+import re
+def test(str0):

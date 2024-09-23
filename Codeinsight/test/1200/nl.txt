@@ -1,0 +1,1 @@
+Removing character var0 in list of strings   lst0

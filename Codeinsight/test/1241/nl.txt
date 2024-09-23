@@ -1,0 +1,3 @@
+Simpler way to create dictionary of separate variables var0
+ 
+  

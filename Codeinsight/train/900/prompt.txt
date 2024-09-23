@@ -1,0 +1,5 @@
+How to pass another entire column as argument to pandas fillna()   
+Replace all NaN values from a column var0 of a data frame var1 by values from another column var2
+import pandas as pd
+
+def test(var0, var1, var2):

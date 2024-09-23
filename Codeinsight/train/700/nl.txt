@@ -1,0 +1,1 @@
+Sort a string str0 in lexicographic order python   

@@ -1,0 +1,2 @@
+Create a dictionary with keys as indices and values from a list lst0
+def test(lst0):

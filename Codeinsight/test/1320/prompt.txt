@@ -1,0 +1,2 @@
+Split a list lst0 into nested lists on a value  var0 
+def _itersplit(lst0, var0):

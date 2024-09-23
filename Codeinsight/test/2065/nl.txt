@@ -1,0 +1,1 @@
+Combine two Pandas dataframes df0 and df1 with the same index   

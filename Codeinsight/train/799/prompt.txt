@@ -1,0 +1,4 @@
+Sort a list of lists lst0 by the third element of each inner list
+import operator
+
+def test(lst0):

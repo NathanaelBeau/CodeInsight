@@ -1,0 +1,1 @@
+Delete character  var0 from a given string str0

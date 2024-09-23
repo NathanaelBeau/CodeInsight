@@ -1,0 +1,4 @@
+Find and return the most common element in the input list lst0 along with its count.
+from collections import Counter
+
+def test(lst0):

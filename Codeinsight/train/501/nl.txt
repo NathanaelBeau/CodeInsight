@@ -1,0 +1,1 @@
+Find the minimum value in a numpy matrix arr0

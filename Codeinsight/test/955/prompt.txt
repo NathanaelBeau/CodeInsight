@@ -1,0 +1,2 @@
+Reverse the digits of an integer var0.
+def test(var0):

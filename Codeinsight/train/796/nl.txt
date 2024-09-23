@@ -1,0 +1,1 @@
+Combine two dataframes, df1 and df2, by their index."

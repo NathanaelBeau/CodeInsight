@@ -1,0 +1,1 @@
+Return the absolute value of a number var1

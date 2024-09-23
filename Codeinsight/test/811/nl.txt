@@ -1,0 +1,2 @@
+Sort a list lst0 in python based on another sorted list lst1 
+better performance (particularly when len(lst1) is large) and when lst0 contain items not in lst1 , placed at the beginning of the list

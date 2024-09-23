@@ -1,0 +1,1 @@
+Calculate the factorial of the number var0 using numpy and scipy 

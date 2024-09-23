@@ -1,0 +1,2 @@
+ find the count of a word str1 in a string str0 with count   
+def test(str0, str1):

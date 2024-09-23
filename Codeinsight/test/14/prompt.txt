@@ -1,0 +1,4 @@
+pythonic way to explode a list of tuples lst0  
+import unittest
+
+def test(lst0):

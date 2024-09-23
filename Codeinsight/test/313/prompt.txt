@@ -1,0 +1,4 @@
+Add the prefix str0 to each value in the column var0 of DataFrame df0.
+import pandas as pd
+
+def test(df0, var0, str0):

@@ -1,0 +1,5 @@
+arr0 = np.array([1, 2, 3, 4, 5])
+var0 = 3
+expected_result =  2
+result = test(arr0, var0)
+assert result == expected_result, 'Test failed'

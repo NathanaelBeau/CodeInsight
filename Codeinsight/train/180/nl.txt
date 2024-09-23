@@ -1,0 +1,1 @@
+checks if key var1 has value var2 in dictionary var3

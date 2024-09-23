@@ -1,0 +1,1 @@
+Write a Python function to compute s the sum of the digits of the number var1 to the power var2.

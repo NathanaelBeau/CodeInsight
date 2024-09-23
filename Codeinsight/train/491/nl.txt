@@ -1,0 +1,1 @@
+Calculate the sum of squares for all elements in the list lst0.   

@@ -1,0 +1,2 @@
+Python: an efficient way to slice a list lst0 with a index list  lst1 
+def test(lst0, index):

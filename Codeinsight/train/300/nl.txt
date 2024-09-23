@@ -1,0 +1,1 @@
+How to find the last occurrence of an item var0 in a list lst0 

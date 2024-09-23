@@ -1,0 +1,2 @@
+ index nested lists lst0 in Python  with output as a tuple
+def test(lst0):

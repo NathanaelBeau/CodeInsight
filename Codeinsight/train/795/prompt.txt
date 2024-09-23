@@ -1,0 +1,4 @@
+Replace every opening parenthesis in the string str0
+import re
+
+def test(str0):

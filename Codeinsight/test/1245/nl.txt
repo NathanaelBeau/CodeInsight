@@ -1,0 +1,1 @@
+Compute the element-wise average of numpy arrays arr0 and arr1  

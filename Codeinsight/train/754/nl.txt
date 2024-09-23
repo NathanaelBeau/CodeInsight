@@ -1,0 +1,1 @@
+Get the average value of all list elements for each key in a dictionary named dict0

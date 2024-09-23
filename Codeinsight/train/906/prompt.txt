@@ -1,0 +1,4 @@
+Generate all permutations of a list lst0 
+import itertools
+
+def test(lst0):

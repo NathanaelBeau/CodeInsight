@@ -1,0 +1,1 @@
+Get indexes of all true boolean values from a list lst0.

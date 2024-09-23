@@ -1,0 +1,1 @@
+Group a DataFrame df0 by column 'A' and get the sum and count of values in column 'B' for each group.

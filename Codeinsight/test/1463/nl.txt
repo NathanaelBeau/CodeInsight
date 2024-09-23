@@ -1,0 +1,1 @@
+Get keys with the same value in dictionary dict0.

@@ -1,0 +1,4 @@
+Get all possible combinations of items from the 2-dimensional list lst0.
+from itertools import product
+
+def test(lst0):

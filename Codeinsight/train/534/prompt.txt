@@ -1,0 +1,2 @@
+Python: Split string str0 by list of separators  lst0 
+def test(str0, lst0):

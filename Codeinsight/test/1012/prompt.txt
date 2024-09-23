@@ -1,0 +1,3 @@
+How do I get the name of the rows as pandas Index object from the index of a data frame df0?   
+import pandas as pd
+def test(df0):

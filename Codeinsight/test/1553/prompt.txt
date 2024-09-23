@@ -1,0 +1,2 @@
+How to declare an array in python of lenght var0
+def test(var0) -> List[int]:

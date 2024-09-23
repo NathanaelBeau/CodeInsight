@@ -1,0 +1,1 @@
+Get the list of values from a dict dict0

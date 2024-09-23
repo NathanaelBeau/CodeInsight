@@ -1,0 +1,1 @@
+Detect repeated sequences in the string var0.

@@ -1,0 +1,2 @@
+Extract a substring from string s starting from the position beginning with a length of LENGTH.
+def test(s: str, beginning: int, LENGTH: int) -> str:

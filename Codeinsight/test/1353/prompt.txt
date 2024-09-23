@@ -1,0 +1,4 @@
+Sort a dictionary var0 with integer keys in ascending order 
+from collections import OrderedDict
+
+def test(var0):

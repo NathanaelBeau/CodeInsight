@@ -1,0 +1,1 @@
+Write a Python function to convert a python objects var1 into a json string.

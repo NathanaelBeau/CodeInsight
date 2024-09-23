@@ -1,0 +1,1 @@
+Replace occurrences of the regex pattern '(?<=[a-z])([A-Z])' in string var0 with '-\1' and then convert the result to lowercase

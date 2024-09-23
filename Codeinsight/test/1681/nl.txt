@@ -1,0 +1,1 @@
+Scale the columns of the pandas dataframe df0 using sklearn's StandardScaler  

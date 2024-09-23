@@ -1,0 +1,1 @@
+Find the indices of the numpy array arr0 where the value is True

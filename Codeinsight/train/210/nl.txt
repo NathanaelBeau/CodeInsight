@@ -1,0 +1,1 @@
+extracts the column of index var2 from a numpy array var1

@@ -1,0 +1,4 @@
+Remove rows from dataframe df0 where column var0 has the value var1 resetting the index.
+import pandas as pd
+
+def test(df0, var0, var1):

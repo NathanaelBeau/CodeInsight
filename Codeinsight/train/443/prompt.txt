@@ -1,0 +1,4 @@
+Extract numbers from var0 along with any accompanying comparison adjectives or ranges (less than, greater than, between, more than).
+import re
+
+def test(var0):

@@ -1,0 +1,1 @@
+Initialize a numpy array with zeros having the shape shape0

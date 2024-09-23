@@ -1,0 +1,4 @@
+Modify rows in dataframe df0 where column var0 has value var1 and set var2 to the value of var1
+import pandas as pd
+
+def test(df0, var0, var1, var2):

@@ -1,0 +1,1 @@
+Pair each element from list lst0 with its subsequent element, creating key-value pairs for a dictionary.

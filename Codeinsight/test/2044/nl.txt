@@ -1,0 +1,1 @@
+Extract every var0 row from dataframe df0

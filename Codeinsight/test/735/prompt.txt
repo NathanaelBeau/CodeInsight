@@ -1,0 +1,2 @@
+tell if string str0 starts with a number with Python   
+def test(str0):

@@ -1,0 +1,1 @@
+Decode the string var0 to UTF-8 encoding

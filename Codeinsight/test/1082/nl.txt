@@ -1,0 +1,1 @@
+Filter the numpy array arr0 to keep only elements greater than threshold0. 

@@ -1,0 +1,1 @@
+adds the elements of two lists lst1 and lst2 itemwise.

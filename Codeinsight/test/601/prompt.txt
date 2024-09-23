@@ -1,0 +1,2 @@
+Sorting a list lst0 of string in ascending order based on the length of the string   
+def test(lst0):

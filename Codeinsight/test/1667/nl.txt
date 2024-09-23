@@ -1,0 +1,1 @@
+Change the data type of column var0 in DataFrame df0 to var1.

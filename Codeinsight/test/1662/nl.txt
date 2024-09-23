@@ -1,0 +1,1 @@
+Append a new column arr1 to the numpy array arr0  

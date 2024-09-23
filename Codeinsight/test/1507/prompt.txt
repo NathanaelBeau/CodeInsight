@@ -1,0 +1,4 @@
+how to convert a datetime string str0 back to datetime object?   
+from datetime import datetime
+
+def test(str0):

@@ -1,0 +1,4 @@
+Append pandas series s0 and s1 with the same index.
+import pandas as pd
+
+def test(s0, s1):

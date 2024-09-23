@@ -1,0 +1,2 @@
+Add character '@' after word 'get' in string var0
+def test(var0):

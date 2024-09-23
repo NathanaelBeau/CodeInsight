@@ -1,0 +1,1 @@
+ Extract all non-zero values from a numpy array named arr0

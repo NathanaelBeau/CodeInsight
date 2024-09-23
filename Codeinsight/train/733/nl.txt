@@ -1,0 +1,1 @@
+Sum the corresponding elements of multiple lists lst_args

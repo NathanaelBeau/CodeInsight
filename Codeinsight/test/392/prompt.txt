@@ -1,0 +1,4 @@
+Removing nan values from an array  arr0 with function numpy.isnan 
+import numpy as np
+
+def test(arr0):

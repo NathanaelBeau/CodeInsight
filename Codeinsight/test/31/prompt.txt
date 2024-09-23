@@ -1,0 +1,4 @@
+Capture the entire string from var0 using a regex pattern that includes lookaround assertions.
+import re
+
+def test(var0, pattern):

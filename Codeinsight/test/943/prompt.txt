@@ -1,0 +1,4 @@
+Summarizing a dictionary of arrays dict0 in Python   
+import heapq
+
+def test(dict0):

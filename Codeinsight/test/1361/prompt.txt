@@ -1,0 +1,2 @@
+python: using rstrip  to remove one exact string str1 in string str0, respecting order   
+def test(str0, str1):

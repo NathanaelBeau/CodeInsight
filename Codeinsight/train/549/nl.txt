@@ -1,0 +1,1 @@
+ use numpy&#39;s hstack to slice an array var0 at values from indices 3:5

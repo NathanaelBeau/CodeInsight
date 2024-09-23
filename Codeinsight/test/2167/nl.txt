@@ -1,0 +1,1 @@
+Slice a NumPy array arr0 with slice rows var0 and slice cols var1 and then extend it precising extension var2

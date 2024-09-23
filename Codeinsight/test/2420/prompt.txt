@@ -1,0 +1,4 @@
+Generate all possible combinations of the elements from the sublists within the input list lst0, using the Cartesian product  
+import itertools
+
+def test(lst0):

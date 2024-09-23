@@ -1,0 +1,4 @@
+Convert the entire DataFrame df0 into a dictionary and return it.
+import pandas as pd
+
+def test(df0):

@@ -1,0 +1,1 @@
+Write a Python program to find the smallest multiple of the first var1 numbers. Also, return the factors.

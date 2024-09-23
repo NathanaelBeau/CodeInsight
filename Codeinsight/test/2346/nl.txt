@@ -1,0 +1,1 @@
+pandas: in datframe df0 replace string var0  with another string   from dictionary dict0

@@ -1,0 +1,1 @@
+Retrieve all keys from dictionary dict0 whose values contain any element from the list lst0.

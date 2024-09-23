@@ -1,0 +1,4 @@
+Set the value of the cell in DataFrame df0 located at row index var0 and column var1 to value var2.
+import pandas as pd
+
+def test(df0, var0, var1, var2):

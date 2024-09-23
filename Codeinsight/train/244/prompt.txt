@@ -1,0 +1,2 @@
+count the occurrences of value var1 inside a list lst1 or not
+def test(var1,lst1):

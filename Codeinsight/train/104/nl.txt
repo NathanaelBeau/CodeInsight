@@ -1,0 +1,1 @@
+Write a Python program to find maximum length of consecutive 0’s in a given binary string var1.

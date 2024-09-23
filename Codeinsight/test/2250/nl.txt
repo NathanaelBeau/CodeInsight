@@ -1,0 +1,1 @@
+Replacing instances of a character ";" by ":" at index between var0 and  var1  in a string str0   

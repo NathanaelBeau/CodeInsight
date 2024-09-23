@@ -1,0 +1,2 @@
+find the perimeter of a square of side var1
+def test(var1):

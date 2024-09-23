@@ -1,0 +1,4 @@
+Insert a space before each capital letter of a string var0
+import re
+
+def test(var0):

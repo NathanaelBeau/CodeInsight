@@ -1,0 +1,1 @@
+Extract all words from the string var0 that start with the dollar sign ($).

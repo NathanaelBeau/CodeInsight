@@ -66,7 +66,7 @@ def run_code_with_timeout(combined_code, timeout_duration):
     return result
 
 
-class CoNaLaExecProblem():
+class CodeInsightProblem():
     def __init__(
             self,
             problem_path: Union[str, Path]
@@ -121,40 +121,39 @@ class CoNaLaExecProblem():
 
             # exec(combined_code, globals_dict)
             try:
-                print(combined_code)
                 exec(combined_code, globals_dict)
-            # except TimeoutException:
-            #     all_tests_passed = False
-            #     print(f"Tests in {test_file} timed out for example {self.problem_id}!")
-            #     continue  # skip the current test and move to the next one
-            # except AssertionError:
-            #     all_tests_passed = False
-            #     print(f"Tests in {test_file} failed for example {self.problem_id}!")
-            #     continue  # skip the current test and move to the next one
-            # except SyntaxError:
-            #     all_tests_passed = False
-            #     print(f"Syntax error in {test_file} for example {self.problem_id}!")
-            #     continue
-            # except NameError:
-            #     all_tests_passed = False
-            #     print(f"Name error in {test_file} for example {self.problem_id}!")
-            #     continue
-            # except TypeError:
-            #     all_tests_passed = False
-            #     print(f"Type error in {test_file} for example {self.problem_id}!")
-            #     continue
-            # except ValueError:
-            #     all_tests_passed = False
-            #     print(f"Value error in {test_file} for example {self.problem_id}!")
-            #     continue
-            # except ImportError:
-            #     all_tests_passed = False
-            #     print(f"Import error in {test_file} for example {self.problem_id}!")
-            #     continue
-            # except Exception as e:
-            #     all_tests_passed = False
-            #     print(f"Unexpected error occurred in {test_file} for example {self.problem_id}: {e}")
-            #     continue
+            except TimeoutException:
+                all_tests_passed = False
+                print(f"Tests in {test_file} timed out for example {self.problem_id}!")
+                continue  # skip the current test and move to the next one
+            except AssertionError:
+                all_tests_passed = False
+                print(f"Tests in {test_file} failed for example {self.problem_id}!")
+                continue  # skip the current test and move to the next one
+            except SyntaxError:
+                all_tests_passed = False
+                print(f"Syntax error in {test_file} for example {self.problem_id}!")
+                continue
+            except NameError:
+                all_tests_passed = False
+                print(f"Name error in {test_file} for example {self.problem_id}!")
+                continue
+            except TypeError:
+                all_tests_passed = False
+                print(f"Type error in {test_file} for example {self.problem_id}!")
+                continue
+            except ValueError:
+                all_tests_passed = False
+                print(f"Value error in {test_file} for example {self.problem_id}!")
+                continue
+            except ImportError:
+                all_tests_passed = False
+                print(f"Import error in {test_file} for example {self.problem_id}!")
+                continue
+            except Exception as e:
+                all_tests_passed = False
+                print(f"Unexpected error occurred in {test_file} for example {self.problem_id}: {e}")
+                continue
             finally:
                 signal.alarm(0)  # reset the alarm in all cases
 
@@ -171,9 +170,11 @@ class CoNaLaExecProblem():
 
     def items(self):
         return self.data.items()
-class CoNaLaExecDataset(torch.utils.data.Dataset):
+
+
+class CodeInsightDataset(torch.utils.data.Dataset):
     def __init__(self,
-                 source_dir: Union[str, Path] = "CoNaLaExec",
+                 source_dir: Union[str, Path] = "CodeInsight",
                  mode: str = 'fine_tuning',
                  split: Optional[str] = None):
 
@@ -189,7 +190,7 @@ class CoNaLaExecDataset(torch.utils.data.Dataset):
             folder_path = source_path / split
             problems = sorted(os.listdir(folder_path), key=lambda x: int(str(x).replace("q", "")))
             for index, problem in enumerate(problems):
-                new_problem = CoNaLaExecProblem(folder_path / problem)
+                new_problem = CodeInsightProblem(folder_path / problem)
                 self.data_list.append(new_problem)
 
         elif self.mode == "all":
@@ -198,7 +199,7 @@ class CoNaLaExecDataset(torch.utils.data.Dataset):
                 folder_path = source_path / data_folder
                 problems = sorted(os.listdir(folder_path), key=lambda x: int(str(x).replace("q", "")))
                 for index, problem in enumerate(problems):
-                    new_problem = CoNaLaExecProblem(folder_path / problem)
+                    new_problem = CodeInsightProblem(folder_path / problem)
                     self.data_list.append(new_problem)
 
         else:
@@ -217,5 +218,5 @@ class CoNaLaExecDataset(torch.utils.data.Dataset):
 
 
 if __name__ == '__main__':
-    dataset = CoNaLaExecDataset('./CoNaLaExec', mode_eval='finetuning')
+    dataset = CodeInsightDataset('./CodeInsight', mode_eval='finetuning')
 

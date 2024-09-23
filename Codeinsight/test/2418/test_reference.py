@@ -3,4 +3,3 @@ def test(str0):
     for char in str0:
         outputStr += char + ','
     return outputStr[:-1]
-

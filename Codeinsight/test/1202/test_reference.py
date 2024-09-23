@@ -4,4 +4,3 @@ def test(df0, lst0):
     df0 = df0.sort_values('name').reset_index(drop=True)
     df0['name'] = df0['name'].astype(str)
     return df0
-

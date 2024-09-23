@@ -4,4 +4,3 @@ def test(lst0, lst1):
         if lst0[i] >= lst1[i]:
             return False
     return True
-

@@ -1,4 +1,6 @@
 Get the index values of the pandas DataFrame df0 as a list.
+
 import pandas as pd
 
 def test(df0):
+

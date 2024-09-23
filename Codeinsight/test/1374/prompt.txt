@@ -1,2 +1,4 @@
 count the number of items in a generator/iterator it0
+
 def test(it0):
+

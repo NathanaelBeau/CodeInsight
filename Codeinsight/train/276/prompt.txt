@@ -1,4 +1,6 @@
 Filter out words containing any digits from the input string str0.
+
 import re
 
 def test(str0):
+

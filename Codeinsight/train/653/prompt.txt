@@ -1,4 +1,6 @@
 group similar items in a list lst0
+
 import itertools
 
 def test(lst0):
+

@@ -1,2 +1,4 @@
 split a unicode string str0 into list  u
+
 def test(str0):
+

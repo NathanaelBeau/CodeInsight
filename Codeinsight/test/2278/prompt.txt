@@ -1,4 +1,6 @@
 Remove parentheses around single words in the string s using regex.
+
 import re
 
 def test(s: str) -> str:
+

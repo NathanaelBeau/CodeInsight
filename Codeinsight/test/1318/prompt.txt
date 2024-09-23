@@ -1,4 +1,6 @@
 Append a row with data lst0 to a dataframe df0 and assign it the index label str0
+
 import pandas as pd
 
 def test(df0, str0, lst0):
+

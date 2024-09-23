@@ -5,4 +5,3 @@ def test(lst0):
 
     sorted_lst = sorted(lst0, key=get_subkey, reverse=True)
     return sorted_lst
-

@@ -14,4 +14,3 @@ def test(lst0):
                     break
 
     return groups
-

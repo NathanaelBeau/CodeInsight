@@ -1,3 +1,5 @@
  convert ndarray  var0 to array using ravel  
+
 import numpy as np
 def test(var0):
+

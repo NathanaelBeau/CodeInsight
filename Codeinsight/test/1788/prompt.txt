@@ -1,2 +1,4 @@
 Trim all leading and trailing whitespaces from the string var0
+
 def test(var0):
+

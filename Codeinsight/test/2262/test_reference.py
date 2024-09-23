@@ -14,4 +14,3 @@ def test(str0):
         words.append(current_word)
     
     return words
-

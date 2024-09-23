@@ -5,4 +5,3 @@ def test(lst0, dict0):
         result.append(sorted_item)
     return result
 
-

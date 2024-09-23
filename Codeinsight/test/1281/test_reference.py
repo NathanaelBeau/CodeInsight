@@ -4,4 +4,3 @@ def test(lst0):
         for item in sublist:
             total += item
     return total
-

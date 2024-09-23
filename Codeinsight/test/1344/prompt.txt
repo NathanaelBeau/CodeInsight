@@ -1,4 +1,6 @@
  iterate through a list of tuples lst0 containing three pair values   
+
 from itertools import groupby
 
 def test(lst0):
+

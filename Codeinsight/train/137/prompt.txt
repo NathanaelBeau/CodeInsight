@@ -1,2 +1,4 @@
 write a python code to implement Sigmoid function evaluated on var1
+
 def test(var1):
+

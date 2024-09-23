@@ -1,2 +1,4 @@
 Convert a string str0 into a dictionary by splitting each item at the = sign
+
 def test(str0):
+

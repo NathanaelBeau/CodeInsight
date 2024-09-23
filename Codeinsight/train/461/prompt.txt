@@ -1,4 +1,6 @@
 Select all columns from dataframe df0 except for column var0.
+
 import pandas as pd
 
 def test(df0, var0):
+

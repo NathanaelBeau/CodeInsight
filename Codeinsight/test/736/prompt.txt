@@ -1,4 +1,6 @@
 In Python, index a list lst0  with another list  lst1 
+
 from functools import reduce
 
 def extract_element(lst, index):
+

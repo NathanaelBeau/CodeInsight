@@ -5,4 +5,3 @@ def test(arr0):
         if not np.isnan(element):
             count += 1
     return count
-

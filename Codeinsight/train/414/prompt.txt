@@ -1,2 +1,4 @@
 Calculate the total combined length of all strings in the list lst0.
+
 def test(lst0: list) -> int:
+

@@ -1,2 +1,4 @@
 Write a Python function to flatten a list lst1 of lists.
+
 def test(lst1):
+

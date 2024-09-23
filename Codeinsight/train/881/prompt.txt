@@ -1,5 +1,7 @@
  Check if the object var0 is NaN using numpy or pandas
+
 import numpy as np
 import pandas as pd
 
 def test(var0):
+

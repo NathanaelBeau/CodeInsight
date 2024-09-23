@@ -1,2 +1,4 @@
 Retrieve the element located at index var0 of the first row and the element at index var1 of the second row from the array A.
+
 def test(A, var0, var1):
+

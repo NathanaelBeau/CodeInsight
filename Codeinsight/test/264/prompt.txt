@@ -1,2 +1,4 @@
 Format number num0 to have exactly 2 digits after the decimal.
+
 def test(num0):
+

@@ -1,5 +1,7 @@
 Use fit_transform on dataframe df0 and return the result as a DataFrame instead of a numpy array
+
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
 def test(df0):
+

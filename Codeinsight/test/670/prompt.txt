@@ -1,3 +1,5 @@
 Find the indices of elements in the numpy array arr0 that are equal to zero
+
 import numpy as np
 def test(arr0):
+

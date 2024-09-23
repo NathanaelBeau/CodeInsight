@@ -1,2 +1,4 @@
 Python- insert a character var0 into a string  str0 at index 1
+
 def test(str0,var0):
+

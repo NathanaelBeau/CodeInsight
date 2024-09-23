@@ -1,2 +1,4 @@
 Replace all semicolons with colons in a string var0
+
 def test(var0):
+

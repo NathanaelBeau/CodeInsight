@@ -1,2 +1,4 @@
 locate the index of the leftmost value in list lst1 exactly equal to var1 and return its index.
+
 def test(lst1,var1):
+

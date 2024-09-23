@@ -5,4 +5,3 @@ def test(str0):
             break
         int_part += char
     return int(int_part)
-

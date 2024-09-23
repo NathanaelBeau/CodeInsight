@@ -12,4 +12,3 @@ def test(var0):
     if num:
         numbers.append(num)
     return numbers
-

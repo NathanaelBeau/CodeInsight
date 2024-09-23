@@ -1,4 +1,6 @@
 Select rows from DataFrame df0 where the values in column str0 match var0. Reset the index.
+
 import pandas as pd
 
-def test(df0, str0, var0):
+def test(df0, str0, var0, columns):
+

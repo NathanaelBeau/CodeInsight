@@ -4,4 +4,3 @@ def test(dict0, str0, var0):
     else:
         dict0[str0] = [var0]
     return dict0
-

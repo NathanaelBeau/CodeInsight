@@ -1,2 +1,4 @@
 Replace consecutive occurrences of the character * with a single * in the string var0.
+
 def test(var0):
+

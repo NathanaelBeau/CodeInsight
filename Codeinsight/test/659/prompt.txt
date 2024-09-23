@@ -1,3 +1,5 @@
 Select a specific column index for each row in a NumPy array arr0 using a list of indexes lst0
+
 import numpy as np
 def test(arr0, lst0):
+

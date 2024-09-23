@@ -1,4 +1,6 @@
 how to turn a string of letters embedded in squared brackets str0 into embedded lists   
+
 import re
 
 def test(str0):
+

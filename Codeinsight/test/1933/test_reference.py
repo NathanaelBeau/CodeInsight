@@ -10,4 +10,3 @@ def test(lst0):
             max_lengths[i] = max(max_lengths[i], len(str(item)))
 
     return max_lengths
-

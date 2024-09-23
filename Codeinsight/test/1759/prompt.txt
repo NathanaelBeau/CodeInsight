@@ -1,2 +1,4 @@
 Access the class attribute a_string from an object obj0
+
 def test(obj0):
+

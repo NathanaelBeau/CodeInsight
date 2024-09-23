@@ -1,3 +1,5 @@
 Initialize a numpy array with zeros having the shape shape0
+
 import numpy as np
 def test(shape0):
+

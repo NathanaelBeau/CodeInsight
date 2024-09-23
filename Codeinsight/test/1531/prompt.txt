@@ -1,4 +1,6 @@
 Replace occurrences of the regular expression pattern pat0 with str1 in str0, optionally ignoring case sensitivity if bool0 is set True.
+
 import re
 
-def test(str0, pat0, str1, bool0) -> str:
+def test(str0, pat0, str1, bool0):
+

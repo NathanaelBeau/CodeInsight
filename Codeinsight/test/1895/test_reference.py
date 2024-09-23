@@ -8,4 +8,3 @@ def test(lst0, var0, var1):
                 d[j] = []
             d[j].append(var0)
     return d
-

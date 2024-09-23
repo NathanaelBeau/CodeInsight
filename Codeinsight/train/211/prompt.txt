@@ -1,2 +1,4 @@
 remove punctuation from the string var1
+
 def test(var1):
+

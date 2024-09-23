@@ -1,3 +1,5 @@
 split a dataframe df0 string column var0 into two columns  var1
+
 import pandas as pd
 def test(df0, var0, var1):
+

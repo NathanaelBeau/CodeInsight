@@ -1,2 +1,4 @@
 Write a python program that sums the elements of set var1
+
 def test(var1):
+

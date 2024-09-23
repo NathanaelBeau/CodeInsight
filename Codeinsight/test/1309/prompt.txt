@@ -1,3 +1,5 @@
 Create a list containing the subtraction of each item from the item prior to it in list lst0.
 
+
 def test(lst0):
+

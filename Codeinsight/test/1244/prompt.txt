@@ -1,5 +1,7 @@
 Create a pandas DataFrame from a CSV-formatted string var0.
+
 import pandas as pd
 from io import StringIO
 
 def test(var0):
+

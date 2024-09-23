@@ -3,4 +3,3 @@ def test(lst0):
     for item in lst0:
         int_list.append(int(item))
     return int_list
-

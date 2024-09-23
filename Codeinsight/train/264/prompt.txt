@@ -1,2 +1,4 @@
 How to get a string (key + value) from dictionary dict0
+
 def test(dict0):
+

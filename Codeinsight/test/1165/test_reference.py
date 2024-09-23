@@ -5,4 +5,3 @@ def test(dict1):
         return [int(part) if part.isdigit() else part for part in parts] # convert digit parts to int, leave non-digit parts as str
     return sorted(dict1.keys(), key=key_func)
 
-

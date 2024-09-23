@@ -1,2 +1,4 @@
  remove identical items from a list lst0 and sort it in Python
+
 def test(lst0):
+

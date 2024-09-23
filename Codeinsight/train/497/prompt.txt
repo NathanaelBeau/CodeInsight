@@ -1,4 +1,6 @@
 Extract all hashtags from a given string str0
+
 import re
 
 def test(str0):
+

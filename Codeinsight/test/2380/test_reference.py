@@ -5,4 +5,3 @@ def test(lst0):
         if diff > max_diff:
             max_diff = diff
     return max_diff
-

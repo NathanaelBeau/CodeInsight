@@ -1,4 +1,6 @@
 Add a new column named var0 with a constant value var1 to the pandas DataFrame df0.
+
 import pandas as pd 
 
 def test(df0, var0, var1):
+

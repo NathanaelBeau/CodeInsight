@@ -5,4 +5,3 @@ def test(lst0):
         result += num * multiplier
         multiplier *= 10
     return result
-

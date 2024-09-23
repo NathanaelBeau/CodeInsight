@@ -1,3 +1,5 @@
 Return a random word from a list of words lst0
+
 import random
 def test(lst0):
+

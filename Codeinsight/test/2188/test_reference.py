@@ -3,4 +3,3 @@ def test(lst0):
     for i in lst0:
         total += i**2
     return total
-

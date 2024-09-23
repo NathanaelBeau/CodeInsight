@@ -4,4 +4,3 @@ def test(str0):
     for character in decoded_str:
         char_list.append(character)
     return char_list
-

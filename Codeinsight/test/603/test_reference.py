@@ -8,4 +8,3 @@ def test(var0, str0):
         return np.ceil(var0)
     else:
         raise ValueError("Invalid operation. Choose 'floor' or 'ceiling'.")
-

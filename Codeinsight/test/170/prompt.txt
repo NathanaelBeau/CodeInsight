@@ -1,3 +1,5 @@
 Find and replace the 2nd occurrence of the word 'cat' by 'Bull' in a sentence str0.
+
 import re 
 def test(str0):
+

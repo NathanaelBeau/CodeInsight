@@ -1,2 +1,4 @@
 strips every vowel from a string var1 provided the list of vowels ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' ]
+
 def test(var1):
+

@@ -5,4 +5,3 @@ def test(var0, var1):
     if match:
         return match.group(1)
     return None
-

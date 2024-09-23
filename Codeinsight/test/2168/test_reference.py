@@ -5,4 +5,3 @@ def test(lst0: list):
     for item in lst0:
         results.append(re.sub(r" \(\w+\)", "", item))
     return results
-

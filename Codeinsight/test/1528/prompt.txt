@@ -1,2 +1,4 @@
 Split the string var0 using the delimiter '&'.
+
 def test(var0):
+

@@ -1,4 +1,6 @@
 Replace occurrences of the regular expression pattern pattern with replacement in string str0.
+
 import re
 
 def test(str0: str, pattern: str, replacement: str) -> str:
+

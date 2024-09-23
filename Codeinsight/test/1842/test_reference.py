@@ -6,4 +6,3 @@ def test(str0):
         return seq_type().join(filter(seq_type.isdigit, seq))
     
     return only_numerics(str0)
-

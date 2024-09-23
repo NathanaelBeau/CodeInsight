@@ -6,4 +6,3 @@ def test(lst0, var0, var1):
         for j in range(int(i), int(i) + var1):
             d[j].append(var0)
     return d
-

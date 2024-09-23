@@ -3,4 +3,3 @@ def test(var0):
     if var0[-1].isdigit():
         return float(var0)
     return float(var0[:-1]) * map_dict.get(var0[-1].upper(), 1)
-

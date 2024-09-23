@@ -5,4 +5,3 @@ def test(arr0, arr1):
     result = arr0_reshaped * arr1
     return result
 
-

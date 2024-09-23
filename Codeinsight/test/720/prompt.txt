@@ -1,2 +1,4 @@
 Remove the element in list a at the specified index index.
+
 def test(a: list, index: int) -> list:
+

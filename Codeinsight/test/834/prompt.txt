@@ -1,2 +1,4 @@
  initialize bytearray var0 with non-zero value   
+
 def test(var0):
+

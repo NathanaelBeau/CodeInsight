@@ -1,3 +1,5 @@
 nitialize a NumPy array with shape shape0 and fill it with the value var0
+
 import numpy as np
 def test(shape0, var0):
+

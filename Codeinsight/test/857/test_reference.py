@@ -5,4 +5,3 @@ def test(lst0, lst1, var0, var1):
     return np.argmin(distances)
 
 
-

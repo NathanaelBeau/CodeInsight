@@ -1,4 +1,6 @@
 Find out how many times a regex var0 matches in a string str0 in Python   
+
 import re
 
 def test(var0,str0):
+

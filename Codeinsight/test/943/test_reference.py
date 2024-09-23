@@ -6,4 +6,3 @@ def test(dict0):
     for key, value in largest_items:
         summary[key] = sum(value)
     return summary
-

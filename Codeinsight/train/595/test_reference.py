@@ -7,4 +7,3 @@ def test(df0, var0):
         row_dict.pop(var0)
         result_dict[key] = list(row_dict.values())
     return result_dict
-

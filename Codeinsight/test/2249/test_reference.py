@@ -6,4 +6,3 @@ def test(str0):
         return m.group(1)
     else:
         return None
-

@@ -1,3 +1,5 @@
 Determine the count of elements that are the same in numpy arrays arr0 and arr1 
+
 import numpy as np
 def test(arr0, arr1):
+

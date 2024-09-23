@@ -1,3 +1,5 @@
 Create a function to group a DataFrame df0 by column var0 and select the row with the maximum value in column var1 for each group
+
 import pandas as pd
 def test(df0, var0, var1):
+

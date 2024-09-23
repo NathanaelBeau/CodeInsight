@@ -1,2 +1,4 @@
 Extract elements from index var0 to index var1 from a list some_list.
+
 def test(some_list: list, var0: int, var1: int) -> list:
+

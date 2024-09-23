@@ -1,3 +1,5 @@
 Convert a binary string str0 to a list of integers.
 
+
 def test(str0):
+

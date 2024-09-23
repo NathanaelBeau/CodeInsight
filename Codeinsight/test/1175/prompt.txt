@@ -1,2 +1,4 @@
  get the size of a string var0
+
 def test(var0):
+

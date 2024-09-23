@@ -8,4 +8,3 @@ def test(var0):
     number, _, suffix = match.groups()
     map_dict = {'K': 10**3, 'M': 10**6, 'B': 10**9}
     return float(number) * map_dict.get(suffix, 1)
-

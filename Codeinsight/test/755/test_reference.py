@@ -5,4 +5,3 @@ def test(str0):
         return int(int_part)
     else:
         return int(str0)
-

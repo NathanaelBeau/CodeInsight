@@ -1,2 +1,4 @@
 Convert the binary string binary_str into its corresponding integer value.
+
 def test(binary_str: str) -> int:
+

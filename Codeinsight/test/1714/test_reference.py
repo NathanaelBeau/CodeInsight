@@ -5,4 +5,3 @@ def test(lst0):
             result[k] = result.get(k, 0) + v
     sorted_result = {k: v for k, v in sorted(result.items(), key=lambda item: item[1], reverse=True)}
     return sorted_result
-

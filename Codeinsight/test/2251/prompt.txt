@@ -1,4 +1,6 @@
 How to calculate moving average in Python 3 on sequence lst0  with window size window_size
+
 from itertools import islice
 
 def test(lst0, window_size=2):
+

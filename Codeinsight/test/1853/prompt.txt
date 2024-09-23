@@ -1,4 +1,6 @@
 Group the DataFrame df0 by column var0, aggregate using the function agg_function, and then convert the resulting Series to a DataFrame.
+
 import pandas as pd
 
 def test(df0, var0, agg_function):
+

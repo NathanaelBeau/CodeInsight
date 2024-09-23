@@ -1,4 +1,6 @@
 How to convert a hex string  str0 to hex number   
+
 import binascii
 
 def test(str0):
+

@@ -5,4 +5,3 @@ def test(lst0):
         for key, value in d.items():
             result[key] += value
     return dict(result)
-

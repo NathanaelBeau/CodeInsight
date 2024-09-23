@@ -1,2 +1,4 @@
 Count the number of trailing question marks in a string str0
+
 def test(str0):
+

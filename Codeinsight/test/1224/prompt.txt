@@ -1,2 +1,4 @@
 Merge every two elements in a list lst0 sequentially
+
 def test(lst0):
+

@@ -6,4 +6,3 @@ def test(var0, dct0):
             item = test(var0, v)
             if item is not None:
                 return item
-

@@ -1,3 +1,5 @@
 Create a NumPy array data0 that can store elements of different datatypes  
+
 import numpy as np
 def test(data0):
+

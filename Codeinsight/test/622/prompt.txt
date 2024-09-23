@@ -1,3 +1,5 @@
 How to add a column to a multi-indexed DataFrame df0?   
+
 import pandas as pd
 def test(df0):
+

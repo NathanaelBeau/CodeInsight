@@ -1,5 +1,5 @@
-Add or subtract a time duration (timedelta0) to the index of a dataframe df0 where the index objects are of type datetime.time.
+Lowercase a pandas dataframe df0 string column var0 if it has missing values
 import pandas as pd
-import datetime
 
-def test(df0, timedelta0):
+def test(df0, var0):
+

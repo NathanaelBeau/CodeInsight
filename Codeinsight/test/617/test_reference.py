@@ -5,4 +5,3 @@ def test(str0, var0):
             result += " "
         result += char
     return result
-

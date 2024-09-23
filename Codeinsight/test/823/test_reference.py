@@ -4,4 +4,3 @@ def test(lst0, var0):
         if item == var0:
             count += 1
     return count
-

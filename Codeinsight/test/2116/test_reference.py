@@ -1,4 +1,3 @@
 import pandas as pd
-def test(var0: pd.Series):
+def test(var0):
     return ser0.at[0]
-

@@ -1,2 +1,4 @@
 searches the index of the character 'e' in the string var1
+
 def test(var1):
+

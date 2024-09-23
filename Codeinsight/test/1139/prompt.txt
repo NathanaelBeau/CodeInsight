@@ -1,4 +1,6 @@
 Converting a Pandas GroupBy output df0 from Series to DataFrame   
+
 import pandas as pd
 
 def test(df0):
+

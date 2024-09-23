@@ -1,4 +1,6 @@
 Remove duplicate chars of a string var0
+
 import re 
 
 def test(var0):
+

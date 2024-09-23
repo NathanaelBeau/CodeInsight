@@ -5,4 +5,3 @@ def random_case(char):
 
 def test(var0):
     return ''.join(map(random_case, var0))
-

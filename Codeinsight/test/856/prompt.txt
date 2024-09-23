@@ -1,2 +1,4 @@
 Convert the string var0 to its hexadecimal representation.
+
 def test(var0):
+

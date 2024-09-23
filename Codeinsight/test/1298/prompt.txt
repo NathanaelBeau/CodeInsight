@@ -1,3 +1,5 @@
 Generate all possible strings from a list of token lst0 with combinaison lenght of var0 with combination
+
 from itertools import combinations
 def test(lst0, var0):
+

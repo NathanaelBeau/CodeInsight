@@ -1,2 +1,4 @@
 Count the number of true booleans in a Python list lst0.
+
 def test(lst0):
+

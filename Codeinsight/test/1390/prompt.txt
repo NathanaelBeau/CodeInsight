@@ -1,3 +1,5 @@
 Sum all the values in the column named 'other_column' of dataframe df0 where the values in column var0 are equal to var1.
+
 import pandas as pd
 def test(df0, var0, var1):
+

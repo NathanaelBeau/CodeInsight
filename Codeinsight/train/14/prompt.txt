@@ -1,2 +1,4 @@
 Design a function that splits the string var1 on whitespace
+
 def test(var1):
+

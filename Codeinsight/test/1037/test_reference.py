@@ -1,12 +1,13 @@
-from sklearn.cluster import KMeans
 import numpy as np
+from sklearn.cluster import KMeans
 
-def test(arr0):
-    x = np.array(arr0)
-    n_clusters = 5  # Adjust the number of clusters as desired
-    km = KMeans(n_clusters=n_clusters)
-    km.fit(x.reshape(-1, 1))
-    labels = km.labels_
-    return labels
+def test(arr0, n_clusters):
+    # Reshape arr0 into a 2D array for KMeans
+    arr0_reshaped = arr0.reshape(-1, 1)
 
+    # Perform KMeans clustering
+    kmeans = KMeans(n_clusters=n_clusters, random_state=0)
+    kmeans.fit(arr0_reshaped)
 
+    # Return the cluster labels and cluster centers
+    return kmeans.labels_

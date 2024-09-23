@@ -1,4 +1,6 @@
 Sort a numpy array  arr0 like a table   using lexsort
+
 import numpy as np
 
-def test(arr0):
+def test(arr0, sort_columns):
+

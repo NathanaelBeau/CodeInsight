@@ -4,4 +4,3 @@ def test(arr0):
     inds = np.where(np.isnan(arr0))
     arr0[inds] = np.take(col_mean, inds[1])
     return arr0
-

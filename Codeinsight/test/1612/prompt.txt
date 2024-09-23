@@ -1,4 +1,6 @@
 return all the minimum indices in numpy  array var0
+
 import numpy as np
 
 def test(var0):
+

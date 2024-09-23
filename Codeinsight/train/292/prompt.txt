@@ -1,4 +1,6 @@
 create and return a pivot table from the DataFrame df0. The pivot table is created using str0 as the index, str1 as the columns, and var0 as the aggregation function to summarize the values.
+
 import pandas as pd
 import numpy as np
 def test(df0, str0, str1, var0):
+

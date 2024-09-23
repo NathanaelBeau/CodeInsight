@@ -4,4 +4,3 @@ def test(arr0, arr1):
             arr0.remove(i)
     return arr0
 
-

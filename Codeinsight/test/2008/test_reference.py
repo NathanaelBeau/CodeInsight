@@ -5,4 +5,3 @@ def test(arr0):
     diagonal = [arr0[i, cols - i - 1] for i in range(rows)]
     
     return np.array(diagonal)
-

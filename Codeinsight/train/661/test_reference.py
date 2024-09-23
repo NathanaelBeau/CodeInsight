@@ -7,4 +7,3 @@ def test(lst0):
                 total += int(char)
         integer_list.append(total)
     return integer_list
-

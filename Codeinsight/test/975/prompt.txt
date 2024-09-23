@@ -1,4 +1,6 @@
 Solve a pair of nonlinear equations defined by the function func using an initial guess initial_guess. 
+
 from scipy.optimize import fsolve
 
 def test(func, initial_guess):
+

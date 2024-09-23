@@ -1,2 +1,4 @@
 Count all integers in a list named lst0.
+
 def test(lst0):
+

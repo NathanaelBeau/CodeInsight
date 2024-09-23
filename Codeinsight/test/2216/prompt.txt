@@ -1,4 +1,6 @@
 Extract all text segments from the string var0 that are enclosed within double quotation marks
+
 import re
 
 def test(var0):
+

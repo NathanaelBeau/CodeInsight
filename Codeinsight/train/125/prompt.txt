@@ -1,2 +1,5 @@
 write a python function that takes input radius var1 and return area of circle
-def test(var1):
+
+def test(var1): 
+    pi = math.pi
+    return pi * (var1*var1)

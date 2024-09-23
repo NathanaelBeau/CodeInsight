@@ -6,4 +6,3 @@ def test(var0):
         res = str(n % 7) + res
         n //= 7
     return res if var0 > 0 else '-' + res
-

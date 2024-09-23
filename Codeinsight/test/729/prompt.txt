@@ -1,2 +1,4 @@
 Remove all white spaces from a string str0.
+
 def test(str0):
+

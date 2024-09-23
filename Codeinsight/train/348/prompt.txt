@@ -1,3 +1,5 @@
 Merge all columns in dataframe df0 into a single column.
+
 import pandas as pd
 def test(df0):
+

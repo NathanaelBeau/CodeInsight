@@ -7,4 +7,3 @@ def test(arr0, var0, var1):
 
     expected_output = repeated_arr0  
     return np.array_equal(repeated_arr0, expected_output)
-

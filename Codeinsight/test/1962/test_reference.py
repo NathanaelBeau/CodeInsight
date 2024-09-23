@@ -6,4 +6,3 @@ def test(str0):
         return match[0]
     else:
         return None
-

@@ -3,4 +3,3 @@ def test(str0):
     for char in str0:
         reversed_str = char + reversed_str
     return reversed_str
-

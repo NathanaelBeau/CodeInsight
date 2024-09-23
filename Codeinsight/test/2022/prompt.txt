@@ -1,3 +1,5 @@
 Remove duplicates from a dataframe df0 based on columns 'A' and 'B', retaining the row with the maximum value in column 'C
+
 import pandas as pd
 def test(df0):
+

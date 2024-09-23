@@ -1,4 +1,6 @@
 Find the starting indices of all occurrences of the regex pattern pattern in string str0.
+
 import re
 
 def test(str0: str, pattern: str) -> list:
+

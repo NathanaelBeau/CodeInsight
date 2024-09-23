@@ -1,4 +1,6 @@
 Group the elements of lst0 into separate lists based on their first five characters.
+
 from itertools import groupby
 
 def test(lst0):
+

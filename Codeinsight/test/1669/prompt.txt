@@ -1,4 +1,6 @@
  Construct a pandas DataFrame from a nested dictionary dict0
+
 import pandas as pd
 
 def test(dict0):
+

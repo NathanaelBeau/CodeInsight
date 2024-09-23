@@ -1,4 +1,6 @@
 Replace multiple substrings in str0 based on the replacement mappings provided in the dictionary dict0.
+
 import re
 
 def test(str0, dict0):
+

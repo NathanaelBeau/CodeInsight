@@ -1,2 +1,4 @@
 Remove all occurrences of the string var0 from the list lst0.
+
 def test(lst0, var0):
+

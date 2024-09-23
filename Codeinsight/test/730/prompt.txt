@@ -1,2 +1,4 @@
 Python : how to create   a list  of  number var0 same list?   
+
 def test(var0):
+

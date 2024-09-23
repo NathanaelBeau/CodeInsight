@@ -1,4 +1,6 @@
 Lowercase the strings in column 'x' of dataframe df0 if they are missing values.
+
 import pandas as pd
 
 def test(df0):
+

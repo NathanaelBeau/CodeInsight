@@ -1,4 +1,6 @@
 Python - Locating the position of a regex match var0 in a string str0?   
+
 import re
 
 def test(str0, var0):
+

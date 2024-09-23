@@ -1,4 +1,6 @@
 Remove all whitespace and convert the string var0 to lowercase.
+
 import re
 
 def test(var0):
+

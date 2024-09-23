@@ -1,2 +1,4 @@
 Strip any leading and trailing white spaces from the string var0 and then split it into a list of words based on white spaces.
+
 def test(var0):
+

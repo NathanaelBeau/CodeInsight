@@ -1,4 +1,6 @@
 Flatten the list of lists sublist into a single list.
+
 import itertools
 
 def test(sublist):
+

@@ -1,3 +1,5 @@
 How  to remove duplicate characters from a string str0 in python with OrderedDict?   
+
 from collections import OrderedDict
 def test(str0):
+

@@ -1,4 +1,6 @@
  use regular expression to separate numbers and characters in strings str0 like "30M1000N20M"   
+
 import re
 
 def test(str0):
+

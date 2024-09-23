@@ -4,4 +4,3 @@ def test(str0):
         if word[0].isupper():
             list1.append(word)
     return list1
-

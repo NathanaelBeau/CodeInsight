@@ -15,4 +15,3 @@ def test(var0):
 
     formatted_str = " ".join(groups) + decimal_part.replace('.', ',')
     return formatted_str
-

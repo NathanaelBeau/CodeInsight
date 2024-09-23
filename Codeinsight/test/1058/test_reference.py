@@ -6,4 +6,3 @@ def test(lst0):
             reversed_tuple = (item,) + reversed_tuple
         reversed_tuples.append(reversed_tuple)
     return tuple(reversed_tuples)
-

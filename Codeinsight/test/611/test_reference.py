@@ -6,4 +6,3 @@ def test(df0, operation):
         return df0.stack().std()
     else:
         raise ValueError("Invalid operation. Choose 'mean' or 'std'.")
-

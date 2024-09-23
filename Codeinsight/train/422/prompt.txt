@@ -1,2 +1,4 @@
 Determine the byte length of a utf-8 encoded string s.
+
 def test(s: str) -> int:
+

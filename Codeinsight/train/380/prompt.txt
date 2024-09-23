@@ -1,2 +1,4 @@
 Sum values in list of dictionaries lst0 with key 'gold'.
+
 def test(lst0):
+

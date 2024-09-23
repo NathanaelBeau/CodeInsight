@@ -1,2 +1,4 @@
 write a python function to remove the given key var1 from a dictionary dict1
+
 def test(dict1, var1):
+

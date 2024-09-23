@@ -1,3 +1,5 @@
 Create a new list of lists by subtracting 1, 0, and -1 from elements in lst0 at odd indices, while setting elements at even indices to 0. Return the resulting list of lists.
+
 import numpy as np
 def test(lst0):
+

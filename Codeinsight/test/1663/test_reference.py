@@ -8,4 +8,3 @@ def test(var0):
     return decoded_string
 
 
-

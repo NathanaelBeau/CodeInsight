@@ -1,2 +1,4 @@
  add a space between a string literal  and a variable var0 and var1  
-def test(var0, var1):
+
+def test(var0, var1):  
+    return str(var0) + var1

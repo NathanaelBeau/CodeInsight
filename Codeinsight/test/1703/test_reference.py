@@ -3,4 +3,3 @@ def test(var0, var1):
     for key in var0:
         result[key] = var1
     return result
-

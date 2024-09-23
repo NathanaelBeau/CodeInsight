@@ -1,2 +1,4 @@
 sorts a list lst1 of numbers and return the smallest three elements
+
 def test(lst1):
+

@@ -1,4 +1,6 @@
 Extract a slice of columns from dataframe df0 starting from start_column0 to end_column0.
+
 import pandas as pd
 
 def test(df0, start_column0, end_column0):
+

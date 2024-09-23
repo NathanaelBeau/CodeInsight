@@ -1,4 +1,6 @@
 Delete the row at position var0 in numpy array x.
+
 import numpy as np
 
 def test(x, var0):
+

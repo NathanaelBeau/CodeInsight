@@ -4,4 +4,3 @@ def test(lst0, var0, lst1):
         if x[var0] not in lst1:
             result.append(x)
     return result
-

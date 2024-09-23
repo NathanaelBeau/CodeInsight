@@ -1,4 +1,6 @@
 Find the index of the nearest point to the coordinates (var0, var1) in the numpy arrays lst0 (for x-coordinates) and lst1 (for y-coordinates).
+
 import numpy as np
 from scipy.spatial.distance import cdist 
 def test(lst0, lst1, var0, var1):
+

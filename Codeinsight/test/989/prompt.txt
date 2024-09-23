@@ -1,4 +1,6 @@
 Find the first occurrence of any substring from list lst0 in string var0
+
 import re
 
 def test(var0, lst0):
+

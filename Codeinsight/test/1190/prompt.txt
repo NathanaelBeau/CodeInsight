@@ -1,4 +1,6 @@
 pythonic way to explode a list of tuples lst0   with functools
+
 import functools
 
 def test(lst0):
+

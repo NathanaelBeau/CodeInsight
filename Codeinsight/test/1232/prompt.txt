@@ -1,2 +1,4 @@
 Add a character var0 to each item in a list   lst0
+
 def test(lst0, var0):
+

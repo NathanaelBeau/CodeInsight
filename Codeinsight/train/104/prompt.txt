@@ -1,2 +1,4 @@
 Write a Python program to find maximum length of consecutive 0’s in a given binary string var1.
-def test(var1):
+
+def test(var1): 
+     return  max(map(len,var1.split('1')))

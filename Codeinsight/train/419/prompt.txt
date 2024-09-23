@@ -1,4 +1,6 @@
 Generate a list of cumulative sums for the range up to var0 using list comprehension.
+
 import itertools
 
 def test(var0: int) -> list:
+

@@ -1,3 +1,5 @@
 Filtering all elements in the list of lists 
 lst0 that satisfy a given condition var0
+
 def test(lst0, var0):
+

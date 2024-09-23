@@ -8,4 +8,3 @@ def test(arr0):
         diagonal.append(arr0[i, cols - i - 1])
     
     return np.array(diagonal)
-

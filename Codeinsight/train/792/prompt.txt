@@ -1,4 +1,6 @@
 Randomly change the cases of all characters in a string var0
+
 import random
 
 def test(var0):
+

@@ -1,2 +1,4 @@
 Delete column with name var0 from dataframe df0 without reassignment.
+
 def test(df0, var0):
+

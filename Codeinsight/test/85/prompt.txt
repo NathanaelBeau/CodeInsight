@@ -1,2 +1,4 @@
  Check if all boolean values in a dictionary dict0 are true
+
 def test(dict0):
+

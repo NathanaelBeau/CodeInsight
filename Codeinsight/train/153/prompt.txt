@@ -1,2 +1,4 @@
 takes list lst1 as parameter and return its the cube of each of its elements.
+
 def test(lst1):
+

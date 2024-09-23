@@ -1,2 +1,4 @@
 Create a list of dictionaries from dictionary d where each dictionary has keys 'key1' and 'key2' with corresponding values from lists in d.
+
 def test(d: dict) -> list:
+

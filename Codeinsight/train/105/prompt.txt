@@ -1,2 +1,7 @@
 Write a Python program to move all spaces to the front of a given string var1 in single traversal.
-def test(var1):
+
+def test(var1): 
+    no_spaces = [char for char in var1 if char!=' ']   
+    space= len(var1) - len(no_spaces)
+    result = ' '*space    
+    return result + ''.join(no_spaces)

@@ -8,4 +8,3 @@ def test(var0, dct0):
             if isinstance(value, dict):
                 queue.append(value)
     return None
-

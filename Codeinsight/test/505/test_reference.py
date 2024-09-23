@@ -11,4 +11,3 @@ def test(lst0):
     for result_tuple in recursive_combinations(lst0):
         results.append(result_tuple)
     return results
-

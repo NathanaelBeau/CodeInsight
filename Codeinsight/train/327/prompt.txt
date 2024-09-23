@@ -1,3 +1,5 @@
 Convert the sparse matrix mat0 into a dense matrix  
+
 from scipy.sparse import csr_matrix
 def test(mat0):
+

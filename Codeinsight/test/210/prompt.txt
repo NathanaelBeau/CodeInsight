@@ -1,2 +1,4 @@
 Match and remove characters in str0 that have three or more non-consecutive occurrences.
+
 def test(str0):
+

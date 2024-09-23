@@ -6,4 +6,3 @@ def test(dict0):
             max_value = subdict['count']
             max_key = key
     return max_key
-

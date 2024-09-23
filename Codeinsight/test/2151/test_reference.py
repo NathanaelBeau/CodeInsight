@@ -5,4 +5,3 @@ def test(df0, df1):
     for column in df0.columns:
         result_df[column] = df0[column] * df1[column]
     return result_df
-

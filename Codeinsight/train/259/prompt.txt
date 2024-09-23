@@ -1,4 +1,6 @@
 Mapping a function var1 on the first column of a dataframe var0   
+
 import pandas
 
 def test(var0, var1):
+

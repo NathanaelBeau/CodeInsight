@@ -5,4 +5,3 @@ def test(lst0):
             return False
         seen.add(x)
     return True
-

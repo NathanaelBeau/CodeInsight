@@ -1,4 +1,6 @@
 Remove all symbols (non-alphanumeric characters) from a string str0.
+
 import re
 
 def test(str0: str) -> str:
+

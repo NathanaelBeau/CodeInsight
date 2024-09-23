@@ -1,2 +1,4 @@
 remove the leading and trailing space characters in the string var1
+
 def test(var1):
+

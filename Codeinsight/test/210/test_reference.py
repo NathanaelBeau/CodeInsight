@@ -3,4 +3,3 @@ def test(str0):
         if str0.count(char) >= 3:
             str0 = str0.replace(char, '')
     return str0
-

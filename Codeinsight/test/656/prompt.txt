@@ -1,4 +1,6 @@
 Convert string str0 to numpy array   
+
 import numpy as np
 
 def test(str0):
+

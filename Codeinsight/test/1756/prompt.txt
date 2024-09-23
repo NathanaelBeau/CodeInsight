@@ -1,4 +1,6 @@
 Normalize the columns of the pandas DataFrame df0 so that values range between 0 and 1.
+
 import pandas as pd
 
 def test(df0):
+

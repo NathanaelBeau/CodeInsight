@@ -1,2 +1,4 @@
 Concatenate all elements of the input list lst0 into a single string, with each element separated by a space. 
+
 def test(lst0):
+

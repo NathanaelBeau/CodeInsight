@@ -1,2 +1,4 @@
 in Python,  convert list of float numbers  lst0 to string with certain format var0?   
+
 def test(lst0, var0):
+

@@ -3,4 +3,3 @@ def test(lst0):
     for d in lst0:
         result.update(d)
     return result
-

@@ -12,4 +12,3 @@ def test(str0):
             most_frequent_char = char
 
     return most_frequent_char, max_count
-

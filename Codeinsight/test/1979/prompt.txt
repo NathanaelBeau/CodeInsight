@@ -1,2 +1,4 @@
 Sorting a set of values   var0 
-def test(var0: Set[Any]):
+
+def test(var0):
+

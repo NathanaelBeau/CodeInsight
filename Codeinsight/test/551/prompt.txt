@@ -1,4 +1,6 @@
 Remove dollar sign from the second to the last column in dataframe df0 and convert these columns into floats.
+
 import pandas as pd
 
 def test(df0):
+

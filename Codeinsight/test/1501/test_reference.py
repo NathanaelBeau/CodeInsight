@@ -3,4 +3,3 @@ def test(dict0):
     for k, v in dict0.items():
         result.extend([k] * v)
     return result
-

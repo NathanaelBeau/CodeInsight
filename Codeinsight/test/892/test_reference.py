@@ -9,4 +9,3 @@ def test(lst0):
             result.append(item)
     
     return result
-

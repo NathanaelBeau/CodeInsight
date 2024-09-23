@@ -1,2 +1,4 @@
 Accessing all elements in position var0 from a list of tuples lst0
+
 def test(var0, lst0):
+

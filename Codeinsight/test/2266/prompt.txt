@@ -1,2 +1,4 @@
  splitting a string str0 in Python with split onvar1 and var0.
+
 def test(str0, var0, var1):
+

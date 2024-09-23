@@ -1,5 +1,7 @@
 Fill NaN values in specified columns var0 of DataFrame df0 with the given value var1.
+
 import pandas as pd
 import numpy as np
 
 def test(df0, var0, var1):
+

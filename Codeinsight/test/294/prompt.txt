@@ -1,3 +1,5 @@
 Create a numpy array from the list of strings lst0 with arbitrary length.  
+
 import numpy as np
 def test(lst0):
+

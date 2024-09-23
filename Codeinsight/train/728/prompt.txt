@@ -1,2 +1,4 @@
 Turn a list lst0 into a list of tuples by pairing every two consecutive elements. 
+
 def test(lst0):
+

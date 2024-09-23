@@ -3,4 +3,3 @@ def test(lst0):
     for elem in lst0:
         result.append(not elem)
     return result
-

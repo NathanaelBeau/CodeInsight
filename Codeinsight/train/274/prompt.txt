@@ -1,2 +1,4 @@
 Replace characters in a string str0 based on a translation table created from two other strings var0 and var1.
+
 def test(str0, var0, var1):
+

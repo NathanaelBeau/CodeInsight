@@ -1,4 +1,6 @@
 Create and return a NumPy array with the specified shape shape0, filled with the boolean value of var0..
+
 import numpy as np
 
 def test(shape0, var0):
+

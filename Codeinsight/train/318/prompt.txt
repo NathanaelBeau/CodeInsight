@@ -1,3 +1,5 @@
 Rearrange arr0 based on the positions given by index array idx0  
+
 import numpy as np
 def test(arr0, idx0):
+

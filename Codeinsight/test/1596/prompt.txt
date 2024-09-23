@@ -1,4 +1,6 @@
 Group by column col0 in DataFrame df0 and compute its mean.
+
 import pandas as pd
 
 def test(df0, col0):
+

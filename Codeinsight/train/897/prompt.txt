@@ -1,5 +1,7 @@
 Replace specific string var0 to NaN from a dataframe var1
+
 import pandas as pd
 import numpy as np
 
 def test(var0, var1):
+

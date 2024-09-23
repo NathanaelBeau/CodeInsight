@@ -3,4 +3,3 @@ def test(dict0, var0):
         if val == var0:
             del dict0[key]
     return dict0
-

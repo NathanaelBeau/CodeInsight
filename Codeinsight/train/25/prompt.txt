@@ -1,2 +1,4 @@
 compute the mean of a pandas series var1
+
 def test(var1):
+

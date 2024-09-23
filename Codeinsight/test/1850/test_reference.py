@@ -6,4 +6,3 @@ def test(lst0, lst1):
                 result.append(item)
                 break
     return result
-

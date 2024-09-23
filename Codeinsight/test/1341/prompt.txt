@@ -1,4 +1,6 @@
 Replace all non-alphanumeric characters in string var0, except for the characters provided in exceptions, with the string replacement.
+
 import re
 
 def test(var0, exceptions='', replacement=''):
+

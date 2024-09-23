@@ -1,2 +1,4 @@
 Write a python program to check if a string var1 is an integer
+
 def test(var1):
+

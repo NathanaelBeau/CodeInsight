@@ -7,4 +7,3 @@ def test(var0):
             result.pop()  # remove the space
         result.append(char)
     return ''.join(result)
-

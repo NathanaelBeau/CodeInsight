@@ -1,2 +1,4 @@
 Append the string var0 to each element in the list lst0.
+
 def test(lst0, var0):
+

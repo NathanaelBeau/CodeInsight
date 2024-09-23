@@ -5,4 +5,3 @@ def test(df0, col1, col2):
         freq_list.append((row[col1], row[col2], row[0]))
     return freq_list
 
-

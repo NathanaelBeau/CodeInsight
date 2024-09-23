@@ -1,4 +1,6 @@
 Remove anything in parentheses from the string var0 using regex
+
 import re
 
 def test(var0):
+

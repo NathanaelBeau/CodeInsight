@@ -1,2 +1,4 @@
 Extract all values from a dictionary dict0 where the keys case-insensitively match the string 'new york'
+
 def test(dict0):
+

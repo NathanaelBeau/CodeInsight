@@ -1,4 +1,6 @@
  remove all zero elements from a NumPy array arr0   
+
 import numpy as np
 
 def test(arr0):
+

@@ -1,3 +1,5 @@
 Replacing the empty strings in a string str1 with string str0
+
 from functools import reduce
 def test(str0, str1):
+

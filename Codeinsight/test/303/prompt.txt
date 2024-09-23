@@ -1,2 +1,5 @@
 Generate all two-element string permutations from a list lst0
+
+
 def test(lst0):
+

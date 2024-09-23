@@ -1,4 +1,6 @@
 Generate all combinations of 3 elements from a set set0
+
 from itertools import combinations
 
 def test(set0):
+

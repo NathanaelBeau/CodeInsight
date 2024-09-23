@@ -1,4 +1,6 @@
 Remove all matches in the string var0 that match the pattern var1.
+
 import re
 
 def test(var0, var1):
+

@@ -6,4 +6,3 @@ def test(dict0):
     
     return count_elements(dict0)
 
-

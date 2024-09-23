@@ -1,3 +1,5 @@
 Normalize the rows of numpy array arr0 by dividing each row by its sum   
+
 import numpy as np
 def test(arr0):
+

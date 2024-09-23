@@ -1,2 +1,4 @@
 check whether a number var1 is perfect or not
+
 def test(var1):
+

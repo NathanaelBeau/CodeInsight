@@ -1,2 +1,4 @@
 Delete an item var0 in a list lst0 if it exists.
+
 def test(lst0, var0):
+

@@ -1,4 +1,6 @@
 Regex for removing data in parenthesis   in string str0 
+
 import re
 
 def test(str0):
+

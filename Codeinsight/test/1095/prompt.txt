@@ -1,2 +1,4 @@
 Pythonic way to fetch all elements in a dictionary dict0, falling between two keys?   
+
 def test(dict0):
+

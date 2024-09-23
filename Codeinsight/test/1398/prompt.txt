@@ -1,2 +1,4 @@
 Convert the string s to an integer or a float, depending on its content.
+
 def test(s: str) -> [int, float]:
+

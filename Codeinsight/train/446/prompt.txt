@@ -1,4 +1,6 @@
 Remove all characters from the string var0 except for letters and spaces.
+
 import re
 
 def test(var0):
+

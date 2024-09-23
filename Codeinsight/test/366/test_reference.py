@@ -13,4 +13,3 @@ def test(series0, method):
         return series.all()
     else:
         raise ValueError("Invalid method. Choose from 'empty', 'bool', 'item', 'any', or 'all'.")
-

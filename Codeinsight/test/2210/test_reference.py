@@ -4,4 +4,3 @@ def test(dict0):
         outdict[k.lower()] = v.lower()
     return outdict
 
-

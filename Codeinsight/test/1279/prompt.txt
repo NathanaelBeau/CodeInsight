@@ -1,4 +1,6 @@
 Determine the byte length of a utf-8 encoded string s.
+
 import sys
 
 def test(s: str) -> int:
+

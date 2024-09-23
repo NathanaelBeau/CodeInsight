@@ -6,4 +6,3 @@ def test(lst0):
             concatenated_string += item
         result.append(concatenated_string)
     return result
-

@@ -1,3 +1,5 @@
 split elements of a list lst0   
+
 from functools import partial
 def test(lst0):
+

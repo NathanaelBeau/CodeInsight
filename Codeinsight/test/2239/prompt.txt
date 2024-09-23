@@ -1,4 +1,6 @@
 Normalize an array arr0  
+
 from sklearn.preprocessing import StandardScaler
 
 def test(arr0):
+

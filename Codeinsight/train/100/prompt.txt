@@ -1,2 +1,4 @@
 Write a Python function to find the index of a given string var1 at which a given substring var2 starts. If the substring var2 is not found in the given string return 'Notfound'.
+
 def test(var1, var2):
+

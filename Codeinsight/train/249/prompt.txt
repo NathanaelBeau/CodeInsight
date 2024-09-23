@@ -1,2 +1,4 @@
 filters out empty list elements from list lst1 using list comprehension
+
 def test(lst1):
+

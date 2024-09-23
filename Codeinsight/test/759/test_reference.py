@@ -4,4 +4,3 @@ def test(dict0):
     for key, value in sorted_items:
         summary[key] = sum(value)
     return summary
-

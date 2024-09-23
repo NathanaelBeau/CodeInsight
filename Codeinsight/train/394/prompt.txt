@@ -1,2 +1,4 @@
 Initialize a list a with var0 items, each having the value var1.
+
 def test(var0, var1):
+

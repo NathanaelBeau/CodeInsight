@@ -1,4 +1,6 @@
 Create a list containing the first var0 values from generator it0.
+
 from itertools import islice
 
 def test(it0, var0):
+

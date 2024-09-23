@@ -1,5 +1,7 @@
-Scikit-learn:  run KMeans on a one-dimensional array arr0   
-from sklearn.cluster import KMeans
-import numpy as np
+Run KMeans on a one-dimensional array arr0 with number of clusters n_clusters and return labels
 
-def test(arr0):
+import numpy as np
+from sklearn.cluster import KMeans
+
+def test(arr0, n_clusters):
+

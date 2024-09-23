@@ -1,2 +1,4 @@
 Convert a list lst0 into a string with values separated by spaces
+
 def test(lst0):
+

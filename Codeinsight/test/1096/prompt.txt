@@ -1,4 +1,6 @@
 Split the string var0 into alphabetic and numeric parts.
+
 import re
 
 def test(var0):
+

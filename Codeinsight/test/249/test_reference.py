@@ -6,4 +6,3 @@ def test(str0, var0):
         return match.start()
     else:
         return -1
-

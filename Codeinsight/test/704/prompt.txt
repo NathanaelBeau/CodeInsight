@@ -1,2 +1,4 @@
 Create a dictionary where keys are integers from 0 to var0 - 1 and values are their respective squares.
+
 def test(var0: int) -> dict:
+

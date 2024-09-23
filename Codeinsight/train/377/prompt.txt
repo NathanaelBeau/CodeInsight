@@ -1,4 +1,6 @@
 Generate all combinations of var0 binary values.
+
 from itertools import product
 
 def test(var0):
+

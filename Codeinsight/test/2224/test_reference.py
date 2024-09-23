@@ -7,4 +7,3 @@ def test(lst0):
             seen.add(tuple_sublist)
             new_list.append(sublist)
     return new_list
-

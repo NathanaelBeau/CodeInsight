@@ -1,4 +1,6 @@
 Strip all punctuation characters from the string var0.
+
 import string
 
 def test(var0):
+

@@ -1,2 +1,4 @@
 group similar items in a list lst0
+
 def test(lst0):
+

@@ -4,4 +4,3 @@ def test(var0, var1, var2):
     if len(matches) < var2:
         return -1
     return matches[var2 - 1]
-

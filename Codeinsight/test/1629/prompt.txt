@@ -1,5 +1,7 @@
 Impute the missing categorical values in the dataset df0 using the most frequent strategy from scikit-learn.
+
 from sklearn.impute import SimpleImputer
 import numpy as np
 
 def test(df0):
+

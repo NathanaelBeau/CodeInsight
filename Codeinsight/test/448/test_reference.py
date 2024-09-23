@@ -6,4 +6,3 @@ def test(lst0):
     return sorted(unique_elements)
 
 
-

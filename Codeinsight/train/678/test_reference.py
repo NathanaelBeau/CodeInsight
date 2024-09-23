@@ -9,4 +9,3 @@ def test(lst0, var0):
         start = end
 
     return result
-

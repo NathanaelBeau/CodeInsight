@@ -1,4 +1,6 @@
 List comprehension with an accumulator  on list lst0 
+
 from itertools import accumulate
 
 def test(lst0):
+

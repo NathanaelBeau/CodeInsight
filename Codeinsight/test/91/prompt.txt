@@ -1,4 +1,6 @@
 convert a dictionary dict0 into a NumPy array with the specified data type dtype.
+
 import numpy as np
 
 def test(dict0, dtype= object):
+

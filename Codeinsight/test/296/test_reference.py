@@ -3,4 +3,3 @@ def test(lst0):
     for item in lst0:
         result += str(item) + '\n'
     return result.strip()
-

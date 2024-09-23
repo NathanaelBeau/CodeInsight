@@ -5,4 +5,3 @@ def test(df0):
     for index, row in df0.iterrows():
         result.append((index, row['A']))
     return result
-

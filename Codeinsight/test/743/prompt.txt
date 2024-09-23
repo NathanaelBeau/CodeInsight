@@ -1,3 +1,5 @@
  Replace all values in column 'prod_type' of dataframe df0 with string 'responsive
+
 import pandas as pd
 def test(df0):
+

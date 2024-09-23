@@ -1,4 +1,6 @@
 Python: an efficient way to slice a list lst0 with a index list  lst1 
+
 import operator
 
 def test(lst0, index):
+

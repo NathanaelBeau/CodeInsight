@@ -1,4 +1,6 @@
 Remove line break character in a string var0 if it follows a lowercase letter
+
 import re
 
 def test(var0):
+

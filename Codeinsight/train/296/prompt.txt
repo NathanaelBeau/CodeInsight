@@ -1,2 +1,5 @@
 Assign the value 9.8 to a float variable named var0
-def test(var0):
+
+def test(var0): 
+    return var0
+

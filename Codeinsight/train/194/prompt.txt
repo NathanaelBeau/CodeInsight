@@ -1,2 +1,4 @@
 return the mean of numbers in list lst1
+
 def test(lst1):
+

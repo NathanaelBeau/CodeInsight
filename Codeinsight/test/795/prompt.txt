@@ -1,3 +1,5 @@
 Counting the number of non-NaN elements in a numpy ndarray arr0 in Python   
+
 import numpy as np
 def test(arr0):
+

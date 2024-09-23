@@ -1,4 +1,6 @@
 Merge a given series var0 with a dataframe df0.
 
+
 import pandas as pd
 def test(var0, df0):
+

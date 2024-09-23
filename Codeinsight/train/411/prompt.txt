@@ -1,2 +1,4 @@
 Extract the dictionary from list lst0 where the value for the key 'name' is var0.
+
 def test(lst0: list, var0: str) -> dict:
+

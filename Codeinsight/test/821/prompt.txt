@@ -1,4 +1,6 @@
 normalize a confusion matrix mat0   
+
 import numpy as np
 
 def test(mat0):
+

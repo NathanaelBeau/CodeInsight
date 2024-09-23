@@ -1,2 +1,4 @@
 joins elements of a list lst1 of strings
+
 def test(lst1):
+

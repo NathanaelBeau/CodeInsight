@@ -8,4 +8,3 @@ def test(lst0):
             max_value = item['size']
     
     return max_index
-

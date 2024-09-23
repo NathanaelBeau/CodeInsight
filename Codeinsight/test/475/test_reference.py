@@ -7,4 +7,3 @@ def test(lst0):
             duplicates.add(item)
         seen.add(item)
     return list(duplicates)
-

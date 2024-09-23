@@ -6,4 +6,3 @@ def test(lst0):
         pairs = [(perm[i], perm[i+1]) for i in range(0, len(perm), 2)]
         perm_pairs.add(tuple(pairs))
     return perm_pairs
-

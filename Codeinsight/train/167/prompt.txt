@@ -1,2 +1,4 @@
 check if a string var1 is whitespace
+
 def test(var1):
+

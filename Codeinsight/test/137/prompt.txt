@@ -1,4 +1,6 @@
 Convert the string column named var0 in the dataframe df0 to lowercase.
+
 import pandas as pd
 
 def test(df0, var0):
+

@@ -1,2 +1,4 @@
 Convert the list of tuples lst0 into a single sequence of elements.
+
 def test(lst0):
+

@@ -1,2 +1,4 @@
 Counting array elements in Python array lst0  
+
 def test(lst0):
+

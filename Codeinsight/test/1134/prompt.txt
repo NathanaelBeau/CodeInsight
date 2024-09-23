@@ -1,4 +1,6 @@
 Filter DataFrame df0 where column name var0 has values that are either 'in' or 'not in' the provided list values lst0, based on the specified operation op0.
+
 import pandas as pd
 
 def test(df0, var0, lst0, op0):
+

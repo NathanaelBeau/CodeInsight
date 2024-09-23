@@ -1,4 +1,6 @@
 Remove all trailing digits from the end of string s.
+
 import re
 
 def test(s: str) -> str:
+

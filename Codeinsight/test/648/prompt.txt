@@ -1,2 +1,4 @@
 Split string str0 based without regular expression   
+
 def test(str0):
+

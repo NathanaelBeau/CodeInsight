@@ -1,3 +1,5 @@
 Extract the part (either 'upper' or 'lower') triangular part of the matrix mat0. 
+
 import numpy as np
 def test(mat0, part='upper'):
+

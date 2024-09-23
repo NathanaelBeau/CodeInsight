@@ -1,2 +1,4 @@
 check whether a number var1 is palindrome or not
+
 def test(var1):
+

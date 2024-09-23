@@ -1,2 +1,4 @@
-How to declare an array in python of lenght var0
-def test(var0) -> List[int]:
+Declare a list of length var0 with all elements initialized to 0.
+
+def test(var0):
+

@@ -1,4 +1,6 @@
 Change the data type of the column var0 in the dataframe df0 into float and then to int.
+
 import pandas as pd
 
 def test(df0, var0):
+

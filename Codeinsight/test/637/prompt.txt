@@ -1,4 +1,6 @@
 Merging items in a list lst0- Python   
+
 from functools import reduce
 
 def test(lst0):
+

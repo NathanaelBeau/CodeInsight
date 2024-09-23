@@ -1,3 +1,5 @@
 Design a function that return var1 random numbers
+
 import random
 def test(var1):
+

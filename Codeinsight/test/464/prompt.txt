@@ -1,4 +1,6 @@
 Filter DataFrame df0 to keep only the groups defined by str0 that have more than one row, and return the result with the index reset.
+
 import pandas as pd
 
 def test(df0, str0):
+

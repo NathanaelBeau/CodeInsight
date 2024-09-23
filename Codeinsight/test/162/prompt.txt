@@ -1,2 +1,4 @@
 Generate rolling windows of size var0 for a 1D numpy array arr0  
+
 def test(arr0, var0):
+

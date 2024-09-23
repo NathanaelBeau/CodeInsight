@@ -8,4 +8,3 @@ def test(dict0):
         current += value
         if current > pick:
             return key
-

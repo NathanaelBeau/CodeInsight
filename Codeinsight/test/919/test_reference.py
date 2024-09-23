@@ -4,4 +4,3 @@ def test(lst0):
             return [extract_first_elements(sublist) for sublist in lst]
         return lst[0]
     return extract_first_elements(lst0)
-

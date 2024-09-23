@@ -1,4 +1,6 @@
 Combine the values of columns col0 and col1 in DataFrame df0 into a single datetime object and return the result as a datetime series.
+
 import pandas as pd
 
 def test(df0, col0, col1):
+

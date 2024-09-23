@@ -1,2 +1,4 @@
 Clear all elements from a list lst0.
+
 def test(lst0: list) -> list:
+

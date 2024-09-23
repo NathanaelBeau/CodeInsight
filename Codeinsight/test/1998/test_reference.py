@@ -3,4 +3,3 @@ def test(lst0, lst1):
         while i in lst1:
             lst1.remove(i)
     return lst1
-

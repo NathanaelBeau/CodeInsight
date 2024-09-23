@@ -1,2 +1,4 @@
 Write a Python function where you take any positive integer var1, if var1 is even, divide it by 2 to get var1 / 2. If var1 is odd, multiply it by 3 and add 1 to obtain 3var1 + 1. Repeat the process until you reach 1 and return all the values of var1 .
+
 def test(var1):
+

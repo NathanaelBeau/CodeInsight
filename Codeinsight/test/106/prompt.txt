@@ -1,2 +1,4 @@
 Check if all string elements in the list words are in uppercase.
+
 def test(words: list) -> bool:
+

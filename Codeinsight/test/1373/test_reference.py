@@ -8,4 +8,3 @@ def test(dict0):
         else:
             total += 1
     return total
-

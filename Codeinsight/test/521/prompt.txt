@@ -1,4 +1,6 @@
 Reduce multiple consecutive newline characters to a single newline character in the string var0.
+
 import re
 
 def test(var0):
+

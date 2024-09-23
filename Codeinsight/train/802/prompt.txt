@@ -1,2 +1,4 @@
 Extract all digits from a string named str0
+
 def test(str0):
+

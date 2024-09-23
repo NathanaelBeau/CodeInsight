@@ -1,4 +1,6 @@
 Retrieve the number of columns in the pandas DataFrame df0.
+
 import pandas as pd
 
 def test(df0):
+

@@ -5,4 +5,3 @@ def test(str0):
     left_half = str0[:mid]
     right_half = str0[mid:]
     return test(right_half) + test(left_half)
-

@@ -1,4 +1,6 @@
 Find the inserted portion in the string var1 as compared to the original string var0.
+
 import difflib
 
 def test(var0, var1):
+

@@ -1,4 +1,5 @@
-Merging list of 2 Lists lst0 In in all possible ways - Python   
+Merge two lists lst0 and lst1 with all possible permutations
 import itertools
 
 def test(lst0, lst1):
+

@@ -1,4 +1,6 @@
 Multiply two vectors vect0 and vect1 
+
 import numpy as np
 
 def test(vect0, vect1):
+

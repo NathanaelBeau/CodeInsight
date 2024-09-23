@@ -5,4 +5,3 @@ def test(lst0):
         accumulator += num
         result.append(accumulator)
     return result
-

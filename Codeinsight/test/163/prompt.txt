@@ -1,4 +1,6 @@
 Count the number of rows for each unique group defined by key_columns in the dataframe df.
+
 import pandas as pd
 
 def test(df: pd.DataFrame, key_columns: str) -> pd.DataFrame:
+

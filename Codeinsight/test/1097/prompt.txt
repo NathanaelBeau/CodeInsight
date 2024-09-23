@@ -1,2 +1,4 @@
 Checking if the character char0 exists in the string str0
+
 def test(str0, char0):
+

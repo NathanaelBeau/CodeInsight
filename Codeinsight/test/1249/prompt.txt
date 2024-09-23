@@ -1,2 +1,4 @@
 Delete character  var0 from a given string str0
+
 def test(str0, var0):
+

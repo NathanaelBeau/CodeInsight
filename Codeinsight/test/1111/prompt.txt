@@ -1,2 +1,4 @@
 Python: Fetch first 10 results from a list  lst0 
+
 def test(lst0):
+

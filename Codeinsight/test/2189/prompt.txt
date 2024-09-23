@@ -1,2 +1,4 @@
 Check if a string var0 begin with var1 and end with var2
+
 def test(var0, var1, var2):
+

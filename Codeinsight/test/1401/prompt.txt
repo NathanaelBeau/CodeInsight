@@ -1,2 +1,6 @@
-How to declare an array in python of lenght 10000 
-def test():
+Declare a numpy array of length var0 and initialize it with var1
+
+import numpy as np
+
+def test(var0, var1):
+

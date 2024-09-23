@@ -1,4 +1,6 @@
 How to flatten a tuple lst0 python with chain from itertools
+
 from itertools import chain
 
 def test(lst0):
+

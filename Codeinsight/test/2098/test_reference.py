@@ -5,4 +5,3 @@ def test(df0, var0, var1):
         return list(df0[var0])
     elif var1 == "row":
         return list(df0.iloc[var0])
-

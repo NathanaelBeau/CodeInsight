@@ -1,2 +1,4 @@
 Insert the string var1 inside the string 'the man' and return the result
+
 def test(var1):
+

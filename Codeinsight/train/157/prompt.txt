@@ -1,2 +1,4 @@
 remove the dictionary key var2 from dictionary var1
+
 def test(var1,var2):
+

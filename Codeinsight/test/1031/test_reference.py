@@ -7,4 +7,3 @@ def test(df0):
     mean_row = sum(rows) / len(rows)
     mean_col = sum(col_indices) / len(col_indices)
     return mean_row, mean_col
-

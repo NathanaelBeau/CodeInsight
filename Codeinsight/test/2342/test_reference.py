@@ -6,4 +6,3 @@ def test(str0):
     if len(str0) % 2:
         switched_str.append(str0[-1])
     return ''.join(switched_str)
-

@@ -1,2 +1,4 @@
 split elements of a list lst0   
+
 def test(lst0):
+

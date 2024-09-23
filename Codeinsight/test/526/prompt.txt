@@ -1,2 +1,4 @@
 How to repeat 3 times individual characters in strings str0 in Python   
+
 def test(str0):
+

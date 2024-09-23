@@ -4,4 +4,3 @@ def test(str0, var0):
         result += str0[i]
     return result
 
-

@@ -1,4 +1,6 @@
  Extract all words from a string var0 while removing punctuation
+
 import re
 
 def test(var0):
+

@@ -10,4 +10,3 @@ def test(str0):
     most_frequent_chars = [char for char, count in char_count.items() if count == max_count]
 
     return most_frequent_chars[0], max_count
-

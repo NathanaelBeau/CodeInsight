@@ -4,4 +4,3 @@ def test(var0, var1, var2=1):
     match = re.search(pattern, var0)
     if match:
         return match.groups()
-

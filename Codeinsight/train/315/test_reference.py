@@ -5,4 +5,3 @@ def test(arr0):
     idx = np.where(arr[:-1] != arr[1:])[0] + 1
     lengths = np.diff(np.r_[0, idx])
     return arr0[idx - 1], lengths
-

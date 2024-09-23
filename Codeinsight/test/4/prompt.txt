@@ -1,2 +1,4 @@
 Split a given string str0 at newline characters
+
 def test(str0):
+

@@ -1,2 +1,4 @@
 Trim white spaces from both ends of the string myString.
+
 def test(myString: str) -> str:
+

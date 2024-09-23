@@ -1,2 +1,4 @@
 Cut a string var0 after the last appearance of a special character var1
+
 def test(var0, var1):
+

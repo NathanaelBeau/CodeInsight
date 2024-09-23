@@ -1,4 +1,6 @@
 Create a series that contains the length of each list in the column col0 of DataFrame df0, and return this series. 
+
 import pandas as pd
 
 def test(df0, col0):
+

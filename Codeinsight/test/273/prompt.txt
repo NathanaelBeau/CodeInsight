@@ -1,4 +1,6 @@
 convert a binary (string)str0 into a float value   
+
 import struct
 
 def test(str0):
+

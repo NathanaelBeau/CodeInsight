@@ -6,4 +6,3 @@ def test(dict0, dict1):
         common_values = list(set(values_in_dict0).intersection(values_in_dict1))
         result[key] = common_values
     return result
-

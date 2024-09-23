@@ -1,2 +1,4 @@
 Switch every pair of characters in a string str0 
+
 def test(str0):
+

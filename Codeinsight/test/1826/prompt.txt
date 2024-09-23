@@ -1,5 +1,7 @@
 Split dataframe df0 into train and test samples with a fraction frac0 for training. Optionally, a random_state0 can be provided for reproducibility.
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
 def test(df0, frac0=0.75, random_state0=None):
+

@@ -1,5 +1,6 @@
 import numpy as np
 
-def test(var0: np.ndarray) -> np.ndarray:
-    return var0.T.reshape(-1, 2, 2).swapaxes(1, 2).reshape(-1, 2)
-
+def test(arr0, var0, var1, var2):
+    sliced_array = arr0[var0, var1]
+    extended_array = np.vstack([sliced_array, np.tile(sliced_array[-1, :], (var2, 1))])
+    return extended_array

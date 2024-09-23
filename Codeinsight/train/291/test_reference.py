@@ -34,4 +34,3 @@ def test(arr0):
     acceleration = t_component * tangent + n_component * normal
     
     return acceleration
-

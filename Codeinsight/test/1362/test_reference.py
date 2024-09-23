@@ -4,4 +4,3 @@ def test(str0, str1):
         if i.__contains__(str1):
             matching.append(i)
     return matching
-

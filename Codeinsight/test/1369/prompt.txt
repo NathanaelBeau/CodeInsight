@@ -1,5 +1,7 @@
 Scale the columns in list lst0 of DataFrame df0 using sklearn's StandardScaler.
+
 from sklearn.preprocessing import StandardScaler
 import pandas as pd
 
 def test(df0, lst0):
+

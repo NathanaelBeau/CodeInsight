@@ -3,4 +3,3 @@ def test(dict0):
     for key, value in dict0.items():
         result.append((key, value))
     return result
-

@@ -4,4 +4,3 @@ def test(lst0, var0):
         if not var0(x):
             result.append(x)
     return result
-

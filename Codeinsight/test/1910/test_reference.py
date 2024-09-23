@@ -4,4 +4,3 @@ def test(lst0, var0):
         key = d.pop(var0)
         result[key] = d
     return result
-

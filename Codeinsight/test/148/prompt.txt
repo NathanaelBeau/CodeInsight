@@ -1,2 +1,4 @@
 Convert a list lst0 of characters into a concatenated string   
+
 def test(lst0):
+

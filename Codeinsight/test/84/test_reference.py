@@ -6,4 +6,3 @@ def test(var0, var1):
         return match.group(0)
     else:
         return None
-

@@ -8,4 +8,3 @@ def test(lst0):
             swapped = [item[1], item[0]] + item[2:]
             result.append(swapped)
     return result
-

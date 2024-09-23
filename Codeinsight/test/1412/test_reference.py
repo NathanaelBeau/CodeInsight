@@ -10,4 +10,3 @@ def test(lst0):
         numbers.append(d[ni])
 
     return numbers
-

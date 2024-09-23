@@ -1,4 +1,6 @@
  get first part of an email address  string str0 with adress from  email.headerregistry
+
 from email.headerregistry import Address
 
 def test(str0):
+

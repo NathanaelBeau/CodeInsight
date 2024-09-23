@@ -1,4 +1,6 @@
 Trying to use reduce() and lambda with a list lst0 containing strings   
+
 from functools import reduce
 
 def test(lst0):
+

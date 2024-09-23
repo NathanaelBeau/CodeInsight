@@ -1,4 +1,6 @@
 Drop all duplicate rows in DataFrame df0 across columns specified in list lst0.
+
 import pandas as pd
 
 def test(df0, lst0):
+

@@ -1,4 +1,6 @@
 Split the text in column var0 of dataframe df0 into multiple rows
+
 import pandas as pd
 
 def test(df0, var0):
+

@@ -1,2 +1,4 @@
 Obtain a list of row names (index values) from the pandas DataFrame df0.
+
 def test(df0):
+

@@ -1,2 +1,4 @@
 Convert a string str0 to integer with decimal in Python   
+
 def test(str0):
+

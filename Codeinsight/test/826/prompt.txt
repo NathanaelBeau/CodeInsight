@@ -1,2 +1,4 @@
 Python reversing an UTF-8 string  str0
+
 def test(str0: bytes):
+

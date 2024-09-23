@@ -1,3 +1,5 @@
 Find the minimum and maximum values excluding zeros in numpy array (or tuple) arr0  
+
 import numpy as np
 def test(arr0):
+

@@ -7,4 +7,3 @@ def test(df0, var0, lst0, op0):
         return df0[~df0[var0].isin(lst0)]
     else:
         raise ValueError("Invalid operation. Choose either 'in' or 'not in'.")
-

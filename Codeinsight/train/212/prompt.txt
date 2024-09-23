@@ -1,2 +1,4 @@
 check if a list lst1 contains duplicates
+
 def test(lst1):
+

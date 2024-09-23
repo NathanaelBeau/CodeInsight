@@ -1,2 +1,4 @@
 splits the string var1 into a list of chars lst1
+
 def test(var1):
+

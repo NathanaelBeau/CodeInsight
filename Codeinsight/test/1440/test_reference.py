@@ -14,4 +14,3 @@ def test(str0):
             escape = False
 
     return result
-

@@ -6,4 +6,3 @@ def test(df0):
     df0[numeric_cols] = df0[numeric_cols].fillna(df0[numeric_cols].mean())
     return df0
 
-

@@ -4,4 +4,3 @@ def test(lst0, lst1):
         if item in lst1:
             common_indices.append(i)
     return common_indices
-

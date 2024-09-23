@@ -1,4 +1,6 @@
  get first part of an email address  string str0 with regex
+
 import re
 
 def test(str0):
+

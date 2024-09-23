@@ -5,4 +5,3 @@ def test(str0):
         str0 = str0.replace(c, "")
     return str0
 
-

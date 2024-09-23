@@ -1,2 +1,4 @@
 return the substring of var1 with characters that have an even index
+
 def test(var1):
+

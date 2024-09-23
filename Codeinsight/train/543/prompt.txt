@@ -1,4 +1,6 @@
 Removing nan values from an array or list  arr0 with filter
+
 import numpy as np
 
 def test(arr0):
+

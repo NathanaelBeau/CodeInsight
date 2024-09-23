@@ -1,6 +1,8 @@
 Normalize all the columns in a dataframe df0 by scaling the values between 0 and 1
+
 import pandas as pd
 
 
 
 def test(df0):
+

@@ -7,4 +7,3 @@ def test(arr0):
     sorted_indices[-len(nan_indices):] = nan_indices
     sorted_indices[:-len(nan_indices)] = non_nan_indices
     return arr0[sorted_indices]
-

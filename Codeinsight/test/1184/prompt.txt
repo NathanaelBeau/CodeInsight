@@ -1,5 +1,7 @@
 Python 3: Multiply a vector var0 by a matrix var1 without NumPy   with itertools and operator
+
 from itertools import starmap
 from operator import mul
 
 def test(var0, var1):
+

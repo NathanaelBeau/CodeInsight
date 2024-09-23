@@ -1,3 +1,5 @@
  Extract all non-zero values from a numpy array named arr0
+
 import numpy as np
 def test(arr0):
+

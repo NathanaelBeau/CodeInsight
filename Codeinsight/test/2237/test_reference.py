@@ -4,4 +4,3 @@ def test(str0):
         if not char.isdigit():
             result += char
     return result
-

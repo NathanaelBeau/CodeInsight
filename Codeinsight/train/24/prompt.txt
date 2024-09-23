@@ -1,2 +1,4 @@
 return the muliplication of the numpy vector var1 by the scalar var2
+
 def test(var1,var2):
+

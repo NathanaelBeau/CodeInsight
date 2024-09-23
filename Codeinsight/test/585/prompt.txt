@@ -1,4 +1,6 @@
 Python: Fetch first 10 results from a list   lst0
+
 from itertools import islice
 
 def test(lst0):
+

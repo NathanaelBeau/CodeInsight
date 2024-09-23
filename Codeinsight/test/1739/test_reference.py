@@ -7,4 +7,3 @@ def test(str0):
             pass
     return txt
 
-

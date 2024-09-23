@@ -1,2 +1,4 @@
 Write a Python function to sum all the values in a dictionary var1
+
 def test(var1):
+

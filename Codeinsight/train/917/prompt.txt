@@ -1,2 +1,4 @@
 Get all upper characters in a string var0
+
 def test(var0):
+

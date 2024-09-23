@@ -4,4 +4,3 @@ def test(lst0):
             yield from test(i)
         else:
             yield i
-

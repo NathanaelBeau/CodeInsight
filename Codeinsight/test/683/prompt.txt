@@ -1,4 +1,6 @@
 Selecting  certain values from a 2D array arr0 > to var0 in Python   
+
 import numpy as np
 
 def test(arr0, var0):
+

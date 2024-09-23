@@ -1,4 +1,6 @@
 Convert float Series var0 into an integer Series in pandas   
+
 import pandas as pd
 
 def test(var0):
+

@@ -3,4 +3,3 @@ def test(lst0):
     for dict_ in lst0:
         set_.update(dict_.keys())
     return set_
-

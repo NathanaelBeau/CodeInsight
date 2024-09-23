@@ -1,2 +1,4 @@
 Split the string str0 at indices specified in the list lst0.
+
 def test(str0, lst0):
+

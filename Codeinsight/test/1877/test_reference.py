@@ -7,4 +7,3 @@ def test(var0, var1, var2):
             return var0[:index] + var2.capitalize() + var0[index + len(var1):]
         else:
             return var0[:index] + var2 + var0[index + len(var1):]
-

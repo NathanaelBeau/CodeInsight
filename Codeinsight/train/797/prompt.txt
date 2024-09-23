@@ -1,2 +1,4 @@
 Append the string "foo" to a list named lst0
+
 def test(lst0):
+

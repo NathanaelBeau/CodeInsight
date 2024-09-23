@@ -1,2 +1,4 @@
 Remove all dictionaries from a list lst0 if their 'link' key's value is present in list lst1
+
 def test(lst0, lst1):
+

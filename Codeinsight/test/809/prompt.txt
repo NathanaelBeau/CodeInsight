@@ -1,2 +1,4 @@
 Calculate the average of all elements in a nested list lst0.
+
 def test(lst0: list) -> float:
+

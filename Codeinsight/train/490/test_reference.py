@@ -3,4 +3,3 @@ def test(dict0, idx0):
     if idx0 < 0 or idx0 >= len(values_list):
         return None
     return values_list[idx0]
-

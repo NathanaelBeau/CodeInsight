@@ -1,4 +1,6 @@
 Output the first 100 characters from a string 
 str0
 str0
+
 def test(str0):
+

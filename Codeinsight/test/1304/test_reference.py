@@ -3,4 +3,3 @@ def test(lst0, var0):
     for item in lst0:
         result.append(item[var0])
     return result
-

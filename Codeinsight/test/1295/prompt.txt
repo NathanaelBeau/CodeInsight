@@ -1,4 +1,6 @@
 Decode the escape sequences in a string named str0
+
 import codecs
 
 def test(str0):
+

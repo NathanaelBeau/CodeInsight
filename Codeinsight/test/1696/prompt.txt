@@ -1,4 +1,6 @@
 Remove all square brackets from the strings in dataframe df0 
+
 import pandas as pd
 
 def test(df0):
+

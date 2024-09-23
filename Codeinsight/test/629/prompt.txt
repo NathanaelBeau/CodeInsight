@@ -1,4 +1,6 @@
 Binarize the values in the pandas DataFrame df0, converting non-zero values to 1 and zero values to 0.
+
 import pandas as pd
 
 def test(df0):
+

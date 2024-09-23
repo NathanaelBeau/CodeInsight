@@ -1,4 +1,6 @@
-Get integer values from a string str0 in Python?   
+Get integer values from a string str0
+
 import re
 
 def test(str0):
+

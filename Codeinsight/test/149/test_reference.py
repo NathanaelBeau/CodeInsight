@@ -3,4 +3,3 @@ def test(lst0):
     for num in lst0:
         result = result * 10 + num
     return result
-

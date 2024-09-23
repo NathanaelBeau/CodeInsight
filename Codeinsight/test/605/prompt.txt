@@ -1,4 +1,6 @@
 duplicate data in pandas dataframe df0 for var0 times resetting index
+
 import pandas as pd
 
 def test(df0, var0):
+

@@ -6,4 +6,3 @@ def test(var0, str0):
         return np.tril(var0)
     else:
         raise ValueError("str0 must be 'upper' or 'lower'")
-

@@ -1,2 +1,4 @@
  Return a list of non-empty, lowercase, stripped lines from an input multi-line string str0.
+
 def test(str0):
+

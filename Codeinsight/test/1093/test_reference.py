@@ -3,4 +3,3 @@ def test(lst0):
         return [(x[1], x[0], *x[2:]) for x in lst0]
     else:
         return [[x[1], x[0], *x[2:]] for x in lst0]
-

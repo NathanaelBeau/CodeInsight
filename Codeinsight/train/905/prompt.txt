@@ -1,4 +1,6 @@
 Retrive all dimensions of an array arr0 except the index var1 of the first dimension
+
 import numpy as np
 
 def test(arr0, var1):
+

@@ -1,2 +1,4 @@
 Extract the values associated with the key 'value' from each dictionary in the input list lst0, provided that the key 'value' exists in the dictionary 
+
 def test(lst0):
+

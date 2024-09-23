@@ -11,4 +11,3 @@ def test(str0):
             word_start = i + 1
 
     return words
-

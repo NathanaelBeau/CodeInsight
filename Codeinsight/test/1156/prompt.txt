@@ -1,3 +1,5 @@
 Calculate the count of distinct elements in each column of the DataFrame df0 
+
 import pandas as pd
 def test(df0):
+

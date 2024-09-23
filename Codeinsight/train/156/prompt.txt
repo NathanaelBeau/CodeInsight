@@ -1,2 +1,4 @@
 swaps the keys and the values of dictionary var1 and return the result
+
 def test(var1):
+

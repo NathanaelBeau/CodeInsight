@@ -5,4 +5,3 @@ def test(var0):
     url_encoded = urllib.parse.quote(original_string.encode('utf8'))
     decoded_string = urllib.parse.unquote(url_encoded)
     return decoded_string
-

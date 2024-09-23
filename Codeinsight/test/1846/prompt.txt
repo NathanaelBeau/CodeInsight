@@ -1,4 +1,6 @@
 Find the indices of elements in list A that are also present in list B.
+
 import numpy as np
 
 def test(A: list, B: list) -> list:
+

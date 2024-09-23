@@ -8,4 +8,3 @@ def test(lst0):
         seen.add(first)
         new_lst.append(triple)
     return new_lst
-

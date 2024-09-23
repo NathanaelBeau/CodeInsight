@@ -9,4 +9,3 @@ def test(lst0):
             groups[prefix] = [item]
     
     return list(groups.values())
-

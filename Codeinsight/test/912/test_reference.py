@@ -9,4 +9,3 @@ def test(lst0):
         except ValueError:
             break
     return positions
-

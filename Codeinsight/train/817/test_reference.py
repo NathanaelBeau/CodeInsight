@@ -5,4 +5,3 @@ def test(df0, df1):
     result = pd.merge(df0, df1, on='key').drop(columns='key')
     return result
 
-

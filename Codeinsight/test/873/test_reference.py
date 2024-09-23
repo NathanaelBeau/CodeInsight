@@ -5,4 +5,3 @@ def test(mat0):
     eigenvalues = eigenvalues[idx]
     eigenvectors = eigenvectors[:,idx]
     return eigenvalues, eigenvectors
-

@@ -4,4 +4,3 @@ def test(arr0, val0):
             j = row.index(val0)
             return (i, j)
     return None
-

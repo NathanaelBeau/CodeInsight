@@ -1,4 +1,6 @@
 Find all characters in string var0 that are repeated consecutively.
+
 import re
 
 def test(var0):
+

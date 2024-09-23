@@ -5,4 +5,3 @@ def test(arr0, var0):
     for i in range(min(n, m)):
         arr0[i, i] = var0
     return arr0
-

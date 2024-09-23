@@ -1,4 +1,6 @@
 Add a new column 'new_col' with sequential numbers to a dataframe df0
+
 import pandas as pd
 
 def test(df0):
+

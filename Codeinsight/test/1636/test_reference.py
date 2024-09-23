@@ -4,4 +4,3 @@ def test(arr0):
         return np.isnan(arr0.astype(float)).any()
     except ValueError:
         return True
-

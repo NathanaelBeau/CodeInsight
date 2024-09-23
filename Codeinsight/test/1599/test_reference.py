@@ -5,4 +5,3 @@ def test(arr0, arr1):
     c[0::2] = arr0
     c[1::2] = arr1
     return c
-

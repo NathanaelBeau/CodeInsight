@@ -1,2 +1,4 @@
 Write a Python function to access index of a character var1 in a string var2
+
 def test(var1, var2):
+

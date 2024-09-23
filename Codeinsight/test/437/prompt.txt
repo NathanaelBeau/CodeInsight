@@ -1,2 +1,4 @@
 Compute the list of sums of neighboring integers in a string str0
+
 def test(str0):
+

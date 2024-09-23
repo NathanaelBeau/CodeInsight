@@ -1,4 +1,6 @@
 Python, lambda, find minimum value in list lst0  with pandas
+
 import pandas as pd
 
 def test(lst0):
+

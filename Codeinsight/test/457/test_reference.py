@@ -5,4 +5,3 @@ def test(lst0):
     for _, group in groupby(lst0):
         result.extend([list(group)])
     return result
-

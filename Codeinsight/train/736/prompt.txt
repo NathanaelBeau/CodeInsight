@@ -1,3 +1,5 @@
 Reset the index on a series named ser0 to remove any multiindex  
+
 import pandas as pd
 def test(ser0):
+

@@ -1,2 +1,4 @@
 Write a Python function to check if a number var1 is a perfect square.
+
 def test(var1):
+

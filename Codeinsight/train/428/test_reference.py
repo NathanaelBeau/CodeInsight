@@ -5,4 +5,3 @@ def test(str0: str, substring: str) -> list:
         indices.append(idx)
         idx = str0.find(substring, idx + 1)
     return indices
-

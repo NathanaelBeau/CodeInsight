@@ -1,4 +1,6 @@
 Copy all elements from a numpy array arr0 to a new numpy array
+
 import numpy as np
 
 def test(arr0):
+

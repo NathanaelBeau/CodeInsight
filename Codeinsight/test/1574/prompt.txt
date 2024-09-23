@@ -1,4 +1,6 @@
  accumulate an array var0 by index in numpy?   
+
 import numpy as np
 
 def test(var0):
+

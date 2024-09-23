@@ -1,2 +1,4 @@
 return a string var1 in lowercase
+
 def test(var1):
+

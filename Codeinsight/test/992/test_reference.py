@@ -5,4 +5,3 @@ def test(arr0):
     q = arr0
     result = np.vstack([p, q])
     return result
-

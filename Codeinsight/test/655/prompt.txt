@@ -1,2 +1,4 @@
 Split string var0 into a list of its characters.
+
 def test(var0):
+

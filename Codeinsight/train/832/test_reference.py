@@ -6,4 +6,3 @@ def test(df0, lst0):
         df0[col] = np.nan
     return df0
 
-

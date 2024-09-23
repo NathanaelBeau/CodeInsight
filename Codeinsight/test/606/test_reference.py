@@ -3,4 +3,3 @@ def test(dict0):
     for tup in dict0.items():
         myList.extend(tup)
     return myList
-

@@ -1,2 +1,4 @@
 find the area of a triangle, whose height var1 and width var2 are given.
+
 def test(var1,var2):
+

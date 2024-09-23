@@ -1,4 +1,6 @@
 Multiply two 1-dimensional numpy arrays, array1 and array2.
+
 import numpy as np
 
 def test(array1: np.ndarray, array2: np.ndarray) -> np.ndarray:
+

@@ -1,4 +1,6 @@
  slice a numpy array arr0 to get both the first and last two rows   
+
 import numpy as np
 
 def test(arr0):
+

@@ -4,4 +4,3 @@ def test(dict0):
     return formatted_string
 
 
-

@@ -1,4 +1,6 @@
 convert a dictionary dict0 into a NumPy array, where each element of the array is a tuple containing a key-value pair from the dictionary. The data type of the resulting NumPy array is specified by the dtype parameter
+
 import numpy as np
 
 def test(dict0, dtype = object):
+

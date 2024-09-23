@@ -9,4 +9,3 @@ def test(df0, df1):
 
     dataframeFinal = dataframeFinal.drop('time_x', axis=1)
     return dataframeFinal
-

@@ -1,2 +1,4 @@
 find the difference between the sum of the squares of the first var1 natural numbers and the square of the sum.
+
 def test(var1):
+

@@ -1,4 +1,6 @@
 Getting the first elements per row in an array lst0 in Python   with operator
+
 import operator
 
 def test(lst0):
+

@@ -7,4 +7,3 @@ def test(lst0):
 		else:
 			pass
 	return dictionary
-

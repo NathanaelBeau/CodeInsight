@@ -5,4 +5,3 @@ def test(dict0, dtype= object):
     values = list(dict0.values())
     data = list(zip(keys, values))
     return np.array(data, dtype=dtype)
-

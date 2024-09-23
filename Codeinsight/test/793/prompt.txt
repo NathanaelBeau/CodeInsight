@@ -1,4 +1,6 @@
 split string str0 into words that do not contain whitespaces in python  
+
 import re
 
 def test(str0):
+

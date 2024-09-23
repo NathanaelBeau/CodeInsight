@@ -5,4 +5,3 @@ def test(var0, df0):
     df_copy = df0.copy()
     df_copy.columns = cols
     return df_copy
-

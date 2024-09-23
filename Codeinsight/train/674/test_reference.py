@@ -3,4 +3,3 @@ def test(str0):
     formatted_result = "{:,}".format(value)
     return formatted_result
 
-

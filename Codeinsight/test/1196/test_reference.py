@@ -7,4 +7,3 @@ def test(lst0, var0=2):
     lower_bound = Q1 - (var0 * IQR)
     upper_bound = Q3 + (var0 * IQR)
     return lst0[(lst0 >= lower_bound) & (lst0 <= upper_bound)]
-

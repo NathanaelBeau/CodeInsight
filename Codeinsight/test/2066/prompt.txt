@@ -1,4 +1,6 @@
 Capitalize words in the Unicode string var0
+
 import re
 
 def test(var0):
+

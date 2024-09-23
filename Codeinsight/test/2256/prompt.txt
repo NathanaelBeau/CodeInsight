@@ -1,4 +1,6 @@
 Normalize the numpy array arr0 to be within the range [var0, var1].
+
 import numpy as np 
 
 def test(arr0, var0, var1):
+

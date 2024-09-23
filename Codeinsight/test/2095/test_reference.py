@@ -6,4 +6,3 @@ def test(lst0, lst1):
         else:
             result_dict[lst0[i]] = None
     return result_dict
-

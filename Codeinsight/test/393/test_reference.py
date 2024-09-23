@@ -4,4 +4,3 @@ def test(a: str) -> bool:
         return True
     except ValueError:
         return False
-

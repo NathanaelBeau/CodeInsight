@@ -10,4 +10,3 @@ def test(lst0):
         if not inserted:
             result.append(element)
     return result
-

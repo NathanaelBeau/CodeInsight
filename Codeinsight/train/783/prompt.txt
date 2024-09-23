@@ -1,2 +1,4 @@
 Check if all elements in a list lst0 are of type int
+
 def test(lst0):
+

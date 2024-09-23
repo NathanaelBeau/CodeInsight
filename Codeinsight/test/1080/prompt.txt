@@ -1,2 +1,4 @@
 Check if all elements in the list lst0 are of the type typ0
+
 def test(lst0, typ0):
+

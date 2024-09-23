@@ -3,4 +3,3 @@ def test(lst0):
     for x, y, z in lst0:
         d[x] = d.get(x, 0) + 1
     return d
-

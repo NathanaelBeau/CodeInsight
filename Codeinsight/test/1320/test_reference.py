@@ -10,4 +10,3 @@ def _itersplit(lst0, var0):
 
 def test(lst0, var0):
     return [subl for subl in _itersplit(lst0, var0) if subl]
-

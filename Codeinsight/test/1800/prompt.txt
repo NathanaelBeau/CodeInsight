@@ -1,4 +1,6 @@
 Delete columns with names from list lst0 in dataframe df0
+
 import pandas as pd
 
 def test(df0, lst0):
+

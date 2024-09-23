@@ -1,2 +1,4 @@
 Get the element number var0 of each tuple from a list of tuple lst0 
+
 def test(lst0, var0):
+

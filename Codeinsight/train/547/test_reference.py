@@ -5,4 +5,3 @@ def test(lst0):
         if lst0[i] == max_value:
             positions.append(i)
     return positions
-

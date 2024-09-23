@@ -1,2 +1,4 @@
 Fast way to remove a few items from a list/queue lst0 with criterias from function var0  
+
 def test(lst0, var0):
+

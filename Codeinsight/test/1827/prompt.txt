@@ -1,4 +1,6 @@
 Rename the column names of DataFrame df0 using the provided mapping  list lst0.
+
 import pandas as pd
 
 def test(df0, lst0):
+

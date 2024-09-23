@@ -1,2 +1,4 @@
 replaces every whitespace in a string var1 by the character 1
+
 def test(var1):
+

@@ -1,2 +1,4 @@
 Efficient way to convert a list lst0 to dictionary  Using dict-comprehension 
+
 def test(lst0):
+

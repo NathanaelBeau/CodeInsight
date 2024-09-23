@@ -1,2 +1,4 @@
 how to change list of int lst0 [1,2,3,4] to '1234' using python   
+
 def test(lst0):
+

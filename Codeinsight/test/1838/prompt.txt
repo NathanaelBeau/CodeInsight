@@ -1,4 +1,6 @@
 Extract all patterns matching square brackets, parentheses, double quotes, or non-space sequences from a string var0
+
 import re
 
 def test(var0):
+

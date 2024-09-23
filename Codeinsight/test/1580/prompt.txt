@@ -1,3 +1,5 @@
 Transform all negative elements in numpy array arr0 to zero without using explicit loops   
+
 import numpy as np
 def test(arr0):
+

@@ -1,4 +1,6 @@
 Get statistics (count, mean, sum, min, max) for each group in DataFrame df0 based on the column var0.
+
 import pandas as pd
 
 def test(df0, var0):
+

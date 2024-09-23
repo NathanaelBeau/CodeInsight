@@ -13,4 +13,3 @@ def test(str0):
             start += 1
     
     return matches
-

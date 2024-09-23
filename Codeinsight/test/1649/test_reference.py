@@ -10,4 +10,3 @@ def test(lst0, var0):
         result.append(lst0[start:end])
 
     return result
-

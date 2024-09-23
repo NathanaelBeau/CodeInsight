@@ -1,5 +1,7 @@
 Delete multiple columns from dataframe df0 based on column names strings from list lst0 
+
 import pandas as pd
 
 
 def test(df0, lst0):
+

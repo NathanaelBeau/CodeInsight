@@ -1,4 +1,6 @@
 Extract specific columns specified in the list lst0 from the pandas DataFrame df0 and create a new DataFrame as a copy.
+
 import pandas as pd
 
 def test(df0, lst0):
+

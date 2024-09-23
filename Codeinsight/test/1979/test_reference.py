@@ -1,3 +1,2 @@
-def test(var0: Set[Any]):
+def test(var0):
     return sorted(var0)
-

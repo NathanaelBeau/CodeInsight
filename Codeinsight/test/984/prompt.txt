@@ -1,4 +1,6 @@
 Retrieve the minimum float value from a list of tuples lst0, where the second element of the tuple is a float, ignoring nan values.
+
 import math
 
 def test(lst0: list) -> float:
+

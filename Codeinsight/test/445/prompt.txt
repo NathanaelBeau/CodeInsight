@@ -1,4 +1,6 @@
 Get all indices of the boolean numpy array arr0 where the value is True.
+
 import numpy as np
 
 def test(arr0):
+

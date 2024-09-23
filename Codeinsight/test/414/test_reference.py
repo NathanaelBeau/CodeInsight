@@ -3,4 +3,3 @@ def test(lst0):
 		return {}
 	else:
 		return dict(lst0)
-

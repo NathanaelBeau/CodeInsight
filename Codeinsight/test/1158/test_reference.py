@@ -3,4 +3,3 @@ def test(dict0, var0):
         dict0[var0] = 0
     return dict0
 
-

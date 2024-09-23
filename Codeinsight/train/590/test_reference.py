@@ -6,4 +6,3 @@ def test(str0):
         else:
             result += char
     return result
-

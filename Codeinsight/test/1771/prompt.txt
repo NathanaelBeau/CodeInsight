@@ -1,2 +1,4 @@
 remove the punctuation '!', '.', ':' from a string str0
+
 def test(str0):
+

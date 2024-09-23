@@ -1,2 +1,4 @@
 Transform a multi-level list lst0 into a list of strings.
+
 def test(lst0):
+

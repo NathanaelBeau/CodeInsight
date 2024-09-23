@@ -1,4 +1,6 @@
 For DataFrame df0, use the apply method to apply the function func along the axis ax
+
 import pandas as pd
 
 def test(df0, func):
+

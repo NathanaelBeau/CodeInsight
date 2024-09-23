@@ -1,2 +1,4 @@
 How to insert a character '-' after every 2 characters in a string str0  assuming string's length is always an even number 
+
 def test(str0):
+

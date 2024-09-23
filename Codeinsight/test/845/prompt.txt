@@ -1,4 +1,6 @@
 Transform a string var0 into its corresponding unicode escaped representation
+
 import codecs
 
 def test(var0):
+

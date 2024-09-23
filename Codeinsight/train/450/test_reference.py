@@ -7,4 +7,3 @@ def test(var0):
             if next_occurrence >= j and len(substring) > len(max_substring):  # Ensure no overlap and the substring is longer
                 max_substring = substring
     return max_substring
-

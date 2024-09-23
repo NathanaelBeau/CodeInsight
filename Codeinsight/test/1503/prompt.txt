@@ -1,2 +1,4 @@
 Return a substring of str0 that ends just before the last occurrence of the substring var0. 
+
 def test(str0, var0):
+

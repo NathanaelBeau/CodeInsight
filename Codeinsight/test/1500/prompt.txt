@@ -1,2 +1,4 @@
 Retrieve all elements from the list lst0 that are not of type integer.
+
 def test(lst0):
+

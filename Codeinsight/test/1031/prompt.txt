@@ -1,4 +1,6 @@
 Calculate the mean row and column index of the nonzero values in a dataframe df0
+
 import pandas as pd
 
 def test(df0):
+

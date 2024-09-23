@@ -1,5 +1,7 @@
 Drop rows from the pandas DataFrame df0 that contain infinite values in column var0.
+
 import numpy as np
 import pandas as pd 
 
 def test(df0, var0):
+

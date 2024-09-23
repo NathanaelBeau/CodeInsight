@@ -1,2 +1,4 @@
 Concatenate strings from lst0 without space  
+
 def test(lst0):
+

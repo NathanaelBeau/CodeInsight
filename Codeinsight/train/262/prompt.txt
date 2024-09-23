@@ -1,3 +1,5 @@
 Filter the dataframe df0 to keep only rows where the index ends with the substring arg0.
+
 import pandas as pd
 def test(df0, arg0):
+

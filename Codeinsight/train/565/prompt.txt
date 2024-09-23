@@ -1,2 +1,4 @@
 return variables var0 without spaces between values with formatting  
+
 def test(var0):
+

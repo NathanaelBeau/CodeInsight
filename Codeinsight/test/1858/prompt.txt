@@ -1,3 +1,5 @@
 Find all indices of an element var0 in a list lst0  
+
 import numpy as np
 def test(lst0, var0):
+

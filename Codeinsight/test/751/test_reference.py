@@ -5,4 +5,3 @@ def test(var0):
     for bigram in bigrams:
         bigram_counts[bigram] = bigram_counts.get(bigram, 0) + 1
     return bigram_counts
-

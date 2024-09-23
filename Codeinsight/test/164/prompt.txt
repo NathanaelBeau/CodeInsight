@@ -1,4 +1,6 @@
 Create two new columns 'B' and 'C' in DataFrame df0, where 'B' contains the square and 'C' contains the cube of the values in column 'A'
+
 import pandas as pd
 
 def test(df0):
+

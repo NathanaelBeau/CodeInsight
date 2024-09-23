@@ -1,4 +1,6 @@
 Check if all the values in the columns of the numpy matrix var0 are identical.
+
 import numpy as np
 
 def test(var0):
+

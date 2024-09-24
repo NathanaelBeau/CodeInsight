@@ -33,7 +33,7 @@ Each example is contained within its own folder named by its index. The structur
 
   [origin]
   source = https://stackoverflow.com/questions/961632
-
+  ```
 - **code.txt**: Contains the code for the example.
 - **nl.txt**: Contains the natural language description of the example.
 - **prompt.txt**: Contains the natural language concatenated with the function signature.

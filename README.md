@@ -101,3 +101,7 @@ If you use this dataset in your research, please cite the following:
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
+
+# Acknowledgements
+
+The creation of the CodeInsight dataset was made possible through the generous support of onepoint. Their financial contribution was essential in enabling the research and development of this dataset, designed to aid developers in common programming tasks. 

@@ -1,7 +1,8 @@
-# Dataset: CodeInsight
+# CodeInsight Dataset
 
 ## Overview
 The **CodeInsight** dataset is designed for code generation tasks, providing developers with expert-curated examples that bridge the gap between conceptual intent and functional code. This dataset aids in both model fine-tuning and evaluation, addressing common challenges faced by developers.
+Our article is available on [ACL anthology](https://aclanthology.org/2024.findings-acl.354/).
 
 ## Dataset Description
 - **Purpose**: To support developers in generating Python code by providing clarified intents, associated code snippets, and related unit tests.

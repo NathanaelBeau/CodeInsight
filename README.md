@@ -1,15 +1,21 @@
-# CodeInsight Dataset
+<p align="center">
+  <img src="images/codeinsightlogo.png" alt="CodeInsight Logo" width="800"/>
+</p>
 
 ## Overview
 The **CodeInsight** dataset is designed for code generation tasks, providing developers with expert-curated examples that bridge the gap between conceptual intent and functional code. This dataset aids in both model fine-tuning and evaluation, addressing common challenges faced by developers.
 Our article is available on [ACL anthology](https://aclanthology.org/2024.findings-acl.354/).
 
 ## Dataset Description
+![Dataset Description](images/comparingresults.png)
+
 - **Purpose**: To support developers in generating Python code by providing clarified intents, associated code snippets, and related unit tests.
 - **Content**: 
   - 3,409 unique, expert-curated Python code examples
   - Includes clarified intents, code snippets, and an average of three related unit tests per example.
   - Covers a wide range of libraries, including Pandas, Numpy, Regex, and over 70 standard Python libraries derived from Stack Overflow.
+
+  
 
 ## Dataset Structure
 

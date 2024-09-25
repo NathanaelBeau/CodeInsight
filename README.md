@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/codeinsightlogo.png" alt="CodeInsight Logo" width="800"/>
+  <img src="images/codeinsightlogo.png" alt="CodeInsight Logo" width="650"/>
 </p>
 
 ## Overview

@@ -11,7 +11,7 @@ Our article is available on [ACL anthology](https://aclanthology.org/2024.findin
 
 - **Purpose**: To support developers in generating Python code by providing clarified intents, associated code snippets, and related unit tests.
 - **Content**: 
-  - 3,409 unique, expert-curated Python code examples
+  - 3,411 unique, expert-curated Python code examples
   - Includes clarified intents, code snippets, and an average of three related unit tests per example.
   - Covers a wide range of libraries, including Pandas, Numpy, Regex, and over 70 standard Python libraries derived from Stack Overflow.
 
@@ -21,8 +21,8 @@ Our article is available on [ACL anthology](https://aclanthology.org/2024.findin
 
 The **CodeInsight** dataset consists of two main folders: `train` and `test`. Each folder contains indexed examples structured as follows:
 
-- **train/** (indexed from 0 to 930)
-- **test/** (indexed from 0 to 2479)
+- **train/** (indexed from 0 to 1550)
+- **test/** (indexed from 0 to 1859)
 
 Each example is contained within its own folder named by its index. The structure inside each indexed folder includes:
 

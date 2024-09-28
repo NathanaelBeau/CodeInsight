@@ -1,4 +1,6 @@
-Inserting a string var0 in a string var1 in specific position var2
+Sum of product of combinations in a list lst0 using itertools.combinations
 
-def test(var0, var1, var2):
+import itertools
+
+def test(lst0):
 

@@ -1,4 +1,4 @@
-var0 = pd.DataFrame({'  Value  ': [100, 200, 300]})
-expected_result =  pd.DataFrame({'Value': [100, 200, 300]})
-result = test(var0)
-assert result.equals(expected_result), 'Test failed'
+dict0 = {'MixedCASE': 123, 'anotherOne': 456}
+expected_result =  {'mixedcase': 123, 'anotherone': 456}
+result = test(dict0)
+assert result == expected_result, 'Test failed'

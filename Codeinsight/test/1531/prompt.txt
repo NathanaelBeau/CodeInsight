@@ -1,6 +1,5 @@
-Replace occurrences of the regular expression pattern pat0 with str1 in str0, optionally ignoring case sensitivity if bool0 is set True.
+Finding common rows (intersection) in two Pandas dataframes  df0 and df1 on column var0
 
-import re
-
-def test(str0, pat0, str1, bool0):
+import pandas as pd
+def test(df0, df1, var0):
 

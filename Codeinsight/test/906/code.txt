@@ -1,2 +1,2 @@
-def test(df0):
-    return df0.groupby(df0.index).sum()
+def test(lst0):
+    return [x for x in lst0 if not isinstance(x, int)]

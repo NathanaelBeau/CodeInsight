@@ -1,2 +1,6 @@
-def test(lst0, var0):
-    return max(enumerate(lst0), key=lambda arg: arg[1][var0])[0]
+import pandas as pd
+
+def test(lst0):
+    factorized = pd.factorize(lst0)[0]
+    return factorized
+

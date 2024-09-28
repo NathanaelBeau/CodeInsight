@@ -1,1 +1,1 @@
-Add the list of items items0 to the numpy array arr0  
+Exclude elements of the list lst0 that start with the character char0.

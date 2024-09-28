@@ -1,12 +1,3 @@
-import numpy
-import math
-import pandas
-import string
-import datetime
-import json
-import itertools
-import random
-import functools
-import collections
-result = test(-2)
-assert result == True, 'Test failed'
+lst0 = [['10', '20', '30'], ['40', '50', '60'], ['70', '80', '90']]
+expected_output = [[10, 20, 30], [40, 50, 60], [70, 80, 90]]
+assert test(lst0) ==expected_output, 'Test failed'

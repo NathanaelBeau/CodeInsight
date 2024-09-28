@@ -1,1 +1,1 @@
- simple way to remove multiple spaces and spaces at the beginning and the end in a string str0 with regex
+Python - Move elements in a list of dictionaries lst0 which have  for key var0  diferrent  value to =! var1 to the end of the list   

@@ -1,1 +1,1 @@
-Inserting a string str0 into a list lst0  at the beginning without getting split into characters   
+Merge two dictionaries, dict0 and dict1, into a single dictionary

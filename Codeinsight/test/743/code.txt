@@ -1,4 +1,2 @@
-import pandas as pd
-def test(df0):
-    df0['prod_type'] = 'responsive'
-    return df0
+def test(dict0):
+    return dict(sorted(dict0.items(), key=lambda x: len(x[1])))

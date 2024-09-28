@@ -1,4 +1,5 @@
-Get the lengths of each word in a sentence named var0
+Get the first element of each tuple in a list lst0 in Python  with itemgetter
 
-def test(var0):
+from operator import itemgetter
+def test(lst0):
 

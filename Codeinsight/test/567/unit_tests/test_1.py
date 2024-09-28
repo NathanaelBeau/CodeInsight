@@ -1,5 +1,3 @@
-var0 = r'[aeiou]'
-var1 = "Hello"
-expected_result =  ["H", "ll", ""]
-result = test(var0, var1)
-assert result == expected_result, 'Test failed'
+lst0 = [{'apple': 10}, {'apple': 5, 'banana': 5}, {'banana': 3}]
+expected_result =  {'apple': 15, 'banana': 8}
+assert test(lst0) == expected_result, 'Test failed'

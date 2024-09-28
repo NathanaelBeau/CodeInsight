@@ -1,1 +1,1 @@
-stack the input array arr0 vertically on top of itself and return the resulting array.
+check if all the provided lists (including the first one, lst0, and any additional lists passed as *args) have the same length.  

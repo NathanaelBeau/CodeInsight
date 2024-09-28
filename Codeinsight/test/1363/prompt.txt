@@ -1,4 +1,4 @@
-Convert the string s to an integer or a float, depending on its content.
+display the first few characters var0 of a string str0 in Python  
 
-def test(s: str) -> [int, float]:
+def test(str0, var0):
 

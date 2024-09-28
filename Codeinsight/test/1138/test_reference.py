@@ -1,3 +1,4 @@
-def test(lst0):
-    reversed_tuples = [tuple(x[::-1]) for x in lst0]
-    return tuple(reversed_tuples)
+import numpy as np
+
+def test(arr0):
+    return (arr0 - arr0.min()) / (arr0.max() - arr0.min())

@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df: pd.DataFrame, key_columns: str) -> pd.DataFrame:
-    return df.groupby(key_columns).size().reset_index(name='counts')
+def test(lst0: list) -> list:
+    return lst0[-1:] + lst0[:-1]

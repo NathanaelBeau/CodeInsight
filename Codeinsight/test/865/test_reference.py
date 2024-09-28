@@ -1,5 +1,4 @@
 import numpy as np
 
-def test(lst0):
-    inverted_array = ~np.array(lst0)
-    return list(inverted_array)
+def test(arr0, var0, var1):
+    return np.sum((arr0 >= var0) & (arr0 <= var1))

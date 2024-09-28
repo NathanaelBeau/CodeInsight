@@ -1,2 +1,2 @@
-def test(num0):
-    return "{:.2f}".format(num0)
+def test(var0):
+    return isinstance(var0, str)

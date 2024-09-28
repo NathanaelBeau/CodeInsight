@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(arr0):
-    return arr0.sum(axis=0)
+def test(lst0):
+    return [list(t) for t in zip(*lst0)]

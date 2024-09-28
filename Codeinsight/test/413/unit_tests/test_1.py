@@ -1,4 +1,4 @@
-var0 = "OpenAI"
-expected_result =  "OpenAI"
-result = test(var0)
-assert result==expected_result, 'Test failed'
+df2 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+result_2 = test(df2, 2, 'A')
+expected_2 = 3
+assert result_2 == expected_2, 'Test failed'

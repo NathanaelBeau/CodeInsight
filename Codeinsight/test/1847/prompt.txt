@@ -1,6 +1,6 @@
-Reorder the columns of a pandas DataFrame df0 based on their column names in alphabetical order.
+Capture the entire string from var0 using a regex pattern that includes lookaround assertions.
 
-import pandas as pd
+import re
 
-def test(df0):
+def test(var0, pattern):
 

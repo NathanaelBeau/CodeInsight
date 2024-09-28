@@ -1,4 +1,6 @@
-Check if the string var0 starts with any of the elements in list lst0.
+Sort a pandas DataFrame df0 based on the values in the column named var0 in ascending order.
 
-def test(var0, lst0):
+import pandas as pd
+
+def test(df0, var0):
 

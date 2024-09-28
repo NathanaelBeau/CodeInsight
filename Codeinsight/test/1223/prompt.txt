@@ -1,5 +1,7 @@
-Merge two lists lst0 and lst1 with all possible permutations
-import itertools
+Norm along row in pandas   dataframe df0
 
-def test(lst0, lst1):
+import pandas as pd
+import numpy as np
+
+def test(df0):
 

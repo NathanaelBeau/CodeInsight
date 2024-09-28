@@ -1,5 +1,2 @@
-import pandas as pd
-
-def test(df0, column_name0):
-    df0[column_name0] = df0[column_name0].astype(int)
-    return df0
+def test(lst0, lst1):
+    return [a - b for a, b in zip(lst0, lst1)]

@@ -1,5 +1,2 @@
-import pandas as pd
-
-
-def test(df0):
-    return df0.values.tolist()
+def test(var0, var1):
+    return not set(var0) - set(var1)

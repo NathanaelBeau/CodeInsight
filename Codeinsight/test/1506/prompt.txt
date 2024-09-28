@@ -1,6 +1,4 @@
-Merge two pandas DataFrames, df0 and df1, by their indices.
+Extend each sublist within the list lst0 to have a specific length length by appending the value fill_value if elements are missing.  
 
-import pandas as pd
-
-def test(df0, df1):
+def test(lst0, length, fill_value):
 

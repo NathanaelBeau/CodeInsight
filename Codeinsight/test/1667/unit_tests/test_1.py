@@ -1,5 +1,4 @@
-df0 = pd.DataFrame({ 'col1': ['10', '20'] })
-var0 = 'col1'
-var1 = 'int32'
-expected_result =  pd.DataFrame({ 'col1': [10, 20] }, dtype='int32')
-assert test(df0.copy(), var0, var1).equals(expected_result), 'Test failed'
+arr1 = np.array([4, 5])
+expected_result =  arr1 / np.linalg.norm(arr1)
+result = test(arr1)
+assert np.allclose(result, expected_result), 'Test failed'

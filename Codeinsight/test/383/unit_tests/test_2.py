@@ -1,5 +1,3 @@
-lst0 = [{'name': 'John', 'age': 25}, {'name': 'Alice', 'age': 30}, {'name': 'Bob', 'age': 20}]
-var0 = 'name'
-reverse = False
-expected_output = [{'name': 'Alice', 'age': 30}, {'name': 'Bob', 'age': 20}, {'name': 'John', 'age': 25}]
-assert test(lst0, var0, reverse) ==expected_output, 'Test failed'
+df3 = pd.DataFrame({'C1': ['a', 'b', 'c'], 'C2': ['d', 'e', 'f']})
+expected_output3 = pd.DataFrame({ 'C1': ['a', 'a', 'a', 'a', 'a', 'b', 'b', 'b', 'b', 'b', 'c', 'c', 'c', 'c', 'c'], 'C2': ['d', 'd', 'd', 'd', 'd', 'e', 'e', 'e', 'e', 'e', 'f', 'f', 'f', 'f', 'f'] })
+assert test(df3).equals(expected_output3), 'Test failed'

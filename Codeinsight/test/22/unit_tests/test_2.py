@@ -1,4 +1,3 @@
-var0 = 'hello,"world,universe",galaxy,"planet"'
-expected_result =  ['hello', 'world,universe', 'galaxy', 'planet']
-result = test(var0)
-assert result == expected_result, 'Test failed'
+str0 = "Sunday 1 and Monday 2 and Tuesday 3"
+expected_output = ['Sunday 1 and Monday 2 and Tuesday 3']
+assert test(str0) ==expected_output, 'Test failed'

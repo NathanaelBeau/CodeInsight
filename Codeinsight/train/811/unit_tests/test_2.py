@@ -1,4 +1,3 @@
-var0 = pd.DataFrame({ 'P': [11, 12], 'Q': [13, 14], 'R': [15, 16] })
-expected_result =  pd.DataFrame({ 0: [11, 13, 15], 1: [12, 14, 16] })
-result = test(var0)
-assert result.equals(expected_result), 'Test failed'
+str0 = '12345678'
+expected_output = '12-34-56-78'
+assert test(str0) ==expected_output, 'Test failed'

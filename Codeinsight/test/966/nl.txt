@@ -1,1 +1,1 @@
-Remove all empty strings from a list of strings lst0
+How to get every first element in 2 dimensional list lst0  

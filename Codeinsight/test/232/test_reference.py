@@ -1,5 +1,5 @@
-import re
+import pandas as pd
 
-def test(str0):
-    pattern = re.compile(r"(.+?)\1+")
-    return [match.group(0) for match in pattern.finditer(str0)]
+def test(df0, var0, lst0):
+    df0[var0] = lst0
+    return df0

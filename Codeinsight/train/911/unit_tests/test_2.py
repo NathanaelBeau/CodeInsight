@@ -1,4 +1,4 @@
-var0 = {'A': [1, 2, 3]}
-expected_result =  ['A']
+var0 = "HelloWorld"
+expected_result =  "Hello World"
 result = test(var0)
 assert result == expected_result, 'Test failed'

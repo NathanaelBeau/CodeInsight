@@ -1,5 +1,3 @@
-df0 = pd.DataFrame({'A': ['a,b,c', 'd,e,f'], 'B': ['g,h,i', 'j,k,l']})
-var0 = 'A'
-expected_result =  pd.Series(['a', 'b', 'c', 'd', 'e', 'f'])
-result = test(df0, var0)
-assert result.equals(expected_result), 'Test failed'
+df1 = pd.DataFrame({ 'A': [10, 20, 30], 'sum': [50, 100, 150] })
+expected_result1 = pd.DataFrame({ 'A': [10, 20, 30], 'sum': [50, 100, 150], 'A_perc': [0.2, 0.2, 0.2] })
+assert test(df1).equals(expected_result1), 'Test failed'

@@ -1,4 +1,4 @@
-lst0 = [3, 1, 4, 2]
-lst1 = ['C', 'A', 'D', 'B']
-expected_output = ['A', 'B', 'C', 'D']
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+df0 = pd.DataFrame({ 'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9] })
+expected_result =  pd.Series([7, 8, 9], name='C')
+result = test(df0)
+assert result.equals(expected_result), 'Test failed'

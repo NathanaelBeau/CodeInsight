@@ -1,5 +1,3 @@
-arr0 = np.array([10, 20])
-arr1 = np.array([30, 40])
-expected_result =  np.array([[10, 30], [20, 40]])
-result = test(arr0, arr1)
-assert np.array_equal(result, expected_result), 'Test failed'
+binary_str0 = '0011111111110000000000000000000000000000000000000000000000000000'  # Represents 1.0
+expected_output = 1.0
+assert test(binary_str0) == expected_output, 'Test failed'

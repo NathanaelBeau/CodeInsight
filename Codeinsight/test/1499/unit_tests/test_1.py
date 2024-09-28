@@ -1,4 +1,3 @@
-matrix0 = np.array([[9, 10], [11, 12]])
-expected_result =  np.array([9, 10, 11, 12])
-result = test(matrix0)
-assert np.array_equal(result, expected_result), 'Test failed'
+df0 = pd.DataFrame({ 'C': [10, 20, 30], 'D': [40, 50, 60] }, index=['a', 'a', 'b'])
+expected_output = pd.DataFrame({ 'C': [30, 30], 'D': [90, 60] }, index=['a', 'b'])
+assert test(df0).equals(expected_output), 'Test failed'

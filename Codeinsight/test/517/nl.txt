@@ -1,1 +1,1 @@
-Replacing few values var0 by  another values var1 in a pandas dataframe  df0 at column   col0
+Create a new list by repeating each element in the input list lst0 or range a specified number of times var0.

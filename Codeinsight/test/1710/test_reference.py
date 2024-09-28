@@ -1,2 +1,4 @@
-def test(lst0):
-	return dict(zip(i := iter(lst0), i))
+import numpy as np
+
+def test(arr0, var0):
+    return np.delete(arr0, np.where(arr0 == var0))

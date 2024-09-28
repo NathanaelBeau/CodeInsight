@@ -1,4 +1,3 @@
-lst0 = ['1', '2', '3']
-expected_result =  ['12', '13', '21', '23', '31', '32']
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+arg = pd.DataFrame({'City': ['New York', 'San Francisco', 'Los Angeles'], 'Population': [8000000, 900000, 4000000]})
+expected_output = pd.Series({'City': 'object', 'Population': 'int64'})
+assert test(arg).equals(expected_output), 'Test failed'

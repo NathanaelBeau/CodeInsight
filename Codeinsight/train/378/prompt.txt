@@ -1,4 +1,4 @@
-Create a sorted list containing the keys of dictionary dict0.
+Prepend the same string str0 to all items in a list lst0  
 
-def test(dict0):
+def test(str0, lst0):
 

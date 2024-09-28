@@ -1,5 +1,8 @@
-var0 = 'apple'
-var1 = pd.Series(['apple', 'banana', 'cherry'])
-expected_result =  pd.Series([np.nan, 'banana', 'cherry'])
-result = test(var0, var1)
-assert result.equals(expected_result), 'Test failed'
+data = {'A': [1, 2, np.nan, 4],
+        'B': [np.nan, 2, 3, 4],
+        'C': [1, 2, 3, 4]}
+df0 = pd.DataFrame(data)
+expected_output = pd.DataFrame({'A': [1, 2, np.nan, 4],
+        'B': [np.nan, 2, 3, 4],
+        'C': [1, 2, 3, 4]})
+assert test(df0) .equals(expected_output), 'Test failed'

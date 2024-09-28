@@ -1,1 +1,1 @@
-Pandas:in dataframe df0 Fill missing values by mean in each group (faster than transform) in column var0 by mean of group var1
+Sort the list of strings lst0 by their numeric value.

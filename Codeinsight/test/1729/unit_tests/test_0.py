@@ -1,5 +1,4 @@
-df0 = pd.DataFrame({'name': ['A', 'B'], 'value1': [1, 2]})
-df1 = pd.DataFrame({'name': ['A', 'B'], 'value2': [3, 4]})
-df2 = pd.DataFrame({'name': ['A', 'B'], 'value3': [5, 6]})
-expected_result =  pd.DataFrame({'name': ['A', 'B'], 'value1': [1, 2], 'value2': [3, 4], 'value3': [5, 6]})
-assert test(df0, df1, df2).equals(expected_result), 'Test failed'
+df0 = pd.DataFrame({ 'A': [0, 1, 0], 'B': [1, 0, 0] })
+expected_result =  np.mean([(0, 1), (1, 0)])
+result = test(df0)
+assert np.isclose(result, expected_result), 'Test failed'

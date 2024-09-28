@@ -1,4 +1,3 @@
-arr0 = np.array([5, 5, 5, 5, 5])
-val0 = 5
-expected_result =  np.array([])
-assert np.array_equal(test(arr0, val0), expected_result), 'Test failed'
+str0 = "12345"
+expected_output = ['1', '2', '3', '4', '5']
+assert test(str0) == expected_output, 'Test failed'

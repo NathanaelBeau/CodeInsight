@@ -1,6 +1,6 @@
-Change the data type of the column 'grade' in the dataframe df0 into float and then to int.
+Regex for removing data in parenthesis   in string str0 
 
-import pandas as pd
+import re
 
-def test(df0):
+def test(str0):
 

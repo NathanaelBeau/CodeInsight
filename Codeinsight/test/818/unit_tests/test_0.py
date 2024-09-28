@@ -1,5 +1,4 @@
-d1 = {'apple': 1, 'banana': 2, 'cherry': 3}
-var0_1 = 'apple'
-var1_1 = 'banana'
-expected_output1 = True
-assert test(d1, var0_1, var1_1) == expected_output1, 'Test failed'
+df1 = pd.DataFrame({'col1': [[1, 2, 3], [4, 5], [6], [], [7, 8]]})
+expected_result1 = pd.Series([3, 2, 1, 0, 2], name='col1')
+result1 = test(df1, 'col1')
+assert result1.equals(expected_result1), 'Test failed'

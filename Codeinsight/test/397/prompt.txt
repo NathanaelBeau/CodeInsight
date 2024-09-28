@@ -1,4 +1,6 @@
-modify the elements ( multiply x 2) in a list lst0 within list   
+Find the column name with the maximum value for each row in dataframe df0
 
-def test(lst0):
+import pandas as pd
+
+def test(df0):
 

@@ -1,6 +1,4 @@
- remove all words that end in &quot;:&quot; from a string  str0 in Python?   
+Get the string with the maximum length from each column in a list of lists lst0
 
-import re
-
-def test(str0: str) -> str:
+def test(lst0):
 

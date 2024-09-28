@@ -1,9 +1,3 @@
-import re
-
-def test(str0):
-    regexStr = r'^([^@]+)@[^@]+$'
-    matchobj = re.search(regexStr, str0)
-    if matchobj is not None:
-        return matchobj.group(1)
-    else:
-        return "Did not match"
+def test(lst0, var0):
+    sorted_indexes = sorted(range(len(lst0)), key=lambda index: lst0[index][var0], reverse=True)
+    return sorted_indexes[0]

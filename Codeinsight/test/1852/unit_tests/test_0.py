@@ -1,4 +1,3 @@
-lst0 = [1, 2, 3, 4]
-lst1 = [5, 6, 7]
-expected_output = [5, 6, 7, 1, 2, 3, 4]
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+str0 = "Word to Split"
+expected_output = ['W', 'o', 'r', 'd', ' ', 't', 'o', ' ', 'S', 'p', 'l', 'i', 't']
+assert test(str0) == expected_output, 'Test failed'

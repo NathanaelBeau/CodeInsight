@@ -1,2 +1,3 @@
-def test(str0):
-    return ''.join(sorted(str0))
+import numpy as np
+def test(lst0):
+    return np.array(lst0, dtype=object)

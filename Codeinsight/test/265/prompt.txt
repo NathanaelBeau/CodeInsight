@@ -1,5 +1,6 @@
-Flatten a list of NumPy arrays lst0.  
+Group by column var0 in dataframe df0 and sum only the values in column var1
 
-import numpy as np
-def test(lst0):
+import pandas as pd
+
+def test(df0, var0, var1):
 

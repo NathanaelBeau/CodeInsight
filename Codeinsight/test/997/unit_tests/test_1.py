@@ -1,4 +1,4 @@
-input_list = [1, 2, 3, 4, 5]
-expected_result =  False
-result = test(input_list)
-assert result==expected_result, 'Test failed'
+s2 = "123abc 456def 789ghi"
+pattern2 = r"\d+"  # matches sequences of digits
+expected_output2 = ["123", "456", "789"]
+assert test(s2, pattern2) == expected_output2, 'Test failed'

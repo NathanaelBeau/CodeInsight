@@ -1,1 +1,0 @@
-How to sort a dataFrame df0 in python pandas by two or more columns var0 and var1?   

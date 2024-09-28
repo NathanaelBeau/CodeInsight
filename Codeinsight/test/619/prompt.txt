@@ -1,4 +1,6 @@
-Write a Python function to check if a number var1 is a power of a given base var2.
+Sort a numpy float array A in ascending order for each column.
 
-def test(var1, var2):
+import numpy as np
+
+def test(A: np.ndarray) -> np.ndarray:
 

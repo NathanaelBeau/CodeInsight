@@ -1,1 +1,1 @@
-Round the values in column column_name0 of a DataFrame df0 to decimals0 decimal places.
+Removing nan values from an array or list  arr0 with math.isnan

@@ -1,1 +1,0 @@
-Determine if the numpy array arr0 is multidimensional 

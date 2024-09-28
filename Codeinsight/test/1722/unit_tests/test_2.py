@@ -1,5 +1,4 @@
-lst0 = [100, 200]
-lst1 = ['A', 'B', 'C']
-expected_result =  [100, 'A', 200, 'B']
-result = test(lst0, lst1)
-assert result == expected_result, 'Test failed'
+str0 = "Hello, Stack Overflow!"
+str1 = "Python"
+expected_output = "HPython Stack Overflow!"
+assert test(str0, str1) == expected_output, 'Test failed'

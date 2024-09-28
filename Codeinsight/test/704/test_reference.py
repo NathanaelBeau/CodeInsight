@@ -1,2 +1,2 @@
-def test(var0: int) -> dict:
-    return {i: i**2 for i in range(var0)}
+def test(str0, str1):
+    return "".join([s + str0 for s in str1])[:-len(str0)]

@@ -1,5 +1,8 @@
-lst0 = ['python8', 'java8', 'c++8']
-var0 = '8'
-var1 = 'language'
-expected_output = ['pythonlanguage', 'javalanguage', 'c++language']
-assert test(lst0, var0, var1) == expected_output, 'Test failed'
+# Test 2
+df0 = pd.DataFrame({'Y': ['a', 'b'], 'Z': ['c', 'd']})
+var0 = 0
+var1 = 'W'
+var2 = ['e', 'f']
+expected_result =  pd.DataFrame({'W': ['e', 'f'], 'Y': ['a', 'b'], 'Z': ['c', 'd']})
+result = test(df0, var0, var1, var2)
+assert result.equals(expected_result), 'Test failed'

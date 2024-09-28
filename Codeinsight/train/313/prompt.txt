@@ -1,5 +1,4 @@
-Sort the rows of numpy array arr0 based on the order of elements in another numpy array arr1 
+Remove all elements from list lst1 present in list lst0.
 
-import numpy as np
-def test(arr0, arr1):
+def test(lst0, lst1):
 

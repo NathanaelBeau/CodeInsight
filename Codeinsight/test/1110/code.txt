@@ -1,4 +1,5 @@
-import pandas as pd
+import re
 
-def test(df0, column_name0, threshold0):
-    return len(df0.query(f"{column_name0} > {threshold0}"))
+def test(var0):
+    pattern = r"(?P<repeat>.+?)\1+"
+    return re.findall(pattern, var0, re.DOTALL)

@@ -1,1 +1,1 @@
-Get the list of values from a dict dict0
+getting the opposite diagonal of a numpy array   arr0 

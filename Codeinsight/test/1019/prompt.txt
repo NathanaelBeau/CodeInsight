@@ -1,6 +1,5 @@
-Query rows from dataframe df0 where column var0 has NaN values or the value 'Other'.
+Rearrange arr0 based on the positions given by index array idx0  
 
-import pandas as pd
-
-def test(df0, var0):
+import numpy as np
+def test(arr0, idx0):
 

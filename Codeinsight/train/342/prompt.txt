@@ -1,4 +1,6 @@
-Get the first 100 characters from the string str0.
+Find all occurrences of a substring str1 in a string str0  
 
-def test(str0):
+import re
+
+def test(str0, str1):
 

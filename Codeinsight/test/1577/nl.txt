@@ -1,1 +1,1 @@
-Make new column 'sum' in Panda dataframe df0 by adding values from other columns  lst0
+Efficient way to convert a list lst0 to dictionary  Using dict-comprehension 

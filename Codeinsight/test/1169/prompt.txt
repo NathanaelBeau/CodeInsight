@@ -1,4 +1,4 @@
-Create a flat dictionary by summing values associated with similar keys in each dictionary of list lst0.
+Replace all backslashes in a string var0 with an empty string
 
-def test(lst0):
+def test(var0):
 

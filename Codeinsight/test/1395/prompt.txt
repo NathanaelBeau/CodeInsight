@@ -1,5 +1,4 @@
-Compute the logarithm of a number var0 with a given base var1 using NumPy.
+check if all the provided lists (the first list lst0 and any additional lists passed as *args) have the same length.
 
-import numpy as np
-def test(var0, var1):
+def test(lst0, *args):
 

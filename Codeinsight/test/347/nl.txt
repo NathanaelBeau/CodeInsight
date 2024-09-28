@@ -1,1 +1,1 @@
-Create a NumPy array data0 that can store elements of different datatypes  
+Remove rows in the pandas DataFrame df0 that have duplicate indices, keeping only the first occurrence.

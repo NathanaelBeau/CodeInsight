@@ -1,4 +1,2 @@
-import pandas as pd
-def test(df0):
-    return df0.values.flatten()
-
+def test(str0, var0, str1):
+    return f"{str0:{str1}^{var0}}"

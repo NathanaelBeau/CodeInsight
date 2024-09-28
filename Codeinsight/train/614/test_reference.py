@@ -1,2 +1,2 @@
-def test(str0):
-    return '0' <= str0[:1] <= '9'
+def test(lst0, var0):
+    return max(enumerate(lst0), key=lambda arg: arg[1][var0])[0]

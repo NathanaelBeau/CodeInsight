@@ -1,5 +1,6 @@
-Sort the keys of the dictionary dict1 based on both characters and numbers present in the keys. 
+Concatenate two numpy arrays arr0 and arr1 vertically.   
 
-import re
-def test(dict1):
+import numpy as np
+
+def test(arr0, arr1):
 

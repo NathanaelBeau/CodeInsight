@@ -1,4 +1,3 @@
-# Test 2
-var0 = "This is a test . Is it working ? Yes !"
-expected_result =  "This is a test. Is it working? Yes!"
-assert test(var0) == expected_result, 'Test failed'
+str0 = "abc"
+expected_output = "abc"
+assert test(str0) ==expected_output, 'Test failed'

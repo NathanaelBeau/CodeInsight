@@ -1,1 +1,1 @@
-python regex get first part of an email address  string str0 
+Sort the list lst0 based on version numbers using StrictVersion.

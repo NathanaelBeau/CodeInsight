@@ -1,4 +1,3 @@
-lst0 = ['Test']
-expected_result =  [['Test']]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+lst0 = [[0, 0, 0, 0], [0, 0, 0, 0]]
+expected_output = 0
+assert test(lst0) == expected_output, 'Test failed'

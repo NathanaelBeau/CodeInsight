@@ -1,3 +1,4 @@
-var0 = "Hello [world] (how) are \"you\" doing?"
-expected_output = ['Hello', '[world]', '(how)', 'are', '"you"', 'doing?']
-assert test(var0) == expected_output, 'Test failed'
+s1 = "apple banana apple orange"
+pattern1 = "apple"
+expected_output1 = [(0, 5, 'apple'), (13, 18, 'apple')]
+assert test(s1, pattern1) == expected_output1, 'Test failed'

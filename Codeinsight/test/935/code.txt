@@ -1,4 +1,4 @@
-import pandas as pd
+import numpy as np 
 
-def test(df0, column_name0):
-    return df0.groupby(column_name0).sum().reset_index()
+def test(arr0, var0, var1):
+    return (arr0 - arr0.min()) * (var1 - var0) / (arr0.max() - arr0.min()) + var0

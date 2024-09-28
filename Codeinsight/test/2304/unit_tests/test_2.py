@@ -1,1 +1,0 @@
-assert test({"apple": -1, "banana": 0, "cherry": 2}) == 1, 'Test failed'

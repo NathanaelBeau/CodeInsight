@@ -1,4 +1,2 @@
-import re
-
-def test(var0):
-    return re.sub(r'(?P<ch>.)', lambda m: str(ord(m.group('ch'))), var0)
+def test(str0, var0):
+    return str0[:min(len(str0), var0)]

@@ -1,3 +1,4 @@
-var0 = 42
-expected_output = 'Value is "42"'
-assert test(var0) ==expected_output, 'Test failed'
+var0 = "Hello, how are you doing today?"
+var1 = "?"
+expected_result1 = "Hello, how are you doing today"
+assert test(var0, var1) == expected_result1, 'Test failed'

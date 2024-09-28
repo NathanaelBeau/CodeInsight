@@ -1,1 +1,1 @@
-Remove all key value pairs from a list of dictionaries lst0 where the key is equal to a specific value var0?
+ sum values in a column in dataframe pandas df0 that match a given condition which is var0 using  Boolean indexing. 

@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0, var0, var1):
-    return df0.groupby(var0).sum()[var1]
+def test(lst0):
+    return max(lst0, key=lambda x: x[1])

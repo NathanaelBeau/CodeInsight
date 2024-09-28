@@ -1,4 +1,3 @@
-import math
-
-def test(lst0: list) -> float:
-    return min(x[1] for x in lst0 if not math.isnan(x[1]))
+import numpy as np
+def test(arr0):
+    return list(arr0.flatten())

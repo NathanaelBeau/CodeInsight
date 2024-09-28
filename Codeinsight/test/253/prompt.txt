@@ -1,4 +1,4 @@
-switching keys and values in a dictionary dict0 in python   
+Merging a listlst0 with a list of lists  lst1 
 
-def test(dict0) :
+def test(lst0, lst1):
 

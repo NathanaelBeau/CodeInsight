@@ -1,1 +1,1 @@
-check if a value var0 exists in a dictionary dict0 
+ filter values Nones and replaced them by updated in a dictionary dict0 in Python  

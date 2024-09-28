@@ -1,5 +1,2 @@
-import pandas as pd
-
-def test(df0, var0, var1, var2):
-    df0.at[var0, var1] = var2
-    return df0
+def test(lst0):
+    return max(len(s) for sublist in lst0 for s in sublist)

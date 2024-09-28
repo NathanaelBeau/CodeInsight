@@ -1,5 +1,5 @@
 import pandas as pd
 
-
-def test(df0, var0):
-    return df0[var0].sum()
+def test(df0, col0, col1):
+    df0[col0] = df0[col0].combine_first(df0[col1])
+    return df0

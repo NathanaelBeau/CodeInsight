@@ -1,6 +1,4 @@
- Generate meshgrid for input arrays arr0 and arr1.
+Split a given string str0 at newline characters
 
-import numpy as np
-
-def test(arr0, arr1):
+def test(str0):
 

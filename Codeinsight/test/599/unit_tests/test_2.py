@@ -1,5 +1,4 @@
-lst0 = [{'animal': 'cat'}, {'vehicle': 'car'}, {'place': 'castle'}]
-var0 = 'animal'
-expected_result =  ['cat']
-result = test(lst0, var0)
+lst0 = [('P', 'y', 't', 'h', 'o', 'n'), ('R', 'o', 'c', 'k', 's')]
+expected_result =  ['Python', 'Rocks']
+result = test(lst0)
 assert result == expected_result, 'Test failed'

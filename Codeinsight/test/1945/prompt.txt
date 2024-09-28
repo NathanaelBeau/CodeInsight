@@ -1,4 +1,0 @@
-Remove adjacent duplicate elements from a list lst0 
-
-def test(lst0):
-

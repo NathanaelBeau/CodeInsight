@@ -1,3 +1,3 @@
-arr0 = np.array([0, 0, 0, 0])
-expected_output = np.array([])
-assert np.array_equal(test(arr0), expected_output), 'Test failed'
+str0 = "Let's test this code!"
+expected_output = "Lets test this code"
+assert test(str0) ==expected_output, 'Test failed'

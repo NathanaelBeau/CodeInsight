@@ -1,6 +1,4 @@
-Retrieve rows from the pandas DataFrame df0 that have the maximum value in groups, grouped by var0 and considering the values in var1.
+Insert the elements of list lst1 into the list lst0 starting at the index var0 without removing any existing elements in lst0
 
-import pandas as pd
-
-def test(df0, var0, var1):
+def test(lst0, var0, lst1):
 

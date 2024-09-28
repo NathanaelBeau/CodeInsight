@@ -1,2 +1,3 @@
-def test(var0):
-    return [i if i != '' else '0' for i in var0.split(',')]
+def test(str0):
+    return ''.join(' ' + char if char.isupper() else char.strip() for char in str0).strip()
+

@@ -1,5 +1,2 @@
-import string
-
-def test(str0):
-    translator = str0.maketrans("", "", string.punctuation)
-    return str0.translate(translator)
+def test(lst0):
+    return {p: {'id': p, 'position': ind} for ind, p in enumerate(lst0)}

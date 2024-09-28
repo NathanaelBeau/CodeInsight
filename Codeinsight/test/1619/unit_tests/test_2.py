@@ -1,3 +1,3 @@
-lst0 = ['apple', 'banana', 'cherry']
-expected_output = 3
-assert test(lst0) ==expected_output, 'Test failed'
+str0 = "a=1 b=2 c=3 d=4 e=5"
+expected_output = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+assert test(str0) ==expected_output, 'Test failed'

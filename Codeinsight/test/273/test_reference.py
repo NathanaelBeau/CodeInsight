@@ -1,6 +1,4 @@
-import struct
+import pandas as pd
 
-def test(str0):
-    int_value = int(str0, 2)
-    bf = int_value.to_bytes((int_value.bit_length() + 7) // 8, byteorder='big', signed=False)
-    return struct.unpack('>d', bf)[0]
+def test(df0, lst0, var0):
+    return df0.assign(**{var0: df0[lst0].sum(axis=1)})

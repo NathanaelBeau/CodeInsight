@@ -1,1 +1,1 @@
-Python: Split string str0 by list of separators  lst0 
+ check whether elements appears in the list lst0 only once in python   

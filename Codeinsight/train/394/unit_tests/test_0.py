@@ -1,3 +1,4 @@
-var0 = 5
-var1 = "apple"
-assert test(var0, var1) == ["apple", "apple", "apple", "apple", "apple"], 'Test failed'
+var0 = pd.DataFrame({ 'OldHeader1': ['NewHeader1', 'Value1', 'Value2'], 'OldHeader2': ['NewHeader2', 'Value3', 'Value4'] })
+expected_result =  pd.DataFrame({ 'NewHeader1': ['Value1', 'Value2'], 'NewHeader2': ['Value3', 'Value4'] }, index=[1, 2])
+result = test(var0)
+assert result.equals(expected_result), 'Test failed'

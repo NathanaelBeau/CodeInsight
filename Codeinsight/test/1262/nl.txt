@@ -1,1 +1,1 @@
-Compute the average or mean of the column named col_name in the pandas DataFrame df0.
+Create a pandas data frame from a list of nested dictionaries lst0.

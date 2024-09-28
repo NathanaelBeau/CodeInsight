@@ -1,2 +1,4 @@
-def test(s: str) -> str:
-    return ''.join('{:02x}'.format(ord(c)) for c in s)
+import numpy as np
+
+def test(arr0):
+    return ~np.isnan(arr0)

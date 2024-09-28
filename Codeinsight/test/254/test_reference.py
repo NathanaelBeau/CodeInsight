@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(mat0, vec0):
-    return np.dot(mat0, vec0)
+def test(lst0, var0):
+	return [{k: v for k, v in d.items() if k != var0} for d in lst0]

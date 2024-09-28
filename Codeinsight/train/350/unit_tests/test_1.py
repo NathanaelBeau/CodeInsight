@@ -1,4 +1,3 @@
-arr0 = ["apple", "banana", "cherry"]
-expected_result =  3
-result = test(arr0)
-assert result == expected_result, 'Test failed'
+var0 = 10
+expected_output = 'Value is "10"'
+assert test(var0) ==expected_output, 'Test failed'

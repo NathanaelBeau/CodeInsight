@@ -1,3 +1,4 @@
-a = sorted(test([{"a": 1, "b": 2, "c": 3}, {"c": 3, "a": 1, "b": 2}, {"b": 2, "a": 1, "c": 3}]), key = lambda ele: sorted(ele.items())) 
-b = sorted([{"a": 1, "b": 2, "c": 3}], key = lambda ele: sorted(ele.items()))
-assert a == b, 'Test failed'
+var0 = pd.DataFrame({'prod_type': [], 'price': []})
+expected_result =  pd.DataFrame({'prod_type': [], 'price': []})
+result = test(var0)
+assert result.empty and expected_result.empty, 'Test failed'

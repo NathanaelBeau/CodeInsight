@@ -1,4 +1,4 @@
-Sum the second list items in a list of lists of lists lst0
+Generate rolling windows of size var0 for a 1D numpy array arr0  
 
-def test(lst0):
+def test(arr0, var0):
 

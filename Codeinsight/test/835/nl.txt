@@ -1,1 +1,1 @@
-getting the opposite diagonal of a numpy array   arr0 
+Retrieve the nth-to-last item from a list named some_list.

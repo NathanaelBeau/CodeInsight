@@ -1,3 +1,4 @@
-lst0 = [1, 2, 3, 4, 5]
-result = test(lst0)
-assert "modified_value" in result, 'Test failed'
+lst0 = [1, 2, 3, 2, 4, 2, 5]
+var0 = 2
+expected_output = 3
+assert test(lst0,var0) ==expected_output, 'Test failed'

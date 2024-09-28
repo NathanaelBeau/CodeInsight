@@ -1,4 +1,12 @@
-arr0 = np.array([[1, 2], [3, 4]])
-expected_result =  np.array([[1, 2], [3, 4]])
-result = test(arr0)
-assert np.array_equal(result, expected_result), 'Test failed'
+lst0 = [
+    {"name": "Zoe", "age": 28},
+    {"name": "Eva", "age": 35},
+    {"name": "David", "age": 30},
+]
+var0 = "name"
+expected_output = [
+    {"name": "David", "age": 30},
+    {"name": "Eva", "age": 35},
+    {"name": "Zoe", "age": 28},
+]
+assert test(lst0, var0) == expected_output, 'Test failed'

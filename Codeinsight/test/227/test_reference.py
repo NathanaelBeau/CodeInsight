@@ -1,4 +1,4 @@
-from itertools import takewhile
+import pandas as pd
 
-def test(lst0):
-    return list(takewhile(lambda x: lst0.index(x) < 10, lst0))
+def test(df0):
+    return df0.applymap(lambda x: x.strip() if isinstance(x, str) else x)

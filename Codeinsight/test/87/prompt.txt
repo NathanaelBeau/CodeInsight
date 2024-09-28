@@ -1,4 +1,6 @@
-Python: an efficient way to slice a list lst0 with a index list  lst1 
+Merge two dataframes, df0 and df1, based on their indices.  
 
-def test(lst0, lst1):
+import pandas as pd
+
+def test(df0, df1):
 

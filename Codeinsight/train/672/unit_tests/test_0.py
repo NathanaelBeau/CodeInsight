@@ -1,3 +1,5 @@
-str0 = "Word to Split"
-expected_output = ['W', 'o', 'r', 'd', ' ', 't', 'o', ' ', 'S', 'p', 'l', 'i', 't']
-assert test(str0) == expected_output, 'Test failed'
+arr0 = np.array([1, 2, 3, 4, 5])
+var0 = 2
+expected_result =  1
+result = test(arr0, var0)
+assert result == expected_result, 'Test failed'

@@ -1,1 +1,1 @@
-Find the last position in the string var0 where characters do not match the regular expression pattern regex_pattern.
+Determine the size (in bytes) of the data type dtype0 using NumPy  

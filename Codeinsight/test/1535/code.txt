@@ -1,2 +1,4 @@
-def test(lst0):
-    return [tuple(l) for l in lst0]
+import pandas as pd
+
+def test(df0, var0, var1):
+    return df0[df0[var0] != var1].reset_index(drop=True)

@@ -1,9 +1,4 @@
-import collections
-def test(lst0):
-    seen = set()
-    duplicates = set()
-    for item in lst0:
-        if item in seen:
-            duplicates.add(item)
-        seen.add(item)
-    return list(duplicates)
+import pandas as pd
+
+def test(df0, var0, var1):
+    return df0[df0[var0] == var1].index.tolist()

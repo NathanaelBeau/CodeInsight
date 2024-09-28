@@ -1,5 +1,3 @@
-from scipy.sparse import csr_matrix
-mat2 = csr_matrix([[6], [7]])
-expected_result =  np.matrix([[6], [7]])
-result = test(mat2)
-assert np.array_equal(result, expected_result), 'Test failed'
+var0_3 = 0
+expected_output3 = []  # Empty list for range of 0
+assert test(var0_3) == expected_output3, 'Test failed'

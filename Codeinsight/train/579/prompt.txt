@@ -1,4 +1,6 @@
-how to change list of int lst0 [1,2,3,4] to '1234' using python   
+Check if an array var0 contains all the elements of an array var1
 
-def test(lst0):
+import numpy as np
+
+def test(var0, var1):
 

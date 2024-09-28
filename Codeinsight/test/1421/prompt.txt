@@ -1,7 +1,6 @@
-Group DataFrame df0 by column str0 and aggregate the str1 column, returning the mean and sum for each group.
+Convert two lists lst0 and lst1 into a pandas dataframe with columns 'List1' and 'List2'.
 
-import numpy as np
 import pandas as pd
 
-def test(df0, str0='dummy', str1='returns'):
+def test(lst0, lst1):
 

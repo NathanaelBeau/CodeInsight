@@ -1,6 +1,4 @@
-var0 = 0
-var1 = 'Mary'
-var2 = [('John', 30), ('Jane', 25), ('Mike', 30)]
-expected_result =  []
-result = test(var0, var1, var2)
-assert result == expected_result, 'Test failed'
+lst0= [10, 20, 30, 40]
+lst1= ['abc', 'def', 'ghi', 'jkl']
+expected_output = [(10, 'abc'), (20, 'def'), (30, 'ghi'), (40, 'jkl')]
+assert test(lst0, lst1) == expected_output, 'Test failed'

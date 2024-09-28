@@ -1,3 +1,4 @@
-dict0 = {'x': 10, 'y': 20, 'z': 30}
-expected_output = [('x', 10), ('y', 20), ('z', 30)]
-assert test(dict0) ==expected_output, 'Test failed'
+input_list = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+expected_result =  ['red', 'blue', 'green', 'orange', 'yellow', 'indigo', 'violet']
+result = test(input_list)
+assert result==expected_result, 'Test failed'

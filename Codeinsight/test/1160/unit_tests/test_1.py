@@ -1,5 +1,6 @@
-lst0 = [['a', 'b'], ['c', 'd'], ['e', 'f']]
-var0 = 'e'
-expected_result =  [(2, 0)]
-result = test(lst0, var0)
-assert result == expected_result, 'Test failed'
+# Test 3
+var0 = "The quick brown fox jumps over the lazy dog"
+var1 = "The"
+var2 = 1
+expected_result =  ("quick",)
+assert test(var0, var1, var2) == expected_result, 'Test failed'

@@ -1,5 +1,3 @@
-mat0 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-var0 = 2
-expected_result =  np.array([[1, 2], [4, 5], [7, 8]])
-result = test(mat0, var0)
-assert np.array_equal(result, expected_result), 'Test failed'
+lst0 = [[3, 1, 4], [1, 5, 9], [2, 6, 5, 3]]
+expected_output = [1, 2, 3, 4, 5, 6, 9]
+assert test(lst0) ==expected_output, 'Test failed'

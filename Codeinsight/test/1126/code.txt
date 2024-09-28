@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(arr0, arr1):
-    return np.ravel((arr0, arr1), order='F')
+def test(str0: bytes):
+    return str0.decode('utf8')[::-1].encode('utf8')

@@ -1,4 +1,3 @@
-import pandas as pd
-
-def test(dict0):
-    return pd.DataFrame(dict0)
+def test(lst0, lst1):
+    lst0 = lst1 + lst0
+    return lst0

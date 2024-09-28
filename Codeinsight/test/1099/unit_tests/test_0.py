@@ -1,5 +1,4 @@
-df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
-var0 = 'A'
-expected_result =  pd.DataFrame({'B': [4, 5, 6]})
-result = test(df0, var0)
-assert result.equals(expected_result), 'Test failed'
+str0 = "Hello World"
+expected_result =  "HelloWorld"
+result = test(str0)
+assert result == expected_result, 'Test failed'

@@ -1,1 +1,1 @@
-Fast way to remove a few items from a list/queue lst0 with criterias from function var0  
+Clamp an integer var0 between var1 and var2  

@@ -1,6 +1,4 @@
-Select rows from a DataFrame df0 based on column var0 matching values with string str0?   
+Check if the string var0 starts with a number.
 
-import pandas as pd
-
-def test(df0, var0, str0):
+def test(var0):
 

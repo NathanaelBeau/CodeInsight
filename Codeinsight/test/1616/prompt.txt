@@ -1,6 +1,7 @@
-Filter string var0 to keep only alphanumeric characters, spaces, and ignore non-ASCII characters.
+ Check if the object var0 is NaN using numpy or pandas
 
-import re
+import numpy as np
+import pandas as pd
 
 def test(var0):
 

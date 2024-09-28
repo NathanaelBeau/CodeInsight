@@ -1,5 +1,4 @@
-lst0 = [True, False, True]
-lst1 = [True, True, False]
-expected_result =  2
-result = test(lst0, lst1)
+lst0 = [[], [[1, 11], [2, 15]], []]
+expected_result =  [0, 26, 0]
+result = test(lst0)
 assert result == expected_result, 'Test failed'

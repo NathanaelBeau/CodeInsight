@@ -1,2 +1,3 @@
-def test(lst0):
-    return lst0 == list(range(lst0[0], lst0[-1]+1))
+import numpy as np
+def test(arr0):
+    return arr0.shape

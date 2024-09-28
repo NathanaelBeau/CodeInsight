@@ -1,4 +1,8 @@
-Extract a subset of key-value pairs from dictionary dict0 based on the keys present in list lst0.
+Generate a random string of length var0, a-z only
 
-def test(dict0, lst0):
+import random
+import string
+
+
+def test(var0):
 

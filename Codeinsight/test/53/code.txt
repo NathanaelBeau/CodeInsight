@@ -1,5 +1,5 @@
-import pandas as pd
+import re
 
-
-def test(df0):
-    return df0.to_numpy().tolist()
+def test(var0):
+    lst = re.split(',', var0)
+    return ['0' if x == '' else x for x in lst]

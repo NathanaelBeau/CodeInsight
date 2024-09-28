@@ -1,1 +1,1 @@
-Split a string str0 and keep the separators.
+How do you split a list lst0 into evenly sized chunks of var0?   

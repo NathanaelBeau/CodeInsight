@@ -1,6 +1,0 @@
-Add a new column with name var0 and values lst0 to an existing DataFrame df0.
-
-import pandas as pd
-
-def test(df0, var0, lst0):
-

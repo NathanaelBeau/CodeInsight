@@ -1,1 +1,1 @@
-Split string str0 based without regular expression   
+normalize a confusion matrix mat0   

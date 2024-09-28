@@ -1,4 +1,4 @@
 import pandas as pd
 
-def test(df0, col0):
-    return df0[col0].apply(len)
+def test(df0: pd.DataFrame) -> pd.DataFrame:
+    return df0.loc[:, ['x', 'y', 'a', 'b']]

@@ -1,1 +1,1 @@
- simple way to remove multiple spaces in a string str0 with regex
+NumPy - Efficient conversion from tuple arr0 with dimensions height var0 and wifth var1 to array   

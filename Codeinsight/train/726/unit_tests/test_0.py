@@ -1,5 +1,4 @@
-str0 = "(1,2,3)"
-tpl0 = (4,5,6)
-expected_result =  (4,5,6,1,2,3)
-result = test(str0, tpl0)
-assert result == expected_result, 'Test failed'
+import numpy as np
+a = np.array([10, 20, 30, 40, 110])
+expected_output = 2  # 30 and 40 are the numbers between 25 and 100
+assert test(a,25,100) == expected_output, 'Test failed'

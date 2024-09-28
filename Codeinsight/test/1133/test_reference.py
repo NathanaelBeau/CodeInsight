@@ -1,2 +1,3 @@
-def test(dict0):
-    return dict(sorted(dict0.items()))
+def test(lst0):
+    lst0.sort(key=lambda x: (x[0], len(x[1])))
+    return lst0

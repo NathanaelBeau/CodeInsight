@@ -1,4 +1,4 @@
-var0 = "Bye\nbye\nBirdie!"
-expected_result =  ['\n', '\n']
-result = test(var0)
-assert result == expected_result, 'Test failed'
+var0 = {'a', 'b', 'c'}
+var1 = {'c', 'd', 'e'}
+expected_output = {'a', 'b', 'c', 'd', 'e'}
+assert test(var0, var1) ==expected_output, 'Test failed'

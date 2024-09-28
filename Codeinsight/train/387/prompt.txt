@@ -1,4 +1,4 @@
-Extract the first element from each sub-list in a 2-dimensional list lst0.
+Create a list of tuples by pairing elements from lst0 and lst1
 
-def test(lst0):
+def test(lst0, lst1):
 

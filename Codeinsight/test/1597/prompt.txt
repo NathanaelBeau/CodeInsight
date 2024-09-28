@@ -1,6 +1,5 @@
-How to subset a data frame df0 using Pandas based on a group criteria  var0 and var1 when value == var2
+ Drop all columns from a dataframe df0 whose names contain the string str0.
 
 import pandas as pd
-
-def test(df0, var0, var1, var2):
+def test(df0, str0):
 

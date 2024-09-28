@@ -1,6 +1,6 @@
-Filter DataFrame df0 based on the condition cond0 using the query method, and return the resulting DataFrame.
+Multiply two vectors vect0 and vect1 
 
-import pandas as pd
+import numpy as np
 
-def test(df0, cond0):
+def test(vect0, vect1):
 

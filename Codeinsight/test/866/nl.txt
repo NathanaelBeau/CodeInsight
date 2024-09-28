@@ -1,1 +1,1 @@
-Find the first index of the value var0 in the numpy array arr0
+ slice a numpy array arr0 to get both the first and last two rows   

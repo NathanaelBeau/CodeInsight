@@ -1,2 +1,3 @@
-def test(lst0):
-    return [i[0] for i in lst0]
+def test(dict0) :
+    reversed_dict = dict(map(reversed, dict0.items()))
+    return reversed_dict

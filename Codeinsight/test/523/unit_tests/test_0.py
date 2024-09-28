@@ -1,4 +1,6 @@
-lst0 = [(0, 1, 2), (3, 4, 5), (6, 7, 8)]
-tpl0 = (10, 20, 30)
-expected_output = [(10, 21, 32), (13, 24, 35), (16, 27, 38)]
-assert test(lst0, tpl0) == expected_output, 'Test failed'
+# Test 1
+df0 = pd.DataFrame({'Category': ['A', 'A', 'B', 'B'], 'Value': [1, 2, 3, 4]})
+var0 = 'Category'
+expected_result =  pd.DataFrame({'Value': [3, 7]}, index=['A', 'B'])
+result = test(df0, var0)
+assert result.equals(expected_result), 'Test failed'

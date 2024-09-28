@@ -1,4 +1,3 @@
-lst0 = ['abc', 'def']
-var0 = 'ghi'
-expected_output = ['abc', 'def', 'ghi']
-assert test(lst0, var0) ==expected_output, 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, 3, 4]}, index=[1, 2, 2, 3])
+expected_output = pd.DataFrame({'A': [1, 2, 4]}, index=[1, 2, 3])
+assert test(df0).equals(expected_output), 'Test failed'

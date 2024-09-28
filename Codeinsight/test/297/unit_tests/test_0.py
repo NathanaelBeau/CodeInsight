@@ -1,3 +1,2 @@
-str0 = "helloworld"
-expected_output = ('l', 3)
-assert test(str0) ==expected_output, 'Test failed'
+lst1 = [["apple", "banana"], ["cherry", "blueberry"]]
+assert test(lst1) == 9 , 'Test failed'

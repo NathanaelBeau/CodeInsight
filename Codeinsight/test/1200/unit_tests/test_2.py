@@ -1,4 +1,4 @@
-lst0 = ["123456789", "987654321", "888888888"]
-var0 = '8'
-expected_output = ["12345679", "97654321", ""]
-assert test(lst0, var0) == expected_output, 'Test failed'
+A3 = ['apple', 'banana', 'cherry', 'date']
+B3 = ['banana', 'date', 'fig']
+expected_output3 = [1, 3]
+assert test(A3, B3) == expected_output3, 'Test failed'

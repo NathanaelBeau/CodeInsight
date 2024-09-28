@@ -1,5 +1,4 @@
-lst0 = [{'link': 'example8.com'}, {'link': 'example9.com'}]
-lst1 = ['example8.com', 'example9.com']
-expected_result =  []
-result = test(lst0, lst1)
-assert result == expected_result, 'Test failed'
+lst0 = [-3, 0, 3, 6, 9]
+var0 = 2
+expected_output = 3
+assert test(lst0, var0) == expected_output, 'Test failed'

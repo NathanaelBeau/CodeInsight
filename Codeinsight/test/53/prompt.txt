@@ -1,7 +1,6 @@
-Convert a pandas DataFrame named df0 into a list of lists
+Split a given string var0 by commas and replace any empty strings with '0
 
-import pandas as pd
+import re
 
-
-def test(df0):
+def test(var0):
 

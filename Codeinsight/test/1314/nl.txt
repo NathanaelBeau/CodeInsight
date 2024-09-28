@@ -1,1 +1,1 @@
-Append the character var2 to every substring in var0 that matches the regular expression var1.
+create a new dictionary by extracting specific keys from the input dictionary dict0. The keys to extract are provided as the arguments var0, var1, and var2. If any of these keys are not found in dict0, the corresponding value in the new dictionary will be None. 

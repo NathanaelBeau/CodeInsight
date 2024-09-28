@@ -1,5 +1,6 @@
-Create a new Series where a specified integer var0 is added to each element of the original Series ser0. 
+Group a dataframe df0 by a column named column_name0 and sum the other columns without turning the grouped by column into an index.
 
 import pandas as pd
-def test(ser0, var0):
+
+def test(df0, column_name0):
 

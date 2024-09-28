@@ -1,6 +1,4 @@
-Find matches in string var0 that start and end with the pattern var1.
+ pythonically set a value in a dictionary dict0 if it is None at key "a"  
 
-import re
-
-def test(var0, var1):
+def test(dict0):
 

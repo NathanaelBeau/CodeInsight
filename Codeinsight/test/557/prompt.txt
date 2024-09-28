@@ -1,6 +1,4 @@
-Convert a 1D array arr0 to a 2D array in numpy   
+insert a list lst0 at the front of another list lst1  
 
-import numpy as np
-
-def test(arr0):
+def test(lst0, lst1):
 

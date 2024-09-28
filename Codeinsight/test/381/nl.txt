@@ -1,1 +1,2 @@
-Convert a pandas series ser0 into a numpy array 
+Count occurrences of the word 'Hello' in a string var0
+

@@ -1,4 +1,4 @@
-var0 = '5'
-expected_result =  [5]
-result = test(var0)
-assert result == expected_result, 'Test failed'
+lst0 = ['apple', 'banana', 'orange', 'pear']
+lst1 = ['banana', 'grape', 'pear']
+expected_output = {'banana', 'pear'}
+assert test(lst0, lst1) ==expected_output, 'Test failed'

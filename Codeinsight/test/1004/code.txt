@@ -1,3 +1,3 @@
-import pandas as pd
-def test(df0, df1):
-    return pd.concat([df0, df1['dates']], axis=1)
+import numpy as np
+def test(arr0, var0):
+    return np.pad(arr0, pad_width=var0, mode='constant', constant_values=0)

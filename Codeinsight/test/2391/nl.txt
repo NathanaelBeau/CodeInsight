@@ -1,1 +1,0 @@
-Extract words from the string var0 that contain accented characters.

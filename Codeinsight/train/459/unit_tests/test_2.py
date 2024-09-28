@@ -1,7 +1,5 @@
-# Unit Test 2
-df0 = pd.DataFrame({ 'Name': ['John', 'Jane', 'Doe', 'Alice'], 'Age': [25, 26, 27, 28] })
-var0 = 'Name'
-var1 = 'Jane'
-expected_result =  pd.DataFrame({ 'Name': ['John', 'Doe', 'Alice'], 'Age': [25, 27, 28] })
-result = test(df0, var0, var1)
+# Test 3
+df0 = pd.DataFrame({ 'Score': [90, 85, 85, 95] }, index=[1, 2, 2, 3])
+expected_result =  pd.DataFrame({ 'Score': [90, 85, 95] }, index=[1, 2, 3])
+result = test(df0)
 assert result.equals(expected_result), 'Test failed'

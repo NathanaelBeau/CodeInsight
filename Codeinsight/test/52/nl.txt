@@ -1,2 +1,1 @@
-Delete the columns specified in columns_to_delete from the matrix mat0.
-
+Average values in two Numpy arrays arr0 andd arr1   

@@ -1,4 +1,5 @@
-arr0 = np.array([3, 1, 2])
-expected_result =  np.array([0, 2, 1])
-result = test(arr0)
-assert np.array_equal(result, expected_result), 'Test failed'
+import pandas as pd
+df = pd.DataFrame({'year': [2022], 'month': [1], 'day': [1]})
+expected_result =  pd.DataFrame({'year': [2022], 'month': [1], 'day': [1]})
+result = test(df)
+assert result.equals(expected_result), 'Test failed'

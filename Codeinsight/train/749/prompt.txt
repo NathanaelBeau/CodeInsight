@@ -1,6 +1,4 @@
-Get the first column from the dataframe df0 as a Series
+Python: Check the occurrences in a list lst0 against a value  var0
 
-import pandas as pd
-
-def test(df0):
+def test(lst0, var0):
 

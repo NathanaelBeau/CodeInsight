@@ -1,3 +1,4 @@
-import numpy as np
-def test(lst0, var0):
-    return np.append(lst0, var0)
+from itertools import chain
+
+def test(lst0):
+    return {k for k in chain(*lst0)}

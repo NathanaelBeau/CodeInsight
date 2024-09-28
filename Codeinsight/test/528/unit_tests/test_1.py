@@ -1,4 +1,3 @@
-df2 = pd.DataFrame({'X': ['a', 'b'], 'Y': ['c', 'd']})
-expected_result2 = [{'X': 'a', 'Y': 'c'}, {'X': 'b', 'Y': 'd'}]
-result2 = test(df2)
-assert result2 == expected_result2, 'Test failed'
+s2 = "@Python$Rocks#"
+expected_output2 = 'PythonRocks'
+assert test(s2) == expected_output2, 'Test failed'

@@ -1,4 +1,3 @@
-var0 = {'alpha': True, 'beta': False, 'gamma': True}
-expected_result =  [('beta', False), ('alpha', True), ('gamma', True)]
-result = test(var0)
-assert result == expected_result, 'Test failed'
+str0 = "hello*world"
+expected_output = ['helloworld']
+assert test(str0)== expected_output, 'Test failed'

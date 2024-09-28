@@ -1,4 +1,3 @@
-lst0 = [('apple', 'fruit'), ('carrot', 'vegetable'), ('chicken', 'meat')]
-expected_result =  ['apple', 'carrot', 'chicken']
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+a = np.array([10, 20, 110, 120, 130])
+expected_output = 0  # No numbers between 25 and 100
+assert test(a,25,100) == expected_output, 'Test failed'

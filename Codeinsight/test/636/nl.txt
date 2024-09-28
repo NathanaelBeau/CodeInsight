@@ -1,1 +1,1 @@
-In a dataframe df0 column var0, replace patterns matching string str0 with string str1.
+Update the column col_update in DataFrame df0 where values in column col_condition are greater than condition_val to new_val  

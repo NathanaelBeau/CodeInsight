@@ -1,4 +1,3 @@
-str0 = "Let's decode\\\\this"
-expected_result =  "Let's decode\\this"
-result = test(str0)
-assert result == expected_result, 'Test failed'
+lst0 = [10, 'apple', 20, 'orange', 30, 'banana']
+expected_output = {10: 'apple', 20: 'orange', 30: 'banana'}
+assert test(lst0) ==expected_output, 'Test failed'

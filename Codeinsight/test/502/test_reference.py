@@ -1,3 +1,2 @@
-def test(lst0):
-    lst0.sort(key=lambda x: sum(y['play'] for y in x), reverse=True)
-    return lst0
+def test(str0):
+    return str0.istitle()

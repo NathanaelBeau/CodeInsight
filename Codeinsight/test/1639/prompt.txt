@@ -1,4 +1,5 @@
-Index a list lst0 using the values from list lst1 as start and end indices.
+Retrieve the first and last element from the numpy array arr0  
 
-def test(lst0, lst1):
+import numpy as np
+def test(arr0):
 

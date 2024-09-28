@@ -1,1 +1,1 @@
-Get indices of the top N  var0 values of a list   lst0 with itemgetter
+Replace multiple substrings in str0 based on the replacement mappings provided in the dictionary dict0.

@@ -1,3 +1,3 @@
-argument = "She said, 'Hello!'"
-expected_output = "She said, Hello!"
-assert test(argument) == expected_output, 'Test failed'
+lst0 = ["5", "15", "25"]
+expected_output = [5, 15, 25]
+assert test(lst0) ==expected_output, 'Test failed'

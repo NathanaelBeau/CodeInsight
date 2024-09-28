@@ -1,5 +1,3 @@
-df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9]})
-str0 = '^A'
-expected_result =  pd.DataFrame({'A': [1, 2, 3]})
-result = test(df0, str0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [0, 2, 0, 3, 0, 5, 6]
+expected_result =  [1, 3, 5, 6]
+assert test(lst0) == expected_result, 'Test failed'

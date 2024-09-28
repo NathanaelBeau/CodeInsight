@@ -1,6 +1,6 @@
-# Test 2
-var0 = "123 abc 456"
-var1 = r"\d+"
-var2 = "-"
-expected_result =  "123- abc 456-"
-assert test(var0, var1, var2) == expected_result, 'Test failed'
+dict0 = {}
+var0 = 'a'
+var1 = 'b'
+var2 = 'c'
+expected_output = {'a': None, 'b': None, 'c': None}
+assert test(dict0, var0, var1, var2) ==expected_output, 'Test failed'

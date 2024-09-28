@@ -1,8 +1,4 @@
-import re
+import numpy as np
 
-def test(str0, var0):
-    sentences = re.split(r'(?<=[.?!])\s+', str0)
-    if len(sentences) > var0:
-        return ' '.join(sentences[:var0])
-    else:
-        return str0
+def test(x: np.ndarray, var0: int) -> np.ndarray:
+    return np.delete(x, var0, axis=0)

@@ -1,6 +1,4 @@
-var0 = """This is a text
-with multiple lines
-and several newlines."""
-expected_result =  ['\n', '\n']
-result = test(var0)
-assert result == expected_result, 'Test failed'
+var0 = set()
+var1 = {'x', 'y', 'z'}
+expected_output = {'x', 'y', 'z'}
+assert test(var0, var1) ==expected_output, 'Test failed'

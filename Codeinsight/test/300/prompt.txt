@@ -1,4 +1,6 @@
-Count the number of true booleans in a Python list lst0.
+Remove non-alpha-numeric characters from the column col_name in the dataframe df0.
 
-def test(lst0):
+import pandas as pd
+
+def test(df0, col_name):
 

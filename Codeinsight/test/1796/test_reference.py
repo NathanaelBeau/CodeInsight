@@ -1,4 +1,6 @@
-import pandas as pd
+import json
 
-def test(df0: pd.DataFrame) -> pd.DataFrame:
-    return df0[~df0.index.duplicated(keep='first')]
+def test(str0):
+    json_acceptable_string = str0.replace("'", "\"")
+    d = json.loads(json_acceptable_string)
+    return d

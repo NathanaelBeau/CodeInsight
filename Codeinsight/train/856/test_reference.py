@@ -1,3 +1,4 @@
 import numpy as np
-def test(var0, var1):
-    return np.sqrt(np.sum((var0-var1)**2))
+
+def test(arr0, lst0):
+    return np.vstack((arr0, lst0))

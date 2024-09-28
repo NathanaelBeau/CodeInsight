@@ -1,4 +1,3 @@
-var0 = ""
-expected_result =  ""
-result = test(var0)
-assert result == expected_result, 'Test failed'
+dict0 = {'a': 1, 'b': 2, 'c': 3}
+expected_output = (['a', 'b', 'c'], [1, 2, 3])
+assert test(dict0) == expected_output, 'Test failed'

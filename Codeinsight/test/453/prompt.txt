@@ -1,6 +1,4 @@
-Split on all non-alphanumeric characters (whitespace and punctuation) a string var0
+Check if the string var0 contains any items from the list lst0.
 
-import re
-
-def test(var0):
+def test(var0, lst0):
 

@@ -1,6 +1,4 @@
-import pandas as pd
+import numpy as np
 
-def test(df0, var0):
-    df0[var0] = df0[var0].astype(float).astype(int)
-    return df0
-
+def test(arr0, var0):
+    return np.argmax(arr0 == var0)

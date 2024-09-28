@@ -1,4 +1,12 @@
-df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
-var0 = 'A'
-expected_result =  6
-assert test(df0, var0) == expected_result, 'Test failed'
+import numpy
+import math
+import pandas
+import string
+import datetime
+import json
+import itertools
+import random
+import functools
+import collections
+result = test( 418347234)
+assert result==432743814, 'Test failed'

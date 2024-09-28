@@ -1,1 +1,1 @@
-Extract all the values from the key 'values' in a list of dictionaries lst0.
+find all positions of the maximum value in a list lst0   

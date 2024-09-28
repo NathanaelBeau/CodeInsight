@@ -1,3 +1,4 @@
-var0 = (3, 3)  
-expected_output = [0., 0., 0., 0., 0., 0., 0., 0., 0.]  
-assert (test(var0)  == expected_output).all(), 'Test failed'
+var0 = "Hello, world!"
+expected_result =  "Hello world"
+result = test(var0)
+assert result == expected_result, 'Test failed'

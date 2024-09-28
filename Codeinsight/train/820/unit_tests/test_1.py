@@ -1,3 +1,3 @@
-arg = pd.DataFrame({'Name': ['Alice', 'Bob', 'Charlie'], 'Age': [25, 30, 35]})
-expected_output = pd.Series({'Name': 'object', 'Age': 'int64'})
-assert test(arg).equals(expected_output), 'Test failed'
+lst0 = [[10, 20, 30], [40, 50, 60], [70, 80, 90]]
+expected_output = (10, 40, 70)
+assert test(lst0) ==expected_output, 'Test failed'

@@ -1,4 +1,4 @@
-arr0 = np.array([0, 1, 0])
-expected_result =  False
-result = test(arr0)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame({'A': [-1, 0, 1], 'B': [-2, 0, 2]})
+expected_result =  pd.DataFrame(StandardScaler().fit_transform(df0), columns=df0.columns)
+result = test(df0)
+assert result.equals(expected_result), 'Test failed'

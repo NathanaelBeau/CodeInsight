@@ -1,3 +1,4 @@
-mylist = ['apple123', 'apple456', 'banana1', 'banana2', 'cherry', 'chocolate']
-expected_output = [['apple123', 'apple456'], ['banana1', 'banana2'], ['cherry'], ['chocolate']]
-assert test(mylist) == expected_output, 'Test failed'
+str0 = "12345"
+expected_result =  [3, 5, 7, 9]
+result = test(str0)
+assert result == expected_result, 'Test failed'

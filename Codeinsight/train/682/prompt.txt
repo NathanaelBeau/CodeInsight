@@ -1,6 +1,4 @@
-tokenize a string str0 keeping delimiters in Python   
+Format string - spaces between every three digit  in string var0 
 
-import re
-
-def test(str0):
+def test(var0):
 

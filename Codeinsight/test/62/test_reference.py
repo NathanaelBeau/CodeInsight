@@ -1,2 +1,2 @@
-def test(dict0, dict1):
-    return {key: dict0[key] / dict1[key] for key in dict0 if key in dict1}
+def test(var0: int) -> dict:
+    return {i: i**2 for i in range(var0)}

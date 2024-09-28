@@ -1,4 +1,4 @@
-Search a specific element in a list of tuples var0 without duplicates if var1 is matching the first element
+Python: an efficient way to slice a list lst0 with a index list  lst1 
 
-def test(var0, var1):
+def test(lst0, lst1):
 

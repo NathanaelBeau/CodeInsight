@@ -1,4 +1,3 @@
-import numpy as np
-
-def test(arr0, arr1):
-    return np.dstack((arr0, arr1)).flatten()
+def test(lst0):
+    lst0.append('foo')
+    return lst0

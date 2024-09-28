@@ -1,2 +1,10 @@
-def test(var0, var1):
-    return [*map(lambda x:x[var0],var1)]
+import re
+
+def test(str0):
+    comma_regex = r'[\d]+[.,\d]+' 
+   
+    comma= re.findall(comma_regex, str0)
+    
+    return comma
+
+

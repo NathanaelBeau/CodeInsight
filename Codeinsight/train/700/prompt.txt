@@ -1,6 +1,4 @@
-Sort a string str0 in lexicographic order python   
+Removing items var0 from unnamed lists lst0 in Python   
 
-import re
-
-def test(str0):
+def test(lst0, var0):
 

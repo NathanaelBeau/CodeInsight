@@ -1,1 +1,1 @@
-Delete a column var0 from a Pandas DataFrame  df0
+Get max value index for a list of dicts lst0 with enumerate

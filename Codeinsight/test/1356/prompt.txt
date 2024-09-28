@@ -1,6 +1,6 @@
-Check if a value value is a numpy type.
+Convert an HTML string str0 into a readable string text with line breaks.
 
-import numpy as np
+from bs4 import BeautifulSoup
 
-def test(value):
+def test(str0):
 

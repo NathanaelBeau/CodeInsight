@@ -1,1 +1,1 @@
-Retrieve the element located at index var0 of the first row and the element at index var1 of the second row from the array A.
+Get the minimum and maximum dates from a dataframe column 'Date' in df0. 

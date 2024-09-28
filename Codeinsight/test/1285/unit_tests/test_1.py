@@ -1,4 +1,5 @@
-lst0 = [{'value': 10}, {'value': 20}, {'value': 30}]
-expected_result =  [10, 20, 30]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+# Test 3
+var0 = "No separation here."
+regex_pattern = r"\s"
+expected_result =  17
+assert test(var0, regex_pattern) == expected_result, 'Test failed'

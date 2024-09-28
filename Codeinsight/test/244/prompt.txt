@@ -1,4 +1,6 @@
-Sorting a dictionary dict0 with lists as values, according to an element from the list  lst0 
+Get a list of column headers from DataFrame df0.
 
-def test(dict0, lst0):
+import pandas as pd
+
+def test(df0):
 

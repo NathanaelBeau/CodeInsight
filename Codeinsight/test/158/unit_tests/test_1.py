@@ -1,4 +1,3 @@
-lst0 = ['Hello', 'World', 'world', 'HELLO']
-expected_result =  ['hello', 'world']
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+s2 = "@Python$Rocks#"
+expected_output2 = False
+assert test(s2) == expected_output2, 'Test failed'

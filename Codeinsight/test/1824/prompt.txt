@@ -1,4 +1,6 @@
-simplest way to Sort a list lst0 based on dictionary values from dict0 in python  using equivalent explicit lambda
+Remove a specified column named str0 from a given DataFrame df0 
 
-def test(lst0, dict0):
+import pandas as pd
+
+def test(df0, str0):
 

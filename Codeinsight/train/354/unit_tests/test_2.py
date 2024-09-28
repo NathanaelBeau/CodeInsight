@@ -1,4 +1,3 @@
-lst0 = [['a', 'b'], ['c', 'd', 'e']]
-expected_result =  [['e', 'd', 'c'], ['b', 'a']]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+str0 = "No\u200bthing to \u200bre\u200bpl\u200bace here."
+expected_output = "No*thing to *re*pl*ace here."
+assert test(str0) ==expected_output, 'Test failed'

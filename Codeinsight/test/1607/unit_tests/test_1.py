@@ -1,5 +1,4 @@
-# Test 3
-var0 = "cherry"
-var1 = "cherry"
-expected_result =  ""
-assert test(var0, var1) == expected_result, 'Test failed'
+series0 = pd.Series([4, 5, 6], name='B')
+expected_result =  pd.DataFrame({'B': [4, 5, 6]})
+result = test(series0)
+assert result.equals(expected_result), 'Test failed'

@@ -1,2 +1,3 @@
-def test(df0):
-    return df0.sort_values('count', ascending=False).groupby('Mt', as_index=False).first()
+def test(dict0, var0, var1):
+    dict0[var0] = var1
+    return dict0

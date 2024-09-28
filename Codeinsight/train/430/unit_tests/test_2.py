@@ -1,4 +1,8 @@
-s3 = "apple apple-apple apple_apple"
-pattern3 = "apple"
-expected_output3 = [0, 6, 12, 18, 24]
-assert test(s3, pattern3) == expected_output3, 'Test failed'
+import pandas as pd
+data = {'P': [100, 200, 300], 'Q': [1, 0, 1]}
+df0 = pd.DataFrame(data)
+var0 = 'P'
+var1 = 'Q'
+expected_result =  400
+result = test(df0, var0, var1)
+assert result == expected_result, 'Test failed'

@@ -1,4 +1,4 @@
-List comprehension - converting strings in one list lst0, sum elements and convert to integers in another list   
+Create dataframe containing data of dataframe df0 where column Gender is equal to 'Male' and column Year is equal to 2014.
 
-def test(lst0):
+def test(df0):
 

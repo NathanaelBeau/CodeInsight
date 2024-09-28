@@ -1,4 +1,4 @@
-Count the number of key-value pairs in dictionary dict0 where the value is var0
+Delete the 1st, 2nd, and 4th columns from dataframe df0.
 
-def test(dict0, var0):
+def test(df0):
 

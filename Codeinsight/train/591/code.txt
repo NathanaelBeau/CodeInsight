@@ -1,4 +1,4 @@
-import re
+import pandas as pd
 
-def test(str0):
-    return re.sub(r"\d", "", str0)
+def test(df0, col_name):
+    return df0[col_name].mean()

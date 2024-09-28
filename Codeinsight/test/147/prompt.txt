@@ -1,4 +1,4 @@
-Filter rows in dataframe df0 where column var0 contains any string from the list lst0.
+Compute the sum of all the values in the dictionary dict0 
 
-def test(df0, var0, lst0):
+def test(dict0: dict):
 

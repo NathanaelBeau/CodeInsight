@@ -1,4 +1,4 @@
-str0 = "\tTabs\t and\n new lines"
-expected_result =  "Tabsandnewlines"
-result = test(str0)
+var0 = 'hello,"world,universe",galaxy",planet"'
+expected_result =  ['hello', '"world,universe"', 'galaxy",planet"']
+result = test(var0)
 assert result == expected_result, 'Test failed'

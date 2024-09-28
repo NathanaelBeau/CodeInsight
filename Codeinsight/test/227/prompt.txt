@@ -1,6 +1,6 @@
-Python: Fetch first 10 results from a list   lst0
+Strip all leading and trailing whitespaces from every string in a dataframe df0
 
-from itertools import takewhile
+import pandas as pd
 
-def test(lst0):
+def test(df0):
 

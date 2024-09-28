@@ -1,1 +1,1 @@
-Return dataframe df0 with its last row removed.
+Replace all occurrences of negative infinity in array arr0 with zero  

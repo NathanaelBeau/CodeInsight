@@ -1,1 +1,1 @@
-Check if the numpy array arr0 contains the given row row0  
+Concatenate a numpy array arr1 to another numpy array arr0.

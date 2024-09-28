@@ -1,1 +1,1 @@
-Access an arbitrary element(first one) in a dictionary dict0 in Python   
+Create an empty dataframe with the same index as dataframe df0.

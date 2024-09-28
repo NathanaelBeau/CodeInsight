@@ -1,2 +1,5 @@
-def test(lst0, lst1):
-    return sorted(lst0, key=lambda x: lst1.index(x['id']))
+def test(lst0, var0):
+    lst = list(lst0)
+    lst.remove(var0)
+    return lst
+

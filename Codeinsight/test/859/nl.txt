@@ -1,1 +1,1 @@
-Prepend the value value0 to the numpy array arr0.  
+Select elements from a numpy array arr0 where they satisfy the condition

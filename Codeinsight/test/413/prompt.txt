@@ -1,4 +1,6 @@
-Removing duplicate characters from a string var0 without conserving the order    
+Extract the value from position (var0, var1) in the DataFrame df0
 
-def test(var0):
+import pandas as pd
+
+def test(df0, var0, var1):
 

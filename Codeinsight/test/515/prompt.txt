@@ -1,5 +1,4 @@
-Find the number that appears most frequently in the numpy array arr0
+Obtain a list of row names (index values) from the pandas DataFrame df0.
 
-import numpy as np
-def test(arr0):
+def test(df0):
 

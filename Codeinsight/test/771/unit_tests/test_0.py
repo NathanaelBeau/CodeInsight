@@ -1,12 +1,7 @@
-lst0 = [
-    {"name": "John", "age": 25},
-    {"name": "Alice", "age": 30},
-    {"name": "Bob", "age": 22},
-]
-var0 = "name"
-expected_output = [
-    {"name": "Alice", "age": 30},
-    {"name": "Bob", "age": 22},
-    {"name": "John", "age": 25},
-]
-assert test(lst0, var0) == expected_output, 'Test failed'
+lst0 = [5.4, 2.1, 3.8, 9.7, 1.2]
+var0 = 3
+expected_output = [0, 3, 2]
+lst0 = [5.4, 2.1, 3.8, 9.7, 1.2]
+var0 = 3
+expected_output = [0, 3, 2]
+assert set(test(lst0, var0)) == set(expected_output), 'Test failed'

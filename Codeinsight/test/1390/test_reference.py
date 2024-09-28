@@ -1,3 +1,2 @@
-import pandas as pd
-def test(df0, var0, var1):
-    return df0[df0[var0] == var1]['other_column'].sum()
+def test(var0, lst0):
+    return [x[var0] for x in lst0]

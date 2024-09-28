@@ -1,4 +1,6 @@
-Create a dictionary from a list of key-value pairs lst0
+Generate a list of tuples with adjacent elements from list 
+lst0
+lst0 if their sum is greater than 10
 
 def test(lst0):
 

@@ -1,4 +1,6 @@
- splitting a string str0 in Python with split on s and z.
+Add a new column 'new_col' with sequential numbers to a dataframe df0
 
-def test(str0):
+import pandas as pd
+
+def test(df0):
 

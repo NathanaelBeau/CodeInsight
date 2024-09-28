@@ -1,4 +1,7 @@
-var0, var1 = 2, 3
-expected_shape = (var0, var1)
-result = test(var0, var1)
-assert result.shape == expected_shape and isinstance(result, np.ndarray), 'Test failed'
+lst0 = [
+    {'categories': ['A', 'B', 'C']},
+    {'categories': ['A', 'C', 'D']},
+    {'categories': ['B', 'C', 'C']}
+]
+expected_output = {'C': 4, 'A': 2, 'B': 2, 'D': 1}
+assert test(lst0) ==expected_output, 'Test failed'

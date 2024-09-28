@@ -1,4 +1,6 @@
-mat0 = np.array([[1, 2], [0, 4]])
-expected_result =  np.log(mat0 + 1e-10)
-result = test(mat0)
-assert np.allclose(result, expected_result), 'Test failed'
+var0 = pd.DataFrame({'name': ['Alice', 'Bob', 'Charlie', 'Diana']})
+str0 = 'name'
+int0 = 3
+expected_result =  pd.DataFrame({'name': ['Alice', 'Charlie', 'Diana']}).reset_index(drop=True)
+result = test(var0, str0, int0).reset_index(drop=True)
+assert result.equals(expected_result), 'Test failed'

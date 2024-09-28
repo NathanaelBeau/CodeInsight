@@ -1,1 +1,1 @@
-Transform all negative elements in numpy array arr0 to zero without using explicit loops   
+Extract all patterns matching square brackets, parentheses, double quotes, or non-space sequences from a string var0

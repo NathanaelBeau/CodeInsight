@@ -1,3 +1,5 @@
-lst0= ["zebra", "lion", "elephant", "giraffe"]
-expected_output = ["elephant", "giraffe", "lion", "zebra"]
-assert test(lst0) ==expected_output, 'Test failed'
+lst0 = [1, 2]
+lst1 = []
+result = test(lst0, lst1)
+expected = list(itertools.product(lst0, lst1))
+assert result== expected, 'Test failed'

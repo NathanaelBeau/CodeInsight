@@ -1,4 +1,3 @@
-lst0 = []
-lst1 = [10, 20, 30]
-expected_output = [10, 20, 30]
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+str0 = '123456789'
+expected_output = '12-34-56-78-9'
+assert test(str0) ==expected_output, 'Test failed'

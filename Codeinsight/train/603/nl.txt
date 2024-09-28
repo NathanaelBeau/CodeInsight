@@ -1,1 +1,1 @@
-Getting the first elements per row in an array lst0 in Python   
+Merging items in a list lst0 - Python   

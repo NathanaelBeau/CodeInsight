@@ -1,1 +1,1 @@
-Convert string str0 to numpy array   
+Check if all elements in each sub-list of lst0 are the same and return a list of boolean values   

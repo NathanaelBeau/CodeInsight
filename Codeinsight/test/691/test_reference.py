@@ -1,3 +1,3 @@
-def test(str0):
-    import re
-    return re.sub(r'(?<!^)([A-Z])', r' \1', str0)
+import pandas as pd
+def test(df0):
+    return df0.sub(df0.mean(axis=1), axis=0)

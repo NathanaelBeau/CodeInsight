@@ -1,4 +1,3 @@
-str0 = "No match here."
-var0 = "is"
-expected_output = -1
-assert test(str0, var0) ==expected_output, 'Test failed'
+lst0 = [[7, 8, 9], [10, 11, 12]]
+expected_output = [(7, 8, 9), (10, 11, 12)]
+assert test(lst0)== expected_output, 'Test failed'

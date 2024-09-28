@@ -1,4 +1,5 @@
-Create a list c by selecting items from list b based on the indices present in list index.
+Return a random word from a list of words lst0
 
-def test(b: list, index: list) -> list:
+import random
+def test(lst0):
 

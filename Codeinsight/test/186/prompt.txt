@@ -1,6 +1,6 @@
-Select a column from dataframe df0 based on its location var0
+Removing nan values from an array or list  arr0 with filter
 
-import pandas as pd
+import numpy as np
 
-def test(df0, var0):
+def test(arr0):
 

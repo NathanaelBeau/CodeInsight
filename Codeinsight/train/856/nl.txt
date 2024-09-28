@@ -1,1 +1,1 @@
-Calculate the Euclidean distance between two points var0 and var1 using NumPy
+Append a list lst0 as a new row to a NumPy array arr0.

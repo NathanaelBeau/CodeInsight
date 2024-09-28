@@ -1,1 +1,1 @@
-Convert a dictionary dict0 into a structured NumPy array with specific data types for the keys ('U10') and values ('3int16').
+Drop duplicated index in a pandas dataframe df0   

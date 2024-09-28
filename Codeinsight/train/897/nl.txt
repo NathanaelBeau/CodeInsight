@@ -1,1 +1,1 @@
-Replace specific string var0 to NaN from a dataframe var1
+Remove NaN/NULL columns in a Pandas dataframe df0   

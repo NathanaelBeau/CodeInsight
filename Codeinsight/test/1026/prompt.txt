@@ -1,4 +1,4 @@
-Truncate the string s up to the first occurrence of the character ':'.
+Sort a list lst0 in python based on another sorted list lst1
 
-def test(s: str) -> str:
+def test(lst0, lst1):
 

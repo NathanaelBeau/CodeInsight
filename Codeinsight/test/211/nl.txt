@@ -1,1 +1,1 @@
-Combine two sequences var0 and var1 to create a dict where var0 is the key and var1 is the value
+Conditionally create a new column named col0 in a dataframe df0 where values are label_high if column 'A' is greater than val0 and label_low otherwise

@@ -1,3 +1,3 @@
-def test(lst0):
-    lst0.sort(key=lambda d: (d['weight'], d['factor']))
-    return lst0
+import pandas as pd
+def test(df0):
+    return list(df0.index)

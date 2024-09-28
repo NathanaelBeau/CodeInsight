@@ -1,1 +1,1 @@
- sort a list of strings lst0   
+Merge two lists lst0 and lst1 with all possible permutations

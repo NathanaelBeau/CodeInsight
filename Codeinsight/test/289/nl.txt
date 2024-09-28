@@ -1,1 +1,1 @@
-Split string str0 based on a regular expression   
+Split a string str0 at uppercase letters.

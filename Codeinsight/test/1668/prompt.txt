@@ -1,4 +1,6 @@
-Determine if a matrix matrix0 is positive definite using numpy.  
+Select a column from dataframe df0 based on its location var0
 
-def test(matrix0):
+import pandas as pd
+
+def test(df0, var0):
 

@@ -1,4 +1,4 @@
-str0 = 'No punctuation here'
-expected_result =  ['No punctuation here']
-result = test(str0)
-assert result == expected_result, 'Test failed'
+lst0 = [1, 2, 3, 4, 5]
+window_size = 1
+expected_output = [1.0, 2.0, 3.0, 4.0, 5.0]
+assert test(lst0, window_size) ==expected_output, 'Test failed'

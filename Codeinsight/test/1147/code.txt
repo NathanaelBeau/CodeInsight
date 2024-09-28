@@ -1,3 +1,4 @@
-import re
-def test(var0):
-    return re.match('^$|^$', var0)
+import pandas as pd
+
+def test(df0, var0, var1):
+    return df0.sort_values(var0, ascending=var1)

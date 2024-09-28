@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(arr0):
-    return np.sort(arr0, axis=0)
+def test(var0, var1):
+    return var0.replace(var1, "")

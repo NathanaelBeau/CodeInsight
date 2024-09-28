@@ -1,4 +1,4 @@
- find the count of a word str1 in a string str0 with split 
+Convert all keys and values in a dictionary dict0 to lowercase.
 
-def test(str0, str1):
+def test(dict0):
 

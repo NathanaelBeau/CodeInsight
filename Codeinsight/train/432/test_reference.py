@@ -1,2 +1,2 @@
-def test(var0, var1):
-    return var0.replace(var1, "")
+def test(var0):
+	return "".join([l for l in var0 if l.isupper()])

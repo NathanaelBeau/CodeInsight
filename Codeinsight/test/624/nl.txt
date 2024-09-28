@@ -1,1 +1,1 @@
-Concatenate two dataframes, df0 and df1, without any duplicates
+Shift all elements in a numpy array arr0 by var0 positions

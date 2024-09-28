@@ -1,3 +1,4 @@
-arr0 = [1.79769313486e+308, float('+inf'), float('-inf')]
-expected_output = [1.79769313486e+308, float('-inf')]
-assert test(arr0) ==expected_output, 'Test failed'
+df0 = pd.DataFrame({ 'A': [1, 2, 2, 4], 'B': [5, 5, 6, 6], 'C': [1, 2, 3, 4] })
+expected_result =  pd.Series({'A': 3, 'B': 2, 'C': 4})
+result = test(df0)
+assert result.equals(expected_result), 'Test failed'

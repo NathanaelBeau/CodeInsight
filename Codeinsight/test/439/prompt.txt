@@ -1,4 +1,6 @@
-sum each value in a list of tuples  lst0 and return it in a tuple
+Interweaving two numpy arrays   arr0 and arr1 with vstack
 
-def test(lst0):
+import numpy as np
+
+def test(arr0, arr1):
 

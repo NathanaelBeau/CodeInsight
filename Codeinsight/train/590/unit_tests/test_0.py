@@ -1,3 +1,4 @@
-str0 = "This is a test\u200b string with \u200bunicode characters\u200b."
-expected_output = "This is a test* string with *unicode characters*."
-assert test(str0) ==expected_output, 'Test failed'
+var0 = pd.DataFrame({'A': [1, 2, 3]})
+expected_result =  pd.DataFrame({'A': [1, 2, 3], 'B': [1, 4, 9], 'C': [1, 8, 27]})
+result = test(var0)
+assert result.equals(expected_result), 'Test failed'

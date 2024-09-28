@@ -1,5 +1,4 @@
-Combine two one-dimensional numpy arrays arr0 and arr1 into a single 2-dimensional array  
+Finding the most frequent character in a string   str0  
 
-import numpy as np
-def test(arr0, arr1):
+def test(str0):
 

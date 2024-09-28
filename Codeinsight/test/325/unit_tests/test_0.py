@@ -1,14 +1,8 @@
-df0 = pd.DataFrame({'A': [1, 2, 3, 1, 2, 3],
-                   'B': [4, 5, 6, 4, 5, 6],
-                   'C': [7, 8, 9, 7, 8, 9]})
-expected_output = pd.DataFrame({1: [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
-                                2: [0.0, 1.0, 0.0, 0.0, 1.0, 0.0],
-                                3: [0.0, 0.0, 1.0, 0.0, 0.0, 1.0],
-                                4: [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
-                                5: [0.0, 1.0, 0.0, 0.0, 1.0, 0.0],
-                                6: [0.0, 0.0, 1.0, 0.0, 0.0, 1.0],
-                                7: [1.0, 0.0, 0.0, 1.0, 0.0, 0.0],
-                                8: [0.0, 1.0, 0.0, 0.0, 1.0, 0.0],
-                                9: [0.0, 0.0, 1.0, 0.0, 0.0, 1.0]},
-                                index=df0.index)
-assert test(df0).equals( expected_output), 'Test failed'
+dates = pd.date_range('20230101', periods=3)
+df = pd.DataFrame({
+            'A': [10, 20, 30],
+            'B': [5, 15, 25]
+        }, index=dates)
+result = test(df)
+expected = pd.DatetimeIndex(dates)
+assert result .equals(expected), 'Test failed'

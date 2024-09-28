@@ -1,4 +1,4 @@
-import re
-
-def test(str0: str) -> str:
-    return ''.join(char for char in str0 if char.isalnum())
+import pandas as pd
+def test(df0):
+    result = pd.isna(df0[('col1', 'col2')]).any()
+    return result

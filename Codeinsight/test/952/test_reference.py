@@ -1,4 +1,5 @@
-import pandas as pd
-
-def test(df0, var0):
-    return df0[var0].nunique()
+def test(dict0, dict1):
+    result = {}
+    for k, v in dict0.items():
+        result[k] = dict1.get(v)
+    return result

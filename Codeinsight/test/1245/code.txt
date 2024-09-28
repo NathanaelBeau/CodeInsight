@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0, arr1):
-    return (arr0 + arr1) / 2
+def test(str0, char0):
+    return ''.join([str0[i:i+2] + char0 for i in range(0, len(str0), 2)])[:-1]

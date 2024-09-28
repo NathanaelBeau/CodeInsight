@@ -1,3 +1,3 @@
-lst0 = [10, 20, 30, 40, 50, 60]
-expected_output = 6
-assert test(lst0) ==expected_output, 'Test failed'
+str0 = "x=10 y=20 z=30"
+expected_output = {'x': 10, 'y': 20, 'z': 30}
+assert test(str0) ==expected_output, 'Test failed'

@@ -1,1 +1,1 @@
-Compute the list of sums of neighboring integers in a string str0
+Create a new dictionary by subtracting the values in dict1 from the corresponding values in dict0. If a key from dict0 is not present in dict1, subtract 0 

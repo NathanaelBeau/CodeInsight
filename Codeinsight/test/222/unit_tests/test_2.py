@@ -1,4 +1,4 @@
-lst0 = [1, 2, 3, 4, 5, 6]
-expected_result =  []
+lst0 = [('x', 10), ('y', 20)]
+expected_result =  {'x': 10, 'y': 20}
 result = test(lst0)
 assert result == expected_result, 'Test failed'

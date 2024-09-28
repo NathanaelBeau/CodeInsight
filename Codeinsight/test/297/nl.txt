@@ -1,1 +1,1 @@
-Finding the most frequent character in a string   str0 
+Get the maximum string length from a nested list lst.

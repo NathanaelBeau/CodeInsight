@@ -1,4 +1,2 @@
-df0 = pd.DataFrame({'col': ['A', 'B', 'C', 'A', 'B', 'C']})
-col0 = 'col'
-expected_output = pd.DataFrame({'col': [0, 1, 2, 0, 1, 2]})
-assert test(df0, col0) .equals(expected_output), 'Test failed'
+expected_output = [11, 12, 13, 14, 15, 16, 17, 18, 19]
+assert test() == expected_output, 'Test failed'

@@ -1,2 +1,6 @@
-def test(lst0, var0):
-	return [{k: v for k, v in d.items() if k != var0} for d in lst0]
+def test(lst0):
+    total = 0
+    for sublist in lst0:
+        for item in sublist:
+            total += item
+    return total

@@ -1,5 +1,4 @@
-Create a list containing the subtraction of each item from the item prior to it in list lst0.
+Create a list c by selecting items from list b based on the indices present in list index.
 
-
-def test(lst0):
+def test(b: list, index: list) -> list:
 

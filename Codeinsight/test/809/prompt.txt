@@ -1,4 +1,6 @@
-Calculate the average of all elements in a nested list lst0.
+pythonic way to explode a list of tuples lst0  
 
-def test(lst0: list) -> float:
+import unittest
+
+def test(lst0):
 

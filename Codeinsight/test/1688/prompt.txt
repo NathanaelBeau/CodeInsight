@@ -1,4 +1,6 @@
-convert a string str0 of space- and comma- separated numbers into a list of int  with map
+Drop rows in dataframe df0 whose index values are in the list lst0.
 
-def test(str0):
+import pandas as pd
+
+def test(df0, lst0):
 

@@ -1,2 +1,2 @@
-def test(lst0):
-    return sum([i**2 for i in lst0])
+def test(var0):
+    return [int(digit) for digit in str(var0)]

@@ -1,2 +1,2 @@
-def test(lst0):
-    return [tup[0] for tup in lst0]
+def test(lst0: list) -> list:
+    return [int(i) if isinstance(i, str) and i.isdigit() else i for i in lst0]

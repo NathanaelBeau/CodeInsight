@@ -1,5 +1,7 @@
-def test(dict0, var0):
-    for value in dict0.values():
-        if value == var0:
-            return True
-    return False
+import numpy as np
+
+def test(arr0):
+    p = arr0
+    q = arr0
+    result = np.vstack([p, q])
+    return result

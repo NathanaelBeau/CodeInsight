@@ -1,7 +1,7 @@
-Create a dataframe with columns named columns_list0 and n_rows0 number of rows filled with NaNs of type float.
+Select columns with level 1 label as str0 in a multiindex dataframe df0
+
 
 import pandas as pd
-import numpy as np
 
-def test(columns_list0, n_rows0):
+def test(df0, str0):
 

@@ -1,4 +1,4 @@
-lst0 = []
-var0 = 'grape'
-expected_output = ['grape']
-assert test(lst0, var0) ==expected_output, 'Test failed'
+str0 = "Short text"
+expected_result =  "Short text"
+result = test(str0)
+assert result == expected_result, 'Test failed'

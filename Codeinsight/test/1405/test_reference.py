@@ -1,4 +1,3 @@
-from operator import mul
-
-def test(lst0, lst1):
-    return sum(map(mul, lst0, lst1))
+import pandas as pd
+def test(df0, str0, lst0):
+    return pd.cut(df0[str0], lst0)

@@ -1,5 +1,2 @@
-def test(lst0):
-    result = []
-    for x in lst0:
-        result.append((x,))
-    return tuple(result)
+def test(lst0, lst1):
+    return dict(zip(lst0, lst1))

@@ -1,6 +1,4 @@
-Delete the column with name var0 from the dataframe df0 
+Remove all white spaces from a string str0.
 
-import pandas as pd
-
-def test(df0, var0):
+def test(str0):
 

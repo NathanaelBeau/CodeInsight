@@ -1,4 +1,4 @@
-import numpy as np
+import pandas as pd
 
-def test(arr0, value0):
-    return value0 in arr0
+def test(df0, start_column0, end_column0):
+    return df0.loc[:, start_column0:end_column0]

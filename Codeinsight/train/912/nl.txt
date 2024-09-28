@@ -1,1 +1,1 @@
-Remove duplicate chars of a string var0
+Replace words in string var0 using substitutions from dictionary dict0

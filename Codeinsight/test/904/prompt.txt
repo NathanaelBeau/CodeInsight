@@ -1,5 +1,8 @@
-Combine the list of numpy arrays lst0 into a single numpy array  
+Split a dataframe 
+df0 by values of column 
+var0 into separate dataframes.
 
-import numpy as np
-def test(lst0):
+import pandas as pd
+
+def test(df0, var0):
 

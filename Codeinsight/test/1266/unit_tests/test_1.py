@@ -1,5 +1,3 @@
-lst0 = [False, False, False]
-var0 = ['A', 'B', 'C']
-var1 = ['x', 'y', 'z']
-expected_output = ['x', 'y', 'z']
-assert test(lst0, var0, var1) == expected_output, 'Test failed'
+arr0 = np.array([0, 0, 0, 1])
+expected_output = np.array([1])
+assert test(arr0) ==expected_output, 'Test failed'

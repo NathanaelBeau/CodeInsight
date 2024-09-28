@@ -1,2 +1,3 @@
-def test(dict0):
-    return next(iter(dict0.values()))
+def test(df0):
+    df0.drop(('col1', 'a'), axis=1, inplace=True)
+    return df0

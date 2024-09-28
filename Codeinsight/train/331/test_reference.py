@@ -1,4 +1,4 @@
-import numpy as np
-import pandas as pd
+import re
+
 def test(var0):
-    return type(var0) in [list, np.ndarray, pd.Series]
+    return re.sub(r'[^a-zA-Z ]', '', var0)

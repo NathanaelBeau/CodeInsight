@@ -1,3 +1,2 @@
-def test(lst0):
-    lst0.sort(key=lambda item: (-len(item), item))
-    return lst0
+def test(var0, var1):
+    return var0.__version__, var1.__version__

@@ -1,8 +1,4 @@
-var0 = 'values'
-df0 = pd.DataFrame({ 'category': ['X', 'Y', 'Z'], 'values': [5, 5, 6] })
-expected_result =  [
-    pd.DataFrame({'category': ['X', 'Y'], 'values': [5, 5]}).reset_index(drop=True),
-    pd.DataFrame({'category': ['Z'], 'values': [6]}).reset_index(drop=True)
-]
-result = test(df0, var0)
-assert all([res.equals(exp_res) for res, exp_res in zip(result, expected_result)]), 'Test failed'
+dict0 = {"Highlight": "yes", "HighFive": "no", "LowLight": "maybe"}
+str0 = "High"
+expected_result =  {"Highlight": "yes", "HighFive": "no"}
+assert test(dict0, str0) == expected_result, 'Test failed'

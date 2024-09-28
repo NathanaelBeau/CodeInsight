@@ -1,3 +1,4 @@
-import re
-def test(var0):
-    return re.split(r'\s+', var0)
+import pandas as pd
+
+def test(df0, var0):
+    return df0.iloc[::var0]

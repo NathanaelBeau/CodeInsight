@@ -1,6 +1,4 @@
-Access an arbitrary element(first one) in a dictionary dict0 in Python   
+List comprehension - converting strings in one list lst0, sum elements and convert to integers in another list   
 
-import six
-
-def test(dict0):
+def test(lst0):
 

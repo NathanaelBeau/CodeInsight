@@ -1,4 +1,6 @@
-Convert a list lst0 into a string with values separated by spaces
+Convert Python dict  dict0 into a dataframe   
 
-def test(lst0):
+import pandas as pd
+
+def test(dict0):
 

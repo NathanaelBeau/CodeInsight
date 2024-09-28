@@ -1,4 +1,4 @@
-dict0 = { "dog": "animal", "cat": "animal", "horse": "animal" }
-var0 = "I have a DOG, a Cat, and a horse."
-expected_output = "I have a animal, a animal, and a animal."
-assert test(dict0, var0) ==expected_output, 'Test failed'
+arr0 = np.array([10, 9, 11])
+expected_result =  np.array([11, 10, 9])
+result = test(arr0)
+assert np.array_equal(result, expected_result), 'Test failed'

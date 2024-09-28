@@ -1,3 +1,10 @@
-lst0 = ['A:1', 'B:2', 'C:3', 'A:4']
-expected_output = {'A': '4', 'B': '2', 'C': '3'}
-assert test(lst0) ==expected_output, 'Test failed'
+df = pd.DataFrame({
+            'A': [1, 2, 3],
+            'B': [4, 5, 6]
+        })
+def mean_func(x):
+    return x.mean()
+
+result = test(df, mean_func, axis0=1)
+expected = pd.Series([2.5, 3.5, 4.5], index=[0, 1, 2])
+assert result.equals(expected), 'Test failed'

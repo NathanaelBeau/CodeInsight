@@ -1,1 +1,1 @@
- Retrieve the maximum value from the second element of tuples within lists of lists lst0.
+Calculate the average of every three columns in the dataframe df0.

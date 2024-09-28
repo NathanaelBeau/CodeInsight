@@ -1,1 +1,1 @@
-Retrieve the first column of a dataframe df0 as a series
+Convert the string s to an integer or a float, depending on its content.

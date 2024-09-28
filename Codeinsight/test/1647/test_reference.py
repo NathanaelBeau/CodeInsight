@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(arr0, row0):
-    return np.vstack((arr0, row0))
+def test(lst0):
+    return sum(x[0] for x in lst0), sum(x[1] for x in lst0)

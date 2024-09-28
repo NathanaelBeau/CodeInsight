@@ -1,6 +1,4 @@
-Combine rows in dataframe df0 based on column col0 and sum the values in column col1.
+Retrieve all unique keys from a dictionary named dict0
 
-import pandas as pd
-
-def test(df0, col0, col1):
+def test(dict0):
 

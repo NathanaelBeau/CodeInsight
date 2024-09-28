@@ -1,1 +1,0 @@
-Extract all digits from the string str0.

@@ -1,1 +1,1 @@
-Declare a numpy array of length var0 and initialize it with var1
+Index a list lst0 using the values from list lst1 as start and end indices.

@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0):
-    return np.array2string(arr0, separator=', ', max_line_width=np.inf)[1:-1]
+def test(lst0):
+	return all(x == lst0[0] for x in lst0)

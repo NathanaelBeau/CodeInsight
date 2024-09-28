@@ -1,2 +1,4 @@
-def test(dict0, var0):
-    return [key for key, value in dict0.items() if value == var0]
+import pandas as pd
+
+def test(df0):
+    return df0.loc[:, (df0 != 0).any(axis=0)]

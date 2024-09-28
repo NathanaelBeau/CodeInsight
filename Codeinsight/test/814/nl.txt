@@ -1,1 +1,1 @@
-Get (column, row) index from NumPy array var0 that meets a boolean condition   
+Initialize a numpy array with zeros having the shape shape0

@@ -1,4 +1,6 @@
-Python: Sum string lengths str0 
+Python: Fetch first 10 results from a list   lst0
 
-def test(str0):
+from itertools import islice
+
+def test(lst0):
 

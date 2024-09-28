@@ -1,4 +1,3 @@
-str0 = "Only one sentence here."
-var0 = 3  
-expected_output = "Only one sentence here."
-assert test(str0, var0) == expected_output, 'Test failed'
+dict0 = {'x': 'apple', 'y': 'banana', 'z': 'apple'}
+expected_result =  {'apple': ['x', 'z']}
+assert test(dict0) == expected_result, 'Test failed'

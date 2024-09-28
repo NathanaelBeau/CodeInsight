@@ -1,1 +1,1 @@
-Remove substring var1 from string var0
+Replace all occurrences of '-' with np.nan in dataframe df0.

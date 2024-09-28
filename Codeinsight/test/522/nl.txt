@@ -1,1 +1,1 @@
-Find all matches of the pattern str0 in the string var0 across multiple lines, ignoring the case.
+Delete digits in Python  with Regex in string str0 

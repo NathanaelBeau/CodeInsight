@@ -1,6 +1,6 @@
-Get all indices of the boolean numpy array arr0 where the value is True.
+Rearrange the columns from list lst0 of pandas DataFrame df to the sequence mentioned in list lst1.
 
-import numpy as np
+import pandas as pd
 
-def test(arr0):
+def test(df: pd.DataFrame, lst0: list, lst1: list) -> pd.DataFrame:
 

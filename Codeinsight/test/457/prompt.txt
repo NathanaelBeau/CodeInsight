@@ -1,6 +1,4 @@
-Split a list lst0 whenever there are repeating elements in the list.
-
-from itertools import groupby
+Order a list of lists lst0 by the first value of each list
 
 def test(lst0):
 

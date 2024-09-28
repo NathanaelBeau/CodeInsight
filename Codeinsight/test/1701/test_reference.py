@@ -1,5 +1,4 @@
-import pandas as pd
+import operator
 
-def test(df0, var0):
-    df0[var0] = df0[var0].astype(int)
-    return df0
+def test(lst0, lst1):
+    return list(map(operator.add, lst0, lst1))

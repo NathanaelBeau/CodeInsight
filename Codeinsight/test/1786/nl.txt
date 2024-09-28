@@ -1,1 +1,1 @@
-Compute the diagonal of the dot product of matrices mat0 and mat1 using numpy/scipy  
+Filter rows in DataFrame df0 based on the regular expression var1 applied to column var0.

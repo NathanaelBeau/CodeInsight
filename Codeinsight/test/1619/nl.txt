@@ -1,1 +1,1 @@
-Counting array elements in Python array lst0  
+convert string str0 to dict using list comprehension with values as integers 

@@ -1,1 +1,1 @@
-Remove all square brackets from the strings in dataframe df0 
+tell if string str0 starts with a number with Python   

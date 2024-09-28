@@ -1,5 +1,6 @@
+import pandas as pd
 import numpy as np
-def test(lst0, lst1, var0, var1):
-    distances = np.sqrt((lst0-var0)**2 + (lst1-var1)**2)
-    return np.argmin(distances)
 
+def test(df0, arr0):
+    df0['new_column'] = arr0
+    return df0

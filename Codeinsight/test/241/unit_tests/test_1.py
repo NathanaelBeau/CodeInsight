@@ -1,9 +1,4 @@
-class ModelObject:
-    def __init__(self, **kwargs):
-        self.__dict__.update(kwargs)
-    def to_dict(self):
-        return self.__dict__
-lst0 = [ModelObject(x=10, y=20, z=30)]
-expected_result =  pd.DataFrame([{'x': 10, 'y': 20, 'z': 30}])
-result = test(lst0)
-assert result.equals(expected_result), 'Test failed'
+var0, var1, var2 = 3.45678, 3.45677, 5
+expected_result =  False
+result = test(var0, var1, var2)
+assert result == expected_result, 'Test failed'

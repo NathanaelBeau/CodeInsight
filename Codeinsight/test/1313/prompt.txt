@@ -1,4 +1,6 @@
-Iterating over a dictionary dict0 with keys from list lst0 to create a list   
+Pandas: Elementwise multiplication of two dataframes df0 and df1  
 
-def test(lst0, dict0):
+import pandas as pd
+
+def test(df0, df1):
 

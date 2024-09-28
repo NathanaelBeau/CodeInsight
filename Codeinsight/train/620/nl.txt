@@ -1,1 +1,1 @@
-Get max value index for a list of dicts  lst0 on key var0
+How to add items from list lst0 into a numpy array arr0   

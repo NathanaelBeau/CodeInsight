@@ -1,3 +1,4 @@
-lst0 = [-1, -5, -10]
-expected_output = -10
-assert test(lst0) ==expected_output, 'Test failed'
+var0 = "No brackets here."
+expected_result =  None
+result = test(var0)
+assert result == expected_result, 'Test failed'

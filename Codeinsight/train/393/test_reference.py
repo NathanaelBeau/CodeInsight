@@ -1,3 +1,2 @@
-import random
-def test(lst0):
-    return random.choice(lst0)
+def test(var0):
+    return var0.lower()

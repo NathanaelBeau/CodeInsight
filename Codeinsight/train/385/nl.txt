@@ -1,1 +1,1 @@
-Insert string str0 after each character of str1.
+Convert a string str0 into a tuple and append it to another tuple tpl0

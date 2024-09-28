@@ -1,6 +1,5 @@
-Convert columns into rows in the DataFrame df0.
+Count the number of NaN values in each column of the dataframe df0.
 
 import pandas as pd
-
 def test(df0):
 

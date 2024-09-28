@@ -1,6 +1,4 @@
-do multiple substitutions in string var0 using regex with Create a regular expression  from the dictionary keys  dict0 and For each match, look-up corresponding value in dictionary  dict0
+Python- insert a character var0 into a string  str0 at index 1
 
-import re
-
-def test(dict0, var0):
+def test(str0,var0):
 

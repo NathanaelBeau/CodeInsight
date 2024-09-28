@@ -1,4 +1,4 @@
-Convert integer int0 to its corresponding character representation
+Filter out keys from dictionary d0 with value None and replace the remaining key values with the string 'updated'.
 
-def test(int0):
+def test(d0: dict) -> dict:
 

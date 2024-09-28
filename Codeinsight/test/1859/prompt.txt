@@ -1,6 +1,4 @@
-Sort the list lst0 by the occurrence of its elements without removing any elements.
+Python 3: Multiply a vector var0 by a matrix var1 without NumPy    
 
-import collections
-
-def test(lst0):
+def test(var0, var1):
 

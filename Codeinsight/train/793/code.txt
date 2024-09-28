@@ -1,3 +1,2 @@
-from collections import Counter
-def test(counter0):
-    return sum(counter0.values())
+def test(str0, lst0):
+    return [''.join([str0, item]) for item in lst0]

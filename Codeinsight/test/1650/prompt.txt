@@ -1,6 +1,4 @@
-Create a pandas DataFrame named df from the dictionary nvalues.
+Convert list of tuples lst0 to list   
 
-import pandas as pd
-
-def test(nvalues: dict) -> pd.DataFrame:
+def test(lst0):
 

@@ -1,4 +1,2 @@
-def test(dict0):
-    keys = list(dict0.keys())
-    values = list(dict0.values())
-    return keys, values
+def test(lst0, index):
+    return [lst0[i] for i, _ in enumerate(lst0) if i in index]

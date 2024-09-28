@@ -1,3 +1,3 @@
-str0 = "NoDelimitersHere"
-expected_output = ['NoDelimitersHere']
-assert test(str0) == expected_output, 'Test failed'
+var0 = 123456
+expected_output = "123 456"
+assert test(var0) == expected_output, 'Test failed'

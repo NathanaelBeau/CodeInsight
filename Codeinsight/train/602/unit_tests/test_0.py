@@ -1,11 +1,3 @@
-df0 = pd.DataFrame({
-            'A': [['a', 'b'], ['c', 'd'], ['e', 'f']],
-            'B': ['initial', 'initial', 'initial']
-        })
-result = test(df0, 'A', 'B')
-expected = pd.DataFrame({
-            'A': [['a', 'b'], ['c', 'd'], ['e', 'f']],
-            'B': ['ab', 'cd', 'ef']
-        })
-
-assert result.equals(expected), 'Test failed'
+lst0 = [1, 2, '', 4, None, 6]
+expected_result =  [1, 2, 4, 6]
+assert test(lst0) == expected_result, 'Test failed'

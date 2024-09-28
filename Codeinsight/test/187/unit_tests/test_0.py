@@ -1,2 +1,4 @@
-lst1 = [["apple", "banana"], ["cherry", "blueberry"]]
-assert test(lst1) == 9 , 'Test failed'
+lst0 = ['a', 'b']
+lst1 = ['a', 'b', 'c']
+expected_output = True
+assert test(lst0, lst1) ==expected_output, 'Test failed'

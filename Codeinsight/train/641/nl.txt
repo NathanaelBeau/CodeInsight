@@ -1,1 +1,1 @@
-How to calculate moving average in Python 3 on sequence lst0  with window size window_size
+Write a Python function to check if a number var1 is a power of a given base var2.

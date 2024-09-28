@@ -1,4 +1,0 @@
-Extract var2 words surrounding the search word var1 in the string var0.
-
-def test(var0, var1, var2=1):
-

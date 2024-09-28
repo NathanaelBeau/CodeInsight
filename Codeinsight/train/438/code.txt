@@ -1,5 +1,2 @@
-import re
-
-def test(str0, var0):
-    pattern = re.compile(str0, re.IGNORECASE | re.MULTILINE)
-    return pattern.findall(var0)
+def test(lst0):
+    return [x if x >= 10 else 'small' if x < 5 else 'medium' for x in lst0]

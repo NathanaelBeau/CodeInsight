@@ -1,7 +1,6 @@
-Use fit_transform on dataframe df0 and return the result as a DataFrame instead of a numpy array
+Lowercase the strings in column 'x' of dataframe df0 if they are missing values.
 
 import pandas as pd
-from sklearn.preprocessing import StandardScaler
 
 def test(df0):
 

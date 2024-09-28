@@ -1,4 +1,0 @@
-Merge two lists lst0 and lst1 and flattens the resulting pairs into a single list 
-
-def test(lst0, lst1):
-

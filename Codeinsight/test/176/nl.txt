@@ -1,1 +1,1 @@
-Insert a new column named var1 with values var2 at the index var0 in the pandas DataFrame df0.
+Get the starting index of the last occurrence of substring str0 in the string test_string.

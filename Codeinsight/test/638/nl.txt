@@ -1,1 +1,1 @@
-Format a floating-point number var0 to its full precision without truncation.
+Convert the sparse matrix mat0 into a dense matrix  

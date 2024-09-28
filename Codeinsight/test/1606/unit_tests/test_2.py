@@ -1,6 +1,4 @@
-# Test 3
-df0 = pd.DataFrame({'name': ['John', 'Jane', 'Doe'], 'age': [30, 25, 40]})
-condition = "name != 'Doe' & age > 26"
-expected_result =  pd.DataFrame({'name': ['John'], 'age': [30]})
-result = test(df0, condition)
-assert result.equals(expected_result), 'Test failed'
+arg0 = np.array([3, 3, 3])
+arg1 = np.array([1, 2])
+expected_output = np.array([[3, 6], [3, 6], [3, 6]])
+assert (test(arg0,arg1)  == expected_output).all(), 'Test failed'

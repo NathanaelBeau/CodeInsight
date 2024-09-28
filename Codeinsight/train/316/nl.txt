@@ -1,1 +1,1 @@
-For every element in numpy array arr0, find the index of that element in another numpy array arr1  
+Count the number of elements in the array arr0.

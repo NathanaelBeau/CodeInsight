@@ -1,1 +1,1 @@
-Replace consecutive occurrences of the character * with a single * in the string var0.
+Get the first 100 characters from the string str0.

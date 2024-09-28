@@ -1,4 +1,4 @@
-Trim all leading and trailing whitespaces from the string var0
+Move the last element to the front of a list named lst0
 
-def test(var0):
+def test(lst0):
 

@@ -1,1 +1,1 @@
-Sort the list lst0 by the occurrence of its elements without removing any elements.
+delete a character var0 from a string str0 using  Python   replace

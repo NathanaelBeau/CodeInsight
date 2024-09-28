@@ -1,5 +1,4 @@
-str0 = "hello"
-var0 = "h"
-var1= 5
-expected_output = "hhhhhello"
-assert test(str0, var0, var1) ==expected_output, 'Test failed'
+lst0 = [1, 2, [3, 4, [5, 6]], 7]
+expected_result =  [1, 2, 3, 4, 5, 6, 7]
+result = list(test(lst0))
+assert result == expected_result, 'Test failed'

@@ -1,4 +1,4 @@
 import pandas as pd
 
-def test(df0, var0):
-    return df0[var0].str[1:-1].str.split(',', expand=True).astype(float)
+def test(df0):
+    return df0.sort_values(['A', 'B'], ascending=[True, False]).drop_duplicates(subset='A', keep='first')

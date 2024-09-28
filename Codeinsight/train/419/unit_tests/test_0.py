@@ -1,3 +1,4 @@
-var0_1 = 5
-expected_output1 = [0, 1, 3, 6, 10]  # Cumulative sums of [0, 1, 2, 3, 4]
-assert test(var0_1) == expected_output1, 'Test failed'
+var0 = "Hello   World"
+expected_result =  ['Hello', 'World']
+result = test(var0)
+assert result == expected_result, 'Test failed'

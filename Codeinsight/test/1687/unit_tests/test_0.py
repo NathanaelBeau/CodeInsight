@@ -1,4 +1,3 @@
-str0 = "hello world, hello universe, hello everyone!"
-str1 = "hello"
-expected_output = 3
-assert test(str0, str1) ==expected_output, 'Test failed'
+str0 = "hello 42 I'm a 32 string 30"
+expected_output = ['42', '32', '30']
+assert test(str0) ==expected_output, 'Test failed'

@@ -1,5 +1,5 @@
-lst0 = [[1], [2, 3], [4, 5, 6]]
-length = 3
-fill_value = 0
-expected_output = [[1, 0, 0], [2, 3, 0], [4, 5, 6]]
-assert test(lst0, length, fill_value) == expected_output, 'Test failed'
+var0 = [1, 2, 3]
+var1 = [True, False, True]
+expected_result =  {1: True, 2: False, 3: True}
+result = test(var0, var1)
+assert result == expected_result, 'Test failed'

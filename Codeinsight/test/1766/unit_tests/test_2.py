@@ -1,4 +1,8 @@
-df2 = pd.DataFrame({'P': [100, 200, 300], 'Q': [400, 500, 600]})
-lst0 = ['P', 'Q']
-expected_output2 = pd.DataFrame({'P': [100, 200, 300], 'Q': [400, 500, 600], 'sum': [500, 700, 900]})
-assert test(df2, lst0).equals(expected_output2), 'Test failed'
+lst0 = [{'name': 'Sarah', 'language': 'Python'},
+        {'name': 'Michael', 'language': 'Java'},
+        {'name': 'Linda', 'language': 'C++'}]
+var0 = 'name'
+expected_output = {'Sarah': {'language': 'Python'},
+                   'Michael': {'language': 'Java'},
+                   'Linda': {'language': 'C++'}}
+assert test(lst0, var0) == expected_output, 'Test failed'

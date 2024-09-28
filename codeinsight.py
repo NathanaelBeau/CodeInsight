@@ -216,7 +216,5 @@ class CodeInsightDataset(torch.utils.data.Dataset):
 
 
 
-
 if __name__ == '__main__':
-    dataset = CodeInsightDataset('./CodeInsight', mode_eval='finetuning')
-
+    dataset = CodeInsightDataset('./CodeInsight', mode='all')

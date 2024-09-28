@@ -1,1 +1,1 @@
-randomly select a variable from a list lst0, and then modify it in python   
+Split the text in column var0 of dataframe df0 into multiple rows

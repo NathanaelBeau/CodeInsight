@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0, item0):
-    return np.count_nonzero(arr0 == item0)
+def test(lst0):
+    return '\n'.join(str(item) for item in lst0)

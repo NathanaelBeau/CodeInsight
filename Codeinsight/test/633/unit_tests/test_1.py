@@ -1,4 +1,3 @@
-str0 = 'python.is.fun'
-expected_result =  'fun'
-result = test(str0)
-assert result == expected_result, 'Test failed'
+dict0 = {'a': 1, 'b': 2, 'c': 3}
+expected_output = 6
+assert test(dict0) ==expected_output, 'Test failed'

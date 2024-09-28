@@ -1,4 +1,4 @@
-In dictionary dict0 , converting the value from string to integer   
+Dictionary dict0 to lowercase in Python  for keys and values sing generator expression
 
 def test(dict0):
 

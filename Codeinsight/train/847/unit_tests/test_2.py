@@ -1,6 +1,5 @@
-df5 = pd.DataFrame({'E': [17], 'F': [18]})
-df6 = pd.DataFrame({'E': [19], 'F': [20]})
-lst0 = [df5, df6]
-expected_result =  pd.DataFrame({'E': [17, 19], 'F': [18, 20]})
-result = test(lst0)
-assert result.equals(expected_result), 'Test failed'
+arr0 = np.array([1, 2, 3, 4, 5, 6])
+n0 = 4
+expected_result =  [np.array([1, 2]), np.array([3, 4]), np.array([5]), np.array([6])]
+result = test(arr0, n0)
+assert all([np.array_equal(r, e) for r, e in zip(result, expected_result)]), 'Test failed'

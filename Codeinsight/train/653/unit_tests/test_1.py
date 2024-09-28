@@ -1,3 +1,5 @@
-lst0 = ['apple_1_2', 'apple_2_2', 'banana_1_1', 'banana_2_1', 'cherry_1_2']
-expected_output = [['apple_1_2', 'apple_2_2'], ['banana_1_1', 'banana_2_1'], ['cherry_1_2']]
-assert test(lst0) ==expected_output, 'Test failed'
+arr1 = np.array([[10, 20], [30, 40]])
+var0, var1 = 2, 1
+expected_result =  np.array([[10, 20, 0], [30, 40, 0], [0, 0, 0], [0, 0, 0]])
+result = test(arr1, var0, var1)
+assert np.array_equal(result, expected_result), 'Test failed'

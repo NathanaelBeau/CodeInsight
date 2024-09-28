@@ -1,2 +1,2 @@
-def test(var0):
-    return any(c.isalpha() for c in var0)
+def test(lst0):
+    return [x for x in lst0 if x]

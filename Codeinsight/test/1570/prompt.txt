@@ -1,4 +1,4 @@
-Convert a byte string var0 into a Unicode string.
+check if all the values in the dictionary dict0 are truthy 
 
-def test(var0):
+def test(dict0) :
 

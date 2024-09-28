@@ -1,6 +1,4 @@
-def test(lst0):
-    for i in lst0:
-        if isinstance(i, list):
-            yield from test(i)
-        else:
-            yield i
+def test(str0):
+    sentence = ' '.join(filter(None, str0.split(' ')))
+    return sentence
+

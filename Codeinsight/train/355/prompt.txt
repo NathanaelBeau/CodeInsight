@@ -1,5 +1,4 @@
-Remove all non-alphanumeric characters from the string str0.
+Switch every pair of characters in a string str0 
 
-import re
 def test(str0):
 

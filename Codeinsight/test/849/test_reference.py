@@ -1,10 +1,4 @@
-def test(lst0):
-    first_occurrences = {}
-    result = []
-    
-    for item in lst0:
-        if item[0] not in first_occurrences:
-            first_occurrences[item[0]] = True
-            result.append(item)
-    
-    return result
+import pandas as pd
+
+def test(df0):
+    return df0[df0.columns[0]]

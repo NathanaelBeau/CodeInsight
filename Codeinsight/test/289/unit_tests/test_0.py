@@ -1,3 +1,3 @@
-str0 = 'a b c d'
-expected_output = ['a', 'b', 'c', 'd']
-assert test(str0) == expected_output, 'Test failed'
+s1 = "HelloWorldThisIsAString"
+expected_output1 = ['Hello', 'World', 'This', 'Is', 'A', 'String']
+assert test(s1) == expected_output1, 'Test failed'

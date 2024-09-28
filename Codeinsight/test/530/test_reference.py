@@ -1,2 +1,2 @@
-def test(val0, min0, max0):
-    return max(min0, min(val0, max0))
+def test(lst0, var0):
+    return [(x, y) for x, y in zip(lst0, lst0[1:]) if y == var0]

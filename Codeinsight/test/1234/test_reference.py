@@ -1,3 +1,2 @@
-import operator
-def test(dict0):
-    return sorted(dict0.items(), key=operator.itemgetter(1, 0))
+def test(*lst_args):
+    return list(map(sum, zip(*lst_args)))

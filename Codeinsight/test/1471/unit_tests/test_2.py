@@ -1,4 +1,8 @@
-lst0 = [(True, 0.1), (False, 0.9), (True, 0.5)]
-expected_result =  [(False, 0.9), (True, 0.5), (True, 0.1)]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+data = {'Amazon': [0, 173, 0],
+        'Apple': [0, 0, 130],
+        'Yahoo': [150, 0, 0]}
+index_values = ['Z', 'C', 'A']
+df0 = pd.DataFrame(data, index=index_values)
+lst0 = ["A", "Z", "C"]
+expected_output = df0.reindex(lst0)
+assert test(df0, lst0) .equals( expected_output), 'Test failed'

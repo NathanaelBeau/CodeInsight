@@ -1,4 +1,6 @@
-arr0 = np.array([1, 2, 3])
-expected_result =  arr0 / np.linalg.norm(arr0)
-result = test(arr0)
-assert np.array_equal(result, expected_result), 'Test failed'
+# Test 1
+df0 = pd.DataFrame({'A': [1, 2, 3, 4, 5]})
+col_name, condition, new_value = 'A', 3, 99
+expected_result =  pd.DataFrame({'A': [1, 2, 99, 4, 5]})
+result = test(df0, col_name, condition, new_value)
+assert result.equals(expected_result), 'Test failed'

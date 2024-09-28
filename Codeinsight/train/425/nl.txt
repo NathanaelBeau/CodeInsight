@@ -1,1 +1,1 @@
-Rearrange the columns of a pandas DataFrame df0 in the order: 'x', 'y', 'a', 'b'.
+Get the count of values associated with specific key var0 in a dictionary dict0   

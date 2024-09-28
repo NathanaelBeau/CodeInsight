@@ -1,5 +1,3 @@
-lst0 = ['apple', 'banana', 'cherry']
-lst1 = [2, 1, 3]
-expected_result =  ['banana', 'apple', 'cherry']
-result = test(lst0, lst1)
-assert result == expected_result, 'Test failed'
+lst0 = [1, 2, 3]
+expected_output = 14  # 1^2 + 2^2 + 3^2 = 14
+assert test(lst0) == expected_output, 'Test failed'

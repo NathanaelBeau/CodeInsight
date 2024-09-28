@@ -1,15 +1,10 @@
-lst0 = [
-    {'language': 'en', 'data': 'English Data'},
-    {'language': 'fr', 'data': 'French Data'},
-    {'language': 'es', 'data': 'Spanish Data'},
-    {'language': 'en', 'data': 'Another English Data'}
-]
-var0 = 'language'
-var1 = 'en'
-expected_output = [
-    {'language': 'en', 'data': 'English Data'},
-    {'language': 'en', 'data': 'Another English Data'},
-    {'language': 'fr', 'data': 'French Data'},
-    {'language': 'es', 'data': 'Spanish Data'},
-]
-assert test(lst0, var0, var1) ==expected_output, 'Test failed'
+import pandas as pd
+df0 = pd.DataFrame({'Mt': ['A', 'B', 'A', 'B'],
+                                'count': [10, 5, 8, 12]})
+expected_output = pd.DataFrame({'Mt': ['B', 'A'],
+                                             'count': [12, 10]})
+result = test(df0)  
+sorted_result = result.sort_values('count', ascending=False)
+sorted_result = sorted_result.reset_index(drop=True)
+expected_output_reset = expected_output.reset_index(drop=True)
+assert sorted_result.to_dict() == expected_output_reset.to_dict(), 'Test failed'

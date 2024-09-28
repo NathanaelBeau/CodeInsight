@@ -1,3 +1,4 @@
-lst0= [[1, 2], [1, 2], [1, 2], [1, 2]]  
-expected_output = [{1, 2}]
-assert test(lst0) ==expected_output, 'Test failed'
+# Test 3
+var0 = "No numbers here."
+expected_result =  []
+assert test(var0) == expected_result, 'Test failed'

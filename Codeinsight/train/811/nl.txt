@@ -1,2 +1,1 @@
-Transpose a dataframe df0 to convert its rows to columns and vice-versa
-  
+How to insert a character '-' after every 2 characters in a string str0  assuming string's length is always an even number 

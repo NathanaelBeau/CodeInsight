@@ -1,2 +1,4 @@
-def test(tpl0):
-    return ''.join(map(str, tpl0))
+import re
+
+def test(lst0):
+    return sorted(lst0, key=lambda x: int(re.search(r'(\d+)$', x).group()))

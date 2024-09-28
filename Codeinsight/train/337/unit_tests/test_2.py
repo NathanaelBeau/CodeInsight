@@ -1,12 +1,5 @@
-import numpy
-import math
-import pandas
-import string
-import datetime
-import json
-import itertools
-import random
-import functools
-import collections
-result = test(3,0)
-assert result==[[], [], []], 'Test failed'
+# Test 3
+df0 = pd.DataFrame({'name': ['John', 'Jane', np.nan], 'age': [30., np.nan, 40.]})
+expected_result =  pd.DataFrame({'name': ['John', 'Jane', 'Anonymous'], 'age': [30., 'Anonymous', 40.]})
+result = test(df0, ['name', 'age'], 'Anonymous')  # This test is meant to fail, as using a single value for multiple columns is incorrect
+assert result.equals(expected_result), 'Test failed'

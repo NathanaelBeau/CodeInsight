@@ -1,1 +1,1 @@
-Python:  use a string str0 as a slice specifier  in list lst0 
+Flattening a list of NumPy arrays lst0  

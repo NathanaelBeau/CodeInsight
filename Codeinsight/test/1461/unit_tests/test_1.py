@@ -1,4 +1,3 @@
-lst0 = [True, True, True, True]
-expected_result =  4
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+strings2 = ["hello", "world"]
+expected_result2 = 10
+assert test(strings2) == expected_result2, 'Test failed'

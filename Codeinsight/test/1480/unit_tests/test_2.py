@@ -1,4 +1,5 @@
-df0 = pd.DataFrame({'P': [np.nan, 14, 15], 'Q': [16, 17, 18]})
-expected_result =  pd.DataFrame({'P': [np.nan], 'Q': [16]}).reset_index(drop=True)
-result = test(df0).reset_index(drop=True)
-assert result.equals(expected_result), 'Test failed'
+df0 = pd.DataFrame({'M': [5, 6], 'N': [7, 8]})
+lst0 = ['M']
+expected_result =  np.array([[5], [6]])
+result = test(df0, lst0)
+assert np.array_equal(result, expected_result), 'Test failed'

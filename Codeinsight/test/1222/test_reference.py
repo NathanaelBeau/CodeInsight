@@ -1,3 +1,3 @@
-from operator import itemgetter
-def test(dict0, var0):
-    return [k for k, _ in sorted(dict0.items(), key=itemgetter(1, var0))]
+from itertools import combinations
+def test(lst0, var0):
+    return [''.join(combination) for combination in combinations(lst0, var0)]

@@ -1,1 +1,1 @@
-Find all occurrences of a substring str1 in a string str0  
+Zip two differently sized lists lst0 and lst1, repeating the shorter list

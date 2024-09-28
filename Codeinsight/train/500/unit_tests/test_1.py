@@ -1,3 +1,3 @@
-lst0 = ['abc1', 'def2', 'ghi3', 'jklm4']
-expected_output = []
-assert test(lst0) ==expected_output, 'Test failed'
+lst0 = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape', 'honeydew', 'kiwi', 'lemon', 'mango', 'orange']
+expected_output = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape', 'honeydew', 'kiwi', 'lemon']
+assert test(lst0) == expected_output, 'Test failed'

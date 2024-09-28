@@ -1,5 +1,2 @@
-import pandas as pd
-import numpy as np
-
-def test(df0):
-    return np.sqrt(np.square(df0).sum(axis=1))
+def test(lst0):
+    return [lst0[i] for i in range(len(lst0)) if i == 0 or lst0[i] != lst0[i-1]]

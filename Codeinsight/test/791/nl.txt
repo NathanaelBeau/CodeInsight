@@ -1,1 +1,1 @@
-Extract the part (either 'upper' or 'lower') triangular part of the matrix mat0. 
+Remove dollar sign from the second to the last column in dataframe df0 and convert these columns into floats.

@@ -1,3 +1,11 @@
-var0 = "aaab"
-expected_result =  "b"
-assert test(var0) == expected_result, 'Test failed'
+lst0 = [
+    {'link': 'http://example.com/1/', 'id': 1},
+    {'link': 'http://example.com/2/', 'id': 2},
+    {'link': 'http://example.com/3/', 'id': 3},
+]
+var0 = 'link'
+lst1 = ['http://example.com/2/', 'http://example.com/3/']
+expected_output = [
+    {'link': 'http://example.com/1/', 'id': 1}
+]
+assert test(lst0, var0, lst1) ==expected_output, 'Test failed'

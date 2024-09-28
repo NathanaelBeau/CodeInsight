@@ -1,2 +1,2 @@
-def test(lst0, dict0):
-    return [sorted(item, key=dict0.get) for item in lst0]
+def test(var0, var1):
+    return dict.fromkeys(var0, var1)

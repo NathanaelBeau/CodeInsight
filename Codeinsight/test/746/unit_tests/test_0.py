@@ -1,7 +1,7 @@
-# Test 1 (Applying a lambda function to square the values)
-df0 = pd.DataFrame({ 'A': [1, 2, 3], 'B': [4, 5, 6] })
-var0 = 'A'
-func = lambda x: x**2
-expected_result =  pd.Series([1, 4, 9], name='A')
-result = test(df0, var0, func)
+# Test 1
+columns = ['A', 'B']
+index = 0
+values = [1, 2]
+expected_result =  pd.DataFrame({"A": [1], "B": [2]})
+result = test(columns, index, values)
 assert result.equals(expected_result), 'Test failed'

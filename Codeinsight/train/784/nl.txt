@@ -1,1 +1,1 @@
-Check if all elements from tuple tuple0 are present in tuple tuple1
+Count the number of non-NaN elements in the numpy ndarray matrix data.

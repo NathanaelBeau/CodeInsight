@@ -1,4 +1,3 @@
-# Test 1
-var0 = "èHello, World!ø"
-expected_result =  "Hello, World!"
-assert test(var0) == expected_result, 'Test failed'
+input1 = [(1, 4), (2, 5), (3, 6)]
+expected_result1 = [(1, 2, 3), (4, 5, 6)]
+assert test(input1) == expected_result1, 'Test failed'

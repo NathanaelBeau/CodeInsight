@@ -1,4 +1,4 @@
-lst0 = ['X', 10, 'Y', 20]
-expected_result =  {'X': 10, 'Y': 20}
-result = test(lst0)
+str0 = 'Hello! How are you? Good, right.'
+expected_result =  ['Hello', ' How are you', ' Good', ' right', '']
+result = test(str0)
 assert result == expected_result, 'Test failed'

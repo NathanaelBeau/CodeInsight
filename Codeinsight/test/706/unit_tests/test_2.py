@@ -1,4 +1,4 @@
-str0 = "a+b+c+d+e"
-var0= ",+"
-expected_output = "a+b+c+d,+e"
-assert test(str0, var0) ==expected_output, 'Test failed'
+# Test 2
+var0 = "A1!"
+expected_result =  "654933"
+assert test(var0) == expected_result, 'Test failed'

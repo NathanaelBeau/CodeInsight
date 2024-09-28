@@ -1,4 +1,3 @@
-lst0 = [{'size': 15}, {'size': 8}, {'size': 12}, {'size': 18}]
-var0 = 'size'
-expected_output = 3
-assert test(lst0, var0) ==expected_output, 'Test failed'
+lst0 = [10, 20, 30, 40, 10]
+expected_output = [0, 1, 2, 3, 0]
+assert (test(lst0) == expected_output).all(), 'Test failed'

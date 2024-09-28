@@ -1,2 +1,2 @@
-def test(df0):
-    return df0[(df0['A'] > 1) | (df0['B'] < -1)]
+def test(lst0, lst1):
+    return [x for x in lst0 if lst0[0] in lst1]

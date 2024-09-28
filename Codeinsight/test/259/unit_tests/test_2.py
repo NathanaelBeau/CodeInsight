@@ -1,4 +1,4 @@
-x3 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-var0_3 = 2
-expected_output3 = np.array([[1, 2, 3], [4, 5, 6]])
-assert np.array_equal(test(x3, var0_3), expected_output3), 'Test failed'
+dict0 = {'dog': 'bark', 'cat': 'meow', 'cow': 'moo'}
+dict1 = {'bark': 'sound', 'meow': 'sound', 'moo': 'sound'}
+expected_output = {'dog': 'sound', 'cat': 'sound', 'cow': 'sound'}
+assert test(dict0, dict1) ==expected_output, 'Test failed'

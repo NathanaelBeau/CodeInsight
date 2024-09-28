@@ -1,3 +1,4 @@
-def test(lst0):
-    sorted_list = sorted(lst0)
-    return sorted_list
+import itertools
+
+def test(lst0, lst1):
+    return list(itertools.product(lst0, lst1))

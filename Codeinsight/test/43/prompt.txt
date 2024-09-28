@@ -1,4 +1,6 @@
-Find the index of the substring 'World' in string var0.
+Sort the list lst0 such that positive numbers (including zero) come before negative numbers, maintaining the relative order of the positives and negatives.  
 
-def test(var0):
+from bisect import bisect
+
+def test(lst0):
 

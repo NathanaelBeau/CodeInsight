@@ -1,4 +1,2 @@
-import ast
-
-def test(str0, tpl0):
-    return tpl0 + tuple(ast.literal_eval(str0))
+def test(lst: list) -> list:
+    return [s for s in lst if 'ab' not in s]

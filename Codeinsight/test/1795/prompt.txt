@@ -1,4 +1,6 @@
-removing duplicates of a list of sets lst0 
+Capture all numbers with up to three digits in the string var0.
 
-def test(lst0):
+import re
+
+def test(var0):
 

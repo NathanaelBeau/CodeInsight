@@ -1,5 +1,3 @@
-# Test 2
-df0 = pd.DataFrame({'fruit': ['apple', 'banana'], 'count': [10, 20], 'color': ['red', 'yellow']})
-expected_result =  3
-result = test(df0)
-assert result == expected_result, 'Test failed'
+lst0 = [[10, 11, 12], [13, 14, 15], [16, 17, 18]]
+expected_output = 14.0
+assert test(lst0) == expected_output, 'Test failed'

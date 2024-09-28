@@ -1,5 +1,3 @@
-lst0 = np.array([1, 3, 2, 4, 5])
-var0 = 3
-expected_result =  np.array([4, 3, 1])
-result = test(lst0, var0)
-assert np.array_equal(result, expected_result), 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+expected_result =  pd.DataFrame({'A': [-1.22474487, 0, 1.22474487], 'B': [-1.22474487, 0, 1.22474487]})
+assert np.allclose(test(df0).values, expected_result.values, atol=1e-5), 'Test failed'

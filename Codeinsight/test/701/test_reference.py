@@ -1,5 +1,4 @@
-import re
+import numpy as np
 
-def test(var0):
-    pattern = r'\b[^\W\d_]+\b'  # This matches words, accounting for accent characters
-    return re.findall(pattern, var0, re.UNICODE)
+def test(bool_array0):
+    return np.where(bool_array0)[0]

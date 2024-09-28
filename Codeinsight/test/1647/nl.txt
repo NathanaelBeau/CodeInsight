@@ -1,1 +1,1 @@
-Add a new row row0 to a numpy array arr0.
+sum each value in a list of tuples  lst0 and return it in a tuple

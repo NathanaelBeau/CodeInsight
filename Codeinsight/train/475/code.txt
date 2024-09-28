@@ -1,5 +1,3 @@
 import pandas as pd
-import numpy as np
-
-def test(ser0):
-    return ser0.values
+def test(df0):
+    return pd.concat([df0.head(1), df0.tail(1)])

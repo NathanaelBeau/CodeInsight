@@ -1,6 +1,4 @@
-Replace multiple substrings in the string var0 based on the replacement mapping replacements.
+Add character '@' after word 'get' in string var0
 
-import re
-
-def test(var0, replacements):
+def test(var0):
 

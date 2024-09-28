@@ -1,1 +1,1 @@
-Regex add character to matched string   str0
+check if all of the following items from list lst0 are in a list  lst1

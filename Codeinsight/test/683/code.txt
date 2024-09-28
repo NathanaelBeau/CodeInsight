@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(arr0, var0):
-    return arr0[arr0[:, 1] > var0]
+def test(lst0):
+    return sorted(lst0, key=float)

@@ -1,8 +1,5 @@
-Sort the elements of each row in dataframe df0 in descending order.
-
-import pandas as pd
+Create an empty matrix of shape (var0, var1) using NumPy 
 
 import numpy as np
-
-def test(df0: pd.DataFrame) -> pd.DataFrame:
+def test(var0, var1):
 

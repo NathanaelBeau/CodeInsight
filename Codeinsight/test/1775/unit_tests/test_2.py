@@ -1,7 +1,3 @@
-df0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry'], 'B': ['dog', 'cat', 'bird']})
-var0 = 'A'
-var1 = 'banana'
-var2 = 'B'
-expected_result =  pd.DataFrame({'A': ['apple', 'banana', 'cherry'], 'B': ['dog', 'banana', 'bird']})
-result = test(df0, var0, var1, var2)
-assert result.equals(expected_result), 'Test failed'
+str0 = '\u2600' # Unicode for SUN symbol
+expected_result =  b'\xe2\x98\x80'
+assert test(str0) == expected_result, 'Test failed'

@@ -1,1 +1,1 @@
-Select the last column of a DataFrame df0
+Access a specific group named var1 from a dataframe df0 grouped by column var0  

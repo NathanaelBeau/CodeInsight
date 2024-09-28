@@ -1,1 +1,1 @@
-Sorting a list of dictionaries lst0 based on the order of values of another list lst1 at index var0  with lambda
+Split the string str0 by digits or non-word characters using the regular expression var0, and return a list of non-empty segments.

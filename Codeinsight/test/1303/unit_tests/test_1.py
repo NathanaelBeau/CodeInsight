@@ -1,3 +1,3 @@
-var0 = 3
-var1 = 7
-assert test(var0, var1) == [7, 7, 7], 'Test failed'
+lst0 = ['apple', '', 'banana', None, 'cherry']
+expected_result =  ['apple', 'banana', 'cherry']
+assert test(lst0) == expected_result, 'Test failed'

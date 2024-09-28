@@ -1,6 +1,4 @@
-Get a list from a Pandas DataFrame df0 from either the column named var0 or the row at index var0, based on the specification var1 (which can be "column" or "row").
+ split a list lst0 into evenly sized chunks of size  var0   
 
-import pandas as pd
-
-def test(df0, var0, var1):
+def test(lst0, var0):
 

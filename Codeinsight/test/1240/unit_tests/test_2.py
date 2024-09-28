@@ -1,7 +1,4 @@
-# Test 2
-import pandas as pd
-df0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry'], 'B': ['dog', 'cat', 'fish']})
-var0 = 'B'
-var1 = '^c.*'
-expected_result =  True
-assert test(df0, var0, var1) == expected_result, 'Test failed'
+str0 = "1234,5678,90,12,34,567,89,0"
+var0 = ","
+expected_output = "1234,5678,90,12,34,567,89"
+assert test(str0, var0) ==expected_output, 'Test failed'

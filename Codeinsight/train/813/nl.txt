@@ -1,1 +1,1 @@
-Convert all column headers to lowercase in a dataframe df0
+Checking if the character char0 exists in the string str0

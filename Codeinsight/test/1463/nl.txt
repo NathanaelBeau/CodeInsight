@@ -1,1 +1,1 @@
-Get keys with the same value in dictionary dict0.
+Reset the index of the pandas DataFrame df0 without adding the old index as a new column.

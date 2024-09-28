@@ -1,1 +1,1 @@
-Python: Fetch first 10 results from a list   lst0
+Convert a list of integers lst0 into a single integer

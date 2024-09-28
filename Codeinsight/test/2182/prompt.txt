@@ -1,4 +1,0 @@
-switching keys and values in a dictionary dict0 in python   
-
-def test(dict0):
-

@@ -1,2 +1,2 @@
-def test(lst0: list) -> list:
-    return [int(i) if isinstance(i, str) and i.isdigit() else i for i in lst0]
+def test(var0, var1, lst0):
+    return [d for d in lst0 if d[var1] == var0]

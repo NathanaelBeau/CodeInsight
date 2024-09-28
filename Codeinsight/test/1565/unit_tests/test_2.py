@@ -1,3 +1,3 @@
-lst0 = ["four", "one", "two", "three"]
-expected_result =  ["one", "two", "four", "three"]
-assert test(lst0) == expected_result, 'Test failed'
+str0  = "racecar"
+expected_output = "racecar"
+assert test(str0) ==expected_output, 'Test failed'

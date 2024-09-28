@@ -1,4 +1,5 @@
-arr0 = np.array([0.5])
-expected_result =  False
-result = test(arr0)
-assert result == expected_result, 'Test failed'
+# Test 3
+columns_list = ['name', 'age', 'city']
+expected_result =  pd.DataFrame(columns=['name', 'age', 'city'])
+result = test(columns_list)
+assert result.equals(expected_result), 'Test failed'

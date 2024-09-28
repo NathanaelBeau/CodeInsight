@@ -1,5 +1,6 @@
-How to add items from list lst0 into a numpy array arr0   
+Generate all possible combinations of the elements from the sublists within the input list lst0, using the Cartesian product  
 
-import numpy as np
-def test(arr0, lst0):
+import itertools
+
+def test(lst0):
 

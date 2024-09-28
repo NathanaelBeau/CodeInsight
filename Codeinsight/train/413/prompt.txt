@@ -1,4 +1,7 @@
-Apply each function from the list functions over every value from the list values.
+Replace specific string var0 to NaN from a dataframe var1
 
-def test(functions: list, values: list) -> list:
+import pandas as pd
+import numpy as np
+
+def test(var0, var1):
 

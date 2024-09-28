@@ -1,1 +1,1 @@
-Interweaving two numpy arrays   arr0 and arr1 with hstack
+Pythonic way to get the largest item in a list   lst0 

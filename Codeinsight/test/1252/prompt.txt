@@ -1,5 +1,5 @@
-Select columns from a dataframe df0 using a regular expression str0
+Assigns datatypes to columns in a pandas dataframe df0 df0based on the provided dictionary dict0
 
 import pandas as pd
-def test(df0, str0):
+def test(df0, dict0):
 

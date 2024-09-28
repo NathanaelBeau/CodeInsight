@@ -1,4 +1,3 @@
-df0 = pd.DataFrame({"num1": ["1", "2"], "num2": ["3", "4"], "num3": ["5", "6"]})
-expected_result =  pd.Series(["1 3 5", "2 4 6"])
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+str0 = '9998(8)8(8)777'
+expected_output = ['999', '8(8)8(8)', '777']
+assert test(str0) ==expected_output, 'Test failed'

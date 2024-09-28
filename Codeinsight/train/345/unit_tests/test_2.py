@@ -1,4 +1,3 @@
-str0 = "100.0"
-expected_result =  [100.0]
-result = test(str0)
-assert result == expected_result, 'Test failed'
+str0 = "This is a string without numbers."
+expected_output = []
+assert test(str0) ==expected_output, 'Test failed'

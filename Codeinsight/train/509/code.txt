@@ -1,4 +1,3 @@
-from operator import itemgetter
-
-def test(lst0, var0):
-    return list(map(itemgetter(var0), lst0))
+import pandas as pd
+def test(df0):
+    return df0.isnull().sum() / len(df0) * 100

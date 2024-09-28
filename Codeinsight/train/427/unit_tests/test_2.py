@@ -1,3 +1,4 @@
-s3 = "Python"
-expected_output3 = "python"
-assert test(s3) == expected_output3, 'Test failed'
+var0 = 'abcdefg'
+expected_result =  'abcdefg'
+result = test(var0)
+assert result == expected_result, 'Test failed'

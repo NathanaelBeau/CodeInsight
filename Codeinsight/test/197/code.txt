@@ -1,5 +1,4 @@
-import operator
+import re
 
-def test(lst0):
-	lst0.sort(key=lambda x: x[1])
-	return lst0
+def test(var0):
+    return ' '.join([word.title() if re.search(r'\w', word) else word for word in var0.split()])

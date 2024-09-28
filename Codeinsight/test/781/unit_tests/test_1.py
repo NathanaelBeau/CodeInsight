@@ -1,4 +1,12 @@
-import pandas as pd
-df0 = pd.DataFrame({'column_name': [1, 2, 3], 'D': [4, 5, 6]})
-expected_result =  pd.DataFrame({'D': [4, 5, 6]})
-assert test(df0, 'column_name').equals(expected_result), 'Test failed'
+test_array_2 = np.array([[3, 4],
+                          [1, 2],
+                          [2, 3],
+                          [4, 0],
+                          [1, 1]])
+result_2 = test(test_array_2, sort_columns=[0, 1])
+expected_2 = np.array([[1, 1],
+                        [1, 2],
+                        [2, 3],
+                        [3, 4],
+                        [4, 0]])
+assert np.array_equal(result_2, expected_2), 'Test failed'

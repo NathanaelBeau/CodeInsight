@@ -1,2 +1,4 @@
-def test(str0, var0, var1):
-    return str0[:var0] + var1 + str0[(var0+1):]
+import numpy as np
+
+def test(var0):
+    return [(i, j) for i in range(var0.shape[0]) for j in range(var0.shape[1]) if var0[i, j]]

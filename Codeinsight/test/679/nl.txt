@@ -1,1 +1,1 @@
-Count the frequency of each unique value in column var0 of a pandas DataFrame df0.
+nitialize a NumPy array with shape shape0 and fill it with the value var0

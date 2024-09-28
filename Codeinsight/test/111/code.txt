@@ -1,4 +1,4 @@
-import pandas as pd
+import numpy as np
 
-def test(df0):
-    return (df0.T / df0.sum(axis=1)).T
+def test(arr0):
+    return arr0[arr0 != 0]

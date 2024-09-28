@@ -1,4 +1,0 @@
-Check if the list lst0 is empty.
-
-def test(lst0):
-

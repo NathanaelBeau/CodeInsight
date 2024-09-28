@@ -1,5 +1,6 @@
-Calculate the count of distinct elements in each column of the DataFrame df0 
+"Replace values 0 with 'Female' and 1 with 'Male' in the 'sex' column of a dataframe df0
 
 import pandas as pd
+
 def test(df0):
 

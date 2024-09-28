@@ -1,4 +1,4 @@
-Extract the first letter from each word in the string str0.
+Split the list lst0 into sub-lists of length var0.
 
-def test(str0):
+def test(lst0, var0):
 

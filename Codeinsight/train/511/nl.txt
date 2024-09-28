@@ -1,1 +1,1 @@
-Creating a dictionary dict0 from a string str0  in oneliner with specific separator for pairs key values var0
+Multiplication of 1d arrays arr0 and arr1 in numpy   

@@ -1,1 +1,1 @@
-Apply a custom function var0 to a dataframe df0 to create a new column var1
+Determine if there are any NaN values in the DataFrame df0.

@@ -1,4 +1,6 @@
-Get the starting index of the last occurrence of substring str0 in the string test_string.
+convert a dictionary dict0 into a NumPy array, where each element of the array is a tuple containing a key-value pair from the dictionary. The data type of the elements in the array is specified by the dtype parameter
 
-def test(test_string: str, str0: str) -> int:
+import numpy as np
+
+def test(dict0, dtype= object):
 

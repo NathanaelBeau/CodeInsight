@@ -1,4 +1,5 @@
-lst0 = [10, 20, 30]
-var0 = 40
-expected_result =  [10, 20, 30]  # 40 doesn't exist, so the list remains unchanged
-assert test(lst0, var0) == expected_result, 'Test failed'
+df0 = pd.DataFrame({'name': ['pear', 'melon', 'peach', 'plum']})
+lst0 = ['melon', 'peach', 'pear', 'plum']
+expected_result =  pd.DataFrame({'name': ['melon', 'peach', 'pear', 'plum']})
+result = test(df0, lst0)
+assert result.equals(expected_result), 'Test failed'

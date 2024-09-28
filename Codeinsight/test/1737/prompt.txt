@@ -1,5 +1,4 @@
-use regular expression to separate numbers and characters in strings str0 like "30M1000N20M"   
+ remove identical items from a list lst0  and sort it in Python   
 
-import re
-def test(str0):
+def test(lst0):
 

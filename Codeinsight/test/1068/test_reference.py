@@ -1,2 +1,2 @@
-def test(lst0, var0):
-    return list(map(lambda x: var0 + x, lst0))
+def test(lst0, lst1):
+    return len([i for i, j in zip(lst0, lst1) if i != j])

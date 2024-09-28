@@ -1,4 +1,4 @@
-input_list = [1, 2, 3, 4, 5]
-expected_result =  False
-result = test(input_list)
-assert result==expected_result, 'Test failed'
+var0 = "This is a test"
+expected_result =  ["This", "is", "a", "test"]
+result = test(var0)
+assert result == expected_result, 'Test failed'

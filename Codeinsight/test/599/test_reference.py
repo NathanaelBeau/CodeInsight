@@ -1,2 +1,2 @@
-def test(lst0, var0):
-    return [d[var0] for d in lst0 if var0 in d]
+def test(lst0):
+    return [''.join(t) for t in lst0]

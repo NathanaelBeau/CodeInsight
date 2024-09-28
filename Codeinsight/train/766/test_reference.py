@@ -1,2 +1,2 @@
-def test(lst0, lst1):
-    return len([i for i, j in zip(lst0, lst1) if i != j])
+def test(lst0):
+    return [sum([x[1] for x in i]) for i in lst0]

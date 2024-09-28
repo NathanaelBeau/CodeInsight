@@ -1,1 +1,1 @@
-merge a list of dicts lst0 into a single dict  with chainmap 
+Insert a space between every three digits before the decimal point and replace the decimal point with a comma in number var0.

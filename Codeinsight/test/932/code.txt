@@ -1,4 +1,2 @@
-import re
-
-def test(var0):
-    return re.findall(r'\$\w+', var0)
+def test(lst0, lst1):
+    return [x + y for x, y in zip(lst0, lst1)]

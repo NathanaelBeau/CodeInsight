@@ -1,4 +1,2 @@
-import re
-
-def test(str0):
-    return re.findall(r'\b\w+\b', str0)
+def test(val0, min0, max0):
+    return max(min0, min(val0, max0))

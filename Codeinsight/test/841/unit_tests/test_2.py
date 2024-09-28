@@ -1,4 +1,5 @@
-arr0 = np.array([1, 2, 3])
+var0 = 'key1'
+dict0 = {}
 expected_result =  False
-result = test(arr0)
+result = test(var0, dict0)
 assert result == expected_result, 'Test failed'

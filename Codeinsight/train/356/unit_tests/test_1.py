@@ -1,4 +1,4 @@
-expected_result = lst0 = [[5, 5], [10, 3], [10, 3], [15, 1]]
-expected_result_2 = [[5, 5], [10, 3], [15, 1]]
-result_2 = test([[5, 5], [10, 3], [10, 3], [15, 1]])
-assert result_2 == expected_result_2 or set(map(tuple, result_2)) == set(map(tuple, expected_result_2)), 'Test failed'
+df0 = pd.DataFrame({ 'Name': ['Alice', 'Bob', 'Charlie'], 'Age': [28, 35, 22] })
+var0 = 'Name'
+expected_output = { 'Alice': [28], 'Bob': [35], 'Charlie': [22] }
+assert test(df0, var0) ==expected_output, 'Test failed'

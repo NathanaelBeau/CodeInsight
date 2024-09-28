@@ -1,1 +1,1 @@
-Convert a decimal number var0 to its hexadecimal representation
+Identify which columns in the pandas DataFrame df0 contain any NaN values.

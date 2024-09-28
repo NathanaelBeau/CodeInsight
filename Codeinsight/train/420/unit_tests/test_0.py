@@ -1,3 +1,5 @@
-var0_1 = 5
-expected_output1 = [0, 1, 3, 6, 10]  # Cumulative sums of [0, 1, 2, 3, 4]
-assert test(var0_1) == expected_output1, 'Test failed'
+var0 = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]], [[9, 10], [11, 12]]])
+var1 = 1
+expected_result =  np.array([[[1, 2], [3, 4]], [[9, 10], [11, 12]]])
+result = test(var0, var1)
+assert np.array_equal(result, expected_result), 'Test failed'

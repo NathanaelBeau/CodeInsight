@@ -1,1 +1,1 @@
-Delete rows from DataFrame df0 where column var0 has a value equal to var1.
+Drop all duplicate rows in DataFrame df0 across columns specified in list lst0.

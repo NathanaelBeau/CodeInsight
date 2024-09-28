@@ -1,1 +1,1 @@
-How to repeat Pandas data frame df0 a number of var0 times   with concat function
+Determine the count of elements that are the same in numpy arrays arr0 and arr1 

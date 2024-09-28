@@ -1,5 +1,0 @@
-Concatenate numpy array arr0 with another empty or non-empty numpy array arr1  
-
-import numpy as np
-def test(arr0, arr1):
-

@@ -1,3 +1,3 @@
-lst0 = [{'x': 10, 'y': 20}, {'z': 30}, {'x': 5, 'z': 15}]
-expected_output = {'x', 'y', 'z'}
-assert test(lst0) == expected_output, 'Test failed'
+dict0 = {'a': 5, 'b': 2, 'c': 1}
+results = [test(dict0) for _ in range(1000)]
+assert results.count('a') > results.count('b') and results.count('b') > results.count('c'), 'Test failed'

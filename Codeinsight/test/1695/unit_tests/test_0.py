@@ -1,4 +1,11 @@
-dict0 = {'a': [1, 2, 3], 'b': [4, 5, 6], 'c': [7, 8, 9]}
-expected_result =  {'c': [7, 8, 9], 'b': [4, 5, 6], 'a': [1, 2, 3]}
-result = test(dict0)
-assert result == expected_result, 'Test failed'
+lst0 = [
+    [{'play': 5}, {'play': 3}, {'play': 1}],
+    [{'play': 4}, {'play': 2}],
+    [{'play': 6}, {'play': 8}, {'play': 7}]
+]
+expected_output = [
+    [{'play': 6}, {'play': 8}, {'play': 7}],
+    [{'play': 5}, {'play': 3}, {'play': 1}],
+    [{'play': 4}, {'play': 2}]
+]
+assert test(lst0) == expected_output, 'Test failed'

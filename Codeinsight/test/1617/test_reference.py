@@ -1,3 +1,2 @@
-import pandas as pd
-def test(df0, str0):
-    return df0[df0.columns.difference(df0.filter(like=str0).columns)]
+def test(dict0):
+    return [list(inner_dict.keys()) for inner_dict in dict0.values()]

@@ -1,3 +1,6 @@
-s1 = "HelloWorldThisIsAString"
-expected_output1 = ['Hello', 'World', 'This', 'Is', 'A', 'String']
-assert test(s1) == expected_output1, 'Test failed'
+lst0 = [(1, 2, 'apple'), (3, 4, 'apple'), (5, 6, 'apple')]
+var0 = 'apple'
+var1 = 'apple'
+expected_result =  True
+result = test(lst0, var0, var1)
+assert result == expected_result, 'Test failed'

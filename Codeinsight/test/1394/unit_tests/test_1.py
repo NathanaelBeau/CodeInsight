@@ -1,4 +1,3 @@
-lst0 = []
-var0 = 'grape'
-expected_output = ['grape']
-assert test(lst0, var0) ==expected_output, 'Test failed'
+var0 = "El niño está aquí with his friend from München."
+expected_result =  ["niño", "está", "aquí", "München"]
+assert test(var0) == expected_result, 'Test failed'

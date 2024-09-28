@@ -1,4 +1,4 @@
-Sort a dictionary var0 by value to iterate over it
+How to expand a string str0 within a string in python using split and simple list comprehension   
 
-def test(var0):
+def test(str0):
 

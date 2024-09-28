@@ -1,5 +1,4 @@
-var0 = "Hello world! Good world!"
-replacements = {"world": "planet", "Good": "Great"}
-expected_result =  "Hello planet! Great planet!"
-result = test(var0, replacements)
-assert result == expected_result, 'Test failed'
+var0 = 5
+lst0 = [1, 6, 7, 4, 8]
+expected_result =  3
+assert test(var0, lst0) == expected_result, 'Test failed'

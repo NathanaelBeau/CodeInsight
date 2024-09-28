@@ -1,5 +1,6 @@
-import pandas as pd
-import numpy as np
+import difflib
 
-def test(df0, var0):
-    return df0.query(f"{var0} != {var0}")
+def test(var0, var1):
+    diff = list(difflib.ndiff(var0, var1))
+    insertions = [item[2:] for item in diff if item.startswith('+ ')]
+    return ''.join(insertions)

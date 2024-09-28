@@ -1,1 +1,1 @@
- count all elements in a nested dictionary dict0   
+Compute the eigenvalues and eigenvectors of the matrix mat0, sort the eigenvalues in descending order, and reorder the corresponding eigenvectors accordingly. Return the sorted eigenvalues and eigenvectors.

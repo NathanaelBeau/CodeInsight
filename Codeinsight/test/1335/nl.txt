@@ -1,2 +1,1 @@
-Convert a binary string str0 to a list of integers.
-
+Check if the list lst0 is empty.

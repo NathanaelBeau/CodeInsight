@@ -1,6 +1,4 @@
-Find all characters in string var0 that are repeated consecutively.
+Return a sorted version of the input list lst0 based on the integer values of its elements. 
 
-import re
-
-def test(var0):
+def test(lst0):
 

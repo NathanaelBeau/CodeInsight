@@ -1,1 +1,1 @@
-Replacing the empty strings in a string str1 with string str0
+Check if two NumPy arrays, arr0 and arr1, are equal element-wise  

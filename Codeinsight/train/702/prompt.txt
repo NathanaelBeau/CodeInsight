@@ -1,4 +1,5 @@
-split elements of a list lst0   
+Counting the number of non-NaN elements in a numpy ndarray arr0 in Python   
 
-def test(lst0):
+import numpy as np
+def test(arr0):
 

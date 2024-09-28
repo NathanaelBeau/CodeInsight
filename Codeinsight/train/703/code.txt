@@ -1,5 +1,3 @@
-def test(lst0):
-    result = []
-    for s in lst0:
-        result.append(s.split())
-    return result
+def test(arr0, val0):
+    coordinates = ((i, row.index(val0)) for i, row in enumerate(arr0) if val0 in row)
+    return next(coordinates, None)

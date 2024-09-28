@@ -1,4 +1,6 @@
-Python 3: Multiply a vector var0 by a matrix var1 without NumPy    
+Flatten the hierarchical index in columns of dataframe df0."
 
-def test(var0, var1):
+import pandas as pd
+
+def test(df0):
 

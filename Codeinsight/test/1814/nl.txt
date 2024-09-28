@@ -1,1 +1,1 @@
- sort list lst0 by length of string followed by alphabetical order   
+Replacing instances of a character str1 by str2 at index between var0 and  var1  in a string str0   

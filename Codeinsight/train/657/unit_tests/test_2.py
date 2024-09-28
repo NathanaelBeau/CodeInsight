@@ -1,3 +1,5 @@
-str0 = "   This is a test\n  With leading spaces\nAnd newlines   \n"
-expected_output = "This is a test\nWith leading spaces\nAnd newlines   \n"
-assert test(str0) == expected_output, 'Test failed'
+arr0 = np.array([[19, 20], [21, 22], [23, 24]])
+lst0 = [1, 0, 1]
+expected_result =  np.array([20, 21, 24])
+result = test(arr0, lst0)
+assert result.tolist() == expected_result.tolist(), 'Test failed'

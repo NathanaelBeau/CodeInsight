@@ -1,4 +1,4 @@
-import pandas as pd
+import re
 
-def test(lst0):
-    return pd.concat(lst0)
+def test(var0):
+    return re.sub(r"(?<=[a-z])\r?\n"," ", var0)

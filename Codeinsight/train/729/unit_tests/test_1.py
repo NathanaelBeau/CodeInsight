@@ -1,5 +1,4 @@
-lst0 = [{'id': 2, 'name': 'B'}, {'id': 1, 'name': 'A'}, {'id': 3, 'name': 'C'}]
-lst1 = [3, 2, 1]
-expected_result =  [{'id': 3, 'name': 'C'}, {'id': 2, 'name': 'B'}, {'id': 1, 'name': 'A'}]
-result = test(lst0, lst1)
-assert result == expected_result, 'Test failed'
+lst0 = [1, 2, 3, 4, 5, 3, 3]
+var0 = 3
+expected_result =  [1, 2, 4, 5, 3, 3]
+assert test(lst0, var0) ==expected_result, 'Test failed'

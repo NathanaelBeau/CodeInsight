@@ -1,2 +1,4 @@
-def test(var0):
-    return var0[0].isdigit() if var0 else False
+from decimal import Decimal
+
+def test(str0):
+    return int(Decimal(str0))

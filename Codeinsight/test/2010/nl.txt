@@ -1,1 +1,0 @@
-Remove all rows containing non-numeric values from a numpy array arr0

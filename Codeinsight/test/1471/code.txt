@@ -1,2 +1,4 @@
-def test(lst0):
-    return sorted(lst0, key=lambda x: x[1], reverse=True)
+import pandas as pd
+
+def test(df0, lst0):
+    return df0.loc[lst0].reindex(lst0)

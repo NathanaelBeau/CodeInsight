@@ -1,5 +1,4 @@
-import re
+from operator import sub
 
-def test(var0):
-    lst = re.split(',', var0)
-    return ['0' if x == '' else x for x in lst]
+def test(lst0, lst1):
+	return list(map(sub, lst0, lst1))

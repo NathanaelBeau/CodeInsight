@@ -1,3 +1,4 @@
-lst0 = [100, 200, 50, 150]
-expected_result =  [1, 3, 0, 2]
-assert (test(lst0) == expected_result).all(), 'Test failed'
+lst0 = ["x", "y", "z"]
+var0 = 3
+expected_output = ['xyz', 'xzy', 'yxz', 'yzx', 'zxy', 'zyx']
+assert test(lst0, var0) ==expected_output, 'Test failed'

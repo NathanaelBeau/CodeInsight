@@ -1,6 +1,5 @@
-Numpy: find the euclidean distance between two 3-D arrays  arr0 and arr1 with np.einsum
+Retrieve all the values from the numpy array arr0 excluding the value at index var0  
 
 import numpy as np
-
-def test(arr0, arr1):
+def test(arr0, var0):
 

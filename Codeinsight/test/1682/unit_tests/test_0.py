@@ -1,6 +1,5 @@
-df0 = pd.DataFrame({'values': [10, 20, 30], 'weights': [1, 2, 3]})
-col_values = 'values'
-col_weights = 'weights'
-expected_result =  (10*1 + 20*2 + 30*3) / (1 + 2 + 3)
-result = test(df0, col_values, col_weights)
-assert result == expected_result, 'Test failed'
+# Test 1
+df0 = pd.DataFrame({ 'A': [1, 2, 3], 'B': [4, 5, 6] })
+dict0 = {'A': 'X', 'B': 'Y'}
+expected_result =  pd.DataFrame({ 'X': [1, 2, 3], 'Y': [4, 5, 6] })
+assert test(df0.copy(), dict0).equals(expected_result), 'Test failed'

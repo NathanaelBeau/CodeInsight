@@ -1,3 +1,4 @@
-str0 = "1234567890"
-expected_output = "1234567890"
-assert test(str0) ==expected_output, 'Test failed'
+var0 = "No numbers here!"
+expected_result =  []
+result = test(var0)
+assert result == expected_result, 'Test failed'

@@ -1,3 +1,5 @@
-lst0 = [(3, 4), (1, 2), (2, 1)]
-expected_result =  [(1, 2), (2, 1), (3, 4)]
-assert test(lst0) == expected_result, 'Test failed'
+dct0 = {'key': 'value', 'another_key': 'another_value'}
+var0 = 'key'
+expected_result =  {'another_key': 'another_value'}
+result = test(dct0, var0)
+assert result == expected_result, 'Test failed'

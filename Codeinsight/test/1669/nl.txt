@@ -1,1 +1,1 @@
- Construct a pandas DataFrame from a nested dictionary dict0
+Create a pandas DataFrame named df from the dictionary nvalues.

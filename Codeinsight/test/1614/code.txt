@@ -1,5 +1,3 @@
-import math
-def test(arr0):
-    arr0 = [x for x in arr0 if x != float('+inf')]
-    return arr0
-    
+import pandas as pd
+def test(df0):
+    return df0.apply(lambda x: x.unique().shape[0])

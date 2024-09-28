@@ -1,5 +1,7 @@
-arr0 = np.array([1, 2, 3, 4, 5, 6])
-value0 = 3
-expected_result =  True
-result = test(arr0, value0)
-assert result == expected_result, 'Test failed'
+# Test 1
+df0 = pd.DataFrame({'Group': ['A', 'A', 'B', 'B', 'B'], 'Value': [1, 1, 2, 2, 3]})
+var0 = 'Group'
+var1 = 'Value'
+expected_result =  pd.Series([1, 2], index=['A', 'B'], name='Value')
+result = test(df0, var0, var1)
+assert result.equals(expected_result), 'Test failed'

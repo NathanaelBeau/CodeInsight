@@ -1,4 +1,3 @@
-import pandas as pd
+def test(str0, var0):
+    return dict(e.split(var0) for e in str0)
 
-def test(df0):
-    return [row.to_dict() for _, row in df0.iterrows()]

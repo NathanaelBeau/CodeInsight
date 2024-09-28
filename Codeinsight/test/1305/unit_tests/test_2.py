@@ -1,3 +1,4 @@
-dict0 = { 'key1': [1, 2, 3], 'key2': ['a', 'b', 'c'], 'key3': [True, False, True] }
-expected_output = 9
-assert test(dict0) ==expected_output, 'Test failed'
+mat0 = np.array([[2, 1], [1, 3]])
+expected_eigenvalues = np.array([3.61803399, 1.38196601])
+result_eigenvalues, _ = test(mat0)
+assert np.allclose(result_eigenvalues, expected_eigenvalues), 'Test failed'

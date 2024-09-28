@@ -1,3 +1,3 @@
-var0 = "abc123"
-expected_output = False
-assert test(var0) == expected_output, 'Test failed'
+str0 = '10.0'
+expected_output = 10
+assert test(str0) ==expected_output, 'Test failed'

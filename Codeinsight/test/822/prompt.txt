@@ -1,6 +1,6 @@
-Split the text in column var0 of dataframe df0 into multiple rows
+Create a new column A_perc in the dataframe df0 such that its values are the result of dividing each value in column A by the corresponding value in column sum.
 
 import pandas as pd
 
-def test(df0, var0):
+def test(df0: pd.DataFrame) -> pd.DataFrame:
 

@@ -1,4 +1,3 @@
-arg0 = '\s+'
-arg1 = "This is a test string"
-expected_output = ['This', 'is', 'a', 'test', 'string']
-assert test(arg0, arg1) == expected_output, 'Test failed'
+df = pd.DataFrame({'A': [0.1234, 0.5678], 'B': [0.1111, 0.2222]})
+result = test(df, [])
+assert result.equals(df), 'Test failed'

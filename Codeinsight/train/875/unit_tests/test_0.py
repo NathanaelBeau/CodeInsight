@@ -1,4 +1,7 @@
-df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
-expected_result =  pd.DataFrame({'A': [0.0, 0.5, 1.0], 'B': [0.0, 0.5, 1.0]})
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+import pandas as pd
+# Test 1
+df0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry'], 'B': ['dog', 'cat', 'fish']})
+var0 = 'A'
+var1 = 'a.p'
+expected_result =  True
+assert test(df0, var0, var1) == expected_result, 'Test failed'

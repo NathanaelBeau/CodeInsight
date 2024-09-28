@@ -1,6 +1,7 @@
-Extract specific columns specified in the list lst0 from the pandas DataFrame df0 and create a new DataFrame as a copy.
+Split a dataframe df0 based on unique values in column var0
 
 import pandas as pd
 
-def test(df0, lst0):
+
+def test(df0, var0):
 

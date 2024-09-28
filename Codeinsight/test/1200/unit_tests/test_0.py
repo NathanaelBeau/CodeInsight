@@ -1,4 +1,4 @@
-lst0 = ["aaaa8", "bb8", "ccc8", "dddddd8"]
-var0 = '8'
-expected_output = ["aaaa", "bb", "ccc", "dddddd"]
-assert test(lst0, var0) == expected_output, 'Test failed'
+A1 = [1, 2, 3, 4, 5]
+B1 = [2, 4, 6]
+expected_output1 = [1, 3]
+assert test(A1, B1) == expected_output1, 'Test failed'

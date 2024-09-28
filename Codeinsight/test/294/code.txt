@@ -1,3 +1,4 @@
-import numpy as np
-def test(lst0):
-    return np.array(lst0, dtype=object)
+from itertools import product
+
+def test(var0):
+    return list(product([0, 1], repeat=var0))

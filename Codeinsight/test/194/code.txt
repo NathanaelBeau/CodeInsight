@@ -1,4 +1,4 @@
-def test(str0):
-    parts = str0.split("\\")
-    return "".join(parts)
+import numpy as np
 
+def test(lst0):
+    return np.cov(lst0)

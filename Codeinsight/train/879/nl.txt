@@ -1,1 +1,1 @@
-Split a column named var0 containing tuples into two separate columns in dataframe df0
+Return the parity (odd or even) of each element of a list lst0.

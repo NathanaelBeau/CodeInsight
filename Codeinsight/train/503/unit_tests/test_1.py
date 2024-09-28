@@ -1,3 +1,5 @@
-df0 = pd.DataFrame({'col0': [2, 3, 1], 'col1': [5, 6, 4]})
-expected_output = pd.DataFrame({'col0': [1, 2, 3], 'col1': [4, 5, 6]})
-assert test(df0).values.tolist() == expected_output.values.tolist(), 'Test failed'
+var0 = 0
+var1 = 5
+expected_result =  [0, 1, 2, 3, 4]
+result = test(var0, var1)
+assert result == expected_result, 'Test failed'

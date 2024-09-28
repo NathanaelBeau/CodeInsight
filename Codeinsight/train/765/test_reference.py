@@ -1,5 +1,3 @@
-import re
-
-def test(str0):
-    match = re.search(r'\[(\d+)\]', str0)
-    return match.group(1) if match else None
+import pandas as pd
+def test(ser0):
+    return ser0.reset_index(drop=True)

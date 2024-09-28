@@ -1,6 +1,4 @@
-Generate a list of dictionaries where each dictionary contains a column name as the key and its corresponding column values as a list from dataframe df.
+Remove all integer values from a list lst0  
 
-import pandas as pd
-
-def test(df):
+def test(lst0):
 

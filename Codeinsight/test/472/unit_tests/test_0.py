@@ -1,4 +1,5 @@
-str0 = "This is sentence 1. This is sentence 2. This is sentence 3. This is sentence 4."
-var0 = 2  
-expected_output = "This is sentence 1. This is sentence 2."
-assert test(str0, var0) == expected_output, 'Test failed'
+df0 = pd.DataFrame({"A": ["apple", "apple", "banana"], "B": ["red", "green", "red"]})
+col1 = "A"
+col2 = "B"
+expected_output = [("apple", "green", 1), ("apple", "red", 1), ("banana", "red", 1)]
+assert sorted(test(df0, col1, col2)) == sorted(expected_output), 'Test failed'

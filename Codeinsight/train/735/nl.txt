@@ -1,2 +1,1 @@
-Select all columns except the ones in the list lst0 from a dataframe df0
-
+Check if the string var0 contains any non-English characters.

@@ -1,4 +1,4 @@
-import numpy as np
+import re
 
-def test(arr0):
-    return arr0[~np.isnan(arr0)]
+def test(str0):
+    return re.sub(r'\b(.+)\s+\1\b', r'\1', str0)

@@ -1,4 +1,3 @@
 import numpy as np
-
-def test(arr0):
-    return [dict(zip(arr0, row)) for row in arr0]
+def test(rows=1, columns=['A']):
+    return pd.DataFrame(index=range(rows), columns=columns, dtype=float)

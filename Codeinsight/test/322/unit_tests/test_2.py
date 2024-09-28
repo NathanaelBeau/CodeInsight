@@ -1,4 +1,4 @@
-df0 = pd.DataFrame({'P': [5, 7, 9], 'Q': [1, 9, 3], 'R': [8, 2, 6]})
-expected_result =  pd.Series(['R', 'Q', 'P'])
-result = test(df0)
+df2 = pd.DataFrame({ 'P': [1, 2, 3, 4], 'Q': [1, 2, 3, 4] })
+expected_result =  pd.Series({'P': 0.0, 'Q': 0.0})
+result = test(df2)
 assert result.equals(expected_result), 'Test failed'

@@ -1,1 +1,1 @@
-Find the position of the var2 occurrence of substring var1 in string var0
+getting the opposite diagonal of a numpy array   arr0 

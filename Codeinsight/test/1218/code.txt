@@ -1,4 +1,3 @@
-import pandas as pd
-
-def test(df0):
-    return df0.iloc[:-1]
+import numpy as np
+def test(arr0):
+    return np.where(np.isneginf(arr0), 0, arr0)

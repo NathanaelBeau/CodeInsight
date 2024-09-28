@@ -1,4 +1,6 @@
-Determine the length of the second column in a 2D array named arr0.
+Check if the object var0 is NaN using Python's math module.
 
-def test(arr0):
+
+import math
+def test(var0):
 

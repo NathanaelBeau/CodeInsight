@@ -1,3 +1,3 @@
-str0 = 'hello'
-expected_result =  b'hello'
-assert test(str0) == expected_result, 'Test failed'
+s = "Python"
+expected_output = "nohtyP"
+assert test(s) == expected_output, 'Test failed'

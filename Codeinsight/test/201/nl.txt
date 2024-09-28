@@ -1,1 +1,1 @@
-Convert all tuple elements in a list lst0 into lists
+Convert all categorical columns to dummy/indicator int variables in dataframe df0

@@ -1,6 +1,4 @@
-def test(lst0, var0):
-    result = []
-    for x in lst0:
-        if not var0(x):
-            result.append(x)
-    return result
+import numpy as np
+
+def test(arr0, var0):
+    return np.hstack((arr0[:,:var0], arr0[:,var0+1:]))

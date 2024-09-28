@@ -1,1 +1,1 @@
-Replace values in column col0 of dataframe df0 that match condition var0 with value var1
+Extract string with Python re.match   from URL string str0

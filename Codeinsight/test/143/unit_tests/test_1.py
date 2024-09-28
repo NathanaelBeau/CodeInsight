@@ -1,5 +1,3 @@
-import numpy as np
-arr0 = np.array([7, 8])
-arr1 = np.array([9, 10])
-expected_output = np.array([7, 8, 9, 10])
-assert np.array_equal(test(arr0, arr1), expected_output), 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+expected_output = False
+assert test(df0) ==expected_output, 'Test failed'

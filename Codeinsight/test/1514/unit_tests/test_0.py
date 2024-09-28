@@ -1,4 +1,5 @@
-lst0 = [1, 2, 3, 2, 4, 2, 5]
-var0 = 2
-expected_output = 3
-assert test(lst0,var0) ==expected_output, 'Test failed'
+# Test 2
+df0 = pd.DataFrame({'fruit': ['apple', '  ', 'banana'], 'count': [10, '  ', 20]})
+expected_result =  pd.DataFrame({'fruit': ['apple', np.nan, 'banana'], 'count': [10, np.nan, 20]})
+result = test(df0)
+assert result.equals(expected_result), 'Test failed'

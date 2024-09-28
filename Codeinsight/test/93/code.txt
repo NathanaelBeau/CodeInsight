@@ -1,4 +1,4 @@
-import re
+import pandas as pd
 
-def test(str0):
-    return [i.split() for i in re.findall(r'\[([^\[\]]+)\]', str0)]
+def test(df: pd.DataFrame, key_columns: str) -> pd.DataFrame:
+    return df.groupby(key_columns).size().reset_index(name='counts')

@@ -1,5 +1,4 @@
-data = {'name': ['John', 'Alice', 'Bob'], 'age': [25, 30, 35]}
-df0 = pd.DataFrame(data)
-df0.set_index('name', inplace=True)
-expected_output = ['John', 'Alice', 'Bob']
-assert test(df0) == expected_output, 'Test failed'
+arr0 = np.array([1, 2, 3])
+arr1 = np.array([4, 5, 6])
+expected_output = 5.196152422706632
+assert test(arr0, arr1) ==expected_output, 'Test failed'

@@ -1,4 +1,4 @@
-lst0 = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
-expected_result =  ['a', 'b', 'c', 'f', 'g', 'h']
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+lst0 = ['python code', 'java programming', 'c++ development']
+lst1 = ['java', 'ruby', 'python']
+expected_output = ['python code', 'java programming']
+assert test(lst0, lst1) == expected_output, 'Test failed'

@@ -1,3 +1,4 @@
-lst0 = ["12345", "1", "123456789", "12", "1234"]
-expected_output = ["1", "12", "1234","12345",  "123456789"]
-assert test(lst0) == expected_output, 'Test failed'
+dictA = {"g": "duck goose", "h": "goose", "i": "duck"}
+expected_output = []
+str0 ="duck"
+assert test(dictA, str0) == expected_output, 'Test failed'

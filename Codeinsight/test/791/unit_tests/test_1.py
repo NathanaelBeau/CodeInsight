@@ -1,6 +1,4 @@
-# Test 2
-mat0 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-part = 'lower'
-expected_result =  np.array([[1, 0, 0], [4, 5, 0], [7, 8, 9]])
-result = test(mat0, part)
-assert np.array_equal(result, expected_result), 'Test failed'
+df0 = pd.DataFrame({ 'A': ['item4', 'item5', 'item6'], 'B': ['$11', '$21', '$31'], 'C': ['$6', '$16', '$26'] })
+expected_result2 = pd.DataFrame({ 'A': ['item4', 'item5', 'item6'], 'B': [11.0, 21.0, 31.0], 'C': [6.0, 16.0, 26.0] })
+result2 = test(df0)
+assert result2.equals(expected_result2), 'Test failed'

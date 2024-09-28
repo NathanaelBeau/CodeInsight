@@ -1,4 +1,6 @@
-Filter out elements from the input list lst0 that contain any digits.
+Python: Fetch first 10 results from a list   lst0
+
+from itertools import takewhile
 
 def test(lst0):
 

@@ -1,4 +1,4 @@
-arr0 = [1, 2, 3, 4, 5]
-expected_result =  5
-result = test(arr0)
-assert result == expected_result, 'Test failed'
+lst0 = [1,2,2,2,3]
+lst1 = [1,2]
+expected_output = {2: 2, 3: 1}
+assert test(lst0, lst1) ==expected_output, 'Test failed'

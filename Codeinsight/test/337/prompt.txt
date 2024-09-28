@@ -1,6 +1,4 @@
-Assign a number to each unique value in a list lst0 based on the order of appearance of the values with numpy
-
-import numpy as np
+Sort the input list lst0 in place, using the float values of its elements
 
 def test(lst0):
 

@@ -1,1 +1,1 @@
-Group the DataFrame df0 by column var0, aggregate using the function agg_function, and then convert the resulting Series to a DataFrame.
+Replace occurrences of var0 with var2 in the column var1 of DataFrame df0, and return the modified DataFrame.

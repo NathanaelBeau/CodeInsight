@@ -1,6 +1,3 @@
-import pandas as pd
-
-def test(df0):
-    transposed = df0.T
-    transposed.columns = range(transposed.shape[1])
-    return transposed.reset_index(drop=True)
+def test(str0):
+    t = iter(str0)
+    return '-'.join(a + b for a, b in zip(t, t))

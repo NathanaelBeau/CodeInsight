@@ -1,6 +1,6 @@
-Replace values lst0 in column var0 of dataframe df0 with value var1
+calculate the total number of missing (null) values in a DataFrame df0. 
 
 import pandas as pd
 
-def test(df0, var0, lst0, var1):
+def test(df0):
 

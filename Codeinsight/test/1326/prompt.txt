@@ -1,5 +1,6 @@
-Replace words in string var0 using substitutions from dictionary dict0
+Python, lambda, find minimum value in list lst0  with pandas
 
-import re
-def test(var0, dict0):
+import pandas as pd
+
+def test(lst0):
 

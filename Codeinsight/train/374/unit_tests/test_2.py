@@ -1,2 +1,3 @@
-expected_shape = (0, 5) # 0 rows, 5 columns
-assert test().shape == expected_shape, 'Test failed'
+str0 = "12345"
+expected_output = ['1', '2', '3', '4', '5']
+assert test(str0) == expected_output, 'Test failed'

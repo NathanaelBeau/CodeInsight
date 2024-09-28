@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(dict0):
-    return pd.DataFrame.from_dict(dict0)
+def test(lst0):
+    return sum(lst0)

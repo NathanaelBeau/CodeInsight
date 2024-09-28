@@ -1,7 +1,5 @@
-Replace NaN values in the pandas DataFrame df0 with an empty string.
+All combinations of a list of lists  lst0
 
-import numpy as np
-import pandas as pd 
-
-def test(df0):
+from itertools import product
+def test(lst0):
 

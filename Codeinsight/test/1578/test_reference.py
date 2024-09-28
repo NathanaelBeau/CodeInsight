@@ -1,2 +1,3 @@
-def test(dict0):
-    return {k.lower(): v.lower() for k, v in dict0.items()}
+import numpy as np
+def test(arr0, var0):
+    return np.partition(arr0, -var0)[-var0:]

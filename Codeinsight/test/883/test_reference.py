@@ -1,3 +1,8 @@
-def test(lst0, var0):
-    closest_number = min(lst0, key=lambda x: abs(x - var0))
-    return closest_number
+from collections import Counter
+
+def test(lst0):
+    categories_counter = Counter()
+    for entry in lst0:
+        categories_counter.update(entry['categories'])
+    
+    return dict(categories_counter)

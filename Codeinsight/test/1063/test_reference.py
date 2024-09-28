@@ -1,4 +1,6 @@
-import numpy as np
+import pandas as pd
+from sklearn.preprocessing import StandardScaler
 
-def test(arr0):
-    return not np.any(arr0)
+def test(df0):
+    scaler = StandardScaler()
+    return pd.DataFrame(scaler.fit_transform(df0), columns=df0.columns)

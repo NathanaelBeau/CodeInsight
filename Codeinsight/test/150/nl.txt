@@ -1,1 +1,1 @@
-Sort list lst0 based on the order of elements in another list lst1.
+Retrieve the non-flat indices of the maximum value in a numpy array arr0

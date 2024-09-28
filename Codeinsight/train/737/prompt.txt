@@ -1,4 +1,4 @@
-Remove the first word from a string named str0   
+ iterate through a list of tuples lst0 containing three pair values   
 
-def test(str0):
+def test(lst0):
 

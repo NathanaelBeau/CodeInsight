@@ -1,4 +1,5 @@
-dct0 = {'x': 1, 'y': 1, 'z': 1}
-expected_result =  ['x', 'y', 'z']
-result = test(dct0)
-assert result == expected_result, 'Test failed'
+# Test 3
+from sklearn.datasets import load_breast_cancer
+dataset0 = load_breast_cancer()
+df = test(dataset0)
+assert df.shape == (569, 30), 'Test failed'

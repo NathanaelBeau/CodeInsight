@@ -1,6 +1,2 @@
-import numpy as np
-
-def test(str0):
-    chars = np.array(list(str0))
-    reversed_chars = np.flip(chars)
-    return ''.join(reversed_chars)
+def test(lst0, lst1):
+    return [x for _, x in sorted(zip(lst1, lst0))]

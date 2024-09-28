@@ -1,6 +1,4 @@
-Python: use regular expression to remove the white space from all lines   in string str0
+Python - Remove dictionary from list lst0 if key var0 is equal to value  in list lst1
 
-import re
-
-def test(str0):
+def test(lst0, var0, lst1):
 

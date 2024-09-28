@@ -1,3 +1,1 @@
-lst0 = [('C', 'o', 'd', 'i', 'n', 'g'), ('i', 's'), ('f', 'u', 'n')]
-expected_output = ['Coding', 'is', 'fun']
-assert test(lst0) ==expected_output, 'Test failed'
+assert test([{"a": 1, "b": 2, "c": 3}, {"d": 4, "e": 5, "f": 6}, {"g": 7, "h": 8, "i": 9}], "b") == [{"a": 1, "c": 3}, {"d": 4, "e": 5, "f": 6}, {"g": 7, "h": 8, "i": 9}], 'Test failed'

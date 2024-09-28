@@ -1,2 +1,2 @@
 def test(lst0):
-    return [d['value'] for d in lst0 if 'value' in d]
+    return sorted(lst0, key=lambda x: x[0])

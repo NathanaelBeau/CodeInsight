@@ -1,5 +1,5 @@
-var0 = 2
-lst0 = [('John', 90, 'A'), ('Jane', 75, 'B'), ('Mike', 80, 'B')]
-expected_result =  ['A', 'B', 'B']
-result = test(var0, lst0)
+var0 = lambda x: len(x) == 3
+lst0 = [[1, 2], [3, 4, 5], [5, 6, 7, 8]]
+expected_result =  [[3, 4, 5]]
+result = test(lst0, var0)
 assert result == expected_result, 'Test failed'

@@ -1,4 +1,3 @@
-import pandas as pd
-
-def test(df0):
-    return df0.sort_values(['A', 'B'], ascending=[True, False]).drop_duplicates(subset='A', keep='first')
+def test(lst0, lst1):
+    order = {item: i for i, item in enumerate(lst1)}
+    return sorted(lst0, key=lambda x: order.get(x, -1))

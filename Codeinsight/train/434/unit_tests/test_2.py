@@ -1,5 +1,4 @@
-var0 = "python"
-var1 = "pytho"
-expected_result =  False
-result = test(var0, var1)
+lst0 = ['hello', 1, 'world', 2, '!', 3]
+expected_result =  {'hello': 1, 'world': 2, '!': 3}
+result = test(lst0)
 assert result == expected_result, 'Test failed'

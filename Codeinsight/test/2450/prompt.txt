@@ -1,4 +1,0 @@
-check if all the values in the dictionary dict0 are truthy 
-
-def test(dict0) :
-

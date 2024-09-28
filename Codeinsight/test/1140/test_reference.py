@@ -1,4 +1,6 @@
-def test(var0, var1, lst0):
-    str_lst = str(lst0)
-    str_lst = str_lst.replace(str(var0), str(var1))
-    return eval(str_lst)
+def test(lst0):
+    def extract_first_elements(lst):
+        if isinstance(lst[0], list):
+            return [extract_first_elements(sublist) for sublist in lst]
+        return lst[0]
+    return extract_first_elements(lst0)

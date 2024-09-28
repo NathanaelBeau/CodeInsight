@@ -1,1 +1,2 @@
-check if all the provided lists (lst1, lst2, lst3, lst4, lst5) have the same length as the first list lst0. If they all have the same length, the function returns True; otherwise, it returns False.
+Flatten a list of lists lst0, remove duplicates, and sort the result.
+

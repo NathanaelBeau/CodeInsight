@@ -1,3 +1,7 @@
-arr0 = np.array([[1, 2, 3], [4, 0, 5]])
-expected_output = 1.0
-assert test(arr0) ==expected_output, 'Test failed'
+lst0 = [
+    {'categories': ['A', 'B', 'C']},
+    {'categories': ['A', 'A', 'D']},
+    {'categories': ['B', 'C', 'C']}
+]
+expected_output = {'A': 3, 'C': 3, 'B': 2, 'D': 1}
+assert test(lst0)== expected_output, 'Test failed'

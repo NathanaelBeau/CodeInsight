@@ -1,1 +1,1 @@
-Find unique rows in a numpy array arr0.
+ index nested lists lst0 in Python  

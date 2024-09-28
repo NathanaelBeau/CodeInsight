@@ -1,4 +1,2 @@
-var0= pd.DataFrame({'A': [1, 2, 3, 2], 'B': [1, 1, 2, 3]})
-expected_result =   pd.DataFrame({'A': [1, 2, 1], 'B': [2, 1, 1]}, index=[1, 2, 3])
-result = test(var0)
-assert result .equals( expected_result), 'Test failed'
+df = pd.DataFrame({'var0': [1, 2, 3], 'var1': ['a', 'b', 'c']})
+assert test('var0', 'var1', df).equals(pd.DataFrame({'var0': [1, 2, 3], 'var1': ['a', 'b', 'c'], 'frequency': [1, 1, 1]})), 'Test failed'

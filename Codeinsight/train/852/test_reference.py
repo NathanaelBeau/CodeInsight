@@ -1,6 +1,7 @@
-import pandas as pd
+import numpy as np
 
-def test(df0):
-    min_date = df0['Date'].min()
-    max_date = df0['Date'].max()
-    return pd.Series([min_date, max_date], index=['min', 'max'])
+def test(lst0):
+    la = len(lst0)
+    arr = np.array(np.meshgrid(*lst0)).T.reshape(-1, la)
+    arr = [tuple(map(str, row)) for row in arr]
+    return arr

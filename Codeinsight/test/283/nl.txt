@@ -1,1 +1,1 @@
-Sort the list lst0 based on values from another list lst1.
+Multiply two 1-dimensional numpy arrays, array1 and array2.

@@ -1,5 +1,5 @@
-str0 = "(7.0, 8.1)"
-tpl0 = (9.2, 10.3)
-expected_result =  (9.2, 10.3, 7.0, 8.1)
-result = test(str0, tpl0)
-assert result == expected_result, 'Test failed'
+lst0 = np.array([10, 20])
+var0 = 30
+expected_result =  np.array([10, 20, 30])
+result = test(lst0, var0)
+assert np.array_equal(result, expected_result), 'Test failed'

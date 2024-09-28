@@ -1,3 +1,5 @@
-strings2 = ["hello", "world"]
-expected_result2 = 10
-assert test(strings2) == expected_result2, 'Test failed'
+var0 = [('a', 1), ('b', 2), ('c', 1), ('d', 3)]
+var1 = 'c'
+expected_result =  [2]
+result = test(var0, var1)
+assert result == expected_result, 'Test failed'

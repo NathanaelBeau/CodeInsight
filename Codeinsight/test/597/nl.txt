@@ -1,1 +1,1 @@
- count values in a certain range between var0 and var1 in a Numpy array arr0   
+Fastest way to remove all multiple occurrence items from a list lst0  

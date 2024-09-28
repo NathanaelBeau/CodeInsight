@@ -1,4 +1,4 @@
-import re
+import numpy as np
 
-def test(str0, pattern):
-    return re.findall(pattern, str0)
+def test(arr0, arr1):
+    return np.hstack((arr0, arr1))

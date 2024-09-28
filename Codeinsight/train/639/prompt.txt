@@ -1,6 +1,4 @@
- unquote a urlencoded unicode string  var0 in python   
+Extract all keys from a list of dictionaries  lst0
 
-import urllib.parse
-
-def test(var0):
+def test(lst0):
 

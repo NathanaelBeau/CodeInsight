@@ -1,2 +1,5 @@
-def test(lst0):
-    return [str(i) for i in sorted([int(x) for x in lst0])]
+import pandas as pd
+
+def test(df0, lst0):
+    df0.columns = lst0
+    return df0

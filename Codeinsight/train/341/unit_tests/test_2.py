@@ -1,5 +1,4 @@
-lst0 = ['dog', 'cat', 'bird']
-lst1 = [3, 1, 2]
-expected_result =  ['cat', 'bird', 'dog']
-result = test(lst0, lst1)
-assert result == expected_result, 'Test failed'
+# Test 3
+lst0 = [0, 0, 0]
+expected_output = 0  # 0^2 + 0^2 + 0^2 = 0
+assert test(lst0) == expected_output, 'Test failed'

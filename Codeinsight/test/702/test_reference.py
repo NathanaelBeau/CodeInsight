@@ -1,3 +1,2 @@
-import pandas as pd
-def test(df0, var0, var1):
-    return df0[var0].str.contains(var1).to_list()
+def test(lst0):
+    return [x for x in lst0 if not any(c.isdigit() for c in x)]

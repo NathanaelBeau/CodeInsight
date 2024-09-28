@@ -1,1 +1,0 @@
-Get the first non-null value for each row from a list of columns lst0 in a dataframe df0

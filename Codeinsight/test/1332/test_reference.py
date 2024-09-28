@@ -1,8 +1,3 @@
-
-
-def test(lst0):
-    result = []
-    for tup in lst0:
-        for item in tup:
-            result.append(item)
-    return result
+import pandas as pd
+def test(df0, df1):
+    return pd.concat([df0, df1['dates']], axis=1)

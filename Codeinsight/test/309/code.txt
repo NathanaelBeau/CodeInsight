@@ -1,4 +1,4 @@
-import pandas as pd
+import re
 
-def test(df0):
-    return df0 * 1
+def test(var0):
+    return re.findall(r'(.)\1+', var0)

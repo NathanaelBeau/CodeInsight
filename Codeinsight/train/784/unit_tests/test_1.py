@@ -1,5 +1,3 @@
-tuple0 = (1, 2, 3)
-tuple1 = (1, 2, 3, 4, 5)
-expected_result =  True
-result = test(tuple0, tuple1)
-assert result == expected_result, 'Test failed'
+data = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+expected_output = 9
+assert test(data) == expected_output, 'Test failed'

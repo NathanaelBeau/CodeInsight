@@ -1,1 +1,1 @@
-How to remove parentheses only around single words in a string  str0
+Copy the elements of list lst0 into a new list.

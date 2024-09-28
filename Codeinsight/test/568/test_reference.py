@@ -1,3 +1,4 @@
-import pandas as pd
-def test(df0, df1):
-    return pd.concat([df0, df1], ignore_index=True)
+import numpy as np
+
+def test(arr0, arr1):
+    return np.any(np.in1d(arr0, arr1))

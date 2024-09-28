@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0, str0, var0):
-    return df0[df0.apply(lambda row: len(row[str0]) > int0, axis=1)]
+def test(var0):
+    return int(var0.replace(',', ''))

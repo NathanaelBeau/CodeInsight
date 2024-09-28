@@ -1,1 +1,1 @@
-Round the number value up to significantDigit decimal places.
+Sort a list of dictionaries dict0 based on the order of values in a reference list lst0. The sorting is done by comparing the value in each dictionary at the key var0 to the order of elements in lst0.  

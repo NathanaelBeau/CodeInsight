@@ -1,4 +1,3 @@
-from itertools import product
-
-def test(lst0):
-    return list(product(*lst0))
+def test(lst0, var0):
+    from collections import Counter
+    return Counter(map(type, lst0))[var0]

@@ -1,2 +1,3 @@
-def test(lst0):
-    return [i for i in lst0 if i > 5]
+import numpy as np
+def test(arr0):
+    return arr0.ndim > 1

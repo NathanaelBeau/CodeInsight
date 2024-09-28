@@ -1,1 +1,1 @@
-Sum of outer product of corresponding lists in two arrays lst0 and lst1- NumPy   
+Find the largest difference (delta) between two consecutive integers in the list lst0.

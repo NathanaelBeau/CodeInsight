@@ -1,3 +1,4 @@
-var0 = '123A456B789C'
-expected_output = (['123', '456', '789'], ['A', 'B', 'C'])
-assert test(var0) == expected_output, 'Test failed'
+import pandas as pd
+df0 = pd.DataFrame({'A': [1, 2, 3], 'Value': [True, False, True]})
+expected_output = pd.DataFrame({'A': [1, 3], 'Value': [True, True]}, index=[0,2])
+assert test(df0).equals(expected_output), 'Test failed'

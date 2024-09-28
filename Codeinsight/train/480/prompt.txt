@@ -1,6 +1,6 @@
-Concatenate a list of DataFrames lst0 together.
+Remove line break character in a string var0 if it follows a lowercase letter
 
-import pandas as pd
+import re
 
-def test(lst0):
+def test(var0):
 

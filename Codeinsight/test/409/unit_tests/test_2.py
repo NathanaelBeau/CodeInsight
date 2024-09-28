@@ -1,4 +1,3 @@
-lst0 = [1, [2, [3, [4, [5]]]]]
-expected_result =  [1, 2, 3, 4, 5]
-result = list(test(lst0))
-assert result == expected_result, 'Test failed'
+str0 = 'NoMultipleSpacesHere'
+expected_output = 'NoMultipleSpacesHere'
+assert test(str0) ==expected_output, 'Test failed'

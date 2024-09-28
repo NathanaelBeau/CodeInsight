@@ -1,4 +1,4 @@
-import pandas as pd
+import itertools
 
-def test(df0):
-    return df0.drop(df0.index[:3])
+def test(var0: int) -> list:
+    return list(itertools.accumulate(range(var0)))

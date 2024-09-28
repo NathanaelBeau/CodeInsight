@@ -1,2 +1,2 @@
-def test(char0):
-    return ord(char0)
+def test(var0):
+    return [0] * var0

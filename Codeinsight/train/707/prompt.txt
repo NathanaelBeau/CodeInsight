@@ -1,7 +1,6 @@
-change a specific row at index var0 by var1 label in a Pandas dataframe   df0
+do multiple substitutions in string var0 using regex with Create a regular expression  from the dictionary keys  dict0 and For each match, look-up corresponding value in dictionary  dict0
 
-import pandas as pd
+import re
 
-
-def test(df0, var0, var1):
+def test(dict0, var0):
 

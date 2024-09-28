@@ -1,6 +1,6 @@
-replacevery high values equal or higher than a treshold var0 by 0 from numpy array arr0
+Retrieve all rows from DataFrame df0 that have duplicate items in column var0.
 
-import numpy as np
+import pandas as pd
 
-def test(arr0, var0):
+def test(df0, var0):
 

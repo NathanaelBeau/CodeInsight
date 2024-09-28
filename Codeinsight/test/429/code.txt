@@ -1,4 +1,5 @@
 import pandas as pd
 
-def test(df0):
-    return df0.isnull().any(axis=1).sum()
+def test(df0, col0):
+    df0[col0] = df0[col0].str.upper()
+    return df0

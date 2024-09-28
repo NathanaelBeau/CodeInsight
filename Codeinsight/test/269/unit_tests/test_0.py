@@ -1,5 +1,4 @@
-# Test 1
-var0 = "apple banana apple banana apple banana"
-pattern = r"apple"
-expected_result =  "apple"
-assert test(var0, pattern) == expected_result, 'Test failed'
+var0 = "1234567890"
+expected_result =  False
+result = test(var0)
+assert result == expected_result, 'Test failed'

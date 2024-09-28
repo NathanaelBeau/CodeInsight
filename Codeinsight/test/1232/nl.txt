@@ -1,1 +1,1 @@
-Add a character var0 to each item in a list   lst0
+Check if the numpy array arr0 contains any NaN values

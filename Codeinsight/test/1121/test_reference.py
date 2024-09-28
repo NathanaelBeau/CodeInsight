@@ -1,3 +1,4 @@
-def test(lst0, dict0):
-    return [[item for _, item in sorted(zip(map(dict0.get, item), item))] for item in lst0]
+import re
 
+def test(str0):
+    return re.sub(r'\(', '', str0)

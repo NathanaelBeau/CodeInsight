@@ -1,2 +1,3 @@
-def test(lst0):
-    return [i for i, x in enumerate(lst0) if x > 4]
+import numpy as np
+def test(arr0, items0):
+    return np.append(arr0, items0)

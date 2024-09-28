@@ -1,8 +1,7 @@
-def test(lst0, lst1):
-    result_dict = {}
-    for i, key in enumerate(lst0):
-        if i < len(lst1):
-            result_dict[key] = lst1[i]
-        else:
-            result_dict[key] = None
-    return result_dict
+import pandas as pd
+
+def test(var0):
+	df_values = var0.values
+	df_values.sort(axis=1)
+	df_values_sorted = df_values[:, ::-1]
+	return pd.DataFrame(df_values_sorted, var0.index, var0.columns)

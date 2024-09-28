@@ -1,1 +1,1 @@
-Generate a list of cumulative sums for the range up to var0 using list comprehension.
+Retrive all dimensions of an array arr0 except the index var1 of the first dimension

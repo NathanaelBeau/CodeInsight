@@ -1,2 +1,3 @@
-def test(lst0):
-    return [int(x) for x in lst0]
+import pandas as pd
+def test(df0):
+    return df0.reset_index()

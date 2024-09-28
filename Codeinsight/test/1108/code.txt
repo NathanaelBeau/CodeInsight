@@ -1,2 +1,2 @@
-def test(lst0, lst1):
-    return dict(zip(lst0, lst1))
+def test(dict0, var0):
+    return sorted(dict0, key=lambda k: dict0[k][var0])

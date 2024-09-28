@@ -1,1 +1,1 @@
-Replace all elements of a numpy array arr0 that are greater than the value var0.
+The best way to filter a dictionary  dict0 in Python with iteritems  

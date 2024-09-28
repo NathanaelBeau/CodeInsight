@@ -1,3 +1,3 @@
-lst0 = [['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i']]
-expected_output = [['i', 'h', 'g'], ['f', 'e', 'd'], ['c', 'b', 'a']]
-assert test(lst0) == expected_output, 'Test failed'
+s2 = "@Python$Rocks#"
+expected_output2 = 'PythonRocks'
+assert test(s2) == expected_output2, 'Test failed'

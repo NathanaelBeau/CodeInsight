@@ -1,4 +1,4 @@
-import numpy as np
+import pandas as pd
 
-def test(lst0):
-    return np.array(lst0).flatten()
+def test(df0, lst0):
+    return df0.drop_duplicates(subset=lst0)

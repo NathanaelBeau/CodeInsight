@@ -1,3 +1,4 @@
-lst0 = [{'a': 1, 'b': 2}, {'b': 3, 'c': 4}, {'d': 5}]
-expected_output = {'a', 'b', 'c', 'd'}
-assert test(lst0) == expected_output, 'Test failed'
+dict0 = {'a': 1, 'b': 1, 'c': 1}
+expected_result =  set(dict0.keys())  
+result = test(dict0)
+assert result in expected_result, 'Test failed'

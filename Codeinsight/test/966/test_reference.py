@@ -1,2 +1,2 @@
 def test(lst0):
-    return [x for x in lst0 if x]
+    return [i[0] for i in lst0]

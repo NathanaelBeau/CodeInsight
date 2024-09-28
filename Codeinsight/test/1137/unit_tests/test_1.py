@@ -1,7 +1,11 @@
-df4 = pd.DataFrame({'X': [10, 20], 'Y': [30, 40]})
-df5 = pd.DataFrame({'X': [20, 30], 'Y': [40, 50]})
-df6 = pd.DataFrame({'X': [30, 40], 'Y': [50, 60]})
-lst1 = [df4, df5, df6]
-expected_result =  pd.DataFrame({'X': [20.0, 30.0], 'Y': [40.0, 50.0]})
-result = test(lst1)
-assert result.equals(expected_result), 'Test failed'
+data1 = {'date': ['2023-06-01', '2023-06-02', '2023-06-03'],
+         'revenue': [500, 1000, 1500]}
+df1 = pd.DataFrame(data1)
+var0 = 'revenue'
+var1 = 'date'
+col0 = 'CET'
+data2 = {'CET': ['2023-06-01', '2023-06-02', '2023-06-03']}
+df2 = pd.DataFrame(data2)
+expected_output = pd.DataFrame({ 'CET': ['2023-06-01', '2023-06-02', '2023-06-03'], 'revenue': [500, 1000, 1500] })
+test_df = test(df1, df2, col0, var0, var1)
+assert test_df .equals(expected_output), 'Test failed'

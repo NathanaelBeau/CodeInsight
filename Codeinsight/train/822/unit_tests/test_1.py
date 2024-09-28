@@ -1,4 +1,3 @@
-var0 = 5
-expected_result =  False
-result = test(var0)
-assert result == expected_result, 'Test failed'
+str0 = "Python123"
+expected_result =  "123Phnoty"
+assert test(str0) == expected_result, 'Test failed'

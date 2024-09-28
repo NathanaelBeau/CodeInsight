@@ -1,3 +1,4 @@
-lst0 = [1, 2, 3, 4, 5, 6, 7]
-expected_output = []
-assert test(lst0) ==expected_output, 'Test failed'
+str0 = "abcabc"
+expected_result =  ['a', 'b', 'c']
+result = sorted(test(str0))
+assert result==expected_result, 'Test failed'

@@ -1,1 +1,0 @@
-Get the first column from the dataframe df0 as a Series

@@ -1,4 +1,6 @@
-combine two lists lst0 and lst1  into a dictionary in Python  
+Sort each row in a pandas data frame var0 in descending order
 
-def test(lst0, lst1):
+import pandas as pd
+
+def test(var0):
 

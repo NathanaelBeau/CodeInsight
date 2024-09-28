@@ -1,5 +1,5 @@
-lst1 = [5, 6, 7, 8]
-var1 = 3
-expected_result =  [15, 18, 21, 24]
-result = test(lst1, var1)
-assert result == expected_result, 'Test failed'
+# Test 3
+var0 = "test test test test test"
+pattern = r"exam"
+expected_result =  None
+assert test(var0, pattern) == expected_result, 'Test failed'

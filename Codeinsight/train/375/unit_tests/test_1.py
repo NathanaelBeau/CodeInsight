@@ -1,3 +1,4 @@
-lst0 = [{'id': 'A', 'val': 100}, {'id': 'B', 'val': 200}, {'id': 'A', 'val': 150}]
-expected_result =  [{'id': 'A', 'val': 100}, {'id': 'B', 'val': 200}]
-assert test(lst0) == expected_result, 'Test failed'
+lst0 = ["apple", "banana", "cherry", "date", "fig", "grape"]
+var0 = 3
+expected_output = [["apple", "banana"], ["cherry", "date"], ["fig", "grape"]]
+assert test(lst0, var0) == expected_output, 'Test failed'

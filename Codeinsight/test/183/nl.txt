@@ -1,1 +1,1 @@
-Extend a numpy array arr0 in both dimensions by var0 rows and var1 columns  
+Converting a Pandas GroupBy output df0 from Series to DataFrame   

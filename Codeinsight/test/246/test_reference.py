@@ -1,2 +1,4 @@
-def test(var0, var1):
-	return list(range(var0, var1))
+import pandas as pd
+import numpy as np
+def test(df):
+    return df.groupby('Event')['Status'].value_counts().unstack().fillna(0)

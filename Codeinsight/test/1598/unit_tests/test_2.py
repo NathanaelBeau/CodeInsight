@@ -1,5 +1,5 @@
-# Test 2
-lst0 = ["Python is great", "I love programming", "Hello world"]
-lst1 = ["Python", "programming"]
-expected_result =  ["is great", "I love", "Hello world"]
-assert test(lst0, lst1) == expected_result, 'Test failed'
+var0 = 'dates'
+df0 = pd.DataFrame({'dates': [pd.Timestamp('2019-09-09 09:09:09')]})
+expected_result =  pd.DataFrame({'dates': [pd.Timestamp('2019-09-09').date()]})
+result = test(df0, var0)
+assert result.equals(expected_result), 'Test failed'

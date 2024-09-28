@@ -1,4 +1,0 @@
-Finding max value in the second column of a nested list lst0  
-
-def test(lst0):
-

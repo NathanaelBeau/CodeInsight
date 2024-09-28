@@ -1,5 +1,4 @@
-For every element in numpy array arr0, find the index of that element in another numpy array arr1  
+Reverse the elements in list lst0.
 
-import numpy as np
-def test(arr0, arr1):
+def test(lst0):
 

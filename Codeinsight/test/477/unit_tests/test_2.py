@@ -1,7 +1,5 @@
-import pandas as pd
-df0 = pd.DataFrame({ 'P': [1.5, 2.5, 3.5], 'Q': [4.5, 5.5, 6.5], 'R': [7.5, 8.5, 9.5] })
-print(test(df0).equals(pd.DataFrame({
-    'P': [-3.0, -3.0, -3.0],
-    'Q': [0.0, 0.0, 0.0],
-    'R': [3.0, 3.0, 3.0]
-})))
+df0 = pd.DataFrame({ 'timestamp': pd.to_datetime(['2023-01-01', '2023-01-02', '2023-01-03']), 'value': [2, 4, 6] })
+str0 = 'timestamp'
+var0 = '2D'  # Intervalle de temps de 2 jours
+expected_result =  pd.DataFrame({ 'timestamp': pd.to_datetime(['2023-01-01', '2023-01-02', '2023-01-03']), 'value': [2.0, 3.0, 5.0] })
+result = test(df0, str0, var0).equals(expected_result)

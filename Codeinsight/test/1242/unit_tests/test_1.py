@@ -1,4 +1,10 @@
-lst0 = [1, 2, 2]
-expected_result =  None
-result = test(lst0)
-assert result ==expected_result, 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, 3],
+                    'B': [4, 5, 6]})
+expected_output = pd.DataFrame({1: [1., 0., 0.],
+                                 2: [0., 1., 0.],
+                                 3: [0., 0., 1.],
+                                 4: [1., 0., 0.],
+                                 5: [0., 1., 0.],
+                                 6: [0., 0., 1.]},
+                                index=df0.index)
+assert test(df0).equals( expected_output), 'Test failed'

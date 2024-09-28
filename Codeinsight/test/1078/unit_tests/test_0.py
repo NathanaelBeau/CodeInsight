@@ -1,6 +1,5 @@
-df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
-func = lambda row: row.sum()
-ax = 1
-expected_result_apply = pd.Series([5, 7, 9])
-result_apply = test(df0, func, ax)
-assert result_apply.equals(expected_result_apply), 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, 3]})
+lst0 = ['B', 'C']
+expected_result =  pd.DataFrame({'A': [1, 2, 3], 'B': [np.nan, np.nan, np.nan], 'C': [np.nan, np.nan, np.nan]})
+result = test(df0, lst0)
+assert result.equals(expected_result), 'Test failed'

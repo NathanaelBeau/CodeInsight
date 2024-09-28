@@ -1,4 +1,4 @@
-mat1 = np.array([[5, 6], [7, 8]])
-expected_result =  np.array([[25, 36], [49, 64]])
-result = test(mat1)
-assert np.array_equal(result, expected_result), 'Test failed'
+lst0 = [{'my_attr': 123}, {'my_attr': 456}, {'my_attr': 789}]
+var0 = 'my_attr'
+expected_output = [123, 456, 789]
+assert test(lst0, var0) ==expected_output, 'Test failed'

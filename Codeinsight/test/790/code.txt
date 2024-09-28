@@ -1,4 +1,2 @@
-import pandas as pd
-def test(df0):
-    df0.columns = df0.columns.str.strip()
-    return df0
+def test(dict0):
+    return {key.lower(): value for key, value in dict0.items()}

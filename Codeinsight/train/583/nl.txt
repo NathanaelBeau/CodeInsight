@@ -1,1 +1,1 @@
-count the number of a specific character var0 at the end of a string str0 ignoring duplicates   
+Split the string var0 on new lines, tabs, and one or more spaces.

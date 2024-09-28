@@ -1,4 +1,6 @@
-Sort a list lst0 according to another list lst1 of int in ascending order
+Merge the specified columns (lst0) from DataFrame df0 with DataFrame df1 based on the common column var0, and return the resulting DataFrame.
 
-def test(lst0, lst1):
+import pandas as pd
+
+def test(df0, df1, var0, lst0):
 

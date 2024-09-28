@@ -1,4 +1,5 @@
-var0 = ['key1', 'key2', 'key3']
-var1 = 0
-expected_output = {'key1': 0, 'key2': 0, 'key3': 0}
-assert test(var0, var1) ==expected_output, 'Test failed'
+import pandas as pd
+df0 = pd.DataFrame({ 'A': [1, 1, 2, 2, 3, 3], 'B': ['a', 'a', 'b', 'b', 'c', 'c'], 'C': [10, 20, 30, 40, 50, 60] })
+expected_output = pd.DataFrame({ 'A': [1, 2, 3], 'B': ['a', 'b', 'c'], 'C': [20, 40, 60] })
+# Check if the output matches the expected output
+assert test(df0).values.tolist() == expected_output.values.tolist(), 'Test failed'

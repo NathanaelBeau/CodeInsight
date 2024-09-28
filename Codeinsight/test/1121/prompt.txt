@@ -1,4 +1,6 @@
-sort lists lst0 within list in user defined order in dictionary dict0   
+Replace every opening parenthesis in the string str0
 
-def test(lst0, dict0):
+import re
+
+def test(str0):
 

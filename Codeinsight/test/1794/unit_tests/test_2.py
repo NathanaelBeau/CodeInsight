@@ -1,3 +1,4 @@
-lst0 = ["Data (Science)", "Machine (Learning)", "Natural (Language) (Processing)"]
-expected_output = ["Data", "Machine", "Natural"]
-assert test(lst0) ==expected_output, 'Test failed'
+str0 = " "
+str1 = "Hello"
+expected_result =  "H e l l o"
+assert test(str0, str1) == expected_result, 'Test failed'

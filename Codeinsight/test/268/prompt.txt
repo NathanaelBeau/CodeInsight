@@ -1,4 +1,6 @@
-Code to detect all words that start with a capital letter in a string  str0 
+Split a list lst0 whenever there are repeating elements in the list.
 
-def test(str0):
+from itertools import groupby
+
+def test(lst0):
 

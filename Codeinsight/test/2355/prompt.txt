@@ -1,6 +1,0 @@
-Sort a Pandas DataFrame df0 by its index
-
-import pandas as pd
-
-def test(df0):
-

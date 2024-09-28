@@ -1,4 +1,4 @@
-var0 = [0, 1, 2]
-var1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-expected_output = [18, 21, 24]
-assert test(var0, var1) ==expected_output, 'Test failed'
+df0 = pd.DataFrame({'Date': ['2023-09-20', '2023-09-21'], 'Time': ['16:00:00', '17:00:00']})
+expected_result =  pd.to_datetime(['2023-09-20 16:00:00', '2023-09-21 17:00:00'])
+result = test(df0, 'Date', 'Time')
+assert all(result.values == expected_result.values), 'Test failed'

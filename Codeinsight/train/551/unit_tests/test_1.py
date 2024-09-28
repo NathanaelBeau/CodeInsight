@@ -1,3 +1,4 @@
-arr0 = np.array([10, 20, 30, 40])
-expected_output= np.array([[10, 20], [30, 40]])
-assert (test(arr0)  == expected_output).all(), 'Test failed'
+dict0 = {'name': 'John', 'age': 30}
+dict1 = {'city': 'New York', 'country': 'USA'}
+expected_output = {'name': 'John', 'age': 30, 'city': 'New York', 'country': 'USA'}
+assert test(dict0, dict1) ==expected_output, 'Test failed'

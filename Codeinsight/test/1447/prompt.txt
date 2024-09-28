@@ -1,4 +1,6 @@
-Convert the binary string binary_str into its corresponding integer value.
+Check if two numpy arrays arr0 and arr1 are equal, treating NaNs in corresponding positions as equal.  
 
-def test(binary_str: str) -> int:
+import numpy as np
+
+def test(arr0, arr1):
 

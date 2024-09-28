@@ -1,13 +1,4 @@
-lst0 = ["blue", "green", "red"]
-lst1 = [
-            {"name": "John", "eyecolor": "red"},
-            {"name": "Alice", "eyecolor": "blue"},
-            {"name": "Bob", "eyecolor": "green"}
-        ]
-var0 = "eyecolor"
-expected_output = [
-            {"name": "Alice", "eyecolor": "blue"},
-            {"name": "Bob", "eyecolor": "green"},
-            {"name": "John", "eyecolor": "red"}
-        ]
-assert test(lst0, lst1, var0) ==expected_output, 'Test failed'
+str0 = "This is sentence 1. This is sentence 2. This is sentence 3. This is sentence 4."
+var0 = 2  
+expected_output = "This is sentence 1. This is sentence 2."
+assert test(str0, var0) == expected_output, 'Test failed'

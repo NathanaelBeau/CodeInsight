@@ -1,3 +1,4 @@
-def test(var0):
-    formatted_str = "{:,}".format(var0).replace(',', ' ')
-    return formatted_str
+import pandas as pd
+
+def test(df0, column_name0, some_value0):
+    return df0.index[df0[column_name0] == some_value0].tolist()[0]

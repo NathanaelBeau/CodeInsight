@@ -1,7 +1,2 @@
-import collections
-
-def test(str0):
-    d = collections.defaultdict(int)
-    for c in str0:
-        d[c] += 1
-    return sorted(d.items(), key=lambda x: x[1], reverse=True)[0]
+def test(lst):
+    return max(len(s) for sublist in lst for s in sublist)

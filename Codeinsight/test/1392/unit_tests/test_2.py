@@ -1,5 +1,7 @@
-arr0 = np.array([10, 20, 30, 40, 50])
-value0 = 40
-expected_result =  True
-result = test(arr0, value0)
-assert result == expected_result, 'Test failed'
+# Test 3
+df0 = pd.DataFrame({'Type': ['alpha', 'beta', 'alpha', 'gamma', 'gamma'], 'Data': ['one', 'one', 'two', 'two', 'three']})
+var0 = 'Type'
+var1 = 'Data'
+expected_result =  pd.Series([2, 1, 2], index=['alpha', 'beta', 'gamma'], name='Data')
+result = test(df0, var0, var1)
+assert result.equals(expected_result), 'Test failed'

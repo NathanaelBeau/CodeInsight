@@ -1,2 +1,2 @@
-def test(lst0):
-    return {key: value for key, value in lst0}
+def test(lst0: list) -> list:
+    return [x for x in lst0 if x]

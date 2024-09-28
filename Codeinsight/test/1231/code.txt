@@ -1,4 +1,4 @@
-import numpy as np
+import pandas as pd
 
-def test(arr0):
-    return arr0.copy()
+def test(df):
+    return [{col: df[col].tolist()} for col in df.columns]

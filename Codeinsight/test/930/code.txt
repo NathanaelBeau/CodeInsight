@@ -1,2 +1,2 @@
-def test(var1):
-   return var1 < 0
+def test(lst0):
+    return [list(map(int, sublist)) for sublist in lst0]

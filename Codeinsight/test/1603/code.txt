@@ -1,3 +1,4 @@
-import pandas as pd
-def test(df0, col_name, var0):
-    return df0.sample(frac=1).groupby(col_name).head(var0)
+import re
+
+def test(var0):
+    return re.sub(r'\\\\', r'\\', var0)

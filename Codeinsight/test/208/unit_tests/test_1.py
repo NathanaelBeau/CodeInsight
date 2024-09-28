@@ -1,3 +1,3 @@
-lst0 = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape', 'honeydew', 'kiwi', 'lemon', 'mango', 'orange']
-expected_output = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape', 'honeydew', 'kiwi', 'lemon']
-assert test(lst0) == expected_output, 'Test failed'
+str0 = "   Leading spaces\n  More leading spaces\nAnd even more spaces   \n"
+expected_output = "Leading spaces\nMore leading spaces\nAnd even more spaces   \n"
+assert test(str0) == expected_output, 'Test failed'

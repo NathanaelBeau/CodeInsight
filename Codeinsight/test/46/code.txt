@@ -1,3 +1,2 @@
-def test(df0):
-    df0.drop(('col1', 'a'), axis=1, inplace=True)
-    return df0
+def test(lst0):
+    return [i for i, x in enumerate(lst0) if x > 4]

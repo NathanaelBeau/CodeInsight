@@ -1,6 +1,7 @@
-data = {'P': [0, 0, 0, 0, 0],
-         'Q': [-1, -2, -3, -4, -5]}
-df0 = pd.DataFrame(data)
-var0 = 'P'
-expected_output = 0.0
-assert test(df0, var0) ==expected_output, 'Test failed'
+df3 = pd.DataFrame({ 'grades': [['A', 'B'], ['C', 'D'], ['E', 'F']] })
+col_name3 = 'grades'
+val3 = 'D'
+expected_result3 = [False, True, False]
+result3 = test(df3, col_name3, val3)
+result3_list = result3.tolist()
+assert result3_list == expected_result3, 'Test failed'

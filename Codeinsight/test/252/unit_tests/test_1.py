@@ -1,7 +1,4 @@
-df0 = pd.DataFrame({'X': [1, 2], 'Y': [3, 4], 'Z': [5, 6]})
-df1 = pd.DataFrame({'X': [1, 2], 'W': [7, 8]})
-var0 = 'X'
-lst0 = ['X', 'Y']
-expected_result =  pd.DataFrame({'X': [1, 2], 'Y': [3, 4], 'W': [7, 8]})
-result = test(df0, df1, var0, lst0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = ['apple', 'banana', 'cherry', 'date', 'fig']
+lst1 = [0, 2, 4]
+expected_output = ['apple', 'cherry', 'fig']
+assert test(lst0, lst1) ==expected_output, 'Test failed'

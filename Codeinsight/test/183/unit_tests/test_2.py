@@ -1,6 +1,4 @@
-arr2 = np.array([[11, 12]])
-var0 = 0
-var1 = 0
-expected_result =  np.array([[11, 12]])
-result = test(arr2, var0, var1)
-assert np.array_equal(result, expected_result), 'Test failed'
+df0 = pd.DataFrame({ "Name": ["John", "Alice", "John", "Bob"], "City": ["Paris", "New York", "Paris", "London"] })
+# Définition de la valeur attendue expected_output
+expected_output = pd.DataFrame({ "Name": ["Alice", "Bob", "John"], "City": ["New York", "London", "Paris"], "count": [1, 1, 2] })
+assert test(df0) .equals(expected_output), 'Test failed'

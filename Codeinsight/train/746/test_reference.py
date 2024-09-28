@@ -1,3 +1,2 @@
-def test(lst0, lst1):
-    lst1[:0] = lst0
-    return lst1
+def test(lst0):
+    return tuple(item[0] for item in lst0)

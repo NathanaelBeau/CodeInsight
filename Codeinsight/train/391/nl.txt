@@ -1,1 +1,1 @@
-Extract a subset of key-value pairs from dictionary dict0 based on the keys present in list lst0.
+Compose keys from dictionary dict0 with respective values in dictionary dict1

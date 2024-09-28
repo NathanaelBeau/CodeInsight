@@ -1,5 +1,5 @@
-import pandas as pd
+import re
 
-def test(df0):
-    df0.drop(columns=[col for col in df0.columns if (df0[col] == 0).all()], inplace=True)
-    return df0
+def test(var0, var1):
+    pattern = r'\b\d{{{0},}}\b'.format(var1)
+    return re.findall(pattern, var0)

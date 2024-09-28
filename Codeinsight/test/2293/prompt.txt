@@ -1,5 +1,0 @@
-Replace words in string var0 using substitutions from dictionary dict0
-
-import re
-def test(var0, dict0):
-

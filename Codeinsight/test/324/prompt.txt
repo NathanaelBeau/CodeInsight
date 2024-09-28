@@ -1,6 +1,5 @@
-Convert the pandas DataFrame df0 to a list of dictionaries.
+Split a string str0 based on the regular expression pattern var0
 
-import pandas as pd
-
-def test(df0):
+import re
+def test(var0, str0):
 

@@ -1,6 +1,6 @@
-Flattening a list of NumPy arrays lst0  
+Select distinct values across columns lst0 in a dataframe df0
 
-import numpy as np
+import pandas as pd
 
-def test(lst0):
+def test(df0, lst0):
 

@@ -1,3 +1,4 @@
-str0 = 'one,two,three,four,five'
-expected_output = ['one', 'two', 'three', 'four', 'five']
-assert test(str0) ==expected_output, 'Test failed'
+df0 = pd.DataFrame({ 'A': [np.nan, np.nan, np.nan], 'B': [np.nan, 20, np.nan] })
+expected_result =  pd.DataFrame({ 'A': [], 'B': [] })
+result = test(df0)
+assert result.equals(expected_result), 'Test failed'

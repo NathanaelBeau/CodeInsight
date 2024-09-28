@@ -1,1 +1,1 @@
-Remove NaN/NULL columns in a Pandas dataframe df0   
+Convert a column with name var0 in a dataframe df0 to a date data type.

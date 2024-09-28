@@ -1,4 +1,5 @@
-A3 = ['apple', 'banana', 'cherry', 'date']
-B3 = ['banana', 'date', 'fig']
-expected_output3 = [1, 3]
-assert test(A3, B3) == expected_output3, 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]}, index=[10, 20, 30])
+var0 = 10
+expected_result =  True
+result = test(df0, var0)
+assert result == expected_result, 'Test failed'

@@ -1,1 +1,0 @@
-apply a logical operator to all elements in a python list  lst0 

@@ -1,1 +1,1 @@
-Convert a 1D array arr0 to a 2D array in numpy   
+How do I merge two dictionaries dict0 and dict1 in a single expression (take union of dictionaries)?   

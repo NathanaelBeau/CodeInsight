@@ -1,1 +1,1 @@
-Sort a dictionary dct0 by the highest value of its nested list values in descending order   
+Sorting a list of lists lst0 of dictionaries in python   

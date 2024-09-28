@@ -1,3 +1,4 @@
-str0 = "This is another #example with an #accentué character"
-expected_output = ["example", "accentué"]
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = ['a', 'b', 'c']
+expected_result =  ['c', 'b', 'a']
+result = test(lst0)
+assert result == expected_result, 'Test failed'

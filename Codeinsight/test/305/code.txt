@@ -1,4 +1,5 @@
-import pandas as pd
-
-def test(df0):
-    return df0.groupby(df0.columns, axis=1).sum()
+import numpy as np
+def test(lst0, lst1):
+    diff = np.subtract(lst0, lst1)
+    squared_diff = np.power(diff, 2)
+    return np.mean(squared_diff)

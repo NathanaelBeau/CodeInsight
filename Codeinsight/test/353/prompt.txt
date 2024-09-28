@@ -1,5 +1,4 @@
-split a dataframe df0 string column var0 into two columns  var1
+Format number num0 to have exactly 2 digits after the decimal.
 
-import pandas as pd
-def test(df0, var0, var1):
+def test(num0):
 

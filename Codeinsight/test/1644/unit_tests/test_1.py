@@ -1,5 +1,4 @@
-var0 = 'col2'
-var1 = [{'col1': 'x', 'col2': 'a'}, {'col1': 'y', 'col2': 'b'}, {'col1': 'z', 'col2': 'a'}]
-expected_result =  [{'col1': 'x', 'col2': 'a'}, {'col1': 'y', 'col2': 'b'}]
-result = test(var0, var1)
-assert result==expected_result, 'Test failed'
+lst0 = [2, 4, 6]
+lst1 = [1, 3, 5]
+expected_output = 44
+assert test(lst0, lst1) ==expected_output, 'Test failed'

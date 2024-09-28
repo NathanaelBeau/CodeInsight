@@ -1,4 +1,4 @@
-lst0 = [(10, 1), (20, 1), (30, 1)]
-expected_result =  [(10, 1), (20, 1), (30, 1)]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame({"X": ["apple", "banana"], "Y": ["fruit", "fruit"]})
+expected_result =  pd.Series(["apple fruit", "banana fruit"])
+result = test(df0)
+assert result.equals(expected_result), 'Test failed'

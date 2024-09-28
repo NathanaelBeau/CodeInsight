@@ -1,3 +1,4 @@
-s2 = "WORLD"
-expected_output2 = "wORLD"
-assert test(s2) == expected_output2, 'Test failed'
+var0 = 'abbcccddddd'
+expected_result =  'abcd'
+result = test(var0)
+assert result == expected_result, 'Test failed'

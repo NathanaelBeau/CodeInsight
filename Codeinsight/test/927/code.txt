@@ -1,2 +1,4 @@
-def test(lst0):
-    return {k: v for d in lst0 for k, v in d.items()}
+import numpy as np
+
+def test(arr0, var0):
+    return np.argmax(arr0 == var0)

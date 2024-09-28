@@ -1,4 +1,3 @@
-var0 = "Python"
-expected_result =  "python"
-result = test(var0)
-assert result == expected_result, 'Test failed'
+s = "No parentheses here!"
+expected_output = "No parentheses here!"
+assert test(s) == expected_output, 'Test failed'

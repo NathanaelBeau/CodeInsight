@@ -1,4 +1,6 @@
-Retrieve the indices of the two largest values from the list lst0.
+Select the last column of a DataFrame df0
 
-def test(lst0):
+import pandas as pd
+
+def test(df0):
 

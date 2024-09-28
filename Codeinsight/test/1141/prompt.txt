@@ -1,6 +1,4 @@
-get the name of the rows from the index of a data frame df0   
+Split the list lst0 into sublists of size var0.
 
-import pandas as pd
-
-def test(df0):
+def test(lst0, var0):
 

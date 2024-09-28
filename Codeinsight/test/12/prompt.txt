@@ -1,5 +1,4 @@
-All combinations of a list of lists  lst0
+Convert a list lst0 into a string with values separated by spaces
 
-from itertools import product
 def test(lst0):
 

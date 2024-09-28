@@ -1,6 +1,6 @@
-Multiply two vectors vect0 and vect1 
+Trying to use reduce() and lambda with a list lst0 containing strings   
 
-import numpy as np
+from functools import reduce
 
-def test(vect0, vect1):
+def test(lst0):
 

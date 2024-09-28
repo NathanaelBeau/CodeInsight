@@ -1,3 +1,6 @@
-str0 = "FF"
-expected_output = 255
-assert test(str0) == expected_output, 'Test failed'
+df0 = pd.DataFrame({'x': [7, 8], 'y': [10, 9]})
+df1 = pd.DataFrame({'x': [11, 12], 'y': [8, 7]})
+var0 = 'y'
+expected_result =  pd.DataFrame({'x': [12, 11, 8, 7], 'y': [7, 8, 9, 10]})
+result = test(df0, df1, var0)
+assert result.equals(expected_result), 'Test failed'

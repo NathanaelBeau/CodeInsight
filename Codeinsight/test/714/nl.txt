@@ -1,1 +1,1 @@
-Join the items of each tuple in the list of tuples lst0 into a list of strings.
+Check if all elements in the list lst0 are False. 

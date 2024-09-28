@@ -1,6 +1,2 @@
-import pandas as pd
-from sklearn.preprocessing import MinMaxScaler
-
-def test(df0):
-    scaler = MinMaxScaler()
-    return pd.DataFrame(scaler.fit_transform(df0), columns=df0.columns)
+def test(lst0: list) -> list:
+    return [item.split('\t') for item in lst0]

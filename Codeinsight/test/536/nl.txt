@@ -1,1 +1,1 @@
-Filter rows from DataFrame df0 where column col_name does not contain the substring substring.
+Iterate over a multiindex dataframe df0 and return a list of tuples containing the index and the value in column 'A'

@@ -1,4 +1,4 @@
-df = pd.DataFrame({'A': [1, 2, 3], 'B': [4.0, 5.0, 6.0], 'C': ['seven', 'eight', 'nine']})
-arg = (df, {'B': str})
-expected_output = df.astype({'A': int, 'B': str, 'C': str})
-assert test(*arg).equals(expected_output), 'Test failed'
+lst0 = ["apple", "banana", "cherry"]
+var0 = 1
+expected_output = ['apple', 'banana', 'cherry']
+assert test(lst0, var0) ==expected_output, 'Test failed'

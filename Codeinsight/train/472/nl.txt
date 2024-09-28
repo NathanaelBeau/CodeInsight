@@ -1,1 +1,1 @@
-Count unique values in column var1 for each group in column var0 of the pandas DataFrame df0.
+Filter rows in dataframe df0 where column var0 contains any string from the list lst0.

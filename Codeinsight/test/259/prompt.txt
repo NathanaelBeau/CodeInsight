@@ -1,6 +1,4 @@
-Delete the row at position var0 in numpy array x.
+Create and return a new dictionary by mapping the values from dict0 to the corresponding values in dict1.
 
-import numpy as np
-
-def test(x, var0):
+def test(dict0, dict1):
 

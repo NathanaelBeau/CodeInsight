@@ -1,3 +1,3 @@
-str0 = 'OpenAI'
-expected_output = 'O,p,e,n,A,I'
-assert test(str0) ==expected_output, 'Test failed'
+dict0 = {'a': 0, 'b': 5, 'c': 5}
+results = [test(dict0) for _ in range(1000)]
+assert 'a' not in results, 'Test failed'

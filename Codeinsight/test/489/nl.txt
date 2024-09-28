@@ -1,1 +1,1 @@
-Convert list of tuples lst0 to list   
+Apply multiple filters specified by condition to a pandas DataFrame df0.

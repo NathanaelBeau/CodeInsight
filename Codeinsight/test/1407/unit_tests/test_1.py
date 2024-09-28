@@ -1,4 +1,6 @@
-lst0 = [('A', 'B', 'C'), ('1', '2', '3')]
-expected_result =  ['ABC', '123']
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+# Test case 2
+arr0 = np.array([])
+value0 = 10
+expected_result =  np.array([10])
+result = test(arr0, value0)
+assert np.array_equal(result, expected_result), 'Test failed'

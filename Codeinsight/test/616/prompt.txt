@@ -1,4 +1,6 @@
-Extract all keys from a list of dictionaries  lst0
+ Drop rows from a dataframe df0 based on a "not in" condition for column var0 using values from list lst0
 
-def test(lst0):
+import pandas as pd
+
+def test(df0, var0, lst0):
 

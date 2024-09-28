@@ -1,6 +1,3 @@
-Convert an HTML string str0 into a readable string text with line breaks.
-
-from bs4 import BeautifulSoup
-
-def test(str0):
+ sort a list of strings lst0, allowing for certain strings to be sorted in descending order based on their indices lst1, set to None if no index
+def test(lst0, lst1):
 

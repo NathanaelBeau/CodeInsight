@@ -1,4 +1,4 @@
-Functional statement in Python to return the sum of  lists in a list of lists  lst0
+Convert a byte string str0 to a unicode string
 
-def test(lst0):
+def test(str0):
 

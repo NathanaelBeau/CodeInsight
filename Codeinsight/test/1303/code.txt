@@ -1,2 +1,3 @@
-def test(var0, var1):
-    return [var1] * var0
+def test(lst0):
+    return list(filter(lambda item: item is not None and item != '', lst0))
+

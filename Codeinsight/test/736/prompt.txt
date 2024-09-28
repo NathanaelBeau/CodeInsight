@@ -1,6 +1,7 @@
-In Python, index a list lst0  with another list  lst1 
+ get the min value  of List of Tuples lst0 (string, float)with NaN using math and itemgetter
 
-from functools import reduce
+import math
+from operator import itemgetter
 
-def extract_element(lst, index):
+def test(lst0):
 

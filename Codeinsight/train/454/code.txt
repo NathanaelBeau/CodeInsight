@@ -1,4 +1,4 @@
-import pandas as pd
-
-def test(df0):
-    return df0.shape[0]
+import re
+def test(var0):
+    pattern = r'\b(\w+)\b(?=.*\b\1\b)'
+    return re.findall(pattern, var0)

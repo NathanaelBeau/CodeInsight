@@ -1,1 +1,1 @@
- extract numbers(commas) from a string str0 in Python  with regex 
+Sort the dictionary dct0 based on the second element of its values.

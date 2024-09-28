@@ -1,5 +1,4 @@
-# Unit Test 1
-dict0 = {'A': [1, 2, 3], 'B': [4, 5, 6]}
-expected_result =  pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
-result = test(dict0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [1, 2, 3, 4]
+lst1 = [5, 6, 7]
+expected_output = [5, 6, 7, 1, 2, 3, 4]
+assert test(lst0, lst1) ==expected_output, 'Test failed'

@@ -1,6 +1,4 @@
-Select all columns from a dataframe df0 whose names start with a string var0 
+Check if dictionary dict0 is a subset of another dictionary dict1
 
-import pandas as pd
-
-def test(df0, var0='X'):
+def test(dict0, dict1):
 

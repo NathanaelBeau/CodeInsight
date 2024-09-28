@@ -1,3 +1,3 @@
-str0 = "1999-12-31 23:59:59.999999"
-expected_output = datetime(1999, 12, 31, 23, 59, 59, 999999)
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = [(7, 8, 9), (10,)]
+expected_result =  [7, 8, 9, 10]
+assert test(lst0) == expected_result, 'Test failed'

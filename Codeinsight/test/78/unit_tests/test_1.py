@@ -1,4 +1,3 @@
-n = 1
-some_list = ['apple', 'banana', 'cherry', 'date', 'elderberry']
-expected_output = ['elderberry']
-assert test(n, some_list) == expected_output, 'Test failed'
+str0 = b''
+expected_output = []
+assert test(str0) == expected_output, 'Test failed'

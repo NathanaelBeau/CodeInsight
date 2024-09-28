@@ -1,3 +1,4 @@
-s = "No parentheses here!"
-expected_output = "No parentheses here!"
-assert test(s) == expected_output, 'Test failed'
+lst0 = [1, 2, 3, 4, 5]
+expected_result =  '12345'
+result = test(lst0)
+assert result == expected_result, 'Test failed'

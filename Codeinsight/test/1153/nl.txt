@@ -1,1 +1,1 @@
-Find the indices of value var0 in a 2D list lst0
+Compare Python Pandas DataFrames df0 and df1 for matching rows at columns var0

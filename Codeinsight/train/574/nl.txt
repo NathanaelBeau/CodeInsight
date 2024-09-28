@@ -1,1 +1,1 @@
-on pandas datframe df0 rearrange Pandas column sequence based on column list var0 and sequence list var1   
+split a unicode string str0 into list  using list comprehension

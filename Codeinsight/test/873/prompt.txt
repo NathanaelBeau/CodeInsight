@@ -1,5 +1,4 @@
-Compute the eigenvalues and eigenvectors of the matrix mat0, sort the eigenvalues in descending order, and reorder the corresponding eigenvectors accordingly. Return the sorted eigenvalues and eigenvectors.
+convert a list of multiple integers lst0 into a single integer using sum and enumerate   
 
-import numpy as np
-def test(mat0):
+def test(lst0):
 

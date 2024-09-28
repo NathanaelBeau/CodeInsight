@@ -1,1 +1,1 @@
-Combine the values of matching keys and sort the resultant dictionary by the summed values, using a list of dictionaries lst0.
+Determine if the value value0 exists in the column named col_name of the pandas DataFrame df0.

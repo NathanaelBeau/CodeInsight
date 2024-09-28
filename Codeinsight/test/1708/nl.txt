@@ -1,1 +1,1 @@
-Rename the column at position var0 in a dataframe df0 to a new name var1
+Check if the array row0 is present as any row in the array arr0, returning True if found and False otherwise.

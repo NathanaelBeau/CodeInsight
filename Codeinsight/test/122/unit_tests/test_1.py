@@ -1,4 +1,3 @@
-lst0 = ['a', 'b', 'c']
-lst1 = ['x', 'y', 'z']
-expected_output = ['x', 'y', 'z', 'a', 'b', 'c']
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+lst0 = [10, 20, 30, 40, 10]
+expected_output = [0, 1, 2, 3, 0]
+assert test(lst0) ==expected_output, 'Test failed'

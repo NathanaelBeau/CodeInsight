@@ -1,3 +1,3 @@
-str0 = '12345678'
-expected_output = '12-34-56-78'
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = ["12345", "1", "123456789", "12", "1234"]
+expected_output = ["1", "12", "1234","12345",  "123456789"]
+assert test(lst0) == expected_output, 'Test failed'

@@ -1,5 +1,4 @@
-var0 = "Bananas are tasty. I like bananas."
-var1 = "bananas"
-expected_result =  "Bananas are tasty. I like ."
-result = test(var0, var1)
-assert result == expected_result, 'Test failed'
+import pandas as pd
+df0 = pd.DataFrame({'A': [10, 20, 30], 'B': [40, 50, 60]})
+expected_result =  pd.DataFrame({'A': [10, 20, 30], 'B': [40, 50, 60]})  # No '-' to replace
+assert test(df0).equals(expected_result), 'Test failed'

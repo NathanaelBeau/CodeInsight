@@ -1,4 +1,4 @@
-Return True if string str0 starts with a number, else False 
+string str0 to list conversion in python   
 
 def test(str0):
 

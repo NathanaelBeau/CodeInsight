@@ -1,2 +1,3 @@
-def test(var0, var1, var2):
-    return var0.replace(var1, var2) if var1 in var0 else var0 + var2
+import numpy as np
+def test(arr0, var0):
+    return np.append(arr0, var0)

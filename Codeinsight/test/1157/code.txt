@@ -1,2 +1,5 @@
-def test(lst0):
-    return [tuple(lst0[i:i+2]) for i in range(0, len(lst0), 2)]
+import pandas as pd
+
+def test(df0, new_column_tuple0, values_list0):
+    df0[new_column_tuple0] = values_list0
+    return df0

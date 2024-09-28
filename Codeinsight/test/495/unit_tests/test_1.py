@@ -1,6 +1,8 @@
-df0 = pd.DataFrame({ 'A': [50, 60, 70, 80], 'B': ['e', 'f', 'g', 'h'] })
-column_name0 = 'B'
-some_value0 = 'f'
-expected_result =  1
-result = test(df0, column_name0, some_value0)
-assert result == expected_result, 'Test failed'
+# Unit Test 2
+df0 = pd.DataFrame({ 'date': ['2023-01-01', '2023-01-02', '2023-01-02'], 'name': ['A', 'B', 'A'], 'dollars': [10, 20, 30] })
+var0 = 'date'
+var1 = 'name'
+var2 = 'dollars'
+expected_result =  pd.DataFrame({ 'A': [10.0, 30.0], 'B': [None, 20.0] }, index=['2023-01-01', '2023-01-02'])
+result = test(df0, var0, var1, var2)
+assert result.equals(expected_result), 'Test failed'

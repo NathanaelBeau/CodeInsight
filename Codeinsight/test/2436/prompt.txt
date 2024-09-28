@@ -1,4 +1,0 @@
-sum the product of two list items lst0 and lst1 using for loop in python  
-
-def test(lst0, lst1):
-

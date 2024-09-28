@@ -1,5 +1,4 @@
-var0 = "Hello, World! This is an example string. Hello, again!"
-var1 = "Hello"
-expected_result =  ", World! This is an example string. , again!"
-result = test(var0, var1)
-assert result == expected_result, 'Test failed'
+import pandas as pd
+df0 = pd.DataFrame({'A': [1, '-'], 'B': [3, 4]})
+expected_result =  pd.DataFrame({'A': [1, np.nan], 'B': [3, 4]})
+assert test(df0).equals(expected_result), 'Test failed'

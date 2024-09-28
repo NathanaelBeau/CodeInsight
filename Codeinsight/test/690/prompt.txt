@@ -1,6 +1,4 @@
-Make new column 'sum' in Panda dataframe df0 by adding values from other columns  lst0
+Convert a comma-separated string str0 into a list of integer pairs.
 
-import pandas as pd
-
-def test(df0, lst0):
+def test(str0):
 

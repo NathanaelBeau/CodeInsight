@@ -1,5 +1,5 @@
-lst0 = [1, 2, 1, 3]
-lst1 = ['a', 'b', 'a', 'c']
-expected_codes = pd.Series([0, 1, 0, 2], dtype='int8')
-result = pd.Series(test('col1', 'col2', lst0, lst1))
-assert result.equals(expected_codes), 'Test failed'
+lst0 = [[1, 1], [1, 2], [2, 1], [1, 1], [3, 4]]
+var0 = [1, 1]
+expected_result =  [[1, 2], [2, 1], [3, 4]]
+result = test(lst0, var0)
+assert result == expected_result, 'Test failed'

@@ -1,4 +1,4 @@
-str0 = "banana"
-expected_result =  "aaabnn"
-result = test(str0)
-assert result == expected_result, 'Test failed'
+lst0 = ['apple', 'banana', 'cherry']
+expected_result =  np.array(['apple', 'banana', 'cherry'], dtype=object)
+result = test(lst0)
+assert np.array_equal(result, expected_result), 'Test failed'

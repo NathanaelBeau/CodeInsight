@@ -1,1 +1,1 @@
- Replace content within parentheses including the parentheses in column 'name' of dataframe df0.
+Limit the number var0 of sentences in a string str0  

@@ -1,4 +1,6 @@
-import numpy as np
+from collections import Counter
 
-def test(arr0, var0, var1):
-    return np.count_nonzero((arr0 >= var0) & (arr0 <= var1))
+def test(lst0):
+    counts = Counter(lst0)
+    return [k for k in lst0 if counts[k] == 1]
+

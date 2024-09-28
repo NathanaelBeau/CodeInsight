@@ -1,2 +1,2 @@
-def test(str0, str1):
-    return all(char in str1 for char in str0)
+def test(lst0):
+	return dict(lst0[i:i+2] for i in range(0, len(lst0), 2))

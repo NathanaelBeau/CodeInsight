@@ -1,6 +1,3 @@
-# Test 2
-ser0 = pd.Series([10, 20, 30], name='X')
-ser1 = pd.Series([40, 50, 60], name='Y')
-expected_result =  pd.DataFrame({'X': [10, 20, 30], 'Y': [40, 50, 60]})
-result = test(ser0, ser1)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [("USA", 10), ("China", 20), ("Russia", 10), ("Japan", 5), ("France", 20)]
+expected_output = [("China", 20), ("France", 20), ("Russia", 10), ("USA", 10), ("Japan", 5)]
+assert test(lst0) ==expected_output, 'Test failed'

@@ -1,3 +1,4 @@
-import numpy as np
-def test(arr0):
-    return np.argwhere(np.isnan(arr0))
+from itertools import accumulate
+
+def test(lst0):
+    return list(accumulate(lst0))

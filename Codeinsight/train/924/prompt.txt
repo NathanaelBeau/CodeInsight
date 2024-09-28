@@ -1,6 +1,4 @@
-Convert the 'Date' column of a DataFrame df0 to a datetime format using the format '%d-%m-%Y'.
+reverse the input string str0
 
-import pandas as pd
-
-def test(df0):
+def test(str0):
 

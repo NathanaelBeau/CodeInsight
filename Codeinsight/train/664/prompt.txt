@@ -1,6 +1,4 @@
-Extract row with maximum value in a group pandas dataframe   df0 in column var0
+Extract the first letter from each word in the string str0.
 
-import pandas as pd
-
-def test(df0, var0):
+def test(str0):
 

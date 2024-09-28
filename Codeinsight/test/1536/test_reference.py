@@ -1,2 +1,3 @@
-def test(lst0):
-    return max(lst0[i+1] - lst0[i] for i in range(len(lst0)-1))
+import numpy as np
+def test(arr0):
+    return list(map(list, zip(*arr0)))

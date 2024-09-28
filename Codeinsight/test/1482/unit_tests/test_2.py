@@ -1,4 +1,5 @@
-arr0 = np.array([[9.5, 10.4], [11.3, 12.2]])
-expected_result =  np.array([[9, 10], [11, 12]])
-result = test(arr0)
-assert np.array_equal(result, expected_result), 'Test failed'
+# Test 2
+var0 = "helloWORLDpythonCODE"
+var1 = r'[A-Z]+'
+expected_result =  "hellopython"
+assert test(var0, var1) == expected_result, 'Test failed'

@@ -1,4 +1,5 @@
-arr0 = [10, 20, 30, 40, 50]
-var0 = 100
-expected_output = [10, 20, 30, 40, 50]
-assert test(arr0, var0) ==expected_output, 'Test failed'
+var0 = 'apple'
+var1 = 'banana'
+lst0 = ['apple', 'orange', 'apple']
+expected_result =  ['banana', 'orange', 'banana']
+assert test(var0, var1, lst0) == expected_result, 'Test failed'

@@ -1,6 +1,4 @@
-Find the row in DataFrame df0 where the value for column var0 is maximal.
+Python: Getting rid of \u200b from a string str0 without regular expressions   with replace
 
-import pandas as pd
-
-def test(df0, var0):
+def test(str0):
 

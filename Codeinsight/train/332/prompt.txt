@@ -1,5 +1,6 @@
-Normalize the NumPy array arr0 to form a unit vector. 
+Get the row count of a DataFrame df0.
 
-import numpy as np
-def test(arr0):
+import pandas as pd
+
+def test(df0):
 

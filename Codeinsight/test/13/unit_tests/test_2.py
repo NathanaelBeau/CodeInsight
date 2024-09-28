@@ -1,3 +1,4 @@
-s3 = "No@separator."
-expected_output3 = ['No', '@', 'separator', '.']
-assert test(s3) == expected_output3, 'Test failed'
+arr0 = [1, 2, 3, 4, 5]
+arr1 = [6, 7, 8]
+expected_output = [1, 2, 3, 4, 5]
+assert test(arr0, arr1) ==expected_output, 'Test failed'

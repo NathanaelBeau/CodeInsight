@@ -1,4 +1,2 @@
-import re
-
-def test(var0):
-    return [part for part in re.split(r'\D+', var0) if part]
+def test(dict0, var0):
+    return any(val == var0 for val in dict0.values())

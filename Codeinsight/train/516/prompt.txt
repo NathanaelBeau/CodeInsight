@@ -1,4 +1,6 @@
- best way to remove a dictionary item from dictionary dict0 by value var0 in python using create a copy of dictionary to iterate over
+Finding the most frequent character in a string   str0 
 
-def test(dict0, var0):
+import collections
+
+def test(str0):
 

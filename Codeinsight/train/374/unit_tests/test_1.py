@@ -1,2 +1,3 @@
-expected_columns = ['A', 'B', 'A1R', 'B2', 'AABB4']
-assert test().columns.tolist() == expected_columns, 'Test failed'
+str0 = "Hello"
+expected_output = ['H', 'e', 'l', 'l', 'o']
+assert test(str0) == expected_output, 'Test failed'

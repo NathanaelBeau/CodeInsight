@@ -1,4 +1,5 @@
-import numpy as np
+import pandas as pd
 
-def test(arr0, arr1):
-    return np.concatenate((arr0, arr1))
+def test(df0):
+    df0.reset_index(drop=True, inplace=True)
+    return df0

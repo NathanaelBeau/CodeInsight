@@ -1,3 +1,3 @@
-import numpy as np
+from operator import itemgetter 
 def test(lst0):
-    return np.array(lst0, dtype=object)
+    return sorted(lst0, key=itemgetter(1), reverse=True)

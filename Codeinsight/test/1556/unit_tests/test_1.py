@@ -1,3 +1,4 @@
-str0 = "5A10B15C"
-expected_output = [('5', 'A'), ('10', 'B'), ('15', 'C')]
-assert test(str0) ==expected_output, 'Test failed'
+str0 = "bye"
+var0 = "Bye bye Birdie!"
+expected_result =  ["Bye", "bye"]
+assert test(str0, var0) == expected_result, 'Test failed'

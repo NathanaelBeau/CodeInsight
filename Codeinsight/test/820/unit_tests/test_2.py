@@ -1,8 +1,6 @@
-# Test 3
-df0 = pd.DataFrame({'colors': ['red', 'blue', 'yellow', 'red']})
-column_name = 'colors'
-old_value = 'red'
-new_value = 'green'
-expected_result =  pd.DataFrame({'colors': ['green', 'blue', 'yellow', 'green']})
-result = test(df0, column_name, old_value, new_value)
-assert result.equals(expected_result), 'Test failed'
+arr2 = np.array(['a', 'b', 'c', 'd'])
+old_val2 = 'b'
+new_val2 = 'z'
+expected_result =  np.array(['a', 'z', 'c', 'd'])
+result = test(arr2, old_val2, new_val2)
+assert np.array_equal(result, expected_result), 'Test failed'

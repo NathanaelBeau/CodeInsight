@@ -1,4 +1,3 @@
-var0 = b'\xc2\xa9'
-expected_result =  '©'
-result = test(var0)
-assert result == expected_result, 'Test failed'
+dict0 = {'a': False, 'b': False, 'c': False, 'd': False}
+expected_output = False
+assert test(dict0) == expected_output, 'Test failed'

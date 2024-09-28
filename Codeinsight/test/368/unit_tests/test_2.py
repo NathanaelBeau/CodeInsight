@@ -1,4 +1,3 @@
-str0 = "7 apples"
-expected_output = True
-output = test(str0)
-assert output == expected_output, 'Test failed'
+str0 = 'one,two,three,four,five'
+expected_output = ['one', 'two', 'three', 'four', 'five']
+assert test(str0) ==expected_output, 'Test failed'

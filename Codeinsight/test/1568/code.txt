@@ -1,4 +1,4 @@
-import pandas as pd
-def test(df0):
-    df0.index.name = None
-    return df0
+import numpy as np
+
+def test(str0):
+    return np.frombuffer(str0, dtype='<f4')

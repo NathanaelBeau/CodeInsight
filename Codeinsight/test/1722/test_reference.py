@@ -1,4 +1,3 @@
-from itertools import chain
+def test(str0, str1):
+    return str0[:1] + str1 + str0[6:]
 
-def test(lst0, lst1):
-	return list(chain(*zip(lst0,lst1)))

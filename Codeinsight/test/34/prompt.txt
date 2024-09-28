@@ -1,4 +1,6 @@
-return variables var0 without spaces between values with concatenation  
+Concatenate a list of DataFrames lst0 together.
 
-def test(var0):
+import pandas as pd
+
+def test(lst0):
 

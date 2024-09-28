@@ -1,4 +1,4 @@
-lst0 = [5, 10, 15, 20, 25]
-window_size = 2
-expected_output = [7.5, 12.5, 17.5, 22.5]
-assert test(lst0, window_size) ==expected_output, 'Test failed'
+lst0 = [[1, 2], [3, 4], [5, 6]]
+expected_result =  [[2, 1], [4, 3], [6, 5]]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

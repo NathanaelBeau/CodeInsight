@@ -1,1 +1,1 @@
-Sort the keys of the dictionary dict0 based on the length of their corresponding values in descending order 
+ iterate through a list of tuples lst0 containing three pair values   

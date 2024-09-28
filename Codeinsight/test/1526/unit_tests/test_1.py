@@ -1,9 +1,4 @@
-arr0 = np.array([[11, 12, 13],
-                   [21, 22, 23],
-                   [31, 32, 33],
-                   [41, 42, 43]])
-expected_output = np.array([[11, 12, 13],
-                              [21, 22, 23],
-                              [31, 32, 33],
-                              [41, 42, 43]])
-assert (test(arr0)  == expected_output).all(), 'Test failed'
+lst0 = ["apple", "banana", "cherry"]
+expected_result =  ["cherry", "apple", "banana"]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

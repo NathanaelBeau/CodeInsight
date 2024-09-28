@@ -1,4 +1,4 @@
-str0 = ['hellojava', 'world', 'python', 'programming']
-str1 = 'java'
-expected_output = ['hellojava']
-assert test(str0, str1) ==expected_output, 'Test failed'
+var0 = 0
+expected_result =  0
+result = test(var0)
+assert result == expected_result, 'Test failed'

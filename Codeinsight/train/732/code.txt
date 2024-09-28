@@ -1,4 +1,4 @@
-import re
+import pandas as pd
 
-def test(str0):
-    return re.split(r'[;,\s]\s*', str0)
+def test(df0, lst0):
+    return df0.assign(new_column=lst0)

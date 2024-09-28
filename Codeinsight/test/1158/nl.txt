@@ -1,1 +1,1 @@
- pythonically set a value in a dictionary dict0 if it is None at key var0
+Count unique combinations of values in the columns listed in lst0 from a dataframe df0

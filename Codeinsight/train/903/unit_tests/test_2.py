@@ -1,5 +1,3 @@
-lst0 = ['alpha', 'beta', 'delta', 'gamma']
-lst1 = [1, 1, 1, 1]
-expected_result =  ['alpha', 'beta', 'delta', 'gamma']
-result = test(lst0, lst1)
-assert result == expected_result, 'Test failed'
+var0 = 0
+var1 = "banana"
+assert test(var0, var1) == [], 'Test failed'

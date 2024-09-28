@@ -1,5 +1,8 @@
 def test(lst0):
-    try:
-        return min(x for x in lst0 if x > 2)
-    except ValueError:
-        return None
+    reversed_tuples = []
+    for x in lst0:
+        reversed_tuple = ()
+        for item in x:
+            reversed_tuple = (item,) + reversed_tuple
+        reversed_tuples.append(reversed_tuple)
+    return tuple(reversed_tuples)

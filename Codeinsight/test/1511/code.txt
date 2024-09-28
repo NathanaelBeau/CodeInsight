@@ -1,3 +1,4 @@
-def test(var0):
-    lst = var0.split(",")
-    return ['0' if x == '' else x for x in lst]
+import pandas as pd
+
+def test(df: pd.DataFrame) -> list:
+    return df.to_dict(orient='records')

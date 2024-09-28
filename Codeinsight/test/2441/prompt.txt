@@ -1,4 +1,0 @@
-Format string - spaces between every three digit  in string var0 
-
-def test(var0):
-

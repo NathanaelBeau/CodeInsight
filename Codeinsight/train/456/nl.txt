@@ -1,1 +1,1 @@
-Get a list of column headers from DataFrame df0.
+multi-column factorize in pandas with columns var0 and var1 and values lst0 and lst1

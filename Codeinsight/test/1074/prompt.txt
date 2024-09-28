@@ -1,5 +1,6 @@
-Add an extra column col0 to a NumPy array arr0
+Remove specific elements by index  of numpy array var0 in a numpy array  arr0
 
 import numpy as np
-def test(arr0, col0):
+
+def test(arr0, var0):
 

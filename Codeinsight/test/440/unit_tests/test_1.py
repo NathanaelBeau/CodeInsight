@@ -1,3 +1,5 @@
-str0 = "Hello\nWorld"
-expected_output = [['Hello'], ['World']]
-assert test(str0) == expected_output, 'Test failed'
+df0 = pd.DataFrame(columns=['A', 'B'])
+df1 = pd.DataFrame(columns=['A', 'B'])
+result = test(df0, df1)
+expected = pd.DataFrame(columns=['A', 'B'])
+assert result.equals(expected), 'Test failed'

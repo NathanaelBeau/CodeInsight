@@ -1,1 +1,1 @@
- iterate through a list of tuples lst0 containing three pair values   
+Compute the norm for each row of the matrix mat0.  

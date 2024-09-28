@@ -1,4 +1,3 @@
-# Test 1
-var0 = "3.71B"
-expected_result =  3.71 * 10**9
-assert test(var0) == expected_result, 'Test failed'
+lst0 = [{'id': 1, 'name': 'John'}, {'id': 2, 'name': 'Jane'}, {'id': 1, 'name': 'Doe'}]
+expected_result =  [{'id': 1, 'name': 'John'}, {'id': 2, 'name': 'Jane'}]
+assert test(lst0) == expected_result, 'Test failed'

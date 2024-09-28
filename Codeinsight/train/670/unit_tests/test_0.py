@@ -1,3 +1,4 @@
-str0 = b'Hello, World!'
-expected_output = ['H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!']
-assert test(str0) == expected_output, 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+lst0 = ['A', 'B']
+expected_output0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6], 'sum': [5, 7, 9]})
+assert test(df0, lst0).equals(expected_output0), 'Test failed'

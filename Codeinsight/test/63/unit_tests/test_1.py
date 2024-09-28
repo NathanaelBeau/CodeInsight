@@ -1,3 +1,5 @@
-lst0= ["1.0.0", "2.0.0", "1.0.0"]
-expected_output = ["1.0.0", "1.0.0", "2.0.0"]
-assert test(lst0) == expected_output, 'Test failed'
+var0 = 3
+lst0 = [3, 6, 9]
+expected_result =  [1.0, 2.0, 3.0]
+result = test(var0, lst0)
+assert result == expected_result, 'Test failed'

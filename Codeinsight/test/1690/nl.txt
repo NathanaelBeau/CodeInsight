@@ -1,1 +1,1 @@
- convert a list of str lst0 to a list of floats  with split and strip
+Convert a 3D list lst0 into a 3D NumPy array.

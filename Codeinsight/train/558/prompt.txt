@@ -1,4 +1,4 @@
-Sorting a dictionary dict0 by value then by key   
+In Python,  compare two lists lst0 and lst1 and get all indices of matches   
 
-def test(dict0):
+def test(lst0, lst1):
 

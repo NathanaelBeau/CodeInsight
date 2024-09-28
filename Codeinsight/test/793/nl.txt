@@ -1,1 +1,1 @@
-split string str0 into words that do not contain whitespaces in python  
+Convert a list lst0 to a pandas dataframe with a single column named 'Column_Name

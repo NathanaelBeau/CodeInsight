@@ -1,1 +1,1 @@
-how to parse a list or string lst0 into chunks of fixed length var0  
+Extract a list of strings from a delimited string var0, replacing empty strings with 0

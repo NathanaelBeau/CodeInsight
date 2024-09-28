@@ -1,6 +1,4 @@
-Remove all text within parentheses, including the parentheses, from string str0.
+Convert a list lst0 into a concatenated string   
 
-import re
-
-def test(str0: str) -> str:
+def test(lst0):
 

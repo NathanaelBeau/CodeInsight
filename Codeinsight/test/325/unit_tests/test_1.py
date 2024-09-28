@@ -1,10 +1,4 @@
-df0 = pd.DataFrame({'A': [1, 2, 3],
-                    'B': [4, 5, 6]})
-expected_output = pd.DataFrame({1: [1., 0., 0.],
-                                 2: [0., 1., 0.],
-                                 3: [0., 0., 1.],
-                                 4: [1., 0., 0.],
-                                 5: [0., 1., 0.],
-                                 6: [0., 0., 1.]},
-                                index=df0.index)
-assert test(df0).equals( expected_output), 'Test failed'
+df = pd.DataFrame()
+result = test(df)
+expected = pd.Index([])
+assert result .equals(expected), 'Test failed'

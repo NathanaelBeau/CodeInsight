@@ -1,1 +1,1 @@
-Filter out empty strings from a list of strings lst0.
+Retrieve the number of columns in the pandas DataFrame df0.

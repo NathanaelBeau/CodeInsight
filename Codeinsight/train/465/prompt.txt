@@ -1,6 +1,4 @@
-Get the first row value from column var0 in a pandas DataFrame df0.
+Replace the single quote (') character from a string str0   using generator expression
 
-import pandas as pd
-
-def test(df0, var0):
+def test(str0):
 

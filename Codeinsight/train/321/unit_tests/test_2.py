@@ -1,4 +1,3 @@
-dtype2 = 'uint8'
-expected_result =  1
-result = test(dtype2)
-assert result == expected_result, 'Test failed'
+dict0 = {'dog': 1, 'cat': 2}
+expected_result =  ['cat', 'dog']
+assert test(dict0) == expected_result, 'Test failed'

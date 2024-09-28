@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
-def test(df0):
-    return df0.fillna(0)
+def test(var0, var1):
+    return pd.DataFrame(0, index=range(var0), columns=range(var1))

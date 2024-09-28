@@ -1,4 +1,4 @@
-arr0 = np.array([-5, -4, -3, -2, -1])
-expected_min, expected_max = -5, -1
-result_min, result_max = test(arr0)
-assert result_min == expected_min and result_max == expected_max, 'Test failed'
+dict0 = {'a': 1, 'b': 1, 'c': 1, 'd': 1}
+arg0 = 1
+expected_output = ['a', 'b', 'c', 'd']
+assert test(dict0, arg0) == expected_output, 'Test failed'

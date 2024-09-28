@@ -1,1 +1,1 @@
-Replace consecutive occurrences of the character * with a single * in the string var0.
+duplicate data in pandas dataframe df0 for var0 times resetting index

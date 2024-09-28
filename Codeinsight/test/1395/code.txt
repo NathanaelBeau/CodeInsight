@@ -1,3 +1,3 @@
-import numpy as np
-def test(var0, var1):
-    return np.log(var0) / np.log(var1)
+def test(lst0, *args):
+    lengths = [len(lst0), *map(len, args)]
+    return all(length == lengths[0] for length in lengths)

@@ -1,5 +1,3 @@
-import pandas as pd
-
-def test(df0, var0):
-    df0[['col0', 'col1']] = df0[var0].apply(pd.Series)
-    return df0.drop(columns=[var0])
+def test(lst0):
+    parity_list = ["Even" if x % 2 == 0 else "Odd" for x in lst0]
+    return parity_list

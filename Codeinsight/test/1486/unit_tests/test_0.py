@@ -1,6 +1,5 @@
-# Test 1
-df0 = pd.DataFrame({'A': [1, 2, 3]}, index=['x', 'y', 'z'])
-df1 = pd.DataFrame({'B': [4, 5, 6]}, index=['x', 'y', 'z'])
-expected_result =  pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]}, index=['x', 'y', 'z'])
-result = test(df0, df1)
-assert result.equals(expected_result), 'Test failed'
+dct0 = {"a": 1, "b": 2, "c": 3}
+dct1 = {"b": 4, "c": 5, "d": 6}
+expected_result =  {"b": 2, "c": 3}
+result = test(dct0, dct1)
+assert result == expected_result, 'Test failed'

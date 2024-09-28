@@ -1,5 +1,5 @@
-Expand the numpy array arr0 by adding var0 number of rows and var1 number of columns filled with zeros 
+Find the nearest value var0 in a numpy array lst0 
 
 import numpy as np
-def test(arr0, var0, var1):
+def test(lst0, var0):
 

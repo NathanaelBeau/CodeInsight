@@ -1,4 +1,3 @@
-dict0 = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
-lst0 = ['a', 'c']
-expected_output1 = {'a': 1, 'c': 3}
-assert test(dict0, lst0) == expected_output1, 'Test failed'
+var0 = 5
+expected_output = 5
+assert len(test(var0)) == expected_output, 'Test failed'

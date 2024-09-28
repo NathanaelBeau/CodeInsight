@@ -1,2 +1,4 @@
-def test(lst0: list, lst1: list) -> bool:
-    return all(i < j for (i, j) in zip(lst0, lst1))
+import pandas as pd
+def test(df0, var0):
+    df0.drop(var0, axis=1, inplace=True)
+    return df0

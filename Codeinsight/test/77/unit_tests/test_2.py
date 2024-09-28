@@ -1,2 +1,4 @@
-a = '2'
-assert test(a)==2, 'Test failed'
+str0 = 'document.pdf'
+str1 = ['.pdf', '.docx']
+expected_output = True
+assert test(str0, str1 ) ==expected_output, 'Test failed'

@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(arr0, arr1):
-    return np.hstack((arr0, arr1))
+def test(lst0):
+    return set().union(*(d.keys() for d in lst0))

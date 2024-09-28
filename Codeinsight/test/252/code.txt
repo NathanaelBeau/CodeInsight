@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0, df1, var0, lst0):
-    return pd.merge(df0[lst0], df1, on=var0)
+def test(lst0, lst1):
+    return list(map(lambda i: lst0[i], lst1))

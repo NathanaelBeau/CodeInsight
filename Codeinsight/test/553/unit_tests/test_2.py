@@ -1,5 +1,3 @@
-lst0 = [1, 2, 3]
-lst1 = [True, False, True]
-expected_result =  {1: True, 2: False, 3: True}
-result = test(lst0, lst1)
-assert result == expected_result, 'Test failed'
+arr0 = np.array([100, 200, 300, 400, 500, 600, 700, 800])
+expected_output = np.array([[100, 200], [300, 400], [500, 600], [700, 800]])
+assert (test(arr0)  == expected_output).all(), 'Test failed'

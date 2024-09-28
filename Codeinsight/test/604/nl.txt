@@ -1,1 +1,1 @@
-How to flatten a tuple lst0 python with chain from itertools
+Changing one character var0 by var1 in a string  str0 

@@ -1,1 +1,1 @@
-List comprehension with an accumulator  on list lst0 
+Get a list of indices of non-zero elements from the list lst0.

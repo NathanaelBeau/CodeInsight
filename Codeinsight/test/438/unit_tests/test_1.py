@@ -1,5 +1,6 @@
-var0 = "f"
-dct0 = {"a": 1, "b": {"c": 2, "d": {"e": 4, "f": 5}}}
-expected_result =  5
-result = test(var0, dct0)
-assert result == expected_result, 'Test failed'
+# Test 3
+var0 = "apple, orange, banana"
+var1 = r"\b\w+\b"
+var2 = "+"
+expected_result =  "apple+, orange+, banana+"
+assert test(var0, var1, var2) == expected_result, 'Test failed'

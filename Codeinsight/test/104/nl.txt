@@ -1,1 +1,1 @@
-Delete all columns in DataFrame df0 that do not hold a non-zero value in its records.
+Calculate the Euclidean distance between two points var0 and var1 using NumPy

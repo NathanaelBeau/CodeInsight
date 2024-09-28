@@ -1,5 +1,4 @@
-Get the first character of the first string in a list lst0   
+Get the first var0 elements from list lst0 that are not contained in list lst1.
 
-
-def test(lst0) :
+def test(lst0, lst1, var0):
 

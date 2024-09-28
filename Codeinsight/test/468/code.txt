@@ -1,5 +1,4 @@
-import pandas as pd
 import numpy as np
 
-def test(df0):
-    return df0.fillna(value=np.nan)
+def test(arr0):
+    return np.split(arr0, np.where(np.diff(arr0) != 1)[0] + 1)

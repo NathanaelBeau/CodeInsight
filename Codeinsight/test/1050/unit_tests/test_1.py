@@ -1,4 +1,3 @@
-var0 = "applepie"
-var1 = "apple"
-expected_result =  []
-assert test(var0, var1) == expected_result, 'Test failed'
+dict0 = {'a': None}
+expected_output = {'a': 0}
+assert test(dict0) ==expected_output, 'Test failed'

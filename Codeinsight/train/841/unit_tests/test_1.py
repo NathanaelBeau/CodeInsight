@@ -1,3 +1,4 @@
-datetime0 = datetime.datetime(2015, 12, 31, 23, 59, 59)
-expected_output = pd.Timestamp("2015-12-31 23:59:59")
-assert test(datetime0) == expected_output, 'Test failed'
+lst0 = ['a', 'b', 'c', 'd']
+expected_result =  [('a', 'b'), ('c', 'd')]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

@@ -1,2 +1,2 @@
-def test(dct0):
-    return list(dct0.keys()), list(dct0.values())
+def test(str0):
+    return list(map(str.strip, str0.split(',')))

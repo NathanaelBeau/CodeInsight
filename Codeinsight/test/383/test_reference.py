@@ -1,2 +1,4 @@
-def test(lst0, var0, bool0):
-    return sorted(lst0, key=lambda x: x[var0], reverse=bool0)
+import pandas as pd
+
+def test(df0):
+    return df0.loc[df0.index.repeat(5)].reset_index(drop=True)

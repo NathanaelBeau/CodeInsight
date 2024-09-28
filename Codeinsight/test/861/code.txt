@@ -1,4 +1,2 @@
-
-
-def test(a, var0=25, var1=100):
-    return sum(1 for val in a if var0 < val <= var1)
+def test(dict0, var0):
+    return {k: v for k, v in dict0.items() if v == var0}

@@ -1,4 +1,4 @@
- split sub-lists lst0 into sub-lists k  var0times? (Python)   
+insert a list lst1  at the front of another list lst0  
 
-def test(lst0, var0):
+def test(lst0, lst1):
 

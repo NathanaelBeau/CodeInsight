@@ -1,3 +1,5 @@
-str0 = "I don\'t know why I don\'t have the right answer"
-expected_output = "I don't know why I don't have the right answer"
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = [1, 2, 3, 2, 2, 3, 1, 2, 4, 2]
+var0 = 2
+var1 = "apple"
+expected_output = [1, 'apple', 3, 'apple', 'apple', 3, 1, 'apple', 4, 'apple']
+assert test(lst0, var0, var1) ==expected_output, 'Test failed'

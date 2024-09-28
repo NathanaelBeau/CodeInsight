@@ -1,4 +1,4 @@
-import numpy as np
+import re
 
-def test(lst0):
-    return np.array(lst0, dtype=int).tolist()
+def test(s: str) -> str:
+    return re.sub(r'\d+$', '', s)

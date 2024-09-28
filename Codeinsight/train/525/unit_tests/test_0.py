@@ -1,5 +1,4 @@
-str0 = 'python'
-var0 = 4
-str1 = 'i'
-expected_output = "pythin"
-assert test(str0, var0, str1) ==expected_output, 'Test failed'
+df0 = pd.DataFrame({'A': [1, 4, 3], 'B': [4, 5, 6], 'C': [7, 2, 9]})
+expected_result =  pd.Series(['C', 'B', 'C'])
+result = test(df0)
+assert result.equals(expected_result), 'Test failed'

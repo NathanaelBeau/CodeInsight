@@ -1,4 +1,5 @@
-lst0 = ["Hello World", "Python Rocks"]
-expected_result =  [["Hello", "World"], ["Python", "Rocks"]]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+str0 = "Hello; world!"
+var0= ";"
+var1= ":"
+expected_output = "Hello: world!"
+assert test(str0, var0, var1) ==expected_output, 'Test failed'

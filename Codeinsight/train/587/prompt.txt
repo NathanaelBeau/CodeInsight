@@ -1,6 +1,6 @@
-Python, lambda, find minimum value in list lst0  with pandas
+Extract the content within the brackets from the string var0.
 
-import pandas as pd
+import re
 
-def test(lst0):
+def test(var0):
 

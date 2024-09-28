@@ -1,3 +1,3 @@
-x3 = [[-1, -2, -3], [-4, -5], [0, 0, 0]]
-expected_output3 = [0, 0, 0]
-assert test(x3) == expected_output3, 'Test failed'
+str0 = "{'a': 1, 'b': 2, 'c': 3}"
+expected_output = {'a': 1, 'b': 2, 'c': 3}
+assert test(str0) ==expected_output, 'Test failed'

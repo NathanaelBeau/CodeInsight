@@ -1,6 +1,6 @@
- Extract all words from a string var0 while removing punctuation
+Convert the pandas DataFrame df0 to a dictionary with an orientation of var0.
 
-import re
+import pandas as pd 
 
-def test(var0):
+def test(df0, var0='dict'):
 

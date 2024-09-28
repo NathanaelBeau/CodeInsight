@@ -1,4 +1,4 @@
-str0 = "1234,5678,90,12,34,567,89,0"
-var0 = ","
-expected_output = "1234,5678,90,12,34,567,89"
-assert test(str0, var0) ==expected_output, 'Test failed'
+lst0 = [10, 20, 30, 40]
+lst1 = [40, 30, 20, 10]
+expected_output = [0, 0, 0, 0]
+assert test(lst0, lst1) ==expected_output, 'Test failed'

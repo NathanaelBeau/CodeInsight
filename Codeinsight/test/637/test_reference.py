@@ -1,4 +1,4 @@
-from functools import reduce
+import numpy as np
 
-def test(lst0):
-    return reduce(lambda x, y: 10 * x + y, lst0)
+def test(arr0):
+    return arr0.tolist()

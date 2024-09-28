@@ -1,5 +1,3 @@
-# Test 2
-df0 = pd.DataFrame({'X': ['a', 'b', 'c', 'd'], 'Y': ['w', 'x', 'y', 'z']})
-expected_result =  pd.DataFrame({'X': ['d'], 'Y': ['z']})
-result = test(df0).reset_index(drop=True)
-assert result.equals(expected_result), 'Test failed'
+var0_2 = 3
+expected_output2 = [0, 1, 3]  # Cumulative sums of [0, 1, 2]
+assert test(var0_2) == expected_output2, 'Test failed'

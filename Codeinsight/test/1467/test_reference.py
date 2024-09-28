@@ -1,4 +1,4 @@
-import pandas as pd
-import numpy as np
-def test(df0):
-    return df0[["A", "B"]].multiply(df0["C"], axis="index")
+import re
+
+def test(str0, var0):
+    return re.findall(str0, var0, re.IGNORECASE | re.MULTILINE)

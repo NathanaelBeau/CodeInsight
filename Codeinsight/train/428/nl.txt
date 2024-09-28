@@ -1,1 +1,1 @@
-Retrieve all start indices of occurrences of the substring substring in string str0.
+Sort alphabetically a list of string lst0

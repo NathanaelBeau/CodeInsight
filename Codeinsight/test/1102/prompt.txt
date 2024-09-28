@@ -1,4 +1,6 @@
-Get max value index for a list of dicts lst0 with enumerate
+ remove multiple columns that end with same text str0 ath the end   in Pandas datframe df0   
 
-def test(lst0):
+import pandas as pd
+
+def test(df0, str0):
 

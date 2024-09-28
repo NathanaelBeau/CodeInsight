@@ -1,4 +1,4 @@
-Convert a string var0 to integer with decimal
+Check if string str0 ends with one of the strings from a list lst0  
 
-def test(var0):
+def test(str0, lst0):
 

@@ -1,1 +1,1 @@
- Calculate the sum of all columns of a 2D numpy array arr0.   
+Convert a list of tuples lst0 into a list of lists

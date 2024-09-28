@@ -1,5 +1,6 @@
-import pandas as pd
+import math
+import numpy as np
 
-def test(df0, column_name0, decimals0):
-    df0[column_name0] = df0[column_name0].round(decimals0)
-    return df0
+def test(arr0):
+    return [value for value in arr0 if not math.isnan(value)]
+

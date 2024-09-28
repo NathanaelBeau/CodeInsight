@@ -1,1 +1,1 @@
-Convert binary string str0 to list of integers using Python   
+Convert a list of dictionaries lst0 into a pandas DataFrame.

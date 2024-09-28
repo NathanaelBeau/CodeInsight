@@ -1,1 +1,1 @@
-Python Add Comma or another symbol var0  Into Number String  str0 
+Create a dictionary using columns col_name1 and col_name2 from a pandas DataFrame df0.

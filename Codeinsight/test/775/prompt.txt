@@ -1,4 +1,5 @@
-Return a list containing elements from the list lst0 where the sum of the elements in each sub-list is greater than 10.
+Regex add character to matched string   str0
 
-def test(lst0: list) -> list:
+import re
+def test(str0):
 

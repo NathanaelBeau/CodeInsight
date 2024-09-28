@@ -1,4 +1,6 @@
-merge a list of dicts lst0 into a single dict  
+Replace every occurrence of '\u200b' with '*' in a string str0
 
-def test(lst0):
+
+import re
+def test(str0):
 

@@ -1,1 +1,1 @@
-Use a list of values lst0 to select rows for values in column var0 from a Pandas dataframe   df0
+Round the values in column column_name0 of a DataFrame df0 to decimals0 decimal places.

@@ -1,1 +1,1 @@
-Count the number of NaN values in each column of the dataframe df0.
+Delete all objects in a list  lst0

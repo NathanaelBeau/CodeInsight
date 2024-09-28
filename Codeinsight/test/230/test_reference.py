@@ -1,3 +1,5 @@
-from operator import itemgetter 
-def test(lst0):
-    return sorted(lst0, key=itemgetter(1), reverse=True)
+def test(str0, str1):
+    if any(str1 in s for s in str0):
+        matching = [s for s in str0 if str1 in s]
+        return matching
+ 

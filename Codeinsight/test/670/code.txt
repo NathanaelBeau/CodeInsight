@@ -1,3 +1,4 @@
-import numpy as np
-def test(arr0):
-    return np.where(arr0 == 0)
+import pandas as pd
+
+def test(dict0):
+    return pd.DataFrame(dict0)

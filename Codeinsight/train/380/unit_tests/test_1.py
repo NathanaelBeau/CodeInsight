@@ -1,3 +1,4 @@
-lst0 = [{'gold': 7}, {'gold': 5}, {'gold': 1}]
-expected_result =  13
-assert test(lst0) == expected_result, 'Test failed'
+lst0 = ["apple", "banana orange"]
+expected_result =  [["apple"], ["banana", "orange"]]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

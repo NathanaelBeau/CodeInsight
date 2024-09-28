@@ -1,4 +1,4 @@
-df = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
-result = test(df, axis0=1)
-expected = pd.DataFrame({'A': [-1.5, -1.5, -1.5], 'B': [1.5, 1.5, 1.5]})
-assert result.equals(expected), 'Test failed'
+df2 = pd.DataFrame({ 'X': ['cat', 'cat', 'dog', 'dog', 'bird'], 'Y': ['small', 'big', 'small', 'big', 'small'] })
+key_columns2 = ['X', 'Y']
+expected_result2 = pd.Series([1, 1, 1, 1, 1], index=pd.MultiIndex.from_tuples([('bird', 'small'), ('cat', 'big'), ('cat', 'small'), ('dog', 'big'), ('dog', 'small')], names=['X', 'Y']))
+assert test(df2, key_columns2).equals(expected_result2), 'Test failed'

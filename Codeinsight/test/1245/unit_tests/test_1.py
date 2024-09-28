@@ -1,5 +1,5 @@
-arr0 = np.array([10, 20, 30])
-arr1 = np.array([0, 10, 20])
-expected_result =  np.array([5., 15., 25.])
-result = test(arr0, arr1)
-assert np.array_equal(result, expected_result), 'Test failed'
+str0 = "1234567"
+char0 = ':'
+expected_result =  "12:34:56:7"
+result = test(str0, char0)
+assert result == expected_result, 'Test failed'

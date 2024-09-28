@@ -1,2 +1,6 @@
-def test(lst0, var0, var1):
-    return [(var0[i] if flag else var1[i]) for i, flag in enumerate(lst0)]
+import pandas as pd
+
+def test(df0, df1, df2, col_name):
+    dfs = [df.set_index(col_name) for df in [df0, df1, df2]]
+    result = pd.concat(dfs, axis=1).reset_index()
+    return result

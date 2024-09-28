@@ -1,6 +1,6 @@
-Count the number of duplicate rows in a pandas DataFrame df0.
+Append a list or series lst0 to a pandas DataFrame df0 as a new row
 
 import pandas as pd
 
-def test(df0):
+def test(df0, lst0):
 

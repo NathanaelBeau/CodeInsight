@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(x, var0):
-    return np.vstack((x[:var0], x[var0+1:]))
+def test(dict0, dict1):
+    return {k: dict1.get(v) for k, v in dict0.items()}

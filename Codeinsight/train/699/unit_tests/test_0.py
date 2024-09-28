@@ -1,5 +1,4 @@
-str0 = "Hello"
-lst0 = ["Alice", "Bob", "Charlie"]
-expected_result =  ["HelloAlice", "HelloBob", "HelloCharlie"]
-result = test(str0, lst0)
+var0 = "Hello\nWorld"
+expected_result =  "Hello"
+result = test(var0)
 assert result == expected_result, 'Test failed'

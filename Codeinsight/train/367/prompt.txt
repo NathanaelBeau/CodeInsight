@@ -1,4 +1,6 @@
-Create a list that indicates if the elements at corresponding positions in lists lst0 and lst1 are identical (i.e., the same object).
+Percentage match condition >0 in pandas Dataframe  df0 on column var0 
 
-def test(lst0, lst1):
+import pandas as pd
+
+def test(df0, var0):
 

@@ -1,4 +1,4 @@
-var0= False
-var1=False
-expected=False
-assert test(var0,var1) == expected, 'Test failed'
+lst0 = []
+expected_result =  0
+result = test(lst0)
+assert result == expected_result, 'Test failed'

@@ -1,2 +1,4 @@
-def test(lst0):
-    return [[int(x) for x in sublist] for sublist in lst0]
+import re
+
+def test(var0, var1, str0):
+    return re.sub(var0, var1, str0)

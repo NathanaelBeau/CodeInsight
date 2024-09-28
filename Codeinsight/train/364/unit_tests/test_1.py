@@ -1,4 +1,6 @@
-lst0 = [5, 10, 15]
-lst1 = [0, 5, 10]
-expected_output = [5, 5, 5]
-assert test(lst0, lst1) == expected_output, 'Test failed'
+def determine(x):
+    return x > 5
+lst0 = [2, 6, 8, 3, 7, 1, 9]
+var0 = determine
+expected_output = [2, 3, 1]
+assert test(lst0, var0)==expected_output, 'Test failed'

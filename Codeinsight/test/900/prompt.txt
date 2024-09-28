@@ -1,4 +1,4 @@
-check if all the provided lists (including the first one, lst0, and any additional lists passed as *args) have the same length.  
+Remove words from list lst1 from each string in list lst0.
 
-def test(lst0, *args):
+def test(lst0, lst1):
 

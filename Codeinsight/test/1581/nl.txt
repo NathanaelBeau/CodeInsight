@@ -1,1 +1,1 @@
-Find the indices of elements in the numpy array arr0 that are equal to zero
+Retrieve the indices of the two largest values from the list lst0.

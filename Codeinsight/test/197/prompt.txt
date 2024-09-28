@@ -1,6 +1,6 @@
-Sort a list of lists lst0 according to the second element
+Capitalize words in the Unicode string var0
 
-import operator
+import re
 
-def test(lst0):
+def test(var0):
 

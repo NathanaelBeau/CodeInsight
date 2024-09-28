@@ -1,7 +1,5 @@
-import numpy as np
-
-def test(shape0, var0):
-    if var0:
-        return np.ones(shape0, dtype=bool)
-    else:
-        return np.zeros(shape0, dtype=bool)
+def test(lst0):
+    count = 0
+    for _ in lst0:
+        count += 1
+    return count

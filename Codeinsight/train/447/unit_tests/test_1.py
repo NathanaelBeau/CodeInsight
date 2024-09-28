@@ -1,4 +1,4 @@
-# Test 3
-var0 = "No brackets here"
-expected_result =  "No brackets here"
-assert test(var0) == expected_result, 'Test failed'
+input_str = "Python is awesome"
+expected_result =  [6, 2, 7]
+result = test(input_str)
+assert result == expected_result, 'Test failed'

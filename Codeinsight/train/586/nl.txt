@@ -1,1 +1,1 @@
-Convert list lst0 into a dictionary using zip
+Changing one character var0 by var1 in a string  str0 

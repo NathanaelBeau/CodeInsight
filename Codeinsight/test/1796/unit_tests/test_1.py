@@ -1,3 +1,3 @@
-df0 = pd.DataFrame({'B': ['a', 'b', 'c', 'd']}, index=['x', 'y', 'y', 'z'])
-expected_output = pd.DataFrame({'B': ['a', 'b', 'd']}, index=['x', 'y', 'z'])
-assert test(df0).equals(expected_output), 'Test failed'
+str0 = "{'key1': 1, 'key2': [1, 2, 3], 'key3': {'nested_key': 'value'}}"
+expected_output = {'key1': 1, 'key2': [1, 2, 3], 'key3': {'nested_key': 'value'}}
+assert test(str0) ==expected_output, 'Test failed'

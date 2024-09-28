@@ -1,4 +1,4 @@
-# Test 2
-var0 = "The price is $100 not $50."
-expected_result =  ['$100', '$50']
-assert test(var0) == expected_result, 'Test failed'
+lst0 = [-1, -2, -3]
+lst1 = [1, 2, 3]
+expected_result =  [0, 0, 0]
+assert test(lst0, lst1) == expected_result, 'Test failed'

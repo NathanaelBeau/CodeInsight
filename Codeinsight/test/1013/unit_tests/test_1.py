@@ -1,4 +1,4 @@
-arr0 = np.array([1, 2, 3])
-arr1 = np.array([4, 5])
-expected_output = np.array([1, 2, 3, 4, 5])
-assert (test(arr0, arr1)  == expected_output).all(), 'Test failed'
+dict0 = {"somekey": 1, "differentkey": 2, "somekeyggg": 3}
+lst0 = ["somekey", "someotherkey", "somekeyggg"]
+expected_result =  False
+assert test(dict0, lst0) == expected_result, 'Test failed'

@@ -1,5 +1,4 @@
-matrix0 = np.array([[1,2],[3,4],[5,6],[7,8]])
-var0 = 1
-expected_result =  np.array([[1],[3],[5],[7]])
-result = test(matrix0, var0)
-assert np.array_equal(result, expected_result), 'Test failed'
+lst0 = [7, 2, 9, 5, 3]
+lst1 = ['P', 'Q', 'R', 'S', 'T']
+expected_output = ['Q', 'T', 'S', 'P', 'R']
+assert test(lst0, lst1) ==expected_output, 'Test failed'

@@ -1,6 +1,4 @@
-Decode the escape sequences in a string named str0
+Convert list lst0 into a dictionary using zip
 
-import codecs
-
-def test(str0):
+def test(lst0):
 

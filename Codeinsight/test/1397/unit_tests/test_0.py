@@ -1,4 +1,4 @@
-s1 = "apple, banana; orange, grape"
-pattern1 = "[,;]"
-expected_output1 = ['apple', ' banana', ' orange', ' grape']
-assert test(s1, pattern1) == expected_output1, 'Test failed'
+str0 = '100110'
+expected_result =  ['1', '0', '0', '1', '1', '0']
+result = test(str0)
+assert result == expected_result, 'Test failed'

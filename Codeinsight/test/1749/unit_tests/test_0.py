@@ -1,4 +1,4 @@
-var0 = {'a': 3, 'b': 1, 'c': 2}
-expected_result =  {'a': 3, 'c': 2, 'b': 1}
-result = test(var0)
-assert result == expected_result, 'Test failed'
+str0 = "10,20,30,40,50"
+expected_output = [10, 20, 30, 40, 50]
+result = test(str0)
+assert result == expected_output, 'Test failed'

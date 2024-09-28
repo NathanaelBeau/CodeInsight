@@ -1,3 +1,3 @@
-arg="12345"
-expected_output=5
-assert test(arg) == expected_output, 'Test failed'
+s3 = "No separator."
+expected_output3 = ['No', ' ', 'separator.']
+assert test(s3) == expected_output3, 'Test failed'

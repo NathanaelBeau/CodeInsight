@@ -1,5 +1,4 @@
-import pandas as pd
+from collections import ChainMap
 
-def test(df0, var0):
-    df0[var0] = pd.to_datetime(df0[var0])
-    return df0
+def test(lst0):
+    return dict(ChainMap(*lst0))

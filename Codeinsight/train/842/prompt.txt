@@ -1,5 +1,4 @@
-Multiply entire column named var0 in a DataFrame df0 with a scalar var1
+Find the indices of value var0 in a 2D list lst0
 
-import pandas as pd
-def test(df0, var0, var1):
+def test(lst0, var0):
 

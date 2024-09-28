@@ -1,1 +1,1 @@
-Convert all keys in dictionary dict0 to lowercase
+Switch every pair of characters in a string str0 

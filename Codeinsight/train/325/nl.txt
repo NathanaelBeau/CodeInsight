@@ -1,1 +1,1 @@
-Calculate the count of distinct elements in each column of the DataFrame df0 
+Create a list by summing up the respective elements of the tuples present in list lst0.

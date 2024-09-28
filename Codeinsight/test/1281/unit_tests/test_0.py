@@ -1,4 +1,4 @@
-lst0 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-expected_result =  45
-result = test(lst0)
+str0 = b'hello'
+expected_result =  'hello'
+result = test(str0)
 assert result == expected_result, 'Test failed'

@@ -1,5 +1,0 @@
-Convert a Scikit-learn dataset dataset0 into a Pandas DataFrame.   
-
-import pandas as pd
-def test(dataset0):
-

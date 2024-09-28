@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0: pd.DataFrame):
-    return df0.replace('-', None)
+def test(dict0, var0) :
+    return dict((k, dict0[k]) for k in var0)

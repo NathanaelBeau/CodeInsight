@@ -1,1 +1,1 @@
-Converting a dict dict0 into a list   
+Create a numpy array from the list of strings lst0 with arbitrary length.  

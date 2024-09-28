@@ -1,4 +1,4 @@
 import pandas as pd
 
 def test(df0):
-    return pd.DataFrame(df0.values, columns=df0.columns).reset_index(drop=True)
+    return df0.apply(lambda x: x.to_dict(), axis=1).tolist()

@@ -1,6 +1,4 @@
-Convert the values in column 'a' of the pandas dataframe df into a list.
+Extend the dictionary dict0 with key/value pairs from dictionary dict1
 
-import pandas as pd
-
-def test(df: pd.DataFrame) -> list:
+def test(dict0, dict1):
 

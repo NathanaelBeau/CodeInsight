@@ -1,5 +1,3 @@
-from scipy.sparse import csr_matrix
-mat1 = csr_matrix([[0, 0], [0, 0]])
-expected_result =  np.matrix([[0, 0], [0, 0]])
-result = test(mat1)
-assert np.array_equal(result, expected_result), 'Test failed'
+var0_2 = 3
+expected_output2 = [0, 1, 3]  # Cumulative sums of [0, 1, 2]
+assert test(var0_2) == expected_output2, 'Test failed'

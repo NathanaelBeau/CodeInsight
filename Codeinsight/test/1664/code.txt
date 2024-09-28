@@ -1,5 +1,2 @@
-import pandas as pd
-import numpy as np
-def test(df0, var0):
-    df0['diff_column'] = df0[var0].diff()
-    return df0
+def test(dict0):
+    return all(value for value in dict0.values() if isinstance(value, bool))

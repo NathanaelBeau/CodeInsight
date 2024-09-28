@@ -1,6 +1,4 @@
-Is there a way to remove duplicate and continuous words/phrases in a string str0?   
+Merge a list of dictionaries lst0 into a single dictionary.
 
-import re
-
-def test(str0):
+def test(lst0):
 

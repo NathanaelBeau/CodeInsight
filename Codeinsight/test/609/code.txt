@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(arr0):
-    return arr0[:, np.newaxis]
+def test(dict0):
+    return sorted(dict0.items(), key=lambda item: (item[1], item[0]))

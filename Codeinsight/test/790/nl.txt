@@ -1,1 +1,1 @@
-Strip the whitespace from the headers of a dataframe df0
+Convert all keys in dictionary dict0 to lowercase

@@ -1,5 +1,6 @@
-import pandas as pd
-
-def test(var0, var1, var2):
-	var1[var0] = var1[var0].fillna(var1[var2])
-	return var1
+import numpy as np
+def test(lst0):
+    unique, inverse = np.unique(lst0, return_inverse=True)
+    rank = np.empty_like(inverse)
+    np.put(rank, np.argsort(inverse, kind='mergesort'), np.arange(len(lst0)))
+    return rank

@@ -1,1 +1,0 @@
- Replace content within parentheses including the parentheses in column var0 of dataframe df0.

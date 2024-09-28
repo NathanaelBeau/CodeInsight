@@ -1,5 +1,6 @@
 import pandas as pd
+import numpy as np
 
-def test(df0, var0):
-    df0[var0] = df0[var0].fillna('').str.lower()
-    return df0
+def test(df0):
+    return np.where(df0.isnull().any(axis=1))[0].tolist()
+

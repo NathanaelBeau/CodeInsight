@@ -1,1 +1,1 @@
-Efficient way to convert a list lst0 to dictionary  Using dict-comprehension 
+Apply the function func0 to DataFrame df0 along the specified axis axis0.

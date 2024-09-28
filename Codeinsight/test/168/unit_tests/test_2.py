@@ -1,4 +1,4 @@
-lst0 = [1, 2, 3]
-lst1 = [4, 5, 6]
-expected_output = []
-assert test(lst0, lst1) == expected_output, 'Test failed'
+# Test 2
+var0 = "Special chars: @#&*! and non-ASCII: éáü"
+expected_result =  "Special chars  and nonASCII "
+assert test(var0) == expected_result, 'Test failed'

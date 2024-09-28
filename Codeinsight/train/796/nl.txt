@@ -1,1 +1,1 @@
-Combine two dataframes, df1 and df2, by their index."
+ check whether elements appears in the list lst0 only once in python   

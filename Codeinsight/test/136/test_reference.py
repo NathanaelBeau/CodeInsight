@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df1, df2):
-    return df1.join(df2)
+def test(dict0, var0):
+    return [k for k, v in dict0.items() if v == var0]

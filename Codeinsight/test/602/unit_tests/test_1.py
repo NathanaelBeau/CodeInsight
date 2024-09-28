@@ -1,3 +1,5 @@
-lst0 = [{'x': 10, 'y': 20}, {'z': 30}]
-expected_output = {'x': 10, 'y': 20, 'z': 30}
-assert test(lst0) ==expected_output, 'Test failed'
+lst0 = [1, 2, 3]
+lst1 = [1, 2, 3]
+expected_result =  0.0
+result = test(lst0, lst1)
+assert result == expected_result, 'Test failed'

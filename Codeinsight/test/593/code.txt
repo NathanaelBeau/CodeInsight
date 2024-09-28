@@ -1,2 +1,4 @@
-def test(dict0):
-    return dict(sorted(dict0.items(), key=lambda item: item[1]))
+import pandas as pd
+
+def test(df0):
+    return df0.iloc[:-1]

@@ -1,1 +1,1 @@
-Formatting floats in a numpy array    arr0 with format var0 
+Retrieve the number of columns in the pandas DataFrame df0.

@@ -1,3 +1,4 @@
-str0 = "This is a string without numbers."
-expected_output = []
-assert test(str0) ==expected_output, 'Test failed'
+s3 = "apple, orange, apple!"
+pattern3 = r"apple"
+expected_output3 = ["apple", "apple"]
+assert test(s3, pattern3) == expected_output3, 'Test failed'

@@ -1,5 +1,4 @@
-Pandas : Use groupby on each element of list  lst0  
+compare two JSON objects dict0 and dict1  with the same elements in a different order equal   
 
-import pandas as pd
-def test(lst0):
+def test(dict0, dict1):
 

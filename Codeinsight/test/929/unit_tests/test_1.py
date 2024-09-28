@@ -1,6 +1,4 @@
-var0 = pd.DataFrame({'city': ['New York', 'Paris', 'London', 'Tokyo']})
-str0 = 'city'
-int0 = 5
-expected_result =  pd.DataFrame({'city': ['New York', 'London']}).reset_index(drop=True)
-result = test(var0, str0, int0).reset_index(drop=True)
-assert result.equals(expected_result), 'Test failed'
+var0 = '2,500,123'
+expected_result =  2500123
+result = test(var0)
+assert result == expected_result, 'Test failed'

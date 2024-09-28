@@ -1,4 +1,4 @@
-var0 = "OpenAI\tGPT-3.5"
-expected_result =  ['OpenAI', 'GPT-3.5']
-result = test(var0)
-assert result == expected_result, 'Test failed'
+lst0 = [('a', 'b'), ('c', 'd'), ('e', 'f')]
+var0 = 0
+expected_output = ['a', 'c', 'e']
+assert test(lst0, var0) ==expected_output, 'Test failed'

@@ -1,2 +1,3 @@
-def test(lst0, var0):
-    return list(map(lambda x: x[var0], lst0)).index(max(map(lambda x: x[var0], lst0)))
+import numpy as np
+def test(arr0, lst0):
+    return np.concatenate((arr0, [lst0]), axis=0)

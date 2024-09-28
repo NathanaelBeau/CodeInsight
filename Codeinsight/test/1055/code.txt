@@ -1,5 +1,2 @@
-import pandas as pd
-
-def test(df0, col0):
-    df0['A'], df0['B'] = zip(*df0[col0])
-    return df0.drop(col0, axis=1)
+def test(lst0, lst1):
+    return [lst0[i] + lst1[i] for i in range(len(lst0))]

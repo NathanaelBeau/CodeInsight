@@ -1,2 +1,4 @@
-def test(var0, lst0):
-    return [x / var0 for x in lst0]
+from datetime import datetime
+
+def test(lst0):
+    return sorted(lst0, key=lambda x: datetime.strptime(x['date'], "%Y-%m-%d"))

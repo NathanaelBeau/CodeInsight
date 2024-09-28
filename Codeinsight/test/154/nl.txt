@@ -1,1 +1,1 @@
-Check if one of the following items from list lst0 is in a list  lst1 
+Check if var0 is absent from the list lst0.

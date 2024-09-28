@@ -1,1 +1,1 @@
-Retrieve the key with the maximum value from the dictionary var0.
+Converting a list of tuples lst0 into a dict   

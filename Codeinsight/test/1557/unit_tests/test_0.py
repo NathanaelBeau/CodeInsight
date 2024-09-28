@@ -1,3 +1,5 @@
-lst0 = ["apple", "banana", "cherry", "date", "elderberry"]
-expected_output = ["elderberry", "banana", "cherry", "apple", "date"]
-assert test(lst0) ==expected_output, 'Test failed'
+import pandas
+import sklearn
+arg = (pandas, sklearn)
+expected_output = (pandas.__version__, sklearn.__version__)
+assert test(*arg) == expected_output, 'Test failed'

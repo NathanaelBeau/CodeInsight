@@ -1,4 +1,4 @@
-import pandas as pd
+import re
 
-def test(df0):
-    return df0[sorted(df0.columns)]
+def test(var0, pattern):
+    return re.search(pattern, var0).group(0)

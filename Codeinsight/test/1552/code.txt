@@ -1,2 +1,5 @@
-def test(str0, str1):
-    return str0.join(map(str, str1))
+import pandas as pd
+
+
+def test(df0):
+    return df0.to_numpy().tolist()

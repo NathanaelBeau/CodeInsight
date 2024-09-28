@@ -1,12 +1,9 @@
-from itertools import islice
-
-def test(lst0, window_size=2):
-    moving_averages = []
-    window_sum = sum(lst0[:window_size])
-    moving_averages.append(window_sum / window_size)
-
-    for i in range(window_size, len(lst0)):
-        window_sum = window_sum - lst0[i - window_size] + lst0[i]
-        moving_averages.append(window_sum / window_size)
-
-    return moving_averages
+def test(var1, var2):
+    if var2 == 1 and var1 != 1:
+        return False
+    if var2 == 1 and var1 == 1:
+        return True
+    if var2 == 0 and var1 != 1:
+        return False
+    power = int (math.log(var1, var2) + 0.5)
+    return var2 ** power == var1

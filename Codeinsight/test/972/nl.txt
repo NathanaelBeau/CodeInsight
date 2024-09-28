@@ -1,1 +1,1 @@
- Count the occurrences of each unique value in column col0 of DataFrame df0
+Find the indices of the numpy array arr0 where the value is True

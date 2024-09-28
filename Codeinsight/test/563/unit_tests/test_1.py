@@ -1,3 +1,4 @@
-df2 = pd.DataFrame({'X': [10], 'Y': [20]})
-expected_output2 = pd.DataFrame({'X': [10, 10, 10, 10, 10], 'Y': [20, 20, 20, 20, 20]})
-assert test(df2).equals(expected_output2), 'Test failed'
+df0 = pd.DataFrame({'cluster': ['A', 'B', 'A', 'B'], 'value': [100, 200, 300, 400]})
+col0 = 'cluster'
+expected_result =  pd.DataFrame({'value': [200.0, 300.0]}, index=['A', 'B'])
+assert test(df0, col0).equals(expected_result), 'Test failed'

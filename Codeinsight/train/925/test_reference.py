@@ -1,7 +1,6 @@
-def test(lst0, var0):
-    sublists = []
-    index = 0
-    while index < len(lst0):
-        sublists.append(lst0[index:index+var0])
-        index += var0
-    return sublists
+from itertools import groupby
+
+def test(lst0):
+    lst0.sort(key=lambda x: x[0])
+    grouped = [next(group) for _, group in groupby(lst0, key=lambda x: x[0])]
+    return grouped

@@ -1,5 +1,4 @@
-import numpy as np
-import pandas as pd 
+from itertools import product
+def test(lst0):
+    return [comb for comb in product(*lst0)]
 
-def test(df0):
-    return df0.replace({np.nan: ""})

@@ -1,7 +1,4 @@
-from sklearn.preprocessing import StandardScaler
 import pandas as pd
 
-def test(df0, lst0):
-    scaler = StandardScaler()
-    df0[lst0] = scaler.fit_transform(df0[lst0])
-    return df0
+def test(df0, var0):
+    return df0[df0[var0] == df0[var0].max()]

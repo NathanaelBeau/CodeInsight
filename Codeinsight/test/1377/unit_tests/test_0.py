@@ -1,5 +1,5 @@
-dict0 = {'a': [1, 2, 3], 'b': [4, 5]}
-key0 = 'a'
-expected_result =  3
-result = test(dict0, key0)
+var0 = "Hello, how are you? Hello!"
+var1 ='Hello'
+expected_result =  2
+result = test(var0, var1)
 assert result == expected_result, 'Test failed'

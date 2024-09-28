@@ -1,2 +1,5 @@
-def test(lst0, var0):
-    return sum(1 for item in lst0 if item == var0)
+import pandas as pd
+import numpy as np
+
+def test(df0):
+    return df0.applymap(lambda x: np.nan if isinstance(x, str) and x.strip() == "" else x)

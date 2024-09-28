@@ -1,4 +1,4 @@
-Intent: Generate a list of integers from 11 to 19 using list comprehension.
+ check whether elements appears in the list lst0 only once in python   
 
-def test():
+def test(lst0):
 

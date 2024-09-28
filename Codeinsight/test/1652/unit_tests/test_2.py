@@ -1,5 +1,3 @@
-df0_test3 = pd.DataFrame({"C": ["hello", "world", "hello world", "world hello"]})
-var0 = "C"
-var1 = r"^hello world$"  # Strings exactly matching 'hello world'
-expected_result =  pd.DataFrame({"C": ["hello", "world", "world hello"]})
-assert test(df0_test3, var0, var1).equals(expected_result), 'Test failed'
+str0 = "This Is A Test String With No Capitalized Words."
+expected_output = ['This', 'Is', 'A', 'Test', 'String', 'With', 'No', 'Capitalized', 'Words.']
+assert test(str0) ==expected_output, 'Test failed'

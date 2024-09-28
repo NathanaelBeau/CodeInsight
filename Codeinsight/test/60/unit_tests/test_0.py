@@ -1,3 +1,3 @@
-lst0 = [{'key': 'a', 'value': 1}, {'key': 'b', 'value': 2}]
-expected_result =  {'a': {'key': 'a', 'value': 1}, 'b': {'key': 'b', 'value': 2}}
-assert test(lst0) == expected_result, 'Test failed'
+str0 = "This is number 1 and this is number 22"
+expected_output = 'This is number "1" and this is number "22"'
+assert test(str0) ==expected_output, 'Test failed'

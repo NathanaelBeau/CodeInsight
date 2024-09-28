@@ -1,5 +1,4 @@
-var0 = 'A'
-df0 = pd.DataFrame({'A': [7, 8, 9], 'B': [10, 11, 12]})
-expected_result =  df0.iloc[[2]]
-result = test(df0, var0)
+df0 = pd.DataFrame({ 'X': ['banana', 'cherry'], 'Y': ['apple', 'date'] })
+expected_result =  pd.DataFrame({ 'X': ['apple', 'cherry'], 'Y': ['banana', 'date'] })
+result = test(df0)
 assert result.equals(expected_result), 'Test failed'

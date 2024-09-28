@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(x: np.ndarray, var0: int) -> np.ndarray:
-    return np.delete(x, var0, axis=0)
+def test(str0):
+    return str0.encode().decode('unicode_escape')

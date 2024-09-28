@@ -1,4 +1,5 @@
-var0 = "C:\\Users\\Admin\\Documents"
-expected_result =  "C:UsersAdminDocuments"
-result = test(var0)
-assert result == expected_result, 'Test failed'
+arr0 = np.array([0.5, 1.0, 1.5, 2.0])
+var0 = 1.5
+expected_result =  (np.array([2]),)
+result = test(arr0, var0)
+assert np.array_equal(result, expected_result), 'Test failed'

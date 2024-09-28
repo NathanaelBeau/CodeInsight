@@ -1,4 +1,6 @@
-Remove all integer values from a list lst0  
+Split a string str0 and keep the separators.
 
-def test(lst0):
+import re
+
+def test(str0: str) -> list:
 

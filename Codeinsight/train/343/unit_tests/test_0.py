@@ -1,4 +1,4 @@
-dict0 = {}
-expected_result =  {'dict3': {'spam': 5, 'ham': 6}}
-result = test(dict0)
-assert result == expected_result, 'Test failed'
+str0 = "Hello World"
+var0 = "W"
+expected_output = "World"
+assert test(str0, var0) ==expected_output, 'Test failed'

@@ -1,6 +1,5 @@
-Get the row count of a DataFrame df0.
+Find all repeating words in a string var0 using regex.
 
-import pandas as pd
-
-def test(df0):
+import re
+def test(var0):
 

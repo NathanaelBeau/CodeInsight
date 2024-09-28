@@ -1,4 +1,4 @@
-lst0 = ['apple', 'banana', 'orange', 'grape']
-dict0 = {'apple': 3, 'banana': 1, 'orange': 2, 'grape': 4}
-expected_output = ['banana', 'orange', 'apple', 'grape']
-assert test(lst0, dict0) ==expected_output, 'Test failed'
+df0 = pd.DataFrame(columns=['A', 'B'])
+expected = np.array([])
+result = test(df0)
+assert (result == expected).all(), 'Test failed'

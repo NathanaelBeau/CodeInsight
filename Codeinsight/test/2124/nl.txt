@@ -1,1 +1,0 @@
-How to delete a substring var0 from a string var1 using Python   

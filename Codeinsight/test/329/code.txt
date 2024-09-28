@@ -1,2 +1,2 @@
-def test(lst0, str0):
-    return [str0] + lst0
+def test(dict0, dict1):
+	return {**dict0, **dict1}

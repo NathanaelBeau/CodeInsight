@@ -1,1 +1,1 @@
-Multiply two 1-dimensional numpy arrays, array1 and array2.
+Replace all NaN values with 0.0 in a pandas dataframe df.

@@ -1,3 +1,3 @@
-str0 = "a=1 b=2 c=3"
-expected_output = {'a': 1, 'b': 2, 'c': 3}
-assert test(str0) ==expected_output, 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2], 'B': [3, 4]})
+expected_result =  [[1, 3], [2, 4]]
+assert test(df0) == expected_result, 'Test failed'

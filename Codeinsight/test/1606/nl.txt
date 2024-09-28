@@ -1,1 +1,1 @@
-Filter DataFrame df0 based on the condition cond0 using the query method, and return the resulting DataFrame.
+Multiply two vectors vect0 and vect1 

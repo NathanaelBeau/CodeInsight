@@ -1,1 +1,1 @@
-Check if any of the items in list lst0 appear in the string str0.
+Extract the part (either 'upper' or 'lower') triangular part of the matrix mat0. 

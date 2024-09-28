@@ -1,6 +1,6 @@
-Create a copy of a numpy array arr0
+Generate a list of dictionaries where each dictionary contains a column name as the key and its corresponding column values as a list from dataframe df.
 
-import numpy as np
+import pandas as pd
 
-def test(arr0):
+def test(df):
 

@@ -1,4 +1,5 @@
-Convert a list lst0 into a dictionary where each key is the element at index i and its corresponding value is the element at index i+1
+Split the string str0 based on punctuation marks like . , ; ! ?
 
-def test(lst0):
+import re
+def test(str0):
 

@@ -1,1 +1,1 @@
-Determine the lengths of sequences of identical values in numpy array arr0 using run length encoding  
+Extract all the values from the key 'values' in a list of dictionaries lst0.

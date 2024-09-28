@@ -1,2 +1,4 @@
-def test(dict0, lst0):
-    return sorted(dict0.items(), key=lambda e: e[1][lst0])
+import pandas as pd
+
+def test(df0):
+    return df0.columns.tolist()

@@ -1,2 +1,2 @@
-def test(str0, lst0):
-    return list(map(lambda item: str0 + item, lst0))
+def test(var0, var1):
+    return var0.union(var1)

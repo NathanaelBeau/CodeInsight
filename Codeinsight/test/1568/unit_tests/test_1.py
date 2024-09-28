@@ -1,4 +1,3 @@
-var0 = pd.DataFrame({'B': [4, 5, 6]}, index=pd.Index([1, 2, 3], name='index_name'))
-expected_result =  pd.DataFrame({'B': [4, 5, 6]}, index=pd.Index([1, 2, 3]))
-result = test(var0)
-assert result.equals(expected_result), 'Test failed'
+str0 = b'\x00\x00\x00\x00'
+expected_output = np.array([0.0], dtype=np.float32)
+assert test(str0) ==expected_output, 'Test failed'

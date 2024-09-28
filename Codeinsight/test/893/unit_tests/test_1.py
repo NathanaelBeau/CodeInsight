@@ -1,9 +1,6 @@
-df0 = pd.DataFrame({'id': [101, 102, 103],
-                            'value': [10, 20, 30]})
-df1 = pd.DataFrame({'id': [102, 103, 104],
-                            'value': [20, 30, 40]})
-var0 = 'id'
-expected_output = pd.DataFrame({'id': [102, 103],
-                                        'value_x': [20, 30],
-                                        'value_y': [20, 30]})
-assert test(df0, df1, var0) .equals(expected_output), 'Test failed'
+import pandas as pd
+var1 = pd.DataFrame([['ny', 2, 3], ['ny', 5, 6], ['la', 8, 9]], columns=['city', 'A', 'B'])
+var0 = 'city'
+expected_result =  pd.DataFrame([['la', 8, 9], ['ny', 7, 9]], columns=['city', 'A', 'B'])
+result = test(var0, var1)
+assert result.equals(expected_result), 'Test failed'

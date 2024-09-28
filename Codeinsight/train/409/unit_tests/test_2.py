@@ -1,5 +1,4 @@
-s = "Python"
-str0 = "is fun! "
-var0 = 0
-expected_output = "is fun! Python"
-assert test(s, str0, var0) == expected_output, 'Test failed'
+df = pd.DataFrame({ 'col1': [2, 1, 3], 'col2': ['a', 'b', 'c'] })
+expected_result =  pd.DataFrame({ 'col1': [1, 2, 3], 'col2': ['b', 'a', 'c'] })
+result = test(df, 'col1', lambda x: x)
+assert result.equals(expected_result), 'Test failed'

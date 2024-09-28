@@ -1,4 +1,6 @@
-Extract all digits from a string named str0
+Shift the values in column col0 of a dataframe df0 up by one.
 
-def test(str0):
+import pandas as pd
+
+def test(df0, col0):
 

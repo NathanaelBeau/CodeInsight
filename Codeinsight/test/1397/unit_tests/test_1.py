@@ -1,4 +1,4 @@
-s2 = "1a2b3c4d"
-pattern2 = "\d"
-expected_output2 = ['', 'a', 'b', 'c', 'd']
-assert test(s2, pattern2) == expected_output2, 'Test failed'
+str0 = '1100'
+expected_result =  ['1', '1', '0', '0']
+result = test(str0)
+assert result == expected_result, 'Test failed'

@@ -1,2 +1,4 @@
-def test(dict0):
-    return dict(sorted(dict0.items(), key=lambda x: x[1][1]))
+import numpy as np
+
+def test(lst0):
+    return np.array([np.array(sublist) for sublist in lst0])

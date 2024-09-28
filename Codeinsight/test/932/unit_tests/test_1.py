@@ -1,4 +1,4 @@
-# Test 3
-var0 = "No dollar words here."
-expected_result =  []
-assert test(var0) == expected_result, 'Test failed'
+lst0 = [0, 0, 0]
+lst1 = [1, 2, 3]
+expected_result =  [1, 2, 3]
+assert test(lst0, lst1) == expected_result, 'Test failed'

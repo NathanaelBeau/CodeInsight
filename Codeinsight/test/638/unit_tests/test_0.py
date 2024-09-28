@@ -1,4 +1,5 @@
-var0 = 2.345e-67
-expected_result =  "0.000000000000000000000000000000000000000000000000000000000000000000234"
-result = test(var0)
-assert result == expected_result, 'Test failed'
+from scipy.sparse import csr_matrix
+mat0 = csr_matrix([[1, 2, 0], [0, 0, 3], [4, 0, 5]])
+expected_result =  np.matrix([[1, 2, 0], [0, 0, 3], [4, 0, 5]])
+result = test(mat0)
+assert np.array_equal(result, expected_result), 'Test failed'

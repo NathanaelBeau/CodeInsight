@@ -1,1 +1,1 @@
-Extract all keys from a list of dictionaries  lst0
+Retrieve indices of elements in array arr0 where values are greater than var0 using numpy's where function

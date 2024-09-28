@@ -1,4 +1,6 @@
-# Unit Test 3
-df0 = pd.DataFrame({ 'P': list(range(5)), 'Q': list(range(5, 10)) })
-train, test = test(df0, frac0=0.6)
-assert len(train) == 3 and len(test) == 2, 'Test failed'
+df_data = {'Category': ['X', 'X', 'Y', 'Y', 'Z'],
+           'Score': [90, 85, 70, 75, 60]}
+df0 = pd.DataFrame(df_data)
+var0 = 'Category'
+expected_output = df0.groupby(var0, as_index=False).first()
+assert test(df0, var0).equals(expected_output), 'Test failed'

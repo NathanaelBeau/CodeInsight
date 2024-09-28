@@ -1,4 +1,5 @@
-str0 = ","
-str1 = ["apple", "banana", "cherry"]
-expected_output = "apple,banana,cherry"
-assert test(str0, str1) ==expected_output, 'Test failed'
+arr0 = np.array([1, 2, 3])
+arr1 = np.array([1, 2, 3])
+expected_result =  True
+result = test(arr0, arr1)
+assert result == expected_result, 'Test failed'

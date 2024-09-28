@@ -1,3 +1,3 @@
-lst0 = [1, 3, 2, 5, 4]
-expected_output = [0, 2, 1, 4, 3]
+lst0 = ["apple", "banana", "apple", "banana", "banana"]
+expected_output = ["banana","apple"]
 assert test(lst0) == expected_output, 'Test failed'

@@ -1,5 +1,2 @@
-import re
-
-def test(str0, var0):
-    p = re.compile(var0)
-    return re.split(p, str0)
+def test(var0):
+    return dict(item.split('=') for item in var0.split(';'))

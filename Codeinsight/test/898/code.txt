@@ -1,5 +1,6 @@
-import pandas as pd
+from sklearn.impute import SimpleImputer
+import numpy as np
 
-def test(df0, columns_list0):
-    df0[columns_list0] = df0[columns_list0].applymap(lambda x: f"{x * 100:.2f}%")
-    return df0
+def test(df0):
+    imputer = SimpleImputer(strategy='most_frequent')
+    return imputer.fit_transform(df0)

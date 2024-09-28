@@ -1,1 +1,1 @@
-Insert a character char0 after every 2 characters in a string str0.
+Replace all non-alphanumeric characters in string var0, except for the characters provided in exceptions, with the string replacement.

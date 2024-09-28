@@ -1,4 +1,4 @@
-import numpy as np
+from collections import Counter
 
-def test(arr0):
-    return np.size(arr0)
+def test(lst0, lst1):
+    return dict(Counter(lst0) - Counter(lst1))

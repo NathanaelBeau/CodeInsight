@@ -1,6 +1,5 @@
-# Test 2
-series0 = pd.Series([10, 20, 30, 40, 50])
-var0 = 40
-expected_result =  3
-result = test(series0, var0)
+var0 = "abcdeg"
+var1 = "abcdef"
+expected_result =  False
+result = test(var0, var1)
 assert result == expected_result, 'Test failed'

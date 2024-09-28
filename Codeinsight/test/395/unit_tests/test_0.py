@@ -1,4 +1,7 @@
-dict0 = {'a': 1, 'b': 2}
-dict1 = {'c': 3, 'd': 4}
-expected_output= {'a': 1, 'b': 2, 'c': 3, 'd': 4}
-assert test(dict0, dict1) ==expected_output, 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, 3, 4, 5], 'B': [5, 6, 7, 8, 9]})
+column_name0 = 'A'
+threshold0 = 2
+column_name1 = 'B'
+expected_result =  (3, 24)
+result = test(df0, column_name0, threshold0, column_name1)
+assert result == expected_result, 'Test failed'

@@ -1,5 +1,3 @@
-def test(dict0):
-    lst = []
-    for key, value in dict0.items():
-        lst.extend([key, value])
-    return lst
+import numpy as np
+def test(mat0, mat1):
+    return np.einsum('ij,ij->i', mat0, mat1)

@@ -1,5 +1,3 @@
-# Test 1
-df0 = pd.DataFrame({'A': [1, 2], 'B': [3, 4]})
-expected_result =  np.array([(1, 3), (2, 4)], dtype=[('A', '<i8'), ('B', '<i8')])
-result = test(df0)
-assert np.array_equal(result, expected_result), 'Test failed'
+lst0 = [1, 'a', 2, 'b', 3, 'c']
+expected_output = {1: 'a', 2: 'b', 3: 'c'}
+assert test(lst0) ==expected_output, 'Test failed'

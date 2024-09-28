@@ -1,6 +1,4 @@
-Extract specific columns specified in the list lst0 from the pandas DataFrame df0 and create a new DataFrame as a copy.
+Convert list of strings lst0 to int  using list comprehension
 
-import pandas as pd
-
-def test(df0, lst0):
+def test(lst0):
 

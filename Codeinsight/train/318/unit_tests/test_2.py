@@ -1,5 +1,4 @@
-arr2 = np.array([1.1, 2.2, 3.3])
-idx2 = np.array([2, 0, 1])
-expected_result =  np.array([3.3, 1.1, 2.2])
-result = test(arr2, idx2)
-assert np.array_equal(result, expected_result), 'Test failed'
+lst0 = [['a', 'b'], ['c', 'd', 'e']]
+expected_result =  [['e', 'd', 'c'], ['b', 'a']]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

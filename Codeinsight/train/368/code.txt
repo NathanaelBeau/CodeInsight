@@ -1,2 +1,5 @@
-def test(lst0, lst1):
-    return [a is b for a, b in zip(lst0, lst1)]
+import itertools
+
+def test(lst0):
+    groups = [list(g) for _, g in itertools.groupby(lst0, lambda x: x.split('_')[0])]
+    return groups

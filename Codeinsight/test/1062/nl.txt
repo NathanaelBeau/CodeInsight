@@ -1,1 +1,1 @@
-Get the first element of each tuple in a list lst0 in Python   
+Interpolate NaN values present in the numpy array arr0 

@@ -1,4 +1,3 @@
-df3 = pd.DataFrame({'P': [], 'Q': []})
-expected_result3 = []
-result3 = test(df3)
-assert result3 == expected_result3, 'Test failed'
+s3 = "No-symbols! Or... maybe^some?"
+expected_output3 = 'NosymbolsOrmaybesome'
+assert test(s3) == expected_output3, 'Test failed'

@@ -1,3 +1,4 @@
 import numpy as np
-def test(arr0, arr1):
-    return np.may_share_memory(arr0, arr1)
+
+def test(arr0, var0):
+    return np.delete(arr0, var0)

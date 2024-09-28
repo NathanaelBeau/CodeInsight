@@ -1,1 +1,1 @@
-do multiple substitutions in string var0 using regex with Create a regular expression  from the dictionary keys  dict0 and For each match, look-up corresponding value in dictionary  dict0
+Sort the numpy array arr0 in descending order

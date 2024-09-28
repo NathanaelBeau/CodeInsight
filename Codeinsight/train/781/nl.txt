@@ -1,1 +1,1 @@
-Unpack keys and values of a dictionary dct0 into two lists.
+string str0 to list conversion in python   

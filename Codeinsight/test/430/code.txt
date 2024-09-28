@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0, df1):
-    return pd.concat([df0, df1], ignore_index=True)
+def test(var0, var1, var2):
+    return var0.replace(var1, var2) if var1 in var0 else var0 + var2

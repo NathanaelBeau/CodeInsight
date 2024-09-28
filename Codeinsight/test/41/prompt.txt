@@ -1,5 +1,6 @@
-Unpack a NumPy array arr0 by column. 
+In Python, index a list lst0  with another list  lst1 
 
-import numpy as np
-def test(arr0):
+from functools import reduce
+
+def extract_element(lst, index):
 

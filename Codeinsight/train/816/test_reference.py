@@ -1,4 +1,2 @@
-import pandas as pd
-def test(df0, df1):
-    return df0.assign(key=1).merge(df1.assign(key=1), on='key').drop(columns='key')
-
+def test(lst0):
+    return list(filter(lambda i: lst0[i] > 4, range(len(lst0))))

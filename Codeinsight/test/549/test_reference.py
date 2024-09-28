@@ -1,4 +1,4 @@
-import numpy as np
+import pandas as pd
 
-def test(arr0):
-    return np.argsort(-arr0)
+def test(df0, var0, var1):
+    return df0.groupby(var0)[var1].nunique()

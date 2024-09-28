@@ -1,5 +1,7 @@
-dict0 = {'x': 'apple', 'y': 'banana', 'z': 'cherry'}
-var0 = 'grape'
-expected_result =  False
-result = test(dict0, var0)
-assert result == expected_result, 'Test failed'
+import pandas as pd
+# Créer un DataFrame pour l'exemple de test
+data = {'fruit': ['Apple', 'Banana', 'Cherry'], 'price': [0.99, 0.25, 1.50]}
+df0 = pd.DataFrame(data)
+df0.set_index('fruit', inplace=True)
+expected_output = ['Apple', 'Banana', 'Cherry']
+assert test(df0) == expected_output, 'Test failed'

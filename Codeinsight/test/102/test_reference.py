@@ -1,7 +1,4 @@
-def test(lst0):
-    unique_items = []
-    for item in lst0:
-        if item not in unique_items:
-            unique_items.append(item)
-    unique_items.sort()
-    return unique_items
+import pandas as pd
+
+def test(df0):
+    return (df0 != 0).astype(int)

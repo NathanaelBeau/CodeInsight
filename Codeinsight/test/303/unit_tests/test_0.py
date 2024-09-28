@@ -1,4 +1,3 @@
-lst0 = ['hel', 'lo', 'bye']
-expected_result =  sorted(['hello', 'helbye', 'lobye', 'lohel', 'byehel', 'byelo'])
-result = sorted(test(lst0))
-assert result == expected_result, 'Test failed'
+arg = pd.DataFrame({'A': [1, 2, 3], 'B': [4.0, 5.0, 6.0]})
+expected_output = pd.Series({'A': int, 'B': float})
+assert test(arg).equals(expected_output), 'Test failed'

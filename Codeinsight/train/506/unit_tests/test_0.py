@@ -1,6 +1,5 @@
-lst0 = [1, 2, 3]
-var0 = 4
-var1 = 5
-var2 = 6
-expected_output = [1, 2, 3, 4, 5, 6]
-assert test(lst0, var0, var1, var2) ==expected_output, 'Test failed'
+mat0 = np.array([[1, 2], [3, 4]])
+vec0 = np.array([0.5, 0.5])
+expected_result =  np.array([1.5, 3.5])
+result = test(mat0, vec0)
+assert np.array_equal(result, expected_result), 'Test failed'

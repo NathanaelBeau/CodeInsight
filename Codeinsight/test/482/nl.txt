@@ -1,1 +1,1 @@
-Append values var1 to a set var0 in Python   
+Copy all elements from a numpy array arr0 to a new numpy array

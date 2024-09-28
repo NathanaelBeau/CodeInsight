@@ -1,6 +1,5 @@
-import operator
+import pandas as pd
+import numpy as np
 
-def test(lst0, lst1):
-    sorted_lists = sorted(zip(lst0, lst1), key=operator.itemgetter(0), reverse=True)
-    list_0_sorted, list_1_sorted = zip(*sorted_lists)
-    return list(list_0_sorted), list(list_1_sorted)
+def test(df0):
+    return df0.columns[df0.isnull().any()].tolist()

@@ -1,4 +1,3 @@
-var0 = "I need to get groceries and get some rest."
-expected_result =  "I need to get@ groceries and get@ some rest."
-result = test(var0)
-assert result == expected_result, 'Test failed'
+lst0 = [{'name': 'John', 'age': 30}, {'city': 'New York'}, {'age': 25}]
+expected_output = {'name', 'age', 'city'}
+assert test(lst0) == expected_output, 'Test failed'

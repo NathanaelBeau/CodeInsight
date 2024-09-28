@@ -1,3 +1,3 @@
-str0 = '  apple , orange,   banana  '
-expected_output = ['apple', 'orange', 'banana']
+str0 = "abcdef"
+expected_output = "aaabbbcccdddeeefff"
 assert test(str0) ==expected_output, 'Test failed'

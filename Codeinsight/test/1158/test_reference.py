@@ -1,5 +1,4 @@
-def test(dict0, var0):
-    if dict0[var0] is None:
-        dict0[var0] = 0
-    return dict0
+import pandas as pd
 
+def test(df0, lst0):
+    return df0.groupby(lst0).size().reset_index(name='var0')

@@ -1,2 +1,4 @@
-def test(str0: str, str1: str) -> list:
-    return [i for i in range(len(str0) - len(str1) + 1) if str0[i:i+len(str1)] == str1]
+import numpy as np
+
+def test(arr0):
+    return arr0[np.argsort(arr0[:, 1])]

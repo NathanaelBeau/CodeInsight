@@ -1,1 +1,1 @@
-Find dictionary items from dictionary dict0 whose key matches a substring str0  
+Replace consecutive occurrences of the character * with a single * in the string var0.

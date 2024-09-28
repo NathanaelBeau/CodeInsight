@@ -1,2 +1,2 @@
-def test(df0):
-    return df0.index.tolist()
+def test(var0):
+    return bytearray(bytes([var0])) * (10 ** 9)

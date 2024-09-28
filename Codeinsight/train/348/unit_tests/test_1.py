@@ -1,4 +1,3 @@
-df0 = pd.DataFrame({"X": ["apple", "banana"], "Y": ["fruit", "fruit"]})
-expected_result =  pd.Series(["apple fruit", "banana fruit"])
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+str0 = '11111'
+expected_output = ['11111']
+assert test(str0) ==expected_output, 'Test failed'

@@ -1,6 +1,4 @@
-Normalize each row of a dataframe df0 such that the sum of each row is 1.
+ convert an array var0 of strings to an array of numbers   with list comprehension
 
-import pandas as pd
-
-def test(df0):
+def test(var0):
 

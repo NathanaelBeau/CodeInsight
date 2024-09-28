@@ -1,6 +1,4 @@
-Check if the string var0 contains only alphanumeric characters.
+insert a list lst1  at the front of another list lst0  
 
-import re
-
-def test(var0):
+def test(lst0, lst1):
 

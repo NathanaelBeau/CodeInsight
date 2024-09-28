@@ -1,3 +1,4 @@
-lst0 = [3, 3, 1, 2]
-expected_result =  [2, 3, 0, 1]
-assert (test(lst0) == expected_result).all(), 'Test failed'
+lst0 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+var0 = 3
+expected_output = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [10]]
+assert list(test(lst0, var0)) == expected_output, 'Test failed'

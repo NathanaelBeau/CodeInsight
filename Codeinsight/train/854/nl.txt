@@ -1,1 +1,1 @@
-Locate the first and last non NaN values in a dataframe df0
+Find the tuple in lst0 that has the largest item at index var0.

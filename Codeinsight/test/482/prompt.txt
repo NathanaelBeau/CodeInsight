@@ -1,4 +1,6 @@
-Append values var1 to a set var0 in Python   
+Copy all elements from a numpy array arr0 to a new numpy array
 
-def test(var0, var1):
+import numpy as np
+
+def test(arr0):
 

@@ -1,2 +1,1 @@
-Remove leading and ending whitespaces from a string var0   
-
+Find the row in DataFrame df0 where the value for column var0 is maximal.

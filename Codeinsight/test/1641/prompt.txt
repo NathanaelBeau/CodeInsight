@@ -1,5 +1,4 @@
-Return list of items in list lst0 greater than some value  var0
+split a single tuple lst0  into multiple using python  
 
-
-def test(lst0, var0):
+def test(lst0):
 

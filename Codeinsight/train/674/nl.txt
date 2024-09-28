@@ -1,1 +1,1 @@
-Python Add Comma   Into Number String  str0 
+How to check if character var1 exists in DataFrame cell   df0  at column var0

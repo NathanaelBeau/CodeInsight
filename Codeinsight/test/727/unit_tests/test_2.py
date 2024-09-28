@@ -1,3 +1,4 @@
-lst0 = [['a'], ['b'], ['c']]
-expected_output = [('a',), ('b',), ('c',)]
-assert test(lst0)== expected_output, 'Test failed'
+var0 = "100,000,000"
+expected_result =  100000000
+result = test(var0)
+assert result == expected_result, 'Test failed'

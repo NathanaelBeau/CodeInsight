@@ -1,1 +1,1 @@
-Drop rows from DataFrame df0 where the value in column col_name is NaN.
+Create a dictionary from a string str0 separated by - and ,

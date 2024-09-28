@@ -1,1 +1,1 @@
-Merging items in a list lst0 - Python   
+reverse tuples list lst0  in Python  

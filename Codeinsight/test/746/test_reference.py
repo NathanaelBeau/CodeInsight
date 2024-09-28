@@ -1,5 +1,6 @@
 import pandas as pd
 
-def test(df0, var0, func):
-    df0[var0] = [func(x) for x in df0[var0]]
-    return df0[var0]
+def test(var0, var1, var2):
+    df = pd.DataFrame(columns=var0)
+    df.loc[var1] = var2
+    return df

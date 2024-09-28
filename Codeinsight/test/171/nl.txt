@@ -1,1 +1,1 @@
-Remove NaN/NULL columns in a Pandas dataframe df0   
+Check if dataframe df0 is empty

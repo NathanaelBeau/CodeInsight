@@ -1,5 +1,7 @@
 import pandas as pd
 
-def test(df0, col_name, substring):
-    query_str = f'not {col_name}.str.contains("{substring}")'
-    return df0.query(query_str)
+def test(df0):
+    result = []
+    for index, row in df0.iterrows():
+        result.append((index, row['A']))
+    return result

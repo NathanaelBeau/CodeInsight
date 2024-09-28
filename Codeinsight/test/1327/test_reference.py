@@ -1,5 +1,4 @@
-import pandas as pd
-import numpy as np
+import re
 
-def test(df0):
-    return df0.clip(lower=0)
+def test(str0: str) -> str:
+    return re.sub(r'\w+:\s?', '', str0)

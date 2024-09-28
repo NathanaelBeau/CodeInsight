@@ -1,2 +1,3 @@
-def test(lst0):
-    return '\n'.join(str(item) for item in lst0)
+import numpy as np
+def test(arr0):
+    return np.where((arr0 == (0,1)).all(axis=1))

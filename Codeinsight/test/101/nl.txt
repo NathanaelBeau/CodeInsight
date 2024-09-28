@@ -1,1 +1,1 @@
- find the index of a value var0 in 2d array arr0 in Python with np.argwhere
+Strip the trailing characters \r\n from each string in the list lst0.

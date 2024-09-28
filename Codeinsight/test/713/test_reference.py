@@ -1,4 +1,4 @@
-def test(lst0, lst1):
-    for item in reversed(lst1):
-        lst0.insert(0, item)
-    return lst0
+def test(str0):
+    midlen = len(str0) // 2
+    newstr = str0[:midlen] + str0[midlen+1:]
+    return newstr

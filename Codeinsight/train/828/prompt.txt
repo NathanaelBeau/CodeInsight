@@ -1,5 +1,6 @@
-Get first element of Series  var0 without knowing the index"  
+Convert the values in column 'a' of the pandas dataframe df into a list.
 
 import pandas as pd
-def test(var0):
+
+def test(df: pd.DataFrame) -> list:
 

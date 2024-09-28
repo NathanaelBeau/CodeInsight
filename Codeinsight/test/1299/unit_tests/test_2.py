@@ -1,3 +1,4 @@
-lst0 = [3, 3, 1, 2]
-expected_result =  [2, 3, 0, 1]
-assert (test(lst0) == expected_result).all(), 'Test failed'
+lst0 = ["apple", "banana", "cherry"]
+var0 = 1
+expected_output = ['apple', 'banana', 'cherry']
+assert test(lst0, var0) ==expected_output, 'Test failed'

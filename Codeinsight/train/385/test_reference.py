@@ -1,2 +1,4 @@
-def test(str0, str1):
-    return str0.join(str1)
+def test(str0, tpl0):
+    clean_str = str0.strip("()").split(",")
+    tuple_from_str = tuple(map(type(tpl0[0]), clean_str))
+    return tpl0 + tuple_from_str

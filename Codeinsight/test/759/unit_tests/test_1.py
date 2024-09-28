@@ -1,3 +1,4 @@
-dict0 = {'X': [10, 20], 'Y': [30, 40], 'Z': [50, 60]}
-expected_output = {'Z': 110, 'Y': 70, 'X': 30}
-assert test(dict0) == expected_output, 'Test failed'
+var0 = "Python (is fun) and (challenging)"
+expected_result =  "Python  and "
+result = test(var0)
+assert result == expected_result, 'Test failed'

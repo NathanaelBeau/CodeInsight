@@ -1,3 +1,9 @@
-import random
+import collections
 def test(lst0):
-    return lst0[random.randint(0, len(lst0) - 1)]
+    seen = set()
+    duplicates = set()
+    for item in lst0:
+        if item in seen:
+            duplicates.add(item)
+        seen.add(item)
+    return list(duplicates)

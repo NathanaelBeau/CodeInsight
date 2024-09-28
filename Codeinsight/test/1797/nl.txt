@@ -1,1 +1,1 @@
-Retrieve all start indices of occurrences of the substring substring in string str0.
+Extract the second element from each tuple in the list lst0

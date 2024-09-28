@@ -1,6 +1,5 @@
-# Test 3
-mat0 = np.array([[1, 2], [3, 4], [5, 6]])
-columns_to_delete = [0, 1]
-expected_result =  np.empty((3, 0))
-result = test(mat0, columns_to_delete)
-assert np.array_equal(result, expected_result), 'Test failed'
+var0 = pd.DataFrame({'A': [3, 3, 3, 6, 6], 'B': ['p', 'q', 'r', 's', 't']})
+lst0 = [3, 6]
+expected_result3 = pd.DataFrame({'A': [3, 3, 3, 6, 6], 'B': ['p', 'q', 'r', 's', 't']})
+result3 = test(var0, lst0)
+assert result3.equals(expected_result3), 'Test failed'

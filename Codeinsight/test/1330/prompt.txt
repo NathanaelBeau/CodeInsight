@@ -1,6 +1,4 @@
-Convert the data type of the column column_name0 in dataframe df0 from object to integer. 
+Subtract values in list lst1 from corresponding values in list lst0 to produce a new list.
 
-import pandas as pd
-
-def test(df0, column_name0):
+def test(lst0, lst1):
 

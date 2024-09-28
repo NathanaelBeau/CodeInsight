@@ -1,2 +1,3 @@
-def test(lst0):
-    return {p: {'id': p, 'position': ind} for ind, p in enumerate(lst0)}
+import re
+def test(str0):
+    return re.findall(r'[A-Z][^A-Z]*', str0)

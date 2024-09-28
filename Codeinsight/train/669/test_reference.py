@@ -1,2 +1,5 @@
-def test(str0):
-    return list(str0.decode("utf-8"))
+import pandas as pd
+
+def test(df0, var0, var1):
+    df0[var1] = df0[var0].str.replace(' ', '')
+    return df0

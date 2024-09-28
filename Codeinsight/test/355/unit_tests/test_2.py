@@ -1,4 +1,5 @@
-arr0 = np.array([4.0, 5.0, 6.0, 7.0])
-expected_result =  False
-result = test(arr0)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame({'G': [19, 20, 21], 'H': [22, 23, 24], 'I': [25, 26, 27]})
+lst0 = ['I']
+expected_result =  pd.DataFrame({'G': [19, 20, 21], 'H': [22, 23, 24]})
+result = test(df0, lst0)
+assert result.equals(expected_result), 'Test failed'

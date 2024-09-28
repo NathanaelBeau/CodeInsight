@@ -1,1 +1,1 @@
-convert list lst0 with str into list with int   
+Get the floor or ceiling of a pandas series var0 based on the operation specified in str0 

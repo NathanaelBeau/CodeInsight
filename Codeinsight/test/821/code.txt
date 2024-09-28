@@ -1,4 +1,4 @@
-import numpy as np
+import re
 
-def test(mat0):
-    return mat0 / mat0.sum(axis=1)[:, np.newaxis]
+def test(lst0):
+    return [re.split(r"_(?:f?or|and)_", s) for s in lst0]

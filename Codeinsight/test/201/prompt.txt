@@ -1,4 +1,6 @@
-Convert all tuple elements in a list lst0 into lists
+Convert all categorical columns to dummy/indicator int variables in dataframe df0
 
-def test(lst0):
+import pandas as pd
+
+def test(df0):
 

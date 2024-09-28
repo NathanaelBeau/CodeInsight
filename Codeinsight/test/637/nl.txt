@@ -1,1 +1,1 @@
-Merging items in a list lst0- Python   
+Convert the numpy array arr0 to a Python list.

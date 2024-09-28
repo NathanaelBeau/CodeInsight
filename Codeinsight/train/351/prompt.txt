@@ -1,4 +1,4 @@
-Reverse the key-value pairs in the dictionary dict0.
+Python "extend" for a dictionary  dict0 with an other dictionary dict1
 
-def test(dict0):
+def test(dict0, dict1):
 

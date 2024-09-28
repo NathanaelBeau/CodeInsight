@@ -1,1 +1,1 @@
-Convert a Pandas DataFrame  df0 with index column var0 to a dictionary   
+Sort the keys of the dictionary dict1 based on both characters and numbers present in the keys. 

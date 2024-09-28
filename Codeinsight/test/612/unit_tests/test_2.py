@@ -1,4 +1,4 @@
-lst0 = ['apple', 'banana', 'cherry']
-lst1 = ['apple', 'banana', 'cherry']
-expected_output = [True, True, True]
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+lst0 = [{'var0': 'value1', 'key2': 'value2'}, {'key3': 'value4', 'key4': 'value5'}]
+expected_result =  [{'key2': 'value2'}, {'key3': 'value4', 'key4': 'value5'}]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

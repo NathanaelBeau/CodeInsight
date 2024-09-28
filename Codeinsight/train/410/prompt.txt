@@ -1,4 +1,5 @@
-Determine if each element in list lst0 is less than its corresponding element in list lst1.
+Remove leading and ending whitespaces from a string var0   
 
-def test(lst0: list, lst1: list) -> bool:
+
+def test(var0):
 

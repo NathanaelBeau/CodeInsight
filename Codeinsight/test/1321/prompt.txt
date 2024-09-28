@@ -1,4 +1,4 @@
-Convert list lst0 into a dictionary using comprehension dict
+Python : how to create   a list  of  number var0 same list?   
 
-def test(lst0):
+def test(var0):
 

@@ -1,6 +1,4 @@
-return all the minimum indices in numpy  array var0
-
-import numpy as np
+Decode the string var0 to UTF-8 encoding
 
 def test(var0):
 

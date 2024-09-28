@@ -1,1 +1,0 @@
-Determine if the value value0 exists in the column named col_name of the pandas DataFrame df0.

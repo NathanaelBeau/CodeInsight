@@ -1,6 +1,6 @@
-Find all sequences of characters in string var0 that are between the special characters { and }.
+Delete the column var0 from DataFrame df0.
 
-import re
+import pandas as pd
 
-def test(var0):
+def test(df0, var0):
 

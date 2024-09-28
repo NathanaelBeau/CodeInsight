@@ -1,4 +1,4 @@
-lst0 = [1, 2, 3, 4]
-expected_result =  []
-result = test(lst0)
+str0 = "{'key1': 'value1', 'key2': 'value2'}"
+expected_result =  {'key1': 'value1', 'key2': 'value2'}
+result = test(str0)
 assert result == expected_result, 'Test failed'

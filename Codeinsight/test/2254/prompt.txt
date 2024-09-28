@@ -1,7 +1,0 @@
-Sort NumPy float array arr0 column by column   
-
-import numpy as np
-import pandas as pd
-
-def test(arr0):
-

@@ -1,2 +1,2 @@
 def test(lst0):
-    return sorted([int(x) for x in lst0])
+    return dict(x.split(":") for x in lst0)

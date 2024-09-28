@@ -1,5 +1,6 @@
-Perform one-hot encoding on a list lst0 with var0 unique classes  
+Retrieve the most frequent value from column var0 in dataframe df0
 
-import numpy as np
-def test(lst0, var0):
+import pandas as pd
+
+def test(df0, var0):
 

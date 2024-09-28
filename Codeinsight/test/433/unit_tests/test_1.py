@@ -1,4 +1,3 @@
-lst0 = ["1", "2", "a", "3", "b"]
-expected_result =  [1, 2, "a", 3, "b"]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+str0 = "   Leading spaces\n  More leading spaces\nAnd even more spaces   \n"
+expected_output = "Leading spaces\nMore leading spaces\nAnd even more spaces   \n"
+assert test(str0) == expected_output, 'Test failed'

@@ -1,4 +1,0 @@
-Reverse indices of a sorted list  lst0
-
-def test(lst0):
-

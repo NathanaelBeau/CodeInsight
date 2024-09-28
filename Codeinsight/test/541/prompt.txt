@@ -1,4 +1,4 @@
-split a single tuple lst0 into multiple using python  
+combine two lists lst0 and lst1 into a dictionary in Python   
 
-def test(lst0):
+def test(lst0, lst1):
 

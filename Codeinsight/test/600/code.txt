@@ -1,7 +1,4 @@
-import numpy as np
-
-
-def test(arr0, var0, var1):
-    arr0[arr0 > var0] = var1
-    return arr0
+import pandas as pd
+def test(df0):
+    return df0.values.flatten()
 

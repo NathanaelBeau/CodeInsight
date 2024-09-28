@@ -1,4 +1,7 @@
-Join the items of each tuple in the list of tuples lst0 into a list of strings.
+Convert the DataFrame df0 to an array of tuples.
 
-def test(lst0):
+import pandas as pd
+import numpy as np
+
+def test(df0):
 

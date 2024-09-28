@@ -1,3 +1,4 @@
-var0, var1, var2 = 0.0, 2.0, 5
-result = test(var0, var1, var2)
-assert all(var0 <= val <= var1 for val in result), 'Test failed'
+lst0 = [[1, 2], [3, 4], [5, 6]]
+expected_result =  [1, 2, 3, 4, 5, 6]
+result = list(test(lst0))
+assert result == expected_result, 'Test failed'

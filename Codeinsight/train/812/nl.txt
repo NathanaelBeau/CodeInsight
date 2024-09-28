@@ -1,1 +1,1 @@
-Compare the values in column var0 with the values in column var1 of dataframe df0
+Swap the first two values in each tuple/list inside the list lst0

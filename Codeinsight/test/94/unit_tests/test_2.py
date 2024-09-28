@@ -1,5 +1,3 @@
-var0 = 'country'
-var1 = 'log(country)'
-expected_output = pd.DataFrame({'var1': ['France', 'Germany', 'Italy']})
-df = pd.DataFrame({'var0': ['France', 'Germany', 'Italy']})
-assert test(df) .equals(expected_output), 'Test failed'
+arr0 = np.array([[0.0, 3.0], [0.1, 1.0], [0.2, -1.0]])
+expected_output = np.array([[0.0, 3.0], [0.1, 1.0]])
+assert (test(arr0)  == expected_output).all(), 'Test failed'

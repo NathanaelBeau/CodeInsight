@@ -1,5 +1,2 @@
-import pandas as pd
-
-def test(df0, lst0):
-    df0['new_column'] = lst0
-    return df0
+def test(var0):
+    return max(var0, key=var0.get)

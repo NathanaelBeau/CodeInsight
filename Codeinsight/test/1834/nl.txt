@@ -1,1 +1,3 @@
-Inserting a string var0  into  the beginning of a list lst0without getting split into characters   
+Output the first 100 characters from a string 
+str0
+str0

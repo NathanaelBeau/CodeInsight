@@ -1,6 +1,5 @@
-df0 = pd.DataFrame({'M': [True, False, True, False], 'N': [False, True, False, True], 'other_column': [100, 200, 300, 400]})
-var0 = 'M'
-var1 = True
-expected_result =  400
-result = test(df0, var0, var1)
+var0 = 2
+lst0 = [('John', 90, 'A'), ('Jane', 75, 'B'), ('Mike', 80, 'B')]
+expected_result =  ['A', 'B', 'B']
+result = test(var0, lst0)
 assert result == expected_result, 'Test failed'

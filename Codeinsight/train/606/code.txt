@@ -1,6 +1,4 @@
-def test(lst0):
-    reversed_tuples = []
-    for x in lst0:
-        reversed_tuple = tuple(reversed(x))
-        reversed_tuples.append(reversed_tuple)
-    return tuple(reversed_tuples)
+import numpy as np
+
+def test(arr0):
+    return np.compress(~np.isnan(arr0), arr0)

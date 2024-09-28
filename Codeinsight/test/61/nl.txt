@@ -1,1 +1,1 @@
-Get the column index of column name var0 in the pandas DataFrame df0.
+Delete elements from the array arr0 along a specified axis var1 at intervals determined by var0. 

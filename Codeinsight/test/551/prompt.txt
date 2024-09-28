@@ -1,6 +1,6 @@
-Remove dollar sign from the second to the last column in dataframe df0 and convert these columns into floats.
+Convert a list of lists into a Pandas DataFrame. The first sublist in lst0 is used as the header (column names), and the remaining sublists are used as the data rows.
 
 import pandas as pd
 
-def test(df0):
+def test(lst0):
 

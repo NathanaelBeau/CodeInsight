@@ -1,1 +1,5 @@
-Changing one character var0 by var1 in a string  str0 
+Compare elements in two NumPy arrays, 
+arr0
+arr0 and 
+arr1
+arr1, and return a boolean array of the same shape indicating element-wise comparison  

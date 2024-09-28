@@ -1,1 +1,1 @@
-How to convert a hex string  str0 to hex number   
+Inserting a string str0 into a list lst0  at the beginning without getting split into characters   

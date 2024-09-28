@@ -1,3 +1,3 @@
-lst0 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]  
-expected_output = [{1, 2, 3}, {4, 5, 6}, {7, 8, 9}]
-assert test(lst0) ==expected_output, 'Test failed'
+var0 = "Numbers: 1, 23, 456, 7890."
+expected_result =  ["1", "23", "456"]
+assert test(var0) == expected_result, 'Test failed'

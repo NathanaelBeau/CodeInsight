@@ -1,4 +1,4 @@
-import pandas as pd
+from itertools import groupby
 
-def test(df0, var0):
-    return df0.groupby(var0).size()
+def test(lst0):
+    return {k: list(v) for k, v in groupby(sorted(lst0), key=lambda x: x[0])}

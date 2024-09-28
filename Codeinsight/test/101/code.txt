@@ -1,5 +1,2 @@
-import numpy as np
-
-def test(arr0, var0):
-    indices = np.argwhere(arr0 == var0)
-    return indices
+def test(lst0: list) -> list:
+    return [s.rstrip("\r\n") for s in lst0]

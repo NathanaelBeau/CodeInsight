@@ -1,2 +1,2 @@
-def test(lst0):
-    return len(set(lst0)) == len(lst0) and max(lst0) == len(lst0) and min(lst0) == 1
+def test(lst0, lst1):
+    return list(map(lambda a, b: a is b, lst0, lst1))

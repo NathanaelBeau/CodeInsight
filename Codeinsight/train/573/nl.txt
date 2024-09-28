@@ -1,1 +1,1 @@
-Converting a list of tuples lst0 into a dict   
+Convert the datatype of numpy array arr0 to dtype0

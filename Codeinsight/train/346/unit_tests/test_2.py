@@ -1,4 +1,3 @@
-lst0 = [{"random_key": "x"}, {"another_key": "y"}]
-expected_result =  []
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+lst0 = [10, 2, 5, 8, 10, 5, 10]
+expected_output = [0, 4, 6]
+assert test(lst0) ==expected_output, 'Test failed'

@@ -1,1 +1,0 @@
-Convert a pandas Series series0 into a DataFrame  

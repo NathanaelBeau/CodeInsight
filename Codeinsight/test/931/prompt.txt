@@ -1,4 +1,6 @@
-Get the indices of tuples in the list of tuples lst0 where the first value is 53.
+Remove all rows containing non-numeric values from a numpy array arr0
 
-def test(lst0):
+import numpy as np
+
+def test(arr0):
 

@@ -1,2 +1,1 @@
-Divide the values with the same keys of two dictionaries dict0 and dict1.
-
+Create a dictionary where keys are integers from 0 to var0 - 1 and values are their respective squares.

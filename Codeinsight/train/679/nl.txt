@@ -1,1 +1,1 @@
-Limit the number var0 of sentences in a string str0  
+Delete the row at position var0 in numpy array x.

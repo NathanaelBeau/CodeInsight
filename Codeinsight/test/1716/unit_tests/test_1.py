@@ -1,7 +1,4 @@
-lst0 = [
-    {'Name': 'Alice', 'Age': 28},
-    {'Name': 'Bob', 'Age': 32},
-    {'Name': 'Claire', 'Age': 40}
-]
-expected_output = pd.DataFrame(lst0)
-assert test(lst0) .equals(expected_output), 'Test failed'
+var0 = "FirstLine\n\nSecondLine\nThirdLine"
+expected_result =  [("FirstLine", "\nSecondLine\nThirdLine")]
+result = test(var0)
+assert result == expected_result, 'Test failed'

@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0, column_name0):
-    return df0.groupby(column_name0, as_index=False).sum()
+def test(var0):
+    return [len(word) for word in var0.split()]

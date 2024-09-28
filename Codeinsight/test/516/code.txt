@@ -1,4 +1,7 @@
-import numpy as np
+import re
 
-def test(arr0):
-    return arr0 / np.linalg.norm(arr0)
+def test(var0, var1):
+    match = re.match(var1 + r'$', var0)
+    if match:
+        return [match.group()]
+    return []

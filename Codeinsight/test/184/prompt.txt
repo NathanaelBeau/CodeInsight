@@ -1,5 +1,4 @@
-Separate the numbers and characters in a string var0
+Extract all rows from dataframe df0 where the value of column 'Value' is True.
 
-import re
-def test(var0):
+def test(df0):
 

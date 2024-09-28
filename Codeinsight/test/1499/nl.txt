@@ -1,1 +1,1 @@
-Convert a numpy matrix matrix0 to a 1D numpy array
+Combine rows with the same index in dataframe df0 by summing their values.

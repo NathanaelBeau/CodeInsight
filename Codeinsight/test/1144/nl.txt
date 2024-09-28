@@ -1,1 +1,1 @@
-Pythonic way to fetch all elements in a dictionary dict0, falling between two keys var0 and var1 
+ sort a zipped list lst0 in Python  

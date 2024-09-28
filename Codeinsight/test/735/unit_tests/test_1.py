@@ -1,4 +1,4 @@
-str0 = "abc123"
+dict0= {'a': 1, 'b': 2, 'c': 3}
+var0 = 4
 expected_output = False
-output = test(str0)
-assert output == expected_output, 'Test failed'
+assert test(dict0, var0) ==expected_output, 'Test failed'

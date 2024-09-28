@@ -1,4 +1,4 @@
-# Test 2
-var0 = "abcde"
-expected_result =  "abcde"
-assert test(var0) == expected_result, 'Test failed'
+var0 = 0.9
+expected_result =  -1
+result = test(var0)
+assert result == expected_result, 'Test failed'

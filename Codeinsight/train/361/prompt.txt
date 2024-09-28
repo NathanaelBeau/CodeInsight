@@ -1,6 +1,4 @@
-Remove adjacent duplicate elements from a list lst0
+Python: Sum string lengths str0 
 
-from itertools import groupby
-
-def test(lst0):
+def test(str0):
 

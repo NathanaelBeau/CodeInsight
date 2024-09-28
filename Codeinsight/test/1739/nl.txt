@@ -1,1 +1,1 @@
- extract numbers from a string str0 in Python 
+Find the indices of value var0 in a 2D list lst0

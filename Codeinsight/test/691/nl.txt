@@ -1,1 +1,1 @@
-A pythonic way to insert a space before capital letters   in strings  str0 using regex
+Subtract the row-wise mean from each element in DataFrame df0, returning the result as a new DataFrame.

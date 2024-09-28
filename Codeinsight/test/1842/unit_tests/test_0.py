@@ -1,3 +1,4 @@
-str0 = "sdkjh987978asd098as0980a98sd"
-expected_output = "987978098098098"
-assert test(str0) ==expected_output, 'Test failed'
+var0 = "There are 3 apples and 5 oranges."
+expected_result =  ["3", "5"]
+result = test(var0)
+assert result == expected_result, 'Test failed'

@@ -1,4 +1,4 @@
-Check if list lst0 items contains substrings from another list   lst1
+ sort a list of strings  lst0
 
-def test(lst0, lst1):
+def test(lst0):
 

@@ -1,6 +1,4 @@
-from itertools import groupby
+import pandas as pd
 
-def test(lst0):
-    lst0.sort(key=lambda x: x[0])
-    grouped = [next(group) for _, group in groupby(lst0, key=lambda x: x[0])]
-    return grouped
+def test(str0, df0):
+    return df0.isin([str0]).any().any()

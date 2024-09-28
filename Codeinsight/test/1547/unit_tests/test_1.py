@@ -1,4 +1,4 @@
-# Test 3
-var0 = "aabbccddeeffgggh"
-expected_result =  "aabbccddeeffh"
-assert test(var0) == expected_result, 'Test failed'
+lst0 = ['cat', 'dog', 'cat', 'cat', 'dog', 'dog']
+var0 = ['cat']
+expected_output = [['dog'], ['dog', 'dog']]
+assert test(lst0,  var0) ==expected_output, 'Test failed'

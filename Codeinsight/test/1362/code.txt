@@ -1,6 +1,3 @@
-def test(str0, str1):
-    matching = []
-    for i in str0:
-        if i.__contains__(str1):
-            matching.append(i)
-    return matching
+def test(lst0):
+    sorted_list = sorted(lst0)
+    return sorted_list == list(range(sorted_list[0], sorted_list[-1]+1))

@@ -1,12 +1,3 @@
-import numpy
-import math
-import pandas
-import string
-import datetime
-import json
-import itertools
-import random
-import functools
-import collections
-result = test(1, 1)
-assert result==True, 'Test failed'
+A = np.array([[0.9, 0.8], [0.7, 0.6]])
+expected_output = np.array([[0.7, 0.6], [0.9, 0.8]])
+assert np.array_equal(test(A), expected_output), 'Test failed'

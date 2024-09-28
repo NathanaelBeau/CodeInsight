@@ -1,2 +1,4 @@
-def test(lst0):
-    return list(filter(lambda x: not isinstance(x, int), lst0))
+import re
+
+def test(str0: str) -> list:
+    return [x for x in re.split(r'(\W+)', str0) if x]

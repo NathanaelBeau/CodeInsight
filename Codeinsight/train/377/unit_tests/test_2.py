@@ -1,3 +1,3 @@
-var0 = 3
-expected_result =  [(0, 0, 0), (0, 0, 1), (0, 1, 0), (0, 1, 1), (1, 0, 0), (1, 0, 1), (1, 1, 0), (1, 1, 1)]
-assert test(var0) == expected_result, 'Test failed'
+str0 = "NoChangesHere..."
+expected_output = "NoChangesHere..."
+assert test(str0) == expected_output, 'Test failed'

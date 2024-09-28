@@ -1,2 +1,5 @@
-def test(var0, var1):
-    return ''.join([char for char in var0 if char != var1])
+import pandas as pd
+
+def test(df0, col0):
+    return df0[col0].value_counts()
+

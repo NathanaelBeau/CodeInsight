@@ -1,5 +1,6 @@
-lst0 = [[10, 20, 30], [40, 50, 60], [70, 80, 90]]
-var0 = 100
-expected_result =  []
-result = test(lst0, var0)
-assert result == expected_result, 'Test failed'
+# Test 2
+var0 = "The quick brown fox jumps over the lazy dog"
+var1 = "jumps"
+var2 = 2
+expected_result =  ("brown", "fox", "over", "the")
+assert test(var0, var1, var2) == expected_result, 'Test failed'

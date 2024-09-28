@@ -1,4 +1,4 @@
-df0 = pd.DataFrame({'name': ['Peach', 'Mango', 'Berry']})
-expected_result =  pd.DataFrame({'name': ['Peach', 'Mango', 'Berry']})
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+str0 = ""
+var0 = 5  
+expected_output = ""
+assert test(str0, var0) == expected_output, 'Test failed'

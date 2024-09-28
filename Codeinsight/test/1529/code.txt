@@ -1,2 +1,4 @@
-def test(str0, var0):
-    return ''.join([char * var0 for char in str0])
+import numpy as np
+def test(arr0, var0, var1):
+    arr0[arr0 == var0] = var1
+    return arr0

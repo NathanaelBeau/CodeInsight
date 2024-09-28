@@ -1,6 +1,6 @@
-Matching blank lines with regular expressions    in string str0
+Combine the values of matching keys and sort the resultant dictionary by the summed values, using a list of dictionaries lst0.
 
-import re
+from collections import Counter
 
-def test(str0):
+def test(lst0):
 

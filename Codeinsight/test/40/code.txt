@@ -1,4 +1,3 @@
-import re
-
-def test(str0):
-    return re.sub(r'\b\d+\b', '', str0)
+import numpy as np
+def test(arr0):
+    return arr0[::-1]

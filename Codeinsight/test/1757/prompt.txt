@@ -1,6 +1,6 @@
-Copy all elements from a numpy array arr0 to a new numpy array
+ Sort the list of dictionaries lst0 based on the value of the key var0 in each dictionary. 
 
-import numpy as np
+import operator
 
-def test(arr0):
+def test(lst0, var0):
 

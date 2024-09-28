@@ -1,2 +1,2 @@
-def test(lst0, var0, var1):
-    return any(d.get(var0) == var1 for d in lst0)
+def test(dict0, dict1):
+    return {k: dict0[k] for k in dict0.keys() & dict1.keys()}

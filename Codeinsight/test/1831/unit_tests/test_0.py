@@ -1,3 +1,5 @@
-df0 = pd.DataFrame({'a': [1.5, 2.5], 'b': [0.25, 2.75], 'c': [1.25, 0.75]})
-expected_output = pd.DataFrame({'a': [0.5, 0.5], 'b': [-0.75, 0.75], 'c': [0.25, -1.25]})
-assert test(df0) .equals(expected_output), 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, 3, 4, 5], 'B': [6, 7, 8, 9, 10]})
+var0 = 3
+expected_result =  pd.DataFrame({'A': [1, 2, 3], 'B': [6, 7, 8]})
+result = test(df0, var0)
+assert result.equals(expected_result), 'Test failed'

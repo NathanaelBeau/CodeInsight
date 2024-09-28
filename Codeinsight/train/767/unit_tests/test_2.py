@@ -1,4 +1,3 @@
-dict0 = {'MixedCASE': 123, 'anotherOne': 456}
-expected_result =  {'mixedcase': 123, 'anotherone': 456}
-result = test(dict0)
-assert result == expected_result, 'Test failed'
+str0 = "123456789"
+expected_output = "214365879"
+assert test(str0) ==expected_output, 'Test failed'

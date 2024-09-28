@@ -1,1 +1,0 @@
-Count the number of true elements in a NumPy boolean array arr0.

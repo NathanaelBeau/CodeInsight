@@ -1,5 +1,5 @@
-arr2 = np.array([[9, 10], [11, 12]])
-arr3 = np.array([13, 14])
-expected_result =  np.array([[9, 10, 13], [11, 12, 14]])
-result = test(arr2, arr3)
-assert np.array_equal(result, expected_result), 'Test failed'
+var0 = 7
+lst0 = [7, 8, 9]
+expected_output = 0
+output = test(var0, lst0)
+assert output == expected_output, 'Test failed'

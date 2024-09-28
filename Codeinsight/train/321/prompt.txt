@@ -1,5 +1,4 @@
-Determine the size (in bytes) of the data type dtype0 using NumPy  
+Create a sorted list containing the keys of dictionary dict0.
 
-import numpy as np
-def test(dtype0):
+def test(dict0):
 

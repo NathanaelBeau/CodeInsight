@@ -1,3 +1,4 @@
-df0 = pd.DataFrame({'P': [13], 'Q': [14]}, index=[100])
-expected_output = [100]
-assert test(df0) == expected_output , 'Test failed'
+lst0 = [['/', '+', '*'], ['-', '*', '+'], ['+', '/', '-']]
+dict0 = {'*': 2, '/': 1, '+': 3, '-': 0}
+expected_output = [['/', '*', '+'], ['-', '*', '+'], ['-', '/', '+']]
+assert test(lst0, dict0) ==expected_output, 'Test failed'

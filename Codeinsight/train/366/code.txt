@@ -1,2 +1,8 @@
-def test(var0, lst0):
-    return sum(1 for x in lst0 if x > var0)
+def test(lst0):
+    result = []
+    for i in lst0:
+        concatenated_string = ''
+        for item in i:
+            concatenated_string += item
+        result.append(concatenated_string)
+    return result

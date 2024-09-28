@@ -1,4 +1,5 @@
-arr0 = np.array([0.12345, 0.67890, 9.87654])
-var0 = "{:.1f}"
-expected_output = ['0.1', '0.7', '9.9']
-assert (test(arr0, var0)  ==  expected_output).all(), 'Test failed'
+# Test 2
+df0 = pd.DataFrame({'fruit': ['apple', 'banana'], 'count': [10, 20], 'color': ['red', 'yellow']})
+expected_result =  3
+result = test(df0)
+assert result == expected_result, 'Test failed'

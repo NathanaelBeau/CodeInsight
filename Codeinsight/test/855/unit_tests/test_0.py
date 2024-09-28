@@ -1,6 +1,3 @@
-df0 = pd.DataFrame({'values': [10, 20, 30], 'weights': [1, 2, 3]})
-col_values = 'values'
-col_weights = 'weights'
-expected_result =  (10*1 + 20*2 + 30*3) / (1 + 2 + 3)
-result = test(df0, col_values, col_weights)
-assert result == expected_result, 'Test failed'
+lst0 = [(1, 2), (3, 4), (5, 6)]
+expected_output = [[1, 3, 5], [2, 4, 6]]
+assert test(lst0) == expected_output, 'Test failed'

@@ -1,3 +1,5 @@
-arr0 = np.array([[5,15],[25,35],[45,55]])
-expected_output = np.array([[0., 0.2], [0.4, 0.6], [0.8, 1.]])
-assert np.array_equal(test(arr0), expected_output), 'Test failed'
+df0 = pd.DataFrame({'P': [10, 20, 30], 'Q': [40, 50, 60]})
+Col0 = 'P'
+expected_result =  pd.DataFrame({'P': [20, 30, None], 'Q': [40, 50, 60]})
+result = test(df0, Col0)
+assert result.equals(expected_result), 'Test failed'

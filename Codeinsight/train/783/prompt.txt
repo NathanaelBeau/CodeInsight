@@ -1,4 +1,4 @@
-Check if all elements in a list lst0 are of type int
+Get the lengths of each word in a sentence named var0
 
-def test(lst0):
+def test(var0):
 

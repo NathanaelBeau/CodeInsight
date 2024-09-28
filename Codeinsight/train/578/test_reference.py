@@ -1,5 +1,4 @@
-def test(dict0):
-    if dict0['a'] is None:
-        dict0['a'] = 0
-    return dict0
+import pandas as pd
 
+def test(df0, var0):
+    return df0.drop(var0, axis=1)

@@ -1,1 +1,1 @@
-Count the number of non-NaN elements in the numpy ndarray matrix data.
+Add or subtract a time duration (timedelta0) to the index of a dataframe df0 where the index objects are of type datetime.time.

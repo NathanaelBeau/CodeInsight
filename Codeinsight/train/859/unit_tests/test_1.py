@@ -1,5 +1,6 @@
-arr0 = np.array([[4, 5, 6], [7, 8, 9], [1, 2, 3]])
-var0 = 2
-expected_result =  np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-result = test(arr0, var0)
-assert np.array_equal(result, expected_result), 'Test failed'
+var0 = "OpenAI"
+var1 = "GPT-3.5"
+var2 = 7
+expected_result =  "OpenAIGPT-3.5"
+result = test(var0, var1, var2)
+assert result== expected_result, 'Test failed'

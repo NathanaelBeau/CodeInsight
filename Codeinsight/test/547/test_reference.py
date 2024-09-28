@@ -1,3 +1,6 @@
-import numpy as np
-def test(arr0):
-    return np.array(arr0, dtype=float)
+def test(str0):
+    result = ""
+    for char in str0:
+        if not char.isdigit():
+            result += char
+    return result

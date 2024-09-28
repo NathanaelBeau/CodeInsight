@@ -1,3 +1,4 @@
-str0 = "Splitting-a-string"
-expected_output = ['Splitting-a-', 'tring']
-assert test(str0) ==expected_output, 'Test failed'
+var0 = pd.DataFrame({'P': [10], 'Q': [20]})
+expected_result =  pd.DataFrame({'P': [10], 'Q': [20], 'new_col': [0]})
+result = test(var0)
+assert result.equals(expected_result), 'Test failed'

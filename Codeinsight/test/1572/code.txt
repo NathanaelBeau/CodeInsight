@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(arr0, var0):
-    return np.argwhere(arr0 == var0)
+def test(lst0):
+    return {d['key']: d for d in lst0}

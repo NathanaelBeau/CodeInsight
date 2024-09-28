@@ -1,1 +1,1 @@
-Replace text 'old_text' with 'new_text' in a string column named 'str0' of a Pandas dataframe 'df0'.
+Join dataframes df0, df1, and df2 on column 'name'.

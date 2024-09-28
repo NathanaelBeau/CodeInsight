@@ -1,4 +1,5 @@
-df1 = pd.DataFrame({'X': [1, 2, 3], 'Y': [4, 5, 6]})
-df2 = pd.DataFrame({'X': [0, 0, 0], 'Y': [0, 0, 0]})
-expected_output = pd.DataFrame({'X': [0, 0, 0], 'Y': [0, 0, 0]})
-assert test(df1, df2).equals(expected_output), 'Test failed'
+lst0 = [9, 10]
+lst1 = [11, 12]
+expected_result =  [(9, 11), (10, 12)]
+result = test(lst0, lst1)
+assert result == expected_result, 'Test failed'

@@ -1,1 +1,1 @@
-Combine rows with the same index in dataframe df0 by summing their values.
+Getting the first elements per row in an array lst0 in Python   

@@ -1,1 +1,0 @@
-Extract the first and last rows of a DataFrame df0 

@@ -1,1 +1,1 @@
-Remove the index name from a pandas DataFrame df0
+convert binary string str0 to numpy array   

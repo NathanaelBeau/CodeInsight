@@ -1,1 +1,0 @@
-Inserting a string var0  into  the beginning of a list lst0without getting split into characters   

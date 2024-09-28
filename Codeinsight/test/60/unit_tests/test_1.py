@@ -1,3 +1,3 @@
-lst0 = [{'key': 'x', 'data': 100}, {'key': 'y', 'data': 200}]
-expected_result =  {'x': {'key': 'x', 'data': 100}, 'y': {'key': 'y', 'data': 200}}
-assert test(lst0) == expected_result, 'Test failed'
+str0 = "This is a sample string without numbers"
+expected_output = "This is a sample string without numbers"
+assert test(str0) ==expected_output, 'Test failed'

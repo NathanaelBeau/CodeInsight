@@ -1,1 +1,2 @@
-Get the first row value from column var0 in a pandas DataFrame df0.
+Divide the values with the same keys of two dictionaries dict0 and dict1.
+

@@ -1,3 +1,4 @@
-import pandas as pd
-def test(df0):
-    return df0.shape
+import numpy as np
+
+def test(arr0, var0):
+    return np.where(arr0 == var0)[0][0]

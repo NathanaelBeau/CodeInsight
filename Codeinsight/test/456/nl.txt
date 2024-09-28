@@ -1,1 +1,1 @@
-Replace all occurrences of negative infinity in array arr0 with zero  
+Replace all negative values with 0 in a numpy array arr0

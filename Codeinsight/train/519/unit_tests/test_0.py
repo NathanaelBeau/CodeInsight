@@ -1,5 +1,9 @@
-str0 = "Hello World"
-var0 = 4
-var1 = "X"
-expected_output = "HellX World"
-assert test(str0, var0,var1)==expected_output, 'Test failed'
+var0 = np.array([[True, False, True],
+                 [False, True, False],
+                 [True, True, False]])
+expected_output = np.array([[0, 0],
+                            [0, 2],
+                            [1, 1],
+                            [2, 0],
+                            [2, 1]])
+assert (test(var0)  ==  expected_output).all(), 'Test failed'

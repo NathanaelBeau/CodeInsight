@@ -1,1 +1,1 @@
-Extract the first element from each innermost list of the multidimensional list lst0.
+Count the number of duplicate rows in a pandas DataFrame df0.

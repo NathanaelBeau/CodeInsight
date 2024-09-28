@@ -1,1 +1,1 @@
- check if a string str1 is a substring of items in a list of strings str0 with list comprehension  
+Escape all special characters in string str0 to prepare it for regex usage.

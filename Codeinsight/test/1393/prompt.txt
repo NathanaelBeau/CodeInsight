@@ -1,6 +1,4 @@
-Count the number of unique values in the column var0 of DataFrame df0.
+List comprehension - converting strings in one list lst0, sum elements and convert to integers in another list   
 
-import pandas as pd
-
-def test(df0, var0):
+def test(lst0):
 

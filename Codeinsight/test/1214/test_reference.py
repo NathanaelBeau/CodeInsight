@@ -1,3 +1,3 @@
-def test(lst0):
-    lst0.sort(key=lambda x: (x[0], len(x[1])))
-    return lst0
+import numpy as np
+def test(arr0):
+    return arr0 / arr0.sum(axis=1)[:, np.newaxis]

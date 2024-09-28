@@ -1,6 +1,4 @@
-import numpy as np
-from scipy.signal import argrelextrema
-def test(arr0):
-    maxima = argrelextrema(arr0, np.greater)[0]
-    minima = argrelextrema(arr0, np.less)[0]
-    return maxima, minima
+import re
+
+def test(str0, var0, var1):
+    return re.sub(var0, var1, str0)

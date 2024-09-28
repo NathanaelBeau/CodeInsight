@@ -1,4 +1,4 @@
-var0 = "This is an example without non-English characters."
-expected_result =  False
-result = test(var0)
-assert result == expected_result, 'Test failed'
+the_list = "abcdefgh"
+n = 4
+expected_output = ['abcd', 'efgh']
+assert test(the_list, n) == expected_output, 'Test failed'

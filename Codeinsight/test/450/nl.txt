@@ -1,1 +1,1 @@
-Get the count of unique values for each column in the DataFrame df0  
+Remove duplicate rows according to columns var0 and var1 from DataFrame var2 and return a Dataframe with a column frequency   

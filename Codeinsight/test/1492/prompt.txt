@@ -1,6 +1,6 @@
-Split strings in tuples into columns var0, in Pandas  dataframe df0 
+Remove duplicates in the pandas DataFrame df0 based on column 'A', keeping the row with the highest value in column 'B'.
 
 import pandas as pd
 
-def test(df0, var0):
+def test(df0):
 

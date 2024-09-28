@@ -1,1 +1,1 @@
-Get the count of values in numpy array a that are greater than var0 and less than or equal to var1.
+How can I compare two lists lst0 and lst1  in python and return matches   

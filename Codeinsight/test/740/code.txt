@@ -1,2 +1,3 @@
-def test(lst0):
-    return [sum(int(char) for char in s if char.isdigit()) for s in lst0]
+def test(df0):
+    males = df0.query("Gender == 'Male' and Year == 2014")
+    return males

@@ -1,1 +1,1 @@
-Match and remove characters in str0 that have three or more non-consecutive occurrences.
+Find the largest integer less than a given number var0.

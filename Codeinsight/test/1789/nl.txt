@@ -1,1 +1,1 @@
-Extract a sublist from a list of strings lst0 starting from index var0 and ending at index var1
+Replace occurrences of the regular expression pattern var0 with replacement var1 in string str0. Uses the boolean bool0 to ignore case in the pattern. 

@@ -1,6 +1,4 @@
-Flatten the list of lists sublist into a single list.
+Get the first element of each tuple in a list lst0 in Python   
 
-import itertools
-
-def test(sublist):
+def test(lst0):
 

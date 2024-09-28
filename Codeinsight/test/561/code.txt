@@ -1,4 +1,4 @@
-import re
+import pandas as pd
 
-def test(lst0):
-    return sorted(lst0, key=lambda x: int(re.search(r'(\d+)$', x).group()))
+def test(df0, lst0, lst1):
+    return df0.loc[lst0, lst1].mean()

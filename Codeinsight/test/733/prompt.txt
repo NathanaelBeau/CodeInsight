@@ -1,4 +1,5 @@
-Clamp an integer var0 between var1 and var2  
+Check if numpy arrays arr0 and arr1 potentially share the same memory/data  
 
-def test(var0, var1, var2):
+import numpy as np
+def test(arr0, arr1):
 

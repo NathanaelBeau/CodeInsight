@@ -1,3 +1,4 @@
-df0 = pd.DataFrame({'alpha': [0.1, 0.2], 'beta': [0.5, 0.6]})
-expected_result =  pd.DataFrame({'alpha': [0.1], 'beta': [0.5]})
-assert test(df0).equals(expected_result), 'Test failed'
+arr2 = np.array([0.1, 0.2, -np.inf, 0.3])
+expected_result =  np.array([0.1, 0.2, 0, 0.3])
+result = test(arr2)
+assert np.array_equal(result, expected_result), 'Test failed'

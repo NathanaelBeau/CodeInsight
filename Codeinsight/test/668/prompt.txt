@@ -1,4 +1,6 @@
-Find the starting indices of all occurrences of the regex pattern pattern in string str0.
+Query rows from dataframe df0 where column var0 has NaN values or the value 'Other'.
 
-def test(str0: str, pattern: str) -> list:
+import pandas as pd
+
+def test(df0, var0):
 

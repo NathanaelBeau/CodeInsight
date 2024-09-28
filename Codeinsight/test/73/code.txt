@@ -1,4 +1,2 @@
-import re
-
-def test(var0):
-    return re.sub(r'\*+', '*', var0)
+def test(str0):
+    return str0[:100]

@@ -1,1 +1,1 @@
- slice and extend a 2D numpy array  var0
+Creating a dictionary dict0 from a string str0  in 3 steps: split the string into key values parts, split each part into key values pairs and remove the whitespace from each pair

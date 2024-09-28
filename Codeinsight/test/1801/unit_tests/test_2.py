@@ -1,5 +1,4 @@
-# Test 3
-ser0 = pd.Series([False, False, False])
-expected_result =  pd.Series([True, True, True])
-result = test(ser0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [-1, -2, -3]
+expected_result =  [0, -1, -2]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

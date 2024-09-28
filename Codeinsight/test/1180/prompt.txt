@@ -1,4 +1,6 @@
-Compose keys from dictionary dict0 with respective values in dictionary dict1
+Combine two dataframes, df1 and df2, by their index."
 
-def test(dict0, dict1):
+import pandas as pd
+
+def test(df1, df2):
 

@@ -1,4 +1,5 @@
-df1 = pd.DataFrame({'grade': ['100.5', '90.7', '80.2']})
-expected_result1 = pd.DataFrame({'grade': [100, 90, 80]})
-result1 = test(df1)
-assert result1.equals(expected_result1), 'Test failed'
+arr0 = np.array([1, 2, 3])
+arr1 = np.array([3, 4, 5])
+expected_result =  np.array([2., 3., 4.])
+result = test(arr0, arr1)
+assert np.array_equal(result, expected_result), 'Test failed'

@@ -1,4 +1,6 @@
-Check if all elements in a list lst0 are the same   
+Retrieve all matches of the regular expression pattern in the end of string str0.
 
-def test(lst0):
+import re
+
+def test(str0, pattern):
 

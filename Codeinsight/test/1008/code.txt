@@ -1,4 +1,5 @@
 import pandas as pd
 
-def test(lst0):
-    return pd.DataFrame(columns=columns_list)
+def test(df0, var0, var1):
+    result = df0.groupby(var0)[var1].idxmax()
+    return df0.loc[result]

@@ -1,1 +1,1 @@
-Compute the Euclidean distance between two multidimensional points, lst0 and lst1
+Calculate the covariance between numpy arrays arr0 and arr1 

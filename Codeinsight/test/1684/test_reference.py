@@ -1,4 +1,5 @@
-import pandas as pd
-
-def test(df0):
-    return df0.loc[df0.groupby('A')['B'].idxmax()]
+def test(var0):
+    for char in set(var0):
+        if var0.count(char) >= 3:
+            var0 = var0.replace(char, '')
+    return var0

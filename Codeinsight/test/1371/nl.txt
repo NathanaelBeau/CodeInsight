@@ -1,1 +1,1 @@
-Extend the dictionary dict0 with key/value pairs from dictionary dict1
+Find all possible substrings in var0 that begin with characters from the capturing group var1.

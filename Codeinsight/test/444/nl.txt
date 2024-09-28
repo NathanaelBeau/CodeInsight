@@ -1,1 +1,1 @@
-write a regular expression to match a string str0 literal where the escape is a doubling of the quote character   
+Remove whitespace from before punctuation in string var0 but keep whitespace after punctuation.

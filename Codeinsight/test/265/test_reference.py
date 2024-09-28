@@ -1,3 +1,4 @@
-import numpy as np
-def test(lst0):
-    return np.concatenate(lst0)
+import pandas as pd
+
+def test(df0, var0, var1):
+    return df0.groupby(var0).sum()[var1]

@@ -1,2 +1,4 @@
+import pandas as pd
+
 def test(df0):
-    return df0[(df0['Gender'] == 'Male') & (df0['Year'] == 2014)]
+    return [df0.iloc[i].to_dict() for i in range(len(df0))]

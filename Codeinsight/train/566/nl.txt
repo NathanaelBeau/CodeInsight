@@ -1,1 +1,1 @@
-return variables var0 without spaces between values with formatting  
+Remove character var1 from the string var0.

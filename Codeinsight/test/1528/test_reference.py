@@ -1,2 +1,2 @@
-def test(var0):
-    return var0.split('&')
+def test(dict0, lst0):
+    return {x: dict0[x] for x in lst0 if x in dict0}

@@ -1,4 +1,3 @@
-import numpy as np
-
-def test(arr0, threshold0):
-    return arr0[arr0 > threshold0]
+import re
+def test(str0):
+    return re.sub(r'\(\w+\)', '', str0)

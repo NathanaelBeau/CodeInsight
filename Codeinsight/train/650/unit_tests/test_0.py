@@ -1,3 +1,3 @@
-lst0 = [('A', 'V', 'C'), ('A', 'D', 'D')]
-expected_output = ['AVC', 'ADD']
-assert test(lst0) ==expected_output, 'Test failed'
+str0 = '23.45678'
+expected_output = 23
+assert test(str0) ==expected_output, 'Test failed'

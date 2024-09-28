@@ -1,1 +1,0 @@
-Pandas: Create another column var1 while splitting each row from the first column var0    in dataframe df0 

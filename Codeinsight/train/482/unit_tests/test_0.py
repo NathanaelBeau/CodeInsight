@@ -1,7 +1,4 @@
-# Test 1
-df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
-col_name1 = 'A'
-col_name2 = 'B'
-expected_result =  {1: 4, 2: 5, 3: 6}
-result = test(df0, col_name1, col_name2)
-assert result == expected_result, 'Test failed'
+arg0 = '[,;.]'
+arg1 = "Hello,world;this.is:a,test"
+expected_output = ['Hello', 'world', 'this', 'is:a', 'test']
+assert test(arg0, arg1) == expected_output, 'Test failed'

@@ -1,1 +1,1 @@
- Get the index of the maximum value in a multi-dimensional array arr0
+ multiply multiple columns by a column in Pandas  dataframe df0 

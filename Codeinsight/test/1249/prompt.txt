@@ -1,4 +1,4 @@
-Delete character  var0 from a given string str0
+Delete all columns in DataFrame df0 that do not hold a non-zero value in its records.
 
-def test(str0, var0):
+def test(df0):
 

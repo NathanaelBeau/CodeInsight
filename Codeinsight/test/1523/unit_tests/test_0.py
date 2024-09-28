@@ -1,4 +1,5 @@
-var0 = "any string"
-expected_result =  None
-result = test(var0)
-assert result == expected_result, 'Test failed'
+mystring = "ababaabbaa"
+var0 = "b"
+var1 = "a"
+expected_output1 = ["aba"]
+assert test(mystring, var0, var1) == expected_output1, 'Test failed'

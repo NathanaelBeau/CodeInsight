@@ -1,5 +1,4 @@
-import pandas as pd
-import numpy as np
+def test(str0):
+    parts = str0.split("\\")
+    return "".join(parts)
 
-def test(df0):
-    return np.array([tuple(x) for x in df0.values])

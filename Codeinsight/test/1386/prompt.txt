@@ -1,6 +1,4 @@
-get the name of the rows from the index of a data frame df0   
+Append values from list lst0 to a set set0
 
-import pandas as pd
-
-def test(df0):
+def test(set0, lst0):
 

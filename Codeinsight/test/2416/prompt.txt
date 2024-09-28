@@ -1,6 +1,0 @@
-Convert a list of dictionaries lst0 into a pandas DataFrame.
-
-import pandas as pd
-
-def test(lst0):
-

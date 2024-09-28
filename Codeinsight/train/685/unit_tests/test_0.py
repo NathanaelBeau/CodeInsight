@@ -1,3 +1,4 @@
-dict0 = {'a': 1, 'b': 2, 'c': 3}
-expected_output = (['a', 'b', 'c'], [1, 2, 3])
-assert test(dict0) == expected_output, 'Test failed'
+lst0 = [10, 20, 30, 40, 50]
+lst1 = [1, 3]
+expected_output = [20, 40]
+assert test(lst0, lst1) == expected_output, 'Test failed'

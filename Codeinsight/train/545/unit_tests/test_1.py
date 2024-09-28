@@ -1,4 +1,4 @@
-dict0 = {0: {'name_first': 'John', 'name_last': 'Doe'}}
-var0 = {'name_first': 'Jane', 'name_last': 'Smith'}
-expected_output = {0: {'name_first': 'John', 'name_last': 'Doe'}, 1: {'name_first': 'Jane', 'name_last': 'Smith'}}
-assert test(dict0, var0) == expected_output, 'Test failed'
+var0 = {'A': 1}
+expected_result =  [('A', 1)]
+result = test(var0)
+assert result == expected_result, 'Test failed'

@@ -1,1 +1,1 @@
-Subtract each element of lst1 from the corresponding element of lst0.
+Fast way to remove a few items from a list/queue lst0 with criterias from function var0  

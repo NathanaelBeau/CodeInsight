@@ -1,3 +1,4 @@
-lst0 = [True, False, True, None, True]
-expected_result =  [True, False, True, True]
-assert test(lst0) == expected_result, 'Test failed'
+arr0 = np.array([1, 2, 3, 4, 5, 6])
+var0 = 3
+expected_output = (np.array([2]),)
+assert test(arr0, var0) == expected_output, 'Test failed'

@@ -1,6 +1,6 @@
-Get (column, row) index from NumPy array var0 that meets a boolean condition   
+For DataFrame df0, use the apply method to apply the function func along the axis ax
 
-import numpy as np
+import pandas as pd
 
-def test(var0):
+def test(df0, func):
 

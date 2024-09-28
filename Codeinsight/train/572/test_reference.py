@@ -1,4 +1,4 @@
-import numpy as np
+import re
 
-def test(arr0):
-    return arr0[arr0 != 0]
+def test(var0):
+	return re.split(r'\W+', var0)

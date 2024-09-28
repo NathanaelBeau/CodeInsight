@@ -1,3 +1,3 @@
 import numpy as np
-def test(lst0, lst1):
-    return list(np.array(lst0) / np.array(lst1))
+def test(lst0, var0):
+    return lst0.argsort()[-var0:][::-1]

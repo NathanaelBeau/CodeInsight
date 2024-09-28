@@ -1,5 +1,4 @@
-Sort a list lst0 in python based on another sorted list lst1 
-better performance (particularly when len(lst1) is large) and when lst0 contain items not in lst1 , placed at the beginning of the list
+Iterating over a dictionary dict0 with keys from list lst0 to create a list   
 
-def test(lst0, lst1):
+def test(lst0, dict0):
 

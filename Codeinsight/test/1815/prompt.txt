@@ -1,4 +1,5 @@
-Split and expand a specified column str0 of a DataFrame df0 by a given delimiter var1, then reorder the DataFrame columns as specified with str1.
+Python - Locating the position of a regex match var0 in a string str0?   
 
-def test(df0, str0, var1, str1):
+import re
+def test(str0, var0):
 

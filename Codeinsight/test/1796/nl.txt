@@ -1,1 +1,1 @@
-Remove rows with duplicate indexes in a pandas data frame df0, keeping the first occurrence.
+Convert a String str0 representation of a Dictionary to a dictionary   with json

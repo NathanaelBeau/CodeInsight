@@ -1,3 +1,4 @@
-def test(dict0, var0, var1):
-    dict0.setdefault(var0, []).append(var1)
-    return dict0
+import numpy as np
+
+def test(lst0):
+    return np.corrcoef(lst0)

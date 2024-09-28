@@ -1,4 +1,0 @@
-Sum values from the column var0 when values from column var1 are equal to 1 in a dataframe df0   
-
-def test(df0, var0, var1):
-

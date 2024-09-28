@@ -1,3 +1,3 @@
-var0 = "2023-09-13 12:00:00.000000"
-expected_result1 = datetime(2023, 9, 13, 12, 0, 0)
-assert test(var0) ==expected_result1, 'Test failed'
+lst0 = [{'a': 1, 'b': 2}, {'c': 1, 'd': 2}]
+expected_output = {'a': 1, 'b': 2, 'c': 1, 'd': 2}
+assert test(lst0) ==expected_output, 'Test failed'

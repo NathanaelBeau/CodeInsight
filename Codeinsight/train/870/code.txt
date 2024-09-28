@@ -1,3 +1,3 @@
-import numpy as np
-def test(arr0, arr1):
-    return np.array(np.meshgrid(arr0, arr1)).T.reshape(-1, 2)
+import pandas as pd
+def test(df0):
+    return df0.apply(lambda row: ' '.join(map(str, row)), axis=1)

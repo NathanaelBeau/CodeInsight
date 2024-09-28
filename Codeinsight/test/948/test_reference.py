@@ -1,4 +1,3 @@
-import pandas as pd
-def test(df0, var0):
-    return pd.concat([df0] * var0)
-
+import numpy as np
+def test(arr0, arr1):
+    return np.sum(arr0 == arr1)

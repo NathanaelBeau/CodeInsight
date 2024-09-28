@@ -1,6 +1,4 @@
-Replace the header of a DataFrame df0 with its first row
+Get the starting index of the last occurrence of substring str0 in the string test_string.
 
-import pandas as pd
-
-def test(df0: pd.DataFrame):
+def test(test_string: str, str0: str) -> int:
 

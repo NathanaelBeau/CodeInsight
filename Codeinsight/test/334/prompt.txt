@@ -1,6 +1,4 @@
-Calculate percentage of sparsity for a numpy array/matrix  var0?
+Return a sorted version of the input list lst0 based on a specific key var0, with a boolean option bool0 to sort in either ascending or descending order.
 
-import numpy as np
-from numpy import array
-def test(var0) :
+def test(lst0, var0, bool0):
 

@@ -1,1 +1,1 @@
-Get all items from list lst0 that are not present in list lst1
+Replace NaN values in the pandas DataFrame df0 with an empty string.

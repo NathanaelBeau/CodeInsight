@@ -1,6 +1,8 @@
-# Test 2
-df0 = pd.DataFrame({'X': ['a', 'b', 'c'], 'Y': ['d', 'e', 'f'], 'Z': ['g', 'h', 'i']})
-lst0 = ['X', 'Z']
-expected_result =  pd.DataFrame({'X': ['a', 'b', 'c'], 'Z': ['g', 'h', 'i']})
-result = test(df0, lst0)
-assert result.equals(expected_result), 'Test failed'
+var0 = 'values'
+df0 = pd.DataFrame({ 'category': ['X', 'Y', 'Z'], 'values': [5, 5, 6] })
+expected_result =  [
+    pd.DataFrame({'category': ['X', 'Y'], 'values': [5, 5]}).reset_index(drop=True),
+    pd.DataFrame({'category': ['Z'], 'values': [6]}).reset_index(drop=True)
+]
+result = test(df0, var0)
+assert all([res.equals(exp_res) for res, exp_res in zip(result, expected_result)]), 'Test failed'

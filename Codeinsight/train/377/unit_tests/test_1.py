@@ -1,3 +1,3 @@
-var0 = 1
-expected_result =  [(0,), (1,)]
-assert test(var0) == expected_result, 'Test failed'
+str0 = "This.is.a.Test"
+expected_output = "This. is. a. Test"
+assert test(str0) == expected_output, 'Test failed'

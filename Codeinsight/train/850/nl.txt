@@ -1,1 +1,1 @@
-Check if value var0 is present in the list of column lst0 in dataframe df0
+Compose keys from dictionary dict0 with respective values in dictionary dict1

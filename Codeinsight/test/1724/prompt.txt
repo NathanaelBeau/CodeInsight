@@ -1,6 +1,5 @@
-Add an extra row from a dctionary dict0 to a pandas dataframe  df0
+Extract var2 words surrounding the search word var1 in the string var0 with value None if no word found on left or right
 
-import pandas as pd
-
-def test(df0, dict0):
+import re
+def test(var0, var1, var2=1):
 

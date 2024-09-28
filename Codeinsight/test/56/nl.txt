@@ -1,1 +1,1 @@
-Trying to use reduce() and lambda with a list lst0 containing strings   
+Get a list from a Pandas DataFrame df0 from either the column named var0 or the row at index var0, based on the specification var1 (which can be "column" or "row").

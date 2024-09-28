@@ -1,4 +1,4 @@
-return variables var0 without spaces between values with formatting  
+Convert each element in the list lst0 to an integer if possible; otherwise, return the element as is. Return the resulting list.
 
-def test(var0):
+def test(lst0):
 

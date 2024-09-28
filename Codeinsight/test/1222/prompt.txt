@@ -1,5 +1,5 @@
-on dictionary dict0 Sorting dictionary keys based on their values   with index of values var0 with itemgetter
+Generate all possible strings from a list of token lst0 with combinaison lenght of var0 with combination
 
-from operator import itemgetter
-def test(dict0, var0):
+from itertools import combinations
+def test(lst0, var0):
 

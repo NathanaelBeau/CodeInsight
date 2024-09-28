@@ -1,1 +1,1 @@
-Determine the byte length of a utf-8 encoded string s.
+Averaging the values in a dictionary dict0 for each keys and return a list of tuples

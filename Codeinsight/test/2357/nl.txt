@@ -1,1 +1,0 @@
-Sort all positive numbers before negative numbers in a list named lst0

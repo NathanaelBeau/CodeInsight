@@ -1,4 +1,6 @@
-str0 = 'Hello! How are you? Good, right.'
-expected_result =  ['Hello', ' How are you', ' Good', ' right', '']
-result = test(str0)
-assert result == expected_result, 'Test failed'
+# Test 2
+df0 = pd.DataFrame({'X': [], 'Y': []})
+df1 = pd.DataFrame({'X': ['apple'], 'Y': ['orange']})
+expected_result =  pd.DataFrame({'X': ['apple'], 'Y': ['orange']})
+result = test(df0, df1)
+assert result.equals(expected_result), 'Test failed'

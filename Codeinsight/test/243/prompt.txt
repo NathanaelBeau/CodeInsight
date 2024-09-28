@@ -1,4 +1,4 @@
-Get a list comparing two lists of tuples lst0 and lst1 where any first value in lst0 matches the first value in lst1.
+Get a sorted list of characters from the string str0 in lexicographic order, prioritizing lowercase letters.
 
-def test(lst0, lst1):
+def test(str0):
 

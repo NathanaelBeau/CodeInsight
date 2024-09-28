@@ -1,1 +1,1 @@
-Remove rows in the pandas DataFrame df0 that have duplicate indices, keeping only the first occurrence.
+Join the items of each tuple in the list of tuples lst0 into a list of strings.

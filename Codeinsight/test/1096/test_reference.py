@@ -1,6 +1,4 @@
-import re
+import pandas as pd
 
-def test(var0):
-    alphas = re.findall(r'[A-Za-z]+', var0)
-    nums = re.findall(r'\d+', var0)
-    return alphas, nums
+def test(df0, var0):
+    return df0.set_index(var0)

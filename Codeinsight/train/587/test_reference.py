@@ -1,4 +1,5 @@
-import pandas as pd
+import re
 
-def test(lst0):
-    return pd.Series(lst0).min()
+def test(var0):
+    match = re.search(r'\[(.*?)\]', var0)
+    return match.group(1) if match else None

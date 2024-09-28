@@ -1,3 +1,3 @@
-arr0 = np.array([np.nan, 1.0])
-expected_output = np.array([1.0])
-assert test(arr0) ==expected_output, 'Test failed'
+str0 = "This This is is a a test test."
+expected_output = "This is a test."
+assert test(str0) ==expected_output, 'Test failed'

@@ -1,3 +1,6 @@
-def test(str0, var0, var1, var2):
-    li = str0.rsplit(var0, var2)
-    return var1.join(li)
+from collections import Counter
+
+def test(lst0):
+    words_to_count = (word for word in lst0 if word.isalpha())
+    c = Counter(words_to_count)
+    return c.most_common()

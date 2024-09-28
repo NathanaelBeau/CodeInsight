@@ -1,6 +1,4 @@
-df0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry', 'date', 'applepie'], 'B': ['fruit', 'fruit', 'fruit', 'fruit', 'dessert']})
-col0 = 'B'
-str0 = 'fruit'
-expected_result =  pd.DataFrame({'A': ['apple', 'banana', 'cherry', 'date'], 'B': ['fruit', 'fruit', 'fruit', 'fruit']})
-result = test(df0, col0, str0)
-assert result.equals(expected_result), 'Test failed'
+# Test 3
+var0 = "No quotes here."
+expected_result =  []
+assert test(var0) == expected_result, 'Test failed'

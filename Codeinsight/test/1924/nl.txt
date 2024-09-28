@@ -1,1 +1,0 @@
-Replace NaN values in an array named arr0 with zeros

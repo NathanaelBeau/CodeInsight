@@ -1,4 +1,3 @@
-str0 = "Remove: these. symbols!"
-expected_result =  "Remove these symbols"
-result = test(str0)
-assert result == expected_result, 'Test failed'
+lst0 = [{'key': {'subkey': 7}}, {'key': {'subkey': 4}}, {'key': {'subkey': 6}}]
+expected_output = [{'key': {'subkey': 7}}, {'key': {'subkey': 6}}, {'key': {'subkey': 4}}]
+assert test(lst0) == expected_output, 'Test failed'

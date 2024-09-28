@@ -1,4 +1,5 @@
-from operator import attrgetter
+import pandas as pd
 
-def test(lst0, var0):
-    return sorted(lst0, key=attrgetter(var0), reverse=True)
+def test(df0, var0):
+    df0[var0] = df0[var0].str.split(',')
+    return df0.explode(var0)[var0].reset_index(drop=True)

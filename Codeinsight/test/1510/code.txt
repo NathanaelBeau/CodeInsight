@@ -1,2 +1,4 @@
-def test(dict0):
-    return next(iter(dict0.values()))
+import pandas as pd
+
+def test(df0):
+    return pd.DataFrame(index=df0.index)

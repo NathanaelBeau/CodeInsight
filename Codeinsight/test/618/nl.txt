@@ -1,1 +1,1 @@
-Create an empty dataframe with the same index as dataframe df0.
+Add character '@' after word 'get' in string var0

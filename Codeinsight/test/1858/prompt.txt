@@ -1,5 +1,8 @@
-Find all indices of an element var0 in a list lst0  
+How to create a DataFrame  while preserving order of the columns  with columns names var0 and array var1
 
 import numpy as np
-def test(lst0, var0):
+import pandas as pd
+from collections import OrderedDict
+
+def test(var0, *var1):
 

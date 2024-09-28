@@ -1,4 +1,5 @@
-Multiply elements at the same index from two lists: lst0 and lst1.
+Split the string var0 on one or more spaces using a regular expression.
 
-def test(lst0, lst1):
+import re
+def test(var0):
 

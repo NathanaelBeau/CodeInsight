@@ -1,5 +1,3 @@
-lst0 = ['cat', 'dog', 'elephant']
-lst1 = ['meow', 'woof', 'trumpet']
-expected_result =  {'cat': 'meow', 'dog': 'woof', 'elephant': 'trumpet'}
-result = test(lst0, lst1)
-assert result == expected_result, 'Test failed'
+arr0 = np.array([10, 20, 30, 40])
+expected_output= np.array([[10, 20], [30, 40]])
+assert (test(arr0)  == expected_output).all(), 'Test failed'

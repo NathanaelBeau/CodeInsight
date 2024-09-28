@@ -1,5 +1,0 @@
-Get first element of Series  var0 without knowing the index"  
-
-import pandas as pd
-def test(var0):
-

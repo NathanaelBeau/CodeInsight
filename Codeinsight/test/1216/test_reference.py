@@ -1,4 +1,3 @@
-import pandas as pd
-
-def test(df0, col0, str0):
-    return df0[df0[col0].str.startswith(str0)].reset_index(drop=True)
+def test(var0, str0):
+	dict0 = dict(var0)
+	return dict0.get(str0, None)

@@ -1,7 +1,5 @@
-# Test 3
-df0 = pd.DataFrame({ 'Category': ['fruit', 'fruit', 'animal', 'fruit', 'animal'] })
-var0 = 'Category'
-var1 = 'animal'
-expected_result =  [2, 4]
-result = test(df0, var0, var1)
-assert result == expected_result, 'Test failed'
+arr0 = np.array([[11, 22, 33, 44], [55, 66, 77, 88]])
+var0 = 3
+expected_result =  np.array([[11, 22, 33], [55, 66, 77]])
+result = test(arr0, var0)
+assert np.array_equal(result, expected_result), 'Test failed'

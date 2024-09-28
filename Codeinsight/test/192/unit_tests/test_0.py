@@ -1,7 +1,7 @@
-df0 = pd.DataFrame({'A': [1, 2, 3, 4, 5], 'B': [5, 6, 7, 8, 9]})
-column_name0 = 'A'
-threshold0 = 2
-column_name1 = 'B'
-expected_result =  (3, 24)
-result = test(df0, column_name0, threshold0, column_name1)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry'], 'B': ['old_value1', 'old_value2', 'grape']})
+var0 = 'B'
+lst0 = ['old_value1', 'old_value2']
+var1 = 'new_value'
+expected_result =  pd.DataFrame({'A': ['apple', 'banana', 'cherry'], 'B': ['new_value', 'new_value', 'grape']})
+result = test(df0, var0, lst0, var1)
+assert result.equals(expected_result), 'Test failed'

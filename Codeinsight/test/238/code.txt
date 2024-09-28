@@ -1,4 +1,4 @@
 import re
 
-def test(var0):
-    return re.sub(r'(?<=[a-z])(?=[A-Z])|(?<=[A-Z])(?=[A-Z][a-z])', ' ', var0)
+def test(str0: str, pattern: str, replacement: str) -> str:
+    return re.sub(pattern, replacement, str0)

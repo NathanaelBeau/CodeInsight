@@ -1,1 +1,1 @@
-Square each element of the 2D numpy array mat0  
+How to extract from a list of objects lst0 a list of specific attribute var0?   

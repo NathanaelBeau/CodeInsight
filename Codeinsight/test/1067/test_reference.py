@@ -1,5 +1,4 @@
-import pandas as pd
+import numpy as np
 
-def test(df0, col0):
-    df0[col0] = df0[col0].shift(-1)
-    return df0
+def test(arr0):
+    return arr0.tolist()

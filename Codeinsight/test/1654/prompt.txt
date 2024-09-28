@@ -1,4 +1,5 @@
-Convert a list of tuples lst0 to list of lists
+Get all children elements of an ElementTree element var0.
 
-def test(lst0):
+from xml.etree.ElementTree import Element
+def test(var0):
 

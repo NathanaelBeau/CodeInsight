@@ -1,5 +1,5 @@
 import pandas as pd
 
-def test(df0, lst0, var0):
-    filtered_rows = [row for _, row in df0.iterrows() if row[var0] in lst0]
-    return pd.DataFrame(filtered_rows, columns=df0.columns)
+def test(df0, column_name0, decimals0):
+    df0[column_name0] = df0[column_name0].apply(lambda x: round(x, decimals0))
+    return df0

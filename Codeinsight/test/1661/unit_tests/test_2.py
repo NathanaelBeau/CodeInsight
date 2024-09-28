@@ -1,3 +1,3 @@
-dict0 = {'foo': '5', 'bar': '15', 'baz': '25'}
-expected_output = {'foo': 5, 'bar': 15, 'baz': 25}
-assert test(dict0) == expected_output, 'Test failed'
+dict0 = {'Special_Key!': 'Special_Value!'}
+expected_output = {'special_key!': 'special_value!'}
+assert test(dict0) ==expected_output, 'Test failed'

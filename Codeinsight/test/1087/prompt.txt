@@ -1,4 +1,6 @@
-Get the list of values from a dict dict0
+ use numpy&#39;s hstack to slice an array var0 at values from indices 3:5
 
-def test(dict0):
+import numpy as np
+
+def test(var0):
 

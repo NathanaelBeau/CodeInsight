@@ -1,2 +1,4 @@
-def test(var0):
-    return var0.encode('utf-8')
+import pandas as pd
+
+def test(df0, var0):
+    return df0[var0].nunique()

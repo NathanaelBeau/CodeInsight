@@ -1,1 +1,1 @@
-Clamp an integer var0 between var1 and var2  
+Check if numpy arrays arr0 and arr1 potentially share the same memory/data  

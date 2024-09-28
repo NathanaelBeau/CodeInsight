@@ -1,4 +1,6 @@
-Create and return a new dictionary by mapping the values from dict0 to the corresponding values in dict1.
+Combine two Pandas dataframes df0 and df1 with the same index   
 
-def test(dict0, dict1):
+import pandas as pd
+
+def test(df0, df1):
 

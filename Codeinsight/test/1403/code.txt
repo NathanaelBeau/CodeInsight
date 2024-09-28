@@ -1,5 +1,3 @@
-import re
-
-def test(var0, var1):
-    return re.sub(r'\b\w\b', var1, var0)
- 
+import numpy as np
+def test(arr0, vec0):
+    return (arr0.T / vec0).T

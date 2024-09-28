@@ -1,3 +1,4 @@
-lst0_2 = ['a', 'b', 'c']
-expected_output_2 = ['a', 'b', 'c']
-assert test(lst0_2) == expected_output_2, 'Test failed'
+lst0 = ['abcdef', 'bcdefg', 'cdefgh']
+expected_result =  ['abcdef']
+result = test(lst0)
+assert result == expected_result, 'Test failed'

@@ -1,5 +1,3 @@
-var0 = r'[!?.]'
-var1 = "Hello! How are you? Good."
-expected_result =  ["Hello", " How are you", " Good", ""]
-result = test(var0, var1)
-assert result == expected_result, 'Test failed'
+lst0 = [{'x': 1}, {'y': 2}, {'z': 3}]
+expected_result =  {'x': 1, 'y': 2, 'z': 3}
+assert test(lst0) == expected_result, 'Test failed'

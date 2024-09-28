@@ -1,5 +1,4 @@
-Combine two one-dimensional numpy arrays arr0 and arr1 into a single 2-dimensional array  
+ split a list lst0 into evenly sized chunks of size  var0 with oneliner using list comprehension    
 
-import numpy as np
-def test(arr0, arr1):
+def test(lst0, var0):
 

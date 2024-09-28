@@ -1,4 +1,4 @@
-Swap the keys and values in a dictionary dict0.
+ sum the product of two list lst0 and lst1 items using for loop in python  
 
-def test(dict0):
+def test(lst0, lst1):
 

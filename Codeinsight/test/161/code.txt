@@ -1,2 +1,4 @@
-def test(lst0, lst1):
-    return list(map(lambda a, b: a == b, lst0, lst1))
+def test(lst0):
+    from collections import Counter
+    counts = Counter(lst0)
+    return [item for item in lst0 if counts[item] == 1]

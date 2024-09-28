@@ -1,6 +1,6 @@
-Rename the column at position var0 in a dataframe df0 to a new name var1
+Check if the array row0 is present as any row in the array arr0, returning True if found and False otherwise.
 
-import pandas as pd
+import numpy as np
 
-def test(df0, var0, var1):
+def test(arr0, row0):
 

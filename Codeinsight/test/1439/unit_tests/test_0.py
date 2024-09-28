@@ -1,3 +1,4 @@
-str0= "1a"
-expected_output = 26
-assert test(str0) == expected_output, 'Test failed'
+lst0 = ['bar', 'baz']
+str0 = 'foo'
+expected_output = ['foo', 'bar', 'baz']
+assert test(lst0, str0) == expected_output, 'Test failed'

@@ -1,3 +1,5 @@
-lst0 = ['apple', 'banana', 'cherry']
-expected_output = 3
-assert test(lst0) ==expected_output, 'Test failed'
+# Test 3
+ser0 = pd.Series([False, False, False])
+expected_result =  pd.Series([True, True, True])
+result = test(ser0)
+assert result.equals(expected_result), 'Test failed'

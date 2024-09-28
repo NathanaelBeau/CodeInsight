@@ -1,4 +1,4 @@
-df0 = pd.DataFrame({'name': ['(Apple)', '(Banana)', '(Cherry)']})
-expected_result =  pd.DataFrame({'name': ['', '', '']})
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+str0 = "Only one sentence here."
+var0 = 3  
+expected_output = "Only one sentence here."
+assert test(str0, var0) == expected_output, 'Test failed'

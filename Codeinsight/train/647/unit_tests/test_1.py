@@ -1,3 +1,4 @@
-str0 = '10.0'
-expected_output = 10
-assert test(str0) ==expected_output, 'Test failed'
+str0 = 'python.is.fun'
+expected_result =  'fun'
+result = test(str0)
+assert result == expected_result, 'Test failed'

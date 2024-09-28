@@ -1,7 +1,13 @@
-var0 = 'old'
-var1 = 'status'
-var2 = 'new'
-df0 = pd.DataFrame({'status': ['old', 'old', 'old'], 'value': [5, 6, 7]})
-expected_result =  pd.DataFrame({'status': ['new', 'new', 'new'], 'value': [5, 6, 7]})
-result = test(df0, var0, var1, var2)
-assert result.equals(expected_result), 'Test failed'
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.tree import export_text
+from sklearn.datasets import load_iris
+# Load iris dataset
+iris = load_iris()
+X, y = iris.data, iris.target
+feature_names = iris.feature_names
+# Train a decision tree classifier
+clf3 = DecisionTreeClassifier(max_depth=2)
+clf3.fit(X[y != 2], y[y != 2])  # Excluding one class
+result = test(clf3, feature_names)
+expected_result =  export_text(clf3, feature_names=feature_names)
+assert result == expected_result, 'Test failed'

@@ -1,3 +1,3 @@
-df0 = pd.DataFrame({"A": [1, 2, 3], "B": [4, 5, 6]})
-expected_output = [0, 1, 2]
-assert test(df0) == expected_output, 'Test failed'
+dict0 = {'My Key': 'My Value', 'Another Key': 'Another Value', 'Yet Another Key': 'Yet Another Value'}
+expected_output = {'my key': 'my value', 'another key': 'another value', 'yet another key': 'yet another value'}
+assert test(dict0)==expected_output, 'Test failed'

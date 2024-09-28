@@ -1,4 +1,5 @@
-import itertools
+import pandas as pd
+import numpy as np
 
-def test(lst0, lst1):
-    return list(itertools.product(lst0, lst1))
+def test(df0):
+    return np.sqrt(np.square(df0).sum(axis=1))

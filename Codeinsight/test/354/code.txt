@@ -1,2 +1,2 @@
-def test(lst0):
-    return all(lst0.count(item) == 1 for item in lst0)
+def test(var0):
+    return [[] for i in range(var0)]

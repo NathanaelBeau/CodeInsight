@@ -1,4 +1,4 @@
-def test(str0, tpl0):
-    clean_str = str0.strip("()").split(",")
-    tuple_from_str = tuple(map(type(tpl0[0]), clean_str))
-    return tpl0 + tuple_from_str
+
+
+def test(a, var0=25, var1=100):
+    return sum(1 for val in a if var0 < val <= var1)

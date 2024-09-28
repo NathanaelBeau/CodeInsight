@@ -1,5 +1,5 @@
-Create a numpy array with strings of arbitrary lengths from a list lst0
+Sort a list of tuples lst0 based on the second item in descending order
 
-import numpy as np
+from operator import itemgetter 
 def test(lst0):
 

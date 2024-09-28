@@ -1,3 +1,5 @@
-lst0 = [{'name': 'John', 'age': 25}, {'age': 30, 'city': 'New York'}]
-expected_output = {'name': 'John', 'age': 30, 'city': 'New York'}
-assert test(lst0) ==expected_output, 'Test failed'
+arr0 = np.array([5, 4, 3, 2, 1])
+var0 = 3
+expected_result =  2
+result = test(arr0, var0)
+assert result == expected_result, 'Test failed'

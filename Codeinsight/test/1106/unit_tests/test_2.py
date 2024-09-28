@@ -1,4 +1,4 @@
-dct0 = {'apple': 2, 'banana': 3, 'cherry': 4}
-expected_result =  []
-result = test(dct0)
-assert result == expected_result, 'Test failed'
+from sklearn.datasets import load_diabetes
+dataset0 = load_diabetes()
+df = test(dataset0)
+assert df.shape == (442, 10), 'Test failed'

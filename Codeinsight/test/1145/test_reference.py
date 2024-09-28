@@ -1,6 +1,4 @@
-import pandas as pd
+import numpy as np
 
-def test(df0, var0):
-    df0[var0] = pd.to_numeric(df0[var0]).astype(int)
-    return df0
-
+def test(arr0, arr1):
+    return np.insert(arr1, obj=range(arr0.shape[0]), values=arr0)

@@ -1,4 +1,4 @@
-Determine if numbers var0 and var1 are nearly equal when rounded to var2 significant decimal digits 
+Create dataframe containing data of dataframe df0 where column Gender is equal to 'Male' and column Year is equal to 2014.
 
-def test(var0, var1, var2):
+def test(df0):
 

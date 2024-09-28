@@ -1,2 +1,2 @@
-def test(lst0, var0):
-    return [x / var0 for x in lst0]
+def test(lst0: list) -> list:
+    return list(dict.fromkeys(lst0))

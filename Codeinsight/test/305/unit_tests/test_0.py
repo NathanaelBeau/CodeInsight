@@ -1,5 +1,4 @@
-df0_1 = pd.DataFrame({'A': [1, 2], 'B': [3, 4]})
-df0_2 = pd.DataFrame({'A': [5, 6]})
-df0 = pd.concat([df0_1, df0_2], axis=1)
-expected_result =  pd.DataFrame({'A': [6, 8], 'B': [3, 4]})
-assert test(df0).equals(expected_result), 'Test failed'
+lst0 = np.array([1, 2, 3])
+lst1 = np.array([1, 3, 5])
+expected_output = 1.6666666666666667
+assert test(lst0, lst1) == expected_output, 'Test failed'

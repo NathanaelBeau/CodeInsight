@@ -1,3 +1,4 @@
-lst0 = ["Hello (World)", "Stack (Overflow)", "Python (Programming)"]
-expected_output = ["Hello", "Stack", "Python"]
-assert test(lst0) ==expected_output, 'Test failed'
+str0 = "-"
+str1 = "abc"
+expected_result =  "a-b-c"
+assert test(str0, str1) == expected_result, 'Test failed'

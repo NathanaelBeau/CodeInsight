@@ -1,4 +1,6 @@
-How to sort a list lst0  with lambda in Python   
+Convert a pandas dataframe df to a list of dictionaries, where each dictionary represents a row and includes the index values.
 
-def test(lst0):
+import pandas as pd
+
+def test(df: pd.DataFrame) -> list:
 

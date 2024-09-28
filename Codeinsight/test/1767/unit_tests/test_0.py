@@ -1,3 +1,4 @@
-lst0 = [8, 4, 7, 9, 2, 9, 1]
-expected_output = [(7, 9), (2, 9)]
-assert test(lst0) ==expected_output, 'Test failed'
+str0 = "hello"
+expected_result =  sorted(['h', 'e', 'l', 'o'])
+result = sorted(test(str0))
+assert result==expected_result, 'Test failed'

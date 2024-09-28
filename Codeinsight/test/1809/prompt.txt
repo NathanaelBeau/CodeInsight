@@ -1,4 +1,4 @@
-Convert a list of lists lst0 containing 2 elements in a dictionary with the first element as the key and the second element as the value
+Multiply each element of the list lst0 by the number var0  
 
-def test(lst0):
+def test(lst0, var0):
 

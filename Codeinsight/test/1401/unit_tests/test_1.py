@@ -1,5 +1,5 @@
-var0 = 10
-var1 = 1
-result = test(var0, var1)
-expected = np.array([1, 1, 1, 1 ,1, 1 ,1, 1,1, 1])
-assert (result ==expected).all(), 'Test failed'
+lst0 = ["apple", "banana", "cherry", "date", "elderberry"]
+lst1 = [0, 2]
+expected_result =  ["apple", "banana"]
+result = test(lst0, lst1)
+assert result == expected_result, 'Test failed'

@@ -1,6 +1,4 @@
-Sort a dataframe df0 by column var0 and reset its index.
+Remove characters "!@#$" from the string var0.
 
-import pandas as pd
-
-def test(df0, var0):
+def test(var0):
 

@@ -1,6 +1,5 @@
-Formatting floats in a numpy array    arr0 with round of lenght var0
+Flatten a list of NumPy arrays lst0.  
 
 import numpy as np
-
-def test(arr0, var0):
+def test(lst0):
 

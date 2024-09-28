@@ -1,5 +1,4 @@
-Add a single element var0 to the numpy array arr0
+Summarizing a dictionary of arrays dict0 in Python   
 
-import numpy as np
-def test(arr0, var0):
+def test(dict0):
 

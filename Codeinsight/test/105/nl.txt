@@ -1,1 +1,1 @@
-Clone the vector vec0 num_times0 times along the specified axis axis0.
+Functional statement in Python to return the sum of  lists in a list of lists  lst0

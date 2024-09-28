@@ -1,2 +1,2 @@
-def test(str0):
-    return [int(x) for x in str0.split(',')]
+def test(var0, var1, var2):
+    return [tuple([var0, var1] + var2) for var0, var1, var2 in zip(var0, var1, var2)]

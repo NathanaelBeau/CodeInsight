@@ -1,6 +1,6 @@
-Sort a list of objects lst0 in descending order based on the attribute var0.
+Split the text in column var0 of dataframe df0 into multiple rows
 
-from operator import attrgetter
+import pandas as pd
 
-def test(lst0, var0):
+def test(df0, var0):
 

@@ -1,2 +1,4 @@
-def test(dict0):
-    return list(dict0.values())
+import numpy as np
+
+def test(arr0):
+    return np.diag(np.fliplr(arr0))

@@ -1,1 +1,1 @@
-Convert the list of tuples lst0 into a single sequence of elements.
+Append several variables var0 and var1 and var2 to a list lst0 in Python   

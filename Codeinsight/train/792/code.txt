@@ -1,4 +1,5 @@
-import random
+import pandas as pd
+import numpy as np
 
-def test(var0):
-    return ''.join([char.upper() if random.choice([True, False]) else char.lower() for char in var0])
+def test(df0):
+    return df0.apply(np.linalg.norm, axis=1)

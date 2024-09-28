@@ -1,4 +1,4 @@
-str0 = "helloooo?"
-var0 = "?"
-expected_output = 1
-assert test(str0, var0) ==expected_output, 'Test failed'
+var0 = "Hello\tworld!\nHello  again."
+expected_result =  ["Hello", "world!", "Hello", "again."]
+result = test(var0)
+assert result == expected_result, 'Test failed'

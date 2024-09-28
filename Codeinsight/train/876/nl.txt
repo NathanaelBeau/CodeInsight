@@ -1,1 +1,3 @@
-Extract columns from the numpy array arr0 as separate arrays
+Simpler way to create dictionary of separate variables var0
+ 
+  

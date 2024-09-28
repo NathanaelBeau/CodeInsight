@@ -1,4 +1,3 @@
-dict0 = {'a': 3, 'b': 2}
-expected_result =  ['a', 'a', 'a', 'b', 'b']
-result = test(dict0)
-assert result == expected_result, 'Test failed'
+s1 = "Hello_world-123"
+expected_output1 = True
+assert test(s1) == expected_output1, 'Test failed'

@@ -1,6 +1,4 @@
-Find and return all newline characters in the string var0
+Append values var1 to a set var0 in Python   
 
-import re
-
-def test(var0):
+def test(var0, var1):
 

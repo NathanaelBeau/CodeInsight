@@ -1,4 +1,4 @@
-Sort a dictionary of dictionaries var0 by a specific value var1 in ascending order
+Obtain the last index of a list lst0
 
-def test(var0, var1):
+def test(lst0):
 

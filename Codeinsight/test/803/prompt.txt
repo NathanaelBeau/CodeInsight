@@ -1,5 +1,5 @@
-The intent from a developer could be: "Generate a frequency table for a single variable 'variable' in a DataFrame var0.
+Flatten the pandas dataframe df0 into a list  
 
 import pandas as pd
-def test(var0):
+def test(df0):
 

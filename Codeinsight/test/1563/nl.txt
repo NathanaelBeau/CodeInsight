@@ -1,1 +1,1 @@
-Apply multiple filters specified by condition var0 to a pandas DataFrame df0.
+Fast way to remove a few items from a list/queue lst0 with criterias from function var0  

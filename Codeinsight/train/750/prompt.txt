@@ -1,4 +1,6 @@
-Obtain the last index of a list lst0
+Get the shape (number of rows and columns) of a dataframe df0
 
-def test(lst0):
+
+import pandas as pd
+def test(df0):
 

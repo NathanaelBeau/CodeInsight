@@ -1,6 +1,10 @@
-df0 = pd.DataFrame({ 'User': ['A', 'A', 'B', 'B', 'C', 'C'], 'X': [0, 1, 2, 3, 0, 0] })
-var0 = 'User'
-var1 = 'X'
-expected_output = pd.DataFrame({ 'User': ['C', 'C'], 'X': [0, 0] })
-result = test(df0, var0, var1)
-assert expected_output.reset_index(drop=True, inplace=True)==result.reset_index(drop=True, inplace=True), 'Test failed'
+df0 = pd.DataFrame({
+            'Full Name': ['John Doe', 'Jane Smith', 'Alice Johnson']
+        })
+expected = pd.DataFrame({
+            'Full Name': ['John Doe', 'Jane Smith', 'Alice Johnson'],
+            'First Name': ['John', 'Jane', 'Alice'],
+            'Last Name': ['Doe', 'Smith', 'Johnson']
+        })
+result = test(df0, 'Full Name', 'First Name', 'Last Name')
+assert result.equals(expected), 'Test failed'

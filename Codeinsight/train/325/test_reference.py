@@ -1,3 +1,2 @@
-import pandas as pd
-def test(df0):
-    return df0.apply(lambda x: x.unique().shape[0])
+def test(lst0: list) -> list:
+    return list(map(sum, lst0))

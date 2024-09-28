@@ -1,1 +1,1 @@
- check if a string str1 is a substring of items in a list of strings str0   
+Python: find out whether a list of integers lst0 is coherent  when needed to be sorted

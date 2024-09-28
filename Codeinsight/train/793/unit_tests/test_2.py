@@ -1,4 +1,5 @@
-counter0 = Counter({'apple': 5, 'banana': 3})
-expected_result =  8
-result = test(counter0)
+str0 = "Mix"
+lst0 = ["Apple", "5", "Banana"]
+expected_result =  ["MixApple", "Mix5", "MixBanana"]
+result = test(str0, lst0)
 assert result == expected_result, 'Test failed'

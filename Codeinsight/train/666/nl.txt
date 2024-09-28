@@ -1,1 +1,1 @@
- display the first few characters var0 of a string str0 in Python   
+Count the frequency of each unique value in column var0 of a pandas DataFrame df0.

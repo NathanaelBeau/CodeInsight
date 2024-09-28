@@ -1,1 +1,1 @@
-Get all elements from a numpy array lst0 excluding the element at index 3
+Return list of items in list lst0 greater than some value  var0

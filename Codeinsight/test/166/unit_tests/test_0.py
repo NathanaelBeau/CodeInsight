@@ -1,4 +1,4 @@
-var0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
-expected_result =  pd.DataFrame({'A': [3, 2, 1], 'B': [6, 5, 4]}).reset_index(drop=True)
-result = test(var0).reset_index(drop=True)
-assert result.equals(expected_result), 'Test failed'
+arr0 = np.array([1.2, 2.8, 3.5, 4.9])
+expected_result =  np.array([1, 2, 3, 4])
+result = test(arr0)
+assert np.array_equal(result, expected_result), 'Test failed'

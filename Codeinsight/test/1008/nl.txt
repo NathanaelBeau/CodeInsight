@@ -1,1 +1,1 @@
-Create an empty pandas DataFrame with column names provided in the list lst0.
+Extract row with maximum value in a group pandas dataframe   df0 in column var0 at index of column var1

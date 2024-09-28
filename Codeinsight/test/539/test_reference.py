@@ -1,2 +1,3 @@
-def test(lst0, lst1):
-    return [dict for dict in lst0 if dict['link'] not in lst1]
+def test(lst0, var0):
+    take_closest = lambda num, collection: min(collection, key=lambda x: abs(x - num))
+    return take_closest(var0, lst0)

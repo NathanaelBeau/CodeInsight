@@ -1,6 +1,5 @@
-Change the data type of column var0 in DataFrame df0 to var1.
+Normalize the NumPy array arr0 to form a unit vector. 
 
-import pandas as pd
-
-def test(df0, var0, var1):
+import numpy as np
+def test(arr0):
 

@@ -1,1 +1,1 @@
-Convert the sparse matrix mat0 into a dense matrix  
+Compute the operation (either 'mean' or 'std') over the entire dataframe df0 

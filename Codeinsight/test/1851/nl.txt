@@ -1,1 +1,1 @@
-Convert list of tuples lst0 to list   
+Combine two 1D numpy arrays arr0 and arr1 into a single 2D numpy array  

@@ -1,4 +1,4 @@
-import os
+import re
 
-def test(var0, var1):
-    return os.path.commonprefix([var0, var1])
+def test(str0):
+    return re.sub(r'\b\d+\b', '', str0)

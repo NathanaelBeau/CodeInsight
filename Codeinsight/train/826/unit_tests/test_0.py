@@ -1,3 +1,5 @@
-var0 = pd.DataFrame({'variable': [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]})
-expected_output = pd.DataFrame({'variable': [1, 2, 3, 4], 'counts': [1, 2, 3, 4]})
-assert test(var0).equals(expected_output), 'Test failed'
+lst0 = [('apple', 3), ('banana', 2), ('cherry', 1)]
+var0 = 0
+expected_result =  ['apple', 'banana', 'cherry']
+result = test(lst0, var0)
+assert result == expected_result, 'Test failed'

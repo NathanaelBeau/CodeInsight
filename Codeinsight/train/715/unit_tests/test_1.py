@@ -1,6 +1,6 @@
-var0 = "apple, banana, cherry, apple, banana"
-var1 = "banana"
-var2 = 2
-expected_result =  30
-result = test(var0, var1, var2)
-assert result == expected_result, 'Test failed'
+arr0 = np.array([[1, 2, 3, 4],
+                 [5, 6, 7, 8],
+                 [9, 10, 11, 12],
+                 [13, 14, 15, 16]])
+expected_output = np.array([4, 7, 10, 13])
+assert (test(arr0)  == expected_output).all(), 'Test failed'

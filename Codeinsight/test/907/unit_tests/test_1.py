@@ -1,7 +1,4 @@
-var0 = 3
-var1 = "abc"
-var2 = "XYZ"
-var3 = "abcdefgabcabcdefgabc"
-expected_result =  "abcdefgabcXYZdefgabc"
-result = test(var0, var1, var2, var3)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame({ 'A': [7, 8, 9], 'B': [-10, -11, -12] })
+expected_result =  pd.DataFrame({ 'B': [-10, -11, -12] })
+result = test(df0)
+assert result.equals(expected_result), 'Test failed'

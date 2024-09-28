@@ -1,1 +1,1 @@
-Group rows of a pandas DataFrame df0 based on column var0 and convert the values of column var1 into lists.
+Insert a space before each capital letter of a string var0

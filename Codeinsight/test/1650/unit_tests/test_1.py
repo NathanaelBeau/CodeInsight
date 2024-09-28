@@ -1,3 +1,4 @@
-nvalues = {'Name': ['John', 'Jane', 'Doe'], 'Age': [28, 22, 25]}
-expected_output = pd.DataFrame({'Name': ['John', 'Jane', 'Doe'], 'Age': [28, 22, 25]})
-assert test(nvalues).equals(expected_output), 'Test failed'
+lst0 = [(7, 8)]
+expected_result =  [7, 8]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

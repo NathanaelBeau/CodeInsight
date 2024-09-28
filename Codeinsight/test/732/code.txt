@@ -1,3 +1,5 @@
-def test(str0, str1):
-    return sum(1 for w in str0.lower().split() if w == str1.lower())
-	
+def test(dict0):
+    new_dict = {}
+    for k, v in dict0.items():
+        new_dict[k.lower()] = v.lower()
+    return new_dict

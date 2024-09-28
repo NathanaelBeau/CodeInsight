@@ -1,2 +1,5 @@
-def test(str0):
-    return list(map(str.strip, str0.split(',')))
+import pandas as pd
+import numpy as np
+
+def test(df0):
+    return df0.dropna()

@@ -1,4 +1,3 @@
-import operator
-
-def test(lst0):
-    return sorted(lst0, key=operator.itemgetter(2))
+import numpy as np
+def test(matrix0):
+    return np.sqrt(np.sum(matrix0**2, axis=1))

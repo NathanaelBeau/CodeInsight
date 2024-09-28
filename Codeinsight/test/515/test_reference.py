@@ -1,4 +1,2 @@
-import numpy as np
-def test(arr0):
-    (unique, counts) = np.unique(arr0, return_counts=True)
-    return unique[np.argmax(counts)]
+def test(df0):
+    return df0.index.tolist()

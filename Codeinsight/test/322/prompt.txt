@@ -1,6 +1,5 @@
-Find the column name with the maximum value for each row in dataframe df0
+Calculate the percentage of missing values in each column of the DataFrame df0 
 
 import pandas as pd
-
 def test(df0):
 

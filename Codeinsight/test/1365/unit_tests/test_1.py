@@ -1,3 +1,5 @@
-df0 = pd.DataFrame({'Name': ['John', 'Emily', 'Michael'], 'Age': [35, 28, 42], 'Country': ['USA', 'Canada', 'UK']})
-expected_output = [['Name', 'John', 'Emily', 'Michael'], ['Age', 35, 28, 42], ['Country', 'USA', 'Canada', 'UK']]
-assert test(df0)== expected_output, 'Test failed'
+lst0 = ['a', 'b', 'c', 'a', 'd', 'e', 'f']
+var0 = 'a'
+expected_result =  [0, 3]
+result = test(lst0, var0)
+assert result == expected_result, 'Test failed'

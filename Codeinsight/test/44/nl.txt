@@ -1,1 +1,1 @@
-get a list of items form nested list lst0 where third element of each item contains string 'ar'
+Converting a list of tuples lst0 into a dict with itemgetter and groupby

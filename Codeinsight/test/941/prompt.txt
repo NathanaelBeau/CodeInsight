@@ -1,6 +1,4 @@
-Convert two lists lst0 and lst1 into a pandas dataframe with columns 'List1' and 'List2'.
+Find the number in list lst0 that is closest in value to number num0.
 
-import pandas as pd
-
-def test(lst0, lst1):
+def test(lst0, num0):
 

@@ -1,3 +1,4 @@
-lst0 = [np.array([2, 3, 4,5]), np.array([5, 6, 7, 8])]
-expected_output = np.array([2, 3, 4, 5, 5, 6, 7, 8])
-assert (test(lst0)  == expected_output).all(), 'Test failed'
+df0 = pd.DataFrame({'P': [10, 20, 20, 30, 30, 30], 'Q': [10, 10, 20, 20, 30, 30], 'R': [10, 20, 30, 40, 50, 60]})
+lst0 = ['P', 'Q', 'R']
+expected_result =  df0.drop_duplicates()
+assert test(df0, lst0).equals(expected_result), 'Test failed'

@@ -1,5 +1,4 @@
-Flatten a list of NumPy arrays lst0.  
+Remove all uppercased characters from the string s.
 
-import numpy as np
-def test(lst0):
+def test(s):
 

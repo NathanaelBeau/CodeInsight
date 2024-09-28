@@ -1,4 +1,4 @@
-str0 = "This_is_a_test_string_with_several_underscores"
-var0 = "_"
-expected_output = "This_is_a_test_string_with_several"
-assert test(str0, var0) ==expected_output, 'Test failed'
+lst0 = [5, 6, 7, 8]
+lst1 = [5, 6, 7, 8]
+expected_output = [1, 1, 1, 1]
+assert test(lst0, lst1) ==expected_output, 'Test failed'

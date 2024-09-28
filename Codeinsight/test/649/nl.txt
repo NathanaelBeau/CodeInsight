@@ -1,1 +1,1 @@
-sort lists lst0 within list in user defined order in dictionary dict0   
+Copy keys var0 and assign value  var1 to a new dictionary (Python) with dict.fromkeys  

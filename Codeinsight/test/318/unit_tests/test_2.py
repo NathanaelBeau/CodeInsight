@@ -1,4 +1,5 @@
-var2 = pd.DataFrame({'A': ['apple', 'banana', 'cherry'], 'B': ['dog', 'cat', 'parrot']})
-expected_result3 = pd.DataFrame({'A': ['apple', 'banana', 'cherry'], 'B': ['dog', 'cat', 'bird']})
-result3 = test(var2.copy(), 'B', 'parrot', 'bird')
-assert result3.equals(expected_result3), 'Test failed'
+df0 = pd.DataFrame({'name': ['A', 'B', 'C'], 'value1': [10, 11, 12]})
+df1 = pd.DataFrame({'name': ['A', 'B'], 'value2': [13, 14]})
+df2 = pd.DataFrame({'name': ['A'], 'value3': [15]})
+expected_result =  pd.DataFrame({'name': ['A'], 'value1': [10], 'value2': [13], 'value3': [15]})
+assert test(df0, df1, df2).equals(expected_result), 'Test failed'

@@ -1,5 +1,5 @@
-# Test 3
-df0 = pd.DataFrame({'M': [10.5, np.nan, 12.5], 'N': [12.5, 13.5, np.nan]})
-expected_result =  pd.DataFrame({'M': [10.5, 11.5, 12.5], 'N': [12.5, 13.5, 13]})
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+arr0 = np.array([[11, 22, 33, 44], [55, 66, 77, 88]])
+var0 = 3
+expected_result =  np.array([[11, 22, 33], [55, 66, 77]])
+result = test(arr0, var0)
+assert np.array_equal(result, expected_result), 'Test failed'

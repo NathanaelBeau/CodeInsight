@@ -1,5 +1,5 @@
-dct0 = {"x": 10, "y": 20, "z": 30}
-dct1 = {"w": 40, "x": 50, "y": 60}
-expected_result =  {"x": 10, "y": 20}
-result = test(dct0, dct1)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame({'C': [7, 8, 9], 'D': [10, 11, 12]}, index=['u', 'v', 'w'])
+lst0 = ['w', 'u', 'v']
+expected_result =  pd.DataFrame({'C': [9, 7, 8], 'D': [12, 10, 11]}, index=['w', 'u', 'v'])
+result = test(df0, lst0)
+assert result.equals(expected_result), 'Test failed'

@@ -1,5 +1,3 @@
-import pandas as pd
-df0 = pd.DataFrame({'A': ['1', '2', '3'], 'B': ['4', '5', '6']})
-var0 = 'A'
-expected_result =  pd.DataFrame(columns=['A', 'B'])
-assert test(df0, var0).equals(expected_result), 'Test failed'
+str0 = "5A10B15C"
+expected_output = [('5', 'A'), ('10', 'B'), ('15', 'C')]
+assert test(str0) ==expected_output, 'Test failed'

@@ -1,5 +1,2 @@
-import pandas as pd
-
-def test(df0, var0, lst0):
-    df0[var0] = lst0
-    return df0
+def test(dict0):
+    return {k: v for k, v in dict0.items() if v}

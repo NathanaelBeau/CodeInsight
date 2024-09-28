@@ -1,4 +1,6 @@
-str0 = 'This is a string'
-var0 = 4
-expected_output = 'This'
-assert test(str0, var0) == expected_output, 'Test failed'
+# Test 1
+df0 = pd.DataFrame({ 'A': ['x', 'x', 'y', 'y', 'y'] })
+var0 = 'A'
+expected_result =  pd.Series({'y': 3, 'x': 2}, name='A')
+result = test(df0, var0)
+assert result.equals(expected_result), 'Test failed'

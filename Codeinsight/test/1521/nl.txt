@@ -1,1 +1,1 @@
-Map two lists, lst0 representing keys and lst1 representing values, into a dictionary
+Join the elements of each tuple in list lst0 into a single string.

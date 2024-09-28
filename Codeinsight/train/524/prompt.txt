@@ -1,5 +1,4 @@
-How do I get the name of the rows as pandas Index list object from the index of a data frame df0?   
+Clear all elements from a list lst0.
 
-import pandas as pd
-def test(df0):
+def test(lst0: list) -> list:
 

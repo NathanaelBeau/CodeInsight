@@ -1,2 +1,4 @@
-def test(var0, lst0):
-    return max(filter(lambda x: x <= var0, lst0))
+import numpy as np
+
+def test(arr0):
+    return arr0[~np.isnan(arr0)]

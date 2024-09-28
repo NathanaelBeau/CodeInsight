@@ -1,1 +1,2 @@
-Find max length of each column in a list of lists   lst0 
+How to compare two lists in python : 
+How ccheck if each element of lst0 is smaller than corresponding element of lst1 at the same index 

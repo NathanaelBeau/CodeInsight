@@ -1,4 +1,4 @@
-import pandas as pd
-df0 = pd.DataFrame({'Gender': ['Male', 'Male', 'Male'], 'Year': [2014, 2014, 2014]})
-expected_result =  df0
-assert test(df0).equals(expected_result), 'Test failed'
+df3 = pd.DataFrame({'P': [], 'Q': []})
+expected_result3 = []
+result3 = test(df3)
+assert result3 == expected_result3, 'Test failed'

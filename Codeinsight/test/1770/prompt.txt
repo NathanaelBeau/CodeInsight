@@ -1,5 +1,6 @@
-Sort dataframe df0 based on custom order provided in list lst0 for column name var0
+Convert the rows from column var0 of dataframe df0 into column headers.
 
 import pandas as pd
-def test(df0, lst0, var0):
+
+def test(df0, var0):
 

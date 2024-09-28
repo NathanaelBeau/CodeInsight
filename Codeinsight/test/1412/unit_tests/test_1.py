@@ -1,3 +1,3 @@
-lst0 = [10, 20, 30, 40, 10]
-expected_output = [0, 1, 2, 3, 0]
-assert test(lst0) ==expected_output, 'Test failed'
+var0 = 3
+var1 = 7
+assert test(var0, var1) == [7, 7, 7], 'Test failed'

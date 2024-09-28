@@ -1,3 +1,3 @@
-dict0 = {'a': '1', 'b': '2', 'c': '3'}
-expected_output = {'a': 1, 'b': 2, 'c': 3}
-assert test(dict0) == expected_output, 'Test failed'
+dict0 = {'My Key': 'My Value'}
+expected_output = {'my key': 'my value'}
+assert test(dict0) ==expected_output, 'Test failed'

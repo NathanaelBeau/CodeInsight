@@ -1,3 +1,3 @@
 import pandas as pd
-def test(var0):
-    return var0['variable'].value_counts()
+def test(df0):
+    return df0.values.flatten().tolist()

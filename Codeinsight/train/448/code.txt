@@ -1,4 +1,6 @@
-import re
+import pandas as pd
 
-def test(var0):
-    return re.findall(r'\b\d{1,3}\b', var0)
+def test(df0, var0):
+    sorted_df = df0.sort_values(by=var0)
+    sorted_df.index = range(len(sorted_df))
+    return sorted_df

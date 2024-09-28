@@ -1,5 +1,4 @@
-arr0 = np.array([[0, 1, 2], [3, 1, 4]])
-var0 = 1
-expected_output = (np.array([0, 1]), np.array([1, 1]))
-output = test(arr0, var0)
-assert np.array_equal(output[0], expected_output[0]) and np.array_equal(output[1], expected_output[1]), 'Test failed'
+s1 = "The apple is red. I love apple juice. Another apple!"
+substring1 = "apple"
+expected_output1 = [4, 25, 46]
+assert test(s1, substring1) == expected_output1, 'Test failed'

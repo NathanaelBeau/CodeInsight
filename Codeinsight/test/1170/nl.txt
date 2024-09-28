@@ -1,1 +1,1 @@
-Count unique combinations of values in the columns listed in lst0 from a dataframe df0
+Count the number of True values associated with the key 'success' in the dictionary dct0.

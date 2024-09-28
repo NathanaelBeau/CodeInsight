@@ -1,6 +1,6 @@
-Merge dictionaries from array lst0 into a single dictionary in one expression.
+Split a string str0 and keep the separators.
 
-from collections import ChainMap
+import re
 
-def test(lst0):
+def test(str0: str) -> list:
 

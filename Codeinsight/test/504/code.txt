@@ -1,7 +1,5 @@
-import re
+import pandas as pd
 
-def test(var0, var1):
-    match = re.search(var1, var0)
-    if match:
-        return match.group(1)
-    return None
+def test(df0):
+    result = df0.groupby(by=df0.columns.str.split("_").str[0], axis=1).mean()
+    return result.astype(int, errors='ignore')

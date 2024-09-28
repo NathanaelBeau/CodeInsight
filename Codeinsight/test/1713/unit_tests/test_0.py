@@ -1,11 +1,5 @@
-# Create a sample DataFrame for testing
-df_test = pd.DataFrame({
-    'A': [1, 2, 3],
-    'B': [4, 5, 6]
-})
-
-# Test the flattening function
-result = test(df_test)
-expected = [1, 4, 2,  5, 3, 6]
-
-assert result.tolist() == expected, f"Test Failed"
+str0 = 'dog'
+var0 = 5
+str1 = 'x'
+expected_output = 'xdogx'
+assert test(str0, var0, str1) == expected_output, 'Test failed'

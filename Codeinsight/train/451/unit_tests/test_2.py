@@ -1,4 +1,4 @@
-# Test 2
-var0 = "A1!"
-expected_result =  "654933"
-assert test(var0) == expected_result, 'Test failed'
+str0 = 'Python'
+var0 = 10
+expected_output = 'Python'
+assert test(str0, var0) == expected_output, 'Test failed'

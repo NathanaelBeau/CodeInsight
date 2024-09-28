@@ -1,4 +1,3 @@
-str0 = "PythonCodeGeneration"
-var0 = 4
-expected_output = "Pyth onCo deGe nera tion"
-assert test(str0, var0) ==expected_output, 'Test failed'
+dict0 = {1: 'one', 2: 'two'}
+expected_result =  [1, 'one', 2, 'two']
+assert test(dict0) == expected_result, 'Test failed'

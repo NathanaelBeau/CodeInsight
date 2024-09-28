@@ -1,3 +1,5 @@
-df0 = pd.DataFrame({ 'A': [1, 1, 2, 2, 2], 'B': ['a', 'a', 'b', 'b', 'b'], 'C': [10, 20, 30, 40, 50] })
-expected_output = pd.DataFrame({ 'A': [1, 2], 'B': ['a', 'b'], 'C': [20, 50] })
-assert test(df0).values.tolist() == expected_output.values.tolist(), 'Test failed'
+mat0 = np.array([[0, 1], [1, 0]])
+vec0 = np.array([2, 3])
+expected_result =  np.array([3, 2])
+result = test(mat0, vec0)
+assert np.array_equal(result, expected_result), 'Test failed'

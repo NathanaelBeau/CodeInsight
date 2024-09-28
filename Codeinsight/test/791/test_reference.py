@@ -1,6 +1,10 @@
-import numpy as np
-def test(mat0, part='upper'):
-    if part == 'upper':
-        return np.triu(mat0)
-    elif part == 'lower':
-        return np.tril(mat0)
+import pandas as pd
+
+def test(df0):
+    second_to_last_col = df0.columns[-2]
+    last_col = df0.columns[-1]
+
+    df0[second_to_last_col] = df0[second_to_last_col].replace({'\$': ''}, regex=True).astype(float)
+    df0[last_col] = df0[last_col].replace({'\$': ''}, regex=True).astype(float)
+
+    return df0

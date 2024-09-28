@@ -1,4 +1,5 @@
-import pandas as pd 
-def test(df0):
-    return df0.to_numpy().flatten()
-
+def test(lst0):
+    set_ = set()
+    for dict_ in lst0:
+        set_.update(dict_.keys())
+    return set_

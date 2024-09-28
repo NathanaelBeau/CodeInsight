@@ -1,4 +1,8 @@
-df1 = pd.DataFrame({'X': [10, 20, 30], 'Y': [40, 50, 60]})
-lst0 = ['X', 'Y']
-expected_output1 = pd.DataFrame({'X': [10, 20, 30], 'Y': [40, 50, 60], 'sum': [50, 70, 90]})
-assert test(df1, lst0).equals(expected_output1), 'Test failed'
+lst0 = [{'name': 'David', 'score': 95},
+        {'name': 'Eve', 'score': 88},
+        {'name': 'Frank', 'score': 92}]
+var0 = 'name'
+expected_output = {'David': {'score': 95},
+                   'Eve': {'score': 88},
+                   'Frank': {'score': 92}}
+assert test(lst0, var0) == expected_output, 'Test failed'

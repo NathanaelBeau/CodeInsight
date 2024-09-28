@@ -1,1 +1,1 @@
-Find groups of consecutive elements in the numpy array arr0. 
+Save a pandas DataFrame df0 to a CSV file named filename.

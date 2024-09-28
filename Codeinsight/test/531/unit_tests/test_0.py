@@ -1,3 +1,5 @@
-dict0 = {'dict1': {'a': 1, 'b': 2}, 'dict2': {'x': 10, 'y': 20}}
-expected_result =  [['a', 'b'], ['x', 'y']]
-assert test(dict0) == expected_result, 'Test failed'
+# Test 1
+df0 = pd.DataFrame({'A': [1, 2, 3, 4, 5], 'B': [10, 20, 30, 40, 50]})
+expected_result =  pd.DataFrame({'A': [4, 5], 'B': [40, 50]})
+result = test(df0).reset_index(drop=True)
+assert result.equals(expected_result), 'Test failed'

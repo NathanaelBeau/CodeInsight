@@ -1,5 +1,3 @@
-mystring = "ababaabbaa"
-var0 = "b"
-var1 = "a"
-expected_output1 = ["aba"]
-assert test(mystring, var0, var1) == expected_output1, 'Test failed'
+str0 = b'Hello, World!'
+expected_output = ['H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!']
+assert test(str0) == expected_output, 'Test failed'

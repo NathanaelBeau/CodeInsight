@@ -1,5 +1,5 @@
-Convert the sparse matrix mat0 into a dense matrix  
+Compute the operation (either 'mean' or 'std') over the entire dataframe df0 
 
-from scipy.sparse import csr_matrix
-def test(mat0):
+import pandas as pd
+def test(df0, operation):
 

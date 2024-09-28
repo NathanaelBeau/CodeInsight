@@ -1,7 +1,3 @@
-var0 = {'level1': {}}
-var1 = ['a', 'b']
-var2 = 'level1'
-var3 = [1, 2]
-expected_result =  {'level1': {'a': 1, 'b': 2}}
-result = test(var0, var1, var2, var3)
-assert result == expected_result, 'Test failed'
+import pandas as pd
+trace_df2 = pd.DataFrame({'ratio': [0.1, 0.2, 0.3, 0.4]})
+assert test(trace_df2) == 1, 'Test failed'

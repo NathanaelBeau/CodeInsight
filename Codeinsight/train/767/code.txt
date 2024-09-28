@@ -1,2 +1,3 @@
-def test(dict0):
-    return {key.lower(): value for key, value in dict0.items()}
+def test(str0):
+    it = iter(str0)
+    return ''.join(next(it, '') + c for c in it)

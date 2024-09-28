@@ -1,6 +1,4 @@
-Select rows from a dataframe df0 where column 'A' contains values from list lst0
+Convert the list of strings lst0 into a list of integers.
 
-import pandas as pd
-
-def test(df0, lst0):
+def test(lst0):
 

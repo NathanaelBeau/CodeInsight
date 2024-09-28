@@ -1,5 +1,2 @@
-import pandas as pd 
-import numpy as np
-
-def test(ser0):
-    return np.logical_not(ser0)
+def test(lst0):
+    return [x + 1 for x in lst0]

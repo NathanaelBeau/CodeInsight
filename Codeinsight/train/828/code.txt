@@ -1,3 +1,4 @@
 import pandas as pd
-def test(var0):
-    return var0.iloc[0]
+
+def test(df: pd.DataFrame) -> list:
+    return df['a'].tolist()

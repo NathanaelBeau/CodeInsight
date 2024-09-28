@@ -1,2 +1,4 @@
-def test(var0):
-    return [[] for _ in range(var0)]
+import pandas as pd
+
+def test(df0, func, var0):
+    return df0.apply(func, axis=var0)

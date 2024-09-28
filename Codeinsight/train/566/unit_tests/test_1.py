@@ -1,3 +1,4 @@
-var0 = 10
-expected_output = 'Value is "10"'
-assert test(var0) ==expected_output, 'Test failed'
+var0 = "This is a test string with some special characters."
+var1 = "."
+expected_result2 = "This is a test string with some special characters"
+assert test(var0, var1) == expected_result2, 'Test failed'

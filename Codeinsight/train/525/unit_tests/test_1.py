@@ -1,5 +1,4 @@
-str0 = 'abcdefgh'
-var0 = 8
-str1 = 'Z'
-expected_output ="abcdefghZ"
-assert test(str0, var0, str1) ==expected_output, 'Test failed'
+df0 = pd.DataFrame({'X': [7, 8, 9], 'Y': [10, 8, 6], 'Z': [5, 8, 12]})
+expected_result =  pd.Series(['Y', 'X', 'Z'])
+result = test(df0)
+assert result.equals(expected_result), 'Test failed'

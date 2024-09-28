@@ -1,3 +1,7 @@
-str0 = "Single Line"
-expected_output = [['Single Line']]
-assert test(str0) == expected_output, 'Test failed'
+arr0 = np.array([[1, 2, 3],
+                         [4, 2, 6],
+                         [7, 8, 2]])
+var0 = 2
+result = test(arr0, var0)
+expected = [(0, 1), (1, 1), (2, 2)]
+assert (result == expected), 'Test failed'

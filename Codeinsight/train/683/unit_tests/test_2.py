@@ -1,3 +1,3 @@
-lst0 = [[0]]
-expected_output = [[0]]
-assert test(lst0) == expected_output, 'Test failed'
+s3 = "No-symbols! Or... maybe^some?"
+expected_output3 = 'NosymbolsOrmaybesome'
+assert test(s3) == expected_output3, 'Test failed'

@@ -1,5 +1,6 @@
-Assigns datatypes to columns in a pandas dataframe df0 df0based on the provided dictionary dict0
+Generate all possible strings from a list of token lst0 with combinaison lenght of var0 with combination and permutations
 
-import pandas as pd
-def test(df0, dict0):
+import itertools
+
+def test(lst0, var0):
 

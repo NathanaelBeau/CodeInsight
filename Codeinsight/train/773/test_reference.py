@@ -1,2 +1,5 @@
-def test(lst0):
-    return len([i for i in lst0 if type(i) == int])
+def test(lst0, var0, var1):
+    result = []
+    for i in range(var0, var1):
+        result.append(lst0[i])
+    return result

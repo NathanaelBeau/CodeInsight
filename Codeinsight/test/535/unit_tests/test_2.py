@@ -1,3 +1,5 @@
-lst0 = [3, 1, 4, 1, 5, 9]
-expected_output = 314159
-assert test(lst0) ==expected_output, 'Test failed'
+# Unit Test 3
+dict0 = {'P': [13, 14, 15], 'Q': [16, 17, 18]}
+expected_result =  pd.DataFrame({'P': [13, 14, 15], 'Q': [16, 17, 18]})
+result = test(dict0)
+assert result.equals(expected_result), 'Test failed'

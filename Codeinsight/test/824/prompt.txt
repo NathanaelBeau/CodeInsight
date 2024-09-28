@@ -1,5 +1,5 @@
-Find the indices of rows matching (0,1) in a 2-dimensional numpy array arr0
+How  to remove duplicate characters from a string str0 in python with OrderedDict?   
 
-import numpy as np
-def test(arr0):
+from collections import OrderedDict
+def test(str0):
 

@@ -1,3 +1,4 @@
-s = "(This) is (a) test."
-expected_output = " is  test."
-assert test(s) == expected_output, 'Test failed'
+lst0 = ['a', 'b', 'c', 'd']
+expected_result =  'abcd'
+result = test(lst0)
+assert result == expected_result, 'Test failed'

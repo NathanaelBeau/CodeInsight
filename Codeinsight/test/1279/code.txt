@@ -1,4 +1,4 @@
-import sys
+import pandas as pd
 
-def test(s: str) -> int:
-    return sys.getsizeof(s.encode('utf-8')) - 33
+def test(df0):
+    return pd.DataFrame(df0.values, columns=df0.columns).reset_index(drop=True)

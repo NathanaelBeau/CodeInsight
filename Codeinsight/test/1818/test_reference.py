@@ -1,2 +1,5 @@
-def test(df0, var0):
-    return df0[df0[var0].str.isalpha()]
+import re
+
+def test(str0):
+    pattern = "([0-9]+)([A-Z])"
+    return re.findall(pattern, str0)

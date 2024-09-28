@@ -1,4 +1,8 @@
-lst0 = [{"language": "en", "name": "John"}, {"language": "fr", "name": "Jean"}, {"language": "en", "name": "Doe"}]
-expected_result =  [{"language": "en", "name": "John"}, {"language": "en", "name": "Doe"}, {"language": "fr", "name": "Jean"}]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+# Test 2: Using 'not in' operation
+df0 = pd.DataFrame({"name": ["Alice", "Bob", "Charlie", "David"], "age": [25, 30, 35, 40]})
+col_name = "name"
+values = ["Alice", "David"]
+operation = "not in"
+expected_result =  pd.DataFrame({"name": ["Bob", "Charlie"], "age": [30, 35]}).reset_index(drop=True)
+result = test(df0, col_name, values, operation).reset_index(drop=True)
+assert result.equals(expected_result), 'Test failed'

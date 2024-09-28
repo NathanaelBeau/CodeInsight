@@ -1,1 +1,1 @@
-Concatenate two one-dimensional numpy arrays, lst0 and lst1
+Search recursively for the key var0 in a nested dictionary dct0 

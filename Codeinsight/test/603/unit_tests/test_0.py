@@ -1,5 +1,4 @@
-var0 = pd.Series([1.2, 2.4, 3.7])
-str0 = "floor"
-expected_result =  pd.Series([1., 2., 3.])
-result = test(var0, str0)
-assert result.equals(expected_result), 'Test failed'
+var0, var1 = 2, 3
+expected_shape = (var0, var1)
+result = test(var0, var1)
+assert result.shape == expected_shape and isinstance(result, np.ndarray), 'Test failed'

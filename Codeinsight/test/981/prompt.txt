@@ -1,6 +1,4 @@
-Convert all categorical columns to dummy/indicator int variables in dataframe df0
+From the list of lists x, return the inner list that has the highest sum of values.
 
-import pandas as pd
-
-def test(df0):
+def test(x: list) -> list:
 

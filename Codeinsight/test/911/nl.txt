@@ -1,1 +1,1 @@
-Create a new list by repeating each element in the input list lst0 or range a specified number of times var0.
+Concatenate rows of two dataframes, df0 and df1, in pandas

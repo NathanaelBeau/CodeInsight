@@ -1,7 +1,4 @@
-def test(lst0):
-    seen = set()
-    for x in lst0:
-        if x in seen:
-            return False
-        seen.add(x)
-    return True
+import pandas as pd
+
+def test(df0, col0, str0):
+    return df0[df0[col0].str.startswith(str0)].reset_index(drop=True)

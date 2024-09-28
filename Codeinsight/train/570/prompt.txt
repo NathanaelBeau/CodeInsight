@@ -1,4 +1,6 @@
-Python "extend" for a dictionary  dict0 with an other dictionary dict1
+Randomly change the cases of all characters in a string var0
 
-def test(dict0, dict1):
+import random
+
+def random_case(char):
 

@@ -1,3 +1,2 @@
-import numpy as np
-def test(dtype0):
-    return np.dtype(dtype0).itemsize
+def test(var0):
+    return var0.split('&')

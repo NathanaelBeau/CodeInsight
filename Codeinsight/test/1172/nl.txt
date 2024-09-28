@@ -1,1 +1,1 @@
-Getting the first elements per row in an array lst0 in Python   with operator
+Group the columns of the DataFrame df0 by their names and then sum the values within each group

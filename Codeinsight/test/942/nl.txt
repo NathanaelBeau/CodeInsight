@@ -1,1 +1,1 @@
-Concatenate rows of two dataframes, df0 and df1, in pandas
+Convert list lst0 into a dictionary  using zip

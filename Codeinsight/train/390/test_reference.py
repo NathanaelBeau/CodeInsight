@@ -1,2 +1,2 @@
-def test(var0, var1):
-    return bool(var0) ^ bool(var1)
+def test(lst0):
+    return len([i for i in lst0 if type(i) == int])

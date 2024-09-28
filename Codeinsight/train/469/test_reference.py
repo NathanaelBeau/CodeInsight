@@ -1,5 +1,6 @@
-import pandas as pd
 import numpy as np
 
-def test(df0, var0, var1):
-    return np.where(df0[var0] == var1)[0].tolist()
+def test(arr0, var0):
+    split = np.hsplit(arr0, arr0.shape[1])
+    del split[var0]
+    return np.column_stack(split)

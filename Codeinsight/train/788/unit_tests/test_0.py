@@ -1,5 +1,3 @@
-dict0 = {'a': 'x', 'b': 'y'}
-dict1 = {'x': 10, 'y': 20}
-expected_result =  {'a': 10, 'b': 20}
-result = test(dict0, dict1)
-assert result == expected_result, 'Test failed'
+lst0_1 = [1, 2, 3, 4, 5]
+expected_output_1 = [1, 2, 3, 4, 5]
+assert test(lst0_1) == expected_output_1, 'Test failed'

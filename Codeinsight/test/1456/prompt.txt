@@ -1,6 +1,5 @@
-Transform a string var0 to retain only unique values conserving the order
+Round the elements of the numpy array arr0 to var0 decimal places 
 
-from collections import OrderedDict
-
-def test(var0):
+import numpy as np
+def test(arr0, var0=2):
 

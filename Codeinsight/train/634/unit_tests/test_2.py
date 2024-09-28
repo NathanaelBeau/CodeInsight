@@ -1,3 +1,4 @@
-dict0 = {'name': 'Alice', 'age': 25, 'city': 'New York'}
-expected_output = [('name', 'Alice'), ('age', 25), ('city', 'New York')]
-assert test(dict0) ==expected_output, 'Test failed'
+input_list = ['Python', 'Java', 'JavaScript', 'C++', 'Swift']
+expected_result =  ['C++', 'Java', 'Swift', 'Python', 'JavaScript']
+result = test(input_list)
+assert result==expected_result, 'Test failed'

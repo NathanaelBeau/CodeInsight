@@ -1,4 +1,4 @@
-split a single tuple lst0 into multiple using python  
+flatten a tuple lst0 in python   
 
 def test(lst0):
 

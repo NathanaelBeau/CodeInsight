@@ -1,4 +1,4 @@
-var0 = "πρστυ"
-expected_result =  "\\u03c0\\u03c1\\u03c3\\u03c4\\u03c5"
-result = test(var0)
-assert result == expected_result, 'Test failed'
+arr0 = [1.5, 2.5, 3.5, 4.5]
+var0 = 2
+expected_output = [1.5, 0, 0, 0]
+assert test(arr0, var0) ==expected_output, 'Test failed'

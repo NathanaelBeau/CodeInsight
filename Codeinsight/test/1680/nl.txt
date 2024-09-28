@@ -1,1 +1,1 @@
-Calculate the frequency counts of unique values in a numpy array arr0.
+Select rows from dataframe df0 where the value in column var0 does not equal var1.

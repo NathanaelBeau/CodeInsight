@@ -1,5 +1,4 @@
-df0 = pd.DataFrame({ 'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9] })
-var0 = 'B'
-expected_result =  pd.DataFrame({ 'A': [1, 2, 3], 'C': [7, 8, 9] })
-result = test(df0, var0)
-assert result.equals(expected_result), 'Test failed'
+dict0 = {0: [11, 25], 1: [38], 2: [11, 18], 3: [11, 25]}
+dict1 = {0: [11, 25, 38], 1: [38], 2: [11, 18], 3: [11, 25]}
+expected_output = {0: [25, 11], 1: [38], 2: [18, 11], 3: [25, 11]}
+assert test(dict0, dict1) == expected_output, 'Test failed'

@@ -1,1 +1,1 @@
-Sort alphabetically a list of string lst0
+Python: Fetch first 10 results from a list   lst0

@@ -1,3 +1,5 @@
-def test(str0, var0):
-    formatted_result = "${:,.2f}".format(float(str0))
-    return formatted_result
+
+import pandas as pd
+
+def test(df0, col_name1, col_name2):
+    return df0.set_index(col_name1)[col_name2].to_dict()

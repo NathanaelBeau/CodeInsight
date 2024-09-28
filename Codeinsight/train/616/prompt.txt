@@ -1,6 +1,4 @@
- remove all the punctuation in a string str0    
+ get the index value of a list comprehension lst0    
 
-import string
-
-def test(str0):
+def test(lst0):
 

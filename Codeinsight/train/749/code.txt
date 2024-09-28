@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0):
-    return df0[df0.columns[0]]
+def test(lst0, var0):
+    return sum(map(lambda item: item == var0, lst0))

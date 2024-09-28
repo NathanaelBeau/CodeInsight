@@ -1,1 +1,1 @@
-Convert a pandas DataFrame named df0 into a list of lists
+Split a given string var0 by commas and replace any empty strings with '0

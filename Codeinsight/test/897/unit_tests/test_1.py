@@ -1,4 +1,3 @@
-str0 = ['apple', 'banana', 'orange', 'grape']
-str1 = ['an']
-expected_output = ['banana', 'orange']
-assert test(str0, str1) ==expected_output, 'Test failed'
+s2 = "Hello. How are you?"
+expected_output2 = "Hello\.\ How\ are\ you\?"
+assert test(s2) == expected_output2, 'Test failed'

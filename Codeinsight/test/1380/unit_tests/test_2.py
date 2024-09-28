@@ -1,4 +1,5 @@
-lst0 = ["-1", "0", "1"]
-expected_result =  [-1, 0, 1]
+# Test 3
+lst0 = []
+expected_result =  np.array([])
 result = test(lst0)
-assert result == expected_result, 'Test failed'
+assert np.array_equal(result, expected_result), 'Test failed'

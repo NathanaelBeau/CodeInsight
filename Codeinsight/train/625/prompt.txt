@@ -1,6 +1,4 @@
-reverse a string str0 using recursion   with numpy
+Sort the list lst0 based on values from another list lst1.
 
-import numpy as np
-
-def test(str0):
+def test(lst0, lst1):
 

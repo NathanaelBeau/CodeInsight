@@ -1,1 +1,1 @@
-Get the smallest value greater than 2 from a list of numbers lst0
+reverse tuples elements inside each tuple in list of tuples lst0  in Python  

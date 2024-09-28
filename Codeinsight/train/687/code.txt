@@ -1,4 +1,2 @@
-import six
-
-def test(dict0):
-    return six.next(six.itervalues(dict0))
+def test(lst0):
+    return [sum(int(char) for char in s if char.isdigit()) for s in lst0]

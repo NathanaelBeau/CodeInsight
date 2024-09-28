@@ -1,4 +1,3 @@
-lst0 = [[-1, 2, -3], [4, -5, 6], [-7, 8, -9]]
-expected_result =  -5
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+var0 = pd.DataFrame({'variable': [True, False, True, True, False]})
+expected_output = pd.Series({True: 3, False: 2}, name='variable').sort_index()
+assert test(var0).sort_index().equals(expected_output), 'Test failed'

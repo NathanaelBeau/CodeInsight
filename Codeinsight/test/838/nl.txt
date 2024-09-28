@@ -1,1 +1,1 @@
-Comparing two lists lst0 and lst1 in Python  with filter and lambda
+ splitting a string str0 in Python with split on s and z.

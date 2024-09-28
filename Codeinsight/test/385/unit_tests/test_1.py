@@ -1,4 +1,4 @@
-lst0 = [[[1, 3], [2, 5], [3, 7]], [[1, 11], [2, 15]]]
-expected_result =  [15, 26]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+dict0 = {0: {'name_first': 'John', 'name_last': 'Doe'}}
+var0 = {'name_first': 'Jane', 'name_last': 'Smith'}
+expected_output = {0: {'name_first': 'John', 'name_last': 'Doe'}, 1: {'name_first': 'Jane', 'name_last': 'Smith'}}
+assert test(dict0, var0) == expected_output, 'Test failed'

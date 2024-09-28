@@ -1,1 +1,1 @@
-Generate all possible strings from a list of token lst0 with combinaison lenght of var0 with combination and permutations
+Sort and reindex a data frame df0 by its year column, then by its month column, then by its day column 

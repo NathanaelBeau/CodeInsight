@@ -1,5 +1,7 @@
-def test(test_string: str, str0: str) -> int:
-    try:
-        return test_string.rindex(str0)
-    except ValueError:
-        return -1
+import numpy as np
+
+def test(dict0, dtype= object):
+    keys = list(dict0.keys())
+    values = list(dict0.values())
+    data = list(zip(keys, values))
+    return np.array(data, dtype=dtype)

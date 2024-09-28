@@ -1,1 +1,1 @@
-Access the class attribute a_string from an object obj0
+Add items var1 to a dictionary of lists lst0 at key var0

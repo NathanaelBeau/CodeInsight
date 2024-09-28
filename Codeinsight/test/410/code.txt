@@ -1,5 +1,2 @@
-import pandas as pd
-
-def test(df0, lst0):
-    df0 = df0.assign(sum=df0[lst0].sum(axis=1))
-    return df0
+def test(lst0):
+    return sorted(lst0, key=lambda s: [int(i) for i in s.split('.')])

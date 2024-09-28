@@ -1,6 +1,0 @@
-Rearrange the columns from list lst0 of pandas DataFrame df to the sequence mentioned in list lst1.
-
-import pandas as pd
-
-def test(df: pd.DataFrame, lst0: list, lst1: list) -> pd.DataFrame:
-

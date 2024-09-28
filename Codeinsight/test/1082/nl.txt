@@ -1,1 +1,1 @@
-Filter the numpy array arr0 to keep only elements greater than threshold0. 
+Remove word characters in parentheses from the string str0

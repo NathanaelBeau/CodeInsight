@@ -1,4 +1,6 @@
-Convert list lst0 into a dictionary  using zip
+Add a new column named var0 with a constant value var1 to the pandas DataFrame df0.
 
-def test(lst0):
+import pandas as pd 
+
+def test(df0, var0, var1):
 

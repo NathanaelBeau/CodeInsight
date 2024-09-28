@@ -1,4 +1,6 @@
-Python- insert a character var0 into a string  str0 at index 1
+Replace each character in the string var0 with its corresponding ASCII value.
 
-def test(str0,var0):
+import re
+
+def test(var0):
 

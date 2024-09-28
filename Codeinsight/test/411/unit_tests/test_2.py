@@ -1,3 +1,4 @@
-lst0 = []
-expected_output = {}
-assert test(lst0) ==expected_output, 'Test failed'
+str0 = "world\u200b"
+expected_result =  "world*"
+result = test(str0)
+assert result == expected_result, 'Test failed'

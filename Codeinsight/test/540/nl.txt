@@ -1,1 +1,1 @@
-Convert pandas group by object to multi-indexed Dataframe    on dataframe df0 with index  columns var0
+Count the number of non-NaN elements in a numpy ndarray arr0

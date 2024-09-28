@@ -1,1 +1,1 @@
-Check if the string var0 contains any upper or lower-case ASCII letters.
+Count the number of unique values in the column var0 of DataFrame df0.

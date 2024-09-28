@@ -1,4 +1,4 @@
-df1 = pd.DataFrame({ 'X': [7, 7, 7, 7], 'Y': [8, 8, 8, 8], 'Z': [9, 10, 9, 10] })
-expected_result =  pd.Series({'X': 1, 'Y': 1, 'Z': 2})
-result = test(df1)
+var0 = pd.DataFrame({'sex': [0, 0, 1, 1, 1]})
+expected_result =  pd.DataFrame({'sex': ['Female', 'Female', 'Male', 'Male', 'Male']})
+result = test(var0)
 assert result.equals(expected_result), 'Test failed'

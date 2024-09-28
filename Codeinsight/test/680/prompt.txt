@@ -1,3 +1,4 @@
-summarize a dictionary of arrays dict0 by calculating the sum of each key's values
-def test(dict0):
+How to convert list lst0 to dictionnary?
+
+def test(lst0):
 

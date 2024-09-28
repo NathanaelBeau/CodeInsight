@@ -1,1 +1,1 @@
-Get all elements from the list lst0 except the one at index var0
+Select all rows from dataframe df0 where the column named var0 contains NaN values.

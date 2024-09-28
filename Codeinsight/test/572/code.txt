@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0, lst0):
-    return np.concatenate((arr0, [lst0]), axis=0)
+def test(lst0):
+    return {key: value for key, value in lst0}

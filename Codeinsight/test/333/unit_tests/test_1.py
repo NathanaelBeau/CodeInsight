@@ -1,4 +1,4 @@
-arr0 = np.array([0, 10, 20, 0, 30, 0, 40])
-expected_result =  (10, 40)
-result = test(arr0)
-assert result == expected_result, 'Test failed'
+str0 = 'Hello, World!'
+var0 = 6
+expected_output = 'Hello,'
+assert test(str0, var0) == expected_output, 'Test failed'

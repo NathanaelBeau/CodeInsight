@@ -1,3 +1,3 @@
-lst0 = [1, 2, 3, 4, 5]
-expected_output = 5
-assert test(lst0) ==expected_output, 'Test failed'
+str0 = "a=1 b=2 c=3"
+expected_output = {'a': 1, 'b': 2, 'c': 3}
+assert test(str0) ==expected_output, 'Test failed'

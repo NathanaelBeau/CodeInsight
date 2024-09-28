@@ -1,4 +1,4 @@
 import re
 
-def test(str0, var0):
-    return re.findall(str0, var0, re.IGNORECASE | re.MULTILINE)
+def test(str0):
+    return re.sub(r"\d", "", str0)

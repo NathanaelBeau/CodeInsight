@@ -1,6 +1,0 @@
-Fastest way to remove all multiple occurrence items from a list lst0  
-
-from collections import Counter
-
-def test(lst0):
-

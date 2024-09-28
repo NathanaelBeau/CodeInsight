@@ -1,4 +1,5 @@
-var0 = "12345 is a consecutive number sequence."
-expected_result =  ["12345"]
-result = test(var0)
+dict0 = {'name': 'John', 'age': 30, 'city': 'New York'}
+var0 = 'Doe'
+expected_result =  False
+result = test(dict0, var0)
 assert result == expected_result, 'Test failed'

@@ -1,2 +1,4 @@
-def test(lst0):
-    return [x if x >= 10 else 'small' if x < 5 else 'medium' for x in lst0]
+import numpy as np
+
+def test(arr0, var0):
+    return arr0[arr0[:, 1] > var0]

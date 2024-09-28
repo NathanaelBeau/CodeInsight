@@ -1,6 +1,6 @@
-Generate a list of consecutive numbers from var0 to var1
+Delete all columns in DataFrame df0 that contain only zeros
 
-import numpy as np
+import pandas as pd
 
-def test(var0, var1):
+def test(df0):
 

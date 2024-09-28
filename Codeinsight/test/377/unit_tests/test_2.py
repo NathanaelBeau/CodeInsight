@@ -1,3 +1,6 @@
-lst0 = [5, 4, 3, 2, 1]
-expected_output = True
-assert test(lst0) ==expected_output, 'Test failed'
+df0 = pd.DataFrame({'name': ['Alice', 'Bob', 'Charlie', 'Dave'], 'status': ['active', 'inactive', 'active', 'banned']})
+col0 = 'status'
+str0 = 'active'
+expected_result =  pd.DataFrame({'name': ['Alice', 'Charlie'], 'status': ['active', 'active']})
+result = test(df0, col0, str0)
+assert result.equals(expected_result), 'Test failed'

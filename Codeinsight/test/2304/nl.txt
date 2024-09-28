@@ -1,1 +1,0 @@
-How to sum all the values in a dictionary var0?   

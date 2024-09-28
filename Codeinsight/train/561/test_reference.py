@@ -1,4 +1,5 @@
-import re
+import numpy as np
+import pandas as pd
 
-def test(str0):
-    return [i[0] for i in re.findall(r'((\d)(?:[()]*\2*[()]*)*)', str0)]
+def test(var0, var1):
+    return pd.DataFrame(np.zeros((var0, var1), dtype=int))

@@ -1,4 +1,4 @@
- check whether elements appears in the list lst0 only once in python   
+create and return a list containing var0 empty lists. 
 
-def test(lst0):
+def test(var0):
 

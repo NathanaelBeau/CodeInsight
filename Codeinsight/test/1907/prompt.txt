@@ -1,5 +1,0 @@
-Pandas DataFrame df0 to List of Dictionaries  per row
-
-import pandas as pd
-def test(df0):
-

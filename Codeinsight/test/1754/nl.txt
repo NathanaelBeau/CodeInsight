@@ -1,1 +1,1 @@
-How to repeat var0 times individual characters in strings str0 in Python  with itertools
+Randomly change the cases of all characters in a string var0

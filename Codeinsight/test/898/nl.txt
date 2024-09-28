@@ -1,1 +1,1 @@
-Format the floating-point values in columns specified by columns_list0 of dataframe df0 into percentage format with two decimal places.
+Impute the missing categorical values in the dataset df0 using the most frequent strategy from scikit-learn.

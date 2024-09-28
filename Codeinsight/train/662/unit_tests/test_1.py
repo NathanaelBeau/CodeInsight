@@ -1,4 +1,4 @@
-lst0 = [[0.12345678, 0.87654321], [9.99999999, 3.14159265]]
-var0= '{0:.8e}'
-expected_output = [['1.23456780e-01', '8.76543210e-01'], ['9.99999999e+00', '3.14159265e+00']]
-assert test(lst0, var0) == expected_output, 'Test failed'
+s2 = "A1 B2 C3 D4 E5"
+pattern2 = r"\d"
+expected_output2 = []
+assert test(s2, pattern2) == expected_output2, 'Test failed'

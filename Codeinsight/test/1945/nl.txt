@@ -1,1 +1,0 @@
-Remove adjacent duplicate elements from a list lst0 

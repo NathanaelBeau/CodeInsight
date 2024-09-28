@@ -1,3 +1,4 @@
-var0 = 3
-var1 = 7
-assert test(var0, var1) == [7, 7, 7], 'Test failed'
+var0 = pd.DataFrame({ 'A': ['B', '1', '2'], 'C': ['D', '3', '4'] })
+expected_result =  pd.DataFrame({ 'B': ['1', '2'], 'D': ['3', '4'] }, index=[1, 2])
+result = test(var0)
+assert result.equals(expected_result), 'Test failed'

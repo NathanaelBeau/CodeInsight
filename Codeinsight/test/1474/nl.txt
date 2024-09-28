@@ -1,1 +1,1 @@
-display the first few characters var0 of a string str0 in Python  
+Switch every pair of characters in a string str0 

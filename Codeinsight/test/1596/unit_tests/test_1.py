@@ -1,4 +1,3 @@
-df0 = pd.DataFrame({'cluster': ['A', 'B', 'A', 'B'], 'value': [100, 200, 300, 400]})
-col0 = 'cluster'
-expected_result =  pd.DataFrame({'value': [200.0, 300.0]}, index=['A', 'B'])
-assert test(df0, col0).equals(expected_result), 'Test failed'
+lst1 = [{"name": "John", "age": 25}, {"name": "Jane", "age": 30}, {"name": "John", "age": 25}]
+expected_result1 = [{"name": "John", "age": 25}, {"name": "Jane", "age": 30}]
+assert test(lst1) == expected_result1, 'Test failed'

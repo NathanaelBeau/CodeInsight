@@ -1,6 +1,4 @@
-# Test 2
-arr0 = np.array(['apple', 'banana', 'cherry'])
-dict0 = {'apple': 'red', 'banana': 'yellow', 'cherry': 'dark red'}
-expected_result =  np.array(['red', 'yellow', 'dark red'])
-result = test(arr0, dict0)
+arr1 = np.array([(7.0, 8.0), (9.0, 10.0)], dtype=[('a', np.float64), ('b', np.float64)])
+expected_result =  np.array([[7.0, 8.0], [9.0, 10.0]])
+result = test(arr1)
 assert np.array_equal(result, expected_result), 'Test failed'

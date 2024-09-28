@@ -1,6 +1,5 @@
-def test(var0):
-    import math
-    if var0 >= 0:
-        return math.floor(var0) - 1
-    else:
-        return math.floor(var0)
+import operator
+
+def test(lst0):
+    lst0.sort(key=operator.itemgetter('weight', 'factor'))
+    return lst0

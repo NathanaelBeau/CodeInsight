@@ -1,5 +1,5 @@
-var0 = 5
-var1 = 10
-var2 = 20
-expected_result =  10
-assert test(var0, var1, var2) == expected_result, 'Test failed'
+arr0 = np.array([1, 2, 3])
+arr1 = arr0
+expected_result =  True
+result = test(arr0, arr1)
+assert result == expected_result, 'Test failed'

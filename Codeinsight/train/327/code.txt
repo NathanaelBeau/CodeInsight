@@ -1,3 +1,2 @@
-from scipy.sparse import csr_matrix
-def test(mat0):
-    return mat0.todense()
+def test(var0: int) -> list:
+    return [sum(range(i+1)) for i in range(var0)]

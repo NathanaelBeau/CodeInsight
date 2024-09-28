@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0, var0, var1):
-    return df0.groupby(var0).agg({ var1: list })[var1]
+def test(var0):
+    return ''.join(' ' + char if char.isupper() else char.strip() for char in var0).strip()

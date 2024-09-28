@@ -1,5 +1,6 @@
-Sort the rows of numpy array arr0 based on the order of elements in another numpy array arr1 
+Compute the correlation between two columns, var0 and var1, in a dataframe df0  
 
-import numpy as np
-def test(arr0, arr1):
+import pandas as pd
+
+def test(df0, var0, var1):
 

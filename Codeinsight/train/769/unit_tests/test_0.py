@@ -1,5 +1,6 @@
-dict0 = {'a': [1, 2, 3], 'b': [4, 5, 6]}
-expected_result =  np.array([('a', [1, 2, 3]), ('b', [4, 5, 6])],
-                           dtype=[('name', 'U10'), ('value', '3int16')])
-result = test(dict0)
-assert (result  ==  expected_result).all(), 'Test failed'
+import pandas as pd
+data = {'A': [1, 2, 3], 'B': [4, 5, 6]}
+df0 = pd.DataFrame(data, index=[0, 1, 0])
+expected_result =  pd.DataFrame({'A': [1, 2], 'B': [4, 5]}, index=[0, 1])
+result = test(df0)
+assert result.equals(expected_result), 'Test failed'

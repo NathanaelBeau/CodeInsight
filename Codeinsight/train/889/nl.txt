@@ -1,1 +1,1 @@
-How to convert list lst0 to dictionnary?
+Removing all non-numeric characters from string str0

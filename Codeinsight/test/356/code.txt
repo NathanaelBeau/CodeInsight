@@ -1,2 +1,15 @@
-def test(lst0, key0, value0):
-    return next((item for item in lst0 if item.get(key0) == value0), None)
+import itertools
+def test(lst0):
+    stack = [([], lst0)]
+    results = []
+
+    while stack:
+        path, lists = stack.pop()
+        if not lists:
+            results.append(tuple(path))
+        else:
+            for item in lists[0]:
+                stack.append((path + [item], lists[1:]))
+
+    return results
+

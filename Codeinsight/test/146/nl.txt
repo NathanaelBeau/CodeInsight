@@ -1,1 +1,1 @@
-check if all of the following items from list lst0 are in a list  lst1
+Get max value index for a list of dicts  lst0 on key var0

@@ -1,4 +1,3 @@
-lst0 = [10, "orange", 20, "mango", 30]
-expected_result =  ["orange", "mango"]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+s2 = "Split@Here!And?Here."
+expected_output2 = ['Split', '@', 'Here', '!', 'And', '?', 'Here', '.']
+assert test(s2) == expected_output2, 'Test failed'

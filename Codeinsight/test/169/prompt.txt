@@ -1,6 +1,6 @@
-Remove line break character in a string var0 if it follows a lowercase letter
+Get the first column from the dataframe df0 as a Series
 
-import re
+import pandas as pd
 
-def test(var0):
+def test(df0):
 

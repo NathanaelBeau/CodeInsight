@@ -1,1 +1,1 @@
-Join each tuple's elements into a single string from a list of tuples lst0
+Prepend the value value0 to the numpy array arr0.  

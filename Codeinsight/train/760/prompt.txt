@@ -1,4 +1,5 @@
-Generate a list from lst0 that contains elements if the first element of lst0 is present in lst1
+Concatenate rows of two dataframes, df0 and df1, in pandas
 
-def test(lst0, lst1):
+import pandas as pd
+def test(df0, df1):
 

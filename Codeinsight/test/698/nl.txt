@@ -1,3 +1,1 @@
-Output the first 100 characters from a string 
-str0
-str0
+Sort a dictionary dict0 based on the values of a specified key var0 within the dictionary's values (assuming the values are themselves dictionaries)

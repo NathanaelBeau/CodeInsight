@@ -1,3 +1,6 @@
-s2 = "SplitHereAndHere"
-expected_output2 = ['Split', 'Here', 'And', 'Here']
-assert test(s2) == expected_output2, 'Test failed'
+lst0 = [(1, 2, 'apple'), (3, 4, 'banana'), (5, 6, 'apple')]
+var0 = 'apple'
+var1 = 'banana'
+expected_result =  False
+result = test(lst0, var0, var1)
+assert result == expected_result, 'Test failed'

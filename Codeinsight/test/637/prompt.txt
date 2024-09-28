@@ -1,6 +1,6 @@
-Merging items in a list lst0- Python   
+Convert the numpy array arr0 to a Python list.
 
-from functools import reduce
+import numpy as np
 
-def test(lst0):
+def test(arr0):
 

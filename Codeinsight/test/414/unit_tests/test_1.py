@@ -1,4 +1,4 @@
-lst0 = [['A', 1], ['B', 2], ['C', 3], ['D', 4], ['E', 5]]
-expected_result =  {'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5}
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+lst0 = [1, 1, 2, 2, '', 3, 3, '', 7, 7]
+var0 = ''
+expected_output = [1, 1, 2, 2, 3, 3, 7, 7]
+assert test(lst0, var0 ) ==expected_output, 'Test failed'

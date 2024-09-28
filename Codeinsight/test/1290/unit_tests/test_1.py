@@ -1,3 +1,3 @@
-matrix1 = np.array([[1, 2], [2, 1]])
-expected_output = False
-assert test(matrix1) == expected_output, 'Test failed'
+lst0 = ["value,1.0,2.0,3.0, value"]
+expected_output = [1.0, 2.0, 3.0]
+assert test(lst0) ==expected_output, 'Test failed'

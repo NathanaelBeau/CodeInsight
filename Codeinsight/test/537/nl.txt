@@ -1,1 +1,1 @@
-sum each value in a list of tuples  lst0 and return it in an dictionary
+Replace consecutive repeated words in the string var0 with a single occurrence of the word.

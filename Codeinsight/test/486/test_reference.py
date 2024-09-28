@@ -1,4 +1,2 @@
-from itertools import islice
-
-def test(lst0, var0, var1):
-    return list(islice(lst0, var0, var1))
+def test(lst0):
+    return [x for x in lst0 if x != [1, 1]]

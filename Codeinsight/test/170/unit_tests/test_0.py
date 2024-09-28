@@ -1,3 +1,5 @@
-str0 = "I have a cat. That cat is black."
-expected_result =  "I have a cat. That Bull is black."
-assert test(str0) == expected_result, 'Test failed'
+matrix0 = np.array([[1,2,3],[4,5,6],[7,8,9]])
+var0 = 2
+expected_result =  np.array([[1,2],[4,5],[7,8]])
+result = test(matrix0, var0)
+assert np.array_equal(result, expected_result), 'Test failed'

@@ -1,1 +1,1 @@
-Extract row with maximum value in a group pandas dataframe   df0 in column var0
+sum each value in a list of tuples  lst0 and return it in an dictionary

@@ -1,4 +1,4 @@
-Pandas: Counting unique values in a dataframe df0 
+Get the name of the rows as pandas Index object from the index of a data frame df0
 
 import pandas as pd
 def test(df0):

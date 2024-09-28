@@ -1,4 +1,5 @@
-lst0 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-var0 = 5
-expected_output = [[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]]
-assert list(test(lst0, var0)) == expected_output, 'Test failed'
+tensor0 = torch.tensor([[1, 2], [3, 4], [5, 6], [7, 8]])
+shape0 = (8,)
+expected_result =  torch.tensor([1, 2, 3, 4, 5, 6, 7, 8])
+result = test(tensor0, shape0)
+assert torch.equal(result, expected_result), 'Test failed'

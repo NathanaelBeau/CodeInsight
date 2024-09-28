@@ -1,4 +1,3 @@
-import string
-
-def test(str0):
-    return str0.translate(str.maketrans('', '', string.punctuation))
+def test(lst0):
+    r = int("".join(map(str, lst0)))
+    return r

@@ -1,4 +1,5 @@
-dict0 = {'a': 1, 'b': 1, 'c': 1}
-expected_result =  set(dict0.keys())  
-result = test(dict0)
-assert result in expected_result, 'Test failed'
+str0 = "Hello"
+lst0 = ["Alice", "Bob", "Charlie"]
+expected_result =  ["HelloAlice", "HelloBob", "HelloCharlie"]
+result = test(str0, lst0)
+assert result == expected_result, 'Test failed'

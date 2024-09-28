@@ -1,2 +1,4 @@
-def test(var0):
-    return 'Value is "' + str(var0) + '"'
+import pandas as pd
+
+def test(lst0):
+    return pd.concat(lst0)

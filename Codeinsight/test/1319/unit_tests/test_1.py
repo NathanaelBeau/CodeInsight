@@ -1,4 +1,6 @@
-var0 = ['a', 'b', 'c', 'd']
-var1 = 'default'
-expected_output = {'a': 'default', 'b': 'default', 'c': 'default', 'd': 'default'}
-assert test(var0, var1) == expected_output, 'Test failed'
+lst0 = [10, 20, 30, 40, 50]
+var0 = 0
+lst1 = ['x', 'y']
+expected_result =  ['x', 'y', 10, 20, 30, 40, 50]
+result = test(lst0, var0, lst1)
+assert result == expected_result, 'Test failed'

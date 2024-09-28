@@ -1,3 +1,5 @@
-lst0 = [10, 20, 30, 40, 50, 60]
-expected_output = 6
-assert test(lst0) ==expected_output, 'Test failed'
+# Test 2
+ser0 = pd.Series([True, True, True])
+expected_result =  pd.Series([False, False, False])
+result = test(ser0)
+assert result.equals(expected_result), 'Test failed'

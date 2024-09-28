@@ -1,4 +1,6 @@
-count how many of an object type var0 there are in a list lst0 Python   
+Replace occurrences of the regular expression pattern pat0 with str1 in str0, optionally ignoring case sensitivity if bool0 is set True.
 
-def test(lst0, var0):
+import re
+
+def test(str0, pat0, str1, bool0):
 

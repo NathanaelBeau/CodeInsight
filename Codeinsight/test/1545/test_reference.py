@@ -1,5 +1,4 @@
-import pandas as pd
+import numpy as np
 
-def test(df0, col0, col1):
-    df0[col0].fillna(df0[col1], inplace=True)
-    return df0
+def test(arr0):
+    return not np.any(arr0)

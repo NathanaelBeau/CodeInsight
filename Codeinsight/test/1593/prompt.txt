@@ -1,4 +1,6 @@
-Filter out empty strings from a list of strings lst0.
+Retrieve the number of columns in the pandas DataFrame df0.
 
-def test(lst0: list) -> list:
+import pandas as pd
+
+def test(df0):
 

@@ -1,4 +1,0 @@
-Check if list lst1 contains all elements of list lst0
-
-def test(lst0, lst1):
-

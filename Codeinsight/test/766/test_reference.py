@@ -1,2 +1,2 @@
-def test(lst0):
-    return list(map(lambda x: x.split(), lst0))
+def test(str0, var0, var1):
+    return str0.replace(var0, var1)

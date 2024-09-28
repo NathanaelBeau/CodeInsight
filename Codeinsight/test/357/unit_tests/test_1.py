@@ -1,5 +1,7 @@
-df0_2 = pd.DataFrame({'A': [1, 2]}, index=['x', 'y'])
-df1_2 = pd.DataFrame({'B': [4, 5, 6]}, index=['x', 'y', 'z'])
-expected_result_2 = pd.DataFrame({'A': [1, 2], 'B': [4, 5]}, index=['x', 'y'])
-result_2 = test(df0_2, df1_2)
-assert result_2 .equals( expected_result_2), 'Test failed'
+# Test 2
+df0 = pd.DataFrame({'sentence': ['I love python', 'Java is cool', 'C++ is powerful']})
+column_name = 'sentence'
+lst0 = ['python', 'C++']
+expected_result =  pd.Series([True, False, True])
+result = test(df0, column_name, lst0)
+assert result.equals(expected_result), 'Test failed'

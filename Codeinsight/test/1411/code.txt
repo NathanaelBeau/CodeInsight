@@ -1,8 +1,3 @@
-def test(str0):
-    
-    index = str0.index("@")
-
-    
-    str0_id = str0[:index]
-
-    return str0_id
+import numpy as np
+def test(arr0, arr1):
+    return np.logical_and(arr0, arr1)

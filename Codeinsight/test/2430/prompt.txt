@@ -1,3 +1,0 @@
- sort a list of strings lst0, allowing for certain strings to be sorted in descending order based on their indices lst1, set to None if no index
-def test(lst0, lst1):
-

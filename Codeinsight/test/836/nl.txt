@@ -1,1 +1,1 @@
-Access an arbitrary element(first one) in a dictionary dict0 in Python   
+Delete an item var0 in a list lst0 if it exists.

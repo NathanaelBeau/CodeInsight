@@ -1,4 +1,3 @@
-import numpy as np
-
-def test(var0, var1):
-    return np.full(var0, var1)
+def test(lst0, lst1):
+    start, end = lst1
+    return lst0[start:end]

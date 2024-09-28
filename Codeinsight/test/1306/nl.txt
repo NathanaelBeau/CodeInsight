@@ -1,1 +1,1 @@
-Replace all backslashes in a string var0 with an empty string
+Find the positions (indices) of the value var0 in the numpy array arr0  

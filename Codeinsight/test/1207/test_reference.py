@@ -1,2 +1,4 @@
-def test(var0, var1, var2):
-    return var0[:var2] + var1 + var0[var2:]
+import itertools
+
+def test(lst0):
+    return sum([i*j for i, j in list(itertools.combinations(lst0, 2))])

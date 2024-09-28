@@ -1,3 +1,5 @@
-str0 = "hello"
-expected_output = "ehllo"
-assert test(str0) ==expected_output, 'Test failed'
+var0 = "apple, banana, cherry"
+replacements = {"apple": "grape", "cherry": "peach"}
+expected_result =  "grape, banana, peach"
+result = test(var0, replacements)
+assert result == expected_result, 'Test failed'

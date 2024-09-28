@@ -1,1 +1,1 @@
-split string str0 into words that do not contain whitespaces in python  
+Extract all rows from dataframe df0 where the value of column 'Value' is True.

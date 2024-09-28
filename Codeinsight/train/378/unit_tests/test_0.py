@@ -1,3 +1,5 @@
-dict0 = {'banana': 1, 'apple': 2, 'cherry': 3}
-expected_result =  ['apple', 'banana', 'cherry']
-assert test(dict0) == expected_result, 'Test failed'
+str0 = "Hello"
+lst0 = ["Alice", "Bob", "Charlie"]
+expected_result =  ["HelloAlice", "HelloBob", "HelloCharlie"]
+result = test(str0, lst0)
+assert result == expected_result, 'Test failed'

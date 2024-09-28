@@ -1,4 +1,4 @@
-lst0 = ['abcdef', 'bcdefg', 'cdefgh']
-expected_result =  ['abcdef']
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+input_list = [1, 2, 3, 4, 5]
+expected_result =  False
+result = test(input_list)
+assert result==expected_result, 'Test failed'

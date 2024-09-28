@@ -1,1 +1,1 @@
-find indexes of all occurrences of a substring str0 in a string str1
+Split the string var0 on commas but ignore commas that are inside double quotes.

@@ -1,2 +1,4 @@
-def test(var0):
-    return " ".join(var0.split())
+import pandas as pd
+
+def test(df0, var0):
+    return (df0[var0] > 0).mean()

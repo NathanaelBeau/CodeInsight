@@ -1,4 +1,4 @@
-import numpy as np
+import six
 
-def test(arr0):
-    return arr0[:, 1].min()
+def test(dict0):
+    return six.next(six.itervalues(dict0))

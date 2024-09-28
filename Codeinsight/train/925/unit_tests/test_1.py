@@ -1,6 +1,3 @@
-# Test 2
-lst0 = ['a', 'b', 'c', 'd', 'e']
-var0 = 2
-expected_result =  [['a', 'b'], ['c', 'd'], ['e']]
-result = test(lst0, var0)
-assert result == expected_result, 'Test failed'
+lst0 = [(1, 'X', 'Y'), (2, 'A', 'B'), (2, 'B', 'A'), (3, 'P', 'Q'), (3, 'Q', 'P')]
+expected_output = [(1, 'X', 'Y'), (2, 'A', 'B'), (3, 'P', 'Q')]
+assert test(lst0) == expected_output, 'Test failed'

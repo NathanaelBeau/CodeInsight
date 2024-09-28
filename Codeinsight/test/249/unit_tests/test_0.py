@@ -1,4 +1,3 @@
-str0 = "This is a test string."
-var0 = "is"
-expected_output = 2
-assert test(str0, var0) ==expected_output, 'Test failed'
+lst0 = [[1, 2], [3, 4], [5, 6]]
+expected_output = [(1, 2), (3, 4), (5, 6)]
+assert test(lst0)== expected_output, 'Test failed'

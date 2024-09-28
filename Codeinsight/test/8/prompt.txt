@@ -1,6 +1,5 @@
-Formatting floats in a numpy array    arr0 with format var0 
+Generate a 3 by 3 matrix of random numbers.
 
 import numpy as np
-
-def test(arr0, var0):
+def test():
 

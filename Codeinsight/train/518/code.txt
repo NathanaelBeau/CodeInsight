@@ -1,7 +1,3 @@
-import pandas as pd
-
-def test(df0):
-    result = []
-    for i, g in df0.groupby(["a", "b"]):
-        result.append((i[0], g["c"].values.tolist()))
-    return sorted(result)
+def test(dict0, str0, var0):
+    dict0.setdefault(str0, []).append(var0)
+    return dict0

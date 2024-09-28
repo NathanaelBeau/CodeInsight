@@ -1,4 +1,4 @@
-import numpy as np
+import pandas as pd
 
-def test(arr0, var0):
-    return np.concatenate((arr0[-var0:], arr0[:-var0]))
+def test(df0, lst0):
+    return df0.loc[:, lst0].copy()

@@ -1,4 +1,4 @@
-lst0 = [10, 20, 30, 40]
-lst1 = [50, 60, 70, 80]
-expected_output = set()
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+var0 = 0
+var1 = -3
+expected_output = [0, -1, -2]
+assert test(var0, var1) == expected_output, 'Test failed'

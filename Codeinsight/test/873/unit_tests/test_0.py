@@ -1,4 +1,3 @@
-mat0 = np.array([[4, -2], [1, 1]])
-expected_eigenvalues = np.array([3., 2.])
-result_eigenvalues, _ = test(mat0)
-assert np.allclose(result_eigenvalues, expected_eigenvalues), 'Test failed'
+lst0 = [1, 3, 5]
+expected_output = 135
+assert test(lst0) ==expected_output, 'Test failed'

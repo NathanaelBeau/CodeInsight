@@ -1,3 +1,3 @@
-dict1 = { 'a': 1, 'b': None, 'c': 'hello', 'd': None }
-expected_result1 = { 'a': 'updated', 'c': 'updated' }
-assert test(dict1) == expected_result1, 'Test failed'
+lst0 = [True, True, False, True, True]
+expected_output = False
+assert test(lst0) ==expected_output, 'Test failed'

@@ -1,9 +1,5 @@
-import pandas as pd 
-df0 = pd.DataFrame({'ID': [1, 2, 3],
-                    'Salary': [5000, 6000, 7000],
-                    'Department': ['HR', 'IT', 'Finance']})
-var0 = 'Salary'
-var1 = 6000
-expected_result =  pd.DataFrame({'ID': [2], 'Salary': [6000], 'Department': ['IT']})
-result = test(df0, var0, var1).reset_index(drop=True)
-assert result.equals(expected_result), 'Test failed'
+mat2 = np.array([[1, 0], [0, 1]])
+mat3 = np.array([[9, 8], [7, 6]])
+expected_result =  np.array([9, 6])  # Diagonal elements of the full dot product
+result = test(mat2, mat3)
+assert np.array_equal(result, expected_result), 'Test failed'

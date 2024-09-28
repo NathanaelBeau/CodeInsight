@@ -1,3 +1,4 @@
-str0 = "contact@domain.com"
-expected_output = "contact"
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = [{'size': 3}, {'size': 7}, {'size': 2}, {'size': 9}]
+var0 = 'size'
+expected_output = 3
+assert test(lst0, var0) ==expected_output, 'Test failed'

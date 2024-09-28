@@ -1,4 +1,0 @@
-Truncate the string s up to the first occurrence of the character ':'.
-
-def test(s):
-

@@ -1,4 +1,3 @@
-str0 = "hello 42.1 I'm a 32.1 string 30.1"
-expected_output = ['42.1', '32.1', '30.1']
-result = test(str0)
-assert result == expected_output, 'Test failed'
+dct0 = {'a': [5, 3], 'b': [4, 5], 'c': [6, 1]}
+expected_result =  {'c': [6, 1], 'a': [5, 3], 'b': [4, 5]}
+assert test(dct0) == expected_result, 'Test failed'

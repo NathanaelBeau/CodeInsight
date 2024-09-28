@@ -1,4 +1,4 @@
-Remove whitespace from before punctuation in string var0 but keep whitespace after punctuation.
+ remove whitespace from the end of a string str0 in Python   
 
-def test(var0):
+def test(str0):
 

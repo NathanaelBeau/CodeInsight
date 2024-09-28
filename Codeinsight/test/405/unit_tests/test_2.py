@@ -1,5 +1,3 @@
-var0 = np.array([[True, True],
-                   [False, False]])
-expected_output = np.array([[0, 0],
-                              [0, 1]])
-assert (test(var0)  ==  expected_output).all(), 'Test failed'
+lst0 = [[0.0, 1.0, 2.0], [-1.0, -2.0, -3.0]]
+expected_output = [['0.00000000e+00', '1.00000000e+00', '2.00000000e+00'], ['-1.00000000e+00', '-2.00000000e+00', '-3.00000000e+00']]
+assert test(lst0) == expected_output, 'Test failed'

@@ -1,6 +1,5 @@
-Reset the indexes of the dataframe df0.
+Split the string str0 based on punctuation marks like . , ; ! ?
 
-import pandas as pd
-
-def test(df0):
+import re
+def test(str0):
 

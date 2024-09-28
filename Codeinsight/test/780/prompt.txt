@@ -1,4 +1,5 @@
-Python: Fetch first 10 results from a list lst0  
+Sum all the values in a counter variable named counter0
 
-def test(lst0):
+from collections import Counter
+def test(counter0):
 

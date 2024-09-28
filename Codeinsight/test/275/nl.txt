@@ -1,1 +1,1 @@
-Multiply a numpy matrix mat0 with a numpy vector vec0.
+ convert 2D float numpy array arr0 to 2D int numpy array  with np.int

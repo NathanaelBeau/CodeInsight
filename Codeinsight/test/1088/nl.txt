@@ -1,1 +1,1 @@
-Add SUM of values of two LISTS lst0 and lst1 into new LIST   with np.add
+Generate a random integer between two given numbers var0 and var1.

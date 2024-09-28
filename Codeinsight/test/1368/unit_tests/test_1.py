@@ -1,5 +1,4 @@
-df0 = pd.DataFrame(columns=['A', 'B'])
-df1 = pd.DataFrame(columns=['A', 'B'])
-result = test(df0, df1)
-expected = pd.DataFrame(columns=['A', 'B'])
-assert result.equals(expected), 'Test failed'
+str0 = ['apple', 'banana', 'orange', 'grape']
+str1 = ['an']
+expected_output = ['banana', 'orange']
+assert test(str0, str1) ==expected_output, 'Test failed'

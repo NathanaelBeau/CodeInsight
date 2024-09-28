@@ -1,6 +1,0 @@
- Sort the list of dictionaries lst0 based on the value of the key var0 in each dictionary. 
-
-import operator
-
-def test(lst0, var0):
-

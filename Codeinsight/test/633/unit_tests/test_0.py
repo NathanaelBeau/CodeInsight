@@ -1,4 +1,3 @@
-str0 = 'a.b.c.d'
-expected_result =  'd'
-result = test(str0)
-assert result == expected_result, 'Test failed'
+dict0 = {'gold': 10, 'silver': 5, 'bronze': 3}
+expected_output = 18
+assert test(dict0) ==expected_output, 'Test failed'

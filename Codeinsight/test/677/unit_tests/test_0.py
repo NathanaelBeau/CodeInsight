@@ -1,3 +1,6 @@
-str0 = "Show details1\nShow details2\nShow details3\nShow details4\nShow details5\n"
-expected_output = ['show details1', 'show details2', 'show details3', 'show details4', 'show details5']
-assert test(str0) ==expected_output, 'Test failed'
+# Test 1
+df0 = pd.DataFrame({ 'A': [3, 1, 2], 'B': [1, 3, 2] })
+lst0 = ['A', 'B']
+expected_result =  pd.DataFrame({ 'A': [1, 2, 3], 'B': [3, 2, 1] }, index=[1,2,0])
+result = test(df0, lst0)
+assert result.equals(expected_result), 'Test failed'

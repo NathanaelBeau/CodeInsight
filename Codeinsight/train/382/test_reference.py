@@ -1,3 +1,6 @@
-def test(df0):
-    males = df0.query("Gender == 'Male' and Year == 2014")
-    return males
+import random
+
+def test(lst0):
+    index = random.randrange(len(lst0))
+    lst0[index] = "modified_value"
+    return lst0

@@ -1,1 +1,1 @@
-Round the values in column column_name0 of a DataFrame df0 to decimals0 decimal places.
+get the name of the rows from the index of a data frame df0   

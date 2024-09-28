@@ -1,4 +1,3 @@
-dtype0 = 'float32'
-expected_result =  4
-result = test(dtype0)
-assert result == expected_result, 'Test failed'
+var0 = "apple&banana&cherry"
+expected_result =  ["apple", "banana", "cherry"]
+assert test(var0) == expected_result, 'Test failed'

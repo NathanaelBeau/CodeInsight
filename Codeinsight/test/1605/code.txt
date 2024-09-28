@@ -1,3 +1,6 @@
-import collections
-def test(lst0):
-    return [item for item, count in collections.Counter(lst0).items() if count > 1]
+import pandas as pd
+import numpy as np
+
+def test(df0, method0='ffill'):
+    df0.fillna(method=method0, inplace=True)
+    return df0

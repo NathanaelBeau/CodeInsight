@@ -1,3 +1,5 @@
-lst0 = [1, 2, 3, 4, 5]
-expected_output = [1, 3, 6, 10, 15]
-assert (test(lst0)  == expected_output).all(), 'Test failed'
+var0 = "ab"
+var1 = "abcabcabc"
+expected_result =  [0, 3, 6]
+result = test(var0, var1)
+assert result==expected_result, 'Test failed'

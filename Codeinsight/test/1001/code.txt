@@ -1,2 +1,4 @@
-def test(buckets: list, var0: int, var1: int) -> list:
-    return [s[var0:var1] for s in buckets]
+import pandas as pd
+def test(df0, column, value):
+    df0.insert(df0.shape[1], column, value)
+    return df0

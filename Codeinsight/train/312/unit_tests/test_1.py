@@ -1,4 +1,12 @@
-arr0 = np.array([[1, 1], [2, 2], [3, 3], [2, 2]])
-expected_result =  np.array([[1, 1], [2, 2], [3, 3]])
-result = test(arr0)
-assert np.array_equal(result, expected_result), 'Test failed'
+import numpy
+import math
+import pandas
+import string
+import datetime
+import json
+import itertools
+import random
+import functools
+import collections
+result = test(-2)
+assert result == False, 'Test failed'

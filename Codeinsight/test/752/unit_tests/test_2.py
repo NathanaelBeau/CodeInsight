@@ -1,8 +1,3 @@
-lst0 = [["A", "B", "C"],
-        [1, 2, 3],
-        [4, 5, 6],
-        [7, 8, 9]]
-expected_output = pd.DataFrame({"A": [1, 4, 7],
-                                "B": [2, 5, 8],
-                                "C": [3, 6, 9]})
-assert test(lst0).equals(expected_output), 'Test failed'
+arr0 = np.array([7.0, 8.0, 9.0])
+expected_output = np.array([], dtype=int).reshape(0, 1)
+assert np.array_equal(test(arr0), expected_output), 'Test failed'

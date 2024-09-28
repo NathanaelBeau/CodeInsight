@@ -1,6 +1,4 @@
-Sort a dictionary var0 by value to iterate over it
+Remove duplicate dictionaries from list lst0.
 
-import operator
-
-def test(var0):
+def test(lst0):
 

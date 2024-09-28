@@ -1,2 +1,4 @@
-def test(lst0):
-    return sum(lst0) / len(lst0)
+import pandas as pd
+
+def test(df0, lst0):
+    return df0[lst0].copy()

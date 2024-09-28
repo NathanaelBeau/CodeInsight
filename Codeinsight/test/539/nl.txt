@@ -1,1 +1,1 @@
-Remove all dictionaries from a list lst0 if their 'link' key's value is present in list lst1
+From list of integers lst0, get number closest to a given value var0

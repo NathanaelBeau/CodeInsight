@@ -1,4 +1,5 @@
-df0= pd.DataFrame({ 'a': [4, 5, 6], 'b': [1, 1, 1], 'c': [7, 8, 9] })
-expected_result =  pd.DataFrame({ 'a': [6, 5, 4], 'b': [1, 1, 1], 'c': [9, 8, 7] }).reset_index(drop=True)
-result = test(df0).reset_index(drop=True)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [{'id': 2, 'name': 'B'}, {'id': 1, 'name': 'A'}, {'id': 3, 'name': 'C'}]
+lst1 = [3, 2, 1]
+expected_result =  [{'id': 3, 'name': 'C'}, {'id': 2, 'name': 'B'}, {'id': 1, 'name': 'A'}]
+result = test(lst0, lst1)
+assert result == expected_result, 'Test failed'

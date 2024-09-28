@@ -1,4 +1,5 @@
-s0 = pd.Series(['apple', 'banana', 'apple', 'orange', 'banana', 'orange', 'orange'])
-expected_result =  pd.DataFrame({'value': ['orange', 'apple', 'banana'], 'count': [3, 2, 2]})
-result = test(s0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [{'link': 'example5.com'}, {'link': 'example6.com'}, {'link': 'example7.com'}]
+lst1 = []
+expected_result =  [{'link': 'example5.com'}, {'link': 'example6.com'}, {'link': 'example7.com'}]
+result = test(lst0, lst1)
+assert result == expected_result, 'Test failed'

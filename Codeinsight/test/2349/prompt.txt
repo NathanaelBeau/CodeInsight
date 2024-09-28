@@ -1,6 +1,0 @@
-Replace all NaN values with 0.0 in a pandas dataframe df.
-
-import pandas as pd
-
-def test(df: pd.DataFrame) -> pd.DataFrame:
-

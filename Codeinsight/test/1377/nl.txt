@@ -1,2 +1,2 @@
-Get the number of items associated with key key0 in the dictionary dict0
+Count occurrences of the word var1 in a string var0
 

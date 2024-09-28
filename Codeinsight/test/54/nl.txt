@@ -1,1 +1,1 @@
- decode unicode raw literals str0 to readable string?   
+Python- insert a character var0 into a string  str0 at index var1

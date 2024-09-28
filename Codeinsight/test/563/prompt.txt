@@ -1,6 +1,6 @@
-Duplicate data in pandas dataframe df0 for 5 times resetting index
+Group by column col0 in DataFrame df0 and compute its mean.
 
 import pandas as pd
 
-def test(df0):
+def test(df0, col0):
 

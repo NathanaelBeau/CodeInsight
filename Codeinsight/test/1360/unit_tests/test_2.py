@@ -1,7 +1,5 @@
-lst0 = [
-    {'categories': ['A', 'B', 'B']},
-    {'categories': ['A', 'C', 'D']},
-    {'categories': ['B', 'C', 'C']}
-]
-expected_output = {'B': 3, 'C': 3, 'A': 2, 'D': 1}
-assert test(lst0) == expected_output, 'Test failed'
+var0 = 'country'
+var1 = 'log(country)'
+expected_output = pd.DataFrame({'var1': ['France', 'Germany', 'Italy']})
+df = pd.DataFrame({'var0': ['France', 'Germany', 'Italy']})
+assert test(df) .equals(expected_output), 'Test failed'

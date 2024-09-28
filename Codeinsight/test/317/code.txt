@@ -1,2 +1,2 @@
-def test(var0):
-    return int(var0.replace(",", ""))
+def test(tuple0, tuple1):
+    return all(i in tuple1 for i in tuple0)

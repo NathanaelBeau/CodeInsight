@@ -1,6 +1,6 @@
-Sort dictionary dict0 by value in descending order
+How to sort a dataFrame df0 in python pandas by two or more columns?   
 
-import operator
+import pandas as pd
 
-def test(dict0):
+def test(df0):
 

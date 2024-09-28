@@ -1,1 +1,2 @@
-Convert list of dictionaries lst0 to a pandas DataFrame   
+Find all matches of a line followed by a series of lines in the string var0
+

@@ -1,4 +1,4 @@
-df0 = pd.DataFrame({'col1': [True, False, True], 'col2': [False, True, False]})
-expected_result =  pd.DataFrame({'col1': [1, 0, 1], 'col2': [0, 1, 0]})
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+var0 = "bookkeeper"
+expected_result =  ['o', 'k', 'e']
+result = test(var0)
+assert result == expected_result, 'Test failed'

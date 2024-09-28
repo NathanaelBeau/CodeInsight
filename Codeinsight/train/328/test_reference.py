@@ -1,4 +1,4 @@
 import pandas as pd
-def test(df0, col0):
-    df0['compared'] = df0[col0] == df0[col0].shift(1)
-    return df0
+
+def test(df0: pd.DataFrame) -> pd.DataFrame:
+    return df0[['x', 'y', 'a', 'b']]

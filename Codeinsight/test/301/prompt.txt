@@ -1,6 +1,6 @@
-Get (column, row) index from NumPy array var0 that meets a boolean condition   
+Split string str0 based on a regular expression   
 
-import numpy as np
+import re
 
-def test(var0):
+def test(str0):
 

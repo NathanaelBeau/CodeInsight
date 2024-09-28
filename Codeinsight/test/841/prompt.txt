@@ -1,6 +1,4 @@
-Check if a numpy array arr0 is empty.
+Check if a key var0 exists in a dictionary dict0
 
-import numpy as np
-
-def test(arr0):
+def test(var0, dict0):
 

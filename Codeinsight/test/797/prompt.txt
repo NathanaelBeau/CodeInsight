@@ -1,4 +1,6 @@
-Split the list lst0 into sublists of size var0.
+Concatenate two dataframes, df0 and df1, without any duplicates
 
-def test(lst0, var0):
+import pandas as pd
+
+def test(df0, df1):
 

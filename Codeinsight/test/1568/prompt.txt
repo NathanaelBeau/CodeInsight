@@ -1,5 +1,6 @@
-Remove the index name from a pandas DataFrame df0
+convert binary string str0 to numpy array   
 
-import pandas as pd
-def test(df0):
+import numpy as np
+
+def test(str0):
 

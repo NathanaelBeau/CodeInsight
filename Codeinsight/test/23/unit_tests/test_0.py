@@ -1,3 +1,4 @@
-lst0 = [['a', 'b'], ['c', 'd'], ['a', 'b'], ['e', 'f'], ['c', 'd']]
-expected_output = [  ['a', 'b'], ['c', 'd'], ['e', 'f']]
-assert test(lst0) == expected_output, 'Test failed'
+arr0 = np.array([[0,1],[1,0],[0,1],[1,1]])
+expected_result =  ([0, 2])
+result = test(arr0)
+assert np.array_equal(result, expected_result), 'Test failed'

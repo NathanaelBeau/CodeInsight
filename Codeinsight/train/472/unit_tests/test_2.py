@@ -1,7 +1,7 @@
-# Test 3
-df0 = pd.DataFrame({'Type': ['alpha', 'beta', 'alpha', 'gamma', 'gamma'], 'Data': ['one', 'one', 'two', 'two', 'three']})
-var0 = 'Type'
-var1 = 'Data'
-expected_result =  pd.Series([2, 1, 2], index=['alpha', 'beta', 'gamma'], name='Data')
-result = test(df0, var0, var1)
-assert result.equals(expected_result), 'Test failed'
+import pandas as pd
+# Test 2
+df0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry', 'dog'], 'B': ['dog', 'apple', 'fish', 'apple']})
+var0 = 'B'
+lst0 = ['dog', 'fish']
+expected_result =  pd.DataFrame({'A': ['apple', 'cherry'], 'B': ['dog', 'fish']}, index=[0, 2])
+assert test(df0, var0, lst0).equals(expected_result), 'Test failed'

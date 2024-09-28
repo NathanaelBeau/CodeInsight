@@ -1,4 +1,5 @@
-y_true2 = [0, 0, 0, 0, 1, 1]  # Added positive samples
-y_pred2 = [0, 0, 0, 0, 1, 1]
-expected_output2 = (4, 0, 0, 2)
-assert test(y_true2, y_pred2) == expected_output2, 'Test failed'
+dict0 = {'a': [1, 2, 3], 'b': [4, 5]}
+key0 = 'b'
+expected_result =  2
+result = test(dict0, key0)
+assert result == expected_result, 'Test failed'

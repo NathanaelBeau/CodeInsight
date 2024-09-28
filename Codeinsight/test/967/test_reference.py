@@ -1,6 +1,7 @@
-import pandas as pd
+import re
 
-def test(var0, var1, lst0, lst1):
-    df = pd.DataFrame({var0: lst0, var1: lst1})
-    tuples = list(zip(df[var0], df[var1]))
-    return pd.factorize(tuples)[0]
+def test(var0, var1):
+    match = re.search(var1, var0)
+    if match:
+        return match.group(1)
+    return None

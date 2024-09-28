@@ -1,5 +1,7 @@
-Replace all occurrences of substring var1 with substring var2 in string var0, ignoring case
+multi-column factorize in pandas with columns var0 and var1 and values lst0 and lst1
 
-import re
-def test(var0, var1, var2):
+import pandas as pd
+import numpy as np
+
+def test(var0, var1, lst0, lst1):
 

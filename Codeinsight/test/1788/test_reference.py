@@ -1,2 +1,2 @@
-def test(var0):
-    return var0.lstrip().rstrip()
+def test(lst0):
+    return lst0[-1:] + lst0[:-1]

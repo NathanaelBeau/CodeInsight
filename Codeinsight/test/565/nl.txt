@@ -1,1 +1,1 @@
- get the index value of a list comprehension lst0    
+Split the CamelCase string str0 into its individual words

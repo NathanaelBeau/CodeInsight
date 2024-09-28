@@ -1,5 +1,4 @@
-lst0 = []
-var0 = 0
-expected_result =  []
-result = test(lst0, var0)
-assert result == expected_result, 'Test failed'
+var0 = "language"
+var1 = "lander"
+expected_result =  "lan"
+assert test(var0, var1) == expected_result, 'Test failed'

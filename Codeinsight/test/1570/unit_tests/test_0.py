@@ -1,4 +1,4 @@
-var0 = b'hello'
-expected_result =  'hello'
-result = test(var0)
-assert result == expected_result, 'Test failed'
+dict0 = {'a': True, 'b': True, 'c': False, 'd': True}
+expected_output = False
+test(dict0) == expected_output
+assert test(dict0) == expected_output, 'Test failed'

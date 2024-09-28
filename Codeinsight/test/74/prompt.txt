@@ -1,4 +1,6 @@
-Python remove list elements  from lst0 which are var0
+Remove all square brackets from the strings in dataframe df0 
 
-def test(lst0, var0):
+import pandas as pd
+
+def test(df0):
 

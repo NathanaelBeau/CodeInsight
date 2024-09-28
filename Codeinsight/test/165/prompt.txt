@@ -1,6 +1,4 @@
-Sort the pandas DataFrame df0 by the columns specified in the list lst0.
+Insert a string str0 into a case-insensitive sorted list lst0
 
-import pandas as pd
-
-def test(df0, lst0):
+def test(str0, lst0):
 

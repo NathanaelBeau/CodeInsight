@@ -1,1 +1,1 @@
-Remove all uppercased characters from the string s.
+Add a new column to a dataframe df0 which is the result of the difference in consecutive rows for column var0

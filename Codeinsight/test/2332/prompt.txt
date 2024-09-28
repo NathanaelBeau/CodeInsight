@@ -1,4 +1,0 @@
-Perform element-wise addition of two tuples tuple0 and tuple1  
-
-def test(tuple0, tuple1):
-

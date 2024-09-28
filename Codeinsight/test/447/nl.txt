@@ -1,1 +1,1 @@
-Pairs each elements of lists lst0 and lst1
+Convert hex string str0 (with "0x" prefix) to an integer.

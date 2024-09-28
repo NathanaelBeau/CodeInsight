@@ -1,1 +1,1 @@
- extract numbers from a string str0 in Python using regex   
+Pythonic way to fetch all elements in a dictionary dict0, falling between two keys var0 and var1 with filter

@@ -1,1 +1,1 @@
-Getting the first elements per row in an array lst0 in Python   
+Extract specific columns lst0 from a numpy array matrix0.

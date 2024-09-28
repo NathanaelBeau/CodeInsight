@@ -1,4 +1,5 @@
-import re
+import pandas as pd
 
-def test(str0, var0, var1):
-    return re.sub(var0, var1, str0)
+def test(df0, col0):
+    df0[col0] = pd.factorize(df0[col0])[0]
+    return df0

@@ -1,4 +1,4 @@
-empty a list lst0
+Find the largest integer in the list lst0 that is less than or equal to the given number var0.
 
-def test(lst0):
+def test(var0, lst0):
 

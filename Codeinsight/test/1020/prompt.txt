@@ -1,4 +1,7 @@
-Sort a list lst0 in python based on another sorted list lst1
+Normalize the columns of the pandas DataFrame df0 so that values range between 0 and 1.
 
-def test(lst0, lst1):
+import pandas as pd
+from sklearn.preprocessing import MinMaxScaler
+
+def test(df0):
 

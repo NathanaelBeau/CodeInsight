@@ -1,3 +1,3 @@
-df0 = pd.DataFrame({'X': ['a', 'b', 'c'], 'Y': ['d', 'e', 'f']})
-expected_output = ['0', '1', '2']
-assert test(df0) ==expected_output, 'Test failed'
+var0 = "The price range is between 5 and 10."
+expected_result =  ["between 5 and 10"]
+assert test(var0) == expected_result, 'Test failed'

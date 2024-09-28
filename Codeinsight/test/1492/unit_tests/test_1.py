@@ -1,6 +1,5 @@
-df0 = pd.DataFrame({'stats': ["(0.1,0.2,0.3)", "(0.4,0.5,0.6)", "(0.7,0.8,0.9)"]})
-var0 = 'stats'
-expected_output = pd.DataFrame({'col1': [0.1, 0.4, 0.7],
-                                'col2': [0.2, 0.5, 0.8],
-                                'col3': [0.3, 0.6, 0.9]})
-assert test(df0, var0).values.tolist() == expected_output.values.tolist(), 'Test failed'
+# Test 2
+df0 = pd.DataFrame({'A': ['apple', 'apple', 'banana'], 'B': [5, 10, 15]})
+expected_result =  pd.DataFrame({'A': ['apple', 'banana'], 'B': [10, 15]})
+result = test(df0).reset_index(drop=True)
+assert result.equals(expected_result), 'Test failed'

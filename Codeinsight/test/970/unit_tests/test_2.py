@@ -1,6 +1,5 @@
-data = { 'group': [1, 2, 1, 1], 'value': [10., None, 30., 40.] }
-df0 = pd.DataFrame(data)
-var0 = 'group'
-var1 = 'value'
-expected_output = pd.DataFrame({ 'group': [1, 2, 1, 1], 'value': [10., 0., 30., 40.] })
-assert test(df0, var0, var1).equals(expected_output), 'Test failed'
+# Test 2
+lst0 = ['123', '1', '12']
+expected_result =  ['1', '12', '123']
+result = test(lst0)
+assert result == expected_result, 'Test failed'

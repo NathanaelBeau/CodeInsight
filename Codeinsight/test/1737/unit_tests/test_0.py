@@ -1,3 +1,3 @@
-str0 = "20M10000N80M"
-expected_output = [('20', 'M'), ('10000', 'N'), ('80', 'M')]
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = ['a', 'a', 'b', 'c', 'd', 'a', 'e', 'd', 'f', 'e']
+expected_output = ['a', 'b', 'c', 'd', 'e', 'f']
+assert test(lst0) == expected_output, 'Test failed'

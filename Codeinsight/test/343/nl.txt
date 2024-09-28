@@ -1,1 +1,1 @@
- convert a list of str lst0 to a list of floats  with split and map
+Get the row count of a DataFrame df0.

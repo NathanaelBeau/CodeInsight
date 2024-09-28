@@ -1,1 +1,2 @@
-Rearrange elements in position var0 from a list of tuples lst0   
+Filtering all elements in the list of lists 
+lst0 that satisfy a given condition var0

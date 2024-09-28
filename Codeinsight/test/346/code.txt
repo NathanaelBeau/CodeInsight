@@ -1,4 +1,7 @@
-import re
+from collections import Counter
 
-def test(str0):
-    return re.split('\n\s*\n', str0)
+def test(lst0):
+    result = Counter()
+    for d in lst0:
+        result.update(d)
+    return dict(result.most_common())

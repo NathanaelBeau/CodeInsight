@@ -1,4 +1,7 @@
-import numpy as np
-
-def test(str0):
-    return np.frombuffer(str0, dtype='<f4')
+def test(lst0):
+    result = 0
+    multiplier = 1
+    for num in reversed(lst0):
+        result += num * multiplier
+        multiplier *= 10
+    return result

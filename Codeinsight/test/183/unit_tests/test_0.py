@@ -1,6 +1,3 @@
-arr0 = np.array([[1, 2], [3, 4]])
-var0 = 1
-var1 = 2
-expected_result =  np.array([[1, 2, 0, 0], [3, 4, 0, 0], [0, 0, 0, 0]])
-result = test(arr0, var0, var1)
-assert np.array_equal(result, expected_result), 'Test failed'
+df0 = pd.DataFrame({ "Name": ["John", "Alice", "John", "Bob", "Alice"], "City": ["Paris", "New York", "Paris", "London", "New York"] })
+expected_output = pd.DataFrame({ "Name": ["Alice", "Bob", "John"], "City": ["New York", "London", "Paris"], "count": [2, 1, 2] })
+assert test(df0) .equals(expected_output), 'Test failed'

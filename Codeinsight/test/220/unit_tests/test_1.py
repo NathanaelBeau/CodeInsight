@@ -1,3 +1,3 @@
-s = "123hello123"
-expected_output = "123hello"
-assert test(s) == expected_output, 'Test failed'
+lst0 = ['apple', 'banana', 'cherry']
+result = test(lst0)
+assert "modified_value" in result, 'Test failed'

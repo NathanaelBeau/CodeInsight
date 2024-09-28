@@ -1,4 +1,4 @@
-Sort a list of version numbers (lst0) separated by dots in ascending order
+Combine row with same index summing values of its columns from a dataframe df0
 
-def test(lst0):
+def test(df0):
 

@@ -1,6 +1,6 @@
-find most common elements of a list lst0   with their indice of instance
+Evaluate the truthiness of a Series series0 using the specified method (empty, bool, item, any, or all).
 
-from collections import Counter
+import pandas as pd 
 
-def test(lst0):
+def test(series0, method):
 

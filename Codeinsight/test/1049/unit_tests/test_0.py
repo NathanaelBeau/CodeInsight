@@ -1,3 +1,5 @@
-arr0 = np.array([1.0, 2.0, np.nan, 3.0, np.nan, 4.0])
-expected_output = 4
-assert test(arr0) ==expected_output, 'Test failed'
+arr0 = np.array([1, 2, 3, 4, 5])
+lst0 = [3, 4]
+expected_result =  np.array([False, False, True, True, False])
+result = test(arr0, lst0)
+assert np.array_equal(result, expected_result), 'Test failed'

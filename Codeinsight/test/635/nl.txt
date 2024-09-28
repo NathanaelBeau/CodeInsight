@@ -1,1 +1,1 @@
-Convert a string s containing characters into its corresponding hex string representation.
+Determine the non-NaN elements in a numpy array arr0.   

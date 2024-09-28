@@ -1,1 +1,1 @@
-Count the number of unique values in column var1 after grouping by column var0 in dataframe df0
+Lowercase all keys and values in dictionary dct0.

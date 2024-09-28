@@ -1,4 +1,5 @@
+import pandas as pd
 import numpy as np
-def test(arr0):
-    count = sum(1 for element in arr0 if not np.isnan(element))
-    return count
+
+def test(arr0, lst0, lst1):
+    return pd.DataFrame(arr0, index=lst0, columns=lst1)

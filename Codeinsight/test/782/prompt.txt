@@ -1,6 +1,6 @@
-Apply the len function to each entry in the column col0 of DataFrame df0, returning a series with the length of each entry.  
+Rearrange the columns of a pandas DataFrame df0 in the order: 'x', 'y', 'a', 'b'.
 
 import pandas as pd
 
-def test(df0, col0):
+def test(df0: pd.DataFrame) -> pd.DataFrame:
 

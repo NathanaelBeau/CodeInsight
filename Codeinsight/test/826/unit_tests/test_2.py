@@ -1,4 +1,4 @@
-byte_str = 'こんにちは'.encode('utf8')  # Japanese characters
-result = test(byte_str)
-expected = 'はちにんこ'.encode('utf8')
-assert result ==expected, 'Test failed'
+# Test 2
+var0 = "Python3...is-awesome!!"
+expected_result =  ["Python3", "...", "is", "-", "awesome", "!!"]
+assert test(var0) == expected_result, 'Test failed'

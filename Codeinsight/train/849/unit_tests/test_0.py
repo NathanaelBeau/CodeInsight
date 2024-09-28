@@ -1,4 +1,4 @@
-df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 2], 'C': [7, 8, 9]})
-lst0 = ['A', 'B']
-expected_result =  pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 2], 'C': [7, 8, 9], 'max_value': [4, 5, 3]})
-assert test(df0, lst0).equals(expected_result), 'Test failed'
+arr0 = np.array([1, 3, 7, 1, 2, 6, 3, 4, 5, 1])
+expected_min, expected_max = 1, 7
+result_min, result_max = test(arr0)
+assert result_min == expected_min and result_max == expected_max, 'Test failed'

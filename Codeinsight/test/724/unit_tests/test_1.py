@@ -1,3 +1,6 @@
-var0 = 9876543210123
-expected_output = "9 876 543 210 123"
-assert test(var0) == expected_output, 'Test failed'
+df0 = pd.DataFrame({ 'A': [50, 60, 70, 80], 'B': ['e', 'f', 'g', 'h'] })
+column_name0 = 'B'
+some_value0 = 'f'
+expected_result =  1
+result = test(df0, column_name0, some_value0)
+assert result == expected_result, 'Test failed'

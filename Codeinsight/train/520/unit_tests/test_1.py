@@ -1,3 +1,3 @@
-lst0 = [{'weight': 1, 'factor': 7}, {'weight': 3, 'factor': 2}, {'weight': 2, 'factor': 4}]
-expected_output = [{'weight': 1, 'factor': 7}, {'weight': 2, 'factor': 4}, {'weight': 3, 'factor': 2}]
-assert test(lst0) ==expected_output, 'Test failed'
+df0 = pd.DataFrame({'X': [7, 8, 9], 'Y': [10, 11, 12]}, index=['a', 'b', 'c'])
+expected_output = ['a', 'b', 'c']
+assert test(df0) == expected_output, 'Test failed'

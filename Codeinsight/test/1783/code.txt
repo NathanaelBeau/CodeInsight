@@ -1,2 +1,4 @@
-def test(dict0):
-    return sum(dict0.values())
+import pandas as pd
+
+def test(df0, var0):
+    return df0.at[0, var0]

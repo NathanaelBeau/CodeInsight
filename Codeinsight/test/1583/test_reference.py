@@ -1,5 +1,13 @@
-import pandas as pd
+import numpy as np
+from sklearn.cluster import KMeans
 
-def test(df0, lst0, var0):
-    query_str = f"{var0} in {lst0}"
-    return df0.query(query_str)
+def test(arr0, n_clusters):
+    # Reshape arr0 into a 2D array for KMeans
+    arr0_reshaped = arr0.reshape(-1, 1)
+
+    # Perform KMeans clustering
+    kmeans = KMeans(n_clusters=n_clusters, random_state=0)
+    kmeans.fit(arr0_reshaped)
+
+    # Return the cluster labels and cluster centers
+    return kmeans.labels_

@@ -1,5 +1,4 @@
 import pandas as pd
 
-def test(df0, str0, old_text, new_text):
-    df0[str0] = df0[str0].str.replace(old_text, new_text)
-    return df0
+def test(df0, df1, df2):
+    return df0.merge(df1, on='name').merge(df2, on='name')

@@ -1,6 +1,6 @@
-Binarize the values in the pandas DataFrame df0, converting non-zero values to 1 and zero values to 0.
+Find all words, including those with accent characters, in the string var0.
 
-import pandas as pd
+import re
 
-def test(df0):
+def test(var0):
 

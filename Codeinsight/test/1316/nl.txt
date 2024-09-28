@@ -1,1 +1,1 @@
-Remove all trailing digits from the end of string s.
+Split the string var0 by commas that are positioned outside of parentheses.

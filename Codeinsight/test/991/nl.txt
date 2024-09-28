@@ -1,1 +1,2 @@
-Find the index of the nearest point to the coordinates (var0, var1) in the numpy arrays lst0 (for x-coordinates) and lst1 (for y-coordinates).
+Add a numpy array arr0 as a new column named 'new_column' to a dataframe df0
+

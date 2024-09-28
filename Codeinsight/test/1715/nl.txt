@@ -1,1 +1,1 @@
-Perform element-wise logical AND operation on two numpy arrays arr0 and arr1 
+Sort the elements of each row in dataframe df0 in descending order.

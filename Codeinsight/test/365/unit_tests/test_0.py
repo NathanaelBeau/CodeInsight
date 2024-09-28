@@ -1,3 +1,6 @@
-arg = "Hello, World!"
-expected_output = "dffd6021bb2bd5b0af676290809ec3a53191dd81c7f70a4b28688a362182986f"
-assert test(arg, 64) == expected_output, 'Test failed'
+var0_1 = 0
+var1_1 = 'A'
+df0_1 = pd.DataFrame({'col1': [1, 2], 'col2': [3, 4]})
+expected_result_1 = pd.DataFrame({'col1': [1, 2], 'col2': [3, 4]}, index=['A', 1])
+result_1 = test(df0_1.copy(), var0_1, var1_1)
+assert result_1.equals(expected_result_1), 'Test failed'

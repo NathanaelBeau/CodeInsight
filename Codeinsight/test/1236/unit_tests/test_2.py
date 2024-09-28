@@ -1,5 +1,4 @@
-s3 = "a1b2c3"
-pattern3 = r"\d"
-replacement3 = "X"
-expected_output3 = "aXbXcX"
-assert test(s3, pattern3, replacement3) == expected_output3, 'Test failed'
+df0 = pd.DataFrame({'col': ['Apple', 'Banana', 'Orange', 'Apple']})
+col0 = 'col'
+expected_output = pd.DataFrame({'col': [0, 1, 2, 0]})
+assert test(df0, col0) .equals(expected_output), 'Test failed'

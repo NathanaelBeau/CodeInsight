@@ -1,5 +1,4 @@
-var0 = 'name'
-df0 = pd.DataFrame({'name': ['ALICE', 'BOB', None, 'DAVID']})
-expected_result =  pd.DataFrame({'name': ['alice', 'bob', None, 'david']})
-result = test(df0, var0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [1, 6, 8, 4, 7]
+expected_result =  [6, 8, 7]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

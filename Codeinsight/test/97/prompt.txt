@@ -1,6 +1,6 @@
-Count the frequency of each unique value in column var0 of a pandas DataFrame df0.
+How can I use python itertools.groupby() to group a list of strings lst0 by their first character?   
 
-import pandas as pd
+from itertools import groupby
 
-def test(df0, var0):
+def test(lst0):
 

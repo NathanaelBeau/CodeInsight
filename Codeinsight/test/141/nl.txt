@@ -1,1 +1,1 @@
-Subtract each row of the matrix matrix0 by the vector vec0  
+Remove the unwanted_string str0 from the column named var0 in DataFrame df0.

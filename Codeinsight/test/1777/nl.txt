@@ -1,1 +1,1 @@
-Filter out all strings in the list lst that contain the substring 'ab'.
+How to insert a character var0 after every 2 characters in a string str0  assuming string's length is always an even number 

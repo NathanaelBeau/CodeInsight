@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0):
-    return df0[~df0.index.duplicated(keep='first')]
+def test(lst0):
+    return [''.join([str(item) for item in tup]) for tup in lst0]

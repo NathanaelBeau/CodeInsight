@@ -1,1 +1,1 @@
-Check if dataframe df0 is empty
+pythonic way to explode a list of tuples lst0   with functools

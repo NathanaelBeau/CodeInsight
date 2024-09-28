@@ -1,6 +1,4 @@
-def test(matrix0):
-    try:
-        np.linalg.cholesky(matrix0)
-        return True
-    except np.linalg.LinAlgError:
-        return False
+import pandas as pd
+
+def test(df0, var0):
+    return df0[df0.columns[var0]]

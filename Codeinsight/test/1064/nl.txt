@@ -1,1 +1,1 @@
-Save a pandas DataFrame df0 to a CSV file named filename.
+Replace NaN values in the numpy array arr0 with the average of their respective columns

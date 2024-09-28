@@ -1,4 +1,2 @@
-import re
-
-def test(lst0):
-    return [re.sub(r"\s+\(\w+\)", "", item) for item in lst0]
+def test(str0, str1):
+    return str0.join(str1)

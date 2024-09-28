@@ -1,3 +1,4 @@
-import numpy as np
-def test(arr0, arr1):
-    return np.cov(arr0, arr1)
+import pandas as pd
+
+def test(df0):
+    return df0['var0'].str.join('|').str.get_dummies()

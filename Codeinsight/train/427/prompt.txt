@@ -1,4 +1,6 @@
-Change the case of the first letter in the string str0.
+Remove duplicate chars of a string var0
 
-def test(str0):
+import re 
+
+def test(var0):
 

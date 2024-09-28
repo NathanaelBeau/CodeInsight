@@ -1,3 +1,3 @@
-str0 = "Tokenize this string"
-expected_output = ['Tokenize', ' ', 'this', ' ', 'string']
-assert test(str0) == expected_output, 'Test failed'
+var0 = 1234567846
+expected_output = "1 234 567 846"
+assert test(var0) ==expected_output, 'Test failed'

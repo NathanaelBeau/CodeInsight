@@ -1,5 +1,3 @@
-
-import pandas as pd
-
-def test(df0, col_name1, col_name2):
-    return df0.set_index(col_name1)[col_name2].to_dict()
+import numpy as np
+def test(mat0):
+    return mat0 ** 2

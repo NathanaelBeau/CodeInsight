@@ -1,7 +1,4 @@
-df0 = pd.DataFrame({
-            'A': [1, 2, 3],
-            'B': [4, 5, 6]
-        })
-expected = df0
-result = test(df0)
-assert result.equals(expected), 'Test failed'
+df2 = pd.DataFrame({'col2': [[], [], []]})
+expected_result2 = pd.Series([0, 0, 0], name='col2')
+result2 = test(df2, 'col2')
+assert result2.equals(expected_result2), 'Test failed'

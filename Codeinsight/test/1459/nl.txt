@@ -1,1 +1,1 @@
-Find the max of two or more columns  lst0 in dataframe df0 with pandas   
+Calculate and return the sum of the values in the column var0 of DataFrame df0. 

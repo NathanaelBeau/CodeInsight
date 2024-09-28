@@ -1,6 +1,4 @@
-# Test 2
-lst0 = [('dog', 'a'), ('cat', 'b'), ('bird', 'c')]
-lst1 = ['bird', 'dog', 'cat']
-expected_result =  [('bird', 'c'), ('dog', 'a'), ('cat', 'b')]
-result = test(lst0, lst1)
+var0 = b'\xc2\xa9'
+expected_result =  '©'
+result = test(var0)
 assert result == expected_result, 'Test failed'

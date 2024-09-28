@@ -1,4 +1,4 @@
-# Test 3
-var0 = "hello"
-expected_result =  "104101108108111"
-assert test(var0) == expected_result, 'Test failed'
+str0 = 'Hello, World!'
+var0 = 6
+expected_output = 'Hello,'
+assert test(str0, var0) == expected_output, 'Test failed'

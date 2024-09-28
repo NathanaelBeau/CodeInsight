@@ -1,6 +1,4 @@
-var0 = "this is a test, this is only a test"
-var1 = "this"
-var2 = 2
-expected_result =  16
-result = test(var0, var1, var2)
-assert result == expected_result, 'Test failed'
+lst0 = [1, 2, 3, 4, 5]
+lst1 = [3, 6, 7, 8, 9]
+expected_output = 3
+assert test(lst0, lst1) ==expected_output, 'Test failed'

@@ -1,3 +1,4 @@
-lst0 = ["test,3.14,2.71,test"]
-expected_output = [3.14,2.71]
-assert test(lst0) ==expected_output, 'Test failed'
+ser2 = pd.Series([True, False, True])
+expected_result =  np.array([True, False, True])
+result = test(ser2)
+assert np.array_equal(result, expected_result), 'Test failed'

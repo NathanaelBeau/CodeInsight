@@ -1,5 +1,2 @@
-import pandas as pd
-
-def test(df0, var1, var0):
-    grouped = df0.groupby(var1)
-    return grouped.get_group(var0)
+def test(lst0, var0):
+    return lst0[:var0] + lst0[-var0:]

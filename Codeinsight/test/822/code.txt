@@ -1,4 +1,5 @@
 import pandas as pd
 
-def test(df0, var0):
-    return df0[var0].str.split(',', expand=True).stack().reset_index(drop=True)
+def test(df0: pd.DataFrame) -> pd.DataFrame:
+    df0['A_perc'] = df0['A'] / df0['sum']
+    return df0

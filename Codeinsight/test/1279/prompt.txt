@@ -1,6 +1,6 @@
-Determine the byte length of a utf-8 encoded string s.
+ reset index in a pandas dataframe df0   
 
-import sys
+import pandas as pd
 
-def test(s: str) -> int:
+def test(df0):
 

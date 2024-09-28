@@ -1,2 +1,3 @@
-def test(lst0):
-    return (len(set(lst0)) == len(lst0) == max(lst0)) and min(lst0) == 1
+import numpy as np
+def test(arr0):
+    return np.array(arr0, dtype=float)

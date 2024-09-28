@@ -1,2 +1,5 @@
-def test(var0, lst0):
-    return ' '.join([word for word in var0.split() if word.lower() not in set(lst0)])
+import numpy as np
+
+def test(arr0, var0):
+    rounded_arr = np.round(arr0, var0)
+    return rounded_arr.astype(str)

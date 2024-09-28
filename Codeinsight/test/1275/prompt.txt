@@ -1,6 +1,5 @@
- slice a numpy array arr0 to get both the first and last two rows   
+How to repeat Pandas data frame df0 a number of var0 times   with concat function
 
-import numpy as np
-
-def test(arr0):
+import pandas as pd
+def test(df0, var0):
 

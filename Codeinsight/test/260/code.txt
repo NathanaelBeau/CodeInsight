@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(lst0):
-    return np.array(lst0)
+def test(dict0):
+    return dict((v, k) for k, v in dict0.items())

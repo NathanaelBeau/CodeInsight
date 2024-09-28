@@ -1,1 +1,0 @@
-Find and return all occurrences of the pattern str0 in the string var0.

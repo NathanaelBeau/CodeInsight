@@ -1,4 +1,11 @@
 import pandas as pd
-def test(df0):
-    mask = df0.ne(df0.shift()).any(axis=1)  
-    return df0[mask].reset_index(drop=True)
+
+def test(df0, df1):
+    dataframeFinal = pd.merge(df0, df1, left_on=["room", "date", "hour"],
+                    right_on=["room", "date", "hour"], how="outer",
+                    left_index=False, right_index=False, copy=False)
+
+    dataframeFinal["time_y"].fillna(dataframeFinal["time_x"], inplace=True)
+
+    dataframeFinal = dataframeFinal.drop('time_x', axis=1)
+    return dataframeFinal

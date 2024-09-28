@@ -1,1 +1,1 @@
-using regular expression to split string str0 in python   
+Create a zero-filled pandas dataframe with var0 rows and var1 columns

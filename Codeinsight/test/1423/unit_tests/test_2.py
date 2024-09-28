@@ -1,4 +1,4 @@
-var0 = pd.DataFrame({'E': [np.nan, np.nan, 15.0], 'F': [16.0, 17.0, 18.0]})
-expected_result =  pd.DataFrame({'E': [0.0, 0.0, 15.0], 'F': [16.0, 17.0, 18.0]})
-result = test(var0)
-assert result.equals(expected_result), 'Test failed'
+var0 = 0
+var1 = 0
+expected_output = pd.DataFrame(0, index=range(0), columns=range(0))
+assert test(var0, var1).equals(expected_output), 'Test failed'

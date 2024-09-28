@@ -1,1 +1,2 @@
-Select all rows from dataframe df0 where the column named var0 contains NaN values.
+Get the shape (number of rows and columns) of a dataframe df0
+

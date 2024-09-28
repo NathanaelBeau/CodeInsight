@@ -1,4 +1,6 @@
-Determine if the string a represents an integer value.
+Calculate the var0 percentile of a numpy array arr0.
 
-def test(a: str) -> bool:
+import numpy as np
+
+def test(arr0, var0):
 

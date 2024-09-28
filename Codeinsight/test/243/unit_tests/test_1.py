@@ -1,4 +1,4 @@
-lst0 = [(5, 'x'), (6, 'y'), (7, 'z')]
-lst1 = [(8, 'a'), (9, 'b')]
-expected_result =  []
-assert test(lst0, lst1) == expected_result, 'Test failed'
+str0 = "Apple"
+expected_result =  ['e', 'l', 'p', 'p', 'A']
+result = test(str0)
+assert result == expected_result, 'Test failed'

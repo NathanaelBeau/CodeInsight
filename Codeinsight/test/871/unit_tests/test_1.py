@@ -1,3 +1,4 @@
-var0 = 7
-expected_output = 7
-assert len(test(var0)) == expected_output, 'Test failed'
+lst0 = ['a', 'b', 'c']
+expected_result =  ['ab', 'ac', 'ba', 'bc', 'ca', 'cb']
+result = test(lst0)
+assert result == expected_result, 'Test failed'

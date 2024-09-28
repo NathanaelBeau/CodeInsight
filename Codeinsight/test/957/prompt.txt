@@ -1,6 +1,6 @@
-Calculate the mean of DataFrame df0 along the specified axis axis0, subtract these means from the original DataFrame, and return the normalized DataFrame.
+Count the number of rows for each group identified by the columns in key_columns in the dataframe df.
 
 import pandas as pd
 
-def test(df0, axis0):
+def test(df: pd.DataFrame, key_columns: list) -> pd.Series:
 

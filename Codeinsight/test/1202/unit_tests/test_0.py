@@ -1,5 +1,5 @@
-df0 = pd.DataFrame({'name': ['Banana', 'Apple', 'Cherry'], 'value': [2, 1, 3]})
-lst0 = ['Apple', 'Banana', 'Cherry']
-expected_result =  pd.DataFrame({'name': ['Apple', 'Banana', 'Cherry'], 'value': [1, 2, 3]})
-result = test(df0, lst0)
+df0 = pd.DataFrame({'A': [1, 2]})
+df1 = pd.DataFrame({'B': [3, 4]})
+expected_result =  pd.DataFrame({'A': [1, 1, 2, 2], 'B': [3, 4, 3, 4]})
+result = test(df0, df1)
 assert result.equals(expected_result), 'Test failed'

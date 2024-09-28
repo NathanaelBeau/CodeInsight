@@ -1,4 +1,6 @@
-Remove duplicate dictionaries from list lst0.
+Split dataframe df0 into two dataframes at row number var0
 
-def test(lst0):
+import pandas as pd
+
+def test(df0, var0):
 

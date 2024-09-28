@@ -1,2 +1,4 @@
-def test(var0, var1, lst0):
-    return any(d[var1] == var0 for d in lst0)
+import sys
+
+def test(s: str) -> int:
+    return sys.getsizeof(s.encode('utf-8')) - 33

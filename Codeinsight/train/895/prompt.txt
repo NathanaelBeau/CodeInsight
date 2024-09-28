@@ -1,5 +1,4 @@
-Remove all whitespaces from a string var0   
+Flipping the boolean values in a list lst0 with list comprehension Python   
 
-
-def test(var0):
+def test(lst0):
 

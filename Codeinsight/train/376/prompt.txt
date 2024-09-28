@@ -1,4 +1,4 @@
-Retrieve a list of all unique characters in string str0.
+ reverse the elements in a sublist lst0   
 
-def test(str0):
+def test(lst0):
 

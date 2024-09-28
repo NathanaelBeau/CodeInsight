@@ -1,3 +1,4 @@
-str0 = "{'muffin' : 'lolz', 'foo' : 'kitty'}"
-expected_output = {'muffin': 'lolz', 'foo': 'kitty'}
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = [(1, 'apple'), (3, 'cherry'), (2, 'banana')]
+expected_result =  [(1, 'apple'), (2, 'banana'), (3, 'cherry')]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

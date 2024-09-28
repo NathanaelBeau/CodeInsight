@@ -1,1 +1,0 @@
-Generate a multi-dimensional grid between var0 to var1 and var2 to var3 using numpy.

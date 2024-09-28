@@ -1,4 +1,6 @@
- create key var0 or append an element var1 to key var0 in dictionary dict0  
+Limit the number var0 of sentences in a string str0  
 
-def test(dict0, var0, var1):
+import re
+
+def test(str0, var0):
 

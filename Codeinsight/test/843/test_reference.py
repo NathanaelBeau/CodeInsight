@@ -1,3 +1,2 @@
-from xml.etree.ElementTree import Element
-def test(var0):
-    return list(var0)
+def test(lst0):
+    return len(lst0)

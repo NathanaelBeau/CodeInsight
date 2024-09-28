@@ -1,3 +1,6 @@
-df0 = pd.DataFrame({'Name': ['John', 'Emily', 'Michael'], 'Age': [35, 28, 42], 'Country': ['USA', 'Canada', 'UK']})
-expected_output = [('Name', 'John', 'Emily', 'Michael'), ('Age', 35, 28, 42), ('Country', 'USA', 'Canada', 'UK')]
-assert test(df0)== expected_output, 'Test failed'
+df1 = pd.DataFrame({'B': ['apple', 'banana', 'cherry', 'date', 'fig']})
+col1 = 'B'
+var1 = 'date'
+expected_result =  3
+result = test(df1, col1, var1)
+assert result == expected_result, 'Test failed'

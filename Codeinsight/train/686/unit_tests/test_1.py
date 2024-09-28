@@ -1,3 +1,5 @@
-str0 = 'The 2 quick brown foxes jumped over the lazy dog!'
-expected_output = 9 
-assert test(str0) == expected_output, 'Test failed'
+var0 = 15
+var1 = 10
+var2 = 20
+expected_result =  15
+assert test(var0, var1, var2) == expected_result, 'Test failed'

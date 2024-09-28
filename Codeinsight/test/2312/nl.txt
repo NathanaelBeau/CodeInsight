@@ -1,1 +1,0 @@
-Divide each element in list lst0 by its corresponding element in list lst1.

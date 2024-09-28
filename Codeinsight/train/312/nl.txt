@@ -1,1 +1,1 @@
-Remove duplicate rows from the numpy array arr0  
+check whether a number var1 is strictly positive

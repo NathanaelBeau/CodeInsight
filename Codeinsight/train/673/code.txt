@@ -1,2 +1,2 @@
-def test(str0):
-    return list(map(str, str0))
+def test(lst0, var0):
+    return [i for i in lst0 if i > var0]

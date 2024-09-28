@@ -1,1 +1,1 @@
-Merge two lists, lst0 and lst1, into a list of tuples.
+Indexing a pandas dataframe df0 by integer var0 

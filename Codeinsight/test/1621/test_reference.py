@@ -1,3 +1,2 @@
-import pandas as pd
-def test(df0):
-    return df0.isnull().sum()
+def test(lst0) -> None:
+     del lst0[:]

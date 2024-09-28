@@ -1,4 +1,4 @@
-import pandas as pd
-
-def test(df0, var0):
-    return df0.set_index(var0).T
+import numpy as np
+def test(arr0):
+    sorted_unique_values, index = np.unique(arr0, return_index=True)
+    return sorted_unique_values[np.argsort(index)]

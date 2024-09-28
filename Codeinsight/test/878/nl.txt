@@ -1,1 +1,1 @@
-Split the list lst0 into sub-lists of length var0.
+Normalize the pandas dataframe df0 using min-max scaling

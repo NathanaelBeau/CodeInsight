@@ -1,1 +1,1 @@
-display the first few characters var0 of a string str0 in Python  
+Find the key corresponding to the maximum count value in a dictionary dict0

@@ -1,6 +1,4 @@
-"Replace values 0 with 'Female' and 1 with 'Male' in the 'sex' column of a dataframe df0
+Get all possible combinations of items from the 2-dimensional list lst0.
 
-import pandas as pd
-
-def test(df0):
+def test(lst0):
 

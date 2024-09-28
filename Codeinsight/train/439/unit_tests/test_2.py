@@ -1,6 +1,5 @@
-str0 = "abc"
-var0 = """abc first line
-Not abc in this line
-abc another start"""
-expected_result =  ["abc", "abc", "abc"]
-assert test(str0, var0) == expected_result, 'Test failed'
+var0 = 2
+lst0 = [('John', 90, 'A'), ('Jane', 75, 'B'), ('Mike', 80, 'B')]
+expected_result =  ['A', 'B', 'B']
+result = test(var0, lst0)
+assert result == expected_result, 'Test failed'

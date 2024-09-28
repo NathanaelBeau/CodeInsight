@@ -1,4 +1,4 @@
-Replace the single quote (') character from a string str0   using list comprehension
+convert list lst0 with str into list with int   
 
-def test(str0):
+def test(lst0):
 

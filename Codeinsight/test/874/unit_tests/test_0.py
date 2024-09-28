@@ -1,6 +1,4 @@
-# Test 1
-df0 = pd.DataFrame({'Category': ['A', 'A', 'B', 'B'], 'Value': [1, 2, 3, 4]})
-var0 = 'Category'
-expected_result =  pd.DataFrame({'Value': [3, 7]}, index=['A', 'B'])
-result = test(df0, var0)
-assert result.equals(expected_result), 'Test failed'
+df2 = pd.DataFrame({'Group': ['A', 'A', 'B', 'B'], 'Value': [1, 2, 2, 3]})
+result_2 = test(df2, 'Group', 'Value')
+expected_2 = pd.Series([1, 2], index=['A', 'B'], name='Value')
+assert result_2.equals(expected_2),  'Test failed'

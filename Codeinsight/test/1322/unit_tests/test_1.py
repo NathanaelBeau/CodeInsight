@@ -1,4 +1,3 @@
-var0 = "hello"
-expected_result =  "hello"
-result = test(var0)
-assert result == expected_result, 'Test failed'
+dict0 = {'x': 'apple', 'y': 'banana', 'z': 'cherry'}
+expected_output = (['x', 'y', 'z'], ['apple', 'banana', 'cherry'])
+assert test(dict0) == expected_output, 'Test failed'

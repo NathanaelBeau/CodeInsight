@@ -1,7 +1,4 @@
-import pandas as pd
-# Test 1
-df0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry'], 'B': ['dog', 'cat', 'fish']})
-var0 = 'A'
-var1 = 'a.p'
-expected_result =  True
-assert test(df0, var0, var1) == expected_result, 'Test failed'
+str0 = "http://www.domain.com/?s=some&two=20"
+var0 = "&"
+expected_output = "http://www.domain.com/?s=some"
+assert test(str0, var0) ==expected_output, 'Test failed'

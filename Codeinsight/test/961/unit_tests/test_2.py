@@ -1,5 +1,4 @@
-# Test 3
-df0 = pd.DataFrame({ 'z': ['a', 'b', 'c'], 'x': ['d', 'e', 'f'], 'y': ['g', 'h', 'i'] })
-expected_result =  pd.DataFrame({ 'x': ['d', 'e', 'f'], 'y': ['g', 'h', 'i'], 'z': ['a', 'b', 'c'] })
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+arr0 = np.array([[0.5, 0.5], [1.5, 1.5], [0.5, 0.5], [2.5, 2.5]])
+expected_result =  np.array([[0.5, 0.5], [1.5, 1.5], [2.5, 2.5]])
+result = test(arr0)
+assert np.array_equal(result, expected_result), 'Test failed'

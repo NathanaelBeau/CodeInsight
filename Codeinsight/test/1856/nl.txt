@@ -1,1 +1,1 @@
-Get all tuples which value in position var0 equals to var1 in a list of tuples lst0 
+How to subset a data frame df0 using Pandas based on a group criteria  var0 and var1 when value == 0

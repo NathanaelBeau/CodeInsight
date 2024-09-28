@@ -1,1 +1,1 @@
-Select specific rows from a DataFrame df0 based on column var0 with specific value scalar var1?   
+Compute the diagonal of the dot product of matrices mat0 and mat1 using numpy/scipy  

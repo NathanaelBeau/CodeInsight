@@ -1,2 +1,3 @@
-def test(b: list, index: list) -> list:
-    return [b[i] for i in index]
+import random
+def test(lst0):
+    return lst0[random.randint(0, len(lst0) - 1)]

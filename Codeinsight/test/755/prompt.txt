@@ -1,4 +1,6 @@
-Convert a string str0 to integer with decimal in Python   
+Decode the escape sequences in a string named str0
+
+import codecs
 
 def test(str0):
 

@@ -1,4 +1,6 @@
-Sort the list of strings lst0 by their numeric value.
+Transform the title into an intent: "Filter rows in dataframe df0 based on matching rows in dataframe df1
 
-def test(lst0):
+import pandas as pd
+
+def test(df0, df1):
 

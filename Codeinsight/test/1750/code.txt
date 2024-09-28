@@ -1,3 +1,4 @@
-import numpy as np
-def test(arr0, idx0):
-    return arr0[idx0]
+import pandas as pd
+
+def test(df0, col_name0, lst0):
+    return df0[df0[col_name0].isin(lst0)]

@@ -1,1 +1,1 @@
- slice a numpy array arr0 to get both the first and last two rows   
+move the last item in list lst0 to the beginning

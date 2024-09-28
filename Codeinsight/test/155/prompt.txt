@@ -1,7 +1,6 @@
-Calculate the mean of the nonzero values' indices from the DataFrame df0.
+Flatten the list of lists sublist into a single list.
 
-import pandas as pd
-import numpy as np
+import itertools
 
-def test(df0):
+def test(sublist):
 

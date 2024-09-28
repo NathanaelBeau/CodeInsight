@@ -1,4 +1,3 @@
-var0 = 5
-expected_result =  [{}, {}, {}, {}, {}]
-result = test(var0)
-assert result == expected_result, 'Test failed'
+s2 = "WORLD"
+expected_output2 = "wORLD"
+assert test(s2) == expected_output2, 'Test failed'

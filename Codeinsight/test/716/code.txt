@@ -1,4 +1,10 @@
-import numpy as np
-def test(arr0):
-    sorted_unique_values, index = np.unique(arr0, return_index=True)
-    return sorted_unique_values[np.argsort(index)]
+import re
+
+def test(var0):
+    pattern = r"(\d+(\.\d+)?)([KMB]?)"
+    match = re.match(pattern, var0.upper())
+    if not match:
+        return None
+    number, _, suffix = match.groups()
+    map_dict = {'K': 10**3, 'M': 10**6, 'B': 10**9}
+    return float(number) * map_dict.get(suffix, 1)

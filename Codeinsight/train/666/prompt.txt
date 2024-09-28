@@ -1,4 +1,6 @@
- display the first few characters var0 of a string str0 in Python   
+Count the frequency of each unique value in column var0 of a pandas DataFrame df0.
 
-def test(str0, var0):
+import pandas as pd
+
+def test(df0, var0):
 

@@ -1,3 +1,4 @@
-import numpy as np
-def test(arr0, arr1):
-    return np.hstack((arr0, arr1.reshape(-1,1)))
+def test(var0, lst0):
+    index = lst0.index(var0)
+    lst0[index] = var0
+    return index

@@ -1,4 +1,6 @@
-arr0 = np.array([100, 200])
-arr1 = np.array([300, 400])
-expected_output = np.array([100, 300, 200, 400])
-assert (test(arr0,arr1)  == expected_output).all(), 'Test failed'
+var0 = "No special characters here."
+char_start = "{"
+char_end = "}"
+expected_result =  []
+result = test(var0, char_start, char_end)
+assert result == expected_result, 'Test failed'

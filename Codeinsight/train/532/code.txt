@@ -1,2 +1,6 @@
-def test(lst0):
-    return sum(d * 10**i for i, d in enumerate(lst0[::-1]))
+import pandas as pd
+
+def test(df0, index_name0):
+    df0 = df0.reset_index(drop=True)
+    df0.index.name = index_name0
+    return df0

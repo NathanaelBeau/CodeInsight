@@ -1,6 +1,6 @@
-Find groups of consecutive elements in the numpy array arr0. 
+Save a pandas DataFrame df0 to a CSV file named filename.
 
-import numpy as np
+import pandas as pd
 
-def test(arr0):
+def test(df0, filename):
 

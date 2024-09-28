@@ -1,1 +1,1 @@
-Percentage match condition >0 in pandas Dataframe  df0 on column var0 
+Generate list of string numbers from 0 to var0 with numbers between 0 and 9 preceded by a zero

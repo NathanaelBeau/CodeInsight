@@ -1,1 +1,1 @@
-Check if all elements in numpy array arr0 lie between values var0 and var1 
+Prepend a new level named var0 to the columns of a DataFrame df0 with a MultiIndex.

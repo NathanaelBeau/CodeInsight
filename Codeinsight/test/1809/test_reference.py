@@ -1,9 +1,2 @@
-def test(lst0):
-	dictionary = {}
-	for sublist in lst0:
-		if len(sublist) == 2:
-			key, value = sublist
-			dictionary[key] = value
-		else:
-			pass
-	return dictionary
+def test(lst0, var0):
+    return [x * var0 for x in lst0]

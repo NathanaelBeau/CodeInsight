@@ -1,4 +1,3 @@
-var0 = 0
-lst0 = [-1, -2, -3, -4, -5]
-expected_result =  0
-assert test(var0, lst0) == expected_result, 'Test failed'
+lst0 = [('H', 'e', 'l', 'l', 'o'), ('W', 'o', 'r', 'l', 'd')]
+expected_output = ['Hello', 'World']
+assert test(lst0) ==expected_output, 'Test failed'

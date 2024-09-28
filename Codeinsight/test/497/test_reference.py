@@ -1,5 +1,8 @@
-import pandas as pd
-import numpy as np
-def test(df0):
-    return df0.isnull().values.sum() > 0
-
+def test(lst0, lst1):
+    result_dict = {}
+    for i, key in enumerate(lst0):
+        if i < len(lst1):
+            result_dict[key] = lst1[i]
+        else:
+            result_dict[key] = None
+    return result_dict

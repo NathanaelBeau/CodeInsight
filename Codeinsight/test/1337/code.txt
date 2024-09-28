@@ -1,4 +1,4 @@
-import pandas as pd
+import functools
 
-def test(df0):
-    return df0.empty
+def test(lst0):
+    return functools.reduce(lambda x, y: x + list(y), lst0, [])

@@ -1,5 +1,5 @@
 import numpy as np
 
-
-def test(arr0, var0, var1):
-    return np.where((arr0 >= var0) & (arr0 <= var1))
+def test(arr0):
+    unique, counts = np.unique(arr0, return_counts=True)
+    return dict(zip(unique, counts))

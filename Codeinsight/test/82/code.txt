@@ -1,5 +1,6 @@
-import pandas as pd
+import re
 
-def test(df0, var0, var1):
-    df0.columns = [var1 if x == var0 else x for x in df0.columns]
-    return df0
+def test(var0):
+    alphas = re.findall(r'[A-Za-z]+', var0)
+    nums = re.findall(r'\d+', var0)
+    return alphas, nums

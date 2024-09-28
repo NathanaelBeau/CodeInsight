@@ -1,3 +1,4 @@
-lst0 = ['0', '00', '0000', '00000']
-expected_output = [0, 0, 0, 0]
-assert test(lst0) == expected_output, 'Test failed'
+import pandas as pd
+df0 = pd.DataFrame({'Gender': ['Male', 'Male', 'Male'], 'Year': [2014, 2014, 2014]})
+expected_result =  df0
+assert test(df0).equals(expected_result), 'Test failed'

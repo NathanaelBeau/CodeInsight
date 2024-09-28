@@ -1,5 +1,6 @@
-Convert a String representation str0 of a Dictionary to a dictionary  with eval
+Sort a list of lists lst0 according to the second element
 
+import operator
 
-def test(str0):
+def test(lst0):
 

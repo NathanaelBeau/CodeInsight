@@ -1,3 +1,3 @@
-str0 = 'apple,banana, cherry, date'
-expected_output = ['apple,banana,', 'cherry,', 'date']
-assert test(str0) == expected_output, 'Test failed'
+s2 = "SplitHereAndHere"
+expected_output2 = ['Split', 'Here', 'And', 'Here']
+assert test(s2) == expected_output2, 'Test failed'

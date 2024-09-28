@@ -1,1 +1,1 @@
-Convert a pandas dataframe df0 with fields 'id' and 'value' into a dictionary where 'id' becomes the key and 'value' becomes the corresponding value.
+python regex get first part of an email address  string str0 

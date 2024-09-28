@@ -1,6 +1,4 @@
-Formatting floats in a numpy array    arr0 with format var0 
+How to  create the list of only those letters that follow slash "/" i.e.from another list lst0 using  in Python?   
 
-import numpy as np
-
-def test(arr0, var0):
+def test(lst0):
 

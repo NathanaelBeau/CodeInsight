@@ -1,1 +1,1 @@
-Formatting floats in a numpy array    arr0 with round of lenght var0
+Flatten a list of NumPy arrays lst0.  

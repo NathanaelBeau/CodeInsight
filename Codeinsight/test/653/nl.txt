@@ -1,1 +1,1 @@
-Python: find out whether a list of integers lst0 is coherent  when needed to be sorted
+ pythonically set a value in a dictionary dict0 if it is None at key var0

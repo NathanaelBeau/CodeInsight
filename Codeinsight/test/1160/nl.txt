@@ -1,1 +1,1 @@
-Find the indices of value var0 in a 2D list lst0
+Extract var2 words surrounding the search word var1 in the string var0.

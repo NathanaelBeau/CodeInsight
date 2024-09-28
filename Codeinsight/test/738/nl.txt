@@ -1,1 +1,1 @@
-Generate a list of integers starting from var0 and ending with var1
+split a string str0 at line breaks in python   

@@ -1,5 +1,7 @@
-matrix0 = np.array([[0.5, 1.0], [1.5, 2.0], [2.5, 3.0]])
-vec0 = np.array([0.5, 1.5, 2.5])
-expected_result =  np.array([[0, 0.5], [0, 0.5], [0, 0.5]])
-result = test(matrix0, vec0)
-assert np.array_equal(result, expected_result), 'Test failed'
+# Test 3
+df0 = pd.DataFrame({'C': ['123Z', '456Z', '789Z']})
+column_name = 'C'
+unwanted_string = 'Z'
+expected_result =  pd.DataFrame({'C': ['123', '456', '789']})
+result = test(df0, column_name, unwanted_string)
+assert result.equals(expected_result), 'Test failed'

@@ -1,4 +1,5 @@
-import pandas as pd
+import re
 
-def test(df0):
-    return (df0 != 0).astype(int)
+def test(var0):
+    pattern = r'\b[^\W\d_]+\b'  # This matches words, accounting for accent characters
+    return re.findall(pattern, var0, re.UNICODE)

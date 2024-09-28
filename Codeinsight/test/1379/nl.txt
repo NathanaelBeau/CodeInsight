@@ -1,1 +1,1 @@
-Create a numpy array with strings of arbitrary lengths from a list lst0
+Sort a list of tuples lst0 based on the second item in descending order

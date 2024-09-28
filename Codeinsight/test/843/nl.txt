@@ -1,1 +1,1 @@
-Get all children elements of an ElementTree element var0.
+Counting array elements in Python array lst0  

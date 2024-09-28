@@ -1,7 +1,8 @@
-str0 = "Hello world, hello universe"
-var0 = "hello"
-var1 = "hi"
-bool0 = False
-result = test(str0, var0, var1, bool0)
-expected = "Hello world, hi universe"
-assert result == expected, 'Test failed'
+df_test_2 = pd.DataFrame({
+    'A': [1, 2],
+    'B': ['x', 'z'],
+    'C': [3, 4]
+})
+result_2 = test(df_test_2, 'B', ',', ['A', 0, 'C'])
+expected_2 = pd.DataFrame({'A': [1, 2], 0: ['x', 'z'], 'C': [3, 4]})
+assert result_2.equals(expected_2),  'Test failed'

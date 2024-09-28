@@ -1,2 +1,2 @@
 def test(str0):
-    return ''.join(c for c in str0 if c != "'")
+    return [item for item in str0.decode("utf-8")]

@@ -1,3 +1,4 @@
-import numpy as np
-def test(arr0, arr1):
-    return arr0 * arr1
+import pandas as pd
+
+def test(df0):
+    return pd.DataFrame(index=df0.index)

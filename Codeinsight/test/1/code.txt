@@ -1,5 +1,2 @@
-def test(lst0, lst1):
-    lst1.reverse()
-    for item in lst1:
-        lst0.insert(0, item)
-    return lst0
+def test(str0):
+    return '-'.join(str0[i:i+2] for i in range(0, len(str0), 2))

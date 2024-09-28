@@ -1,4 +1,0 @@
-Convert hex string str0 (with "0x" prefix) to an integer.
-
-def test(str0):
-

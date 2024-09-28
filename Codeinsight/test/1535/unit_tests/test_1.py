@@ -1,3 +1,7 @@
-lst0 = [[7, 8, 9], [10, 11, 12]]
-expected_output = [(7, 8, 9), (10, 11, 12)]
-assert test(lst0)== expected_output, 'Test failed'
+# Unit Test 3
+df0 = pd.DataFrame({ 'X': ['a', 'b', 'c', 'd'], 'Y': ['e', 'f', 'g', 'h'] })
+var0 = 'X'
+var1 = 'c'
+expected_result =  pd.DataFrame({ 'X': ['a', 'b', 'd'], 'Y': ['e', 'f', 'h'] })
+result = test(df0, var0, var1)
+assert result.equals(expected_result), 'Test failed'

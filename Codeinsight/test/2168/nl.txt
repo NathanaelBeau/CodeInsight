@@ -1,1 +1,0 @@
-Regex for removing data in parenthesis  in list lst0

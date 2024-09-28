@@ -1,5 +1,3 @@
-def test(lst0):
-    result = {}
-    for d in lst0:
-        result.update(d)
-    return result
+import re
+def test(str0):
+    return re.sub('\u200b', '*', str0)

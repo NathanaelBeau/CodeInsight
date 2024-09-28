@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
-def test(df0, df1, df2):
-    return df0.merge(df1, on='name').merge(df2, on='name')
+def test(df0):
+    return np.mean(np.column_stack(np.nonzero(df0.to_numpy())))

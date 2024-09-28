@@ -1,4 +1,3 @@
-var0 = "OpenAI GPT3"
-expected_result =  "OAIGPT"
-result = test(var0)
-assert result == expected_result, 'Test failed'
+str0 = "1111"
+expected_output = [15]
+assert test(str0) == expected_output, 'Test failed'

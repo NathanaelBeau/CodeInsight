@@ -1,6 +1,6 @@
-Split the string var0 into alphabetic and numeric parts.
+Set the index of dataframe df0 using the column named var0.
 
-import re
+import pandas as pd
 
-def test(var0):
+def test(df0, var0):
 

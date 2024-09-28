@@ -1,6 +1,4 @@
-df0 = pd.DataFrame({'key': [1, 2, 3], 'A': ['a', 'b', 'c']})
-df1 = pd.DataFrame({'key': [1, 2, 3], 'B': ['d', 'e', 'f'], 'A': ['z', 'y', 'x']})
-var0 = 'key'
-expected_result =  pd.DataFrame({'key': [1, 2, 3], 'A': ['a', 'b', 'c'], 'B': ['d', 'e', 'f']})
-result = test(df0, df1, var0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [1, 2, 3, 4]
+lst1 = [1, 0, 3, 4]
+expected_output = [1, 0, 1, 1]
+assert test(lst0, lst1) ==expected_output, 'Test failed'

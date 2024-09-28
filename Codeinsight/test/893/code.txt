@@ -1,3 +1,2 @@
-import pandas as pd
-def test(df0, df1, var0):
-    return pd.merge(df0, df1, how='inner', on=[var0])
+def test(var0, df0):
+    return df0.groupby(var0, as_index=False).sum()

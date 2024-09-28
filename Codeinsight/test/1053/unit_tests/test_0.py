@@ -1,4 +1,3 @@
-ttt1 = "hellohellohello"
-tt1 = "hello"
-expected_output1 = [0, 5, 10]
-assert test(ttt1, tt1) == expected_output1, 'Test failed'
+arr1 = np.array([[1, 3], [2, 1], [3, 2]])
+expected_1 = np.array([[2, 1], [3, 2], [1, 3]])
+assert np.array_equal(test(arr1), expected_1)

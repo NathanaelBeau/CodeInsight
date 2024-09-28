@@ -1,6 +1,4 @@
-Extracting only characters from a string var0   
+Append the first element of the list lst0 to the same list.`
 
-import re 
-
-def test(var0):
+def test(lst0):
 

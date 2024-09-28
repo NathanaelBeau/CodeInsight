@@ -1,4 +1,4 @@
-lst0 = ['apple', 'banana', 'orange', 'pear']
-lst1 = ['banana', 'grape', 'pear']
-expected_output = {'banana', 'pear'}
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+arr0 = np.array([[11], [12], [13], [14]])
+expected_result =  (4, 1)
+result = test(arr0)
+assert result == expected_result, 'Test failed'

@@ -1,4 +1,4 @@
-import numpy as np
+import pandas as pd
 
-def test(var0):
-    return np.column_stack(np.where(var0))
+def test(df0, func):
+    return df0.applymap(func)

@@ -1,4 +1,2 @@
-def test(str0, var0):
-    parts = str0.split(var0)
-    result = var0.join(parts[:-1])  
-    return result
+def test(lst0, lst1):
+    return list(map(int.__eq__, lst0, lst1))

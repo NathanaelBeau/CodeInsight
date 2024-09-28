@@ -1,4 +1,6 @@
-Get all items from a list lst0 that are greater than var0
+Set the index of dataframe df0 using the column named 'month'.
 
-def test(lst0, var0):
+import pandas as pd
+
+def test(df0):
 

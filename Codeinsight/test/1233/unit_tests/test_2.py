@@ -1,5 +1,5 @@
-ser0 = pd.Series([1, 2, 3])
-var0 = -2
-result = test(ser0, var0)
-expected = pd.Series([-1, 0, 1])
-assert result.equals(expected), 'Test failed'
+df0 = pd.DataFrame({'W': ['c', 'd', 'c', 'd'], 'Z': [100, 200, 300, 400]})
+column_name0 = 'W'
+expected_result =  pd.DataFrame({'W': ['c', 'd'], 'Z': [400, 600]})
+result = test(df0.copy(), column_name0)
+assert result.equals(expected_result), 'Test failed'

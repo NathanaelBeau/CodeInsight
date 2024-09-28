@@ -1,7 +1,5 @@
-import pandas as pd
-import numpy as np
-
-def test(df0, var0):
-    grouped = df0.groupby(var0)
-    result_df = grouped.size().to_frame(name='count')  
-    return result_df
+def test(var0):
+    reversed_str = str(var0)[::-1]
+    formatted_str = " ".join(reversed_str[i:i+3] for i in range(0, len(reversed_str), 3))
+    formatted_str = formatted_str[::-1].replace('.', ',')
+    return formatted_str

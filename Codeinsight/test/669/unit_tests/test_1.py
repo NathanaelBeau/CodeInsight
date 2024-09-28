@@ -1,6 +1,12 @@
-import pandas as pd 
-df0 = pd.DataFrame({'X': ['apple'], 'Y': ['banana'], 'Z': ['cherry']})
-var0 = 2
-expected_result =  pd.Series(['cherry'], name='Z')
-result = test(df0, var0)
-assert result.equals(expected_result), 'Test failed'
+import numpy
+import math
+import pandas
+import string
+import datetime
+import json
+import itertools
+import random
+import functools
+import collections
+result = test('azertyuiop')
+assert result == False, 'Test failed'

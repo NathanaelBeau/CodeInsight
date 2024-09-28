@@ -1,7 +1,5 @@
-import re
+def test(dict0):
+    if dict0['a'] is None:
+        dict0['a'] = 0
+    return dict0
 
-def test(var0, var1):
-    match = re.match(var1 + r'$', var0)
-    if match:
-        return [match.group()]
-    return []

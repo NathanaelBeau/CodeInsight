@@ -1,5 +1,5 @@
-var0 = 'country'
-var1 = 'log(country)'
-expected_output = pd.DataFrame({'var1': ['France', 'Germany', 'Italy']})
-df = pd.DataFrame({'var0': ['France', 'Germany', 'Italy']})
-assert test(df) .equals(expected_output), 'Test failed'
+lst0 = ['x', 'y', 'z']
+lst1 = [10, 20, 30]
+expected_result =  {'x': 10, 'y': 20, 'z': 30}
+result = test(lst0, lst1)
+assert result == expected_result, 'Test failed'

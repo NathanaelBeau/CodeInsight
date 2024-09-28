@@ -1,1 +1,1 @@
-Test if the strings in column column_name of DataFrame df0 contain any of the substrings in the list lst0.
+Select all columns from dataframe df0 except for column var0.

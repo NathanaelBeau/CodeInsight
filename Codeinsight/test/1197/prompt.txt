@@ -1,4 +1,5 @@
- split a list lst0 into evenly sized chunks of size  var0 with oneliner using list comprehension    
+Reshape the PyTorch tensor tensor0 to the dimensions specified by shape0  
 
-def test(lst0, var0):
+import torch
+def test(tensor0, shape0):
 

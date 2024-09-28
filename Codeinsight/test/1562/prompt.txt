@@ -1,6 +1,5 @@
-Retrieve True Negative (TN), False Positive (FP), False Negative (FN), and True Positive (TP) values for given true labels y_true and predicted labels y_pred.
+Get the number of items associated with key key0 in the dictionary dict0
 
-from sklearn.metrics import confusion_matrix
 
-def test(y_true, y_pred):
+def test(dict0, key0):
 

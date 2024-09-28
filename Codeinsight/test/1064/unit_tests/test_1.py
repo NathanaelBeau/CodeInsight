@@ -1,6 +1,4 @@
-# Test 3
-import os
-current_directory = os.getcwd()
-df0 = pd.DataFrame({"x": [10, 30, 50], "y": [20, 40, 60]})
-filename = current_directory+"/test3.csv"
-result = test(df0, filename)
+arr1 = np.array([[np.nan, 2, 3], [4, np.nan, 6], [7, 8, np.nan]])
+expected_result =  np.array([[5.5, 2, 3], [4, 5, 6], [7, 8, 4.5]])
+result = test(arr1)
+assert np.array_equal(result, expected_result), 'Test failed'

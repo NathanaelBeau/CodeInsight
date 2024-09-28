@@ -1,6 +1,5 @@
-var0 = "apple, banana, cherry, apple, banana"
-var1 = "banana"
-var2 = 2
-expected_result =  30
-result = test(var0, var1, var2)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame({ 'X': ['cat', 'cat', 'dog'], 'Y': [7, 8, 9], 'Z': ['m', 'n', 'o'] })
+var0 = 'X'
+expected_result2 = pd.DataFrame({ 'X': ['cat', 'dog'], 'Y': [7, 9], 'Z': ['m', 'o'] })
+result2 = test(df0, var0)
+assert result2.equals(expected_result2), 'Test failed'

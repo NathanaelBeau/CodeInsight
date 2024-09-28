@@ -1,3 +1,2 @@
-def test(dict0, dict1):
-    dict0.update(dict1)
-    return dict0
+def test(dict0, var0):
+    return var0 in list(dict0.values())

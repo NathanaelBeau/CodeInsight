@@ -1,6 +1,4 @@
-data = {'col1': ['Hello', 'World']}
-df0 = pd.DataFrame(data)
-var0 = 'col1'
-var1 = 'newCol'
-expected_output = pd.DataFrame({ 'col1': ['Hello', 'World'], 'newCol': ['Hello', 'World'] })
-assert test(df0, var0, var1) .equals(expected_output), 'Test failed'
+var0 = {'3': 'a', '1': 'b', '2': 'c'}
+expected_result =  {'1': 'b', '2': 'c', '3': 'a'}
+result = test(var0)
+assert result == expected_result, 'Test failed'

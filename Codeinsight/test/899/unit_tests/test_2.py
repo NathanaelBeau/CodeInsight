@@ -1,6 +1,7 @@
-# Test 3
-df0 = pd.DataFrame({'M': [10, 11, 12], 'N': [13, 14, 15], 'O': [16, 17, 18]})
-lst0 = ['M', 'O']
-expected_result =  pd.DataFrame({'M': [10, 11, 12], 'O': [16, 17, 18]})
-result = test(df0, lst0)
-assert result.equals(expected_result), 'Test failed'
+var0 = 'category'
+df0 = pd.DataFrame({ 'category': ['M', 'M', 'M'], 'values': [100, 200, 300] })
+expected_result =  [
+    pd.DataFrame({'category': ['M', 'M', 'M'], 'values': [100, 200, 300]}).reset_index(drop=True)
+]
+result = test(df0, var0)
+assert all([res.equals(exp_res) for res, exp_res in zip(result, expected_result)]), 'Test failed'

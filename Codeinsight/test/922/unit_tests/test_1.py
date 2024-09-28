@@ -1,3 +1,4 @@
-lst0 = ["python", "is", "a", "programming", "language"]
-expected_output = ["a", "is", "python", "language", "programming"]
-assert test(lst0) == expected_output, 'Test failed'
+dictA = {"d": "duck", "e": "duck goose duck", "f": "goose goose goose"}
+expected_output = ["e"]
+str0 ="duck"
+assert test(dictA, str0) == expected_output, 'Test failed'

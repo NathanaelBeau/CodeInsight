@@ -1,6 +1,6 @@
-Convert the pandas DataFrame df0 to a dictionary with an orientation of var0.
+Sort pandas data frame df0 using values from columns col0 and col1 in ascending order.
 
-import pandas as pd 
+import pandas as pd
 
-def test(df0, var0='dict'):
+def test(df0, col0, col1):
 

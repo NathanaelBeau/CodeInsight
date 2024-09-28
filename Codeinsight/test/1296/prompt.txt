@@ -1,6 +1,4 @@
-Delete all columns in DataFrame df0 that contain only zeros
+merge a list of dicts lst0 into a single dict  with reduce
 
-import pandas as pd
-
-def test(df0):
+def test(lst0):
 

@@ -1,4 +1,6 @@
-get key by value var0 in dictionary dict0 with same value in python using  dict.items()  
+ delete a column that contains only zeros in Pandas dataframe df0   
 
-def test(dict0, var0):
+import pandas as pd
+
+def test(df0):
 

@@ -1,3 +1,3 @@
-lst0 = [(1, 'a'), (1, 'b'), (1, 'c'), (1, 'd'), (1, 'e')]
-expected_output = {1: 5}
-assert test(lst0) ==expected_output, 'Test failed'
+dict0 = {'X': [10, 20], 'Y': [30, 40], 'Z': [50, 60]}
+expected_output = {'Z': 110, 'Y': 70, 'X': 30}
+assert test(dict0) == expected_output, 'Test failed'

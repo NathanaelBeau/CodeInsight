@@ -1,4 +1,3 @@
-dict0 = { 'New York City': 'NYC', 'San Francisco': 'SF', 'Los Angeles': 'LA', 'Chicago': 'CHI', 'Miami': 'MIA' }
-arg0 = 'new york'
-expected_output = ['NYC']
-assert test(dict0, arg0) ==expected_output, 'Test failed'
+string1 = "Hello**World***Python****!"
+expected_output1 = "Hello*World*Python*!"
+assert test(string1) == expected_output1, 'Test failed'

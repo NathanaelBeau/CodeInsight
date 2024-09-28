@@ -1,6 +1,4 @@
-var0 = "Hello,\nworld!\nThis is\na test."
-expected_result =  """Hello,
-world!
-This is a test."""
+var0 = pd.DataFrame({'Name': ['John', 'Jane', 'Mike'], 'Age': [30, 25, 40]})
+expected_result =  var0['Name']
 result = test(var0)
-assert result == expected_result, 'Test failed'
+assert result.equals(expected_result), 'Test failed'

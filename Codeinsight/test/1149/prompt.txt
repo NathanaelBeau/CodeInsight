@@ -1,7 +1,4 @@
-Select all columns except the ones in the list lst0 from a dataframe df0
+Filter elements in list lst0 based on the truth values present in the list of booleans lst1
 
-
-import pandas as pd
-
-def test(df0, lst0):
+def test(lst0, lst1):
 

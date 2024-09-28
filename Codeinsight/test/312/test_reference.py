@@ -1,3 +1,7 @@
 import numpy as np
-def test(mat0, val0):
-    return np.sum(mat0 < val0)
+
+def test(arr0):
+    column = arr0[:, 1]
+    diff = np.diff(column)
+    indices = np.where(diff)[0] + 1
+    return indices

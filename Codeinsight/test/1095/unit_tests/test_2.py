@@ -1,3 +1,5 @@
-dict0 = {0: 'a', 1: 'b', 5: 'c', 6: 'd'}
-expected_output = {}
-assert test(dict0) ==expected_output, 'Test failed'
+var0 = 81
+var1 = 3
+expected_result =  4.0
+result = test(var0, var1)
+assert result == expected_result, 'Test failed'

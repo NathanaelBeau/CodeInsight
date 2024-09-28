@@ -1,1 +1,1 @@
-Drop rows specified in the list lst0 from the pandas DataFrame df0.
+Extract all the values from the key 'values' in a list of dictionaries lst0.

@@ -1,4 +1,3 @@
-lst0 = ["apple", "banana orange"]
-expected_result =  [["apple"], ["banana", "orange"]]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+str0 = "Python is awesome"
+expected_output = ["Python", "is", "awesome"]
+assert test(str0) ==expected_output, 'Test failed'

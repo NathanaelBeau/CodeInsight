@@ -1,4 +1,6 @@
-var0 = pd.DataFrame({'A': [7, 8, 9]})
-expected_result =  pd.DataFrame({'A': [7, 8, 9], 'B': [49, 64, 81], 'C': [343, 512, 729]})
-result = test(var0)
-assert result.equals(expected_result), 'Test failed'
+# Unit Test 3 for Excluding
+df0 = pd.DataFrame({ 'P': [19, 20, 21], 'Q': [22, 23, 24], 'R': [25, 26, 27] })
+lst0 = ['Q']
+expected_result_exclude_3 = pd.DataFrame({'P': [19, 20, 21], 'R': [25, 26, 27]})
+result_exclude_3 = test(df0, lst0)
+assert result_exclude_3.equals(expected_result_exclude_3), 'Test failed'

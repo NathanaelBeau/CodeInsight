@@ -1,1 +1,1 @@
-convert binary string str0 to numpy array   
+Merging items in a list lst0 - Python   

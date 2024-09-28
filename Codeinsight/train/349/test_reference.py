@@ -1,2 +1,7 @@
-def test(lst0):
-    return [i for i, t in enumerate(lst0) if t[0] == 53]
+import numpy as np
+import pandas as pd
+
+def test(df0):
+    return np.ravel(df0.to_numpy())
+
+

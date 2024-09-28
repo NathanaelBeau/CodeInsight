@@ -1,3 +1,3 @@
 import numpy as np
-def test(arr0):
-    return np.sum(np.isnan(arr0)) > 0
+def test(lst0, lst1):
+    return np.concatenate((lst0, lst1))

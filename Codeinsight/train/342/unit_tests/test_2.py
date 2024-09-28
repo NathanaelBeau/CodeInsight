@@ -1,4 +1,4 @@
-str0 = "Another example with more than 100 characters: abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
-expected_result =  "Another example with more than 100 characters: abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyza"
-result = test(str0)
-assert result == expected_result, 'Test failed'
+str0 = 'a'
+str1 = 'ban'
+expected_output = [1]
+assert test(str0, str1) == expected_output, 'Test failed'

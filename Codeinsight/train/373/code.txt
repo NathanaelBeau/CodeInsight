@@ -1,4 +1,5 @@
-import numpy as np
-
-def test(arr0, val0):
-    return np.delete(arr0, np.where(arr0 == val0))
+def test(str0):
+    word_list = []
+    for i in range(len(str0)):
+        word_list.append(str0[i])
+    return word_list

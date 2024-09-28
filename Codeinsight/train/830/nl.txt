@@ -1,2 +1,1 @@
-Get the shape (number of rows and columns) of a dataframe df0
-
+Find the first index of the value var0 in the numpy array arr0

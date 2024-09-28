@@ -1,4 +1,4 @@
-var0 = {'A': 1, 'B': 2}
-expected_result =  [(1, 'A'), (2, 'B')]
-result = test(var0)
-assert result == expected_result, 'Test failed'
+s0 = pd.Series([100, 200, 300], index=['alpha', 'beta', 'gamma'])
+s1 = pd.Series([], index=[], dtype='float64')
+expected_result =  pd.Series([100, 200, 300], index=['alpha', 'beta', 'gamma'])
+assert test(s0, s1).equals(expected_result), 'Test failed'

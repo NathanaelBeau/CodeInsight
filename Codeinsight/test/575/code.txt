@@ -1,4 +1,3 @@
-import re
-
-def test(var0):
-    return re.findall(r'\S+', var0)
+import numpy as np
+def test(lst0):
+    return np.concatenate(lst0)

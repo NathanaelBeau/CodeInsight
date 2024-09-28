@@ -1,4 +1,4 @@
-Get all items from a list lst0 that contain the substring 'abc'
+Check if all elements in a list lst0 are the same   
 
 def test(lst0):
 

@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(arr0, arr1):
-    return np.equal(arr0, arr1)
+def test(lst0):
+    return [[x, y] for (x, y) in lst0]

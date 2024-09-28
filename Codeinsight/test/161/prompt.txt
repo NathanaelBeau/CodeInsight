@@ -1,4 +1,4 @@
-Get a list of booleans indicating if the elements at corresponding positions in lists lst0 and lst1 are equal.
+Fastest way to remove all multiple occurrence items from a list lst0 preserving order   
 
-def test(lst0, lst1):
+def test(lst0):
 

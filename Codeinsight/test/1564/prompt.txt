@@ -1,6 +1,4 @@
-Obtain the indices that would sort the numpy array arr0 in descending order.
+Sort without reindexing a data frame df0 by its year column, then by its month column, then by its day column 
 
-import numpy as np
-
-def test(arr0):
+def test(df0):
 

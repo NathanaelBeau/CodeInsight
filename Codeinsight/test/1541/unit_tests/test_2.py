@@ -1,5 +1,7 @@
-str0 = "3:6"
-lst0 = [True, 1, "apple", 3.14, "banana", 42, None]
-expected_result3 = [3.14, "banana", 42]
-result3 = test(str0, lst0)
-assert test(str0, lst0) ==expected_result3, 'Test failed'
+lst0 = [range(10, 15), range(10, 15), range(10, 15)]
+expected_output = [(10, 10, 10),
+ (11, 11, 11),
+ (12, 12, 12),
+ (13, 13, 13),
+ (14, 14, 14)]
+assert test(lst0) == expected_output, 'Test failed'

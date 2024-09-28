@@ -1,1 +1,2 @@
- check if any value of a column var0 is in a range (in between two values var1 and var2) in Pandas dataframe df0 with between  
+Sort a list lst0 in python based on another sorted list lst1 
+better performance (particularly when len(lst1) is large)

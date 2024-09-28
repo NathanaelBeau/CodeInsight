@@ -1,1 +1,0 @@
-Rearrange elements in position var0 from a list of tuples lst0   

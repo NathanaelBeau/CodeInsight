@@ -1,5 +1,4 @@
-var0 = "It was the best of times, it was the worst of times."
-lst0 = ['a', 'an', 'and', 'is', 'the', 'to', 'in', 'of', 'it', 'was']
-expected_result =  "best times, worst times."
-result = test(var0, lst0)
-assert result == expected_result, 'Test failed'
+arr0 = np.array([0.12345, 0.67890, 9.87654])
+var0 = 2
+expected_output = ['0.12', '0.68', '9.88']
+assert (test(arr0, var0)  ==  expected_output).all(), 'Test failed'

@@ -1,1 +1,1 @@
-Replace the single quote (') character from a string str0   
+Determine if numbers var0 and var1 are nearly equal when rounded to var2 significant decimal digits 

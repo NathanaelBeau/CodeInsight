@@ -1,4 +1,4 @@
-arr0 = np.array([1, 2, 0, 3, 0, 4])
-expected_result =  (np.array([2, 4]),)
-result = test(arr0)
-assert np.array_equal(result[0], expected_result[0]), 'Test failed'
+dict0 = { 'A': {'X': 1, 'Y': 2}, 'B': {'X': 3, 'Y': 4} }
+expected_result =  pd.DataFrame({ 'A': {'X': 1, 'Y': 2}, 'B': {'X': 3, 'Y': 4} })
+result = test(dict0)
+assert result.equals(expected_result), 'Test failed'

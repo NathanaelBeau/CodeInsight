@@ -1,6 +1,2 @@
-import operator
-
-def test(var0):
-	return sorted(var0.items(), key=operator.itemgetter(1))
-
-
+def test(lst0):
+    return [dict(t) for t in {tuple(d.items()) for d in lst0}]

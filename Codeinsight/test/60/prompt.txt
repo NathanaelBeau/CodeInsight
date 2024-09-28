@@ -1,4 +1,6 @@
-Transform a list of dictionaries lst0 into a dictionary of dictionaries using the 'key' value from each dictionary as the key for the resulting dictionary
+Python - Insert numbers in string str0 between quotes   
 
-def test(lst0):
+import re
+
+def test(str0):
 

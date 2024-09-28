@@ -1,1 +1,1 @@
-Rename specific column(s) var0 by var1 in pandas  dataframe df
+Return tuples where the second element is equal to 1 in a list lst0 of tuples

@@ -1,1 +1,1 @@
-Create a pandas data frame from a list of nested dictionaries lst0.
+Functional statement in Python to return the sum of  lists in a list of lists  lst0

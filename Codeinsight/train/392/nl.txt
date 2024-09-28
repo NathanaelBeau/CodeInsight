@@ -1,1 +1,1 @@
-Retrieve the attribute x from an object obj.
+Get all elements from a numpy array lst0 excluding the element at index 3

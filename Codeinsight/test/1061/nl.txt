@@ -1,1 +1,1 @@
-Reverse the string s.
+Python split string str0 on any regex  var0

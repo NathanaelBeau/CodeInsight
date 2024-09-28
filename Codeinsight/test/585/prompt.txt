@@ -1,6 +1,6 @@
-Python: Fetch first 10 results from a list   lst0
+Find all matches of regular expression pattern pattern in string str0 and return their start and end positions along with the matched value.
 
-from itertools import islice
+import re
 
-def test(lst0):
+def test(str0: str, pattern: str) -> list:
 

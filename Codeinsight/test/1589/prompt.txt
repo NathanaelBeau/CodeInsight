@@ -1,4 +1,4 @@
-Extract sub-lists from a list lst0 where the third element is the string '0'.
+Find Max in Nested Dictionary dict0
 
-def test(lst0):
+def test(dict0):
 

@@ -1,6 +1,4 @@
-df = pd.DataFrame({ 'Name': ['Alice', 'Bob'], 'Age': [25, 30] })
-expected_output = [
-    {'Name': ['Alice', 'Bob']},
-    {'Age': [25, 30]}
-]
-assert test(df) == expected_output, 'Test failed'
+lst0 = ["cherry", "watermelon", 100, 200, 300]
+expected_result =  ["cherry", "watermelon"]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

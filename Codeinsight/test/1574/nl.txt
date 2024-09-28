@@ -1,1 +1,1 @@
- accumulate an array var0 by index in numpy?   
+Retrieve all unique keys from a dictionary named dict0

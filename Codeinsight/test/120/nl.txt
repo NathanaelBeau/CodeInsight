@@ -1,1 +1,1 @@
-Extract specific columns lst0 from a numpy array matrix0.
+Get the minimum and maximum dates from a dataframe column 'Date' in df0. 

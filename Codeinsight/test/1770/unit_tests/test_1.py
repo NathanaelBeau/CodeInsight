@@ -1,6 +1,4 @@
-df0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry'], 'B': ['dog', 'cat', 'elephant']})
-lst0 = ['elephant', 'dog', 'cat']
-var0 = 'B'
-expected_result_2 = pd.DataFrame({'A': ['cherry', 'apple', 'banana'], 'B': ['elephant', 'dog', 'cat']}).reset_index(drop=True)
-result_2 = test(df0, lst0, var0).reset_index(drop=True)
-assert result_2.equals(expected_result_2), 'Test failed'
+df2 = pd.DataFrame({'ID': [101, 102], 'Score1': [85, 90], 'Score2': [88, 92]})
+expected_result2 = pd.DataFrame({101: [85, 88], 102: [90, 92]}, index=['Score1', 'Score2'])
+result2 = test(df2, 'ID')
+assert result2.equals(expected_result2), 'Test failed'

@@ -1,5 +1,2 @@
-import re
-
-def test(str0):
-    p = re.compile(r'((?:Friday|Saturday)\s*\d{1,2})')
-    return re.split(p, str0)
+def test(dict0, lst0):
+    return {k: dict0.get(k) for k in lst0 if k in dict0}

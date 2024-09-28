@@ -1,1 +1,1 @@
-Normalize the NumPy array arr0 to form a unit vector. 
+Get the row count of a DataFrame df0.

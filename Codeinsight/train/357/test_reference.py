@@ -1,2 +1,5 @@
-def test(lst0):
-    return [i for i, x in enumerate(lst0) if x != 0]
+import pandas as pd
+
+def test(df0, var0, var1):
+    df0[var1] = df0[var0].apply(''.join)
+    return df0

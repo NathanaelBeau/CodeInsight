@@ -1,3 +1,8 @@
-var0 = ["3", "2", "1"]
-expected_output = [3, 2, 1]
-assert test(var0) ==expected_output, 'Test failed'
+# Test 3
+import pandas as pd
+df0 = pd.DataFrame({'A': [1.1, 2.2, 3.3, 4.4, 5.5], 'B': ['a', 'b', 'c', 'd', 'e']})
+col_name = 'A'
+lst0 = [1.1, 3.3, 5.5]
+expected_result =  pd.DataFrame({'A': [1.1, 3.3, 5.5], 'B': ['a', 'c', 'e']})
+result = test(df0, col_name, lst0).reset_index(drop=True)
+assert result.equals(expected_result), 'Test failed'

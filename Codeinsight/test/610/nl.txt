@@ -1,1 +1,1 @@
-Create a pandas DataFrame df0 from a Numpy array arr0, using lst0 for the index and lst1 for column headers.
+For every element in numpy array arr0, find the index of that element in another numpy array arr1  

@@ -1,4 +1,5 @@
-import numpy as np
 
-def test(arr0):
-    return np.sum(np.arange(len(arr0)) * arr0) / np.sum(arr0)
+import pandas as pd
+
+def test(df0, col_name1, col_name2):
+    return dict(zip(df0[col_name1], df0[col_name2]))

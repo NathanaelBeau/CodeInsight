@@ -1,1 +1,1 @@
-Retrieve the first and last element from the numpy array arr0  
+Replace text 'old_text' with 'new_text' in a string column named 'str0' of a Pandas dataframe 'df0'.

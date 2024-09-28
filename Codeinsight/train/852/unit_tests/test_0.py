@@ -1,4 +1,7 @@
-var0 = pd.DataFrame({'Date': ['2022-01-01', '2022-01-10', '2022-01-15']})
-expected_result =  pd.Series(['2022-01-01', '2022-01-15'], index=['min', 'max'])
-result = test(var0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [
+    [1, 2, 3],
+    ['a', 'b'],
+    [10.0, 20.0]
+]
+expected_output = [('1', 'a', '10.0'), ('1', 'b', '10.0'), ('2', 'a', '10.0'), ('2', 'b', '10.0'), ('3', 'a', '10.0'), ('3', 'b', '10.0'), ('1', 'a', '20.0'), ('1', 'b', '20.0'), ('2', 'a', '20.0'), ('2', 'b', '20.0'), ('3', 'a', '20.0'), ('3', 'b', '20.0')]
+assert test(lst0) ==expected_output, 'Test failed'

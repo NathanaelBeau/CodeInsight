@@ -1,3 +1,4 @@
-str0 = '10.0'
-expected_output = 10
-assert test(str0) ==expected_output, 'Test failed'
+str0 = "Python\\tis\\tawesome!"
+expected_result =  "Python\tis\tawesome!"
+result = test(str0)
+assert result == expected_result, 'Test failed'

@@ -1,4 +1,5 @@
-import pandas as pd
+import numpy as np
 
-def test(df0, str0, var0):
-    return df0.set_index(str0).rolling(var0).mean().reset_index()
+def test(arr0, var0):
+    arr0[arr0 > var0] = var0
+    return arr0

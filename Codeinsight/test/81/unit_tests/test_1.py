@@ -1,4 +1,4 @@
-var0 = "apple banana apple orange banana grape"
-expected_result =  ['apple', 'banana']
-result = test(var0)
-assert result == expected_result, 'Test failed'
+var0 = ['a', 'b', 'c', 'd']
+var1 = 'default'
+expected_output = {'a': 'default', 'b': 'default', 'c': 'default', 'd': 'default'}
+assert test(var0, var1) == expected_output, 'Test failed'

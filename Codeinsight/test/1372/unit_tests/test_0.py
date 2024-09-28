@@ -1,4 +1,6 @@
-df0 = pd.DataFrame({'var0': [['a', 'b'], ['b'], ['a', 'c']]})
-expected_result =  pd.DataFrame({'a': [1, 0, 1], 'b': [1, 1, 0], 'c': [0, 0, 1]})
-result = test(df0)
+df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [1, 2, 2]})
+var0 = 'A'
+var1 = 'B'
+expected_result =  pd.Series([True, True, False])
+result = test(df0, var0, var1)
 assert result.equals(expected_result), 'Test failed'

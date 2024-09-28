@@ -1,2 +1,4 @@
-def test(df0):
-    return df0.query('Value == True')
+def test(lst0):
+    C = lst0[0].split(",")[1:-1]
+    C1 = [float(i) for i in C if i.strip()]
+    return C1

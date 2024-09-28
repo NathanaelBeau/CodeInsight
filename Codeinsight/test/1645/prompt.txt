@@ -1,5 +1,4 @@
-Replace values old_val0 with new_val0 in the numpy array arr0   
+How to sort a list lst0  with lambda in Python   
 
-import numpy as np
-def test(arr0, old_val0, new_val0):
+def test(lst0):
 

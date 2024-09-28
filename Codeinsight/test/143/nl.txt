@@ -1,1 +1,1 @@
-Concatenate two one-dimensional NumPy arrays arr0 and arr1.
+check if any value is NaN in a Pandas DataFrame  df0 

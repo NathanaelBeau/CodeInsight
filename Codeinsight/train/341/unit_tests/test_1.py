@@ -1,5 +1,3 @@
-lst0 = [4, 5, 6]
-lst1 = [0, 2, 1]
-expected_result =  [4, 6, 5]
-result = test(lst0, lst1)
-assert result == expected_result, 'Test failed'
+lst0 = [4, 5]
+expected_output = 41  # 4^2 + 5^2 = 41
+assert test(lst0) == expected_output, 'Test failed'

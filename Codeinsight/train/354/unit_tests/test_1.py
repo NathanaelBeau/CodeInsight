@@ -1,4 +1,3 @@
-lst0 = [[], [1], [1, 2]]
-expected_result =  [[2, 1], [1], []]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+str0 = "Another example\u200b\u200b\u200b with multiple \u200bzero width spaces\u200b."
+expected_output = "Another example*** with multiple *zero width spaces*."
+assert test(str0) ==expected_output, 'Test failed'

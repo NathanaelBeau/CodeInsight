@@ -1,14 +1,7 @@
-import re
+from collections import defaultdict
 
-def test(var0):
-    numbers = []
-    num = ""
-    for char in var0:
-        if char.isdigit():
-            num += char
-        elif num:
-            numbers.append(num)
-            num = ""
-    if num:
-        numbers.append(num)
-    return numbers
+def test(lst0):
+    fq = defaultdict(list)
+    for n, v in lst0:
+        fq[n].append(v)
+    return fq

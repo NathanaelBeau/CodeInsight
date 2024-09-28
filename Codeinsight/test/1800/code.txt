@@ -1,4 +1,3 @@
-import pandas as pd
-
-def test(df0, lst0):
-    return df0.drop(lst0, axis=1)
+import numpy as np
+def test(arr0):
+    return np.where(np.isnan(arr0))

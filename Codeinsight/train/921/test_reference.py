@@ -1,4 +1,5 @@
 import re
 
-def test(str0):
-    return re.sub(r'\s+', '', str0)
+def test(var0):
+    pattern = r',(?=(?:[^"]*"[^"]*")*[^"]*$)'
+    return re.split(pattern, var0)

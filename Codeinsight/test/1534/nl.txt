@@ -1,1 +1,1 @@
-Calculate the average of every three columns in the dataframe df0.
+Sorting list lst0 based on values from another list lst1  

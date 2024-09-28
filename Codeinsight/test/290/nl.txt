@@ -1,1 +1,1 @@
-Join three dataframes df0, df1, and df2 on a common column col_name.
+add a string prefix var0 to each value in a string column col0 using Pandas in pandas dataframe df0  

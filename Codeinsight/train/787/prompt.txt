@@ -1,4 +1,4 @@
-Split each string in a list named lst0 on the tab character.
+Compute the total sum of all elements in a two-dimensional list lst0.
 
-def test(lst0):
+def test(lst0: list) -> int:
 

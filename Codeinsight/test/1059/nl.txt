@@ -1,1 +1,1 @@
-Convert the comma-separated string var0 into a list of integers.
+Divide values in multiple columns specified by columns_list0 of a dataframe df0 by the values in column column_name0.

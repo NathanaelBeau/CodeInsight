@@ -1,1 +1,1 @@
-get the name of the rows from the index of a data frame df0   
+Remove NaN/NULL columns in a Pandas dataframe df0  

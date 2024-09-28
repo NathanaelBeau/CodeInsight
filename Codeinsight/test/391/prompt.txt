@@ -1,6 +1,6 @@
-Convert the values in column 'a' of the pandas dataframe df into a list.
+Get the indices of all occurrences of the element var0 in the NumPy array arr0
 
-import pandas as pd
+import numpy as np
 
-def test(df: pd.DataFrame) -> list:
+def test(arr0, var0):
 

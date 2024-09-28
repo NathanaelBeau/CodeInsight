@@ -1,4 +1,6 @@
 import pandas as pd
+import numpy as np
 
-def test(df0):
-    return (df0 - df0.min()) / (df0.max() - df0.min())
+def test(df0, var0):
+    df0[var0] = df0.index
+    return df0

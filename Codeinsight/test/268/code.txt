@@ -1,2 +1,7 @@
-def test(str0):
-    return [word for word in str0.split() if word[0].isupper()]
+from itertools import groupby
+
+def test(lst0):
+    result = []
+    for _, group in groupby(lst0):
+        result.extend([list(group)])
+    return result

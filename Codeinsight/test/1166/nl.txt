@@ -1,1 +1,1 @@
-Number rows within a dataframe df0 based on a group var0 in increasing orde  
+count the number of a specific character var0 at the end of a string str0 ignoring duplicates   

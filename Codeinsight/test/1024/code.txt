@@ -1,4 +1,2 @@
-from functools import reduce
-
-def test(lst0):
-    return [reduce(lambda x, y: x + y, i) for i in lst0]
+def test(lst0, var0):
+    return [{k: v for k, v in d.items() if k != var0} for d in lst0]

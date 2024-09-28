@@ -1,7 +1,4 @@
-Removing nan values from an array or list  arr0 with math.isnan
+ check whether elements appears in the list lst0 only once in python   
 
-import math
-import numpy as np
-
-def test(arr0):
+def test(lst0):
 

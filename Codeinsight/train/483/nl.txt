@@ -1,1 +1,1 @@
-Test if the strings in column column_name of DataFrame df0 contain any of the substrings in the list lst0.
+Return a list containing unique sublists from the list of lists lst0.

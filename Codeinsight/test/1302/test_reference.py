@@ -1,2 +1,2 @@
-def test(lst0, var0):
-    return [item[var0] for item in lst0]
+def test(var0, var1):
+	return pandas.concat([var0, var1], axis=1)

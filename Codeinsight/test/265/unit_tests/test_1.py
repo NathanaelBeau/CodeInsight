@@ -1,5 +1,6 @@
-# Test 2
-lst0 = [np.array([7]), np.array([8, 9]), np.array([])]
-expected_result =  np.array([7, 8, 9])
-result = test(lst0)
-assert np.array_equal(result, expected_result), 'Test failed'
+df0 = pd.DataFrame({'C': ['M', 'M', 'N'], 'D': [5, 5, 6]})
+var0 = 'C'
+var1 = 'D'
+expected_result =  pd.Series(data=[10, 6], index=['M', 'N'])
+result = test(df0, var0, var1)
+assert result.equals(expected_result), 'Test failed'

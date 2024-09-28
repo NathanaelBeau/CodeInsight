@@ -1,3 +1,4 @@
-s2 = "Split Here!  And Here."
-expected_output2 = ['Split', ' ', 'Here!', '  ', 'And', ' ', 'Here.']
-assert test(s2) == expected_output2, 'Test failed'
+var0 = pd.DataFrame({'X': [5, 6, 7], 'Y': [8, 9, 10]}, index=['red', 'green', 'blue'])
+expected_result =  ['red', 'green', 'blue']
+result = test(var0)
+assert result == expected_result, 'Test failed'

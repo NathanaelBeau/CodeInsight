@@ -1,6 +1,6 @@
-Sort each row in a pandas data frame var0 in descending order
+Find the starting indices of all occurrences of the regex pattern pattern in string str0.
 
-import pandas as pd
+import re
 
-def test(var0):
+def test(str0: str, pattern: str) -> list:
 

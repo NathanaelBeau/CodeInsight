@@ -1,4 +1,6 @@
-Check if all elements from tuple tuple0 are present in tuple tuple1
+Count the number of non-NaN elements in the numpy ndarray matrix data.
 
-def test(tuple0, tuple1):
+import numpy as np
+
+def test(data: np.ndarray) -> int:
 

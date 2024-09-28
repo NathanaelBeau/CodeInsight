@@ -1,5 +1,4 @@
-Create an empty matrix of shape (var0, var1) using NumPy 
+How to convert a hex string  str0 to hex number   
 
-import numpy as np
-def test(var0, var1):
+def test(str0):
 

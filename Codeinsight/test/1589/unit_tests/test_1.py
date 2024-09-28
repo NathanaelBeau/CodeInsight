@@ -1,3 +1,3 @@
-lst0 = [['a', 'b', '1'], ['d', 'e', 'f'], ['g', 'h', 'i']]
-expected_result2 = []
-assert test(lst0) == expected_result2, 'Test failed'
+dict0 = { 'a': {'count': 5}, 'b': {'count': 3}, 'c': {'count': 7} }
+expected_output = 'c'
+assert test(dict0) ==expected_output, 'Test failed'

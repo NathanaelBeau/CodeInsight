@@ -1,1 +1,1 @@
-Delete the 1st, 2nd, and 4th columns from dataframe df0.
+Extract the last segment of a dot-notation string str0

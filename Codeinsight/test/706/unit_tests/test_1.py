@@ -1,4 +1,4 @@
-str0 = "x+y+z"
-var0= ",+"
-expected_output = "x+y,+z"
-assert test(str0, var0) ==expected_output, 'Test failed'
+# Test 3
+var0 = "hello"
+expected_result =  "104101108108111"
+assert test(var0) == expected_result, 'Test failed'

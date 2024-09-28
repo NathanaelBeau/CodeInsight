@@ -1,3 +1,4 @@
-lst0 = [['x', 'y', 'z'], ['m', 'n']]
-expected_output = [('x', 'm'), ('x', 'n'), ('y', 'm'), ('y', 'n'), ('z', 'm'), ('z', 'n')]
-assert expected_output == list(itertools.product(*lst0)), 'Test failed'
+a = [1, 2, 3, 4]
+b = [1, 2, 3, 4]
+expected_output = [1, 1, 1, 1]
+assert test(a, b) == expected_output, 'Test failed'

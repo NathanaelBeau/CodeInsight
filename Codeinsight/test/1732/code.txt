@@ -1,5 +1,6 @@
-import pandas as pd
+def test(arr0, arr1):
+    for i in arr1:
+        if i in arr0:
+            arr0.remove(i)
+    return arr0
 
-
-def test(df0, var0):
-    return var0 in df0.columns

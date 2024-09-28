@@ -1,6 +1,4 @@
-# Test 3
-arr0 = np.array([10, 20, 30, 40])
-dict0 = {10: 'A', 20: 'B', 30: 'C'}
-expected_result =  np.array(['A', 'B', 'C', np.nan])
-result = test(arr0, dict0)
+arr2 = np.array([(11.0,), (12.0,)], dtype=[('c', np.float64)])
+expected_result =  np.array([[11.0], [12.0]])
+result = test(arr2)
 assert np.array_equal(result, expected_result), 'Test failed'

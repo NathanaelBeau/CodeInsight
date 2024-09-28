@@ -1,6 +1,0 @@
-From the list lst0, remove any element containing characters that match the pattern var0.
-
-import re
-
-def test(lst0, var0):
-

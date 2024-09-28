@@ -1,6 +1,6 @@
-Remove NaN values from a numpy array arr0.
+Merge two dataframes, df0 and df1, based on their indices.  
 
-import numpy as np
+import pandas as pd
 
-def test(arr0):
+def test(df0, df1):
 

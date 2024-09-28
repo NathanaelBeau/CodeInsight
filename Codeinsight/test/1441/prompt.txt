@@ -1,4 +1,4 @@
-Python : how to append new elements var0 in a list of list lst0?   
+Pair each element from list lst0 with its subsequent element, creating key-value pairs for a dictionary.
 
-def test(lst0, var0):
+def test(lst0):
 

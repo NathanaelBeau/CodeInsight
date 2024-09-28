@@ -1,5 +1,5 @@
-df0 = pd.DataFrame({'A': [5, 6, 3, 4], 'B': [1, 2, 3, 5]})
-lst0 = [5, 4]
-var0 = "A"
-expected_output = pd.DataFrame({'A': [5, 4], 'B': [1, 5]}, index=[0, 3])
-assert test(df0, lst0, var0).equals(expected_output), 'Test failed'
+df0 = pd.DataFrame({'apple': [1, 2, 3], 'banana': [4, 5, 6], 'cherry': [7, 8, 9]})
+str0 = 'a$'
+expected_result =  pd.DataFrame({'banana': [4, 5, 6]})
+result = test(df0, str0)
+assert result.equals(expected_result), 'Test failed'

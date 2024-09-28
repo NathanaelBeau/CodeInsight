@@ -1,4 +1,4 @@
-Dictionary to lowercase in Python  in dictionary dict0 with generator expression 
+Subtract each element of lst1 from the corresponding element of lst0.
 
-def test(dict0):
+def test(lst0, lst1):
 

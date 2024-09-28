@@ -1,3 +1,4 @@
-arg = [('2', '3'), ('4', '5')]
-expected_output = []
-assert test(arg) == expected_output, 'Test failed'
+lst0 = ['a', 'b', 'c']
+lst1 = ['x', 'y', 'z']
+expected_output = ['x', 'y', 'z', 'a', 'b', 'c']
+assert test(lst0, lst1) ==expected_output, 'Test failed'

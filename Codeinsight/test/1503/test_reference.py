@@ -1,2 +1,3 @@
-def test(str0, var0):
-    return str0[:str0.rfind(var0)]
+import ast
+def test(str0):
+    return [ast.literal_eval(x) for x in str0.split(',')]

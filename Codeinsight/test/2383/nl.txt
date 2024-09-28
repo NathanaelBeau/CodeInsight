@@ -1,1 +1,0 @@
-Check if the array row0 is present as any row in the array arr0, returning True if found and False otherwise.

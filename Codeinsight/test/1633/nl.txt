@@ -1,1 +1,1 @@
- remove all zero elements from a NumPy array arr0  with np.where 
+Create a matrix with var0 columns and var1 rows all set to 0

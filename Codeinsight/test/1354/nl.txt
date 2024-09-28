@@ -1,1 +1,1 @@
-Sort rows of matrix arr0 in ascending order based on all column values.
+Remove substring var1 from string var0

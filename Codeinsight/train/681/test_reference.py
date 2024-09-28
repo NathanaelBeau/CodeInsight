@@ -1,2 +1,2 @@
-def test(lst0, var0):
-    return sorted(lst0, key=lambda item: item[var0])
+def test(lst0):
+    return sum(map(lambda x: x[1], lst0))

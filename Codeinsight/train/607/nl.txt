@@ -1,1 +1,1 @@
- check whether elements appears in the list lst0 only once in python   
+Convert the numpy array of strings arr0 to an array of floats

@@ -1,3 +1,3 @@
-import pandas as pd
-def test(df0, var0, var1, var2):
-    return df0[var0].between(var1, var2)
+def test(lst0, lst1):
+    order = {item: i for i, item in enumerate(lst1)}
+    return sorted(lst0, key=lambda x: order.get(x, float('inf')))

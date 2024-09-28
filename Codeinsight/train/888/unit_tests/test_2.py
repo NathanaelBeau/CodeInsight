@@ -1,5 +1,9 @@
-arr0 = np.array([45, 78, 12, 67, 89, 23])
-var0 = 4
-expected_result =  np.array([2, 5, 0, 3])
-result = test(arr0, var0)
-assert np.array_equal(result, expected_result), 'Test failed'
+arr0 = np.array([[5, 10, 15, 20],
+                   [25, 30, 35, 40],
+                   [45, 50, 55, 60],
+                   [65, 70, 75, 80]])
+expected_output = np.array([[5, 10, 15, 20],
+                              [25, 30, 35, 40],
+                              [45, 50, 55, 60],
+                              [65, 70, 75, 80]])
+assert (test(arr0)  == expected_output).all(), 'Test failed'

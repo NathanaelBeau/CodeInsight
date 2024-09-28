@@ -1,6 +1,4 @@
-Split strings in tuples into columns var0, in Pandas  dataframe df0 
+Subtract the mean of each row in dataframe df0 from its corresponding elements.
 
-import pandas as pd
-
-def test(df0, var0):
+def test(df0):
 

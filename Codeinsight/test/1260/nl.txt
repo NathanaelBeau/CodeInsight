@@ -1,1 +1,1 @@
-Sorting a list lst1 in Python using the result from sorting another list   lst0
+Assign a number to each unique value in a list lst0 based on the order of appearance of the values

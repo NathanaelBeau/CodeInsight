@@ -1,6 +1,4 @@
-Create a cartesian product of two dataframes, df0 and 
-df1
+Create a list containing the indices of elements in lst0 that are greater than 4.
 
-import pandas as pd
-def test(df0, df1):
+def test(lst0):
 

@@ -1,2 +1,2 @@
-def test(str0):
-    return str0.split('.')[-1]
+def test(dict0):
+    return sum(dict0.values())

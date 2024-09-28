@@ -1,7 +1,6 @@
-Check if the string var0 matches the pattern 'lol' followed by one or more 'l' characters.
+Return the column names containing a specific value var0 in a pandas dataframe df0
 
+import pandas as pd
 
-import re
-
-def test(var0):
+def test(df0, var0):
 

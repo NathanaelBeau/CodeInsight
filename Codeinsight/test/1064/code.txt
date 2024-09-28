@@ -1,5 +1,4 @@
-import pandas as pd
-
-def test(df0, filename):
-    df0.to_csv(filename, index=False)
-    return f"DataFrame saved to {filename}"
+import numpy as np
+def test(arr0):
+    means = np.nanmean(arr0, axis=0)
+    return np.where(np.isnan(arr0), means, arr0)

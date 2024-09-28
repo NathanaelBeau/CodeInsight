@@ -1,4 +1,6 @@
-Get the first var0 elements from list lst0 that are not contained in list lst1.
+Filter DataFrame df0 to keep only the groups defined by str0 that have more than one row, and return the result with the index reset.
 
-def test(lst0, lst1, var0):
+import pandas as pd
+
+def test(df0, str0):
 

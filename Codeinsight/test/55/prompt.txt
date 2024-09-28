@@ -1,4 +1,6 @@
-how to change list of int lst0 [1,2,3,4] to '1234' using python   
+Generating all unique pair permutations from a list lst0 
+
+from itertools import permutations
 
 def test(lst0):
 

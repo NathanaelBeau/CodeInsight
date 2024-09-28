@@ -1,1 +1,1 @@
-How to add a column to a multi-indexed DataFrame df0?   
+Remove rows from dataframe df0 where column var0 has the value var1 resetting the index.

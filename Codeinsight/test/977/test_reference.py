@@ -1,5 +1,5 @@
-def test(lst0, var0, var1):
-    result = []
-    for i in range(var0, var1):
-        result.append(lst0[i])
-    return result
+import pandas as pd
+import numpy as np
+
+def test(df0):
+    return df0.clip(lower=0)

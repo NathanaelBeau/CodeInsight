@@ -1,3 +1,4 @@
-s1 = "Hello_world-123"
-expected_output1 = True
-assert test(s1) == expected_output1, 'Test failed'
+arr0 = np.array([[1, 1], [2, 3], [1, 1], [5, 6]])
+expected_result =  np.array([[1, 1], [2, 3], [5, 6]])
+result = test(arr0)
+assert np.array_equal(result, expected_result), 'Test failed'

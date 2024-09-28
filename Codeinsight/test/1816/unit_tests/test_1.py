@@ -1,4 +1,3 @@
-lst0 = [(1, 2), (3, 4), (5, 6)]
-expected_result =  [1, 3, 5]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+a = np.array([26, 27, 28, 99, 101])
+expected_output = 4  # All values except 101 are between 25 and 100
+assert test(a,25,100) == expected_output, 'Test failed'

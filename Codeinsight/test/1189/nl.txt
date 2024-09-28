@@ -1,1 +1,1 @@
-Obtain the unique elements of numpy array arr0 while preserving their original order  
+Return a sorted version of the input list lst0 based on the second element of each sublist or tuple within lst0.

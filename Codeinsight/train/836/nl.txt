@@ -1,1 +1,1 @@
-Count the number of rows where the values in column column_name0 of DataFrame df0 exceed threshold0 and sum the corresponding values in column column_name1.
+Replace all negative values with 0 in a numpy array arr0

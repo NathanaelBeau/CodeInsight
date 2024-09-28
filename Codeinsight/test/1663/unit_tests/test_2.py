@@ -1,3 +1,4 @@
-var0 = u'Привет, мир!'
-expected_output = u'Привет, мир!'
-assert test(var0) ==expected_output, 'Test failed'
+arr0 = np.array([[30, 29, 28], [27, 26, 25], [24, 23, 22]])
+expected_result =  (2, 2)
+result = test(arr0)
+assert result == expected_result, 'Test failed'

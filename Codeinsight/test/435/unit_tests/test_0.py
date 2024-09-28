@@ -1,4 +1,6 @@
-var0 = "Hello, how are you doing today?"
-var1 = "?"
-expected_result1 = "Hello, how are you doing today"
-assert test(var0, var1) == expected_result1, 'Test failed'
+# Test 1
+df0 = pd.DataFrame({'A': [3, 2, 1, 3, 2]})
+column_name = 'A'
+expected_result =  [1, 2, 3]
+result = test(df0, column_name)
+assert result == expected_result, 'Test failed'

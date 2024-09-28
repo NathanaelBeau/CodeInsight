@@ -1,7 +1,6 @@
-How to subset a data frame df0 using Pandas based on a group criteria  var0 and var1 when value == 0
+split column str0 in dataframe df0 into two columns str1 and str2 by first whitespace ' '
 
 import pandas as pd
 
-
-def test(df0, var0, var1):
+def test(df0, str0, str1, str2):
 

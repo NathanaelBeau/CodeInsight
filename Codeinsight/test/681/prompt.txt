@@ -1,6 +1,4 @@
-Combine rows with the same index in dataframe df0 by summing their values.
+Getting the first elements per row in an array lst0 in Python   
 
-import pandas as pd
-
-def test(df0: pd.DataFrame) -> pd.DataFrame:
+def test(lst0):
 

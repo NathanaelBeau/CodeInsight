@@ -1,1 +1,1 @@
-Filter rows from a dataframe df0 where the index values are in the list lst0
+Check if a list lst0 has one or more strings that match any regex var0

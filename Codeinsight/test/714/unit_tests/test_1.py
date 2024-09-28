@@ -1,4 +1,4 @@
-lst0 = [(7, 8), (9, 10)]
-expected_result =  ["78", "910"]
+lst0 = [False, True, False]
+expected_result =  False
 result = test(lst0)
 assert result == expected_result, 'Test failed'

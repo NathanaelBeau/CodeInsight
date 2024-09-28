@@ -1,4 +1,4 @@
-Count the number of elements in list lst0 that are greater than the value var0.
+transform a multi-level list lst0 into a list of strings in Python   
 
-def test(var0, lst0):
+def test(lst0):
 

@@ -1,3 +1,4 @@
-lst0 = ['abc_1_2', 'abc_2_2', 'hij_1_1', 'xyz_1_2', 'xyz_2_2']
-expected_output = [['abc_1_2', 'abc_2_2'], ['hij_1_1'], ['xyz_1_2', 'xyz_2_2']]
-assert test(lst0) ==expected_output, 'Test failed'
+lst0 = [['*', '-', '+'], ['/', '*', '+'], ['-', '+', '/']]
+dict0 = {'*': 2, '/': 1, '+': 3, '-': 0}
+expected_output = [['-', '*', '+'], ['/', '*', '+'], ['-', '/', '+']]
+assert test(lst0, dict0) ==expected_output, 'Test failed'

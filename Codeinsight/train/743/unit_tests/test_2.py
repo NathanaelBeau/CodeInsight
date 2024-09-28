@@ -1,4 +1,4 @@
-lst0 = [[], [1, 2], [2, 2, 2]]
-expected_result =  [True, False, True]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+lst2 = [np.array([]), np.array([])]
+expected_result =  np.array([[], []])
+result = test(lst2)
+assert np.array_equal(result, expected_result), 'Test failed'

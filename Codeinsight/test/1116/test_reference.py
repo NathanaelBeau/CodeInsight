@@ -1,2 +1,2 @@
-def test(lst0):
-    return tuple(x[0] for x in lst0)
+def test(dict0, var0):
+    return {key: val for key, val in dict0.items() if val != var0}

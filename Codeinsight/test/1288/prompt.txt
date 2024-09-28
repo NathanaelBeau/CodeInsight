@@ -1,4 +1,4 @@
-Retrieve all unique keys from a dictionary named dict0
+Get the first elements from a list of tuples lst0.
 
-def test(dict0):
+def test(lst0):
 

@@ -1,4 +1,6 @@
-Generate a list that classifies numbers from list lst0 into 'small' if less than 5, 'medium' if between 5 and 10 (inclusive), or return the number itself if greater than 10
+Selecting  certain values from a 2D array arr0 > to var0 in Python   
 
-def test(lst0):
+import numpy as np
+
+def test(arr0, var0):
 

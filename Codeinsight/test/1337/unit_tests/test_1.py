@@ -1,5 +1,3 @@
-# Unit Test 2
-df0 = pd.DataFrame(columns=['Name', 'Age'])
-expected_result =  True
-result = test(df0)
-assert result == expected_result, 'Test failed'
+lst0 = [(1, 2), (3, 4, 5), (6,), (7, 8, 9, 10)]
+expected_output = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+assert test(lst0) ==expected_output, 'Test failed'

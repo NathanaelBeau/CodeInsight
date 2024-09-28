@@ -1,5 +1,6 @@
-Square each element of the 2D numpy array mat0  
+Check if the string var0 contains only alphanumeric characters.
 
-import numpy as np
-def test(mat0):
+import re
+
+def test(var0):
 

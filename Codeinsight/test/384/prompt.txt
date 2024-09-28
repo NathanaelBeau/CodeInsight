@@ -1,6 +1,5 @@
-Select columns in DataFrame df0 that match the regular expression var0 and divide their values by var1.
+Transform all negative elements in numpy array arr0 to zero without using explicit loops   
 
-import pandas as pd
-
-def test(df0, var0, var1):
+import numpy as np
+def test(arr0):
 

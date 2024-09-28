@@ -1,3 +1,3 @@
-dict0 = {"one": [(1,3),(1,4)], "two": [(1,2),(1,2),(1,3)], "three": [(1,1)]}
-expected_output = ["two", "one", "three"]
-assert test(dict0) ==expected_output, 'Test failed'
+lst0 = [(1, 'A', 'B'), (2, 'X', 'Y'), (2, 'Y', 'X'), (1, 'C', 'D'), (3, 'P', 'Q'), (3, 'Q', 'P')]
+expected_output = [(1, 'A', 'B'), (2, 'X', 'Y'), (3, 'P', 'Q')]
+assert test(lst0) == expected_output, 'Test failed'

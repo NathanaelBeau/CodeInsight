@@ -1,5 +1,5 @@
-arr0 = np.array([-5, -4, -3, -2, -1, 0])
-var0 = 0
-expected_result =  (np.array([5]),)
-result = test(arr0, var0)
-assert np.array_equal(result, expected_result), 'Test failed'
+df0 = pd.DataFrame({'A': [1, 1, 3, 4, 5, 5]})
+col0 = 'A'
+expected_result =  pd.DataFrame({'A': [1, 1, 3, 4, 5, 5], 'compared': [False, True, False, False, False, True]})
+result = test(df0, col0)
+assert result.equals(expected_result), 'Test failed'

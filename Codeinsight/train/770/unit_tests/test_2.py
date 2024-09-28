@@ -1,5 +1,6 @@
-df0 = pd.DataFrame({'x': [13, 14], 'y': [14, 13]})
-df1 = pd.DataFrame({'x': [15, 16], 'y': [12, 11]})
-expected_result =  pd.DataFrame({'x': [16, 15, 14, 13], 'y': [11, 12, 13, 14]})
-result = test(df0, df1)
-assert result.equals(expected_result), 'Test failed'
+var0 = 'x'
+var1 = 'y'
+lst0 = [1, 2, 3, 4, 5]
+lst1 = [5, 4, 3, 2, 1]
+expected_output = [0, 1, 2, 3, 4]
+assert (test(var0, var1, lst0,lst1) ==(expected_output)).all(), 'Test failed'

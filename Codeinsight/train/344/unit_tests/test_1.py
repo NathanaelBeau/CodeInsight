@@ -1,4 +1,5 @@
-str0 = "10,20,30"
-expected_result =  [10, 20, 30]
-result = test(str0)
-assert result == expected_result, 'Test failed'
+var0 = [1, 2]
+var1 = ['a', 'b']
+var2 = [[10, 20], [30, 40]]
+expected_output = [(1, 'a', 10, 20), (2, 'b', 30, 40)]
+assert test(var0, var1, var2) ==expected_output, 'Test failed'

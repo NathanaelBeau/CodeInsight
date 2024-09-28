@@ -1,1 +1,1 @@
-Count the number of unique values in the column var0 of DataFrame df0.
+Python - Update a value var0 by value var1  in a list of tuples lst0  

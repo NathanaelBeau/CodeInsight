@@ -1,2 +1,3 @@
-def test(lst0):
-    return [(x, y) for x, y in zip(lst0, lst0[1:]) if y == 9]
+def test(str0):
+    return list(set(str0))
+

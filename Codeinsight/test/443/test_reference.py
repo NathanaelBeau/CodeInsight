@@ -1,4 +1,4 @@
 import numpy as np
 
-def test(arr0: np.ndarray) -> np.ndarray:
-    return np.cumsum(arr0[::-1])[::-1]
+def test(arr0):
+    return arr0[:, np.newaxis]

@@ -1,4 +1,7 @@
-arr0 = np.array([0, 0, 1, 1, 1, 0])
-expected_result =  (2 + 3 + 4) / 3
-result = test(arr0)
-assert np.isclose(result, expected_result), 'Test failed'
+# Test 1
+df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+col_name1 = 'A'
+col_name2 = 'B'
+expected_result =  {1: 4, 2: 5, 3: 6}
+result = test(df0, col_name1, col_name2)
+assert result == expected_result, 'Test failed'

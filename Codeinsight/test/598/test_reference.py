@@ -1,3 +1,3 @@
-import math
+import re
 def test(var0):
-    return math.floor(var0)
+    return re.sub(r'(?<=[a-z])([A-Z])', r'-\1', var0).lower()

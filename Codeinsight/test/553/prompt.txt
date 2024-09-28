@@ -1,4 +1,6 @@
-Convert two lists lst0 and lst1 into a dictionary where lst0 are the keys and lst1 are the values
+Convert a 1D array arr0 to a 2D array in numpy   
 
-def test(lst0, lst1):
+import numpy as np
+
+def test(arr0):
 

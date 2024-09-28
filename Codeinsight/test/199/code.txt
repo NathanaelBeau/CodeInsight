@@ -1,6 +1,6 @@
-def test(dict0, str0, var0):
-    if str0 in dict0:
-        dict0[str0].append(var0)
-    else:
-        dict0[str0] = [var0]
-    return dict0
+def test(lst0):
+    d = {}
+    for item in lst0:
+        key = item[:5]
+        d.setdefault(key, []).append(item)
+    return list(d.values())

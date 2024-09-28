@@ -1,4 +1,6 @@
-Find the tuple in var0 (a tuple of tuples) where the first element matches str0, and return the second element of that tuple. If no such tuple is found, the function returns None.
+Flipping the boolean values in a list lst0 with numpy in  Python   
 
-def test(var0, str0):
+import numpy as np
+
+def test(lst0):
 

@@ -1,6 +1,2 @@
-
-def test(lst0) :
-   
-    if not lst0:  
-        return None
-    return lst0[0][0]
+def test(lst0, lst1, var0):
+    return [x for x in lst0 if x not in lst1][:var0]

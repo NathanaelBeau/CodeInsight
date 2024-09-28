@@ -1,6 +1,6 @@
-Capturing group with findall on string str0 with pattern var0   
+Calculate the weighted standard deviation of a list of numbers lst0 using weights lst1
 
-import re
+import numpy as np
 
-def test(var0, str0):
+def test(lst0, lst1):
 

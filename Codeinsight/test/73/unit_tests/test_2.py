@@ -1,3 +1,4 @@
-string3 = "No*Stars*Here"
-expected_output3 = "No*Stars*Here"
-assert test(string3) == expected_output3, 'Test failed'
+str0 = "Another example with more than 100 characters: abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
+expected_result =  "Another example with more than 100 characters: abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyza"
+result = test(str0)
+assert result == expected_result, 'Test failed'

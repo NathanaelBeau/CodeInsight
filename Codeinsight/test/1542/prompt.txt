@@ -1,6 +1,4 @@
-Select columns from a dataframe df0 using a regular expression str0
+Retrieve a list of indices from the list lst0 where the elements are non-zero.
 
-import pandas as pd
-
-def test(df0, str0):
+def test(lst0):
 

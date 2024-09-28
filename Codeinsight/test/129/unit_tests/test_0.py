@@ -1,4 +1,4 @@
-var0 = np.array([[0, 0], [0, 1]])
-expected_result =  csr_matrix(var0)
+var0 = np.array([[1, 1, 1], [2, 2, 2], [3, 3, 3]])
+expected_result =  True
 result = test(var0)
-assert (result != expected_result).nnz == 0, 'Test failed'
+assert result == expected_result, 'Test failed'

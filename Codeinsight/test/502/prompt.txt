@@ -1,4 +1,4 @@
-Sorting a list of lists lst0 of dictionaries in python   
+check if a character is upper-case in Python in string str0   
 
-def test(lst0):
+def test(str0):
 

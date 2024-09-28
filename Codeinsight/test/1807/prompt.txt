@@ -1,4 +1,4 @@
-Convert character char0 to its corresponding integer representation  
+Create a list with var0 zeros
 
-def test(char0):
+def test(var0):
 

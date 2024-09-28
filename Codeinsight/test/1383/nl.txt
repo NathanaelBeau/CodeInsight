@@ -1,1 +1,1 @@
-Find the key corresponding to the maximum count value in a dictionary dict0
+Extract sub-lists from a list lst0 where the third element is the string '0'.

@@ -1,4 +1,6 @@
-reverse the input string str0
+List of dictionaries from numpy array arr0 without for loop   
 
-def test(str0):
+import numpy as np
+
+def test(arr0):
 

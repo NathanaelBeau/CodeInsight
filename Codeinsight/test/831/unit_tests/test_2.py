@@ -1,4 +1,4 @@
-var0 = "this is a test test test"
-var1 = "test"
-expected_result =  "this is a  test test"
-assert test(var0, var1) == expected_result, 'Test failed'
+dict0 = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+var0 = 6
+expected_output = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+assert test(dict0, var0) ==expected_output, 'Test failed'

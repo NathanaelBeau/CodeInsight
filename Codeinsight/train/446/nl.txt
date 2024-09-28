@@ -1,1 +1,1 @@
-Remove all characters from the string var0 except for letters and spaces.
+Sort a dictionary of dictionaries var0 by a specific value var1 in ascending order

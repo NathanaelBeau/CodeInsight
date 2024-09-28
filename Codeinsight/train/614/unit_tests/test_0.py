@@ -1,4 +1,4 @@
-str0 = "123abc"
-expected_output = True
-output = test(str0)
-assert output == expected_output, 'Test failed'
+lst0 = [{'size': 10}, {'size': 5}, {'size': 20}]
+var0 = 'size'
+expected_output = 2
+assert test(lst0, var0) ==expected_output, 'Test failed'

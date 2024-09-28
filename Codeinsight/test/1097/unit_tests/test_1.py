@@ -1,5 +1,5 @@
-str0 = "Python Programming"
-char0 = "z"
-expected_result =  False
-result = test(str0, char0)
-assert result == expected_result, 'Test failed'
+str0 = "Hello, world!"
+var0= "z"
+var1= "s"
+expected_output = ['Hello, world!']
+assert test(str0, var0, var1) ==expected_output, 'Test failed'

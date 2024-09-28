@@ -1,6 +1,4 @@
-# Test 1
-arr0 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-val0 = 5
-expected_result =  (1, 1)
-result = test(arr0, val0)
+lst0 = [(10**18, 1), (10**19, 2)]
+expected_result =  True
+result = test(lst0)
 assert result == expected_result, 'Test failed'

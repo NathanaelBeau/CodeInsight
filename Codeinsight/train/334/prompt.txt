@@ -1,4 +1,6 @@
-Design a function that test if a number var1 is in the range from 4 to 10
+Convert the dictionary dict0 into a dataframe.
 
-def test(var1):
+import pandas as pd
+
+def test(dict0):
 

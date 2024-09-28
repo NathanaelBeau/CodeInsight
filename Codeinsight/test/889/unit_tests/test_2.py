@@ -1,4 +1,4 @@
-test_string3 = "aabbccddeeffaabbcc"
-str03 = "aabb"
-expected_output3 = 12
-assert test(test_string3, str03) == expected_output3, 'Test failed'
+dict0 = {'key1': 'value1', 'key2': 'value2'}
+expected_output = np.array([('key1', 'value1'), ('key2', 'value2')], dtype=object)
+dtype = object
+assert (test(dict0)  == expected_output).all(), 'Test failed'

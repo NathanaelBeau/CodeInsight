@@ -1,1 +1,1 @@
-pythonic way to explode a list of tuples lst0   with itertools
+Get the first non-null value for each row from a list of columns lst0 in a dataframe df0

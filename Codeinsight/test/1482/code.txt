@@ -1,4 +1,4 @@
-import numpy as np
+import re
 
-def test(arr0):
-    return arr0.astype(int)
+def test(var0, var1):
+    return re.sub(var1, '', var0)

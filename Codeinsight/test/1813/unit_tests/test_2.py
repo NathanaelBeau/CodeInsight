@@ -1,6 +1,6 @@
-dict0 = {}
-var0 = 'a'
-var1 = 'b'
-var2 = 'c'
-expected_output = {'a': None, 'b': None, 'c': None}
-assert test(dict0, var0, var1, var2) ==expected_output, 'Test failed'
+arr0 = np.array([2, 3, 5])
+arr1 = np.array([0, 1, 2])
+expected_output = np.array([[ 0,  2,  4],
+                            [ 0,  3,  6],
+                            [ 0,  5, 10]])
+assert (test(arr0, arr1)  == expected_output).all(), 'Test failed'

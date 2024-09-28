@@ -1,4 +1,6 @@
-Remove stop words from the string var0 based on the list of stop words lst0.
+Formatting floats in a numpy array    arr0 with round of lenght var0
 
-def test(var0, lst0):
+import numpy as np
+
+def test(arr0, var0):
 

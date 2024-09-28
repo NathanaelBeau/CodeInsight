@@ -1,5 +1,2 @@
-import pandas as pd
-
-def test(df0, col0):
-    df0[col0] = pd.factorize(df0[col0])[0]
-    return df0
+def test():
+    return [x for x in range(11, 20)]

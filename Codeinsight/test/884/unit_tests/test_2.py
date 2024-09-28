@@ -1,4 +1,4 @@
-var0 = "Another example: üäöß"
-expected_result =  True
-result = test(var0)
-assert result == expected_result, 'Test failed'
+the_list = "abcdefgh"
+n = 10
+expected_output = ['abcdefgh']
+assert test(the_list, n) == expected_output, 'Test failed'

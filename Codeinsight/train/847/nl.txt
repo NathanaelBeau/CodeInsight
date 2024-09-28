@@ -1,1 +1,1 @@
-Append multiple dataframes together from a list of dataframes lst0
+Partition the array arr0 into n0 chunks using Numpy.  

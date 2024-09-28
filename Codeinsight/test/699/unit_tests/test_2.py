@@ -1,5 +1,4 @@
-lst0 = [1, 2, 3, 4, 5]
-var0 = 5
-expected_result =  []
-result = test(lst0, var0)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame({ 'month': ['Jul', 'Aug', 'Sep'], 'value': [70, 80, 90] })
+expected_result =  pd.DataFrame({ 'value': [70, 80, 90] }, index=['Jul', 'Aug', 'Sep'])
+result = test(df0)
+assert result.equals(expected_result), 'Test failed'

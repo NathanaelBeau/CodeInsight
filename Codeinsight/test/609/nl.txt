@@ -1,1 +1,1 @@
-Transpose a 1D numpy array arr0 into a 2D column vector.
+Sorting the content of a dictionary dict0 by the value and by the key   

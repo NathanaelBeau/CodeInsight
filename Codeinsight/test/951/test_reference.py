@@ -1,4 +1,4 @@
-import ast
+import numpy as np
 
-def test(str0):
-    return ast.literal_eval(str0)
+def test(var0, var1):
+    return (var0 == var1[:, None]).argmax(1)

@@ -1,4 +1,6 @@
-lst0 = [1, 2, 3]
-lst1 = [4, 5, 6]
-expected_output = 32
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+df0 = pd.DataFrame({'values': [1, 5, 10, 15, 20]})
+str0 = 'values'
+lst0 = [0, 10, 20]
+expected_result =  pd.cut(df0['values'], lst0)
+result = test(df0, str0, lst0)
+assert result.equals(expected_result), 'Test failed'

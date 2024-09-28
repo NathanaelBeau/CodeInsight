@@ -1,4 +1,4 @@
-dict0 = {'p': 1, 'q': 1, 'r': 1}
-var0 = 1
-expected_output = 3
-assert test(dict0, var0) == expected_output, 'Test failed'
+import pandas as pd
+df0 = pd.DataFrame({'K': [1, 2], 'L': [3, 4], 'M': [5, 6], 'N': [7, 8], 'O': [9, 10]})
+expected_result =  pd.DataFrame({'M': [5, 6], 'O': [9, 10]})
+assert test(df0).equals(expected_result), 'Test failed'

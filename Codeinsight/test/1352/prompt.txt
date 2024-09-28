@@ -1,6 +1,4 @@
-Concatenate a numpy array arr1 to another numpy array arr0.
+Extract a set containing all unique keys from a list of dictionaries lst0. 
 
-import numpy as np
-
-def test(arr0, arr1):
+def test(lst0):
 

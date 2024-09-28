@@ -1,1 +1,1 @@
-Append a new column arr1 to the numpy array arr0  
+How to modify the elements var0 in a list lst0 within list   

@@ -1,4 +1,3 @@
-str0 = "a=1 b=2 c=3"
-expected_result =  {'a': '1', 'b': '2', 'c': '3'}
-result = test(str0)
-assert result == expected_result, 'Test failed'
+lst0 = [10, 2, 5, 8, 10, 5, 10]
+expected_output = [0, 4, 6]
+assert test(lst0) ==expected_output, 'Test failed'

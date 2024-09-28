@@ -1,1 +1,1 @@
-Split the string var0 on one or more spaces using a regular expression.
+Extract every var0 row from dataframe df0

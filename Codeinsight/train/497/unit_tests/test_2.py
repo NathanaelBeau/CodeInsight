@@ -1,3 +1,4 @@
-text = "No hashtags in this text"
-expected_output = []
-assert test(text) ==expected_output, 'Test failed'
+lst0 = []
+expected_result =  []
+result = test(lst0)
+assert result == expected_result, 'Test failed'

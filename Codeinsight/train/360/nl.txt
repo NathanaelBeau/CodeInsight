@@ -1,1 +1,1 @@
-Retrieve the indexes of the largest var0 values from a list lst0.
+ remove all the punctuation in a string str0    

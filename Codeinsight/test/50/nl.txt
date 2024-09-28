@@ -1,1 +1,1 @@
-Check if two NumPy arrays, arr0 and arr1, are equal element-wise  
+return variables var0 without spaces between values with formatting  

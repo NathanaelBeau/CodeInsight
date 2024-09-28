@@ -1,5 +1,3 @@
-import numpy as np
-def test(arr0):
-    min_value = np.min(arr0[arr0 != 0])
-    max_value = np.max(arr0[arr0 != 0])
-    return min_value, max_value
+import pandas as pd
+def test(df0, df1):
+    return pd.concat([df0, df1], ignore_index=True)

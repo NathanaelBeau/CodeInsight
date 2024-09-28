@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0):
-    return np.argwhere((arr0 == [0, 1]).all(axis=1)).flatten()
+def test(dict0, dict1):
+    return {k: dict0[k] / dict1[k] for k in dict0}

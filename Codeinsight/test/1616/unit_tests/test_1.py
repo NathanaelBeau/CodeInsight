@@ -1,4 +1,4 @@
-# Test 3
-var0 = "No special chars here."
-expected_result =  "No special chars here"
-assert test(var0) == expected_result, 'Test failed'
+var0 = None
+expected_result =  True
+result = test(var0)
+assert result == expected_result, 'Test failed'

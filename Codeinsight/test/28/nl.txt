@@ -1,1 +1,1 @@
-Add SUM of values of two LISTS lst0 and lst1 into new LIST   with operator
+Calculate mean for selected rows var1 for selected columns var0 in pandas data frame  df0 

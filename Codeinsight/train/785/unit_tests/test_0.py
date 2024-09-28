@@ -1,4 +1,3 @@
-str0 = "key1=value1 key2=value2 key3=value3"
-expected_result =  {'key1': 'value1', 'key2': 'value2', 'key3': 'value3'}
-result = test(str0)
-assert result == expected_result, 'Test failed'
+lst0 = [5, 2, 8, 2, 10, 8, 8]
+expected_output = [4]
+assert test(lst0) ==expected_output, 'Test failed'

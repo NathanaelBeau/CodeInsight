@@ -1,4 +1,4 @@
-Convert the integer var0 into a list of its digits.
+Reverse sort the items in dictionary d0 by their values.
 
-def test(var0):
+def test(d0):
 

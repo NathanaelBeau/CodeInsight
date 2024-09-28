@@ -1,3 +1,6 @@
-str0 = 'x;y;z;d'
-expected_output = 'x:y:z;d'
-assert test(str0) ==expected_output, 'Test failed'
+# Unit Test 2
+lst0 = []
+lst1 = [1, 2, 3]
+expected_result =  []
+result = test(lst0, lst1)
+assert result == expected_result, 'Test failed'

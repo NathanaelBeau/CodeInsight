@@ -1,1 +1,1 @@
-Sort a list of tuples lst0 based on the second item in descending order
+How to reorder indexed rows of dataframe df0 based on a list lst0 in Pandas data frame   

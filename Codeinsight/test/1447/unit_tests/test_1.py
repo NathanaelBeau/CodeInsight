@@ -1,3 +1,5 @@
-binary_str = "0"
-expected_output = 0
-assert test(binary_str) == expected_output, 'Test failed'
+arr0 = np.array([1.0, 2.0, 3.0])
+arr1 = np.array([1.0, 2.0, np.nan])
+expected_result =  False
+result = test(arr0, arr1)
+assert result == expected_result, 'Test failed'

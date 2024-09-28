@@ -1,1 +1,0 @@
-Add key "item3" with value 3 to a dictionary dict0

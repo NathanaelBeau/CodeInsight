@@ -1,4 +1,4 @@
-str0 = "This is a test string."
-var0 = "is"
-expected_output = 2
-assert test(str0, var0) ==expected_output, 'Test failed'
+lst0 = [True, True, False, False, False, True]
+expected_result =  3
+result = test(lst0)
+assert result == expected_result, 'Test failed'

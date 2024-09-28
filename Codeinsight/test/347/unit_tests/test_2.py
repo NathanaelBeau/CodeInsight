@@ -1,4 +1,5 @@
-data0 = [('cat', 5.5), ('dog', 6.6)]
-expected_result =  np.array([('cat', 5.5), ('dog', 6.6)], dtype=object)
-result = test(data0)
-assert np.array_equal(result, expected_result), 'Test failed'
+# Test 3
+df0 = pd.DataFrame({ 'Score': [90, 85, 85, 95] }, index=[1, 2, 2, 3])
+expected_result =  pd.DataFrame({ 'Score': [90, 85, 95] }, index=[1, 2, 3])
+result = test(df0)
+assert result.equals(expected_result), 'Test failed'

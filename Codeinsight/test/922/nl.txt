@@ -1,1 +1,1 @@
-Sorting Python list lst0  based on the length of the string   
+Retrieve a list of keys from dictionary dictA where the value corresponding to each key contains the substring str0 more than once.

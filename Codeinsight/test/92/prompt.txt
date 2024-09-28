@@ -1,4 +1,4 @@
-Create a dictionary from a string str0 separated by - and ,
+Multiply elements at the same index from two lists: lst0 and lst1.
 
-def test(str0):
+def test(lst0, lst1):
 

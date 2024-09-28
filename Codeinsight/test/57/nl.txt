@@ -1,1 +1,1 @@
-Normalize rows of a dataframe df0 by their sum
+Get first element of Series  var0 without knowing the index"  

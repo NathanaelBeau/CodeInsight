@@ -1,5 +1,6 @@
-import pandas as pd
+import re
 
-def test(lst0):
-    df = pd.DataFrame(lst0)
-    return df
+def test(var0):
+    pattern = "^(.+)\\n((?:\\n.+)+)"
+    matches = re.findall(pattern, var0)
+    return matches

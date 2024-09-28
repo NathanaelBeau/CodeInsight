@@ -1,5 +1,3 @@
-import pandas as pd
-
-def test(df0, col0, var0, var1):
-    df0[col0].replace(var0, var1, inplace=True)
-    return df0
+from functools import reduce
+def test(var0, lst0):
+    return reduce(lambda l, e: l+var0*[e], lst0, [])

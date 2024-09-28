@@ -1,4 +1,3 @@
-dict0= { 'New York City': 'NYC', 'San Francisco': 'SF', 'Los Angeles': 'LA', 'Chicago': 'CHI', 'Miami': 'MIA' }
-arg0 = 'LOS'
-expected_output = ['LA']
-assert test(dict0, arg0) ==expected_output, 'Test failed'
+string2 = "***Multiple*stars**in*a*row***"
+expected_output2 = "*Multiple*stars*in*a*row*"
+assert test(string2) == expected_output2, 'Test failed'

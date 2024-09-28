@@ -1,4 +1,4 @@
-var0 = "   Programming is   fun    "
-expected_result =  ['Programming', 'is', 'fun']
-result = test(var0)
-assert result == expected_result, 'Test failed'
+lst0 = [(0.1, 0.2), (0.3, 0.4), (0.5, 0.6)]
+var0 = 0
+expected_output = [0.1, 0.3, 0.5]
+assert test(lst0, var0) ==expected_output, 'Test failed'

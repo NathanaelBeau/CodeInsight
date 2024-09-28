@@ -1,5 +1,4 @@
-Determine the count of elements that are the same in numpy arrays arr0 and arr1 
+Combine row from column var0 with same value summing values of its columns from a dataframe var1
 
-import numpy as np
-def test(arr0, arr1):
+def test(var0, var1):
 

@@ -1,5 +1,3 @@
-df1 = pd.DataFrame({'B': ['a', 'a', 'b', 'c', 'c', 'c']})
-col1 = 'B'
-expected_result =  pd.DataFrame({'B': ['a', 'a', 'b', 'c', 'c', 'c'], 'compared': [False, True, False, False, True, True]})
-result = test(df1, col1)
-assert result.equals(expected_result), 'Test failed'
+df2 = pd.DataFrame({'X': ['apple', 'banana'], 'Y': ['red', 'yellow']})
+expected_output2 = [{'index': 0, 'X': 'apple', 'Y': 'red'}, {'index': 1, 'X': 'banana', 'Y': 'yellow'}]
+assert test(df2) == expected_output2, 'Test failed'

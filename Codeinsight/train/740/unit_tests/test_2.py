@@ -1,4 +1,5 @@
-var0 = 16
-expected_result =  '0x10'
-result = test(var0)
-assert result == expected_result, 'Test failed'
+# Test 3
+df0 = pd.DataFrame({'name': ['John', 'Jane'], 'gender': ['M', 'F'], 'age': [30, 25]})
+expected_result =  []
+result = test(df0)
+assert set(result) == set(expected_result), 'Test failed'

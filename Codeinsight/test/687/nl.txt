@@ -1,1 +1,1 @@
-Apply multiple filters specified by condition to a pandas DataFrame df0.
+How to repeat var0 times specific individual characters var1  in strings str0 in Python  with itertools

@@ -1,1 +1,1 @@
-Split dataframe df0 into train and test samples with a fraction frac0 for training. Optionally, a random_state0 can be provided for reproducibility.
+Extract row with maximum value in a group pandas dataframe   df0 in column var0

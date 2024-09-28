@@ -1,4 +1,3 @@
-lst0 = [1, 2, 2]
-expected_result =  None
-result = test(lst0)
-assert result ==expected_result, 'Test failed'
+lst0 = [('a', 'b'), ('c', 'd')]
+expected_output = (('b', 'a'), ('d', 'c'))
+assert test(lst0) ==expected_output, 'Test failed'

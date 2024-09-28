@@ -1,3 +1,3 @@
-str0 = '1989, 1990'
-expected_output = ['1989', '1990']
+str0 = "hello"
+expected_output = "hhheeellllllooo"
 assert test(str0) ==expected_output, 'Test failed'

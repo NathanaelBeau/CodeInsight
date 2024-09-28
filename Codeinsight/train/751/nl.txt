@@ -1,1 +1,1 @@
-Create a list of tuples by pairing elements from lst0 and lst1
+Sorting Python list lst0  based on the length of the string   

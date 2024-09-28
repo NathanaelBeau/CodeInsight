@@ -1,6 +1,4 @@
- Extract unique values from multiple columns lst0 in a dataframe df0
+ remove identical items from a list lst0 and sort it in Python with sorted   
 
-import pandas as pd
-
-def test(df0, lst0):
+def test(lst0):
 

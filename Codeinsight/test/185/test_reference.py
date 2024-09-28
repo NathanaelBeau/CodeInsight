@@ -1,4 +1,7 @@
-def test(lst0, var0):
-    new_lst = lst0.copy()
-    new_lst.insert(0, var0)
-    return new_lst
+import numpy as np
+
+def test(arr0, arr1):
+    c = np.empty((arr0.size + arr1.size,), dtype=arr0.dtype)
+    c[0::2] = arr0
+    c[1::2] = arr1
+    return c

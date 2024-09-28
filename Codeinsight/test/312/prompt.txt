@@ -1,5 +1,6 @@
-Count all values in the matrix mat0 that are less than the value val0.  
+Python: Split NumPy array based on values in the array arr0   
 
 import numpy as np
-def test(mat0, val0):
+
+def test(arr0):
 

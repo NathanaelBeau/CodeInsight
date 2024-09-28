@@ -1,2 +1,2 @@
 def test(lst0):
-    return [item for item in lst0 if 'abc' in item]
+	return lst0.count(lst0[0]) == len(lst0)

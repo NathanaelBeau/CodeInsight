@@ -1,5 +1,5 @@
-from scipy.sparse import csr_matrix
-mat1 = csr_matrix([[0, 0], [0, 0]])
-expected_result =  np.matrix([[0, 0], [0, 0]])
-result = test(mat1)
-assert np.array_equal(result, expected_result), 'Test failed'
+df1 = pd.DataFrame({'X': [7, 8, 9], 'Y': [10, 11, 12]})
+operation = 'std'
+expected_result =  df1.stack().std()
+result = test(df1, operation)
+assert result == expected_result, 'Test failed'

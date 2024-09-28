@@ -1,4 +1,4 @@
-ttt3 = "apple"
-tt3 = "orange"
-expected_output3 = []
-assert test(ttt3, tt3) == expected_output3, 'Test failed'
+var0 = 'hello,"world,universe",galaxy,"planet"'
+expected_result =  ['hello', 'world,universe', 'galaxy', 'planet']
+result = test(var0)
+assert result == expected_result, 'Test failed'

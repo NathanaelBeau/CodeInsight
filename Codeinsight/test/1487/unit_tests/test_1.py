@@ -1,7 +1,6 @@
-# Test 2
-df0 = pd.DataFrame({'Category': ['X', 'Y', 'X', 'Y', 'Z', 'Z'], 'Item': ['apple', 'apple', 'banana', 'banana', 'apple', 'cherry']})
-var0 = 'Category'
-var1 = 'Item'
-expected_result =  pd.Series([2, 2, 2], index=['X', 'Y', 'Z'], name='Item')
-result = test(df0, var0, var1)
-assert result.equals(expected_result), 'Test failed'
+df0 = pd.DataFrame({'values': [0.2, 0.8, 3.0, 1.5, 2.5]})
+var0 = 'values'
+var1 = 1.0
+var2 = 2.0
+expected_output = [False, False, False, True, False]
+assert (test(df0, var0, var1, var2) ==expected_output).all(), 'Test failed'

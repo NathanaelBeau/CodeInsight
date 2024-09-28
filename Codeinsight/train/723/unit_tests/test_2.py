@@ -1,6 +1,4 @@
-df0 = pd.DataFrame({ 'A': [1, 2, 3, 4, 5], 'B': [5, 6, 7, 8, 9], 'C': [10, 11, 12, 13, 14] })
-lst0 = [0, 1]
-lst1 = ['A', 'C']
-expected_result =  pd.Series([1.5, 10.5], index=['A', 'C'])
-result = test(df0, lst0, lst1)
+df0 = pd.DataFrame({'ID': [5, 5, 6, 6], 'Value': [1000, 2000, 3000, 4000]})
+expected_result =  pd.DataFrame({'ID': [5, 5, 6, 6], 'Value': [1000, 2000, 3000, 4000], 'ID_mean': [1500.0, 1500.0, 3500.0, 3500.0], 'ID_sum': [3000, 3000, 7000, 7000]})
+result = test(df0, 'ID', 'Value')
 assert result.equals(expected_result), 'Test failed'

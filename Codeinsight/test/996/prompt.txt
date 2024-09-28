@@ -1,6 +1,4 @@
-Shift the values in column col0 of a dataframe df0 up by one.
+how to parse a list or string lst0 into chunks of fixed length var0  
 
-import pandas as pd
-
-def test(df0, col0):
+def test(lst0, var0):
 

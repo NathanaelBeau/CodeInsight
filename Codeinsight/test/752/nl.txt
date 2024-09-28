@@ -1,1 +1,1 @@
-Convert a list of lists lst0 into a DataFrame, using the first sublist as the column headers and the subsequent sublists as rows.
+Get the list of indices where the values are NaN in the numpy array arr0.  

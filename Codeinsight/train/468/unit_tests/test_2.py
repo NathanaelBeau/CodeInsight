@@ -1,7 +1,4 @@
-# Test 3
-df0 = pd.DataFrame({ 'Category': ['fruit', 'fruit', 'animal', 'fruit', 'animal'] })
-var0 = 'Category'
-var1 = 'animal'
-expected_result =  [2, 4]
-result = test(df0, var0, var1)
-assert result == expected_result, 'Test failed'
+lst0 = [1, 2, 3, 4]
+lst1 = [2, 3, 4]
+expected_output = True
+assert test(lst0, lst1) == expected_output, 'Test failed'

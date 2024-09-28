@@ -1,4 +1,6 @@
-check if a value var0 exists in a dictionary dict0 
+Extract the video ID from the YouTube link var0.
 
-def test(dict0, var0):
+import re
+
+def test(var0):
 

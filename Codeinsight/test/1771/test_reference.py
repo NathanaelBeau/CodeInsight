@@ -1,2 +1,3 @@
-def test(str0):
-    return str0.translate(str.maketrans('', '', '!.:'))
+def test(lst0):
+    sorted_lst = sorted(lst0, key=lambda e: e['key']['subkey'], reverse=True)
+    return sorted_lst

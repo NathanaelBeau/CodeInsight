@@ -1,5 +1,2 @@
-import pandas as pd
-
-
-def test(df0, n):
-    return df0[-n:]
+def test(lst0):
+    return lst0 == list(range(lst0[0], lst0[-1]+1))

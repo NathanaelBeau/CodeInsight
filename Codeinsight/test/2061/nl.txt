@@ -1,1 +1,0 @@
-Set the value in column 'B' of dataframe df to NaN wherever the corresponding value in column 'A' is 0.

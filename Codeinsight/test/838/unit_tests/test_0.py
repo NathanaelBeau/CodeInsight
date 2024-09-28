@@ -1,4 +1,3 @@
-lst0 = [1, 2, 3, 4, 5]
-lst1 = [4, 5, 6, 7, 8]
-expected_output = [4, 5]
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+str0 = "This is a test string with z's"
+expected_output = ['Thi', ' i', ' a te', 't ', 'tring with ', "'", '']
+assert test(str0) ==expected_output, 'Test failed'

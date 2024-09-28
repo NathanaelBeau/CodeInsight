@@ -1,5 +1,5 @@
 import pandas as pd
-import numpy as np
 
-def test(arr0):
-    return arr0[~pd.isnull(arr0)]
+def test(df0, lst0):
+    df0['new_column'] = lst0
+    return df0

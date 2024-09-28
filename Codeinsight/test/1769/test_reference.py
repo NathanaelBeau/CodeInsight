@@ -1,4 +1,4 @@
-def test(lst0):
-    iseq = iter(lst0)
-    first_type = type(next(iseq))
-    return True if all( (type(x) is first_type) for x in iseq ) else False
+import pandas as pd
+
+def test(df0, var0, var1):
+    return df0[~df0[var0].str.contains(var1, na=False, regex=True)].reset_index(drop=True)

@@ -1,2 +1,4 @@
-def test(str0):
-    return [x.strip().lower() for x in str0.split("\n") if x.strip()]
+import pandas as pd
+
+def test(df0, lst0):
+    return df0.sort_values(by=lst0)

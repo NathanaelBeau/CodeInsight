@@ -1,3 +1,5 @@
-import numpy as np
-def test(arr0):
-    return np.where(arr0 < 0, 0, arr0)
+import re
+
+def test(var0):
+    pattern = r'\[.*?\]|\(.*?\)|".*?"|\S+'
+    return [match.group() for match in re.finditer(pattern, var0)]

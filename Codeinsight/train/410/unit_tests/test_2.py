@@ -1,4 +1,4 @@
-lst0 = [1, 2, 3, 4]
-lst1 = [2, 3, 4]
-expected_output = True  # Lists are of different lengths
-assert test(lst0, lst1) == expected_output, 'Test failed'
+input_str = "hello   "
+expected_result =  "hello"
+result = test(input_str)
+assert result==expected_result, 'Test failed'

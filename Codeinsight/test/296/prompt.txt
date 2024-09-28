@@ -1,4 +1,4 @@
-Control a print format when printing a list lst0 in Python   
+Determine if each element in list lst0 is less than its corresponding element in list lst1.
 
-def test(lst0):
+def test(lst0: list, lst1: list) -> bool:
 

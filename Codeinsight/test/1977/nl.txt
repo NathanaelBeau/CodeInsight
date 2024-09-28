@@ -1,1 +1,0 @@
-Get the maximum of 'salary' and 'bonus' values in a dictionary var0

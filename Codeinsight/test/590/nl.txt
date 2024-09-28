@@ -1,1 +1,1 @@
-From the list of lists x, return the inner list that has the highest sum of values.
+ simple way to remove multiple spaces in a string  str0 with regex

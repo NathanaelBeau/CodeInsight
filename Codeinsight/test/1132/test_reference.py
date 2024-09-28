@@ -1,4 +1,2 @@
-import re
-
-def test(var0):
-    return re.findall(r'(.)\1+', var0)
+def test(lst0):
+    return sorted(lst0, key=lambda x: int(x))

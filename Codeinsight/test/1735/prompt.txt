@@ -1,6 +1,4 @@
-string str0 to list conversion in python   
+Clamp a floating number val0 between min0 and max0.
 
-import re
-
-def test(str0):
+def test(val0, min0, max0):
 

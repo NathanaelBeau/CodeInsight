@@ -1,1 +1,1 @@
-Finding the most frequent character in a string   str0 
+Find the position of the var2 occurrence of substring var1 in string var0

@@ -1,5 +1,4 @@
-Calculate the frequency of unique combinations of values in columns col1 and col2 of the dataframe df0 and return a list of tuples with each combination and its frequency.  
+ convert a list of str lst0 to a list of floats  with split and map
 
-import pandas as pd
-def test(df0, col1, col2):
+def test(lst0):
 

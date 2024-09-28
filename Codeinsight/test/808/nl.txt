@@ -1,1 +1,1 @@
-How to check if a value var0 exists in a dictionary dict0(python)   
+stack the input array arr0 vertically on top of itself and return the resulting array.

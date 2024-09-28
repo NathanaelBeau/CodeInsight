@@ -1,4 +1,4 @@
-str0 = "123"
-str1 = ["one", "two", "three"]
-expected_output = "one123two123three"
-assert test(str0, str1) ==expected_output, 'Test failed'
+df2 = pd.DataFrame({'X': [7, 8, 9], 'Y': [10, 11, 12]})
+expected_result2 = [[7, 10], [8, 11], [9, 12]]
+result2 = test(df2)
+assert result2 == expected_result2, 'Test failed'

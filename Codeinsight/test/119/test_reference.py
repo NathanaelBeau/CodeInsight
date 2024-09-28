@@ -1,2 +1,3 @@
-def test(lst0, char0):
-    return [item for item in lst0 if not item.startswith(char0)]
+def test(df0, var0):
+    df0.drop(var0, axis=1, inplace=True)
+    return df0

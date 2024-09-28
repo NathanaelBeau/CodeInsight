@@ -1,4 +1,5 @@
-df1 = pd.DataFrame({'A': [1, 2, None, 4], 'B': [5., 6., 7., 8.]})
-expected_result =  pd.DataFrame({'A': [1., 2., 7., 4.], 'B': [5., 6., 7., 8.]})
-result = test(df1, 'A', 'B')
-assert result .equals( expected_result), 'Test failed'
+# Test 1
+df0 = pd.DataFrame({ 'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9] })
+lst0 = ['A', 'B']
+expected_result =  pd.DataFrame({ 'A': [1, 2, 3], 'B': [4, 5, 6] })
+assert test(df0.copy(), lst0).equals(expected_result), 'Test failed'

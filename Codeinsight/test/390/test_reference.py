@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0):
-    return arr0[np.argsort(-arr0)]
+def test(dict0, var0):
+    return sum(1 for x in dict0.values() if var0(x))

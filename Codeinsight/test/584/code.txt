@@ -1,7 +1,4 @@
-import pandas as pd
+import re
 
-def test(var0):
-	df_values = var0.values
-	df_values.sort(axis=1)
-	df_values_sorted = df_values[:, ::-1]
-	return pd.DataFrame(df_values_sorted, var0.index, var0.columns)
+def test(str0: str, pattern: str) -> list:
+    return [match.start() for match in re.finditer(pattern, str0)]

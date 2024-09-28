@@ -1,4 +1,3 @@
-dtype2 = 'uint8'
-expected_result =  1
-result = test(dtype2)
-assert result == expected_result, 'Test failed'
+var0 = "hello&world&python&rocks"
+expected_result =  ["hello", "world", "python", "rocks"]
+assert test(var0) == expected_result, 'Test failed'

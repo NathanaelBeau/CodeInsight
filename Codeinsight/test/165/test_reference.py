@@ -1,4 +1,3 @@
-import pandas as pd
-
-def test(df0, lst0):
-    return df0.sort_values(by=lst0)
+def test(str0, lst0):
+    lst0.append(str0)
+    return sorted(lst0, key=lambda s: s.lower())

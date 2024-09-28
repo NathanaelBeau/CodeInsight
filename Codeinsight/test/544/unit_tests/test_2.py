@@ -1,4 +1,3 @@
-lst0 = ['apple', 'banana', 'cherry']
-expected_result =  'apple banana cherry'
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+dict0 = {'x': 3.14, 'y': 2.71, 'z': 1.618}
+expected_output = pd.DataFrame([('x', 3.14), ('y', 2.71), ('z', 1.618)], columns=['key', 'value'])
+assert test(dict0).values.tolist()  ==expected_output.values.tolist() , 'Test failed'

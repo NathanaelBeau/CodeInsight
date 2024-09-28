@@ -1,2 +1,3 @@
-def test(lst0, lst1):
-    return [x for x in lst0 if lst0[0] in lst1]
+import pandas as pd
+def test(df0, df1):
+    return pd.concat([df0, df1], axis=0, ignore_index=True)

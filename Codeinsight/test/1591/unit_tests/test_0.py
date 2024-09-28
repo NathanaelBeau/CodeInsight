@@ -1,10 +1,7 @@
-data = {
-            'A': [1, 2, 3],
-            'B': [4, 5, 6],
-            'A_duplicated': [7, 8, 9]  # Different column name to prevent overwriting
-        }
-df = pd.DataFrame(data)
-df.columns = ['A', 'B', 'A']  # Manually duplicate the column names
-result = test(df)
-expected = pd.DataFrame({'A': [8, 10, 12], 'B': [4, 5, 6]})
-assert result.equals(expected), 'Test failed'
+arr0 = np.array([[3.2, 1.1, 2.3],
+                 [1.5, 4.2, 0.8],
+                 [2.8, 3.7, 1.9]])
+expected_output = np.array([[1.5, 4.2, 0.8],
+                            [2.8, 3.7, 1.9],
+                            [3.2, 1.1, 2.3]])
+assert (test(arr0)  == expected_output).all(), 'Test failed'

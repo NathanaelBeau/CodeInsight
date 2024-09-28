@@ -1,4 +1,4 @@
-lst0 = [10, 20, 30, 40, 50]
-lst1 = [30, 20, 10] 
-expected_output = [40, 50, 30, 20, 10]
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+lst0 = ["Steve", "Steve", "Ben", "Ben", "Johnny"]
+dict0 = {"Steve": "Blue", "Ben": "Red", "Johnny": "Green"}
+expected_output = ["Blue", "Blue", "Red", "Red", "Green"]
+assert test(lst0, dict0 ) ==expected_output, 'Test failed'

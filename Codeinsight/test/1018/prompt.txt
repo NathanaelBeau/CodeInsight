@@ -1,6 +1,6 @@
-Rename the column names of DataFrame df0 using the provided mapping dict0 or list lst0.
+Merge two pandas DataFrames, df0 and df1, by their indices.
 
 import pandas as pd
 
-def test(df0, dict0):
+def test(df0, df1):
 

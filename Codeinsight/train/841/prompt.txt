@@ -1,7 +1,4 @@
-Convert a datetime.datetime object datetime0 into a Pandas Timestamp object.
+Turn a list lst0 into a list of tuples by pairing every two consecutive elements. 
 
-import pandas as pd
-import datetime
-
-def test(datetime0):
+def test(lst0):
 

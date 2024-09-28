@@ -1,3 +1,5 @@
-from itertools import combinations
-def test(lst0, var0):
-    return [''.join(combination) for combination in combinations(lst0, var0)]
+import numpy as np
+
+def test(var0, var1, var2):
+    sliced = np.hstack(var0[:, var1:var2])
+    return sliced

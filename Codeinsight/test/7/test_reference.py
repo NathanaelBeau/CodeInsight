@@ -1,3 +1,5 @@
-def test(str0):
-    str0 = str0.replace("z", "s")
-    return str0.split("s")
+import pandas as pd
+
+def test(df0):
+    df0['new_col'] = range(len(df0))
+    return df0

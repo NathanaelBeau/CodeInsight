@@ -1,4 +1,5 @@
-from operator import itemgetter
+import string
 
-def test(lst0, var0):
-    return sorted(range(len(lst0)), key=lambda i: lst0[i], reverse=True)[:var0]
+def test(str0):
+    translator = str0.maketrans("", "", string.punctuation)
+    return str0.translate(translator)

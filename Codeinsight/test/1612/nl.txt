@@ -1,1 +1,1 @@
-return all the minimum indices in numpy  array var0
+Decode the string var0 to UTF-8 encoding

@@ -1,6 +1,6 @@
-Cartesian product of x and y array points  lst0 into single array of 2D points   
+Sort a string str0 in lexicographic order python   
 
-import numpy as np
+import re
 
-def test(lst0):
+def test(str0):
 

@@ -1,2 +1,4 @@
-def test(lst0, lst1):
-    return [lst0[i] for i in lst1]
+import pandas as pd
+def test(ser0, var0):
+    return ser0.apply(lambda z: z + var0)
+

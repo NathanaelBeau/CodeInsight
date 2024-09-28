@@ -1,5 +1,6 @@
-Pad a numpy array arr0 with var0 zeros on all sides 
+ Shuffle the rows of dataframe df0 and reset their index. 
 
 import numpy as np
-def test(arr0, var0):
+
+def test(df0):
 

@@ -1,4 +1,4 @@
-def test(str0, var0):
-    index = str0.rindex(var0)
-    result = str0[:index]
-    return result
+import pandas as pd
+def test(df0, var0, var1):
+    df0[var0] *= var1
+    return df0

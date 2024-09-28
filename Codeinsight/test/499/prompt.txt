@@ -1,5 +1,6 @@
-Convert a pandas series ser0 into a numpy array 
+Check if the variable var0 is either a python list, numpy array, or pandas series  
 
+import numpy as np
 import pandas as pd
-def test(ser0):
+def test(var0):
 

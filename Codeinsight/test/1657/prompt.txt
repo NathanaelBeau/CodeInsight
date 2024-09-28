@@ -1,6 +1,4 @@
-Calculate the average values for a dataframe df0 by grouping on columns var0 and var1.
+ Sort a dictionary dict0 in ascending order based on the second elements of its values.
 
-import pandas as pd
-
-def test(df0, var0, var1):
+def test(dict0):
 

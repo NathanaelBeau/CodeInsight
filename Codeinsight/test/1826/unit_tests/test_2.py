@@ -1,4 +1,6 @@
-# Unit Test 2
-df0 = pd.DataFrame({ 'X': list(range(20)), 'Y': list(range(20, 40)) })
-train, test = test(df0, frac0=0.8, random_state0=1)
-assert len(train) == 16 and len(test) == 4, 'Test failed'
+df_data = {'Group': ['G1', 'G1', 'G2', 'G2', 'G3'],
+           'Count': [100, 150, 80, 120, 200]}
+df0 = pd.DataFrame(df_data)
+var0 = 'Group'
+expected_output = df0.groupby(var0, as_index=False).first()
+assert test(df0, var0).equals(expected_output), 'Test failed'

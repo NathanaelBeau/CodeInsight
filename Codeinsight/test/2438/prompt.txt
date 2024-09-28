@@ -1,6 +1,0 @@
-duplicate data in pandas dataframe df0 for 5 times
-
-import pandas as pd
-
-def test(df0) -> pd.DataFrame:
-

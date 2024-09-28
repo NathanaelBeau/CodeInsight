@@ -1,4 +1,4 @@
-str0 = "OpenAI ChatGPT"
-str1 = "AI ChatGPT"
-expected_output = "Open"
-assert test(str0, str1) ==expected_output, 'Test failed'
+lst0 = []
+expected_output = []
+output = test(lst0)
+assert output == expected_output, 'Test failed'

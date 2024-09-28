@@ -1,6 +1,6 @@
-normalize a confusion matrix mat0   
+Splitting a string lst0 based on a certain set of words  ((r"_(?:f?or|and)_", s)
 
-import numpy as np
+import re
 
-def test(mat0):
+def test(lst0):
 

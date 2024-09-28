@@ -1,6 +1,4 @@
-Create a list containing the first var0 values from generator it0.
+reverse the input string str0  
 
-from itertools import islice
-
-def test(it0, var0):
+def test(str0):
 

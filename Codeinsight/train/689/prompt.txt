@@ -1,6 +1,6 @@
-Regex add character to matched string   str0
+Combine rows with the same index in dataframe df0 by summing their values.
 
-import re
+import pandas as pd
 
-def test(str0):
+def test(df0: pd.DataFrame) -> pd.DataFrame:
 

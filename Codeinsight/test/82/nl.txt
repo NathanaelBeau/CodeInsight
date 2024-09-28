@@ -1,1 +1,1 @@
-Rename the column var0 to var1 in the pandas DataFrame df0.
+Split the string var0 into alphabetic and numeric parts.

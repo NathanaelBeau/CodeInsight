@@ -1,4 +1,4 @@
-from functools import reduce
+import numpy as np
 
-def test(str0):
-    return reduce(lambda acc, char: char + acc, str0, "")
+def test(arr0, arr1):
+    return np.meshgrid(arr0, arr1)

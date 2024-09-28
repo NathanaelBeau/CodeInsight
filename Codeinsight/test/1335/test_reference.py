@@ -1,2 +1,2 @@
-def test(str0):
-    return [int(x, 2) for x in str0.split()]
+def test(lst0):
+    return not lst0

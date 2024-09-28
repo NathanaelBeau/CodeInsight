@@ -1,2 +1,4 @@
-def test(lst0):
-    return list(map(lambda x: x[0], lst0))
+import numpy as np
+
+def test(a, var0, var1):
+    return np.sum((a > var0) & (a <= var1))

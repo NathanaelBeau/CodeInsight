@@ -1,6 +1,5 @@
 import pandas as pd
-from sklearn.preprocessing import StandardScaler
 
 def test(df0):
-    scaler = StandardScaler()
-    return pd.DataFrame(scaler.fit_transform(df0), columns=df0.columns)
+    df0['x'] = df0.apply(lambda row: row['x'].lower() if isinstance(row['x'], str) and pd.isnull(row['x']) else row['x'], axis=1)
+    return df0

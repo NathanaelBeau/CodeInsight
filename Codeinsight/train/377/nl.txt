@@ -1,1 +1,1 @@
-Generate all combinations of var0 binary values.
+Regex add character to matched string   str0

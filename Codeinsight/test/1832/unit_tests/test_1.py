@@ -1,4 +1,4 @@
-lst0 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
-var0 = 4
-expected_output = [10, 20,30, 40, 70, 80, 90, 100]
-assert test(lst0, var0) ==expected_output, 'Test failed'
+df1 = pd.DataFrame({'X': [0, 0, 0], 'Y': [1, 2, 3]})
+expected_result =  pd.DataFrame(scaler.fit_transform(df1), columns=df1.columns)
+result = test(df1)
+assert result.equals(expected_result), 'Test failed'

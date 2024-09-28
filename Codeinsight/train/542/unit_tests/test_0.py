@@ -1,3 +1,4 @@
-str0 = "hello 42 I'm a 32 string 30"
-expected_output = ['42', '32', '30']
-assert test(str0) ==expected_output, 'Test failed'
+s1 = "The rain in Spain falls mainly on the plain."
+pattern1 = r"\b\w+ain\b"  # matches words ending with "ain"
+expected_output1 = ["rain", "Spain", "plain"]
+assert test(s1, pattern1) == expected_output1, 'Test failed'

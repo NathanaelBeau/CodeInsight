@@ -1,4 +1,5 @@
-import numpy as np
+from bs4 import BeautifulSoup
 
-def test(value):
-    return isinstance(value, (np.generic, np.ndarray))
+def test(str0):
+    soup = BeautifulSoup(str0, 'html.parser')
+    return soup.get_text('\n')

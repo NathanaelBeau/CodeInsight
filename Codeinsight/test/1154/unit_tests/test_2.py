@@ -1,4 +1,4 @@
-substring = "cherry"
-string = "I like apples and bananas"
-expected_output = -1
-assert test(substring, string) == expected_output, 'Test failed'
+# Test 2
+var0 = "abcabcxyzxyz"
+expected_result =  "abc"
+assert test(var0) == expected_result, 'Test failed'

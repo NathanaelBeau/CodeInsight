@@ -1,1 +1,1 @@
-Find all matches in string var0 for the pattern var1 and then reverse each match.
+ alphabetically sort array of dictionaries lst0 on single key var0   

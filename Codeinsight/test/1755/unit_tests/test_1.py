@@ -1,6 +1,5 @@
-# Test 3
-arr0 = [[10, 20], [30, 40], [50, 60]]
-val0 = 100  # Value not in the array
-expected_result =  None
-result = test(arr0, val0)
-assert result == expected_result, 'Test failed'
+var0 = 2
+var1 = 5
+expected_result =  pd.DataFrame(0, index=range(2), columns=range(5))
+result = test(var0, var1)
+assert result.equals(expected_result), 'Test failed'

@@ -1,8 +1,4 @@
-# Test 1
-df0 = pd.DataFrame({'fruit': ['apple', 'banana', 'apple']})
-column_name = 'fruit'
-old_value = 'apple'
-new_value = 'orange'
-expected_result =  pd.DataFrame({'fruit': ['orange', 'banana', 'orange']})
-result = test(df0, column_name, old_value, new_value)
-assert result.equals(expected_result), 'Test failed'
+arr0 = [1, 2, 1.8E308, 1.8E308, 42]
+var0 = 1E308
+expected_output = [1, 2, 42]
+assert test(arr0, var0) ==expected_output, 'Test failed'

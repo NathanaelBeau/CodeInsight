@@ -1,4 +1,3 @@
-lst0 = ['abc', 'def']
-var0 = 'ghi'
-expected_output = ['abc', 'def', 'ghi']
-assert test(lst0, var0) ==expected_output, 'Test failed'
+str0 = 'a;b;c;d'
+expected_output = "a:b:c;d"
+assert test(str0) ==expected_output, 'Test failed'

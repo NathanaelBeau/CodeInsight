@@ -1,4 +1,5 @@
-in Python,  convert list of float numbers  lst0 to string with certain format var0?   
+regular expression match nothing in string var0
 
-def test(lst0, var0):
+import re
+def test(var0):
 

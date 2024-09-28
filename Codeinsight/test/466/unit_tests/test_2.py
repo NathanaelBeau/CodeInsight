@@ -1,5 +1,4 @@
-df0 = pd.DataFrame({'W': [9, 10], 'X': [11, 12], 'Y': [13, 14], 'Z': [15, 16]})
-start_column0, end_column0 = 'W', 'Y'
-expected_result =  pd.DataFrame({'W': [9, 10], 'X': [11, 12], 'Y': [13, 14]})
-result = test(df0.copy(), start_column0, end_column0)
+df0 = pd.DataFrame({ 'variable': ['P', 'P', 'Q', 'Q'], 'value': ['apple', 'banana', 'cherry', 'date'] })
+expected_result =  pd.DataFrame({ 'P': ['apple', 'banana'], 'Q': ['cherry', 'date'] })
+result = test(df0, 'variable', 'value')
 assert result.equals(expected_result), 'Test failed'

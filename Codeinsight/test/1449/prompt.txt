@@ -1,4 +1,7 @@
-Reverse sort a dictionary var0 based on its values
+Create a pandas DataFrame from a CSV-formatted string var0.
+
+import pandas as pd
+from io import StringIO
 
 def test(var0):
 

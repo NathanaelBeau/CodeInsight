@@ -1,4 +1,4 @@
-Extract the last segment of a dot-notation string str0
+reverse the input string str0  
 
 def test(str0):
 

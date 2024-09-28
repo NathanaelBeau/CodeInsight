@@ -1,5 +1,3 @@
-df0 = pd.DataFrame({"B": ["dog", "cat", "rat", "bat", "mat"]})
-var0 = "B"
-var1 = r"at$"  # Strings ending with 'at'
-expected_result =  pd.DataFrame({"B": ["dog"]})
-assert test(df0, var0, var1).equals(expected_result), 'Test failed'
+str0 = "The Quick Brown Fox Jumps Over The Lazy Dog."
+expected_output = ['The', 'Quick', 'Brown', 'Fox', 'Jumps', 'Over', 'The', 'Lazy', 'Dog.']
+assert test(str0) ==expected_output, 'Test failed'

@@ -1,1 +1,2 @@
-Create a dataframe with columns named columns_list0 and n_rows0 number of rows filled with NaNs of type float.
+Merge a given series var0 with a dataframe df0.
+

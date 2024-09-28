@@ -1,5 +1,4 @@
-Sorting the content of a dictionary dict0 by the value and by the key   
+Sum the corresponding elements of multiple lists lst_args
 
-import operator
-def test(dict0):
+def test(*lst_args):
 

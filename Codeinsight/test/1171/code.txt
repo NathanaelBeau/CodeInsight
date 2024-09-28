@@ -1,7 +1,5 @@
-from collections import Counter
+import pandas as pd
+import numpy as np
 
-def test(lst0):
-    result = Counter()
-    for d in lst0:
-        result.update(d)
-    return dict(result.most_common())
+def test(df0, col_name):
+    return df0[df0[col_name].notna()]

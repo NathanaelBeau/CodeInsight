@@ -1,1 +1,1 @@
-how to convert a datetime string str0 back to datetime object?   
+Convert the list of tuples lst0 into a single sequence of elements.

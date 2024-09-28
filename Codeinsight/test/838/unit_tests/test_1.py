@@ -1,4 +1,3 @@
-lst0 = ['apple', 'banana', 'orange']
-lst1 = ['orange', 'kiwi', 'grapefruit']
-expected_output = ['orange']
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+str0 = "Hello, world!"
+expected_output = ['Hello, world!']
+assert test(str0) ==expected_output, 'Test failed'

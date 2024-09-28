@@ -1,2 +1,5 @@
-def test(str0):
-    return str0.startswith(('0', '1', '2', '3', '4', '5', '6', '7', '8', '9'))
+def test(dict0, var0):
+    for value in dict0.values():
+        if value == var0:
+            return True
+    return False

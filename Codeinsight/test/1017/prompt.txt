@@ -1,4 +1,4 @@
-Copy the elements of list lst0 into a new list.
+Extract a substring from string s starting from the position beginning with a length of LENGTH.
 
-def test(lst0):
+def test(s: str, beginning: int, LENGTH: int) -> str:
 

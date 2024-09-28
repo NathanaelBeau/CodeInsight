@@ -1,1 +1,1 @@
-Convert pandas group by object to multi-indexed Dataframe    on dataframe df0 with index  columns var0
+Format string - spaces between every three digit  in string var0 

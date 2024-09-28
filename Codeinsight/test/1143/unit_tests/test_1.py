@@ -1,3 +1,3 @@
-str0 = "x=10 y=20 z=30"
-expected_output = {'x': 10, 'y': 20, 'z': 30}
-assert test(str0) ==expected_output, 'Test failed'
+df0 = pd.DataFrame({'X': ['a'], 'Y': ['b'], 'Z': ['c']})
+expected_result =  [['a', 'b', 'c']]
+assert test(df0) == expected_result, 'Test failed'

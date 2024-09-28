@@ -1,6 +1,4 @@
-Make new column 'sum' in Panda dataframe df0 by adding values from other columns  lst0
+Elegant way to transform a list of dict lst0 into a dict of dicts   using key var0
 
-import pandas as pd
-
-def test(df0, lst0):
+def test(lst0, var0):
 

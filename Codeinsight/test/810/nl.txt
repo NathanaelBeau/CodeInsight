@@ -1,5 +1,1 @@
-Compare elements in two NumPy arrays, 
-arr0
-arr0 and 
-arr1
-arr1, and return a boolean array of the same shape indicating element-wise comparison  
+python - replace the boolean value of a list lst0 with the values from two different lists var0 and var1 with values from var0 for True and values from var1 for False  

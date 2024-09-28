@@ -1,1 +1,3 @@
-assert test("San Francisco", "city", [{"name": "Alice", "age": 30, "city": "New York"}, {"name": "Bob", "age": 25, "city": "San Francisco"}]) == True, 'Test failed'
+s3 = "hello🙂"
+expected_output3 = 9
+assert test(s3) == expected_output3, 'Test failed'

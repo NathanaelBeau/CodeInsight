@@ -1,6 +1,6 @@
-Create a new array by vertically stacking arr0 with versions of itself where -1, 0, and 1 have been added. Then, set every other column (starting from the first) of the resulting array to 0, and return the modified array.
+ Extract unique values from multiple columns lst0 in a dataframe df0
 
-import numpy as np
+import pandas as pd
 
-def test(arr0):
+def test(df0, lst0):
 

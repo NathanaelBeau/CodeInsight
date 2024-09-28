@@ -1,7 +1,4 @@
-Calculate the average of every three columns in the dataframe df0.
+Sorting list lst0 based on values from another list lst1  
 
-import pandas as pd
-import numpy as np
-
-def test(df0):
+def test(lst0, lst1):
 

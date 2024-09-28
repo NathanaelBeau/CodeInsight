@@ -1,2 +1,5 @@
 def test(lst0):
-    return sum(d['gold'] for d in lst0 if 'gold' in d)
+    result = []
+    for s in lst0:
+        result.append(s.split())
+    return result

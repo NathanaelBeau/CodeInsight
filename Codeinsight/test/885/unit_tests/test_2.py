@@ -1,7 +1,6 @@
-lst0 = [range(10, 15), range(10, 15), range(10, 15)]
-expected_output = [(10, 10, 10),
- (11, 11, 11),
- (12, 12, 12),
- (13, 13, 13),
- (14, 14, 14)]
-assert test(lst0) == expected_output, 'Test failed'
+var0 = 'x'
+var1 = 'y'
+lst0 = [1, 2, 3, 4, 5]
+lst1 = [5, 4, 3, 2, 1]
+expected_output = [0, 1, 2, 3, 4]
+assert (test(var0, var1, lst0,lst1) ==expected_output).all(), 'Test failed'

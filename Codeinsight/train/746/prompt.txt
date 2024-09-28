@@ -1,4 +1,4 @@
-insert a list lst0 at the front of another list lst1  
+Getting the first elements per row in an array lst0 in Python   
 
-def test(lst0, lst1):
+def test(lst0):
 

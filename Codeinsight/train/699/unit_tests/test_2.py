@@ -1,5 +1,4 @@
-str0 = "Mix"
-lst0 = ["Apple", "5", "Banana"]
-expected_result =  ["MixApple", "Mix5", "MixBanana"]
-result = test(str0, lst0)
+var0 = "This is a single line"
+expected_result =  "This is a single line"
+result = test(var0)
 assert result == expected_result, 'Test failed'

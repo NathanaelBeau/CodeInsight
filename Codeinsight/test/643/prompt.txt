@@ -1,4 +1,4 @@
-Sort the list lst0 in ascending order.
+ find the count of a word str1 in a string str0 with regex and counter  
 
-def test(lst0):
+def test(str0, str1):
 

@@ -1,7 +1,4 @@
-change a specific row at index var0 by var1 label in a Pandas dataframe   df0
+Dictionary to lowercase in Python  in dictionary dict0 
 
-import pandas as pd
-
-
-def test(df0, var0, var1):
+def test(dict0):
 

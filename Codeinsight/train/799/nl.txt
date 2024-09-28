@@ -1,1 +1,1 @@
-Sort a list of lists lst0 by the third element of each inner list
+ompute the L2 norm (Euclidean norm) for each row of a matrix named matrix0

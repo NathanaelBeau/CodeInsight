@@ -1,6 +1,6 @@
-Concatenate two numpy arrays arr0 and arr1 vertically.   
+Flatten the hierarchical index in columns of dataframe df0."
 
-import numpy as np
+import pandas as pd
 
-def test(arr0, arr1):
+def test(df0):
 

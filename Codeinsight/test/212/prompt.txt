@@ -1,6 +1,6 @@
-Normalize a numpy array arr0 to a unit vector.
+Replace all values in the column var0 of the pandas DataFrame df0 where they equal condition cond0 with var1.
 
-import numpy as np
+import pandas as pd
 
-def test(arr0):
+def test(df0, var0, cond0, var1):
 

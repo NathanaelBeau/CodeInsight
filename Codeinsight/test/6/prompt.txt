@@ -1,4 +1,6 @@
-convert list lst0 with str into list with int  
+Convert the values in column 'a' of the pandas dataframe df into a list.
 
-def test(lst0):
+import pandas as pd
+
+def test(df: pd.DataFrame) -> list:
 

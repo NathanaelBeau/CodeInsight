@@ -1,4 +1,3 @@
-var0 = pd.DataFrame({'prod_type': [], 'price': []})
-expected_result =  pd.DataFrame({'prod_type': [], 'price': []})
-result = test(var0)
-assert result.empty and expected_result.empty, 'Test failed'
+dict0 = {'x': [10], 'y': [10, 20], 'z': [10, 20, 30]}
+expected_result =  {'x': [10], 'y': [10, 20], 'z': [10, 20, 30]}
+assert test(dict0) == expected_result, 'Test failed'

@@ -1,6 +1,3 @@
-df0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry']})
-var0 = r'^a'
-var1 = 'A'
-expected_result =  pd.DataFrame({'A': ['Apple', 'banana', 'cherry']})
-result = test(df0, 'A', var0, var1)
-assert result.equals(expected_result), 'Test failed'
+str0 = "john.doe@example.com"
+expected_output = "john.doe"
+assert test(str0) ==expected_output, 'Test failed'

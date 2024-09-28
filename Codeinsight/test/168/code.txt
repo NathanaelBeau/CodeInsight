@@ -1,2 +1,4 @@
-def test(lst0: list, lst1: list) -> list:
-    return [x for x in lst0 if x in lst1]
+import re
+
+def test(var0):
+    return re.sub(r'[^a-zA-Z0-9 ]', '', var0)

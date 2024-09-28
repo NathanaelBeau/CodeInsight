@@ -1,1 +1,3 @@
-assert test([(1, 'a'), (2, 'b'), (3, 'c')]) == {1: 'a', 2: 'b', 3: 'c'}, 'Test failed'
+str0 = "1234567890"
+expected_output = "1234567890"
+assert test(str0) ==expected_output, 'Test failed'

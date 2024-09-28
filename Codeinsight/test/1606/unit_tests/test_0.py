@@ -1,6 +1,4 @@
-# Test 1
-df0 = pd.DataFrame({'A': [1, 11, 21], 'B': [4, 5, 6]})
-condition = "A > 10 & B < 5"
-expected_result =  pd.DataFrame({'A': [], 'B': []})
-result = test(df0, condition)
-assert result.shape == expected_result.shape and result.columns.equals(expected_result.columns), 'Test failed'
+arg0 = np.array([1, 2])
+arg1 = np.array([3, 4])
+expected_output = np.array([[3, 4], [6, 8]])
+assert (test(arg0,arg1)  == expected_output).all(), 'Test failed'

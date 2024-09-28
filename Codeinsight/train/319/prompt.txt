@@ -1,5 +1,6 @@
-Find the largest var0 elements in the numpy array arr0  
+Remove adjacent duplicate elements from a list lst0
 
-import numpy as np
-def test(arr0, var0):
+from itertools import groupby
+
+def test(lst0):
 

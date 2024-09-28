@@ -1,4 +1,2 @@
-import re
-
-def test(s: str) -> str:
-    return re.sub(r'\d+$', '', s)
+def test(dict0):
+    return len(dict0) + sum(len(v) for v in dict0.values())

@@ -1,1 +1,1 @@
-Generate an array of random floats between var0 and var1 with a size of var2
+convert a nested list lst0 into a one-dimensional list in Python   

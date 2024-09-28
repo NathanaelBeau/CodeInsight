@@ -1,1 +1,1 @@
-Delete digits in Python  with Regex in string str0 
+Generate a list of var2 unique random numbers between var0 and var1

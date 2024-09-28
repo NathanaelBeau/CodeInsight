@@ -1,5 +1,2 @@
-def test(str0):
-    try:
-        return int(str0)
-    except ValueError:
-        return None
+def test(dct0):
+    return dict(sorted(dct0.items(), key=lambda item: max(item[1]), reverse=True))

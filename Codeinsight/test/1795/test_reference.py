@@ -1,2 +1,4 @@
-def test(lst0):
-    return [set(item) for item in set(frozenset(item) for item in lst0)]
+import re
+
+def test(var0):
+    return re.findall(r'\b\d{1,3}\b', var0)

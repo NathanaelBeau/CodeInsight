@@ -1,3 +1,4 @@
-import numpy as np
-def test(arr0, var0):
-    return np.partition(arr0, -var0)[-var0:]
+from itertools import groupby
+
+def test(lst0):
+    return [key for key, group in groupby(lst0)]

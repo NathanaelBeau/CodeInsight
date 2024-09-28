@@ -1,4 +1,4 @@
-lst0 = ['apple', 'banana', 'cherry', 'date', 'fig']
-lst1 = [0, 2, 4]
-expected_output = ['apple', 'cherry', 'fig']
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+myDict2 = {'apple': 'fruit', 'dog': 'animal', 'car': 'vehicle', 'banana': 'fruit'}
+var0_2 = 'fruit'
+expected_output2 = {'dog': 'animal', 'car': 'vehicle'}
+assert test(myDict2, var0_2) == expected_output2, 'Test failed'

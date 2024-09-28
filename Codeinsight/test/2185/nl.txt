@@ -1,1 +1,0 @@
-Append pandas series s0 and s1 with the same index.

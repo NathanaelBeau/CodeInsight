@@ -1,4 +1,4 @@
-arr0 = np.array([10, 20, 30])
-expected_result =  "10, 20, 30"
-result = test(arr0)
-assert result == expected_result, 'Test failed'
+str0 = "OpenAI is amazing!"
+lst0 = ["Google", "Tesla"]
+expected_result =  False
+assert test(str0, lst0) == expected_result, 'Test failed'

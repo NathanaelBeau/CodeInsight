@@ -1,6 +1,4 @@
-split a string str0 at line breaks in python   
+Split dictionary of lists dict0 into list of dictionaries where each element of the list becomes the value of the key
 
-import re
-
-def test(str0):
+def test(dict0):
 

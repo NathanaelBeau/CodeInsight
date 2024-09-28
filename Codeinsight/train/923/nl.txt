@@ -1,1 +1,1 @@
-Sort a list of dictionaries lst0 by the date value.
+How to add items from list lst0 into a numpy array arr0   

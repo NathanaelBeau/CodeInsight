@@ -1,4 +1,5 @@
-var0 = pd.DataFrame({'X': [5, 6, 7], 'Y': [8, 9, 10]}, index=['red', 'green', 'blue'])
-expected_result =  ['red', 'green', 'blue']
-result = test(var0)
+set0 = {5, 6}
+lst0 = [3, 4]
+expected_result =  {3, 4, 5, 6}
+result = test(set0, lst0)
 assert result == expected_result, 'Test failed'

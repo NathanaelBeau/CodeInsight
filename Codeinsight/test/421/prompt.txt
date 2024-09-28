@@ -1,6 +1,4 @@
-Detect repeated sequences in the string var0.
+Check if all elements in a list lst0 are of type int
 
-import re
-
-def test(var0):
+def test(lst0):
 

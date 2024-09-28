@@ -1,5 +1,5 @@
-Create a new list by repeating each element in the input list lst0 or range a specified number of times var0.
+Concatenate rows of two dataframes, df0 and df1, in pandas
 
-from functools import reduce
-def test(var0, lst0):
+import pandas as pd
+def test(df0, df1):
 

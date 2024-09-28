@@ -1,1 +1,1 @@
-Find the first occurrence of any substring from list lst0 in string var0
+How can I use python itertools.groupby() and operator to group a list of strings lst0 by their first character?   

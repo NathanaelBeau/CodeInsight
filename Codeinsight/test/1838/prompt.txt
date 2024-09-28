@@ -1,6 +1,4 @@
-Extract all patterns matching square brackets, parentheses, double quotes, or non-space sequences from a string var0
+Appending value var0 to list at key str0 in Python dictionary  dict0 
 
-import re
-
-def test(var0):
+def test(dict0, str0, var0):
 

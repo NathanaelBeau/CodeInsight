@@ -1,4 +1,2 @@
-import re
-
-def test(str0: str) -> list:
-    return re.findall(r'[A-Z][^A-Z]*', str0)
+def test(lst0, var0, var1):
+	return all(var0 == var1 for (_, _, var0) in lst0)

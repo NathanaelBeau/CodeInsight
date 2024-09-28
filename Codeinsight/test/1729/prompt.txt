@@ -1,6 +1,7 @@
-Join dataframes df0, df1, and df2 on column 'name'.
+Calculate the mean of the nonzero values' indices from the DataFrame df0.
 
 import pandas as pd
+import numpy as np
 
-def test(df0, df1, df2):
+def test(df0):
 

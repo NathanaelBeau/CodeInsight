@@ -1,5 +1,6 @@
-var0 = np.array([10, 20, 30])
-var1 = np.array([10, 20, 30, 40, 50])
-expected_result =  False
-result = test(var0, var1)
+# Test 3
+mat0 = np.array([[-1, -2, -3], [-4, -5, -6]])
+val0 = 0
+expected_result =  6  # All values are negative, hence less than 0
+result = test(mat0, val0)
 assert result == expected_result, 'Test failed'

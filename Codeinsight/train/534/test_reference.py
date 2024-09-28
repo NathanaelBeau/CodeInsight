@@ -1,5 +1,2 @@
-def test(str0, lst0):
-    default_sep = lst0[0]
-    for sep in lst0[1:]:
-        str0 = str0.replace(sep, default_sep)
-    return [i.strip() for i in str0.split(default_sep)]
+def test(lst0):
+    return all(lst0.count(item) == 1 for item in lst0)

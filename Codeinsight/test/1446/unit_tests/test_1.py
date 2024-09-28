@@ -1,3 +1,4 @@
-dict0 = {'d': 4, 'c': 3, 'b': 2, 'a': 1}
-expected_output = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
-assert test(dict0) ==expected_output, 'Test failed'
+str0 = "98765432.10"
+var0 = ","
+expected_output = "$98,765,432.10"
+assert test(str0, var0) == expected_output, 'Test failed'

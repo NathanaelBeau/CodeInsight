@@ -1,1 +1,1 @@
-Extend each sublist within the list lst0 to have a specific length length by appending the value fill_value if elements are missing.  
+Combine two sequences var0 and var1 to create a dict where var0 is the key and var1 is the value

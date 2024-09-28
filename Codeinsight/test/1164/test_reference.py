@@ -1,4 +1,4 @@
-import numpy as np
+import pandas as pd
 
-def test(arr0: np.ndarray, arr1: np.ndarray) :
-    return np.mean(np.array([arr0, arr1]), axis=0)
+def test(df0, var0):
+    return df0[eval(var0)]

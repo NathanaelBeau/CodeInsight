@@ -1,1 +1,1 @@
-Extract dictionary containing specific item var0 for key var1 from list lst0 of dictionaries   
+Rename the column at position var0 in a dataframe df0 to a new name var1

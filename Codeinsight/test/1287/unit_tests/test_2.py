@@ -1,5 +1,5 @@
-# Test 2
-df0 = pd.DataFrame({ 'X': ['a', 'b', 'c'], 'Y': ['d', 'e', 'f'], 'Z': ['g', 'h', 'i'] })
-var0 = 'Z'
-expected_result =  pd.DataFrame({ 'X': ['a', 'b', 'c'], 'Y': ['d', 'e', 'f'] })
-assert test(df0.copy(), var0).equals(expected_result), 'Test failed'
+var0 = np.array([[True, True],
+                   [False, False]])
+expected_output = np.array([[0, 0],
+                              [0, 1]])
+assert (test(var0)  ==  expected_output).all(), 'Test failed'

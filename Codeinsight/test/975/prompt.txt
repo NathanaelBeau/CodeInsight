@@ -1,6 +1,6 @@
-Solve a pair of nonlinear equations defined by the function func using an initial guess initial_guess. 
+All combinations of a list of lists   lst0
 
-from scipy.optimize import fsolve
+from itertools import product
 
-def test(func, initial_guess):
+def test(lst0):
 

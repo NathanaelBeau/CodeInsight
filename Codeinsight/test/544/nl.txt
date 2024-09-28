@@ -1,1 +1,1 @@
-Convert a list lst0 into a string with values separated by spaces
+Convert Python dict  dict0 into a dataframe   

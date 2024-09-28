@@ -1,6 +1,6 @@
-Convert boolean values (True/False) in a pandas DataFrame df0 to integers (1/0).
+Find all characters in string var0 that are repeated consecutively.
 
-import pandas as pd
+import re
 
-def test(df0):
+def test(var0):
 

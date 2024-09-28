@@ -1,1 +1,1 @@
-Convert the string var0 to its hexadecimal representation.
+split a dataframe df0 string column var0 into two columns  var1

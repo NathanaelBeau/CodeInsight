@@ -1,6 +1,4 @@
-Check if the string var0 contains any upper or lower-case ASCII letters.
-
-import re
+Uniquify a list of dictionaries var0 with immutable values
 
 def test(var0):
 

@@ -1,1 +1,1 @@
-Convert the float64 numpy array arr0 to an integer array 
+Convert a comma-separated string str0 into a list of integers.

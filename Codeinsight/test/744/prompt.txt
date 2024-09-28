@@ -1,6 +1,4 @@
-Prepend a new level named var0 to the columns of a DataFrame df0 with a MultiIndex.
+Return a list containing unique sublists from the list of lists lst0.
 
-import pandas as pd
-
-def test(var0, df0):
+def test(lst0):
 

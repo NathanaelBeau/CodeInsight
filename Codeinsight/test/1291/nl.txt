@@ -1,1 +1,1 @@
-Rearrange the columns from list lst0 of pandas DataFrame df to the sequence mentioned in list lst1.
+use regular expression to separate numbers and characters in strings str0 like "30M1000N20M"   

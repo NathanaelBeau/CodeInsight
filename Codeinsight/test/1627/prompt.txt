@@ -1,4 +1,6 @@
-Append values var1 to a set var0 in Python   
+ sum the product of two list lst0 and lst1 items using sum and map in python  
 
-def test(var0, var1):
+from operator import mul
+
+def test(lst0, lst1):
 

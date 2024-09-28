@@ -1,6 +1,6 @@
-Sort a pandas data frame var0 by its column var1 with a custom sorting var2 resetting the index
+Parse 4th capital letter of line in Python in string str0   
 
-import pandas as pd
+import re
 
-def test(var0, var1, var2):
+def test(str0):
 

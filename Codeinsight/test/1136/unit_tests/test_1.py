@@ -1,5 +1,4 @@
-arr0 = np.array([5, 6, 7, 8, 9])
-var0 = 6
-expected_result =  1
-result = test(arr0, var0)
+lst0 = [True, False, True, False, True]
+expected_result =  [True, False, False, True]
+result = test(lst0)
 assert result == expected_result, 'Test failed'

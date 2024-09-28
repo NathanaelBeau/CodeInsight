@@ -1,7 +1,5 @@
-# Test 3
-import pandas as pd
-df0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry'], 'B': ['dog', 'cat', 'fish']})
-var0 = 'A'
-var1 = 'z.*'
-expected_result =  False
-assert test(df0, var0, var1) == expected_result, 'Test failed'
+str0 = "('a', 'b', 'c')"
+tpl0 = ('d', 'e', 'f')
+expected_result =  ('d', 'e', 'f', 'a', 'b', 'c')
+result = test(str0, tpl0)
+assert result == expected_result, 'Test failed'

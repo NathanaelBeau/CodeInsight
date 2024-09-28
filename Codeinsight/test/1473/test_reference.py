@@ -1,2 +1,3 @@
-def test(dict0):
-    return [y for x in dict0.items() for y in x]
+import numpy as np
+def test(lst0):
+    return np.array(lst0, dtype=object)

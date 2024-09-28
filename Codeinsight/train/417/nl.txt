@@ -1,1 +1,1 @@
-Convert strings containing digits in lst0 to integers and store the result in a new list.
+Extract dictionary containing specific item var0 for key var1 from list lst0 of dictionaries   

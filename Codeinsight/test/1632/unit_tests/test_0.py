@@ -1,5 +1,6 @@
-# Test 1
-df0 = pd.DataFrame({'A': [1, 2, 3, 2, 1]})
-expected_result =  pd.DataFrame({'A': [1, 2, 2, 1]})
-result = test(df0, 'A').reset_index(drop=True)
-assert result.equals(expected_result), 'Test failed'
+df0 = pd.DataFrame({'a': ['apple', 'banana', 'cherry', 'date'],
+                    'b': ['ant', 'bee', 'cat', 'dog']})
+var0 = 'a'
+var1 = 'a'
+expected_output = [True, True, False, True]
+assert test(df0, var0, var1) ==expected_output, 'Test failed'

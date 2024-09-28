@@ -1,3 +1,6 @@
-def test(str0):
-    dict0 = dict((k.strip(), v.strip()) for k,v in (item.split('-') for item in str0.split(',')))
-    return dict0
+def test(lst0, lst1):
+    common_elements = []
+    for item in lst0:
+        if item in lst1:
+            common_elements.append(item)
+    return set(common_elements)

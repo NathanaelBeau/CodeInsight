@@ -1,4 +1,5 @@
- convert a list of str lst0 to a list of floats   with split
+Convert a pandas series ser0 into a numpy array 
 
-def test(lst0):
+import pandas as pd
+def test(ser0):
 

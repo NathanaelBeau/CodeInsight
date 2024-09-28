@@ -1,1 +1,0 @@
-Remove all dictionaries from a list lst0 if their var0 key's value is present in list lst1

@@ -1,5 +1,3 @@
-# Test 2
-df0 = pd.DataFrame({'X': ['apple', 'banana'], 'Y': ['red', 'yellow']})
-expected_result =  np.array([('apple', 'red'), ('banana', 'yellow')])
-result = test(df0)
-assert np.array_equal(result, expected_result), 'Test failed'
+str0 = "This is a test string"
+expected_output = "This is a test string"
+assert test(str0) ==expected_output, 'Test failed'

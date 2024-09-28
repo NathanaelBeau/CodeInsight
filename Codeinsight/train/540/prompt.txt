@@ -1,4 +1,6 @@
-Delete all objects in a list  lst0
+Averaging the values in a dictionary dict0 for each keys and return a list of tuples
 
-def test(lst0) -> None:
+import pandas as pd
+
+def test(dict0):
 

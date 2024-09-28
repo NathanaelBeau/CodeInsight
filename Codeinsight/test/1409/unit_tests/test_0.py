@@ -1,5 +1,17 @@
-df0 = pd.DataFrame({'A': [5, 6, 3, 4], 'B': [1, 2, 3, 5]})
-lst0 = [3, 6]
-var0= "A"
-expected_output = pd.DataFrame({'A': [6, 3], 'B': [2, 3]}, index=[1, 2])
-assert test(df0, lst0, var0).equals(expected_output), 'Test failed'
+from bs4 import BeautifulSoup
+html_content = """
+<html>
+    <body>
+        <a href="#">Elsie</a>
+        <a href="#">Lacie</a>
+        <a href="#">Tillie</a>
+        <a href="#">Elsie</a>
+    </body>
+</html>
+"""
+soup = BeautifulSoup(html_content, 'html.parser')
+soup0 = soup
+str0 = 'Elsie'
+expected_result =  [tag for tag in soup.find_all('a') if tag.string == 'Elsie']
+result = test(soup0, str0)
+assert result == expected_result, 'Test failed'

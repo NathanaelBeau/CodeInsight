@@ -1,3 +1,2 @@
-
-def test(lst0, lst1):
-    return set(lst0).intersection(set(lst1))
+def test(var0, lst0):
+    return var0 not in lst0

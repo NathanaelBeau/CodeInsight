@@ -1,6 +1,0 @@
-Delete the column var0 from DataFrame df0.
-
-import pandas as pd
-
-def test(df0, var0):
-

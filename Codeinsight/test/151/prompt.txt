@@ -1,6 +1,4 @@
-Get all possible combinations of items from the 2-dimensional list lst0.
+count how many of an object type var0  there are in a list lst0 Python   
 
-from itertools import product
-
-def test(lst0):
+def test(lst0, var0):
 

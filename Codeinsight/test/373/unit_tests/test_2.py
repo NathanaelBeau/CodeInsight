@@ -1,6 +1,3 @@
-str0 = "xxxxxy"
-var0 = "y"
-var1 = "x"
-expected_result =  "y"
-result = test(str0, var0, var1)
-assert result == expected_result, 'Test failed'
+arg = pd.DataFrame({'City': ['New York', 'Los Angeles', 'Chicago'], 'Population': [8398748, 3990456, 2705994]})
+expected_output = {'City': {0: 'New York', 1: 'Los Angeles', 2: 'Chicago'}, 'Population': {0: 8398748, 1: 3990456, 2: 2705994}}
+assert test(arg) == expected_output, 'Test failed'

@@ -1,1 +1,1 @@
-Reverse the digits of an integer var0.
+Python: Getting rid of \u200b from a string str0 using regular expressions   with replace

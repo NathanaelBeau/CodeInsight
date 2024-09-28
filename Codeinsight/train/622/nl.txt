@@ -1,1 +1,1 @@
- slice a numpy array arr0 to get both the first and last two rows   
+Convert a pandas DataFrame named df0 into a list of lists

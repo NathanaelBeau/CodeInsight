@@ -1,4 +1,4 @@
-from operator import itemgetter
+import os
 
-def test(lst0, var0):
-	return [*map(itemgetter(var0), lst0)]
+def test(var0, var1):
+    return os.path.commonprefix([var0, var1])

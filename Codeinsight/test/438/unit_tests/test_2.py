@@ -1,5 +1,6 @@
-var0 = "z"
-dct0 = {"x": 10, "y": {"w": 20}}
-expected_result =  None
-result = test(var0, dct0)
-assert result == expected_result, 'Test failed'
+# Test 2
+var0 = "123 abc 456"
+var1 = r"\d+"
+var2 = "-"
+expected_result =  "123- abc 456-"
+assert test(var0, var1, var2) == expected_result, 'Test failed'

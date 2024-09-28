@@ -1,3 +1,3 @@
-dict0 = {1: 'one', 2: 'two', 3: 'three'}
-expected_output = 'one'
-assert test(dict0) == expected_output, 'Test failed'
+df0 = pd.DataFrame({'A': [13]}, index=['d'])
+df2 = test(df0)
+assert df2.empty and (df2.index == df0.index).all(), 'Test failed'

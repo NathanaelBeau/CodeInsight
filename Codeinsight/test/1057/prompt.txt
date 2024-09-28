@@ -1,4 +1,6 @@
-Iterate and retrieve a list of numbers starting from var0 and ending just before var1, in reverse order.
+Convert columns into rows in the DataFrame df0.
 
-def test(var0: int, var1: int) -> list:
+import pandas as pd
+
+def test(df0):
 

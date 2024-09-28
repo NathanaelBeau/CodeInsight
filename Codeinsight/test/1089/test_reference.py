@@ -1,2 +1,4 @@
-def test(lst0, lst1):
-    return [item for item in lst0 if any(x in item for x in lst1)]
+import pandas as pd
+
+def test(df0):
+    return df0.to_dict(orient='records')

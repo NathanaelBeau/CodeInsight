@@ -1,3 +1,4 @@
-import numpy as np
-def test(arr0):
-    return not np.all(np.isreal(arr0))
+import pandas as pd
+
+def test(df0, lst0):
+    return df0.loc[:, ~df0.columns.isin(lst0)]

@@ -1,3 +1,6 @@
-def test(lst0, *args):
-    lengths = [len(lst0), *[len(arg) for arg in args]]
-    return all(length == lengths[0] for length in lengths)
+def test(lst0, lst1):
+    result = []
+    for s in lst0:
+        new_string = ' '.join([word for word in s.split() if word not in lst1])
+        result.append(new_string)
+    return result

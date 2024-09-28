@@ -1,1 +1,1 @@
-Generate a one-hot-encoded dataframe from a column var0 in dataframe df0
+Compare the values in column var0 with the values in column var1 of dataframe df0

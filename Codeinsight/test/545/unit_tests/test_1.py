@@ -1,3 +1,8 @@
-lst0 = [('apple', 50), ('banana', 20), ('cherry', 30), ('date', 10)]
-expected_output = [('date', 10), ('banana', 20), ('cherry', 30), ('apple', 50)]
-assert test(lst0) ==expected_output, 'Test failed'
+# Test 2
+df0 = pd.DataFrame({'numbers': [1, 2, 3, 1]})
+column_name = 'numbers'
+old_value = 1
+new_value = 10
+expected_result =  pd.DataFrame({'numbers': [10, 2, 3, 10]})
+result = test(df0, column_name, old_value, new_value)
+assert result.equals(expected_result), 'Test failed'

@@ -1,6 +1,6 @@
-Shift all elements in a numpy array arr0 by var0 positions
+Extract specific columns specified in the list lst0 from the pandas DataFrame df0 and create a new DataFrame as a copy.
 
-import numpy as np
+import pandas as pd
 
-def test(arr0, var0):
+def test(df0, lst0):
 

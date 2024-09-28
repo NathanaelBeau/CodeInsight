@@ -1,4 +1,4 @@
-import re
+import numpy as np
 
-def test(str0):
-    return re.sub(r'\(', '', str0)
+def test(arr0, arr1):
+    return np.ravel(np.column_stack((arr0, arr1)))

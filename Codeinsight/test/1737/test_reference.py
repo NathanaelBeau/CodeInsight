@@ -1,15 +1,7 @@
-import re
-def test(str0):
-    matches = []
-    start = 0
-    
-    while start < len(str0):
-        match = re.match(r'(\d+)([A-Z])', str0[start:])
-        if match:
-            num, char = match.groups()
-            matches.append((num, char))
-            start += len(num) + len(char)
-        else:
-            start += 1
-    
-    return matches
+def test(lst0):
+    unique_items = []
+    for item in lst0:
+        if item not in unique_items:
+            unique_items.append(item)
+    unique_items.sort()
+    return unique_items

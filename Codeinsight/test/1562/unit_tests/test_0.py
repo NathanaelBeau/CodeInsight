@@ -1,4 +1,5 @@
-y_true1 = [0, 1, 0, 1, 0, 1]  # Added more samples for balance
-y_pred1 = [0, 1, 1, 0, 0, 1]
-expected_output1 = (2, 1, 1, 2)
-assert test(y_true1, y_pred1) == expected_output1, 'Test failed'
+dict0 = {'a': [1, 2, 3], 'b': [4, 5]}
+key0 = 'a'
+expected_result =  3
+result = test(dict0, key0)
+assert result == expected_result, 'Test failed'

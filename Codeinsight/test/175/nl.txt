@@ -1,1 +1,1 @@
-Find the minimum and maximum values excluding zeros in numpy array (or tuple) arr0  
+Concatenate two DataFrames df0 and df1 while ignoring and resetting their indices  

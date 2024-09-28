@@ -1,6 +1,4 @@
-df_data = {'Group': ['G1', 'G1', 'G2', 'G2', 'G3'],
-           'Count': [100, 150, 80, 120, 200]}
-df0 = pd.DataFrame(df_data)
-var0 = 'Group'
-expected_output = df0.groupby(var0, as_index=False).first()
-assert test(df0, var0).equals(expected_output), 'Test failed'
+arr0 = np.array([[1, 1], [1, 1], [1, 1]])
+expected_result =  np.array([3, 3])
+result = test(arr0)
+assert np.array_equal(result, expected_result), 'Test failed'

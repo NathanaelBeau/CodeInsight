@@ -1,5 +1,4 @@
-Change values in column var2 to var1 where values in column var0 are equal to var1 in dataframe df0 
+Get a list comparing two lists of tuples lst0 and lst1 where any first value in lst0 matches the first value in lst1.
 
-import pandas as pd
-def test(df0, var0, var1, var2):
+def test(lst0, lst1):
 

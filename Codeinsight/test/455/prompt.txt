@@ -1,5 +1,4 @@
-Find both the minimum and maximum values of the numpy array arr0
+Python Finding Index of Maximum in List lst0 
 
-import numpy as np
-def test(arr0):
+def test(lst0):
 

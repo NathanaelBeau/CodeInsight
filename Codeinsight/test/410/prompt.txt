@@ -1,6 +1,4 @@
-Make new column 'sum' in Panda dataframe df0 by adding values from other columns  lst0
+Sort a list of version numbers (lst0) separated by dots in ascending order
 
-import pandas as pd
-
-def test(df0, lst0):
+def test(lst0):
 

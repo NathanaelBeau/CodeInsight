@@ -1,4 +1,4 @@
-Append values from list lst0 to a set set0
+Add tuple tpl0 to a list of tuples  lst0
 
-def test(set0, lst0):
+def test(lst0, tpl0):
 

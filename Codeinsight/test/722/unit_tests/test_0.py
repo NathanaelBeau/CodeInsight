@@ -1,3 +1,3 @@
-lst0 = [(1, 2, 3), (4, 5, 6), (7, 8, 9)]
-expected_output = [1, 4, 7]
-assert test(lst0) ==expected_output, 'Test failed'
+original_list = ["5", "apple", "8", "banana", "10"]
+expected_output = [5, "apple", 8, "banana", 10]
+assert test(original_list) == expected_output, 'Test failed'

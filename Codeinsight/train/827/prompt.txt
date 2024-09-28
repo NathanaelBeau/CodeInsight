@@ -1,6 +1,6 @@
-Convert the output of the .value_counts() method applied to a Series var0 to a DataFrame.
+Interweaving two numpy arrays   arr0 and arr1 with ravel
 
-import pandas as pd
+import numpy as np
 
-def test(var0):
+def test(arr0, arr1):
 

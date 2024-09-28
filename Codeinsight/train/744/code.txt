@@ -1,2 +1,2 @@
-def test(lst0):
-    return sorted(lst0, key=lambda s: [int(i) for i in s.split('.')])
+def test(df0):
+    return df0.groupby(df0.index).sum()

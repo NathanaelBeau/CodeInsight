@@ -1,1 +1,1 @@
-Rank items in a list lst0 using Python/NumPy, without sorting the list twice
+ split a list lst0 into evenly sized chunks of size  var0 

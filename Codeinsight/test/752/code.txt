@@ -1,5 +1,3 @@
-import pandas as pd
-
-def test(lst0):
-    df = pd.DataFrame(lst0[1:], columns=lst0[0])
-    return df
+import numpy as np
+def test(arr0):
+    return np.argwhere(np.isnan(arr0))

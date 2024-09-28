@@ -1,3 +1,7 @@
-lst0 = [1, 2, 3]
-lst1 = [1, 2, 3, 4, 5]
-assert test(lst0, lst1) == True, 'Test failed'
+# Test 1
+df0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry']})
+col_name = 'A'
+substring = 'apple'
+expected_result =  pd.DataFrame({'A': ['banana', 'cherry']},index=[1, 2])
+result = test(df0, col_name, substring)
+assert result.equals(expected_result), 'Test failed'

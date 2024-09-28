@@ -1,3 +1,8 @@
-def test(dict0) :
-    reversed_dict = dict(map(reversed, dict0.items()))
-    return reversed_dict
+def test(lst0, lst1):
+    merged_list = []
+    for x, y in zip(lst0, lst1):
+        if isinstance(x, list):
+            merged_list.append(x + y)
+        else:
+            merged_list.append([x] + y)
+    return merged_list

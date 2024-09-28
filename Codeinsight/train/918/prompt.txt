@@ -1,4 +1,4 @@
-Convert a list lst0 into a dictionary where each key is the element at index i and its corresponding value is the element at index i+1
+Remove all occurrences of the string var0 from the list lst0.
 
-def test(lst0):
+def test(lst0, var0='\xe2'):
 

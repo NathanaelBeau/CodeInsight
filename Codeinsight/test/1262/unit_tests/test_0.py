@@ -1,6 +1,3 @@
-# Test 1
-df0 = pd.DataFrame({'A': [1, 2, 3, 4, 5]})
-col_name = 'A'
-expected_result =  3.0
-result = test(df0, col_name)
-assert result == expected_result, 'Test failed'
+lst0 = [{'a': 1, 'b': {'c': 2}}, {'a': 3, 'b': {'c': 4}}]
+expected_result =  pd.DataFrame({'a': [1, 3], 'b.c': [2, 4]})
+assert test(lst0).equals(expected_result), 'Test failed'

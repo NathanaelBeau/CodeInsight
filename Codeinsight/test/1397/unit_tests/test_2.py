@@ -1,4 +1,5 @@
-s3 = "apple...banana....orange.....grape"
-pattern3 = "\.{2,}"
-expected_output3 = ['apple', 'banana', 'orange', 'grape']
-assert test(s3, pattern3) == expected_output3, 'Test failed'
+# Test 3
+str0 = '0011'
+expected_result =  ['0', '0', '1', '1']
+result = test(str0)
+assert result == expected_result, 'Test failed'

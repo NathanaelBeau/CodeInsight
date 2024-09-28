@@ -1,4 +1,4 @@
-lst0 = [12, 8, 20, 5, 17, 10]
-var0 = 2
-expected_output = [4, 2]
-assert test(lst0, var0) ==expected_output, 'Test failed'
+import pandas as pd
+import numpy as np
+df1 = pd.DataFrame({'A': [1, 2, np.nan], 'B': [4, np.nan, 6]})
+assert test(df1) == True, 'Test failed'

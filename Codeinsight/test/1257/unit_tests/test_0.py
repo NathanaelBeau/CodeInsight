@@ -1,4 +1,4 @@
-dict0 = {'key1': 'value1', 'key2': 'value2', 'key3': 'value3'}
-expected_output = ['key1', 'key2', 'key3']
-result = test(dict0)
-assert result == expected_output, 'Test failed'
+lst0 = ['Hello\tWorld', 'Python\tRocks', 'OpenAI\tGPT']
+expected_result =  [['Hello', 'World'], ['Python', 'Rocks'], ['OpenAI', 'GPT']]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

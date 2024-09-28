@@ -1,4 +1,4 @@
-var0 = {'3': 'a', '1': 'b', '2': 'c'}
-expected_result =  {'1': 'b', '2': 'c', '3': 'a'}
-result = test(var0)
+lst0 = [(1, "apple"), (1, "a"), (1, "apples")]
+expected_result =  [(1, "a"), (1, "apple"), (1, "apples")]
+result = test(lst0)
 assert result == expected_result, 'Test failed'

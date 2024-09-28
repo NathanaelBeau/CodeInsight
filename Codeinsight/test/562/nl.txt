@@ -1,1 +1,1 @@
-Find all integers in the string var0 that have at least var1 digits.
+How to repeat var0 times individual characters in strings str0 in Python  with itertools

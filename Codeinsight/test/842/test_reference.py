@@ -1,6 +1,2 @@
-from bisect import bisect
-
-def test(lst0):
-    lst0.sort()
-    i = bisect(lst0, 0)  # use `bisect_left` instead if you want zeros first
-    return lst0[i:] + lst0[:i]
+def test(lst0, var0):
+    return sorted(range(len(lst0)), key=lambda i: lst0[i])[-var0:]

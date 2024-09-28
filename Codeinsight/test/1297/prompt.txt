@@ -1,4 +1,4 @@
-Slicing a list lst0 into a list of sub-lists of lenght n  
+Determine if all the words in the list lst0 exist in the string var0.
 
-def test(lst0, n):
+def test(var0, lst0):
 

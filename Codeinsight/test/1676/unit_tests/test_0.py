@@ -1,4 +1,4 @@
-var0 = "There are 3 apples and 5 oranges."
-expected_result =  ["3", "5"]
+var0 = pd.DataFrame({'A': [np.nan, 2.0, 3.0], 'B': [4.0, np.nan, 6.0]})
+expected_result =  pd.DataFrame({'A': [0.0, 2.0, 3.0], 'B': [4.0, 0.0, 6.0]})
 result = test(var0)
-assert result == expected_result, 'Test failed'
+assert result.equals(expected_result), 'Test failed'

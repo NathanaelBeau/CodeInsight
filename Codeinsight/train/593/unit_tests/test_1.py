@@ -1,3 +1,4 @@
-str0 = "hello"
-expected_output = "ehllo"
-assert test(str0) ==expected_output, 'Test failed'
+var0 = {'cat': 'meow', 'dog': 'woof', 'elephant': 'trumpet'}
+expected_result =  [('cat', 'meow'), ('elephant', 'trumpet'), ('dog', 'woof')]
+result = test(var0)
+assert result == expected_result, 'Test failed'

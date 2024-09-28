@@ -1,4 +1,4 @@
-import numpy as np
+import re
 
-def test(var0):
-    return [(i, j) for i in range(var0.shape[0]) for j in range(var0.shape[1]) if var0[i, j]]
+def test(str0):
+    return re.split("\s+", str0)

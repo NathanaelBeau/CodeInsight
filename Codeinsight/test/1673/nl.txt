@@ -1,1 +1,1 @@
-Flattening a list of NumPy arrays lst0  
+Get the immediate minimum among a list of numbers lst0 in python   

@@ -1,5 +1,6 @@
-Iterate over the elements of the numpy array arr0 and return them in a list
+Concatenate two one-dimensional NumPy arrays arr0 and arr1.
 
 import numpy as np
-def test(arr0):
+
+def test(arr0: np.ndarray, arr1: np.ndarray) -> np.ndarray:
 

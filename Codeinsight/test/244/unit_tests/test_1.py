@@ -1,4 +1,4 @@
-dict0 = { 'dog': [9, 12, 15], 'cat': [2, 6, 8], 'bird': [3, 5, 11] }
-lst0 = 2
-expected_output = [('cat', [2, 6, 8]), ('bird', [3, 5, 11]), ('dog', [9, 12, 15])]
-assert test(dict0, lst0) ==expected_output, 'Test failed'
+# Test 3
+df0 = pd.DataFrame({ 'col1': [10], 'col2': [40] })
+expected_result =  ['col1', 'col2']
+assert test(df0) == expected_result, 'Test failed'

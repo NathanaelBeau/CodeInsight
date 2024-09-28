@@ -1,6 +1,5 @@
-Replacing few values var0 by  another values var1 in a pandas dataframe  df0 at column   col0
+Create a new list by repeating each element in the input list lst0 or range a specified number of times var0.
 
-import pandas as pd
-
-def test(df0, col0, var0, var1):
+from functools import reduce
+def test(var0, lst0):
 

@@ -1,1 +1,1 @@
-Create a new list of lists by subtracting 1, 0, and -1 from elements in lst0 at odd indices, while setting elements at even indices to 0. Return the resulting list of lists.
+Create a new DataFrame with columns named df1 and df2, containing the values from the var0 column of the original df1 and df2 DataFrames, respectively.

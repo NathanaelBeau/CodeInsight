@@ -1,4 +1,4 @@
-df0 = pd.DataFrame({'name': ['John (Doe)', 'Jane (Smith)', 'Mike (Johnson)']})
-expected_result =  pd.DataFrame({'name': ['John ', 'Jane ', 'Mike ']})
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+str0 = "This is sentence 1. This is sentence 2. This is sentence 3. This is sentence 4."
+var0 = 2  
+expected_output = "This is sentence 1. This is sentence 2."
+assert test(str0, var0) == expected_output, 'Test failed'

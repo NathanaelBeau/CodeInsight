@@ -1,6 +1,3 @@
-import pandas as pd
-
-def test(df0, var0):
-    sorted_df = df0.sort_values(by=var0)
-    sorted_df.index = range(len(sorted_df))
-    return sorted_df
+def test(var0):
+    chars_to_remove = "!@#$"
+    return ''.join([char for char in var0 if char not in chars_to_remove])

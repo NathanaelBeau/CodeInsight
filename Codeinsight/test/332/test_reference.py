@@ -1,2 +1,2 @@
-def test(str0):
-    return str0.encode('utf-8')
+def test(s: str) -> str:
+    return s[::-1]

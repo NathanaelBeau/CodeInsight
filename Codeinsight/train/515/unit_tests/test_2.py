@@ -1,3 +1,4 @@
-str0 = '12345678'
-expected_output = '12-34-56-78'
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = [True, False, True]
+expected_result =  "True\nFalse\nTrue"
+result = test(lst0)
+assert result == expected_result, 'Test failed'

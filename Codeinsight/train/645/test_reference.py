@@ -1,5 +1,2 @@
-import numpy as np
-
-def test(arr0, arr1):
-    result = np.outer(arr0, arr1)
-    return result
+def test(lst0):
+    return [d['value'] for d in lst0 if 'value' in d]

@@ -1,3 +1,4 @@
-var0 = "[This] is (a) test \"string\"."
-expected_output = ['[This]', 'is', '(a)', 'test', '"string"', '.']
-assert test(var0) == expected_output, 'Test failed'
+s2 = "1a23b456c"
+pattern2 = "\d+"
+expected_output2 = [(0, 1, '1'), (2, 4, '23'), (5, 8, '456')]
+assert test(s2, pattern2) == expected_output2, 'Test failed'

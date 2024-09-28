@@ -1,4 +1,6 @@
-Insert 0s before each element in a 2D list lst0
+Find and return all newline characters in the string var0
 
-def test(lst0):
+import re
+
+def test(var0):
 

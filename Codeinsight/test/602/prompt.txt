@@ -1,4 +1,6 @@
-merge a list of dicts lst0 into a single dict  with reduce
+Compute the Euclidean distance between two multidimensional points, lst0 and lst1
 
-def test(lst0):
+import numpy as np
+
+def test(lst0, lst1):
 

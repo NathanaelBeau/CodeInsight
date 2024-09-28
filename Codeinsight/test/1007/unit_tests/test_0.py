@@ -1,4 +1,5 @@
-arr0 = [1, 2, 1.8E308, 1.8E308, 42]
-var0 = 1E308
-expected_output = [1, 2, 0, 0, 42]
-assert test(arr0, var0) ==expected_output, 'Test failed'
+# Test 1
+df0 = pd.DataFrame({'A': [1, 2, 3, 2, 1]})
+expected_result =  pd.DataFrame({'A': [1, 2, 2, 1]})
+result = test(df0, 'A').reset_index(drop=True)
+assert result.equals(expected_result), 'Test failed'

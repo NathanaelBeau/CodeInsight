@@ -1,6 +1,4 @@
-Subtract values from list lst0 by values from list lst1
+Get the first 3 and last 3 elements from the list lst0
 
-from operator import sub
-
-def test(lst0, lst1):
+def test(lst0):
 

@@ -1,2 +1,8 @@
-def test(lst0):
-    return max(range(len(lst0)), key=lambda index: lst0[index]['size'])
+import binascii
+
+def test(str0):
+    try:
+        hex_num = int(str0, 16)
+        return hex_num
+    except ValueError:
+        return None

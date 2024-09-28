@@ -1,4 +1,2 @@
-import re
-
-def test(var0):
-    return re.sub(r'(\w+)\s+\1', r'\1', var0)
+def test(var0, var1):
+    return var1.replace(var0, "")

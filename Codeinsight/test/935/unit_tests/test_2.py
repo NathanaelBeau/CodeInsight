@@ -1,5 +1,5 @@
-df0 = pd.DataFrame({'W': ['c', 'd', 'c', 'd'], 'Z': [100, 200, 300, 400]})
-column_name0 = 'W'
-expected_result =  pd.DataFrame({'W': ['c', 'd'], 'Z': [400, 600]})
-result = test(df0.copy(), column_name0)
-assert result.equals(expected_result), 'Test failed'
+arr2 = np.array([10, 20, 30, 40])
+var4 = 5
+var5 = 10
+expected_output_2 = np.array([ 5.,  6.66666667,  8.33333333, 10.])
+assert np.allclose(test(arr2, var4, var5), expected_output_2), 'Test failed'

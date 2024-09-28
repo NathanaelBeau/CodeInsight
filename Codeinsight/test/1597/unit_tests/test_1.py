@@ -1,7 +1,5 @@
-df0 = pd.DataFrame({ 'User': ['A', 'A', 'B', 'B', 'C', 'C'], 'X': [1, 1, 2, 3, 0, 0] })
-var0 = 'User'
-var1 = 'X'
-var2 = 0
-expected_output = pd.DataFrame({ 'User': ['C', 'C'], 'X': [0, 0] })
-result = test(df0, var0, var1, var2)
-assert expected_output.reset_index(drop=True, inplace=True)==result.reset_index(drop=True, inplace=True), 'Test failed'
+df0 = pd.DataFrame({ 'apple': [10, 11, 12], 'kiwi': [13, 14, 15], 'banana': [16, 17, 18] })
+str0 = 'a'
+expected_result =  pd.DataFrame({ 'kiwi': [13, 14, 15] })
+result = test(df0, str0)
+assert result.equals(expected_result), 'Test failed'

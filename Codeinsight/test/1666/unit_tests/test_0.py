@@ -1,5 +1,4 @@
-var0 = "c"
-dct0 = {"a": 1, "b": {"c": 2, "d": 3}}
-expected_result =  2
-result = test(var0, dct0)
+lst0 = [['A', 1]]
+expected_result =  {'A': 1}
+result = test(lst0)
 assert result == expected_result, 'Test failed'

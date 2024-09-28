@@ -1,4 +1,5 @@
-Split string var0 into a list of its characters.
+Generate all possible combinations (Cartesian product) of elements from the list of lists lst0, and return the results as a list of tuples.
 
-def test(var0):
+import itertools
+def test(lst0):
 

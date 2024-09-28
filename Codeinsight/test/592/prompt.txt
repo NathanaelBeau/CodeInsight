@@ -1,4 +1,4 @@
-Extract all rows from dataframe df0 where the value of column 'Value' is True.
+ convert a list of str lst0 to a list of floats   
 
-def test(df0):
+def test(lst0):
 

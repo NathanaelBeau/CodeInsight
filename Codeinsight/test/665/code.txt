@@ -1,6 +1,6 @@
-import re
+import numpy as np
 
-def test(str0, var0):
-    var0 = r'(\d+|\W+)'
-    return [i for i in re.split(var0, str0) if i]
-
+def test(var0):
+    min_value = var0.min()
+    min_indices = np.argwhere(var0 == min_value)
+    return min_indices.flatten()

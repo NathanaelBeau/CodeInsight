@@ -1,4 +1,5 @@
-Get all items from list lst0 that are not present in list lst1
+ sum values in a column in dataframe pandas df0 that match a given condition which is var0 using  query
 
-def test(lst0, lst1):
+import pandas as pd
+def test(df0, var0):
 

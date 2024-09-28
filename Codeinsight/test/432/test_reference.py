@@ -1,2 +1,4 @@
-def test(lst0):
-	return all(x == lst0[0] for x in lst0)
+import re
+
+def test(str0):
+    return re.split(r'[;,\s]\s*', str0)

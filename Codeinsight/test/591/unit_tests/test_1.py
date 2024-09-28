@@ -1,3 +1,3 @@
-lst0 = [('a', 1)]
-expected_output = {'a': [1]}
-assert test(lst0) ==expected_output, 'Test failed'
+lst0 = [10, 20, 30, 40, 50]
+expected_result =  30.0
+assert test(lst0) == expected_result, 'Test failed'

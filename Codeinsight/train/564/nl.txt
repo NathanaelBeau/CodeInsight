@@ -1,1 +1,1 @@
-calculate the total number of missing (null) values in a DataFrame df0. 
+Append the DataFrame df1 to the (potentially empty) DataFrame df0 and reset the index.

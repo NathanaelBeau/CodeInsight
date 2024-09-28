@@ -1,4 +1,6 @@
-Split a given string var0 by commas and replace any empty strings with '0
+Convert a pandas dataframe df to a list of dictionaries, where each dictionary represents a row.
 
-def test(var0):
+import pandas as pd
+
+def test(df: pd.DataFrame) -> list:
 

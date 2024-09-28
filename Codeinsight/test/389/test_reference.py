@@ -1,2 +1,2 @@
 def test(str0):
-    return list(filter(None, map(str.strip, str0.split(','))))
+    return ''.join([char * 3 for char in str0])

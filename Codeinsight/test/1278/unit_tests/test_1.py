@@ -1,3 +1,3 @@
-str0 = "1234567890"
-expected_output = "1234567890"
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = []
+expected_output = 0
+assert test(lst0) ==expected_output, 'Test failed'

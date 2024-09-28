@@ -1,6 +1,5 @@
-# Test 3
-var0 = "No separation here."
-var1 = "separation"
-var2 = "division"
-expected_result =  "No division here."
-assert test(var0, var1, var2) == expected_result, 'Test failed'
+arr0 = np.array([6, 7, 8, 9])
+var0 = 10
+expected_result =  np.array([6, 7, 8, 9, 10])
+result = test(arr0, var0)
+assert np.array_equal(result, expected_result), 'Test failed'

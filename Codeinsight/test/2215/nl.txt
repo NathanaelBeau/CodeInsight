@@ -1,1 +1,0 @@
-Delete all columns in DataFrame df0 that do not hold a non-zero value in its records.

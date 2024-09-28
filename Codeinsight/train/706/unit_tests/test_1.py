@@ -1,4 +1,3 @@
-lst0 = [[10, 20, 30], [40, 50, 60], [70, 80, 90]]
-expected_result =  450
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+var0 = pd.DataFrame({'variable': ['apple', 'banana', 'apple', 'orange', 'banana']})
+expected_output = pd.Series({'banana': 2, 'apple': 2, 'orange': 1}, name='variable').sort_index()
+assert test(var0).sort_index().equals(expected_output), 'Test failed'

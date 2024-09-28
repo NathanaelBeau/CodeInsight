@@ -1,2 +1,4 @@
-def test(str0):
-    return [x.strip() for x in str0.split(',')]
+import pandas as pd
+
+def test(df0, var0):
+    return df0[[var0]]

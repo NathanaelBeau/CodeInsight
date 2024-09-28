@@ -1,4 +1,5 @@
-lst0 = ['X', 10, 'Y', 20]
-expected_result =  {'X': 10, 'Y': 20}
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+# Test 3
+lst0 = ['\xe2', '\xe2', '\xe2']
+var0 = '\xe2'
+expected_result =  []
+assert test(lst0, var0) == expected_result, 'Test failed'

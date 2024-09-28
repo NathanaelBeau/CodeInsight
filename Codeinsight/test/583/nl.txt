@@ -1,1 +1,1 @@
-Sort the list lst0 based on values from another list lst1.
+From the list lst0, remove any element containing characters that match the pattern var0.

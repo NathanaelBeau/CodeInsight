@@ -1,4 +1,5 @@
-import numpy as np
+import pandas as pd
 
-def test(arr0):
-    return (arr0 - arr0.min()) / (arr0.max() - arr0.min())
+def test(df0, col0):
+    df0.loc[:, col0] = df0[col0].shift(-1)
+    return df0

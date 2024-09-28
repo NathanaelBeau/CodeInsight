@@ -1,6 +1,6 @@
-Merge two dataframes, df0 and df1, based on their indices.  
+Remove all columns with names starting with 'Unnamed' in a pandas dataframe df0 
 
 import pandas as pd
 
-def test(df0, df1):
+def test(df0):
 

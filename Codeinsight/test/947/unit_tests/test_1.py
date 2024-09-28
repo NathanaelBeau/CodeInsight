@@ -1,3 +1,5 @@
-lst0 = [10, 20, 30, 40, 50]
-expected_result =  30.0
-assert test(lst0) == expected_result, 'Test failed'
+var0 = pd.DataFrame({'A': [1.0, 2.0, 3.0]})
+col0 = 'A'
+expected_result =  var0.astype(str)
+result = test(var0, col0)
+assert result.equals(expected_result), 'Test failed'

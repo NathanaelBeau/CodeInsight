@@ -1,5 +1,0 @@
-Delete rows and columns from a NumPy array arr0 using lists of indices lst0 and lst1 respectively.
-
-import numpy as np
-def test(arr0, lst0, lst1):
-

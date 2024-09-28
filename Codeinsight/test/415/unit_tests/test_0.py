@@ -1,5 +1,4 @@
-var0 = 'col1'
-var1 = [{'col1': 1, 'col2': 'a'}, {'col1': 2, 'col2': 'b'}, {'col1': 3, 'col2': 'c'}]
-expected_result =  [1, 2, 3]
-result = test(var0, var1)
-assert result==expected_result, 'Test failed'
+str0 = "hello 42.1 I'm a 32.1 string 30.1"
+expected_output = ['42.1', '32.1', '30.1']
+result = test(str0)
+assert result == expected_output, 'Test failed'

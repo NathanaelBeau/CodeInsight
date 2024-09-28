@@ -1,1 +1,1 @@
-Retrieve the first var0 rows from a dataframe df0
+in Python,  join a list of tuples lst0 into one list   

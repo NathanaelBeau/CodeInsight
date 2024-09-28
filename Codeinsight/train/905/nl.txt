@@ -1,1 +1,1 @@
-Retrive all dimensions of an array arr0 except the index var1 of the first dimension
+Select rows from the pandas DataFrame df0 where the date in column var0 is between date0 and date1.

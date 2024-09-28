@@ -1,1 +1,1 @@
-Add a single element var0 to the numpy array lst0
+Extract all keys from a list of dictionaries  lst0 with itertools chain 

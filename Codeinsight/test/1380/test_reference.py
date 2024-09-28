@@ -1,2 +1,3 @@
+import numpy as np
 def test(lst0):
-    return [int(s) for s in lst0]
+    return np.array(lst0)

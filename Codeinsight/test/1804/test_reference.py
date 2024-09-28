@@ -1,4 +1,4 @@
-import math
+import re
 
 def test(lst0):
-    return min(lst0, key=lambda x: float('inf') if math.isnan(x[1]) else x[1])
+    return [x for x in lst0 if not re.search(r'\d', x)]

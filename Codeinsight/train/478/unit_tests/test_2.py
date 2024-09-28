@@ -1,6 +1,4 @@
-# Test 3
-lists = [['John', 'Jane'], [30, 25], ['M', 'F']]
-col_names = ['name', 'age', 'gender']
-expected_result =  pd.DataFrame({'name': ['John', 'Jane'], 'age': [30, 25], 'gender': ['M', 'F']})
-result = test(lists, col_names)
+var0 = pd.DataFrame({'X': ['a', 'b', 'c'], 'Y': ['d', 'e', 'f']})
+expected_result =  pd.DataFrame({'X': ['c', 'b', 'a'], 'Y': ['f', 'e', 'd']}).reset_index(drop=True)
+result = test(var0).reset_index(drop=True)
 assert result.equals(expected_result), 'Test failed'

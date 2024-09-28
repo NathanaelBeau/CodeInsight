@@ -1,5 +1,4 @@
-var0 = "abcde"
-var1 = "abcdef"
-expected_result =  True
-result = test(var0, var1)
+lst0 = ['a', 1, 'b', 2, 'c', 3]
+expected_result =  {'a': 1, 'b': 2, 'c': 3}
+result = test(lst0)
 assert result == expected_result, 'Test failed'

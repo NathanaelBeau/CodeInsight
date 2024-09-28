@@ -1,9 +1,5 @@
-arr0 = np.array([[5, 10, 15, 20],
-                   [25, 30, 35, 40],
-                   [45, 50, 55, 60],
-                   [65, 70, 75, 80]])
-expected_output = np.array([[5, 10, 15, 20],
-                              [25, 30, 35, 40],
-                              [45, 50, 55, 60],
-                              [65, 70, 75, 80]])
-assert (test(arr0)  == expected_output).all(), 'Test failed'
+df0 = pd.DataFrame({'C': [7, 8, 9]})
+var0 = 3
+expected_output = pd.DataFrame({'C': [7, 8, 9, 7, 8, 9, 7, 8, 9]})
+result = test(df0, var0)
+assert result['C'].tolist() == expected_output['C'].tolist(), 'Test failed'

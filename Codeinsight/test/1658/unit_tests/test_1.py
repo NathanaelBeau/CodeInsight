@@ -1,4 +1,4 @@
-lst0 = [-1, 0, 1]
-expected_result =  (-1)**2 + 0**2 + 1**2  # 2
-result = test(lst0)
+var0 = 9876
+expected_result =  [9, 8, 7, 6]
+result = test(var0)
 assert result == expected_result, 'Test failed'

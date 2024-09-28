@@ -1,4 +1,2 @@
-import re
-
-def test(str0):
-    return re.sub("\s\s+", " ", str0)
+def test(var0):
+    return [name for name, value in locals().items() if value is var0][0]

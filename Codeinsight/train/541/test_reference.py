@@ -1,5 +1,2 @@
-import pandas as pd
-
-def  test(df):
-    df.rename(columns={'var0': 'var1'}, inplace=True)
-    return df
+def test(lst0):
+	return [ x for x in lst0 if x[1] == 1 ]

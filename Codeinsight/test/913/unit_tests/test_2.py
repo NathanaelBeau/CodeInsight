@@ -1,5 +1,4 @@
-var0 = pd.DataFrame({'A': [3, 3, 3, 6, 6], 'B': ['p', 'q', 'r', 's', 't']})
-lst0 = [3, 6]
-expected_result3 = pd.DataFrame({'A': [3, 3, 3, 6, 6], 'B': ['p', 'q', 'r', 's', 't']})
-result3 = test(var0, lst0)
-assert result3.equals(expected_result3), 'Test failed'
+lst0 = ["-1", "0", "1"]
+expected_result =  [-1, 0, 1]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

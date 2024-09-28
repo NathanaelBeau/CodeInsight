@@ -1,1 +1,1 @@
-Get (column, row) index from NumPy array var0 that meets a boolean condition   
+in Python,  convert list of float numbers  lst0 to string with certain format '{0:.8e}'?   

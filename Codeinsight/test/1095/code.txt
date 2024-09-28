@@ -1,2 +1,3 @@
-def test(dict0):
-    return {k: v for k, v in dict0.items() if 2 < k < 4}
+import numpy as np
+def test(var0, var1):
+    return np.log(var0) / np.log(var1)

@@ -1,1 +1,1 @@
-Merge two dataframes, df0 and df1, based on their indices.  
+Test if the strings in column column_name of DataFrame df0 contain any of the substrings in the list lst0.

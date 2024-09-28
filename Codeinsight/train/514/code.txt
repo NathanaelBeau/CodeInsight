@@ -1,11 +1,8 @@
 import pandas as pd
 
-def test(df0, df1):
-    dataframeFinal = pd.merge(df0, df1, left_on=["room", "date", "hour"],
-                    right_on=["room", "date", "hour"], how="outer",
-                    left_index=False, right_index=False, copy=False)
 
-    dataframeFinal["time_y"].fillna(dataframeFinal["time_x"], inplace=True)
-
-    dataframeFinal = dataframeFinal.drop('time_x', axis=1)
-    return dataframeFinal
+def test(df0, var0, var1):
+    df0['index'] = df0.index
+    df0['index'] = df0['index'].replace(var0, var1)
+    df0 = df0.set_index('index')
+    return df0

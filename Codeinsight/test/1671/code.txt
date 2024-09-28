@@ -1,2 +1,5 @@
-def test(lst0, var0):
-    return [item for item in lst0 if item > var0]
+import pandas as pd
+import numpy as np
+
+def test(ser0):
+    return ser0.values

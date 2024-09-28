@@ -1,4 +1,4 @@
-import pandas as pd
-import numpy as np
-df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
-assert test(df0) == False, 'Test failed'
+arr0 = np.array([1, 2, 3])
+expected_result =  (1, 2, 3)
+result = test(arr0)
+assert result == expected_result, 'Test failed'

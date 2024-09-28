@@ -1,2 +1,5 @@
+from collections import Counter
+
 def test(lst0, var0):
-    return [x + var0 for x in lst0]
+    counter = Counter(lst0)
+    return counter[var0]

@@ -1,2 +1,2 @@
-def test(df0, col_name):
-    return df0.dropna(subset=[col_name])
+def test(str0):
+    return dict(item.split('-') for item in str0.split(','))

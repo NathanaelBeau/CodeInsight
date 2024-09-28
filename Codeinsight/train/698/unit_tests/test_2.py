@@ -1,5 +1,4 @@
-str0 = "Mix"
-lst0 = ["Apple", "5", "Banana"]
-expected_result =  ["MixApple", "Mix5", "MixBanana"]
-result = test(str0, lst0)
-assert result == expected_result, 'Test failed'
+var0 = set()
+var1 = {'x', 'y', 'z'}
+expected_output = {'x', 'y', 'z'}
+assert test(var0, var1) ==expected_output, 'Test failed'

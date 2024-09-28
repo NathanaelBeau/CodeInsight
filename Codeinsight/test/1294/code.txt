@@ -1,6 +1,8 @@
-import pandas as pd
+import re
 
-def test(df0, col0, var0, var1):
-    return df0.replace({col0: {var0: var1}})
-
-
+def test(str0):
+    m = re.search(r"//([^/]*)", str0)
+    if m:
+        return m.group(1)
+    else:
+        return None

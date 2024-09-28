@@ -1,4 +1,4 @@
- remove identical items from a list lst0 and sort it in Python
+Check if all lists in the list lst0 contain exactly three occurrences of the integer 1.
 
 def test(lst0):
 

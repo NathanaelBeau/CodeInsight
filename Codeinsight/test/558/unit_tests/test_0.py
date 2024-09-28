@@ -1,4 +1,4 @@
-lst0 = [10, 20, 30, 40, 50]
-lst1 = [1, 3]
-expected_output = [20, 40]
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+myDict1 = {'a': 1, 'b': 2, 'c': 3, 'd': 2}
+var0_1 = 2
+expected_output1 = {'a': 1, 'c': 3}
+assert test(myDict1, var0_1) == expected_output1, 'Test failed'

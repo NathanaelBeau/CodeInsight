@@ -1,4 +1,0 @@
- combine two lists lst0 and lst1Cinto a dictionary in Python   
-
-def test(lst0, lst1):
-

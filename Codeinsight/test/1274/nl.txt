@@ -1,1 +1,1 @@
-Sort the rows of numpy array arr0 based on the order of elements in another numpy array arr1 
+Compute the correlation between two columns, var0 and var1, in a dataframe df0  

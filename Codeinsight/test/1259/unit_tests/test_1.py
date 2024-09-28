@@ -1,4 +1,3 @@
-lst0 = [[1, 2], [3, 4], [5, 6]]
-expected_result =  [1, 2, 3, 4, 5, 6]
-result = list(test(lst0))
-assert result == expected_result, 'Test failed'
+arg0 = ('hello', 1, 2.3, True)
+expected_output = 'hello 1 2.3 True'
+assert test(arg0) ==expected_output, 'Test failed'

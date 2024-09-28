@@ -1,3 +1,5 @@
-import re
-def test(var0):
-    return re.sub(r'(?<=[a-z])([A-Z])', r'-\1', var0).lower()
+def test(lst0):
+    try:
+        return min(x for x in lst0 if x > 2)
+    except ValueError:
+        return None

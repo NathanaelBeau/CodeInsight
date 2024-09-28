@@ -1,7 +1,4 @@
-Split a dataframe df0 based on unique values in column var0
+Retrieve all the items from dictionary dict0 where the key contains the string str0.
 
-import pandas as pd
-
-
-def test(df0, var0):
+def test(dict0, str0):
 

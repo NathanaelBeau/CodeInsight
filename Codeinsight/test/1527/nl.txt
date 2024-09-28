@@ -1,1 +1,1 @@
-split a string str0 at line breaks in python   
+ find the index of a value var0 in 2d array arr0 in Python with zip

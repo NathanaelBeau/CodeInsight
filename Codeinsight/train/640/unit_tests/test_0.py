@@ -1,7 +1,4 @@
-lst0 = [
-    {'categories': ['A', 'B', 'C']},
-    {'categories': ['A', 'C', 'D']},
-    {'categories': ['B', 'C', 'C']}
-]
-expected_output = {'C': 4, 'A': 2, 'B': 2, 'D': 1}
-assert test(lst0) ==expected_output, 'Test failed'
+str0 = "HelloWorldPythonIsGreat"
+var0 = 5
+expected_output = "Hello World Pytho nIsGr eat"
+assert test(str0, var0) ==expected_output, 'Test failed'

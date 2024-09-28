@@ -1,2 +1,4 @@
-def test(lst0):
-    return list(filter(lambda x: 'abc' in x, lst0))
+import numpy as np
+
+def test(arr0: np.ndarray) -> np.ndarray:
+    return np.cumsum(arr0[::-1])[::-1]

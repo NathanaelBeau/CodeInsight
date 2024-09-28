@@ -1,4 +1,4 @@
-import numpy as np
+import operator
 
-def test(arr0):
-    return np.copy(arr0)
+def test(lst0, var0):
+    return sorted(lst0, key=operator.itemgetter(var0))

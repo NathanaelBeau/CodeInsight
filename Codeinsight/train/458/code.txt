@@ -1,4 +1,5 @@
 import pandas as pd
 
-def test(df0, var0, var1):
-    return df0.at[var0, var1]
+def test(df):
+    df.columns = ['var1' if x=='var0' else x for x in df.columns]
+    return df

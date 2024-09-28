@@ -1,4 +1,3 @@
-var0 = "Line1\n\nLine2\nLine3\nLine4"
-expected_result =  [("Line1", "\nLine2\nLine3\nLine4")]
-result = test(var0)
-assert result == expected_result, 'Test failed'
+arr0 = [[1.0, 2.3], [1.3, 2.9]]
+expected_result =  [[1, 2], [1, 2]]
+assert test(arr0) ==expected_result, 'Test failed'

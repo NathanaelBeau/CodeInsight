@@ -1,1 +1,1 @@
- remove all the punctuation in a string str0    
+ get the index value of a list comprehension lst0    

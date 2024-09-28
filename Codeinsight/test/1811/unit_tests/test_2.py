@@ -1,3 +1,3 @@
-lst0 = [[100, "hundred"], [200, "two hundred"]]
-expected_output = {100: "hundred", 200: "two hundred"}
+lst0 = ["", "", ""]
+expected_output = []
 assert test(lst0) == expected_output, 'Test failed'

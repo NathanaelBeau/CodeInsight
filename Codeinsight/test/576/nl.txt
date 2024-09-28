@@ -1,1 +1,1 @@
- sum the product of two list lst0 and lst1 items using for loop in python  
+pandas DataFrame: replace nan values with average of columns   in dataframe df0

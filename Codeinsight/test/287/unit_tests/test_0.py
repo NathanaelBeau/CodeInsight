@@ -1,7 +1,12 @@
 lst0 = [
-            ('12392', 'some string', 'some other string'),
-            ('12392', 'some new string', 'some other string'),
-            ('7862', None, 'some other string')
-        ]
-expected_output = {'12392': 2, '7862': 1}
-assert test(lst0) ==expected_output, 'Test failed'
+    {"name": "John", "age": 25},
+    {"name": "Alice", "age": 30},
+    {"name": "Bob", "age": 22},
+]
+var0 = "name"
+expected_output = [
+    {"name": "Alice", "age": 30},
+    {"name": "Bob", "age": 22},
+    {"name": "John", "age": 25},
+]
+assert test(lst0, var0) == expected_output, 'Test failed'

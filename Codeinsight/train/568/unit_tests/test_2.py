@@ -1,3 +1,3 @@
-lst0 = [5, 8, 3]
-expected_output = 8
-assert test(lst0) ==expected_output, 'Test failed'
+str0 = "Single Line"
+expected_output = [['Single Line']]
+assert test(str0) == expected_output, 'Test failed'

@@ -1,6 +1,6 @@
-Convert column named var0 in dataframe df0 from dtype 'object' to int
+Add SUM of values of two LISTS lst0 and lst1 into new LIST   with operator
 
-import pandas as pd
+import operator
 
-def test(df0, var0):
+def test(lst0, lst1):
 

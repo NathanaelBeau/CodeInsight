@@ -1,4 +1,4 @@
-var0 = {1, 2, 3}
-var1 = {3, 4, 5}
-expected_output = {1, 2, 3, 4, 5}
-assert test(var0, var1) ==expected_output, 'Test failed'
+lst0 = [1, 2, 3]
+lst1 = [4, 5, 6]
+expected_output = 32
+assert test(lst0, lst1) ==expected_output, 'Test failed'

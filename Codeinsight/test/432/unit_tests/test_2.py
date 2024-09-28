@@ -1,4 +1,4 @@
-input_list = ['hello', 'hello', 'hello']
-expected_result =  True
-result = test(input_list)
-assert result==expected_result, 'Test failed'
+var0 = "Multiple;delimiters, in; this,string"
+expected_result =  ["Multiple", "delimiters", "in", "this", "string"]
+result = test(var0)
+assert result == expected_result, 'Test failed'

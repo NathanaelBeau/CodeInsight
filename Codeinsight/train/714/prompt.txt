@@ -1,4 +1,6 @@
-Control a print format when printing a list lst0 in Python   
+Simpler way to create dictionary of separate variables var0
+ 
+  
 
-def test(lst0):
+def test(var0):
 

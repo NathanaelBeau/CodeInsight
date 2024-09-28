@@ -1,3 +1,6 @@
-arr0 = np.array(['a', 'b', 'c'])
-expected_output = [{'a': 'a'}, {'a': 'b'}, {'a': 'c'}]
-assert test(arr0) == expected_output, 'Test failed'
+# Test 2
+rows = 3
+columns = ['A', 'B']
+expected_result =  pd.DataFrame(np.nan, index=range(3), columns=['A', 'B'])
+result = test(rows, columns)
+assert result.equals(expected_result), 'Test failed'

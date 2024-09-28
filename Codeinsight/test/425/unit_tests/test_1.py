@@ -1,4 +1,3 @@
-arr0 = np.array([[1, 2], [3, 4]])
-expected_result =  [[1, 2], [3, 4]]
-result = test(arr0)
-assert result == expected_result, 'Test failed'
+lst0 = [{'name': 'John', 'age': 25}, {'age': 30, 'city': 'New York'}]
+expected_output = {'name': 'John', 'age': 30, 'city': 'New York'}
+assert test(lst0) ==expected_output, 'Test failed'

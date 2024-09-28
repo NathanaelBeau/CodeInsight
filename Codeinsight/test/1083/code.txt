@@ -1,2 +1,3 @@
-def test(str0, lst0):
-    return [str0 + item for item in lst0]
+import numpy as np
+def test(arr0, var0, var1):
+    return np.pad(arr0, ((0, var0), (0, var1)), mode='constant')

@@ -1,2 +1,3 @@
-def test(var0):
-    return [int(digit) for digit in str(var0)]
+def test(d0):
+    return dict(sorted(d0.items(), key=lambda item: item[1], reverse=True))
+

@@ -1,5 +1,6 @@
-df0 = pd.DataFrame({ 'name': [1, 2, 3], 'age_name': [4, 5, 6], 'address': [7, 8, 9] })
-str0 = 'name'
-expected_result =  pd.DataFrame({ 'address': [7, 8, 9] })
-result = test(df0, str0)
-assert result.equals(expected_result), 'Test failed'
+df0 = pd.DataFrame({ 'A': ['apple', 'banana', 'apple', 'banana'], 'B': [1, 2, 3, 4], 'C': [10, 20, 30, 40] })
+var0 = 'A'
+var1 = 'B'
+expected_result_1 = df0.loc[[2, 3]].reset_index(drop=True)
+result1 = test(df0, var0, var1)
+assert (result1.values==expected_result_1.values).all(), 'Test failed'

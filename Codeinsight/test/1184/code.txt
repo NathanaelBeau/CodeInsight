@@ -1,6 +1,5 @@
-from itertools import starmap
-from operator import mul
+import re
 
-def test(var0, var1):
-    result = [sum(starmap(mul, zip(var0, col))) for col in zip(*var1)]
-    return result
+def test(str0, var0):
+    pattern = re.compile(str0, re.IGNORECASE | re.MULTILINE)
+    return pattern.findall(var0)

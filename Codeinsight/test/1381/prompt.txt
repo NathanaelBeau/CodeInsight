@@ -1,5 +1,7 @@
- sum values in a column in dataframe pandas df0 that match a given condition which is var0 using  Boolean indexing. 
+Convert a datetime.datetime object datetime0 into a Pandas Timestamp object.
 
 import pandas as pd
-def test(df0, var0):
+import datetime
+
+def test(datetime0):
 

@@ -1,4 +1,5 @@
-import re
+import numpy as np
+import pandas as pd
 
 def test(var0):
-    return re.sub(r'[^a-zA-Z0-9 ]', '', var0)
+    return pd.isna(var0) or np.isnan(var0)

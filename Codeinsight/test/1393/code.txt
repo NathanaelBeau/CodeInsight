@@ -1,4 +1,9 @@
-import pandas as pd
-
-def test(df0, var0):
-    return df0[var0].nunique()
+def test(lst0):
+    integer_list = []
+    for s in lst0:
+        total = 0
+        for char in s:
+            if char.isdigit():
+                total += int(char)
+        integer_list.append(total)
+    return integer_list

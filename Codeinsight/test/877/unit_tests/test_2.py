@@ -1,5 +1,3 @@
-var0 = 'category'
-df0 = pd.DataFrame({'category': ['cat1', 'cat2', 'cat1'], 'info': [7, 8, 9]})
-expected_result =  {'cat1': pd.DataFrame({'category': ['cat1', 'cat1'], 'info': [7, 9]}), 'cat2': pd.DataFrame({'category': ['cat2'], 'info': [8]})}
-result = test(df0, var0)
-assert result['cat1'].equals(expected_result['cat1']) and result['cat2'].equals(expected_result['cat2']), 'Test failed'
+dict0 = {1: 'one', 2: 'two', 3: 'three'}
+expected_output = {'one': 1, 'two': 2, 'three': 3}
+assert test(dict0) ==expected_output, 'Test failed'

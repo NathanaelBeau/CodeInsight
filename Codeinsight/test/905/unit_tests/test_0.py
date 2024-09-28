@@ -1,7 +1,8 @@
-lst0 = [
-        {'name': 'Alice', 'age': 25},
-        {'name': 'Bob', 'age': 30},
-        {'name': 'Charlie', 'age': 20},
-    ]
-expected_output = {'name', 'age'}
-assert test(lst0) ==expected_output, 'Test failed'
+# Test 1
+df0 = pd.DataFrame({'fruit': ['apple', 'banana', 'apple']})
+column_name = 'fruit'
+old_value = 'apple'
+new_value = 'orange'
+expected_result =  pd.DataFrame({'fruit': ['orange', 'banana', 'orange']})
+result = test(df0, column_name, old_value, new_value)
+assert result.equals(expected_result), 'Test failed'

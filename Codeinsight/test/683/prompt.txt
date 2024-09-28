@@ -1,6 +1,4 @@
-Selecting  certain values from a 2D array arr0 > to var0 in Python   
+Sort list lst0 in ascending order based on its elements' float values.
 
-import numpy as np
-
-def test(arr0, var0):
+def test(lst0):
 

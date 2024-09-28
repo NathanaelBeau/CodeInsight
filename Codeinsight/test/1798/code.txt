@@ -1,4 +1,4 @@
-import pandas as pd
+def test(lst0):
+    return sorted(set(lst0))
 
-def test(df0, lst0):
-    return sorted(df0[lst0].stack().unique())
+

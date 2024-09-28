@@ -1,4 +1,5 @@
-Get the sum of the products of each pair of corresponding elements in lists lst0 and lst1
+Perform one-hot encoding on a list lst0 with var0 unique classes  
 
-def test(lst0, lst1):
+import numpy as np
+def test(lst0, var0):
 

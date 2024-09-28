@@ -1,3 +1,5 @@
-arr0 = np.array([0, 1, 2, 3, 0, 4, 5])
-expected_output = np.array([1, 2, 3, 4, 5])
-assert np.array_equal(test(arr0), expected_output), 'Test failed'
+lst0 = [1, 2, 3]
+lst1 = ['a', 'b', 'c']
+expected_result =  pd.DataFrame({'List1': [1, 2, 3], 'List2': ['a', 'b', 'c']})
+result = test(lst0, lst1)
+assert result.equals(expected_result), 'Test failed'

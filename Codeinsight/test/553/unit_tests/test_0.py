@@ -1,5 +1,3 @@
-lst0 = ['apple', 'banana', 'cherry']
-lst1 = [3, 2, 1]
-expected_result =  {'apple': 3, 'banana': 2, 'cherry': 1}
-result = test(lst0, lst1)
-assert result == expected_result, 'Test failed'
+arr0 = np.array([1, 2, 3, 4, 5, 6])
+expected_output = np.array([[1, 2], [3, 4], [5, 6]])
+assert (test(arr0)  == expected_output).all(), 'Test failed'

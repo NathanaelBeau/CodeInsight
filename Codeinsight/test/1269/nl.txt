@@ -1,1 +1,1 @@
-Find matches in string var0 that start and end with the pattern var1.
+Pandas:in dataframe df0 Fill missing values by mean in each group (faster than transform) in column var0 by mean of group var1

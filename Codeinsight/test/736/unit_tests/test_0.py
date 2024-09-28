@@ -1,4 +1,3 @@
-lst0 = [10, 20, 30, 40, 50]
-lst1 = [1, 3]
-expected_output = [20, 40]
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+lst0 = [('A', 2.0), ('B', float('nan')), ('C', 1.5)]
+expected_output = ('C', 1.5)
+assert test(lst0) ==expected_output, 'Test failed'

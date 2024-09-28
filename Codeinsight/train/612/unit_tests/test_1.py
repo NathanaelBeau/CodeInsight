@@ -1,4 +1,3 @@
-lst0 = [5, 6, 7, 8]
-lst1 = [5, 6, 7, 8]
-expected_output = [1, 1, 1, 1]
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+arr0 = np.array([10, 20, 30, 40])
+expected_output= np.array([[10, 20], [30, 40]])
+assert (test(arr0)  == expected_output).all(), 'Test failed'

@@ -1,4 +1,3 @@
-lst0 = [1, "apple", 3, "banana", 5]
-expected_result =  ["apple", "banana"]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+s1 = "Hello, world! How are you?"
+expected_output1 = ['Hello', ', ', 'world', '! ', 'How', ' ', 'are', ' ', 'you', '?']
+assert test(s1) == expected_output1, 'Test failed'

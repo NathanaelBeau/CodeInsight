@@ -1,1 +1,1 @@
-Convert a list of lists lst0 containing 2 elements in a dictionary with the first element as the key and the second element as the value
+Python remove list elements  from lst0 which are var0

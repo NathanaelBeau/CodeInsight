@@ -1,4 +1,3 @@
-var0 = "apple pie"
-expected_result =  ["p"]
-result = test(var0)
-assert result == expected_result, 'Test failed'
+lst0 = ['100', '25', '50']
+expected_output = ['25', '50', '100']
+assert test(lst0) ==expected_output, 'Test failed'

@@ -1,3 +1,3 @@
-def test(lst0, var0):
-    return [lst0[i:i + var0] for i in range(0, len(lst0), var0)]
-
+import torch
+def test(tensor0, shape0):
+    return tensor0.view(shape0)

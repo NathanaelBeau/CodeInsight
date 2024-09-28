@@ -1,4 +1,6 @@
-Counting the number of True Booleans in a Python List lst0  with count 
+Convert a 1D array arr0 to a 2D array in numpy   
 
-def test(lst0):
+import numpy as np
+
+def test(arr0):
 

@@ -1,4 +1,4 @@
-import numpy as np
+import pandas as pd
 
-def test(arr0, var0):
-    return np.delete(arr0, var0)
+def test(df0):
+    return df0.apply(dict, axis=1).tolist()

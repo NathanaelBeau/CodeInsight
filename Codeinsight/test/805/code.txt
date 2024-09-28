@@ -1,6 +1,2 @@
-def test(str0):
-    slist = list(str0)
-    for i, c in enumerate(slist):
-        if slist[i] == ';' and 0 <= i <= 3:
-            slist[i] = ':'
-    return ''.join(slist)
+def test(lst0, lst1):
+    return [(x, y) for x in lst0 for y in lst1]

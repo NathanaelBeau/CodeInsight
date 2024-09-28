@@ -1,2 +1,3 @@
-def test(lst0, var0):
-    return [var0 + item for item in lst0]
+import numpy as np
+def test(arr0):
+    return np.sum(np.isnan(arr0)) > 0

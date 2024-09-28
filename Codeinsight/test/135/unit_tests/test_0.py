@@ -1,5 +1,5 @@
-arr0 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-var0 = 1
-expected_result =  np.array([[1, 3], [4, 6], [7, 9]])
-result = test(arr0, var0)
-assert np.array_equal(result, expected_result), 'Test failed'
+tuple0 = (1, 2, 3)
+tuple1 = (4, 5, 6)
+expected_result =  (5, 7, 9)
+result = test(tuple0, tuple1)
+assert result == expected_result, 'Test failed'

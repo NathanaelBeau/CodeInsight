@@ -1,1 +1,1 @@
-Remove one column var0 for a numpy array   arr0
+Remove parentheses around single words in the string s using regex.

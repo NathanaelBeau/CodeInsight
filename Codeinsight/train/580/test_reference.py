@@ -1,5 +1,8 @@
-def test(dict0, var0, var1):
-    if var0 not in dict0:
-        dict0[var0] = []
-    dict0[var0].append(var1)
-    return dict0
+import re
+
+def test(str0, var0):
+    sentences = re.match(r'(.*?[.?!](?:\s+.*?[.?!]){0,' + str(var0 - 1) + '})', str0)
+    if sentences:
+        return sentences.group(1)
+    else:
+        return str0

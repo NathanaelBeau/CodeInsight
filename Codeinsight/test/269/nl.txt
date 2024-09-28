@@ -1,1 +1,1 @@
-Find the last occurrence of the regular expression pattern in the string var0.
+Check if the string var0 contains any alphabetic characters

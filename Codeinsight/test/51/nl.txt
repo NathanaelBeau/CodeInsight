@@ -1,1 +1,1 @@
-Sort a dataframe df0 by column var0 and reset its index.
+Remove characters "!@#$" from the string var0.

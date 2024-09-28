@@ -1,1 +1,0 @@
-Remove the element in list a at the specified index index.

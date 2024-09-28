@@ -1,2 +1,4 @@
-def test(lst0, lst1, var0):
-    return [x for x in lst0 if x not in lst1][:var0]
+import pandas as pd
+
+def test(df0, str0):
+    return df0.groupby(str0).filter(lambda x: len(x) > 1).reset_index(drop=True)

@@ -1,6 +1,5 @@
-df0 = pd.DataFrame({'col_name': [4, 5], 'A': ['A3', 'A4']})
-df1 = pd.DataFrame({'col_name': [4, 5], 'B': ['B3', 'B4']})
-df2 = pd.DataFrame({'col_name': [4, 5], 'C': ['C3', 'C4']})
-expected_result =  pd.DataFrame({'col_name': [4, 5], 'A': ['A3', 'A4'], 'B': ['B3', 'B4'], 'C': ['C3', 'C4']})
-result = test(df0, df1, df2, 'col_name')
-assert result.equals(expected_result), 'Test failed'
+df0 = pd.DataFrame({'col2': ['abc', 'def', 'ghi']})
+col0 = 'col2'
+var0 = 'prefix_'
+expected_output = pd.DataFrame({'col2': ['prefix_abc', 'prefix_def', 'prefix_ghi']})
+assert test(df0, col0, var0) .equals(expected_output), 'Test failed'

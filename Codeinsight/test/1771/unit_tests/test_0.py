@@ -1,4 +1,3 @@
-str0 = "Hello! How are you today."
-expected_result =  "Hello How are you today"
-result = test(str0)
-assert result == expected_result, 'Test failed'
+lst0 = [{'key': {'subkey': 5}}, {'key': {'subkey': 2}}, {'key': {'subkey': 8}}]
+expected_output = [{'key': {'subkey': 8}}, {'key': {'subkey': 5}}, {'key': {'subkey': 2}}]
+assert test(lst0) == expected_output, 'Test failed'

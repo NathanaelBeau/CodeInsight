@@ -1,1 +1,1 @@
-Split a given string str0 at newline characters
+How to sum all the values in a dictionary var0?   

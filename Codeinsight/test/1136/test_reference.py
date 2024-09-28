@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(arr0, var0):
-    return np.where(arr0 == var0)[0][0]
+def test(lst0):
+    return lst0[:2] + lst0[3:]

@@ -1,1 +1,1 @@
- remove specific elements at index var0 in a numpy array  arr0 Using numpy.delete() - returns a new array with sub-arrays along an axis deleted
+Convert the pandas DataFrame df0 to a list of dictionaries.

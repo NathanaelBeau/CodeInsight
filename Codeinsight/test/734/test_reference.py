@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(var0):
-    return (var0[:,1:] == var0[:,:-1]).all()
+def test(lst0):
+    return [[sum([x[1] for x in i])] for i in lst0]

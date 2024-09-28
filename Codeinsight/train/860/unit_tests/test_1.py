@@ -1,5 +1,3 @@
-lst0 = [10, 20, 30, 40, 50]
-var0 = 15
-expected_result =  10
-result = test(lst0, var0)
-assert result == expected_result, 'Test failed'
+lst0 = [['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i']]
+expected_output = [['i', 'h', 'g'], ['f', 'e', 'd'], ['c', 'b', 'a']]
+assert test(lst0) == expected_output, 'Test failed'

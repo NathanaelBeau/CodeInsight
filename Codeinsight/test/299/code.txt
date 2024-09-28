@@ -1,3 +1,5 @@
-def test(dict0, str0, var0):
-    dict0.setdefault(str0, []).append(var0)
-    return dict0
+import numpy as np
+
+
+def test(arr0, var0, var1):
+    return np.where((arr0 >= var0) & (arr0 <= var1))

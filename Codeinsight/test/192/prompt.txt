@@ -1,6 +1,6 @@
-Count the number of rows where the values in column column_name0 of DataFrame df0 exceed threshold0 and sum the corresponding values in column column_name1.
+Replace values lst0 in column var0 of dataframe df0 with value var1
 
 import pandas as pd
 
-def test(df0, column_name0, threshold0, column_name1):
+def test(df0, var0, lst0, var1):
 

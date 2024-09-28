@@ -1,5 +1,3 @@
-dict0 = {'x': 'apple', 'y': 'banana', 'z': 'cherry'}
-var0 = 'grape'
-expected_result =  False
-result = test(dict0, var0)
-assert result == expected_result, 'Test failed'
+dict0 = {'a': 1, 'b': 2, 'c': 3}
+expected_output = {}
+assert test(dict0) ==expected_output, 'Test failed'

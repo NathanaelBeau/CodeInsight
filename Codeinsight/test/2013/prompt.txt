@@ -1,6 +1,0 @@
-Check if the variable var0 is a pandas DataFrame.
-
-import pandas as pd
-
-def test(var0):
-

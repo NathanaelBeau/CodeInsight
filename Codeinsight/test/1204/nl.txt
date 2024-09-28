@@ -1,1 +1,1 @@
-Append a list lst0 as a new row to a NumPy array arr0.
+Sort dictionary dict0 by value in descending order

@@ -1,4 +1,4 @@
-Convert a boolean array bool_array0 into an index array in numpy.   
+Convert a boolean array bool_array0 into an index array in numpy.
 
 import numpy as np
 

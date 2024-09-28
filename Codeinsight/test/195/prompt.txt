@@ -1,4 +1,6 @@
-Python - Update a value var0 by value var1  in a list of tuples lst0  
+Insert a new column named var1 with values var2 at the index var0 in the pandas DataFrame df0.
 
-def test(lst0, var0, var1):
+import pandas as pd 
+
+def test(df0, var0, var1, var2):
 

@@ -1,2 +1,4 @@
-def test(str0):
-    return ''.join([char * 3 for char in str0])
+import itertools
+
+def test(dict0):
+    return list(itertools.chain(*[[k] * v for k, v in dict0.items()]))

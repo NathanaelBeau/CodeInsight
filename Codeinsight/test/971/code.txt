@@ -1,4 +1,2 @@
-import re
-
-def test(str0):
-    return re.sub(r'\b(.+)\s+\1\b', r'\1', str0)
+def test(lst0):
+    return {k: v for d in lst0 for k, v in d.items()}

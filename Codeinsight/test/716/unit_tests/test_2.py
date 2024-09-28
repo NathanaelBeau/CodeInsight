@@ -1,4 +1,4 @@
-arr0 = np.array(['apple', 'banana', 'apple', 'cherry'])
-expected_result =  np.array(['apple', 'banana', 'cherry'])
-result = test(arr0)
-assert np.array_equal(result, expected_result), 'Test failed'
+# Test 2
+var0 = "4M"
+expected_result =  4 * 10**6
+assert test(var0) == expected_result, 'Test failed'

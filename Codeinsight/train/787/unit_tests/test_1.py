@@ -1,4 +1,3 @@
-lst0 = ['A\tB\tC', '1\t2\t3']
-expected_result =  [['A', 'B', 'C'], ['1', '2', '3']]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+lst0 = [[-1, -2, -3, -4], [-2, -4, -5, -6]]
+expected_output = -27
+assert test(lst0) == expected_output, 'Test failed'

@@ -1,4 +1,4 @@
-import pandas as pd
-df0 = pd.DataFrame({'Gender': ['Male', 'Female', 'Male'], 'Year': [2013, 2015, 2016]})
-expected_result =  df0[(df0['Gender'] == 'Non-existent') & (df0['Year'] == 9999)]
-assert test(df0).equals(expected_result), 'Test failed'
+df2 = pd.DataFrame({'X': ['a', 'b'], 'Y': ['c', 'd']})
+expected_result2 = [{'X': 'a', 'Y': 'c'}, {'X': 'b', 'Y': 'd'}]
+result2 = test(df2)
+assert result2 == expected_result2, 'Test failed'

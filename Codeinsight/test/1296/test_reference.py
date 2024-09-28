@@ -1,4 +1,4 @@
-import pandas as pd
-
-def test(df0):
-    return df0.loc[:, (df0 != 0).any(axis=0)]
+def test(lst0):
+    from functools import reduce
+    result = reduce(lambda a, b: {**a, **b}, lst0)
+    return result

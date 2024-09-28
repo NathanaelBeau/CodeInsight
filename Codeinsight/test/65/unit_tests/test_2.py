@@ -1,3 +1,3 @@
-s3 = "No_symbols-Or_maybe_some"
-expected_output3 = True
-assert test(s3) == expected_output3, 'Test failed'
+df0 = pd.DataFrame({'P': [13], 'Q': [14]}, index=[100])
+expected_output = [100]
+assert test(df0) == expected_output , 'Test failed'

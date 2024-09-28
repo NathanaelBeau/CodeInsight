@@ -1,2 +1,4 @@
+import re
+
 def test(str0):
-    return str0.decode('ascii')
+    return re.split('\n\s*\n', str0)

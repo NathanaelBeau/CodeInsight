@@ -1,6 +1,5 @@
-df0 = pd.DataFrame({'x': [7, 8], 'y': [10, 9]})
-df1 = pd.DataFrame({'x': [11, 12], 'y': [8, 7]})
-var0 = 'y'
-expected_result =  pd.DataFrame({'x': [12, 11, 8, 7], 'y': [7, 8, 9, 10]})
-result = test(df0, df1, var0)
-assert result.equals(expected_result), 'Test failed'
+df0 = pd.DataFrame({'A': ['Value1', 'Value2', 'Value3'],
+                            'B': ['Value4', 'Value5', 'Value6']})
+expected_output = pd.DataFrame({'A': ['Value1', 'Value2', 'Value3'],
+                                        'B': ['Value4', 'Value5', 'Value6']})
+assert test(df0) .equals(expected_output), 'Test failed'

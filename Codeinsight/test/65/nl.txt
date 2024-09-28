@@ -1,1 +1,2 @@
-Check if a string str0 contains only letters, numbers, underscores, and dashes.
+Get the list of row-index values from a DataFrame df0.
+   

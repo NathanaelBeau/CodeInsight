@@ -1,4 +1,4 @@
-arr0 = np.array([1, 2, 3, 4, 5])
-arr1 = np.array([6, 7, 8, 9, 10])
-expected_output = False
-assert test(arr0, arr1) ==expected_output, 'Test failed'
+arr0 = np.array([0, 10, 20, 0, 30, 0, 40])
+expected_result =  (10, 40)
+result = test(arr0)
+assert result == expected_result, 'Test failed'

@@ -1,5 +1,5 @@
-var0 = "apple"
-lst0 = ["a", "b"]
-expected_result =  True
-result = test(var0, lst0)
-assert result == expected_result, 'Test failed'
+str0 = 'OpenAI'
+var0 = 0
+str1 = 'O'
+expected_output = 'OpenAI'
+assert test(str0, var0, str1) ==expected_output, 'Test failed'

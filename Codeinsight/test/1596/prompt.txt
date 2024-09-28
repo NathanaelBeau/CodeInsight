@@ -1,6 +1,6 @@
-Group by column col0 in DataFrame df0 and compute its mean.
+Remove duplicates from a list of dictionaries lst0, maintaining the original order.
 
-import pandas as pd
+import json
 
-def test(df0, col0):
+def test(lst0):
 

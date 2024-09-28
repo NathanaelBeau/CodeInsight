@@ -1,4 +1,0 @@
-Converting a dict dict0 into a list   
-
-def test(dict0):
-

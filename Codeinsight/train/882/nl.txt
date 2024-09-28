@@ -1,1 +1,1 @@
-Select a specific column index for each row in a NumPy array arr0 using a list of indexes lst0
+Compute the average or mean of the column named col_name in the pandas DataFrame df0.

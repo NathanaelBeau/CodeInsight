@@ -1,5 +1,2 @@
-def test(dict0):
-    myList = []
-    for tup in dict0.items():
-        myList.extend(tup)
-    return myList
+def test(str0, str1):
+    return str0.rstrip(str1)

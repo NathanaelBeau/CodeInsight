@@ -1,4 +1,4 @@
-var0 = "language"
-var1 = "lander"
-expected_result =  "lan"
-assert test(var0, var1) == expected_result, 'Test failed'
+str0 = "7 apples"
+expected_output = True
+output = test(str0)
+assert output == expected_output, 'Test failed'

@@ -1,4 +1,4 @@
-Get the count of values associated with specific key var0 in a dictionary dict0   
+Remove all trailing digits from the end of string s.
 
-def test(var0, dict0):
+def test(s: str) -> str:
 

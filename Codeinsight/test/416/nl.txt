@@ -1,1 +1,1 @@
-Create a zero-filled pandas dataframe with var0 rows and var1 columns
+Convert a pandas series ser0 into a numpy array 

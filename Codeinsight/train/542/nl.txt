@@ -1,1 +1,1 @@
- extract numbers(float) from a string str0 in Python  with regex 
+Retrieve all matches of the regular expression pattern in the end of string str0.

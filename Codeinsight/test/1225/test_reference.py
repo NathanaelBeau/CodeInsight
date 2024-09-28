@@ -1,4 +1,4 @@
-import numpy as np
+import pandas as pd
 
-def test(dict0):
-    return list(np.repeat(list(dict0.keys()), list(dict0.values())))
+def test(df0):
+    return df0.to_dict('records')

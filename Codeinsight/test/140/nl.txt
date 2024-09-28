@@ -1,1 +1,1 @@
-Python - Locating the position of a regex match var0 in a string str0?   
+Count the number of true booleans in a Python list lst0.

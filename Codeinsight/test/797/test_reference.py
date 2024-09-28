@@ -1,2 +1,4 @@
-def test(lst0, var0):
-    return [lst0[i:i + var0] for i in range(0, len(lst0), var0)]
+import pandas as pd
+
+def test(df0, df1):
+    return pd.concat([df0, df1]).drop_duplicates().reset_index(drop=True)

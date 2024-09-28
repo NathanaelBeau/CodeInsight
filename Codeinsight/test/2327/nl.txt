@@ -1,1 +1,0 @@
-Calculate the mean of selected rows lst0 and selected columns lst1 in a dataframe df0

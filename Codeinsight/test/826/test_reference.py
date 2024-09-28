@@ -1,2 +1,4 @@
-def test(str0: bytes):
-    return str0.decode('utf8')[::-1].encode('utf8')
+import re
+
+def test(var0):
+    return re.findall(r'\w+|\W+', var0)

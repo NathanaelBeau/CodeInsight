@@ -1,6 +1,3 @@
-import random
-
-def test(dict0):
-    keys = list(dict0.keys())
-    weights = list(dict0.values())
-    return random.choices(keys, weights=weights)[0]
+import numpy as np
+def test(arr0, lst0):
+    return arr0[np.arange(arr0.shape[0]), lst0]

@@ -1,4 +1,4 @@
-Reverse the string s.
+ split sub-lists lst0 into sub-lists k  var0times? (Python)   
 
-def test(s):
+def test(lst0, var0):
 

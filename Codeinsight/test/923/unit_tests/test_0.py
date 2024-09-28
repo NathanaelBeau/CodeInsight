@@ -1,6 +1,6 @@
-arr0 = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-var0 = 4
-var1 = 7
-expected_result =  4
-result = test(arr0, var0, var1)
+df0 = pd.DataFrame({'A': [1, 2, 3, 2, 2, 4], 'B': [4, 5, 6, 5, 5, 7]})
+col_name0 = 'A'
+value0 = 2
+expected_result =  3
+result = test(df0, col_name0, value0)
 assert result == expected_result, 'Test failed'

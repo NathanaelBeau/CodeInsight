@@ -1,5 +1,6 @@
-Extract columns from the numpy array arr0 as separate arrays
+Simpler way to create dictionary of separate variables var0
+ 
+  
 
-import numpy as np
-def test(arr0):
+def test(var0):
 

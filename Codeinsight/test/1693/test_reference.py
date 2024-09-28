@@ -1,4 +1,4 @@
-from collections import ChainMap
+import re
 
-def test(lst0):
-    return dict(ChainMap(*reversed(lst0)))
+def test(str0: str) -> list:
+    return re.findall(r'\w+|\W+', str0)

@@ -1,2 +1,5 @@
-def test(a: list, index: int) -> list:
-    return a[:index] + a[index+1:]
+import pandas as pd
+
+def test(df0):
+    df0.columns = df0.columns.str.lower()
+    return df0

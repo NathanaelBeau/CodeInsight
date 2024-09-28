@@ -1,3 +1,4 @@
-import numpy as np
-def test(shape0, var0):
-    return np.ones(shape0) * var0
+import pandas as pd
+
+def test(df0):
+    return list(df0.T.itertuples())

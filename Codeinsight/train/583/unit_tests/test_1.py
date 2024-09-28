@@ -1,4 +1,4 @@
-str0 = "programming"
-var0 = "z"
-expected_output = 0
-assert test(str0, var0) ==expected_output, 'Test failed'
+var0 = "apple,  banana\tcherry"
+expected_result =  ["apple,", "banana", "cherry"]
+result = test(var0)
+assert result == expected_result, 'Test failed'

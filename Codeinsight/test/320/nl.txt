@@ -1,1 +1,1 @@
-Combine two pandas Series ser0 and ser1 into a DataFrame.
+Sort a list lst0 of tuples primarily by the second element in descending order and secondarily alphabetically.

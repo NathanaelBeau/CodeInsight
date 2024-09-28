@@ -1,1 +1,1 @@
-python pandas flatten a dataframe df0 to a list with numpy  ravel
+ delete a column that contains only zeros in Pandas dataframe df0   

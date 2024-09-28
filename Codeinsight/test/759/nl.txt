@@ -1,1 +1,1 @@
-Summarizing a dictionary of arrays dict0 in Python   
+Remove anything in parentheses from the string var0 using regex

@@ -1,3 +1,4 @@
-var0 = "The numbers 5, 7.5, and 10-15 are important."
-expected_result =  ["5", "7.5", "10-15"]
-assert test(var0) == expected_result, 'Test failed'
+arr0 = np.array([1000.0, 2000.0, 3000.0])
+var0 = "{:.0f}"
+expected_output = ['1000', '2000', '3000']
+assert test(arr0, var0) == expected_output, 'Test failed'

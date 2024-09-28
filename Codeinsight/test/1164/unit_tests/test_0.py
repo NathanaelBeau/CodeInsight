@@ -1,4 +1,13 @@
-arr0 = np.array([1, 2, 3])
-arr1 = np.array([4, 5, 6])
-expected_output = np.array([2.5, 3.5, 4.5])
-assert (test(arr0, arr1)  == expected_output).all(), 'Test failed'
+data = {
+            'A': [1, 2, 3, 4],
+            'B': [10, 20, 30, 40],
+            'C': [5, 15, 25, 35]
+        }
+df = pd.DataFrame(data)
+result = test(df, '(df0["A"] > 1) & (df0["B"] < 40)')
+expected = pd.DataFrame({
+            'A': [2, 3],
+            'B': [20, 30],
+            'C': [15, 25]
+        }, index=[1, 2])
+assert result.equals(expected), 'Test failed'

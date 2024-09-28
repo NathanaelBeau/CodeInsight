@@ -1,1 +1,1 @@
-randomly select a variable from a list lst0, and then modify it in python   
+Python: Check the occurrences in a list lst0 against a value  var0

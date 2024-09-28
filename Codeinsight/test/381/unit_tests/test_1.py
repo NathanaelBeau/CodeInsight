@@ -1,4 +1,4 @@
-ser1 = pd.Series(['a', 'b', 'c'])
-expected_result =  np.array(['a', 'b', 'c'])
-result = test(ser1)
-assert np.array_equal(result, expected_result), 'Test failed'
+var0 = "Hey there! Hello! Hello! Hello!"
+expected_result =  3
+result = test(var0)
+assert result == expected_result, 'Test failed'

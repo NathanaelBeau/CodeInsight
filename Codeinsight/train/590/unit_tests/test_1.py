@@ -1,3 +1,4 @@
-str0 = "Another example\u200b\u200b\u200b with multiple \u200bzero width spaces\u200b."
-expected_output = "Another example*** with multiple *zero width spaces*."
-assert test(str0) ==expected_output, 'Test failed'
+var0 = pd.DataFrame({'A': [4, 5, 6]})
+expected_result =  pd.DataFrame({'A': [4, 5, 6], 'B': [16, 25, 36], 'C': [64, 125, 216]})
+result = test(var0)
+assert result.equals(expected_result), 'Test failed'

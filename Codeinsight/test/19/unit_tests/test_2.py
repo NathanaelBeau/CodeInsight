@@ -1,4 +1,4 @@
-lst0 = [2, 9, 10, 14]
-expected_result =  ['small', 'medium', 10, 14]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+arr0 = np.array([[0.0, 3.0], [0.1, 1.0], [0.2, -1.0]])
+var0 = -1.0
+expected_output = np.array([[0.0, 3.0], [0.1, 1.0]])
+assert (test(arr0, var0)  == expected_output).all(), 'Test failed'

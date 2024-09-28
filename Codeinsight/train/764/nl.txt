@@ -1,1 +1,2 @@
-Decode the string var0 to UTF-8 encoding
+Count the number of unique values in column var0 of dataframe df0.
+

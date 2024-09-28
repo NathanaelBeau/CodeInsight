@@ -1,1 +1,1 @@
-Turn a list lst0 into a list of tuples by pairing every two consecutive elements. 
+Add a new column to a dataframe df0 with multiindex columns. The new column's multiindex is specified by new_column_tuple0, and its values by values_list0.

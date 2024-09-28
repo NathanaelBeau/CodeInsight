@@ -1,1 +1,0 @@
-Remove parentheses around single words in the string s using regex.

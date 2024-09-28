@@ -1,4 +1,0 @@
-sorting list of nested dictionaries lst0 in python   
-
-def test(lst0):
-

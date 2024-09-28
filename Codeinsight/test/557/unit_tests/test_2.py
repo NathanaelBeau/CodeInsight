@@ -1,3 +1,4 @@
-arr0 = np.array([100, 200, 300, 400, 500, 600, 700, 800])
-expected_output = np.array([[100, 200], [300, 400], [500, 600], [700, 800]])
-assert (test(arr0)  == expected_output).all(), 'Test failed'
+lst0 = ['a', 'b', 'c']
+lst1 = [1, 2, 3]
+expected_result =  ['a', 'b', 'c', 1, 2, 3]
+assert test(lst0, lst1) == expected_result, 'Test failed'

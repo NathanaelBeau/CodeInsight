@@ -1,6 +1,6 @@
-var0 = 'x'
-var1 = 'col2'
-lst0 = [{'col1': 1, 'col2': 'a'}, {'col1': 2, 'col2': 'b'}, {'col1': 3, 'col2': 'c'}]
-expected_result =  []
-result = test(var0, var1, lst0)
-assert result==expected_result, 'Test failed'
+df0 = pd.DataFrame({'C': [7, 8, 9], 'D': [10, 11, 12]})
+var0 = 1
+var1 = 'Y'
+expected_result =  pd.DataFrame({'C': [7, 8, 9], 'Y': [10, 11, 12]})
+result = test(df0.copy(), var0, var1)
+assert result.equals(expected_result), 'Test failed'

@@ -1,2 +1,6 @@
-def test(df0, var0, var1):
-	return  df0.query(var1 + "== 1")[var0].sum()
+from collections import OrderedDict
+
+def test(str0: str) :
+    Dict0 = OrderedDict.fromkeys(str0)
+    str1 = " ".join(Dict0.keys())
+    return str1

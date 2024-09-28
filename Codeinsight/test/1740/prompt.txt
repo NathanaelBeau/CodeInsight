@@ -1,5 +1,5 @@
-Translate every element in the numpy array arr0 according to the mapping provided by the dictionary dict0. If not provided, return np.nan.
+Convert the structured numpy array arr0 into a regular numpy array  
 
 import numpy as np
-def test(arr0, dict0, default_value=np.nan):
+def test(arr0):
 

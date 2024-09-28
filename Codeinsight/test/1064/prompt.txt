@@ -1,6 +1,5 @@
-Save a pandas DataFrame df0 to a CSV file named filename.
+Replace NaN values in the numpy array arr0 with the average of their respective columns
 
-import pandas as pd
-
-def test(df0, filename):
+import numpy as np
+def test(arr0):
 

@@ -1,4 +1,9 @@
-lst0 = np.array([1,2,3,4,5])
-lst1 = np.array([0.2, 0.2, 0.2, 0.2, 0.2])  
-expected_output = np.sqrt(np.average((lst0-np.average(lst0, weights=lst1))**2, weights=lst1))
-assert test(lst0, lst1) == expected_output, 'Test failed'
+import numpy as np
+col = pd.MultiIndex.from_arrays([['one', 'one', 'one', 'two', 'two', 'two'],
+                                ['a', 'b', 'c', 'a', 'b', 'c']])
+df = pd.DataFrame(columns=col)
+values = np.array([[1, 2, 3, 4, 5, 6]])
+df.loc[0] = values[0]
+expected_result =  df.drop(columns=[('one', 'b'), ('two', 'b')])
+result = test('a', 'c', 'one', 'two', df)
+assert result.equals(expected_result), 'Test failed'

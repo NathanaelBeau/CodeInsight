@@ -1,4 +1,5 @@
-lst0 = [(0.1, 0.2), (0.3, 0.4), (0.5, 0.6)]
-var0 = 0
-expected_output = [0.1, 0.3, 0.5]
-assert test(lst0, var0) ==expected_output, 'Test failed'
+import pandas 
+var0 = pandas.DataFrame()
+var1 = pandas.DataFrame({'A': [1, 2, 3]})
+expected_result =  pandas.DataFrame({'A': [1, 2, 3]})
+assert expected_result.equals(test(var0,var1)), 'Test failed'

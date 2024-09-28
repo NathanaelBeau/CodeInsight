@@ -1,3 +1,5 @@
-lst0 = ['5', '15', '1']
-expected_output = ['1', '5', '15']
-assert test(lst0) ==expected_output, 'Test failed'
+df1 = pd.DataFrame({'B': ['a', 'a', 'b', 'c', 'c', 'c']})
+col1 = 'B'
+expected_result =  pd.DataFrame({'B': ['a', 'a', 'b', 'c', 'c', 'c'], 'compared': [False, True, False, False, True, True]})
+result = test(df1, col1)
+assert result.equals(expected_result), 'Test failed'

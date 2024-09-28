@@ -1,3 +1,5 @@
-lst0 = [[5, 4, 3], [2, 1, 0], [4, 3, 2]]
-expected_result =  [[2, 1, 0], [4, 3, 2], [5, 4, 3]]
-assert test(lst0) == expected_result, 'Test failed'
+dct0 = {}
+var0 = 'key'
+expected_result =  {}  # Empty dictionary remains unchanged
+result = test(dct0, var0)
+assert result == expected_result, 'Test failed'

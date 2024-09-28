@@ -1,4 +1,5 @@
-s1 = "Hello, hello, how are you, hello?"
-pattern1 = "hello"
-expected_output1 = [7, 27]
-assert test(s1, pattern1) == expected_output1, 'Test failed'
+var0 = pd.DataFrame({ 'Name': [None, 'Other', 'John', 'Jane'] })
+col0 = 'Name'
+expected_result =  pd.DataFrame({ 'Name': [None, 'Other'] })
+result = test(var0, col0)
+assert result.equals(expected_result), 'Test failed'

@@ -1,6 +1,4 @@
-Split a column named col0 containing tuples into two separate columns, 'A' and 'B', in a dataframe df0
+Add SUM of values of two LISTS lst0 and lst1 into new LIST  
 
-import pandas as pd
-
-def test(df0, col0):
+def test(lst0, lst1):
 

@@ -1,4 +1,6 @@
-return a sorted version of the input list lst0 based on the integer values of its elements.
+Get the var0 next values of a generator func0. Return the result in a list.  
 
-def test(lst0):
+import itertools
+
+def test(func0, var0):
 

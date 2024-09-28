@@ -1,6 +1,5 @@
-# Test 2
-df0 = pd.DataFrame({'fruit': ['apple', 'banana', 'cherry'], 'count': [5, 10, 15]})
-condition = "fruit == 'apple' | count > 12"
-expected_result =  pd.DataFrame({'fruit': ['apple', 'cherry'], 'count': [5, 15]})
-result = test(df0, condition).reset_index(drop=True)
-assert result.equals(expected_result), 'Test failed'
+str0 = "abcdef"
+var0 = "a"
+var1 = 3
+expected_output = "aaabcdef"
+assert test(str0, var0, var1) ==expected_output, 'Test failed'

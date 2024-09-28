@@ -1,2 +1,1 @@
-Merge a given series var0 with a dataframe df0.
-
+Match and remove characters in str0 that have three or more non-consecutive occurrences.

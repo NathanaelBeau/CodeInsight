@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(arr0):
-    return np.argsort(arr0)[::-1]
+def test(df0):
+    return df0.sort_values(['year', 'month', 'day'])

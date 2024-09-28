@@ -1,1 +1,1 @@
-Find the first index of value var0 in a numpy array arr0
+Add key "item3" with value 3 to a dictionary dict0

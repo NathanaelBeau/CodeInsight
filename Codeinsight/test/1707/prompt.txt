@@ -1,4 +1,4 @@
-Join all elements of a list of strings lst0 with a period ('.')
+Python - sum values in dictionary   dict0
 
-def test(lst0):
+def test(dict0):
 

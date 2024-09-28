@@ -1,4 +1,3 @@
-var0 = pd.DataFrame({'A': ['bird', 'fish', 'bird'], 'B': ['grape', 'orange', 'grape']})
-expected_result =  pd.DataFrame({'A_bird': [1, 0, 1], 'A_fish': [0, 1, 0], 'B_grape': [1, 0, 1], 'B_orange': [0, 1, 0]})
-result = test(var0)
-assert result.equals(expected_result), 'Test failed'
+x2 = [[10, 20], [30, 40, 50], [60, 70]]
+expected_output2 = [60, 70]
+assert test(x2) == expected_output2, 'Test failed'

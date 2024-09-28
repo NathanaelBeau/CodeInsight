@@ -1,1 +1,0 @@
-Check if a numpy array arr0 contains only zeros

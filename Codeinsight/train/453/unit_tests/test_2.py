@@ -1,7 +1,5 @@
-# Test 2
-import pandas as pd
-df0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry'], 'B': ['dog', 'cat', 'fish']})
-var0 = 'B'
-var1 = '^c.*'
-expected_result =  True
-assert test(df0, var0, var1) == expected_result, 'Test failed'
+str0 = "(7.0, 8.1)"
+tpl0 = (9.2, 10.3)
+expected_result =  (9.2, 10.3, 7.0, 8.1)
+result = test(str0, tpl0)
+assert result == expected_result, 'Test failed'

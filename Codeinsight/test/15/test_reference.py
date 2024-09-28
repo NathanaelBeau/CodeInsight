@@ -1,4 +1,4 @@
-import re
+import pandas as pd
 
-def test(str0: str) -> list:
-    return re.split(r'(\s+)', str0)
+def test(df0):
+    return [row_name for row_name in df0.index]

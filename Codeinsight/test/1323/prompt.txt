@@ -1,5 +1,4 @@
-Return list of items in list lst0 greater than some value  var0
+Sort a list lst0 by the number after the second
 
-import numpy as np
-def test(lst0, var0):
+def test(lst0):
 

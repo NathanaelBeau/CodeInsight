@@ -1,4 +1,4 @@
-html_str0 = "<p>Hello!</p><br><p>World!</p>"
-expected_result =  "Hello!\nWorld!"
-result = test(html_str0)
-assert result == expected_result, 'Test failed'
+strings1 = ["banana", "apple", "cherry"]
+result1 = test(strings1, [1])
+expected1 = ['aaabnn', 'pplea', 'cehrry']
+assert result1 == expected1, 'Test failed'

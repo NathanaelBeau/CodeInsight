@@ -1,7 +1,6 @@
-import pandas as pd
-df0 = pd.DataFrame({ 'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9] })
-print(test(df0).equals(pd.DataFrame({
-    'A': [-3.0, -3.0, -3.0],
-    'B': [0.0, 0.0, 0.0],
-    'C': [3.0, 3.0, 3.0]
-})))
+df0 = pd.DataFrame({ 'timestamp': pd.to_datetime(['2023-01-01', '2023-01-02', '2023-01-03']), 'value': [1, 2, 3] })
+str0 = 'timestamp'
+time_interval0 = '2D'
+expected_result =  pd.DataFrame({ 'timestamp': pd.to_datetime(['2023-01-01', '2023-01-02', '2023-01-03']), 'value': [1.0, 1.5, 2.5] })
+result = test(df0, str0, time_interval0)
+assert result.equals(expected_result), 'Test failed'

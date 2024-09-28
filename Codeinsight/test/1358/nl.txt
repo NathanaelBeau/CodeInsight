@@ -1,1 +1,1 @@
-Insert a string str0 into a case-insensitive sorted list lst0
+Find out how many times a regex var0 matches in a string str0 in Python   

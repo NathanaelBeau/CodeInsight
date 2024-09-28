@@ -1,4 +1,6 @@
-Convert a list of key-value tuples lst0 into a dictionary.
+Convert camel case string var0 to space delimited string taking acronyms into account.
 
-def test(lst0):
+import re
+
+def test(var0):
 

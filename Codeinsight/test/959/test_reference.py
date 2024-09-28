@@ -1,7 +1,2 @@
-import pandas as pd
-
-def test(series0, var0):
-    try:
-        return series0.tolist().index(var0)
-    except ValueError:
-        return None
+def test(str0, str1):
+    return all(char in str1 for char in str0)

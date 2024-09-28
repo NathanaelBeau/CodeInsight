@@ -1,5 +1,2 @@
-import operator
-
-def test(lst0, index):
-    get_items = operator.itemgetter(*index)
-    return list(get_items(lst0))
+def test(var0, var1, var2):
+    return max(var0[var1], var0[var2])

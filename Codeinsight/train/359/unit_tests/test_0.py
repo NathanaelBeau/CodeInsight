@@ -1,4 +1,4 @@
-lst0 = [1, 2, 3]
-lst1 = [4, 5, 6]
-expected_result =  [5, 7, 9]
-assert test(lst0, lst1) == expected_result, 'Test failed'
+str0 = "123abc"
+expected_output = True
+output = test(str0)
+assert output == expected_output, 'Test failed'

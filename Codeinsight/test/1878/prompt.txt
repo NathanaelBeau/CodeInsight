@@ -1,4 +1,0 @@
-Remove all non-alphanumeric characters from the string str0.
-
-def test(str0):
-

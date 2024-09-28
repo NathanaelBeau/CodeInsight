@@ -1,1 +1,1 @@
-Get the count of True values associated with specific key var0 in a dictionary dict0   
+Add the prefix str0 to each value in the column var0 of DataFrame df0.

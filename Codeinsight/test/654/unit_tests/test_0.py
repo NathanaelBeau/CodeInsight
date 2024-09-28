@@ -1,3 +1,3 @@
-str0 = "Hello, World!"
-expected_output = "Hello World"
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = [1, 3, 5]
+expected_output = 135
+assert test(lst0) ==expected_output, 'Test failed'

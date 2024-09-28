@@ -1,4 +1,4 @@
-tell if string str0 starts with a number with Python   
+How to check if a value var0 exists in a dictionary dict0(python)   
 
-def test(str0):
+def test(dict0, var0):
 

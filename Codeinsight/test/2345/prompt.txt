@@ -1,4 +1,0 @@
-Count the number of characters that repeat more than once in the word var0.
-
-def test(var0):
-

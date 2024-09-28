@@ -1,6 +1,3 @@
-# Test 1: Using 'empty' method
-series = pd.Series([])
-method = "empty"
-expected_result =  True
-result = test(series, method)
-assert result == expected_result, 'Test failed'
+str0 = "hello 42 I'm a 32 string 30"
+expected_output = [42, 32, 30]
+assert test(str0) ==expected_output, 'Test failed'

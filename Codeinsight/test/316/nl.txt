@@ -1,1 +1,1 @@
-Replace all elements of a numpy array arr0 that are greater than the value var0.
+find the iloc of a row str0 in pandas dataframe df0   

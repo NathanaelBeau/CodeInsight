@@ -1,4 +1,4 @@
-lst0 = [{"language": "en", "name": "Doe"}, {"language": "en", "name": "John"}, {"language": "en", "name": "Jane"}]
-expected_result =  [{"language": "en", "name": "Doe"}, {"language": "en", "name": "John"}, {"language": "en", "name": "Jane"}]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+lst0 = ["123456789", "987654321", "888888888"]
+var0 = '8'
+expected_output = ["12345679", "97654321", ""]
+assert test(lst0, var0) == expected_output, 'Test failed'

@@ -1,3 +1,1 @@
-Split a dataframe 
-df0 by values of column 
-var0 into separate dataframes.
+switching keys and values in a dictionary dict0 in python   

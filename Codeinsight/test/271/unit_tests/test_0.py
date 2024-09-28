@@ -1,3 +1,4 @@
-lst0 = ['key1', 'val1', 'key2', 'val2']
-expected_output = {'key1': 'val1', 'key2': 'val2'}
-assert test(lst0) ==expected_output, 'Test failed'
+lst0 = ["Hello\tWorld", "Python\tRocks", "GPT-4\tIs Cool"]
+expected_result =  ["Hello", "Python", "GPT-4"]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

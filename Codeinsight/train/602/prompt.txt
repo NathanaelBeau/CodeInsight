@@ -1,6 +1,4 @@
-Pandas: Create another column var1 while splitting each row from the first column var0    in dataframe df0 
+Retrieve a list that contains all non-empty elements from the list lst0.
 
-import pandas as pd
-
-def test(df0, var0, var1):
+def test(lst0):
 

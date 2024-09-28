@@ -1,1 +1,1 @@
-pythonic way to explode a list of tuples lst0   with functools
+Generate all combinations of elements from two numpy arrays arr0 and arr1

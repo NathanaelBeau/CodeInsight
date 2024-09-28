@@ -1,1 +1,1 @@
-Convert a list lst0 of key-value tuples into dictionary
+Replace all single word characters in string var0 with the string var1.

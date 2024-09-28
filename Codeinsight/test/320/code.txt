@@ -1,4 +1,2 @@
-import pandas as pd 
-
-def test(ser0, ser1):
-    return pd.concat([ser0, ser1], axis=1)
+def test(lst0):
+    return sorted(lst0, key=lambda tup: (-tup[1], tup[0]))

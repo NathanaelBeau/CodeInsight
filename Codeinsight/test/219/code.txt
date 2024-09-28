@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0, lst0):
-    return np.isin(arr0, lst0)
+def test(var0, var1):
+    return var0 + (var1,)

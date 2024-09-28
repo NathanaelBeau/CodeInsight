@@ -1,3 +1,6 @@
-arg = pd.DataFrame({'City': ['New York', 'Los Angeles', 'Chicago'], 'Population': [8398748, 3990456, 2705994]})
-expected_output = {'City': {0: 'New York', 1: 'Los Angeles', 2: 'Chicago'}, 'Population': {0: 8398748, 1: 3990456, 2: 2705994}}
-assert test(arg) == expected_output, 'Test failed'
+df0 = pd.DataFrame({'A': ['cat', 'dog', 'fish']})
+var0 = r'f'
+var1 = 'F'
+expected_result =  pd.DataFrame({'A': ['cat', 'dog', 'Fish']})
+result = test(df0, 'A',var0, var1)
+assert result.equals(expected_result), 'Test failed'

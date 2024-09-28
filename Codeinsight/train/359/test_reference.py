@@ -1,2 +1,2 @@
-def test(lst0, lst1):
-    return [x + y for x, y in zip(lst0, lst1)]
+def test(str0):
+    return '0' <= str0[:1] <= '9'

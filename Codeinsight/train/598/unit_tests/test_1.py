@@ -1,4 +1,4 @@
-lst0 = ["apple", "banana", "cherry", "date"]
-var0 = str
-expected_output = 4
-assert test(lst0, var0) ==expected_output, 'Test failed'
+arr0 = np.array([0, 6])
+expected_result =  arr0 / np.linalg.norm(arr0)
+result = test(arr0)
+assert np.array_equal(result, expected_result), 'Test failed'

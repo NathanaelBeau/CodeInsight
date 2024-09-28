@@ -1,1 +1,1 @@
- use numpy&#39;s hstack to slice an array var0 at value from indice var1 to indice var2
+ filter values Nones and replaced them by var0 in a dictionary dict0 in Python  

@@ -1,1 +1,0 @@
-getting the opposite diagonal of a numpy array   arr0 

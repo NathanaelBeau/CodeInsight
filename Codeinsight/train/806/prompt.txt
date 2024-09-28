@@ -1,6 +1,4 @@
-Find the column name with the maximum value for each row in dataframe df0
+Sort the string str0 in lexicographic order.
 
-import pandas as pd
-
-def test(df0):
+def test(str0):
 

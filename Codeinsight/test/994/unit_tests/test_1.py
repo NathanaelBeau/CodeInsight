@@ -1,3 +1,4 @@
-lst0 = [9, 8, 7, 6, 5]
-expected_output = 98765
-assert test(lst0) ==expected_output, 'Test failed'
+lst0 = ['a', 'b', 'c', 'd']
+expected_result =  [('a', 'b'), ('c', 'd')]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

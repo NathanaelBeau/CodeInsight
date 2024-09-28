@@ -1,1 +1,1 @@
-Drop rows from dataframe df0 where the column var0 contains the value var1
+Extract all hashtags from a given string str0

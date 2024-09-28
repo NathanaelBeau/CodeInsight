@@ -1,6 +1,2 @@
-import pandas as pd
-def test(lst0):
-    df = pd.DataFrame(lst0)
-    stacked = df['categories'].explode()
-    value_counts = stacked.value_counts().to_dict()
-    return value_counts
+def test(dict0, dict1):
+    return set(dict0.items()) == set(dict1.items())

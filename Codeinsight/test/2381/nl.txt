@@ -1,1 +1,0 @@
-Generate a random integer between two given numbers var0 and var1.

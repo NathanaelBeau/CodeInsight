@@ -1,1 +1,1 @@
-Split the list lst0 into sub-lists of length var0.
+ iterate through a list of tuples lst0 containing three pair values   

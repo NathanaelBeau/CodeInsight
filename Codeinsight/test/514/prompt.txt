@@ -1,4 +1,7 @@
-Sort a list lst0 of tuples primarily by the second element in descending order and secondarily alphabetically.
+Sort a numpy array  arr0 like a table   using itemgetter
 
-def test(lst0):
+from operator import itemgetter
+import numpy as np
+
+def test(arr0, sort_column):
 

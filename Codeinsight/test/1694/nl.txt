@@ -1,1 +1,1 @@
-Python Finding Index of Maximum in List lst0 
+Find the index of the maximum element in the numpy array arr0 along axis axis0

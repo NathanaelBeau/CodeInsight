@@ -1,6 +1,5 @@
-arr0 = np.array([1, 2, 3, 4, 5])
-var0 = 1
-var1 = 5
-expected_result =  True
-result = test(arr0, var0, var1)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame([[1, 2], [3, 4]], columns=['A', 'B'])
+var0 = 'NewLevel'
+expected_result =  pd.DataFrame([[1, 2], [3, 4]], columns=pd.MultiIndex.from_tuples([(var0, 'A'), (var0, 'B')]))
+result = test(var0, df0)
+assert result.equals(expected_result), 'Test failed'

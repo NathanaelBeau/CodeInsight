@@ -1,1 +1,1 @@
-tokenize a string str0 keeping delimiters in Python   
+Format string - spaces between every three digit  in string var0 

@@ -1,3 +1,3 @@
-dict0 = {'a': 1, 'b': 2, 'c': 3}
-expected_output = 1
-assert test(dict0) == expected_output, 'Test failed'
+lst0 = ['123', '456', '789']
+expected_output = [6, 15, 24]
+assert test(lst0) == expected_output, 'Test failed'

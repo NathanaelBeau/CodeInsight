@@ -1,1 +1,1 @@
-Lowercase a pandas dataframe df0 string column var0 if it has missing values
+Find the integer indices of rows containing NaN values in a given dataframe df0.

@@ -1,1 +1,1 @@
-split elements of a list lst0   
+Find the (row, column) index of the value val0 in the 2D array arr0.

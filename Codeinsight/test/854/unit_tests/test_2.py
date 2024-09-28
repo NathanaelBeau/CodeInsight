@@ -1,3 +1,3 @@
-arr0 = np.array([7.0, 8.0, 9.0])
-expected_output = np.array([], dtype=int).reshape(0, 1)
-assert np.array_equal(test(arr0), expected_output), 'Test failed'
+lst0 = [2, 4, 6, 8, 10]
+expected_output = [2, 6, 12, 20, 30]
+assert test(lst0) ==expected_output, 'Test failed'

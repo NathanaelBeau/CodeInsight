@@ -1,1 +1,0 @@
-Extract all elements from a NumPy array arr0 excluding the element at index var0

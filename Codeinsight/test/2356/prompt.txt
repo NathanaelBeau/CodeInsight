@@ -1,4 +1,0 @@
-How to  create the list of only those letters that follow slash "/" i.e.from another list lst0 using  in Python?   
-
-def test(lst0):
-

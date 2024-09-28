@@ -1,7 +1,4 @@
-Select all columns except the ones in the list lst0 from a dataframe df0
+python sum the values of lists of list    lst0
 
-
-import pandas as pd
-
-def test(df0, lst0):
+def test(lst0):
 

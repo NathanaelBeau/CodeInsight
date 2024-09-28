@@ -1,1 +1,1 @@
-Remove all whitespace and convert the string var0 to lowercase.
+Check if all elements in numpy array arr0 lie between values var0 and var1 

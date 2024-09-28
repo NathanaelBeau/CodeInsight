@@ -1,6 +1,5 @@
-# Test 3
-df0 = pd.DataFrame({ 'X': ['apple', 'banana', 'cherry'], 'Y': ['dog', 'elephant', 'fox'] })
-var0 = 'X'
-expected_result =  'apple'
-result = test(df0, var0)
+dict0 = {'i': 100, 'j': 50, 'k': 25}
+dict1 = {'i': 10, 'l': 5}
+expected_result =  {'i': 10.0}
+result = test(dict0, dict1)
 assert result == expected_result, 'Test failed'

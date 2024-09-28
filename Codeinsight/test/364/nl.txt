@@ -1,1 +1,1 @@
-Get indices of the top N values var0  of a list  lst0
+check if datafram `df` has any NaN vlaues

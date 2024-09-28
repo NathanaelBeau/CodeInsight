@@ -1,5 +1,6 @@
-Extract the decision rules from a scikit-learn decision-tree tree0 using the provided feature names feature_names0 
+Concatenating two one-dimensional NumPy arrays  arr0 and arr1
 
-from sklearn.tree import export_text
-def test(tree0, feature_names0):
+import numpy as np
+
+def test(arr0, arr1):
 

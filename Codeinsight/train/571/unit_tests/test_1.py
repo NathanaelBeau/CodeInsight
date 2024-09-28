@@ -1,5 +1,5 @@
-df0 = pd.DataFrame({'col2': ['abc', 'def', 'ghi']})
-col0 = 'col2'
-var0 = 'prefix_'
-expected_output = pd.DataFrame({'col2': ['prefix_abc', 'prefix_def', 'prefix_ghi']})
-assert test(df0, col0, var0) .equals(expected_output), 'Test failed'
+# Test 2
+df0 = pd.DataFrame({'X': ['apple', np.nan, 'banana'], 'Y': [np.nan, 'grape', 'mango']})
+expected_result =  pd.DataFrame({'X': ['apple', '', 'banana'], 'Y': ['', 'grape', 'mango']})
+result = test(df0)
+assert result.equals(expected_result), 'Test failed'

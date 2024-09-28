@@ -1,5 +1,2 @@
-import numpy as np
-
-def test(arr0, var0):
-    indices = np.where(arr0 == var0)
-    return indices
+def test(lst0, lst1):
+    return [result - subtractor for result, subtractor in zip(lst0, lst1)]

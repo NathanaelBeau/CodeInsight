@@ -1,1 +1,1 @@
-Python 3: Multiply a vector var0 by a matrix var1 without NumPy   
+Combine the values of columns col0 and col1 in DataFrame df0 into a single datetime object and return the result as a datetime series.

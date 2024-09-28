@@ -1,3 +1,3 @@
-import numpy as np
-def test(rows=1, columns=['A']):
-    return pd.DataFrame(index=range(rows), columns=columns, dtype=float)
+import pandas as pd
+def test(df0):
+    df0['col'] = df0['col'].map(int)

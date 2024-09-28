@@ -1,4 +1,4 @@
-import pandas as pd
+import numpy as np
 
-def test(df0, df1):
-    return pd.concat([df0, df1]).drop_duplicates().reset_index(drop=True)
+def test(arr0, var0):
+    return np.concatenate((arr0[-var0:], arr0[:-var0]))

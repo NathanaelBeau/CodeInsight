@@ -1,4 +1,4 @@
-import re
-
-def test(var0):
-    return re.sub(r"(?<=\w)([A-Z])", r" \1", var0)
+def test(dict0):
+    keys = list(dict0.keys())
+    values = list(dict0.values())
+    return keys, values

@@ -1,1 +1,1 @@
-Return a sorted version of the input list lst0 based on the integer values of its elements. 
+Check if the string var0 contains any non-English characters.

@@ -1,1 +1,1 @@
- initialize bytearray var0 with non-zero value   
+Find the minimum value in a numpy matrix arr0

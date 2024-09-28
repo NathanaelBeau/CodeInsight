@@ -1,1 +1,0 @@
-Combine row from column var0 with same value summing values of its columns from a dataframe df0

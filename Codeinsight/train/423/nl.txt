@@ -1,1 +1,1 @@
-Convert a pandas dataframe df to a list of dictionaries, where each dictionary represents a row and includes the index values.
+Convert a string var0  of numbers separated by comma into a list of int

@@ -1,1 +1,1 @@
-reverse tuples elements inside each tuple in list of tuples lst0  in Python  
+simplest way to Sort a list lst0 based on dictionary values from dict0 in python  using dict.get 

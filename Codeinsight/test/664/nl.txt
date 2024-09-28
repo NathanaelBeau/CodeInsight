@@ -1,1 +1,1 @@
-Compute the cosine similarity for the given sparse matrix sparse_matrix0. 
+Create a list by appending components from list lst0 and the reversed list lst1 interchangeably.

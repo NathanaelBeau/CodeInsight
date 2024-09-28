@@ -1,6 +1,7 @@
-Extract all numbers from a string var0 using regular expressions  
+Convert all NaN values to 0 in a dataframe df0
 
-import re
+import pandas as pd
+import numpy as np
 
-def test(var0):
+def test(df0):
 

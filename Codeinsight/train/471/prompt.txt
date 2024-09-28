@@ -1,7 +1,4 @@
-Replace NaN values in the pandas DataFrame df0 with an empty string.
+Split a string var0 by comma and remove whitespace from the beginning and end of each split 
 
-import numpy as np
-import pandas as pd 
-
-def test(df0):
+def test(var0):
 

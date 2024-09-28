@@ -1,1 +1,1 @@
-Access the var0-th column from a NumPy multidimensional array arr0
+Convert the string column named var0 in the dataframe df0 to lowercase.

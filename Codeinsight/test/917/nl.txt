@@ -1,1 +1,1 @@
-Python: Check the occurrences in a list lst0 against a value  var0
+Sorting a dictionary dict0 by value then by key   

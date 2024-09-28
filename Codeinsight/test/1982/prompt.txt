@@ -1,4 +1,0 @@
-transform a multi-level list lst0 into a list of strings in Python   
-
-def test(lst0):
-

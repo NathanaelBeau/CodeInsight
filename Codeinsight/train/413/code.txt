@@ -1,2 +1,5 @@
-def test(functions: list, values: list) -> list:
-    return [[func(val) for func in functions] for val in values]
+import pandas as pd
+import numpy as np
+
+def test(var0, var1):
+	return var1.replace(var0, np.nan)

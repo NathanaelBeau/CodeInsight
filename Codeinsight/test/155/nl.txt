@@ -1,1 +1,1 @@
-Calculate the mean of the nonzero values' indices from the DataFrame df0.
+Flatten the list of lists sublist into a single list.

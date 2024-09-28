@@ -1,4 +1,2 @@
-import re
-
-def test(str0):
-    return re.findall(r'\d+', str0)
+def test(dict0, var0, var1):
+    return dict(filter(lambda item: var0 < item[0] < var1, dict0.items()))

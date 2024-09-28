@@ -1,6 +1,4 @@
-Replace values in column var0 of DataFrame df0 from var1 to var2.
+How to split a word str0 into letters in Python   
 
-import pandas as pd
-
-def test(df0, var0, var1, var2):
+def test(str0):
 

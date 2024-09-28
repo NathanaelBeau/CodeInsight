@@ -1,2 +1,3 @@
-def test(lst0):
-	return dict(lst0[i:i+2] for i in range(0, len(lst0), 2))
+import re
+def test(str0):
+    return re.split('[.,;!?]', str0)

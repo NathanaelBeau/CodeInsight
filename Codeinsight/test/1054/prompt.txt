@@ -1,6 +1,4 @@
-Add multiple columns col_names_df1 from DataFrame df1 to DataFrame df0 under new column names col_names_df0.
+Find all tuples in a list lst0 that contain the value '1'.
 
-import pandas as pd
-
-def test(df0, df1, col_names_df0, col_names_df1):
+def test(lst0):
 

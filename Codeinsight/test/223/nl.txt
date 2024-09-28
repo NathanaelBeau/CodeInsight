@@ -1,1 +1,1 @@
-in Python,  convert list of float numbers  lst0 to string with certain format var0?   
+regular expression match nothing in string var0

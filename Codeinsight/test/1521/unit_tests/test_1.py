@@ -1,5 +1,4 @@
-lst0 = ['name', 'age', 'city']
-lst1 = ['John', 25, 'New York']
-expected_result =  {'name': 'John', 'age': 25, 'city': 'New York'}
-result = test(lst0, lst1)
+lst0 = [('a', 'b', 'c'), ('d', 'e', 'f')]
+expected_result =  ["abc", "def"]
+result = test(lst0)
 assert result == expected_result, 'Test failed'

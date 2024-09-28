@@ -1,5 +1,4 @@
-var0 = 'timestamp_column'
-df0 = pd.DataFrame({'timestamp_column': [pd.Timestamp('2022-01-01 12:00:00'), pd.Timestamp('2022-01-02 14:00:00')]})
-expected_result =  pd.DataFrame({'timestamp_column': [pd.Timestamp('2022-01-01').date(), pd.Timestamp('2022-01-02').date()]})
-result = test(df0, var0)
-assert result.equals(expected_result), 'Test failed'
+str0 = ['abc-123', 'def-456', 'ghi-789', 'abc-456']
+str1 = 'abc'
+expected_output = ['abc-123', 'abc-456']
+assert test(str0, str1) ==expected_output, 'Test failed'

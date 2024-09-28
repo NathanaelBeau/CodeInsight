@@ -1,1 +1,0 @@
-Select specific rows lst0 and columns lst1 from a NumPy array arr0  

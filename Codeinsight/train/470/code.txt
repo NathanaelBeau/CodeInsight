@@ -1,4 +1,4 @@
 import pandas as pd
 
-def test(df0):
-    return df0[df0.index.duplicated() == False]
+def test(df1, df2):
+    return df1.join(df2)

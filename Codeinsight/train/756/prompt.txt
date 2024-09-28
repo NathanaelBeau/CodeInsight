@@ -1,4 +1,6 @@
-Swap the first two values in each tuple/list inside the list lst0
+Group a dataframe df0 by a column named column_name0 and sum the other columns without turning the grouped by column into an index.
 
-def test(lst0):
+import pandas as pd
+
+def test(df0, column_name0):
 

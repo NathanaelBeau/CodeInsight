@@ -1,3 +1,4 @@
-var0 = "abcabc"
-expected_result =  ["abc"]
-assert test(var0) == expected_result, 'Test failed'
+lst0 = [1, 2, 3, 4, 5]
+expected_result =  True
+result = test(lst0)
+assert result == expected_result, 'Test failed'

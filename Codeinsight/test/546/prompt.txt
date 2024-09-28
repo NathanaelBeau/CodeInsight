@@ -1,5 +1,4 @@
-Generate a string representation of numpy array arr0 with its elements separated by commas 
+Check if all elements in a list lst0 are the same   
 
-import numpy as np
-def test(arr0):
+def test(lst0):
 

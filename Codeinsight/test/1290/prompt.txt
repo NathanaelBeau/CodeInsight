@@ -1,4 +1,4 @@
-Determine if a matrix matrix0 is positive definite using numpy.  
+ convert a list of str lst0 to a list of floats   with split
 
-def test(matrix0):
+def test(lst0):
 

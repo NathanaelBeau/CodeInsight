@@ -1,2 +1,2 @@
-def test(lst0: list, var0: str) -> dict:
-    return next(item for item in lst0 if item["name"] == var0)
+def test(var0):
+    return var0.replace(" ", "")

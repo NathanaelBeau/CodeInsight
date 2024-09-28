@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0, lst0):
-    return df0.loc[:, lst0].copy()
+def test(lst0):
+    return [[int(x) for x in sublist] for sublist in lst0]

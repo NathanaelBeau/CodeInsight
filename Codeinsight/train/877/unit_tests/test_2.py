@@ -1,4 +1,4 @@
-arr0 = np.array([[7], [8], [9]])
-expected_result =  [np.array([7, 8, 9])]
-result = test(arr0)
-assert all([np.array_equal(r, e) for r, e in zip(result, expected_result)]), 'Test failed'
+lst0 = [3, 5, 7, 10, 4, 3]
+expected_result =  3
+result = test(lst0)
+assert result ==expected_result, 'Test failed'

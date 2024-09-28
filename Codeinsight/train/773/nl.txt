@@ -1,1 +1,1 @@
-Count all integers in a list named lst0.
+Extract a sublist from a list of strings lst0 starting from index var0 and ending at index var1

@@ -1,1 +1,1 @@
-Iterate over the elements of the numpy array arr0 and return them in a list
+Concatenate two one-dimensional NumPy arrays arr0 and arr1.

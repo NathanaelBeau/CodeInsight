@@ -1,5 +1,6 @@
-var0 = 'e'
-var1 = pd.Series(['elephant', 'tiger', 'zebra'])
-expected_result =  pd.Series(['elephant', 'tiger', 'zebra'])
-result = test(var0, var1)
-assert result.equals(expected_result), 'Test failed'
+data = {'A': [1, 2, 3],
+         'B': [4, 5, 6]}
+df0 = pd.DataFrame(data)
+expected_output = pd.DataFrame({'A': [1, 2, 3],
+                                 'B': [4, 5, 6]})
+assert test(df0) .equals(expected_output), 'Test failed'

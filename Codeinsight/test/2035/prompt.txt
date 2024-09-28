@@ -1,6 +1,0 @@
-Retrieve all matches of the regular expression pattern in the end of string str0.
-
-import re
-
-def test(str0: str, pattern: str) -> list:
-

@@ -1,1 +1,1 @@
-duplicate data in pandas dataframe df0 for var0 times resetting index
+Convert the numpy array arr0 into a Python list structure.

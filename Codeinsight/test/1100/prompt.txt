@@ -1,4 +1,6 @@
-Get the starting index of the last occurrence of substring str0 in the string test_string.
+Convert the values in column var0 of the pandas DataFrame df0 from floats to integers.
 
-def test(test_string: str, str0: str) -> int:
+import pandas as pd 
+
+def test(df0, var0):
 

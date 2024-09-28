@@ -1,1 +1,1 @@
-Convert a string var0  of numbers separated by comma into a list of int
+Get the element number var0 of each tuple from a list of tuple lst0 

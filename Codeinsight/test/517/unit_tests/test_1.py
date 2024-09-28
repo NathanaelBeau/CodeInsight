@@ -1,6 +1,4 @@
-df0 = pd.DataFrame({'BrandName': ['ABC', 'DEF', 'AB', 'GHI', 'JKL']})
-col0 = 'BrandName'
-var0 = ['DEF', 'GHI']
-var1 = 'D'
-expected_output = pd.DataFrame({'BrandName': ['ABC', 'D', 'AB', 'D', 'JKL']})
-assert test(df0, col0, var0, var1) .equals(expected_output), 'Test failed'
+var0= 3
+lst0 = ['a', 'b']
+expected_output = ['a', 'a', 'a', 'b', 'b', 'b']
+assert test(var0, lst0) ==expected_output, 'Test failed'

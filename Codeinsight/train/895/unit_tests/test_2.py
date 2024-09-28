@@ -1,4 +1,3 @@
-input_str = "   hello world   "
-expected_result =  "helloworld"
-result = test(input_str)
-assert result==expected_result, 'Test failed'
+lst0 = []
+expected_output = []
+assert test(lst0) == expected_output, 'Test failed'

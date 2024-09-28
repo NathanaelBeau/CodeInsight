@@ -1,2 +1,2 @@
-def test(dict0):
-    return dict((k.lower(), v.lower()) for k, v in dict0.items())
+def test(lst0, lst1):
+    return list(map(lambda x, y: x - y, lst0, lst1))

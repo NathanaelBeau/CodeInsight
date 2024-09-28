@@ -1,3 +1,3 @@
-import numpy as np
-def test(arr0):
-    return np.where((arr0 == (0,1)).all(axis=1))
+from collections import OrderedDict
+def test(str0):
+    return " ".join(OrderedDict.fromkeys(str0))

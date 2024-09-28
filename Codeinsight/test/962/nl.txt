@@ -1,1 +1,1 @@
-Delete the first three rows of the pandas DataFrame df0.
+Generate var1 non-repetitive random numbers from 0 to var0-1 using numpy.

@@ -1,3 +1,5 @@
-data = np.array([[1, 2, np.nan], [4, 5, 6], [np.nan, np.nan, 9]])
-expected_output = 6
-assert test(data) == expected_output, 'Test failed'
+var0 = "This is a sample text with some apple."
+lst0 = ["apple", "banana", "cherry"]
+expected_result =  "apple"
+result = test(var0, lst0)
+assert result == expected_result, 'Test failed'

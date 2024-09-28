@@ -1,5 +1,2 @@
-import pandas as pd
-
-def test(df0):
-    return df0.idxmax(axis=1)
-
+def test(str0):
+    return ''.join(sorted(str0))

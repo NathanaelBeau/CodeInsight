@@ -1,4 +1,4 @@
-dict0 = {'X': 100, 'Y': 200, 'Z': 300}
-expected_output = np.array([('X', 100), ('Y', 200), ('Z', 300)], dtype=object)
-dtype= object
-assert (test(dict0, dtype)  == expected_output).all(), 'Test failed'
+str0 = "The quick brown fox jumps over the lazy dog."
+str1 = "fox"
+expected_output = 1
+assert test(str0, str1) ==expected_output, 'Test failed'

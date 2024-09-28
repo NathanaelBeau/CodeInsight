@@ -1,5 +1,9 @@
-# Test 1
-df0 = pd.DataFrame({'A': [1, 2, np.nan], 'B': [3, 4, 5], 'C': [np.nan, np.nan, np.nan]})
-expected_result =  ['A', 'C']
-result = test(df0)
-assert set(result) == set(expected_result), 'Test failed'
+lst0 = [["Sequence", "Start", "End", "Coverage"],
+        ["A", 1, 10, 0.95],
+        ["B", 15, 25, 0.80],
+        ["C", 30, 40, 0.60]]
+expected_output = pd.DataFrame({"Sequence": ["A", "B", "C"],
+                                "Start": [1, 15, 30],
+                                "End": [10, 25, 40],
+                                "Coverage": [0.95, 0.80, 0.60]})
+assert test(lst0).equals(expected_output), 'Test failed'

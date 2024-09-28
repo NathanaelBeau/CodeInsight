@@ -1,4 +1,4 @@
 import pandas as pd
-def test(df0, col0):
-    df0['compared'] = df0[col0].eq(df0[col0].shift())
-    return df0
+
+def test(df: pd.DataFrame) -> list:
+    return [{'index': idx, **row.to_dict()} for idx, row in df.iterrows()]

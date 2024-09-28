@@ -1,4 +1,4 @@
-Sum the squares of all elements in a list lst0
+Convert the integer var0 into a list of its digits.
 
-def test(lst0):
+def test(var0):
 

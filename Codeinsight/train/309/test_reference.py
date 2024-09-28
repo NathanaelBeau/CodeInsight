@@ -1,4 +1,5 @@
-import numpy as np
+import pandas as pd
 
-def test(arr0):
-    return np.split(arr0, np.where(np.diff(arr0) != 1)[0] + 1)
+def test(df0, filename):
+    df0.to_csv(filename, index=False)
+    return f"DataFrame saved to {filename}"

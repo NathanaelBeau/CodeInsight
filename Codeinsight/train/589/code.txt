@@ -1,2 +1,3 @@
-def test(str0):
-    return str0.replace('\u200b', '*')
+import numpy as np
+def test(arr0):
+    return np.array(arr0).T.tolist()

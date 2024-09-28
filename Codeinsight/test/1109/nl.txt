@@ -1,1 +1,1 @@
-In a dataframe df0 column var0, replace patterns matching string str0 with string str1.
+ get first part of an email address  string str0 with index

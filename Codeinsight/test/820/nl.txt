@@ -1,1 +1,1 @@
-Replace values in column var0 of DataFrame df0 from var1 to var2.
+Replace values old_val0 with new_val0 in the numpy array arr0   

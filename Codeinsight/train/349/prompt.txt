@@ -1,4 +1,7 @@
-Get the indices of tuples in the list of tuples lst0 where the first value is 53.
+python pandas flatten a dataframe df0 to a list with numpy  ravel
 
-def test(lst0):
+import numpy as np
+import pandas as pd
+
+def test(df0):
 

@@ -1,6 +1,6 @@
-import numpy as np
-
 def test(lst0):
-    _, numbers = np.unique(lst0, return_inverse=True)
-    return numbers
-
+    temp_list = []
+    for item in lst0:
+        temp_list.append(float(item))
+    temp_list.sort()
+    return [str(item) for item in temp_list]

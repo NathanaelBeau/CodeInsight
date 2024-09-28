@@ -1,1 +1,1 @@
-Checking for keys wich are in list lst0  in a dictionary dict0
+Find the position of the var2 occurrence of substring var1 in string var0

@@ -1,1 +1,1 @@
-Add a new column named var0 with a constant value var1 to the pandas DataFrame df0.
+Merge two dataframes df0 and df1 based on a common column var0 

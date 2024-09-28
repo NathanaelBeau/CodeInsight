@@ -1,3 +1,6 @@
-lst0 = [['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i']]
-expected_output = [['i', 'h', 'g'], ['f', 'e', 'd'], ['c', 'b', 'a']]
-assert test(lst0) == expected_output, 'Test failed'
+arr0 = np.array([[10, 20, 30], [40, 50, 60], [70, 80, 90]])
+lst0 = [0, 2]
+lst1 = [0, 2]
+expected_result =  np.array([[50]])
+result = test(arr0, lst0, lst1)
+assert np.array_equal(result, expected_result), 'Test failed'

@@ -1,6 +1,5 @@
-Generate all possible strings from a list of token lst0 with combinaison lenght of var0 with combination and permutations
+Split dataset X0 and labels y0 into train and test sets with a test size of var0 using a random seed var1.  
 
-import itertools
-
-def test(lst0, var0):
+from sklearn.model_selection import train_test_split
+def test(X0, y0, var0, var1):
 

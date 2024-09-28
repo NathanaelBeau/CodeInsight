@@ -1,4 +1,4 @@
-Create and return a new dictionary that contains only the key-value pairs from the input dictionary dict0 for the keys specified in the list var0.  
+Remove all values from list lst1 that appear in list lst0
 
-def test(dict0, var0) :
+def test(lst0, lst1):
 

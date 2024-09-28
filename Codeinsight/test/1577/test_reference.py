@@ -1,5 +1,2 @@
-import pandas as pd
-
-def test(df0, lst0):
-    df0['sum'] = df0[lst0[0]] + df0[lst0[1]]
-    return df0
+def test(lst0):
+    return {k: v for k, v in (e.split(':') for e in lst0)}

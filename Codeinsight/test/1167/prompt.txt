@@ -1,6 +1,4 @@
-For Series s0, use the map method to apply the function func.
+Python- insert a character comma, into a string  str0 at index 1
 
-import pandas as pd
-
-def test(s0, func):
+def test(str0):
 

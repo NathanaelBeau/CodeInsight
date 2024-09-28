@@ -1,8 +1,7 @@
-def test(lst0):
-    result = []
-    for i in lst0:
-        concatenated_string = ''
-        for item in i:
-            concatenated_string += item
-        result.append(concatenated_string)
-    return result
+def test(str0):
+    int_part = ""
+    for char in str0:
+        if char == '.':
+            break
+        int_part += char
+    return int(int_part)

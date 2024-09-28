@@ -1,3 +1,4 @@
-lst0 = [True, True, True, True, True]
-expected_output = True
-assert test(lst0) ==expected_output, 'Test failed'
+var0 = np.matrix([[0, 0], [0, 1]])
+expected_result =  csr_matrix(var0)
+result = test(var0)
+assert (result != expected_result).nnz == 0, 'Test failed'

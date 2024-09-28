@@ -1,4 +1,4 @@
-Find an element var0 in first position in a list of tuples lst0
+Counting the number of True Booleans in a Python List lst0   with sum
 
-def test(lst0, var0):
+def test(lst0):
 

@@ -1,5 +1,4 @@
-# Test 2
-arr0 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-expected_result =  [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-result = test(arr0)
-assert result == expected_result, 'Test failed'
+dict0 = {'1': 'One', '2': 'Two', '3': 'Three'}
+dict1 = {'1': 'I', '2': 'II', '3': 'III'}
+expected_output = {'One': 'I', 'Two': 'II', 'Three': 'III'}
+assert test(dict0, dict1) ==expected_output, 'Test failed'

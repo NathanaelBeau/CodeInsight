@@ -1,4 +1,3 @@
-var0 = (('FR', 'France'), ('ES', 'Spain'), ('US', 'United States'))
-str0 = 'ES'
-expected_output = 'Spain'
-assert test(var0, str0) ==expected_output, 'Test failed'
+lst0 = [False, False, True]
+expected_output = [True, True, False]
+assert test(lst0) == expected_output, 'Test failed'

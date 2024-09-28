@@ -1,5 +1,3 @@
-df0 = pd.DataFrame({'G': ['apple', 'banana', 'cherry'], 'H': ['dog', 'cat', 'fish'], 'I': ['red', 'green', 'blue']})
-var0 = 'banana'
-expected_result3 = ['G']
-result3 = test(df0, var0)
-assert result3 == expected_result3, 'Test failed'
+arg = [[5, 4, 3, 8], [2, 1, 0, 6], [8, 7, 6, 2]]
+expected_output = [[8, 7, 6, 2], [2, 1, 0, 6], [5, 4, 3, 8]]
+assert test(arg) == expected_output, 'Test failed'

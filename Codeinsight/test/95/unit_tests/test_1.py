@@ -1,4 +1,3 @@
-# Unit Test 3
-df0 = pd.DataFrame({ 'P': list(range(5)), 'Q': list(range(5, 10)) })
-train, test = test(df0, frac0=0.6)
-assert len(train) == 3 and len(test) == 2, 'Test failed'
+str0 = "Another   example    with multiple spaces"
+expected_output = ['Another', '   ', 'example', '    ', 'with', ' ', 'multiple', ' ', 'spaces']
+assert test(str0) == expected_output, 'Test failed'

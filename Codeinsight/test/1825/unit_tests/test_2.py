@@ -1,4 +1,3 @@
-var0 = "No punctuation here"
-expected_result =  "No punctuation here"
-result = test(var0)
-assert result == expected_result, 'Test failed'
+lst0 = [['a', 'b'], ['a', 'b'], ['a', 'b']]
+expected_output = [['a', 'b']]
+assert test(lst0) == expected_output, 'Test failed'

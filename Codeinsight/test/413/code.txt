@@ -1,6 +1,4 @@
-def test(var0):
-    unique_chars = []
-    for char in var0:
-        if char not in unique_chars:
-            unique_chars.append(char)
-    return ''.join(unique_chars)
+import pandas as pd
+
+def test(df0, var0, var1):
+    return df0.at[var0, var1]

@@ -1,3 +1,4 @@
-import numpy as np
-def test(data0):
-    return np.array(data0, dtype=object)
+import pandas as pd
+
+def test(df0):
+    return df0[df0.index.duplicated() == False]

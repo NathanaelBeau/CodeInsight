@@ -1,1 +1,1 @@
-Find the 25th, 50th, and 75th percentiles of the values in column column_name0 of dataframe df0.
+Extract values from a list of dictionaries lst0 based on the key var0.

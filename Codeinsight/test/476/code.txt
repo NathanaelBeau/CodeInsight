@@ -1,4 +1,4 @@
-import re
+import pandas as pd
 
-def test(var0):
-    return re.split(r'[\n\t ]+', var0)
+def test(df0, var0, var1):
+    return df0.groupby(var0)[var1].apply(list)

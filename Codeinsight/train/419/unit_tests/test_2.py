@@ -1,3 +1,4 @@
-var0_3 = 0
-expected_output3 = []  # Empty list for range of 0
-assert test(var0_3) == expected_output3, 'Test failed'
+var0 = "   Programming is   fun    "
+expected_result =  ['Programming', 'is', 'fun']
+result = test(var0)
+assert result == expected_result, 'Test failed'

@@ -1,4 +1,3 @@
-arr0 = np.array([-0.5, 0, 0.5, 1])
-expected_result =  np.array([0, 0, 0.5, 1])
-result = test(arr0)
-assert np.array_equal(result, expected_result), 'Test failed'
+var0 = "No [brackets] or (parentheses) \"here\"."
+expected_output = ['No', '[brackets]', 'or', '(parentheses)', '"here"', '.']
+assert test(var0) == expected_output, 'Test failed'

@@ -1,1 +1,1 @@
-Filter out keys from dictionary d0 with value None and replace the remaining key values with the string 'updated'.
+apply a logical operator to all elements in a python list  lst0 with operator

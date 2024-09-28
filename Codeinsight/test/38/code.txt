@@ -1,3 +1,3 @@
-def test(lst0):
-    [x.pop('var0', None) for x in lst0]
-    return lst0
+
+def test(lst0, lst1):
+    return set(lst0).intersection(set(lst1))

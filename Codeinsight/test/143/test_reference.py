@@ -1,4 +1,5 @@
+import pandas as pd
 import numpy as np
+def test(df0):
+    return df0.isnull().values.sum() > 0
 
-def test(arr0: np.ndarray, arr1: np.ndarray) -> np.ndarray:
-    return np.concatenate((arr0, arr1))

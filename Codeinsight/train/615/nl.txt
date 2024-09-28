@@ -1,1 +1,1 @@
-How to check if character var1 exists in DataFrame cell   df0  at column var0
+Concatenate all elements of the input list lst0 into a single string, with each element separated by a space. 

@@ -1,6 +1,5 @@
-Change the data type of the column 'grade' in the dataframe df0 into float and then to int.
+Compute the element-wise average of numpy arrays arr0 and arr1  
 
-import pandas as pd
-
-def test(df0):
+import numpy as np
+def test(arr0, arr1):
 

@@ -1,1 +1,2 @@
-Generate a random integer between two given numbers var0 and var1.
+Join two dataframes df0 and df1 based on their index.
+

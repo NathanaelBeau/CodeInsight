@@ -1,1 +1,1 @@
-Get the immediate minimum among a list of numbers lst0 in python   
+Create a list of integers with lenght var0 with duplicate values in Python   

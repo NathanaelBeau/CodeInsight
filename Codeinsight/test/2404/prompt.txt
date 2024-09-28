@@ -1,6 +1,0 @@
-Extract numbers from string var0 that are accompanied by any word or phrase from the list lst0.
-
-import re
-
-def test_revised(var0, lst0):
-

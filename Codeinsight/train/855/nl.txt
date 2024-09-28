@@ -1,1 +1,1 @@
-Calculate the Euclidean distance between two points var0 and var1 using NumPy
+Sort a DataFrame df0 by a column named 'name' using a custom order provided in a list lst0

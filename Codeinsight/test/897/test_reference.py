@@ -1,3 +1,4 @@
-def test(str0, str1):
-    matching = [s for s in str0 if any(xs in s for xs in str1)]
-    return matching
+import re
+
+def test(str0: str) -> str:
+    return re.escape(str0)

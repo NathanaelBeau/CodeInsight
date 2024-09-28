@@ -1,5 +1,3 @@
-mat0 = np.array([[1, 2], [3, 4]])
-vec0 = np.array([0.5, 0.5])
-expected_result =  np.array([1.5, 3.5])
-result = test(mat0, vec0)
-assert np.array_equal(result, expected_result), 'Test failed'
+arr0 = [[1.0, 2.3], [1.3, 2.9]]
+expected_result =  [[1, 2], [1, 2]]
+assert test(arr0) ==expected_result, 'Test failed'

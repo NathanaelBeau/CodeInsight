@@ -1,7 +1,6 @@
-# Test 2
-df0 = pd.DataFrame({'sentence': ['I love python', 'Java is cool', 'C++ is powerful']})
-column_name = 'sentence'
-lst0 = ['python', 'C++']
-expected_result =  pd.Series([True, False, True])
-result = test(df0, column_name, lst0)
+# Unit Test 2
+df0 = pd.DataFrame({ 'X': [10, 11, 12], 'Y': [13, 14, 15], 'Z': [16, 17, 18] })
+var0 = 'X'
+expected_result =  pd.DataFrame({ 'Y': [13, 14, 15], 'Z': [16, 17, 18] })
+result = test(df0, var0)
 assert result.equals(expected_result), 'Test failed'

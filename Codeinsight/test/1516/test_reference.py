@@ -1,3 +1,2 @@
-import numpy as np
-def test(mat0, mat1):
-    return np.einsum('ij,ji->i', mat0, mat1)
+def test(str0):
+    return sum(len(s) for s in str0)

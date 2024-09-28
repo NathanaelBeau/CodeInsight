@@ -1,4 +1,5 @@
-find indexes of all occurrences of a substring str0 in a string str1
+Sort a 2D NumPy array arr0 by the values in the second column
+import numpy as np
 
-def test(str0: str, str1: str) -> list:
+def test(arr0):
 

@@ -1,3 +1,4 @@
-import numpy as np
-def test(arr0):
-    return arr0 / np.linalg.norm(arr0)
+import pandas as pd
+
+def test(df0):
+    return len(df0)

@@ -1,4 +1,3 @@
-import pandas as pd
-df0 = pd.DataFrame({'Gender': ['Male', 'Male', 'Male'], 'Year': [2014, 2014, 2014]})
-expected_result =  df0
-assert test(df0).equals(expected_result), 'Test failed'
+lst0 = [True, False, True, False]
+result = test(lst0)
+assert "modified_value" in result, 'Test failed'

@@ -1,4 +1,5 @@
-lst0 = [{'date':'2022-05-01'}, {'date':'2021-03-03'}, {'date':'2023-04-02'}]
-expected_result =  [{'date':'2021-03-03'}, {'date':'2022-05-01'}, {'date':'2023-04-02'}]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+arr0 = np.array([[10, 11, 12]])
+lst0 = [13, 14, 15]
+expected_result =  np.array([[10, 11, 12], [13, 14, 15]])
+result = test(arr0, lst0)
+assert np.array_equal(result, expected_result), 'Test failed'

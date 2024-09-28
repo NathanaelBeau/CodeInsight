@@ -1,8 +1,4 @@
-# Test 3
-import pandas as pd
-df0 = pd.DataFrame({'A': [1.1, 2.2, 3.3, 4.4, 5.5], 'B': ['a', 'b', 'c', 'd', 'e']})
-col_name = 'A'
-lst0 = [1.1, 3.3, 5.5]
-expected_result =  pd.DataFrame({'A': [1.1, 3.3, 5.5], 'B': ['a', 'c', 'e']})
-result = test(df0, col_name, lst0).reset_index(drop=True)
+df0 = pd.DataFrame({'a': [0.1, 0.2, 0.3], 'b': [0.4, 0.5, 0.6], 'c': [0.7, 0.8, 0.9]})
+expected_result =  pd.Series([0.4, 0.5, 0.6], name='b')
+result = test(df0)
 assert result.equals(expected_result), 'Test failed'

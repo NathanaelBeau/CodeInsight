@@ -1,5 +1,4 @@
-str0 = "Apricot"
-lst0 = ["apple", "Banana", "Cherry"]
-expected_result =  ["apple", "Apricot", "Banana", "Cherry"]
-result = test(str0, lst0)
-assert result == expected_result, 'Test failed'
+arg0 = r'[A-Za-z]+'  
+arg1 = 'Hello World'  
+expected_output = 2  
+assert test(arg0, arg1) == expected_output, 'Test failed'

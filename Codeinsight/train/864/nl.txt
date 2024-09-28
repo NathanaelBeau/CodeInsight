@@ -1,1 +1,1 @@
-Reverse a numpy array arr0
+Convert the numpy array arr0 into a flattened tuple

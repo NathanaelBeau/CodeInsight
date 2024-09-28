@@ -1,4 +1,5 @@
-lst0 = [(1, 2, 3), (4, 5, 6)]
-expected_result =  ["123", "456"]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+# Test 1
+df0 = pd.DataFrame({'A': [1, 2], 'B': [3, 4]})
+expected_result =  np.array([(1, 3), (2, 4)])
+result = test(df0)
+assert np.array_equal(result, expected_result), 'Test failed'

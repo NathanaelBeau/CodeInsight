@@ -1,1 +1,1 @@
-Counting array elements in Python array lst0  
+Scale the columns in list lst0 of DataFrame df0 using sklearn's StandardScaler.

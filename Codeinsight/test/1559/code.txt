@@ -1,2 +1,2 @@
-def test(arr0):
-    return arr0[arr0[:,1].argsort()]
+def test(var0, var1):  
+    return str(var0) + var1

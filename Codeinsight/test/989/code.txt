@@ -1,6 +1,5 @@
-import re
+from itertools import groupby
+import operator
 
-def test(var0, lst0):
-    pattern = r'({})'.format('|'.join(map(re.escape, lst0)))
-    match = re.search(pattern, var0)
-    return match.group(0) if match else None
+def test(lst0):
+    return {k: list(v) for k, v in groupby(sorted(lst0), key=operator.itemgetter(0))}

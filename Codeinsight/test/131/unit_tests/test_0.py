@@ -1,11 +1,4 @@
-lst0 = [
-            {'a': 1, 'b': 2},
-            {'b': 2, 'a': 1},  # same content, different order
-            {'a': 1, 'b': 3},
-            {'a': 1, 'b': 2}   # duplicate of the first dict
-        ]
-result = test(lst0)
-expected = [{'a': 1, 'b': 2}, {'a': 1, 'b': 3}, {'b': 2, 'a': 1}]
-result = sorted([sorted(item.items()) for item in result])
-expected = sorted([sorted(item.items()) for item in expected])
-assert result == expected, 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, 3, 4], 'B': [5, 6, 7, 8]})
+var0 = 2
+result1, result2 = test(df0, var0)
+assert (result1.values == pd.DataFrame({'A': [1, 2], 'B': [5, 6]}).values).all() and (result2.values == pd.DataFrame({'A': [3, 4], 'B': [7, 8]}).values).all(), 'Test failed'

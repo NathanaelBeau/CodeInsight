@@ -1,2 +1,7 @@
-def test(lst0, var0):
-    return list(map(lambda x: x / var0, lst0))
+import numpy as np
+
+
+def test(arr0, var0, var1):
+    arr0[arr0 > var0] = var1
+    return arr0
+

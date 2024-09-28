@@ -1,1 +1,0 @@
-Generate all possible strings from a list of token lst0 with combinaison lenght of var0 with combination and permutations

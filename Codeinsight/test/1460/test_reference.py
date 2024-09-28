@@ -1,3 +1,3 @@
-def test(dict0):
-    for value in dict0.values():
-        return value
+import numpy as np
+def test(mat0, var0):
+    return mat0[..., :var0]

@@ -1,4 +1,5 @@
-arr0 = np.array([100, 200, 300, 400, 500])
-var0 = 4
-expected_output = np.array([100, 200, 300, 400])
-assert (test(arr0, var0)  ==  expected_output).all(), 'Test failed'
+# Test 2
+df0 = pd.DataFrame({'X': ['apple', 'banana'], 'Y': ['orange', 'grape']})
+expected_result =  [{'X': 'apple', 'Y': 'orange'}, {'X': 'banana', 'Y': 'grape'}]
+result = test(df0)
+assert result == expected_result, 'Test failed'

@@ -1,12 +1,3 @@
-import numpy
-import math
-import pandas
-import string
-import datetime
-import json
-import itertools
-import random
-import functools
-import collections
-result = test(1234567890)
-assert result==987654321, 'Test failed'
+str0 = "No\u200bthing to \u200bre\u200bpl\u200bace here."
+expected_output = "No*thing to *re*pl*ace here."
+assert test(str0) ==expected_output, 'Test failed'

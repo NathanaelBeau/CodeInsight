@@ -1,5 +1,2 @@
-import pandas as pd
-
-def test(df0, lst0):
-    df0.drop(lst0, inplace=True, errors='ignore')
-    return df0
+def test(lst0, lst1):
+    return sorted(lst0, key=lambda x: lst1.index(x) if x in lst1 else len(lst1))

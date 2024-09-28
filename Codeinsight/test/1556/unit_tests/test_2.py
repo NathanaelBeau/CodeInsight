@@ -1,3 +1,6 @@
-str0 = "123X456Y789Z"
-expected_output = [('123', 'X'), ('456', 'Y'), ('789', 'Z')]
-assert test(str0) ==expected_output, 'Test failed'
+str0 = "abc"
+var0 = """abc first line
+Not abc in this line
+abc another start"""
+expected_result =  ["abc", "abc", "abc"]
+assert test(str0, var0) == expected_result, 'Test failed'

@@ -1,1 +1,0 @@
-Convert a Scikit-learn dataset dataset0 into a Pandas DataFrame.   

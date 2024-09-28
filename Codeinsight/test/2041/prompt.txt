@@ -1,4 +1,0 @@
- remove whitespace from the end of a string str0 in Python   
-
-def test(str0):
-

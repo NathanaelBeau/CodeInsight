@@ -1,4 +1,3 @@
-dict0 = {'one': 10, 'two': 5, 'three': 7}
-expected_result =  {'two': 5, 'three': 7, 'one': 10}
-result = test(dict0)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame({'X': [10, 20, 30, 40], 'Y': [100, 200, 300, 400]})
+expected_result =  pd.DataFrame({'X': [10, 20, 30], 'Y': [100, 200, 300]})
+assert test(df0).equals(expected_result), 'Test failed'

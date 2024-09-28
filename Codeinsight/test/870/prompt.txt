@@ -1,4 +1,4 @@
-Append the string var0 to a list named lst0
+Get the var0 element of each tuple in a list lst0 in Python  with itemgetter
 
 def test(lst0, var0):
 

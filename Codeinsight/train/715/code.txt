@@ -1,5 +1,10 @@
-def test(var0, var1, var2):
-    parts = var0.split(var1, var2)
-    if len(parts) <= var2:
-        return -1
-    return len(var0) - len(parts[-1]) - len(var1)
+import numpy as np
+
+def test(arr0):
+    rows, cols = arr0.shape
+    diagonal = []
+    
+    for i in range(rows):
+        diagonal.append(arr0[i, cols - i - 1])
+    
+    return np.array(diagonal)

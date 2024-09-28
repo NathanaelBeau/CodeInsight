@@ -1,3 +1,4 @@
-a = np.array([26, 27, 28, 99, 101])
-expected_output = 4  # All values except 101 are between 25 and 100
-assert test(a,25,100) == expected_output, 'Test failed'
+lst0 = ['apple', 'banana', 'orange', 'pear']
+lst1 = ['banana', 'grape', 'pear']
+expected_output = {'banana', 'pear'}
+assert test(lst0, lst1) ==expected_output, 'Test failed'

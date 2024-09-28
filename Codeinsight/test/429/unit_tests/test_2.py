@@ -1,3 +1,4 @@
-df0 = pd.DataFrame({'alpha': [0.1, 0.2, None], 'beta': [0.5, None, None]})
-expected_result =  2
-assert test(df0) == expected_result, 'Test failed'
+col0 = 'team'
+df0 = pd.DataFrame({'team': ['red sox', 'yankees', 'dodgers']})
+expected_output = pd.DataFrame({'team': ['RED SOX', 'YANKEES', 'DODGERS']})
+assert test(df0, col0).equals(expected_output), 'Test failed'

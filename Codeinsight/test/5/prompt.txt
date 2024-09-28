@@ -1,6 +1,4 @@
-Remove one column var0 for a numpy array   arr0
+Check if any dictionary in the list lst0 has a key "name" with a value of "Test"
 
-import numpy as np
-
-def test(arr0, var0):
+def test(lst0):
 

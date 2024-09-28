@@ -1,4 +1,5 @@
-lst0 = [1, 2, 3]
-lst1 = [4, 5, 6]
-expected_output = 32
-assert test(lst0, lst1) == expected_output, 'Test failed'
+# Unit Test 1
+lst0 = pd.Series([1, 2, 3, 2, 4, 3])
+expected_result =  [2, 3]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

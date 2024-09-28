@@ -1,2 +1,5 @@
-def test(df0):
-    return df0[df0['Value'] == True]
+import math
+def test(var0):
+    if var0 is None:
+        return False
+    return math.isnan(var0)

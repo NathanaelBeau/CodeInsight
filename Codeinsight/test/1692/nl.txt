@@ -1,1 +1,1 @@
-Replace all infinite values with NaN in a dataframe df0
+Rename the index of DataFrame df0 based on the mappings provided in dictionary dict0.

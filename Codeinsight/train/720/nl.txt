@@ -1,1 +1,1 @@
-Extract all numbers from a string var0 using regular expressions  
+check if a value var0 exists in a dictionary dict0 

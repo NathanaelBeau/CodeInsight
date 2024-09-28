@@ -1,4 +1,6 @@
-Sort list lst0 in ascending order based on its elements' float values.
+Count the frequency of each unique value in column var0 of a pandas DataFrame df0.
 
-def test(lst0):
+import pandas as pd
+
+def test(df0, var0):
 

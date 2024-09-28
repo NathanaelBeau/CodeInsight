@@ -1,6 +1,5 @@
-def test(lst0, var0, lst1):
-    result = []
-    for x in lst0:
-        if x[var0] not in lst1:
-            result.append(x)
-    return result
+import pandas as pd
+import numpy as np
+
+def test(df0):
+    return df0.index[df0.isnull().any(axis=1)].tolist()

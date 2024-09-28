@@ -1,5 +1,4 @@
-arr0 = np.array([5, 7, 9, 12, 14])
-var0 = 8
-expected_result =  np.array([5, 7, 8, 8, 8])
-result = test(arr0, var0)
-assert np.array_equal(result, expected_result), 'Test failed'
+df0 = pd.DataFrame( np.random.randn(8, 4), index=pd.date_range('1/1/2000', periods=8), columns=['A', 'B', 'C', 'D'] )
+str0 = '2000-01-08'
+expected_output = 7
+assert test(df0, str0) ==expected_output, 'Test failed'

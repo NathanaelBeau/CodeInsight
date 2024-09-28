@@ -1,4 +1,6 @@
-# Test 3
-df0 = pd.DataFrame({ 'col1': [10], 'col2': [40] })
-expected_result =  1
-assert test(df0) == expected_result, 'Test failed'
+# Test 2
+df0 = pd.DataFrame({'fruit': ['apple', 'banana'], 'count': [10, 20]})
+old_col_name, new_col_name = 'count', 'quantity'
+expected_result =  pd.DataFrame({'fruit': ['apple', 'banana'], 'quantity': [10, 20]})
+result = test(df0, old_col_name, new_col_name)
+assert result.equals(expected_result), 'Test failed'

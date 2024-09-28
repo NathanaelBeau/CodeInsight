@@ -1,5 +1,4 @@
-var0 = 1
-var1 = 10
-var2 = 5
-expected_result =  len(set(test(var0, var1, var2))) == var2
-assert expected_result, 'Test failed'
+dict0 = {'key1': 'value1', 'key2': 'value2', 'key3': 'value3'}
+expected_output = ['key1', 'key2', 'key3']
+result = test(dict0)
+assert result == expected_output, 'Test failed'

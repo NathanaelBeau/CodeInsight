@@ -1,4 +1,2 @@
-import numpy as np
-def test(arr0, arr1):
-    sorter = np.argsort(arr1)
-    return arr0[sorter]
+def test(lst0, lst1):
+    return [item for item in lst0 if item not in lst1]

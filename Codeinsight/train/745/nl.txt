@@ -1,2 +1,1 @@
-Join two dataframes df0 and df1 based on their index.
-
+Replace the var0 occurrence(s) of word var1 by var2 in a string var3

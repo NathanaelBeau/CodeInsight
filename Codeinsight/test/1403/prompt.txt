@@ -1,6 +1,5 @@
-Replace all single word characters in string var0 with the string var1.
+Divide each row of the numpy array arr0 by the corresponding element in the vector vec0
 
-import re
-
-def test(var0, var1):
+import numpy as np
+def test(arr0, vec0):
 

@@ -1,4 +1,4 @@
-import pandas as pd
+import re
 
-def test(var0):
-    return var0 / var0.sum() * 100
+def test(df0, var0, var1):
+    return df0[var0].apply(lambda x: bool(re.search(var1, x, re.I) if isinstance(x, str) else False)).any()

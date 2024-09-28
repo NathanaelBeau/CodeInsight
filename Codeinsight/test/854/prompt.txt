@@ -1,5 +1,6 @@
-Get the list of indices where the values are NaN in the numpy array arr0.  
+List comprehension with an accumulator  on list lst0 
 
-import numpy as np
-def test(arr0):
+from itertools import accumulate
+
+def test(lst0):
 

@@ -1,1 +1,1 @@
-return a substring of str0 that ends just before the last occurrence of the substring var0.
+Comparing values in two lists lst0 and lst1 in Python   

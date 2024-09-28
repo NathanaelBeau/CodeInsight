@@ -1,6 +1,3 @@
-import pandas as pd
-import numpy as np
-
-def test(df0, var0):
-    df0[var0] = df0[var0].shift(1)
-    return df0
+def test(lst0, var0):
+    sorted_indices = sorted(range(len(lst0)), key=lambda i: lst0[i])
+    return sorted_indices[-var0:]

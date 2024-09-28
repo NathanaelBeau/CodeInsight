@@ -1,3 +1,4 @@
-lst0 = [9, 8, 7, 6, 5]
-expected_output = 98765
-assert test(lst0) ==expected_output, 'Test failed'
+arr0 = np.array([[1, 2], [3, 4]])
+expected_result =  [[1, 2], [3, 4]]
+result = test(arr0)
+assert result == expected_result, 'Test failed'

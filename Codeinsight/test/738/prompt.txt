@@ -1,4 +1,6 @@
-Generate a list of integers starting from var0 and ending with var1
+split a string str0 at line breaks in python   
 
-def test(var0, var1):
+import re
+
+def test(str0):
 

@@ -1,1 +1,1 @@
-Return the parity (odd or even) of each element of a list lst0.
+Check if the value value0 exists in the numpy array arr0. 

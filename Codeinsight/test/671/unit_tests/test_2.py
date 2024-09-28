@@ -1,6 +1,4 @@
-# Test 3
-df0 = pd.DataFrame({'name': ['John', 'Jane', 'John'], 'gender': ['M', 'F', 'M']})
-col_name, condition, new_value = 'name', 'John', 'Jonathan'
-expected_result =  pd.DataFrame({'name': ['Jonathan', 'Jane', 'Jonathan'], 'gender': ['M', 'F', 'M']})
-result = test(df0, col_name, condition, new_value)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [True, False]
+lst1 = [0, 1]
+expected_result =  [(True, 0), (False, 1)]
+assert test(lst0, lst1) == expected_result, 'Test failed'

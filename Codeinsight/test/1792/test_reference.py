@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0, items0):
-    return np.append(arr0, items0)
+def test(lst0, char0):
+    return [item for item in lst0 if not item.startswith(char0)]

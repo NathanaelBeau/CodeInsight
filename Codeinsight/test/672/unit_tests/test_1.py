@@ -1,3 +1,6 @@
-input2 = "Python is awesome"
-expected_result2 = ['P', 'i', 'a']
-assert test(input2) == expected_result2, 'Test failed'
+# Test 2
+lst0 = ['a', 'b', 'c', 'd', 'e']
+var0 = 2
+expected_result =  [['a', 'b'], ['c', 'd'], ['e']]
+result = test(lst0, var0)
+assert result == expected_result, 'Test failed'

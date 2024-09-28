@@ -1,6 +1,4 @@
-lst0 = ["apple", "banana", "cherry", "date", "elderberry"]
-var0 = 2
-var1 = 5
-expected_result =  ["cherry", "date", "elderberry"]
-result = test(lst0, var0, var1)
-assert result == expected_result, 'Test failed'
+var0 = pd.DataFrame({'A': [7, 8, 9], 'B': [10, 11, 12]})
+expected_result =  var0  # No negative numbers, the DataFrame remains the same
+result = test(var0)
+assert result.equals(expected_result), 'Test failed'

@@ -1,5 +1,6 @@
-mat4 = np.array([[2, 4], [6, 8]])
-mat5 = np.array([[10, 12], [14, 16]])
-expected_result =  np.array([76, 200])  # Diagonal elements of the full dot product
-result = test(mat4, mat5)
-assert np.array_equal(result, expected_result), 'Test failed'
+# Test 2
+df0 = pd.DataFrame({'A': ['cat', 'bat', 'rat'], 'B': ['one', 'two', 'three']})
+var0 = 'A'
+var1 = r'at$'
+expected_result =  pd.DataFrame({'A': ['cat', 'bat', 'rat'], 'B': ['one', 'two', 'three']})
+assert test(df0, var0, var1).equals(expected_result), 'Test failed'

@@ -1,5 +1,4 @@
-var0 = 'B'
-df0 = pd.DataFrame({'A': [1, 2, 3, 4], 'B': [np.nan, np.nan, 3, 4]})
-expected_result =  pd.DataFrame({'A': [1, 2], 'B': [np.nan, np.nan]}, index=[0, 1])
-result = test(df0, var0)
-assert result.equals(expected_result), 'Test failed'
+dict0 = {'apple': [10, 20, 30], 'banana': [5, 25, 50], 'cherry': [1, 2, 3]}
+expected_result =  {'banana': [5, 25, 50], 'apple': [10, 20, 30], 'cherry': [1, 2, 3]}
+result = test(dict0)
+assert result == expected_result, 'Test failed'

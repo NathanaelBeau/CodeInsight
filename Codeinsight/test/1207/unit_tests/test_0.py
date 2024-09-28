@@ -1,6 +1,3 @@
-var0 = "Hello"
-var1 = "World"
-var2 = 2
-expected_result =  "HeWorldllo"
-result = test(var0, var1, var2)
-assert result==result, 'Test failed'
+lst0 = [1, 2, 3, 4]
+expected_output = 35
+assert test(lst0) ==expected_output, 'Test failed'

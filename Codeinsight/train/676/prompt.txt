@@ -1,4 +1,6 @@
-Extract all keys from a list of dictionaries  lst0
+Get a random key from a dictionary dict0 with probability weighted by its values. 
 
-def test(lst0):
+import random
+
+def test(dict0):
 

@@ -1,5 +1,0 @@
-Compute the norm for each row of the matrix mat0.  
-
-import numpy as np
-def test(mat0):
-

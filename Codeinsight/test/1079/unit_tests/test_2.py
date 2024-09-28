@@ -1,3 +1,5 @@
-str0 = "111000111"
-expected_output = [7, 0, 7]
-assert test(str0) == expected_output, 'Test failed'
+# Test 2
+lst0 = [{"name": "Alice", "age": 25}, {"name": "Bob", "age": 30}]
+expected_result =  pd.DataFrame({"name": ["Alice", "Bob"], "age": [25, 30]})
+result = test(lst0)
+assert result.equals(expected_result), 'Test failed'

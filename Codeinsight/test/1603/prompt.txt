@@ -1,5 +1,6 @@
-Perform stratified sampling on dataframe df0 based on column col_name with a sample size of var0 for each group   
+Replace double backslashes with a single backslash in the string var0.
 
-import pandas as pd
-def test(df0, col_name, var0):
+import re
+
+def test(var0):
 

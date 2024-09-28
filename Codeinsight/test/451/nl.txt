@@ -1,1 +1,1 @@
-sort lists lst0 within list in user defined order in dictionary dict0   
+ find the index of a value var0 in 2d array arr0 in Python with np.argwhere

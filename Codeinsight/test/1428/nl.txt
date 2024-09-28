@@ -1,1 +1,1 @@
-How can I compare two lists lst0 and lst1  in python and return matches   
+Sort the list lst0 based on the length of its elements.

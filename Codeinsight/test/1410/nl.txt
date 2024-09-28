@@ -1,1 +1,1 @@
-Convert a 2D list lst0 to a 2D numpy array.  
+Find all occurrences of the literal asterisk character in the string var0.

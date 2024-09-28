@@ -1,6 +1,7 @@
-Simpler way to create dictionary of separate variables var0
- 
-  
+Removing nan values from an array or list  arr0 with pd.isnull
 
-def test(var0):
+import pandas as pd
+import numpy as np
+
+def test(arr0):
 

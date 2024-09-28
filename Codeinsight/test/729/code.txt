@@ -1,2 +1,4 @@
-def test(str0):
-    return ''.join(str0.split())
+import numpy as np
+
+def test(arr0, arr1):
+    return np.dstack((arr0, arr1)).flatten()

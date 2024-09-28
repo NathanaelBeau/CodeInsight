@@ -1,1 +1,1 @@
-Flatten the hierarchical index in columns of dataframe df0."
+Remove all integer values from a list lst0 

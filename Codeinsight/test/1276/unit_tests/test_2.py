@@ -1,4 +1,3 @@
-var0 = 0.9
-expected_result =  -1
-result = test(var0)
-assert result == expected_result, 'Test failed'
+lst0 = [{'weight': 5, 'factor': 5}, {'weight': 5, 'factor': 5}, {'weight': 5, 'factor': 5}]
+expected_output = [{'weight': 5, 'factor': 5}, {'weight': 5, 'factor': 5}, {'weight': 5, 'factor': 5}]
+assert test(lst0) ==expected_output, 'Test failed'

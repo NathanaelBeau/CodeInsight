@@ -1,6 +1,4 @@
-Accessing all elements in position var0 from a list of tuples lst0
+Convert character char0 to its corresponding integer representation  
 
-import pandas as pd
-
-def test(var0, lst0):
+def test(char0):
 

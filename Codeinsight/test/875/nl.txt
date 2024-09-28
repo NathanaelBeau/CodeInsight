@@ -1,1 +1,1 @@
-Convert a byte string str0 to a unicode string
+Filter a dataframe df0 for rows where column var0 has value var1 and column var2 has value var3

@@ -1,5 +1,5 @@
-concatenate two DataFrames, df0 and df1, along the columns axis (i.e., horizontally), but only include the 'dates' column from df1 in the concatenated result.
+Pad a numpy array arr0 with var0 zeros on all sides 
 
-import pandas as pd
-def test(df0, df1):
+import numpy as np
+def test(arr0, var0):
 

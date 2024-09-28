@@ -1,6 +1,5 @@
-# Test 1
-df0 = pd.DataFrame({'A': [1, 2, 2, 3, 3, 3]})
-column_name = 'A'
-expected_result =  3
-result = test(df0, column_name)
-assert result == expected_result, 'Test failed'
+lst0 = ['apple8', 'banana 8', 'cherry 8']
+var0 = '8'
+var1 = 'fruit'
+expected_output = ['applefruit', 'banana fruit', 'cherry fruit']
+assert test(lst0, var0, var1) == expected_output, 'Test failed'

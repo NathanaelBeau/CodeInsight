@@ -1,1 +1,1 @@
-Get the first 100 characters from the string str0.
+Find all occurrences of a substring str1 in a string str0  

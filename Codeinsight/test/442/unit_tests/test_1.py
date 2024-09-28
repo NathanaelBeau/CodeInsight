@@ -1,3 +1,3 @@
-var0 = "Python"
-result = test(var0)
-assert len(result) == len(var0) and all(c1.lower() == c2.lower() for c1, c2 in zip(result, var0)), 'Test failed'
+str0 = "HelloWorld"
+expected_output = "Hello World"
+assert test(str0) ==expected_output, 'Test failed'

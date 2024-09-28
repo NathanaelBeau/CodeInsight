@@ -1,9 +1,6 @@
-def test(var1, var2):
-    multidimensional_list = []
-    for i in range(var1):
-        multidimensional_list.append([])
+import pandas as pd
+import numpy as np
 
-        for j in range(var2):
-             multidimensional_list[i].append(0)
-
-    return multidimensional_list
+def test(df0, var0, var1):
+    df0[var0] = df0[var0].fillna(var1)
+    return df0

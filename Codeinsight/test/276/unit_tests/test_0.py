@@ -1,5 +1,3 @@
-dct0 = {'key': 'value', 'another_key': 'another_value'}
-var0 = 'key'
-expected_result =  {'another_key': 'another_value'}
-result = test(dct0, var0)
-assert result == expected_result, 'Test failed'
+dict0 = {"one": [(1,3),(1,4)], "two": [(1,2),(1,2),(1,3)], "three": [(1,1)]}
+expected_output = ["two", "one", "three"]
+assert test(dict0) ==expected_output, 'Test failed'

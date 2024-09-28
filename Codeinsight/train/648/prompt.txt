@@ -1,6 +1,4 @@
- remove multiple columns that end with same text str0 ath the end   in Pandas datframe df0   
+Convert a string s containing characters into its corresponding hex string representation.
 
-import pandas as pd
-
-def test(df0, str0):
+def test(s: str) -> str:
 

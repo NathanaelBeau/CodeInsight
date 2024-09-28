@@ -1,1 +1,1 @@
-Find the row with the maximum value of column var0 in dataframe df0
+Sort the values of each row in a DataFrame df0.

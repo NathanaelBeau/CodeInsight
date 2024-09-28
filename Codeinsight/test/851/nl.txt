@@ -1,1 +1,1 @@
-Check if a string str0 contains only letters, numbers, underscores, and dashes.
+Find unique rows in a numpy array arr0.

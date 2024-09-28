@@ -1,5 +1,3 @@
-str0 = "split_by_indices"
-lst0 = [5, 8]
-expected_result =  ["split", "_by", "_indices"]
-result = test(str0, lst0)
-assert result == expected_result, 'Test failed'
+arr0 = np.array([3.2, 2.8, np.nan, 4.5])
+expected_output = np.array([4.5, 3.2, 2.8, np.nan])
+assert np.allclose(test(arr0), expected_output, equal_nan=True), 'Test failed'

@@ -1,6 +1,5 @@
-How to extract from a list of objects lst0 a list of specific attribute var0?   
+Calculate the percentage of missing values in each column of the DataFrame df0 
 
-from operator import itemgetter
-
-def test(lst0, var0):
+import pandas as pd
+def test(df0):
 

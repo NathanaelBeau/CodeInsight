@@ -1,4 +1,5 @@
-import numpy as np
+import pandas as pd
 
-def test(arr0):
-    return arr0 / np.sqrt(np.sum(arr0**2))
+def test(df0, var0, cond0, var1):
+    df0.loc[df0[var0] == cond0, var0] = var1
+    return df0

@@ -1,4 +1,6 @@
-df0 = pd.DataFrame({ 'room': ['X', 'Y'], 'date': ['2022-02-01', '2022-02-02'], 'hour': ['09:00', '10:00'], 'time_x': [10, 20] })
-df1 = pd.DataFrame({ 'room': ['X', 'Y'], 'date': ['2022-02-01', '2022-02-02'], 'hour': ['09:00', '10:00'], 'time_y': [30, 40] })
-expected_result =  pd.DataFrame({ 'room': ['X', 'Y'], 'date': ['2022-02-01', '2022-02-02'], 'hour': ['09:00', '10:00'], 'time_y': [30, 40] })
-assert test(df0, df1) .equals( expected_result), 'Test failed'
+var0_2 = 1
+var1_2 = 'B'
+df0_2 = pd.DataFrame({'col1': [5, 6], 'col2': [7, 8]})
+expected_result_2 = pd.DataFrame({'col1': [5, 6], 'col2': [7, 8]}, index=[0, 'B'])
+result_2 = test(df0_2.copy(), var0_2, var1_2)
+assert result_2.equals(expected_result_2), 'Test failed'

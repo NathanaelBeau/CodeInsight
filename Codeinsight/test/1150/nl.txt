@@ -1,1 +1,1 @@
-split a single tuple lst0 into multiple using python  
+Sort the list lst0 by the occurrence of its elements without removing any elements.

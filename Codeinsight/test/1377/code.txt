@@ -1,2 +1,2 @@
-def test(dict0, key0):
-    return sum(1 for _ in dict0.get(key0, []))
+def test(var0, var1):
+    return var0.count(var1)

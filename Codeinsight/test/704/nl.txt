@@ -1,1 +1,1 @@
-Create a dictionary where keys are integers from 0 to var0 - 1 and values are their respective squares.
+Replacing the empty strings in a string str1 with string str0

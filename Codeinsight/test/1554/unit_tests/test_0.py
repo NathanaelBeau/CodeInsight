@@ -1,3 +1,4 @@
-lst0 = [3, 7, 1, 9, 5]
-expected_output = 9
-assert test(lst0) ==expected_output, 'Test failed'
+lst0 = ['a', 'b', 'c']
+arg0 = {'a', 'b'}
+expected_output = True
+assert test(lst0, arg0) ==expected_output, 'Test failed'

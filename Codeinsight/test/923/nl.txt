@@ -1,1 +1,1 @@
- count values in a certain range between var0 and var1 in a Numpy array arr0   
+Count the occurrences of a specific value value0 in a column col_name0 of a DataFrame df0.

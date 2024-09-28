@@ -1,1 +1,1 @@
-Convert all NaN values to 0 in a dataframe df0
+Create a zero-filled pandas dataframe with var0 rows and var1 columns

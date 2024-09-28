@@ -1,3 +1,5 @@
-var0 = "key1=value1;key2=value2;key3=value3"
-expected_result =  {'key1': 'value1', 'key2': 'value2', 'key3': 'value3'}
-assert test(var0) == expected_result, 'Test failed'
+df0 = pd.DataFrame({'A': [10, 20, 30, 40, 50]})
+column_name0 = 'A'
+expected_result =  (20.0, 30.0, 40.0)
+result = test(df0, column_name0)
+assert result == expected_result, 'Test failed'

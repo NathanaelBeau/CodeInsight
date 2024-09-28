@@ -1,4 +1,5 @@
-arr0 = np.array([0.12345, 0.67890, 9.87654])
-var0 = 2
-expected_output = ['0.12', '0.68', '9.88']
-assert (test(arr0, var0)  ==  expected_output).all(), 'Test failed'
+# Test 2
+lst0 = [np.array([7]), np.array([8, 9]), np.array([])]
+expected_result =  np.array([7, 8, 9])
+result = test(lst0)
+assert np.array_equal(result, expected_result), 'Test failed'

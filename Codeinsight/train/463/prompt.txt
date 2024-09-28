@@ -1,6 +1,4 @@
-Convert the dictionary dict0 into a dataframe.
+insert a list lst1  at the front of another list lst0  
 
-import pandas as pd
-
-def test(dict0):
+def test(lst0, lst1):
 

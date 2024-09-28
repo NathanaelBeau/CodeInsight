@@ -1,3 +1,4 @@
-def test(lst0, var0, var1, var2):
-    lst0.extend((var0, var1, var2))
-    return lst0
+import numpy as np
+
+def test(mat0, vec0):
+    return np.dot(mat0, vec0)

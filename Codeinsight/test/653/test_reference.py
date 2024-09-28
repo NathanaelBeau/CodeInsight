@@ -1,3 +1,5 @@
-def test(lst0):
-    sorted_list = sorted(lst0)
-    return sorted_list == list(range(sorted_list[0], sorted_list[-1]+1))
+def test(dict0, var0):
+    if dict0[var0] is None:
+        dict0[var0] = 0
+    return dict0
+

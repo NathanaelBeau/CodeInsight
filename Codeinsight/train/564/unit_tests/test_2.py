@@ -1,5 +1,6 @@
-df0 = pd.DataFrame({'A': [1, 2, 3, 4],
-                    'B': [5, 6, 7, 8],
-                    'C': [9, 10, 11, 12]})
-expected_output = 0
-assert test(df0) ==expected_output, 'Test failed'
+# Test 3
+df0 = pd.DataFrame({'M': [10], 'N': [13]})
+df1 = pd.DataFrame({'M': [11], 'N': [14]})
+expected_result =  pd.DataFrame({'M': [10, 11], 'N': [13, 14]})
+result = test(df0, df1)
+assert result.equals(expected_result), 'Test failed'

@@ -1,4 +1,7 @@
-A3 = ['apple', 'banana', 'cherry', 'date']
-B3 = ['banana', 'date', 'fig']
-expected_output3 = [1, 3]
-assert test(A3, B3) == expected_output3, 'Test failed'
+lst0 = [
+            [100, 200, 300],
+            ['red', 'blue'],
+            [1.0, 2.0]
+        ]
+expected_output = [('100', 'red', '1.0'), ('100', 'blue', '1.0'), ('200', 'red', '1.0'), ('200', 'blue', '1.0'), ('300', 'red', '1.0'), ('300', 'blue', '1.0'), ('100', 'red', '2.0'), ('100', 'blue', '2.0'), ('200', 'red', '2.0'), ('200', 'blue', '2.0'), ('300', 'red', '2.0'), ('300', 'blue', '2.0')]
+assert test(lst0) ==expected_output, 'Test failed'

@@ -1,2 +1,5 @@
-def test(d0: dict) -> dict:
-    return {k: 'updated' for k, v in d0.items() if v is not None}
+from functools import reduce
+import operator
+
+def test(lst0):
+    return reduce(operator.and_, lst0, True)

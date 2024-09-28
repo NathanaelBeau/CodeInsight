@@ -1,1 +1,0 @@
-Remove all values from list lst1 that appear in list lst0

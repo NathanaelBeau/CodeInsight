@@ -1,3 +1,4 @@
-str0 = "hello*world"
-expected_output = ['helloworld']
-assert test(str0)== expected_output, 'Test failed'
+var0= ""
+var1="nonempty"
+expected=True
+assert test(var0,var1) == expected, 'Test failed'

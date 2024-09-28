@@ -1,1 +1,1 @@
-In dictionary dict0 , converting the value from string to integer   
+insert a list lst1  at the front of another list lst0  

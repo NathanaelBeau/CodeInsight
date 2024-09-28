@@ -1,5 +1,4 @@
-Compute the diagonal of the dot product of matrices mat0 and mat1 using numpy/scipy  
+Python: Sum string lengths str0 
 
-import numpy as np
-def test(mat0, mat1):
+def test(str0):
 

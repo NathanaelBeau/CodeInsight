@@ -1,3 +1,5 @@
-s2 = "Split@Here!And?Here."
-expected_output2 = ['Split', '@', 'Here', '!', 'And', '?', 'Here', '.']
-assert test(s2) == expected_output2, 'Test failed'
+lst0 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+var0 = 4
+expected_output = [[1, 2, 3, 4], [5, 6, 7, 8], [9]]
+result = list(test(lst0, var0))
+assert result == expected_output, 'Test failed'

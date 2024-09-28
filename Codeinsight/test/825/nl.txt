@@ -1,3 +1,1 @@
-Simpler way to create dictionary of separate variables var0
- 
-  
+Swap values in a tuple/list lst0 inside a list in python with map   

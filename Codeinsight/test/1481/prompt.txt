@@ -1,6 +1,4 @@
-Split the dataframe df0 into two dataframes at the row number n0.  
+Sort the input list lst0 in place, using the float values of its elements 
 
-import pandas as pd
-
-def test(df0, n0):
+def test(lst0):
 

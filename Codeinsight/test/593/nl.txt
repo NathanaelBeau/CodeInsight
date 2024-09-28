@@ -1,1 +1,1 @@
-Sort dictionary dict0 by value in ascending order
+Return dataframe df0 with its last row removed.

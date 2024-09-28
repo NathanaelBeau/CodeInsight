@@ -1,2 +1,3 @@
-def test(str0):
-    return [sum(map(int, str0[i:i+2])) for i in range(len(str0)-1)]
+def test(dict0, dict1):
+    return {key: dict0[key] - dict1.get(key, 0) for key in dict0}
+

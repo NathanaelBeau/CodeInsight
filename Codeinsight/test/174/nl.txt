@@ -1,1 +1,1 @@
-Insert a dictionary with keys var1 and values var3 into dictionary dict0 under the key var2
+Calculate the proportion of rows in dataframe trace_df where values in column ratio are greater than 0.

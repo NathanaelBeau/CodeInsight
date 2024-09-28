@@ -1,4 +1,0 @@
- split a list lst0 into evenly sized chunks of size  var0   
-
-def test(lst0, var0):
-

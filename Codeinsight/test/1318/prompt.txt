@@ -1,6 +1,4 @@
-Append a row with data lst0 to a dataframe df0 and assign it the index label str0
+Get the indices of tuples in the list of tuples lst0 where the first value is 53.
 
-import pandas as pd
-
-def test(df0, str0, lst0):
+def test(lst0):
 

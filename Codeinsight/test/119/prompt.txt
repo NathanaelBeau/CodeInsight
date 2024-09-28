@@ -1,4 +1,4 @@
-Exclude elements of the list lst0 that start with the character char0.
+Delete column with name var0 from dataframe df0.
 
-def test(lst0, char0):
+def test(df0, var0):
 

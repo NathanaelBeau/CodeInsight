@@ -1,6 +1,5 @@
-# Test 3
-df0 = pd.DataFrame({'M': [0, 0, 0], 'N': [1, 2, 3]})
-lst0 = ['M', 'N']
-expected_result =  pd.DataFrame({'M': [0., 0., 0.], 'N': [-1.22474487, 0., 1.22474487]})
-result = test(df0, lst0)
-assert result.applymap(lambda x: round(x, 6)).equals(expected_result.applymap(lambda x: round(x, 6))), 'Test failed'
+var0 = 'C'
+df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 5, 8]})
+expected_result =  df0.iloc[[2]]
+result = test(df0, var0)
+assert result.equals(expected_result), 'Test failed'

@@ -1,7 +1,2 @@
-import numpy as np
-
-def test(dict0, dtype= object):
-    keys = list(dict0.keys())
-    values = list(dict0.values())
-    data = list(zip(keys, values))
-    return np.array(data, dtype=dtype)
+def test(var0, var1):
+    return [*map(lambda x:x[var0],var1)]

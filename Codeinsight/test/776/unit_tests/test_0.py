@@ -1,4 +1,3 @@
-input_num = 6
-expected_result =  [0, 0, 1, 1, 2, 2]
-result = test(input_num)
-assert result == expected_result, 'Test failed'
+lst0 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+expected_output = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+assert test(lst0) == expected_output, 'Test failed'

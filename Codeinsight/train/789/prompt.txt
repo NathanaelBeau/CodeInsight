@@ -1,5 +1,6 @@
-Add  days var0 and  hours var1 to the given datetime dt0
+Sort a list lst0 according to another list lst1 of int in ascending order
 
-from datetime import datetime, timedelta
-def test(dt0, var0, var1):
+import numpy
+
+def test(lst0, lst1):
 

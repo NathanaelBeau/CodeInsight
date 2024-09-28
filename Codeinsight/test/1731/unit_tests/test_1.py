@@ -1,4 +1,4 @@
-str0 = "apple"
-lst0 = ["banana", "orange", "grape"]
-expected_output = False
-assert test(str0, lst0) ==expected_output, 'Test failed'
+var0 = pd.DataFrame({'B': [4, 5, 6]}, index=pd.Index([1, 2, 3], name='index_name'))
+expected_result =  pd.DataFrame({'B': [4, 5, 6]}, index=pd.Index([1, 2, 3]))
+result = test(var0)
+assert result.equals(expected_result), 'Test failed'

@@ -1,5 +1,4 @@
-Create a zero-filled pandas dataframe with dimensions var0 x var1
+removing duplicates of a list of sets lst0 
 
-import pandas as pd
-def test(var0, var1):
+def test(lst0):
 

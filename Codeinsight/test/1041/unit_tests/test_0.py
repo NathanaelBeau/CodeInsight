@@ -1,4 +1,7 @@
-lst0 = ['Jellicle', 'Cats', 'are', 'black', 'and', 'white,', 'Jellicle', 'Cats', 'are', 'rather', 'small;', 'Jellicle', 'Cats', 'are', 'merry', 'and', 'bright,', 'And', 'pleasant', 'to', 'hear', 'when', 'they', 'caterwaul.', 'Jellicle', 'Cats', 'have', 'cheerful', 'faces,', 'Jellicle', 'Cats', 'have', 'bright', 'black', 'eyes;', 'They', 'like', 'to', 'practise', 'their', 'airs', 'and', 'graces', 'And', 'wait', 'for', 'the', 'Jellicle', 'Moon', 'to', 'rise.', '']
-var0 = 3
-expected_output= ['Jellicle', 'Cats', 'are']
-assert test(lst0, var0)== expected_output, 'Test failed'
+# Test 1 (Applying a lambda function to square the values)
+df0 = pd.DataFrame({ 'A': [1, 2, 3], 'B': [4, 5, 6] })
+var0 = 'A'
+func = lambda x: x**2
+expected_result =  pd.Series([1, 4, 9], name='A')
+result = test(df0, var0, func)
+assert result.equals(expected_result), 'Test failed'

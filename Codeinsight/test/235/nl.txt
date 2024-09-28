@@ -1,1 +1,1 @@
- "unpivot" specific columns lst0 from a pandas DataFrame df0  with pivoted columns var0 and  var1
+Find the minimum and maximum values excluding zeros in numpy array (or tuple) arr0  

@@ -1,3 +1,4 @@
-lst0 = [{'x': 1}, {'y': 2}, {'z': 3}]
-expected_result =  {'x': 1, 'y': 2, 'z': 3}
-assert test(lst0) == expected_result, 'Test failed'
+var0 = "\\Backslashes\\Everywhere\\\\"
+expected_result =  "BackslashesEverywhere"
+result = test(var0)
+assert result == expected_result, 'Test failed'

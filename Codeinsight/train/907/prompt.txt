@@ -1,4 +1,7 @@
-Averaging the values in a dictionary dict0 for each keys and return a list of tuples
+Replace NaN values in the pandas DataFrame df0 with the average of each respective column.
 
-def test(dict0):
+import pandas as pd
+import numpy as np
+
+def test(df0):
 

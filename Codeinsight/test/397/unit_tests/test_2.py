@@ -1,3 +1,4 @@
-lst0 = [[10, 20, 30, 40], [50, 60, 70, 80], [90, 100, 110, 120]]
-expected_output = [[20, 40, 60, 80], [100, 120, 140, 160], [180, 200, 220, 240]]
-assert test(lst0) ==expected_output, 'Test failed'
+df0 = pd.DataFrame({'P': [5, 7, 9], 'Q': [1, 9, 3], 'R': [8, 2, 6]})
+expected_result =  pd.Series(['R', 'Q', 'P'])
+result = test(df0)
+assert result.equals(expected_result), 'Test failed'

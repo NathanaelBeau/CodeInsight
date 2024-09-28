@@ -1,3 +1,2 @@
-def test(lst0):
-    from collections import Counter
-    return Counter(elem[0] for elem in lst0)
+def test(dict0):
+    return {key: np.sum(value) for key, value in dict0.items()}

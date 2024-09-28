@@ -1,3 +1,4 @@
-my_string = "Hello, world!\nHow are you?\nGoodbye!"
-expected_output = "Hello, world!"
-assert test(my_string) == expected_output, 'Test failed'
+lst0 = ['good', 'bad', 'tall', 'big']
+lst1 = ['boy', 'girl', 'guy', 'man']
+expected_output = ['goodboy', 'badgirl', 'tallguy', 'bigman']
+assert test(lst0, lst1) ==expected_output, 'Test failed'

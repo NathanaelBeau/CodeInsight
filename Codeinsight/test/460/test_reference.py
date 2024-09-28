@@ -1,5 +1,3 @@
-import operator
-
-def test(lst0):
-	lst0.sort(key=operator.itemgetter(1))
-	return lst0
+def test(dict0, dict1):
+    dict0.update(dict1)
+    return dict0

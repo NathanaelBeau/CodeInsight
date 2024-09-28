@@ -1,6 +1,4 @@
-df0 = pd.DataFrame({'C': ['apple', 'banana', 'cherry'], 'D': ['apple', 'banana', 'apple']})
-var0 = 'C'
-var1 = 'D'
-expected_result =  pd.Series([True, True, False])
-result = test(df0, var0, var1)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [[1, 2], [3, 4], [5, 6]]
+expected_result =  [[2, 1], [4, 3], [6, 5]]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

@@ -1,4 +1,0 @@
-Checking if all the elements in list lst0 are unique.
-
-def test(lst0):
-

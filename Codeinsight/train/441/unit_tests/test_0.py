@@ -1,5 +1,4 @@
-var0 = "Hello world! Good world!"
-replacements = {"world": "planet", "Good": "Great"}
-expected_result =  "Hello planet! Great planet!"
-result = test(var0, replacements)
+var0 = "Please get the book."
+expected_result =  "Please get@ the book."
+result = test(var0)
 assert result == expected_result, 'Test failed'

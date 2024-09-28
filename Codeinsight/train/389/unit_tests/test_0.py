@@ -1,4 +1,5 @@
-import pandas as pd
-df0 = pd.DataFrame({ 'A': [0, 1, 2, 3], 'B': [-2, 0, 1, 2] })
-expected_result1 = pd.DataFrame({ 'A': [0, 2, 3], 'B': [-2, 1, 2] }, index=[0, 2, 3])
-assert test(df0).equals(expected_result1), 'Test failed'
+lst0 = [1, 2, 3, 4]
+lst1 = [1, 5, 6, 7]
+expected_result =  [1, 2, 3, 4]
+result = test(lst0, lst1)
+assert result == expected_result, 'Test failed'

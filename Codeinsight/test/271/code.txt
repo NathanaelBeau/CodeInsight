@@ -1,4 +1,2 @@
 def test(lst0):
-    iterator = iter(lst0)
-    result = dict(zip(iterator, iterator))
-    return result
+    return [s.split('\t', 1)[0] for s in lst0]

@@ -1,1 +1,1 @@
-Convert dictionary dict0 into a list with its keys and values as list items.
+Compute the row-wise dot product of two matrices mat0 and mat1  

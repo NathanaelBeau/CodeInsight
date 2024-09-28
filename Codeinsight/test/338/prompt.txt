@@ -1,6 +1,5 @@
-Convert a pandas dataframe df to a list of dictionaries, where each dictionary represents a row and includes the index values.
+ select rows from a DataFrame df0 based on column values with column var0 and value var1   
 
 import pandas as pd
-
-def test(df: pd.DataFrame) -> list:
+def test(df0, var0, var1):
 

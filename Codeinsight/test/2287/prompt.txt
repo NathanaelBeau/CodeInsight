@@ -1,4 +1,0 @@
-flatten a tuple lst0 in python   
-
-def test(lst0):
-

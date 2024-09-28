@@ -1,3 +1,5 @@
 import pandas as pd
 
-def test(df0, col0):    return df0.assign(**{col0: pd.factorize(df0[col0])[0]})
+def test(df0, col0):
+    df0[col0] = df0[col0].astype('category').cat.codes
+    return df0

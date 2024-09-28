@@ -1,4 +1,0 @@
-Remove items from dictionary myDict where the value of the item is equal to var0.
-
-def test(myDict: dict, var0: any) -> dict:
-

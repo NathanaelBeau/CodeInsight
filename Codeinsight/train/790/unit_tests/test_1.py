@@ -1,4 +1,3 @@
-lst0 = [{"name": "Demo"}, {"name": "Trial"}, {"name": "Example"}]
-expected_result =  False
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+lst0 = [('H', 'e', 'l', 'l', 'o'), ('W', 'o', 'r', 'l', 'd')]
+expected_output = ['Hello', 'World']
+assert test(lst0) ==expected_output, 'Test failed'

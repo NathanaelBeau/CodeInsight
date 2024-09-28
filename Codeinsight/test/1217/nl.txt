@@ -1,1 +1,1 @@
-Convert the numpy array arr0 into a flattened tuple
+Split string var0 into a list of its characters.

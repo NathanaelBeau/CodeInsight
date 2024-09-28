@@ -1,5 +1,6 @@
-arr0 = np.array([1, 2, 3, 4, 5])
-var0 = 2
-expected_result =  np.array([1, 2, 4, 5])
-result = test(arr0, var0)
+arr2 = np.array([[11, 12]])
+var0 = 0
+var1 = 0
+expected_result =  np.array([[11, 12]])
+result = test(arr2, var0, var1)
 assert np.array_equal(result, expected_result), 'Test failed'

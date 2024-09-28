@@ -1,5 +1,4 @@
-Count the number of NaN values in each column of the dataframe df0.
+Delete all objects in a list  lst0
 
-import pandas as pd
-def test(df0):
+def test(lst0) -> None:
 

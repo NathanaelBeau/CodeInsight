@@ -1,4 +1,4 @@
-Reverse all sublists in the list lst0 and then reverse the list itself.
+Python: Getting rid of \u200b from a string str0 without regular expressions   with replace
 
-def test(lst0):
+def test(str0):
 

@@ -1,6 +1,6 @@
-Sort a list of strings lst0 by their integer suffix.
+Calculate the mean of selected rows lst0 and selected columns lst1 in a dataframe df0
 
-import re
+import pandas as pd
 
-def test(lst0):
+def test(df0, lst0, lst1):
 

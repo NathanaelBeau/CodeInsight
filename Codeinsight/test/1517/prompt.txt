@@ -1,4 +1,4 @@
-Find the common elements between two lists, lst0 and lst1.
+Sort dictionary dict0 by value in ascending order
 
-def test(lst0, lst1):
+def test(dict0):
 

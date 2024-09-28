@@ -1,1 +1,0 @@
-Check if all elements in the list lst0 are False. 

@@ -1,1 +1,1 @@
-Convert the numpy array of strings arr0 to an array of floats
+Sorting the content of a dictionary dict0 by the value and by the key   

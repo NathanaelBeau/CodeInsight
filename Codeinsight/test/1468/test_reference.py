@@ -1,5 +1,3 @@
-import pandas as pd
-
-def test(df0, var0, var1, var2, var3):
-    df0[[var1, var2]] = df0[var0].str.extract(r'(.*)' + var3 + r'(.*)')
-    return df0
+import numpy as np
+def test(mat0, var0, var1):
+    return mat0.transpose(*[var1 if i == var0 else var0 if i == var1 else i for i in range(mat0.ndim)])

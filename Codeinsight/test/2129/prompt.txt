@@ -1,6 +1,0 @@
-Python: Replace with regex  var0  and subvstitue var1 in string str0
-
-import re
-
-def test(var0, var1, str0):
-

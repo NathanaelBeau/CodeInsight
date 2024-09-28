@@ -1,1 +1,1 @@
-Add multiple empty columns to a DataFrame df0 with column names from the list lst0. 
+reverse tuples elements inside each tuple in list of tuples lst0  in Python  

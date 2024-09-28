@@ -1,4 +1,3 @@
-import pandas as pd
-
-def test(lst0, lst1):
-    return pd.DataFrame({'List1': lst0, 'List2': lst1})
+def test(lst0):
+    lst0 = [word.lower() for word in lst0]
+    return sorted(list(set(lst0)))

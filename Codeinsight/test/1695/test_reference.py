@@ -1,2 +1,3 @@
-def test(dct0):
-    return dict(sorted(dct0.items(), key=lambda item: max(item[1]), reverse=True))
+def test(lst0):
+    lst0.sort(key=lambda x: sum(y['play'] for y in x), reverse=True)
+    return lst0

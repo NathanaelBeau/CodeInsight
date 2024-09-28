@@ -1,1 +1,1 @@
-Converting a list of tuples lst0 into a dict with itemgetter and groupby
+Compute the mean of elements in list lst0.

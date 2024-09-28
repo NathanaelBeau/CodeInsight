@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0):
-    return arr0.view(np.float64).reshape(arr0.shape + (-1,))
+def test(df0):
+    return df0[(df0['A'] > 1) | (df0['B'] < -1)]

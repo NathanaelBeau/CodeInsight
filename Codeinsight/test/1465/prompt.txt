@@ -1,4 +1,6 @@
-Multiply each element of the list lst0 by the number var0  
+Find the last occurrence of the regular expression pattern in the string var0.
 
-def test(lst0, var0):
+import re
+
+def test(var0, pattern):
 

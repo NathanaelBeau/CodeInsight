@@ -1,4 +1,6 @@
-on dictionary dict0 Sorting dictionary keys based on their values   with index of values var0 with map
+Generating all unique pair permutations from a list lst0 
 
-def test(dict0, var0):
+from itertools import permutations
+
+def test(lst0):
 

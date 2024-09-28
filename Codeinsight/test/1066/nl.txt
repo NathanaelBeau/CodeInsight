@@ -1,1 +1,1 @@
-How to flatten a tuple lst0 python   
+Counting the amount of occurrences in a list lst0 of tuples  with  extra functionality   

@@ -1,1 +1,1 @@
-Sorting the content of a dictionary dict0 by the value and by the key   
+Convert a list of integers lst0 into a single integer.

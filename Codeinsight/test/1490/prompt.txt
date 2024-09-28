@@ -1,6 +1,6 @@
- multiply multiple columns by a column in Pandas  dataframe df0 
+Find all occurrences in string var0 that match any string from the list lst0
 
-import pandas as pd
-import numpy as np
-def test(df0):
+import re
+
+def test(var0, lst0):
 

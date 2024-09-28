@@ -1,1 +1,1 @@
-Convert a DataFrame to a 1D NumPy array by flattening it
+Extract all keys from a list of dictionaries  lst0 

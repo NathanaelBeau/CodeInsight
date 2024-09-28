@@ -1,1 +1,0 @@
-Find and return the index of the first row in DataFrame df0 where the value in column var0 equals var1.

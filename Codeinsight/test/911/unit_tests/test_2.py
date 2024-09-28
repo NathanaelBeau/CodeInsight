@@ -1,4 +1,5 @@
-var0 = 5
-lst0 = ['hello', 'world', 'python']
-expected_output = ['hello', 'hello', 'hello', 'hello', 'hello', 'world', 'world', 'world', 'world', 'world', 'python', 'python', 'python', 'python', 'python']
-assert test(var0, lst0) ==expected_output, 'Test failed'
+df0 = pd.DataFrame({'M': [1.1, 2.2]})
+df1 = pd.DataFrame({'M': [3.3, 4.4]})
+expected_result =  pd.DataFrame({'M': [1.1, 2.2, 3.3, 4.4]})
+result = test(df0, df1)
+assert result.equals(expected_result), 'Test failed'

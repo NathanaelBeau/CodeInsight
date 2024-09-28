@@ -1,5 +1,4 @@
-Split the string var1 based on the regular expression pattern var0.
+Create a flat dictionary by summing values associated with similar keys in each dictionary of list lst0.
 
-import re
-def test(var0, var1):
+def test(lst0):
 

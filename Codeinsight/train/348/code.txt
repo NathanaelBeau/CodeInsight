@@ -1,3 +1,4 @@
-import pandas as pd
-def test(df0):
-    return df0.agg(' '.join, axis=1)
+import re
+
+def test(str0):
+    return [i[0] for i in re.findall(r'((\d)(?:[()]*\2*[()]*)*)', str0)]

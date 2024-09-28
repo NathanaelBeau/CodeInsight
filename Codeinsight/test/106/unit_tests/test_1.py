@@ -1,3 +1,3 @@
-words2 = ['Hello', 'WORLD', 'PYTHON']
-expected_output2 = False
-assert test(words2) == expected_output2, 'Test failed'
+str0 = "jane_smith@example.com"
+expected_output = "jane_smith"
+assert test(str0) ==expected_output, 'Test failed'

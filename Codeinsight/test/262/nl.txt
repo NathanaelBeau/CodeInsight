@@ -1,1 +1,1 @@
-Get (column, row) index from NumPy array var0 that meets a boolean condition   
+Compute the power of elements in arr0 raised to the elements of arr1  

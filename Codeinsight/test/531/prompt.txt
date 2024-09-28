@@ -1,4 +1,6 @@
-Get a list of the keys in each dictionary in a dictionary of dictionaries dict0.
+Delete the first three rows of the pandas DataFrame df0.
 
-def test(dict0):
+import pandas as pd
+
+def test(df0):
 

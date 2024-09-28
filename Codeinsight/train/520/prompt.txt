@@ -1,4 +1,6 @@
-Ordering a list lst0 of dictionaries in python :  efficient/cleanest way to order that list by weight then factor (numerically).  
+Get the list of row-index values from a DataFrame df0.
+   
 
-def test(lst0):
+import pandas as pd
+def test(df0):
 

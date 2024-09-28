@@ -1,2 +1,3 @@
-def test(lst0, lst1):
-    return list(filter(lambda x: x in lst1, lst0))
+def test(str0):
+    str0 = str0.replace("z", "s")
+    return str0.split("s")

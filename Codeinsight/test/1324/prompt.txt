@@ -1,4 +1,4 @@
-Check if a key var0 exists in a dictionary dict0
+Truncate the string s up to the first occurrence of the character ':'.
 
-def test(var0, dict0):
+def test(s: str) -> str:
 

@@ -1,3 +1,4 @@
-lst0 = [('D', 5.5), ('E', 4.0), ('F', 6.0), ('G', float('nan')), ('H', 3.0)]
-expected_output = ('H', 3.0)
-assert test(lst0) ==expected_output, 'Test failed'
+lst0 = ["hello", "world", "python123", "code"]
+expected_result =  ["hello", "world", "code"]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

@@ -1,10 +1,4 @@
-df_test = pd.DataFrame({
-    'A': [1, 2, 3, 4, 5],
-    'B': [10, 15, 20, 25, 30]
-})
-
-# Test for values in column 'A' between 2 and 4
-result = test(df_test, 'A', 2, 4)
-expected = pd.Series([False, True, True, True, False], name='A')
-
-assert result.equals(expected), 'Test failed'
+lst0 = [4, 2, 1, 3]  
+lst1 = [3, 1, 4, 2] 
+expected_output = [3, 1, 4, 2]
+assert test(lst0, lst1) ==expected_output, 'Test failed'

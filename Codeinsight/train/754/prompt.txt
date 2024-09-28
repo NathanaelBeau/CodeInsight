@@ -1,4 +1,4 @@
-Get the average value of all list elements for each key in a dictionary named dict0
+Get the indices of tuples in the list of tuples lst0 where the first value is 53.
 
-def test(dict0):
+def test(lst0):
 

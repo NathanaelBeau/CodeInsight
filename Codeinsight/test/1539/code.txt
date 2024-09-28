@@ -1,8 +1,5 @@
-from itertools import islice
-import numpy as np
-
-def test(lst0, window_size=2):
-    lst0 = np.array(lst0)
-    weights = np.ones(window_size) / window_size
-    moving_averages = np.convolve(lst0, weights, mode='valid')
-    return moving_averages.tolist()
+def test(lst0):
+    if lst0 and isinstance(lst0[0], tuple):
+        return list(map(lambda x: (x[1], x[0], *x[2:]), lst0))
+    else:
+        return list(map(lambda x: [x[1], x[0], *x[2:]], lst0))

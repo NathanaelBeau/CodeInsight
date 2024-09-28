@@ -1,4 +1,10 @@
-import pandas as pd
-def test(df0, var0):
-    df0.drop(var0, axis=1, inplace=True)
-    return df0
+def test(lst0):
+    max_index = 0
+    max_value = lst0[0]['size']
+    
+    for index, item in enumerate(lst0):
+        if item['size'] > max_value:
+            max_index = index
+            max_value = item['size']
+    
+    return max_index

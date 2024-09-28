@@ -1,2 +1,5 @@
-def test(lst0):
-    return [str(item) for item in lst0]
+import pandas as pd
+
+def test(df0):
+    df0['Date'] = pd.to_datetime(df0['Date'], format='%d-%m-%Y')
+    return df0

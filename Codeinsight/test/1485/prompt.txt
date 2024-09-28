@@ -1,5 +1,6 @@
-ompute the L2 norm (Euclidean norm) for each row of a matrix named matrix0
+Obtain the indices that would sort the numpy array arr0 in descending order.
 
 import numpy as np
-def test(matrix0):
+
+def test(arr0):
 

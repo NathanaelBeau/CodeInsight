@@ -1,1 +1,0 @@
-in pandas dataframe df0 convert your column of strs to a column of ints with  map(int) 

@@ -1,7 +1,6 @@
-Find the integer indices of rows containing NaN values in a given dataframe df0.
+Set the value var2 for cell at row index var0 and column index var1 in pandas DataFrame df0
 
 import pandas as pd
-import numpy as np
 
-def test(df0):
+def test(df0, var0, var1, var2):
 

@@ -1,4 +1,4 @@
-Sum the second elements from a list of lists lst0.
+modify the elements ( multiply x 2) in a list lst0 within list   
 
 def test(lst0):
 

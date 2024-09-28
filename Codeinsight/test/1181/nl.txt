@@ -1,1 +1,1 @@
-from a list lst0 Create a list of tuples with adjacent list elements if a condition is true  lst0[1:]) if y == var0
+Concatenate numpy array arr0 with another empty or non-empty numpy array arr1  

@@ -1,4 +1,4 @@
-str0 = "abc+def+ghi"
-var0= ",+"
-expected_output = "abc+def,+ghi"
-assert test(str0, var0) ==expected_output, 'Test failed'
+# Test 1
+var0 = "abc"
+expected_result =  "979899"
+assert test(var0) == expected_result, 'Test failed'

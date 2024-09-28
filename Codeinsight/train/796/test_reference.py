@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df1, df2):
-    return pd.concat([df1, df2], axis=1)
+def test(lst0):
+    return len(set(lst0)) == len(lst0) and max(lst0) == len(lst0) and min(lst0) == 1

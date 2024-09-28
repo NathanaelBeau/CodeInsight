@@ -1,1 +1,1 @@
-check if all of the following items from list lst0 are in a list  lst1 with subset
+Make new column 'sum' in Panda dataframe df0 by adding values from other columns  lst0

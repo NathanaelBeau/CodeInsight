@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0):
-    return df0.to_dict('records')
+def test(lst0):
+    return sorted(list({word.lower() for word in lst0}))

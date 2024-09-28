@@ -1,3 +1,4 @@
-lst0 = ["test,3.14,2.71,test"]
-expected_output = [3.14,2.71]
-assert test(lst0) ==expected_output, 'Test failed'
+arr0 = np.array([0.5, 1.5, 2.5])
+expected_result =  "0.5, 1.5, 2.5"
+result = test(arr0)
+assert result == expected_result, 'Test failed'

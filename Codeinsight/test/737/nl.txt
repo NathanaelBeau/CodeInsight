@@ -1,1 +1,1 @@
-Concatenate two numpy arrays arr0 and arr1 vertically.   
+Flatten the hierarchical index in columns of dataframe df0."

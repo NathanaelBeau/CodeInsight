@@ -1,4 +1,5 @@
-arr0 = np.array([[4, 5], [6, 7]])
-expected_result =  [4, 5, 6, 7]
-result = test(arr0)
-assert result == expected_result, 'Test failed'
+import numpy as np
+arr0 = np.array([11])
+arr1 = np.array([12, 13, 14])
+expected_output = np.array([11, 12, 13, 14])
+assert np.array_equal(test(arr0, arr1), expected_output), 'Test failed'

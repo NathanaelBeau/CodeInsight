@@ -1,4 +1,6 @@
-Removing items var0 from unnamed lists lst0 in Python   
+Convert the elements of the DataFrame var0 to numeric values, coercing any non-numeric values to NaN, then return the transformed DataFrame.
 
-def test(lst0, var0):
+import pandas as pd
+
+def test(var0):
 

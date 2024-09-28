@@ -1,3 +1,3 @@
-lst0 = [{'weight': 5, 'factor': 5}, {'weight': 5, 'factor': 5}, {'weight': 5, 'factor': 5}]
-expected_output = [{'weight': 5, 'factor': 5}, {'weight': 5, 'factor': 5}, {'weight': 5, 'factor': 5}]
-assert test(lst0) ==expected_output, 'Test failed'
+df0 = pd.DataFrame({'P': [13], 'Q': [14]}, index=[100])
+expected_output = [100]
+assert test(df0) == expected_output, 'Test failed'

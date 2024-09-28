@@ -1,4 +1,4 @@
-Extract dictionary containing specific item var0 for key var1 from list lst0 of dictionaries   
+In Python,  compare two lists lst0 and lst1 and get all indices of matches   
 
-def test(var0, var1, lst0):
+def test(lst0, lst1):
 

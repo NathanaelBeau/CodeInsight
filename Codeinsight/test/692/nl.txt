@@ -1,1 +1,1 @@
-Calculate and return the sum of the values in the column var0 of DataFrame df0. 
+Reverse the digits of an integer var0.

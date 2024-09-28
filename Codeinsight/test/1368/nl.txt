@@ -1,1 +1,1 @@
-Perform element-wise subtraction of dataframe df0 by dataframe df1 with same shape and returns the resulting dataframe
+ check if a string str1 is a substring of items in a list of strings str0 with list comprehension  

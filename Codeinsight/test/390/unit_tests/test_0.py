@@ -1,4 +1,3 @@
-arr0 = np.array([3, 1, 2])
-expected_result =  np.array([3, 2, 1])
-result = test(arr0)
-assert np.array_equal(result, expected_result), 'Test failed'
+dict0 = {'a': 10, 'b': 15, 'c': 5, 'd': 20}
+result = test(dict0, lambda x: x > 10)
+assert result ==2, 'Test failed'

@@ -1,3 +1,5 @@
-lst0 = ['123', '456', '789']
-expected_output = [6, 15, 24]
-assert test(lst0) == expected_output, 'Test failed'
+lst0 = ["a", "b", "c", "d"]
+lst1 = ["c", "d", "a", "b"]
+expected_result =  ["c", "d", "a", "b"]
+result = test(lst0, lst1)
+assert result == expected_result, 'Test failed'

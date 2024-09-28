@@ -1,6 +1,6 @@
-# Test 2
-df0 = pd.DataFrame({'X': [], 'Y': []})
-df1 = pd.DataFrame({'X': ['apple'], 'Y': ['orange']})
-expected_result =  pd.DataFrame({'X': ['apple'], 'Y': ['orange']})
-result = test(df0, df1)
-assert result.equals(expected_result), 'Test failed'
+# Test 3
+var0 = "No separation here."
+var1 = "separation"
+var2 = "division"
+expected_result =  "No division here."
+assert test(var0, var1, var2) == expected_result, 'Test failed'

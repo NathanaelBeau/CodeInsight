@@ -1,2 +1,3 @@
-def test(lst0):
-    return sorted(lst0, key=lambda x: x[0])
+def test(dict0, var0):
+    dct0.pop(var0, None)
+    return dct0

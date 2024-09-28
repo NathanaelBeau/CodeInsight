@@ -1,1 +1,0 @@
-Prepend a new level named var0 to the columns of a DataFrame df0 with a MultiIndex.

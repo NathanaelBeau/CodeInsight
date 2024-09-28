@@ -1,1 +1,1 @@
-Replace blank (white space) values with NaN in the pandas DataFrame df0.
+Join all elements of a list of strings lst0 with a period ('.')

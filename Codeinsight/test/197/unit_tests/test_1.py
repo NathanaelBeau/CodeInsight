@@ -1,4 +1,3 @@
-lst0 = [('b', 2), ('c', 3), ('a', 1)]
-expected_result =  [('a', 1), ('b', 2), ('c', 3)]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+var0 = "hello world niño año"
+expected_result =  "Hello World Niño Año"
+assert test(var0) == expected_result, 'Test failed'

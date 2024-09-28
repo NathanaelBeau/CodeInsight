@@ -1,5 +1,4 @@
-def test(var0):
-    if len(var0) < 1:
-        return []
-    else:
-        return list(map(int, var0.split(',')))
+from operator import itemgetter
+
+def test(lst0, var0):
+	return [*map(itemgetter(var0), lst0)]

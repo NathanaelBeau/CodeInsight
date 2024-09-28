@@ -1,5 +1,3 @@
-df0 = pd.DataFrame({'common_column': [4, 5, 6], 'A': ['d', 'e', 'f']})
-df1 = pd.DataFrame({'common_column': [4, 5, 6], 'B': ['u', 'v', 'w']})
-expected_result =  pd.DataFrame({'common_column': [4, 5, 6], 'A': ['d', 'e', 'f'], 'B': ['u', 'v', 'w']})
-result = test(df0, df1, 'common_column')
-assert result.equals(expected_result), 'Test failed'
+str0 = "{'key1': 1, 'key2': [1, 2, 3], 'key3': {'nested_key': 'value'}}"
+expected_output = {'key1': 1, 'key2': [1, 2, 3], 'key3': {'nested_key': 'value'}}
+assert test(str0) ==expected_output, 'Test failed'

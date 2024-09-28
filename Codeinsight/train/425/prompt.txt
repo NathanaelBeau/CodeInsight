@@ -1,6 +1,4 @@
-Rearrange the columns of a pandas DataFrame df0 in the order: 'x', 'y', 'a', 'b'.
+Get the count of values associated with specific key var0 in a dictionary dict0   
 
-import pandas as pd
-
-def test(df0: pd.DataFrame) -> pd.DataFrame:
+def test(var0, dict0):
 

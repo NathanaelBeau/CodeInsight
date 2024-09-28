@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0, lst0):
-    return df0[df0['A'].isin(lst0)]
+def test(lst0):
+    return [int(s) for s in lst0]

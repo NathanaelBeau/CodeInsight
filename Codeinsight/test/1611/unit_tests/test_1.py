@@ -1,5 +1,3 @@
-# Test 2
-df0 = pd.DataFrame({'X': ['apple', 'banana'], 'Y': ['red', 'yellow']})
-expected_result =  np.array([('apple', 'red'), ('banana', 'yellow')], dtype=[('X', 'O'), ('Y', 'O')])
-result = test(df0)
-assert np.array_equal(result, expected_result), 'Test failed'
+lst0 = ['x', 100, 'y', 200, 'z', 300]
+expected_output = {'x': 100, 'y': 200, 'z': 300}
+assert test(lst0) ==expected_output, 'Test failed'

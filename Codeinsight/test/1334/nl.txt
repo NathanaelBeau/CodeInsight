@@ -1,1 +1,1 @@
-Sort the list of strings lst0 by their numeric value.
+Rename the column names of DataFrame df0 using the provided mapping  list lst0.

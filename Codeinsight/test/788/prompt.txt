@@ -1,4 +1,6 @@
-Split each element in the list lst0 by the tab character '\t'.
+Select rows from a DataFrame df0 based on column var0 matching values with string str0?   
 
-def test(lst0: list) -> list:
+import pandas as pd
+
+def test(df0, var0, str0):
 

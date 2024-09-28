@@ -1,4 +1,4 @@
-from itertools import chain
+import numpy as np
 
-def test(lst0):
-    return {k for k in chain(*lst0)}
+def test(arr0):
+    return np.where(arr0)

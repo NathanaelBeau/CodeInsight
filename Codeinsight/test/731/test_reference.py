@@ -1,2 +1,5 @@
-def test(lst0, index):
-    return [lst0[i] for i, _ in enumerate(lst0) if i in index]
+import pandas as pd
+import numpy as np
+
+def test(df0):
+    return pd.Series([np.linalg.norm(row) for row in df0.values])

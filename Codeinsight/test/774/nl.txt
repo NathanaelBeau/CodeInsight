@@ -1,1 +1,1 @@
-How to expand a string str0 within a string in python using split and simple list comprehension   
+Compute the logical XOR between two variables var0 and var1

@@ -1,4 +1,5 @@
-Uniquify a list of dictionaries var0 with immutable values
+ Replace all values in column 'prod_type' of dataframe df0 with string 'responsive
 
-def test(var0):
+import pandas as pd
+def test(df0):
 

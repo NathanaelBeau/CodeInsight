@@ -1,2 +1,4 @@
-def test(var0: int, var1: int) -> list:
-    return [i for i in range(var0, var1, -1)]
+import pandas as pd
+
+def test(df0):
+    return pd.melt(df0)

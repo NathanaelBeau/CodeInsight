@@ -1,2 +1,5 @@
-def test(dict0):
-    return [(i,sum(j)/len(j)) for i,j in dict0.items()]
+import pandas as pd
+import numpy as np
+
+def test(df0):
+    return df0.fillna(df0.mean())

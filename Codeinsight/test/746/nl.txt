@@ -1,1 +1,1 @@
-Apply a function func to a column named var0 in a pandas DataFrame df0.
+Create an empty DataFrame with columns var0, then fill it with values var2 at row index var1.

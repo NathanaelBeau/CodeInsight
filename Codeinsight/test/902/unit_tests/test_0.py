@@ -1,5 +1,3 @@
-dict0 = {'a': 1, 'b': 2}
-dict1 = {'c': 3}
-expected_result =  {'a': 1, 'b': 2, 'c': 3}
-result = test(dict0, dict1)
-assert result == expected_result, 'Test failed'
+str0 = "I have a cat. That cat is black."
+expected_result =  "I have a cat. That Bull is black."
+assert test(str0) == expected_result, 'Test failed'

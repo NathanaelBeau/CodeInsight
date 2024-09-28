@@ -1,3 +1,4 @@
-lst0 = [1, 3, 5]
-expected_output = 135
-assert test(lst0) ==expected_output, 'Test failed'
+var0 = "introduction"
+var1 = "introductory"
+expected_result =  "introduct"
+assert test(var0, var1) == expected_result, 'Test failed'

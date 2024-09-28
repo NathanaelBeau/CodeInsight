@@ -1,1 +1,1 @@
-Appending value var0 to list at key str0 in Python dictionary  dict0 
+Group the elements of lst0 into separate lists based on their first five characters.

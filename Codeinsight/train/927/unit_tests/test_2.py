@@ -1,4 +1,5 @@
-s3 = "apple, orange, apple!"
-pattern3 = r"apple"
-expected_output3 = ["apple", "apple"]
-assert test(s3, pattern3) == expected_output3, 'Test failed'
+arr0 = np.array([7, 8])
+arr1 = np.array([9, 10])
+expected_result =  np.array([7, 8, 9, 10])
+result = test(arr0, arr1)
+assert np.array_equal(result, expected_result), 'Test failed'

@@ -1,1 +1,1 @@
-Convert the datatype of numpy array arr0 to dtype0
+Get the first character of the first string in a list lst0   

@@ -1,2 +1,3 @@
-def test(var0, var1, var2):
-    return var1 if var0 < var1 else var2 if var0 > var2 else var0
+import numpy as np
+def test(arr0, arr1):
+    return arr0.base is arr1 or arr1.base is arr0 or arr0 is arr1

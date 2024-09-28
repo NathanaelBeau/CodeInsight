@@ -1,2 +1,2 @@
-def test(lst0: list) -> int:
-    return sum(len(s) for s in lst0)
+def test(var0, var1):
+	return [i for i, v in enumerate(var0) if v[0] == var1]

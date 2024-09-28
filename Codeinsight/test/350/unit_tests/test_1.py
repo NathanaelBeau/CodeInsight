@@ -1,5 +1,4 @@
-# Test 3
-df0 = pd.DataFrame({'name': ['John', '  ', 'Jane'], 'gender': ['M', '   ', 'F']})
-expected_result =  pd.DataFrame({'name': ['John', np.nan, 'Jane'], 'gender': ['M', np.nan, 'F']})
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = ["apple", "banana", "cherry"]
+expected_result =  "apple.banana.cherry"
+result = test(lst0)
+assert result == expected_result, 'Test failed'

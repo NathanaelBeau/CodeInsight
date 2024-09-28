@@ -1,1 +1,1 @@
-Calculate the mean values for the rows in list lst0 and columns in list lst1 of the dataframe df0
+Create new columns in DataFrame df0 that store the mean and sum of var1 for each group defined by var0, appending _mean and _sum to the column names, respectively. Return the modified DataFrame. 

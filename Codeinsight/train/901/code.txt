@@ -1,4 +1,2 @@
-import operator
-
-def test(var0, var1):
-    return [*map(operator.itemgetter(var0), var1)]
+def test(str0, str1):
+    return not set(str0) - set(str1)

@@ -1,4 +1,5 @@
-from a list lst0 Create a list of tuples with adjacent list elements if a condition is true  lst0[1:]) if y == var0
+Concatenate numpy array arr0 with another empty or non-empty numpy array arr1  
 
-def test(lst0, var0):
+import numpy as np
+def test(arr0, arr1):
 

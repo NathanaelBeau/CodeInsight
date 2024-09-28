@@ -1,1 +1,1 @@
-Drop rows in dataframe df0 whose index values are in the list lst0.
+Sort list lst0 based on the order of elements in another list lst1.

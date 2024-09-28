@@ -1,1 +1,1 @@
-Generate a list by alternating elements from lists lst0 and lst1
+Get the minimum value from the second column of an array arr0

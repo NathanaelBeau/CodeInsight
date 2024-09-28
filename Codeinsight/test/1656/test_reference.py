@@ -1,2 +1,2 @@
-def test(lst0, var0, attr_name):
-    return [item for item in lst0 if getattr(item, attr_name) == var0]
+def test(lst0, lst1):
+    return list(filter(lambda x: x in lst1, lst0))

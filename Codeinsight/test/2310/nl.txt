@@ -1,1 +1,0 @@
-Get the indices of all occurrences of the element var0 in the NumPy array arr0

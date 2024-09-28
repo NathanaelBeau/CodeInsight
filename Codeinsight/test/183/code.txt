@@ -1,2 +1,4 @@
-def test(arr0, var0, var1):
-    return np.pad(arr0, ((0, var0), (0, var1)), 'constant')
+import pandas as pd
+
+def test(df0):
+    return pd.DataFrame({'count': df0.groupby(["Name", "City"]).size()}).reset_index()

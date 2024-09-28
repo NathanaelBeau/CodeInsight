@@ -1,1 +1,1 @@
-reverse the input string str0  
+ slice a numpy array arr0 to get both the first and last two rows   

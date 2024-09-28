@@ -1,6 +1,5 @@
-Python creating a dictionary of lists  with key from list lst0, values from var0 in range of var1
+Split the string var1 based on the regular expression pattern var0.
 
-from collections import defaultdict
-
-def test(lst0, var0, var1):
+import re
+def test(var0, var1):
 

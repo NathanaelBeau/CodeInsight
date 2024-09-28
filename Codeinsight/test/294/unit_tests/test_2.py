@@ -1,4 +1,3 @@
-lst0 = ['a', 'abc', 'abcdef']
-expected_result =  np.array(['a', 'abc', 'abcdef'], dtype=object)
-result = test(lst0)
-assert np.array_equal(result, expected_result), 'Test failed'
+var0 = 3
+expected_result =  [(0, 0, 0), (0, 0, 1), (0, 1, 0), (0, 1, 1), (1, 0, 0), (1, 0, 1), (1, 1, 0), (1, 1, 1)]
+assert test(var0) == expected_result, 'Test failed'

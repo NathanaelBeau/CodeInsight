@@ -1,4 +1,4 @@
-var0 = "This is a single line"
-expected_result =  "This is a single line"
+var0 = "No placeholders here."
+expected_result =  []
 result = test(var0)
 assert result == expected_result, 'Test failed'

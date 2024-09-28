@@ -1,3 +1,1 @@
-Convert a tuple 
-tpl0
-tpl0 into a single string
+Sort a list of strings lst0 by their integer suffix.

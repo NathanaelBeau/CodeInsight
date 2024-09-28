@@ -1,3 +1,2 @@
-import pandas as pd
-def test(df0):
-    return (df0.isna().mean() * 100)
+def test(lst0: list) -> list:
+    return [sum(t) for t in lst0]

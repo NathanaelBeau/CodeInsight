@@ -1,1 +1,1 @@
-Get the element number var0 of each tuple from a list of tuple lst0 
+Check whether the string str0 is present in the list lst0. Return True if str0 is an element of lst0, and False otherwise 

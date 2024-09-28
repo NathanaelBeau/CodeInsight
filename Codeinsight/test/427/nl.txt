@@ -1,1 +1,1 @@
-split column str0 in dataframe df0 into two columns str1 and str2 by first whitespace ' '
+Get value counts for multiple columns specified in the list lst0 from the dataframe df0.  

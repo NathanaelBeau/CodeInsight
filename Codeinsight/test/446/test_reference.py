@@ -1,4 +1,2 @@
-def test(var0, var1):
-    multiply_sum = lambda v, c: v * c
-    result = list(map(lambda col: sum(map(multiply_sum, var0, col)), zip(*var1)))
-    return result
+def test(str0):
+    return ''.join([str0[i+1] + str0[i] for i in range(0, len(str0)-1, 2)]) + (str0[-1] if len(str0) % 2 else '')

@@ -1,3 +1,5 @@
-lst0 = [(1, 'X', 'Y'), (1, 'Y', 'X'), (1, 'A', 'B'), (1, 'B', 'A')]
-expected_output = [(1, 'X', 'Y')]
-assert test(lst0) == expected_output, 'Test failed'
+# Test 3
+mat0 = np.array([[1, 1], [1, 1], [1, 1]])
+expected_result =  np.array([1.41421356, 1.41421356, 1.41421356])  # Norms of each row
+result = test(mat0)
+assert np.allclose(result, expected_result), 'Test failed'

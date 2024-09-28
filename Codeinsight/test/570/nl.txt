@@ -1,1 +1,1 @@
-Convert a column with name var0 in a dataframe df0 to a date data type.
+merge a list of dicts lst0 into a single dict  with chainmap 

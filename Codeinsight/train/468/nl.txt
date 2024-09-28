@@ -1,1 +1,1 @@
-Get the indices of rows in DataFrame df0 where the column var0 matches the value var1.
+Determine if each element in list lst0 is less than its corresponding element in list lst1.

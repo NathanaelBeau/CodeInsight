@@ -1,10 +1,4 @@
-Compare elements in two NumPy arrays, 
-arr0
-arr0 and 
-arr1
-arr1, and return a boolean array of the same shape indicating element-wise comparison  
+Convert all tuple elements in a list lst0 into lists
 
-import numpy as np
-
-def test(arr0, arr1):
+def test(lst0):
 

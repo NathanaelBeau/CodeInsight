@@ -1,4 +1,5 @@
-From the list of lists x, return the inner list that has the highest sum of values.
+Convert a String representation str0 of a Dictionary to a dictionary  with eval
 
-def test(x: list) -> list:
+
+def test(str0):
 

@@ -1,4 +1,5 @@
-Get all keys from a dictionary dict0 where the corresponding value is 1.
+Convert a Scikit-learn dataset dataset0 into a Pandas DataFrame.   
 
-def test(dict0):
+import pandas as pd
+def test(dataset0):
 

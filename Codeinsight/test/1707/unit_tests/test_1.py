@@ -1,4 +1,3 @@
-lst0 = ["apple", "banana", "cherry"]
-expected_result =  "apple.banana.cherry"
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+dict0 = {'x': 5, 'y': 10, 'z': 15}
+expected_output = 30
+assert test(dict0) ==expected_output, 'Test failed'

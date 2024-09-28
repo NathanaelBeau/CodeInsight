@@ -1,5 +1,3 @@
-def test(dict0):
-    result = []
-    for key, value in dict0.items():
-        result.append((key, value))
-    return result
+def test(lst0):
+	lst0.sort(key=len)
+	return lst0

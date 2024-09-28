@@ -1,3 +1,4 @@
-str0 = "20M10000N80M"
-expected_output = [('20', 'M'), ('10000', 'N'), ('80', 'M')]
-assert test(str0) ==expected_output, 'Test failed'
+str0 = "hello"
+var0 = "Hello World! hello again. Hello thrice."
+expected_result =  ["Hello", "hello", "Hello"]
+assert test(str0, var0) == expected_result, 'Test failed'

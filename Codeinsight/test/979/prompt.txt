@@ -1,4 +1,6 @@
-Convert the string var0 to lowercase.
+Remove all text within parentheses, including the parentheses, from string str0.
 
-def test(var0):
+import re
+
+def test(str0: str) -> str:
 

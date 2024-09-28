@@ -1,1 +1,1 @@
-How to repeat 3 times individual characters in strings str0 in Python   
+Convert a dictionary dict0 into a list where each key is repeated based on its corresponding value.

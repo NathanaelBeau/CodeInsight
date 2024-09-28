@@ -1,4 +1,3 @@
-arr1 = np.array([4, 5])
-expected_result =  arr1 / np.linalg.norm(arr1)
-result = test(arr1)
-assert np.allclose(result, expected_result), 'Test failed'
+lst0 = [456, 789, 123]
+expected_result =  ["456", "789", "123"]
+assert test(lst0) == expected_result, 'Test failed'

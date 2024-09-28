@@ -1,4 +1,4 @@
-lst0 = [1, 2, 3]
-str0 = 'python'
-expected_output = ['python', 1, 2, 3]
-assert test(lst0, str0) == expected_output, 'Test failed'
+dict0 = {}
+dict1 = {'a': 1, 'b': 2}
+expected_output = {'a': 1, 'b': 2}
+assert test(dict0, dict1) ==expected_output, 'Test failed'

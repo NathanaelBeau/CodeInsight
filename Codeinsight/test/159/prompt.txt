@@ -1,5 +1,6 @@
-Split the string str0 based on punctuation marks like . , ; ! ?
+Append the DataFrame df1 to the (potentially empty) DataFrame df0 and reset the index.
 
-import re
-def test(str0):
+import pandas as pd
+
+def test(df0, df1):
 

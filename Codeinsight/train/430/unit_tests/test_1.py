@@ -1,4 +1,8 @@
-s2 = "A1 B2 C3 D4 E5"
-pattern2 = r"\d"
-expected_output2 = [1, 4, 7, 10, 13]
-assert test(s2, pattern2) == expected_output2, 'Test failed'
+import pandas as pd
+data = {'X': [10, 20, 30], 'Y': [0, 0, 0]}
+df0 = pd.DataFrame(data)
+var0 = 'X'
+var1 = 'Y'
+expected_result =  0
+result = test(df0, var0, var1)
+assert result == expected_result, 'Test failed'

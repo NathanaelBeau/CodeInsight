@@ -1,6 +1,6 @@
-NumPy - Efficient conversion from tuple arr0 with dimensions height var0 and wifth var1 to array   
+Python: an efficient way to slice a list lst0 with a index list  lst1 
 
-import numpy as np
+import operator
 
-def test(arr0, var0, var1):
+def test(lst0, index):
 

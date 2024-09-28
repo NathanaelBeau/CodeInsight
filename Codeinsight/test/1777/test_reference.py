@@ -1,2 +1,3 @@
-def test(lst: list) -> list:
-    return [s for s in lst if 'ab' not in s]
+def test(str0, var0):
+    return var0.join(a + b for a, b in zip(str0[::2], str0[1::2]))
+

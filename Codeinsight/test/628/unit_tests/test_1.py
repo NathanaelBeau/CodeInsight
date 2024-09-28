@@ -1,3 +1,3 @@
-lst0 = [{'value': 'baz'}, {'not_value': 'foo'}, {'value': 'qux'}]
-expected_output = ['baz', 'qux']
-assert test(lst0) ==expected_output, 'Test failed'
+lst0 = [['z', 'a'], ['a', 'z'], ['m', 'n']]
+expected_result =  [['a', 'z'], ['m', 'n'], ['z', 'a']]
+assert test(lst0) == expected_result, 'Test failed'

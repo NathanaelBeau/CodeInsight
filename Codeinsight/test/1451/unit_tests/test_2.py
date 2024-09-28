@@ -1,7 +1,6 @@
-# Test 3
-df0 = pd.DataFrame({'words': ['sunny day', 'rainy night', 'cloudy morning']})
-column_name = 'words'
-lst0 = ['sunny', 'cloudy']
-expected_result =  pd.Series([True, False, True])
-result = test(df0, column_name, lst0)
+# Unit Test 3
+df0 = pd.DataFrame({ 'P': [19, 20, 21], 'Q': [22, 23, 24], 'R': [25, 26, 27] })
+var0 = 'R'
+expected_result =  pd.DataFrame({ 'P': [19, 20, 21], 'Q': [22, 23, 24] })
+result = test(df0, var0)
 assert result.equals(expected_result), 'Test failed'

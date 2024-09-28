@@ -1,4 +1,4 @@
-Find the longest common prefix between two strings var0 and var1.
+Return True if string str0 starts with a number, else False  
 
-def test(var0, var1):
+def test(str0):
 

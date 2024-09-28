@@ -1,1 +1,1 @@
-Flipping the boolean values in a list lst0 with list comprehension Python   
+Square each element of the 2D numpy array mat0  

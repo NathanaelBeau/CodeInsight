@@ -1,1 +1,1 @@
-Convert a string str0 to integer with decimal in Python   
+Update the values in column col0 of DataFrame df0 to var1 where the values in column col1 are equal to var0, and return the modified DataFrame.

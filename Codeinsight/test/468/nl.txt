@@ -1,1 +1,1 @@
-Intent: Replace all None values with NaN in a dataframe df0  
+Find groups of consecutive elements in the numpy array arr0. 

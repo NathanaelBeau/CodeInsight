@@ -1,1 +1,1 @@
-Transform a tuple tup0 to a string of values without comma and parentheses   
+Convert a list of string lst0 into a list of number

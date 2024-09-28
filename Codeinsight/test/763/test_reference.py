@@ -1,2 +1,2 @@
-def test(dict0):
-    return sorted(dict0.items(), key=lambda item: (item[1], item[0]))
+def test(lst0):
+    return int(''.join(map(str, lst0)))

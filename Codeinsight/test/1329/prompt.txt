@@ -1,7 +1,4 @@
-Pandas : Use groupby on each element of list  lst0  
-
-import pandas as pd
-from itertools import chain
+Compute the average of a list named lst0.
 
 def test(lst0):
 

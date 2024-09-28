@@ -1,6 +1,6 @@
-Create a list of 10 random floating point numbers between 0.0 and 1.0.
+Extract row with maximum value in a group pandas dataframe   df0 in column var0
 
-import random
+import pandas as pd
 
-def test():
+def test(df, var0):
 

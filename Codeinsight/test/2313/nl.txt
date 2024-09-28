@@ -1,1 +1,0 @@
-Rename the index of DataFrame df0 based on the mappings provided in dictionary dict0.

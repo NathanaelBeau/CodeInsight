@@ -1,4 +1,5 @@
-Return a list containing unique sublists from the list of lists lst0.
+Convert a Pandas DataFrame  df0 with index column var0 to a dictionary   
 
-def test(lst0):
+import pandas as pd
+def test(df0, var0):
 

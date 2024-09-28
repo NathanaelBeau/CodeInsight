@@ -1,7 +1,6 @@
-Check if the string var0 matches the pattern 'lol' followed by one or more 'l' characters.
+Removing nan values from an array  arr0 with function numpy.isnan 
 
+import numpy as np
 
-import re
-
-def test(var0):
+def test(arr0):
 

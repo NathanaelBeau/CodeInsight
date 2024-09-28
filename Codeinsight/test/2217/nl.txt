@@ -1,2 +1,0 @@
-Create a list of tuples containing the number 9 and the number before it for each occurrence of 9 in the list lst0
-

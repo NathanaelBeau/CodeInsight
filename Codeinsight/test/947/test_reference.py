@@ -1,2 +1,5 @@
-def test(lst0):
-    return sum(lst0) / len(lst0)
+import pandas as pd
+
+def test(df0, col0):
+    df0[col0] = df0[col0].astype(str)
+    return df0

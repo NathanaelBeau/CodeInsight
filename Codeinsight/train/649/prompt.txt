@@ -1,6 +1,5 @@
-Generating all unique pair permutations from a list lst0 
+In a dataframe df0 column var0, replace patterns matching string str0 with string str1.
 
-from itertools import permutations
-
-def test(lst0):
+import pandas as pd
+def test(df0, var0, str0, str1):
 

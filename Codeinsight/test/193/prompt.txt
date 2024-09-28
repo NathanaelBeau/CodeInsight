@@ -1,4 +1,6 @@
-Python remove list elements  from lst0 which are ''
+How to calculate moving average in Python 3 on sequence lst0  with window size window_size
 
-def test(lst0):
+from itertools import islice
+
+def test(lst0, window_size=2):
 

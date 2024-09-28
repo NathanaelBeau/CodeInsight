@@ -1,5 +1,5 @@
 import pandas as pd
 
-
-def test(df0, var0, var1):
-    return df0.loc[df0.groupby(var0)[var1].transform('sum') == 0]
+def test(df0, str0, str1, str2):
+    df0[[str1, str2]] = df0[str0].str.split(' ', n=1, expand=True)
+    return df0

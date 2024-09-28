@@ -1,6 +1,0 @@
-Parse 4th capital letter of line in Python in string str0   
-
-import re
-
-def test(str0):
-

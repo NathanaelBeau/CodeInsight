@@ -1,1 +1,1 @@
-Find the position (row, column) of the minimum value in the numpy array arr0  
+Check if the input string var0 is empty.

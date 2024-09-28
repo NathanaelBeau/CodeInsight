@@ -1,1 +1,1 @@
-Extract all the values of a specific key var0 from a list of dictionaries var1
+Check if string str0 only contains characters from string str1

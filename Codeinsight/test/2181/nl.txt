@@ -1,1 +1,0 @@
-Sort a dictionary dict0 based on the lengths of its values which are of list type.

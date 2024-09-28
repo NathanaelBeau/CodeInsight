@@ -1,6 +1,5 @@
-def test(var0, var1, lst0):
-    returned_tuples = []
-    for item in lst0:
-        if item[var0] == var1:
-            returned_tuples.append(item)
-    return returned_tuples
+import pandas as pd
+
+
+def test(df0, var0, var1):
+    return df0.loc[df0.groupby(var0)[var1].transform('sum') == 0]

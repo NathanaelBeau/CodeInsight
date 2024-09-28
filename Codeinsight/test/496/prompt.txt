@@ -1,8 +1,4 @@
-How to create a DataFrame  while preserving order of the columns  with columns names var0 and array var1
+Remove the element in list a at the specified index index.
 
-import numpy as np
-import pandas as pd
-from collections import OrderedDict
-
-def test(var0, *var1):
+def test(a: list, index: int) -> list:
 

@@ -1,6 +1,4 @@
-import pandas as pd
+import re
 
-def test(df0, str0, str1):
-    df1 = df0.groupby(str0, as_index=False)[str1].sum()
-    return df1
-
+def test(var0):
+    return re.sub(r'([A-Z])\1+', lambda m: m.group(1).lower(), var0)

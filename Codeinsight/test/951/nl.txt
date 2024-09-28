@@ -1,3 +1,1 @@
-Convert a String str0 representation of a Dictionary to a dictionary   with ast.literal_eval:
-
-
+Numpy: Find column index for element on each row   from vector var0 on matrix var1

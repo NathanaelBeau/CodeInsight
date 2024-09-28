@@ -1,4 +1,3 @@
-str0 = 'Hello, World!'
-var0 = 6
-expected_output = 'Hello,'
-assert test(str0, var0) == expected_output, 'Test failed'
+d2 = {'key1': [], 'key2': []}
+expected_output2 = []
+assert test(d2) == expected_output2, 'Test failed'

@@ -1,5 +1,6 @@
-nitialize a NumPy array with shape shape0 and fill it with the value var0
+Count the number of rows in dataframe df0 that have missing values.
 
-import numpy as np
-def test(shape0, var0):
+import pandas as pd
+
+def test(df0):
 

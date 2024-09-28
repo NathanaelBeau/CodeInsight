@@ -1,4 +1,4 @@
-var0 = r'hello (\w+) world (\d+)'
-str0 = 'hello openai world 3, hello python world 2'
-expected_output = [('openai', '3'), ('python', '2')]
-assert test(var0, str0) == expected_output, 'Test failed'
+lst0 = np.array([1,2,3,4,5])
+lst1 = np.array([0.2, 0.2, 0.2, 0.2, 0.2])  
+expected_output = np.sqrt(np.average((lst0-np.average(lst0, weights=lst1))**2, weights=lst1))
+assert test(lst0, lst1) == expected_output, 'Test failed'

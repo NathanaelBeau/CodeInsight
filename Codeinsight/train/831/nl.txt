@@ -1,1 +1,1 @@
-Add multiple empty columns to a DataFrame df0 with column names from the list lst0. 
+Calculate the mean across multiple pandas DataFrames given in the list lst0 

@@ -1,1 +1,1 @@
-Replace words in string var0 using substitutions from dictionary dict0
+Python, lambda, find minimum value in list lst0  with pandas

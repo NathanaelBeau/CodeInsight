@@ -1,6 +1,4 @@
-Retrieve the number of columns in the pandas DataFrame df0.
+Python check if any element in a list lst0 is a key in dictionary dict0
 
-import pandas as pd
-
-def test(df0):
+def test(lst0, dict0):
 

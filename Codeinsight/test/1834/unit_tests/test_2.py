@@ -1,4 +1,4 @@
-lst0 = [1, 2, 3]
-var0 = 4
-expected_output = [4, 1, 2, 3]
-assert test(lst0, var0) ==expected_output, 'Test failed'
+str0 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+expected_result =  str0[:100]
+result = test(str0)
+assert result == expected_result, 'Test failed'

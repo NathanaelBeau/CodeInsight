@@ -1,4 +1,4 @@
-str0 = "7 apples"
-expected_output = True
-output = test(str0)
-assert output == expected_output, 'Test failed'
+dict0 = {'dog': 4, 'cat': 2, 'bird': 1}
+var0 = 3
+expected_output = False
+assert test(dict0, var0) ==expected_output, 'Test failed'

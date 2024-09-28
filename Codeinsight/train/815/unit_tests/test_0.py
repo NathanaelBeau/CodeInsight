@@ -1,4 +1,4 @@
-var0 = pd.DataFrame({ 'OldHeader1': ['NewHeader1', 'Value1', 'Value2'], 'OldHeader2': ['NewHeader2', 'Value3', 'Value4'] })
-expected_result =  pd.DataFrame({ 'NewHeader1': ['Value1', 'Value2'], 'NewHeader2': ['Value3', 'Value4'] }, index=[1, 2])
-result = test(var0)
-assert result.equals(expected_result), 'Test failed'
+test_string1 = "hello, world! hello again!"
+str01 = "hello"
+expected_output1 = 14
+assert test(test_string1, str01) == expected_output1, 'Test failed'

@@ -1,1 +1,1 @@
-Python:  use a string str0 as a slice specifier  in list lst0 
+Zip lists lst0 in Python   

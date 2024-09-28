@@ -1,6 +1,2 @@
-import re
-
-def test(var0,str0):
-    matches = re.findall(var0, str0)
-    count0 = len(matches)
-    return count0
+def test(lst0):
+    return {k for d in lst0 for k in d.keys()}

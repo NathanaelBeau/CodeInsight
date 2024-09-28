@@ -1,2 +1,5 @@
-def test(var0):
-    return hex(var0)
+import pandas as pd
+import numpy as np
+
+def test(df0):
+    return [col for col in df0.columns if df0[col].isnull().any()]

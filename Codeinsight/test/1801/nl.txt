@@ -1,1 +1,1 @@
-Obtain the element-wise logical NOT of the pandas Series ser0.
+ Add 1 to every element in a list lst0

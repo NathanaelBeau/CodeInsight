@@ -1,4 +1,4 @@
-df0 = pd.DataFrame({'A': ['hello', '[world]', '!'], 'B': ['[How]', 'are [you]', '[?]']})
-expected_result =  pd.DataFrame({'A': ['hello', 'world', '!'], 'B': ['How', 'are you', '?']})
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+str0 = "7 apples"
+expected_output = True
+output = test(str0)
+assert output == expected_output, 'Test failed'

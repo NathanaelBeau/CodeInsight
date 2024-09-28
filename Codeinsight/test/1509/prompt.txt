@@ -1,4 +1,4 @@
-Group the elements of lst0 into separate lists based on their first five characters.
+Compute the list of sums of neighboring integers in a string str0
 
-def test(lst0):
+def test(str0):
 

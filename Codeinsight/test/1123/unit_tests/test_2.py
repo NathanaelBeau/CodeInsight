@@ -1,4 +1,5 @@
-var0 = pd.DataFrame({'A': [-1, 0, 1], 'B': [-2, 0, 2]})
-expected_result =  pd.DataFrame({'A': [0.0, 0.5, 1.0], 'B': [0.0, 0.5, 1.0]})
-result = test(var0)
-assert result.equals(expected_result), 'Test failed'
+df4 = pd.DataFrame({'A': [100, 200]}, index=[5, 10])
+result4 = test(df4, 'NewIndex')
+expected4 = pd.DataFrame({'A': [100, 200], 'NewIndex': [5, 10]}, index=[5, 10])
+if pd.testing.assert_frame_equal(result4, expected4) is not None:
+    assert False, 'Test failed'

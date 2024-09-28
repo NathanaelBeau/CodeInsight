@@ -1,6 +1,2 @@
-import pandas as pd
-
-def test(df0, index_name0):
-    df0 = df0.reset_index(drop=True)
-    df0.index.name = index_name0
-    return df0
+def test(str0, var0):
+    return ''.join([char * var0 for char in str0])

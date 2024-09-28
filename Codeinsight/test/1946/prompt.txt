@@ -1,4 +1,0 @@
-Counting the number of True Booleans in a Python List lst0   with sum
-
-def test(lst0):
-

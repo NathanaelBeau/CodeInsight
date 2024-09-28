@@ -1,5 +1,6 @@
-df0 = pd.DataFrame({'A': [5, 6, 3, 4], 'B': [1, 2, 3, 5]})
-lst0 = [5, 4]
-var0 = "A"
-expected_output = pd.DataFrame({'A': [5, 4], 'B': [1, 5]}, index=[0, 3])
-assert test(df0, lst0, var0).equals(expected_output), 'Test failed'
+df0 = pd.DataFrame({'X': [7.891, 8.234, 9.567], 'Y': [10.123, 11.456, 12.789]})
+column_name0 = 'Y'
+decimals0 = 1
+expected_result =  pd.DataFrame({'X': [7.891, 8.234, 9.567], 'Y': [10.1, 11.5, 12.8]})
+result = test(df0, column_name0, decimals0)
+assert result.equals(expected_result), 'Test failed'

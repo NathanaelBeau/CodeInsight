@@ -1,4 +1,6 @@
-import operator
+import hashlib
 
-def test(lst0):
-    return sorted(lst0, key=operator.itemgetter(1))
+def test(var0, var1):
+    hashed = hashlib.sha256(var0.encode()).hexdigest()
+    truncated_hash = hashed[:var1]
+    return truncated_hash

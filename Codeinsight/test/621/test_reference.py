@@ -1,4 +1,4 @@
-import numpy as np
+import re
 
-def test(arr0, var0):
-    return np.hstack((arr0[:,:var0], arr0[:,var0+1:]))
+def test(s):
+    return re.sub(r'\((\w+)\)', r'\1', s)

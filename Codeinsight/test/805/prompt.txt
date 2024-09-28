@@ -1,4 +1,4 @@
-Replacing instances of a character ";" by ":" at index between 0 and  3  in a string str0   
+Aggregate each element from list lst1 to all elements of list lst0
 
-def test(str0):
+def test(lst0, lst1):
 

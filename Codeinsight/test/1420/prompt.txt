@@ -1,6 +1,5 @@
-Select the row at integer index var0 from the dataframe df0.
+Convert a DateTime string var0 to a DateTime object with the format '%Y-%m-%d %H:%M:%S.%f'
 
-import pandas as pd
-
-def test(df0, var0):
+from datetime import datetime
+def test(var0):
 

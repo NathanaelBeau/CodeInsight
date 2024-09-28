@@ -1,3 +1,12 @@
-lst0 = [[0, 0, 0, 0], [0, 0, 0, 0]]
-expected_output = 0
-assert test(lst0) == expected_output, 'Test failed'
+import numpy
+import math
+import pandas
+import string
+import datetime
+import json
+import itertools
+import random
+import functools
+import collections
+result = test(7)
+assert result == True, 'Test failed'

@@ -1,4 +1,5 @@
-import numpy as np
-
-def test(mat0):
-    return np.linalg.norm(mat0, axis=1)
+def test(lst0):
+    for row in lst0:
+        for i in range(len(row)):
+            row.insert(i * 2, 0)
+    return lst0

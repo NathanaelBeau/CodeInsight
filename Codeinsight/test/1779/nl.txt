@@ -1,1 +1,1 @@
-Retrieve rows from the pandas DataFrame df0 that are not present in another DataFrame df1.
+ Return a list of non-empty, lowercase, stripped lines from an input multi-line string str0.

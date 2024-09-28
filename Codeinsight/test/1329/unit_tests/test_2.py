@@ -1,7 +1,4 @@
-lst0 = [
-    {'categories': ['A', 'B', 'B']},
-    {'categories': ['A', 'C', 'D']},
-    {'categories': ['B', 'C', 'C']}
-]
-expected_output = {'B': 3, 'C': 3, 'A': 2, 'D': 1}
-assert test(lst0) == expected_output, 'Test failed'
+lst0 = [5, 15, 25, 35]
+expected_result =  20.0
+result = test(lst0)
+assert result == expected_result, 'Test failed'

@@ -1,1 +1,1 @@
-Interweaving two numpy arrays   arr0 and arr1
+ convert ndarray  var0 to array using ravel  

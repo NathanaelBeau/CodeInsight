@@ -1,4 +1,3 @@
-var0 = None
-expected_result =  False
-result = test(var0)
-assert result == expected_result, 'Test failed'
+str0 = "aZbYcX"
+expected_result =  "XYZabc"
+assert test(str0) == expected_result, 'Test failed'

@@ -1,3 +1,3 @@
-str0 = "12345!@#$%"
-expected_output = "12345"
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = []
+lst1 = [1, 2, 3, 4, 5]
+assert test(lst0, lst1) == True, 'Test failed'

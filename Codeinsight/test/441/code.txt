@@ -1,2 +1,4 @@
-def test(dict0, var0):
-    return var0 in list(dict0.values())
+def test(s):
+    while s and s[-1].isdigit():
+        s = s[:-1]
+    return s

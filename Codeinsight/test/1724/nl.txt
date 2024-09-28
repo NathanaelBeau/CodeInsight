@@ -1,1 +1,1 @@
-Add an extra row from a dctionary dict0 to a pandas dataframe  df0
+Extract var2 words surrounding the search word var1 in the string var0 with value None if no word found on left or right

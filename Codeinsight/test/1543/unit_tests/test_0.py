@@ -1,3 +1,3 @@
-sublist = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]
-expected_output = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-assert test(sublist) == expected_output, 'Test failed'
+lst0 = [(10, 20), (30, 40), (50, 60)]
+expected_output = [10, 30, 50]
+assert test(lst0) ==expected_output, 'Test failed'

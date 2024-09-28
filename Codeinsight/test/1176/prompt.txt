@@ -1,4 +1,4 @@
-Combine two Pandas dataframes var0 and var1 with the same index
+ simple way to remove multiple spaces in a string  str0 with replace
 
-def test(var0, var1):
+def test(str0):
 

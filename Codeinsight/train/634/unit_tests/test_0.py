@@ -1,3 +1,4 @@
-dict0 = {'a': 1, 'b': 2, 'c': 3}
-expected_output = [('a', 1), ('b', 2), ('c', 3)]
-assert test(dict0) ==expected_output, 'Test failed'
+input_list = ['apple', 'banana', 'cherry']
+expected_result =  ['apple', 'banana', 'cherry']
+result = test(input_list)
+assert result==expected_result, 'Test failed'

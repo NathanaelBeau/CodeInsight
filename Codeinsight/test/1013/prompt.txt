@@ -1,6 +1,4 @@
-Concatenating two one-dimensional NumPy arrays  arr0 and arr1
+Determine if dictionary dict0 contains all the keys present in list lst0.
 
-import numpy as np
-
-def test(arr0, arr1):
+def test(dict0, lst0):
 

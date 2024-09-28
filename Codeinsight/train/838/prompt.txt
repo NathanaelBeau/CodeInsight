@@ -1,6 +1,4 @@
-Divide values in multiple columns specified by columns_list0 of a dataframe df0 by the values in column column_name0.
+split a single tuple lst0 into multiple using python  
 
-import pandas as pd
-
-def test(df0, columns_list0, column_name0):
+def test(lst0):
 

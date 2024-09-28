@@ -1,4 +1,4 @@
-Split dictionary of lists dict0 into list of dictionaries where each element of the list becomes the value of the key
+Move dictionaries in list lst0 to the end if the value of the key 'language' in each dictionary is not equal to 'en'
 
-def test(dict0):
+def test(lst0):
 

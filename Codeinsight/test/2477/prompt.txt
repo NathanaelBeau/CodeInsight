@@ -1,5 +1,0 @@
-Divide each row of the numpy array arr0 by the corresponding element in the vector vec0
-
-import numpy as np
-def test(arr0, vec0):
-

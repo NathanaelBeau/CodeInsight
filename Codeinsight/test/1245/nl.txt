@@ -1,1 +1,1 @@
-Compute the element-wise average of numpy arrays arr0 and arr1  
+Insert a character char0 after every 2 characters in a string str0.

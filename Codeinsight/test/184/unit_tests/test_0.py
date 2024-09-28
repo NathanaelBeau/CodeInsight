@@ -1,3 +1,5 @@
-var0 = '20M10000N80M'
-expected_output = (['20', '10000', '80'], ['M', 'N', 'M'])
-assert test(var0) == expected_output, 'Test failed'
+import pandas as pd
+df0 = pd.DataFrame({'A': [7, 8, 9], 'Value': [True, True, True]})
+expected_output = pd.DataFrame({'A': [7, 8, 9], 'Value': [True, True, True]})
+test3 = test(df0).equals(expected_output)
+assert test3, 'Test failed'

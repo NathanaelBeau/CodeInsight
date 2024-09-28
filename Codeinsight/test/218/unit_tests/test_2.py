@@ -1,3 +1,5 @@
-str0 = "No\u200bthing to \u200bre\u200bpl\u200bace here."
-expected_output = "No*thing to *re*pl*ace here."
-assert test(str0) ==expected_output, 'Test failed'
+vec0 = np.array([4, 5])
+num_times0 = 4
+expected_result =  np.array([[4, 5], [4, 5], [4, 5], [4, 5]])
+result = test(vec0, num_times0)
+assert np.array_equal(result, expected_result), 'Test failed'

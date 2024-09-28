@@ -1,2 +1,4 @@
-def test(dict0):
-    return all(value for value in dict0.values() if isinstance(value, bool))
+import pandas as pd
+
+def test(var0):
+    return isinstance(var0, pd.DataFrame)

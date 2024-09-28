@@ -1,2 +1,2 @@
 def test(lst0):
-    return [i for i, x in enumerate(lst0) if x != 0]
+    return sorted((sorted(item) for item in lst0), key=lambda x: (len(x), x))

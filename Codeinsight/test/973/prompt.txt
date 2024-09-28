@@ -1,6 +1,5 @@
-generate a list of tuples from a pandas DataFrame df0 with the column name and column values   
+Get the integer index of the first row in DataFrame df0 where column col0 matches the value var0  
 
 import pandas as pd
-
-def test(df0):
+def test(df0, col0, var0):
 

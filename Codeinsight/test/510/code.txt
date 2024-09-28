@@ -1,4 +1,5 @@
 import pandas as pd
 
-def test(df0, str0):
-    return df0.loc[:, (slice(None), str0)]
+def  test(df):
+    df.rename(columns={'var0': 'var1'}, inplace=True)
+    return df

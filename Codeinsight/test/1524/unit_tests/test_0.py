@@ -1,3 +1,4 @@
-var0 = "https://www.youtube.com/watch?v=VIDEO_ID_HERE"
-expected_result =  "VIDEO_ID_HERE"
-assert test(var0) == expected_result, 'Test failed'
+lst0 = [1, 2, 3, 4, 5]
+expected_result =  True
+result = test(lst0)
+assert result == expected_result, 'Test failed'

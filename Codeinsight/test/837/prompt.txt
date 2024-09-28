@@ -1,6 +1,4 @@
-Split a string str0 and keep the separators.
+How do you split a list lst0 into evenly sized chunks of var0?   
 
-import re
-
-def test(str0: str) -> list:
+def test(lst0, var0):
 

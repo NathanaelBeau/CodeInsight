@@ -1,4 +1,6 @@
-Order a list of lists lst0 by the first value of each list
+using regular expression to split string str0 in python   
 
-def test(lst0):
+import re
+
+def test(str0):
 

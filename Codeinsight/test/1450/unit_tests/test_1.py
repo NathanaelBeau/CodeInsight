@@ -1,5 +1,4 @@
-series0 = pd.Series([10, 11, 12], name='E')
-df0 = pd.DataFrame({'A': [13, 14, 15], 'B': [16, 17, 18]})
-expected_result =  pd.DataFrame({'E': [10, 11, 12], 'A': [13, 14, 15], 'B': [16, 17, 18]})
-result = test(series0, df0)
-assert result.equals(expected_result), 'Test failed'
+df0 = pd.DataFrame({'Text': ['Hello', 'WORLD', None]})
+expected = pd.DataFrame({'Text': ['hello', 'world', '']})
+result = test(df0, 'Text')
+assert result.equals(expected), 'Test failed'

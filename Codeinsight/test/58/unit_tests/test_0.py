@@ -1,3 +1,5 @@
-str0 = "{'muffin' : 'lolz', 'foo' : 'kitty'}"
-expected_output = {'muffin': 'lolz', 'foo': 'kitty'}
-assert test(str0) ==expected_output, 'Test failed'
+arr0 = np.array([1, 5, 10, 15, 20])
+var0 = 10
+expected_result =  np.array([1, 5, 10, 0, 0])
+result = test(arr0, var0)
+assert np.array_equal(result, expected_result), 'Test failed'

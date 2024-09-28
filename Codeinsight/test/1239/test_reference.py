@@ -1,4 +1,5 @@
-import numpy as np
+import pandas as pd
 
-def test(array1: np.ndarray, array2: np.ndarray) -> np.ndarray:
-    return np.multiply(array1, array2)
+def test(df: pd.DataFrame) -> pd.DataFrame:
+    df.fillna(0.0, inplace=True)
+    return df

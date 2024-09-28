@@ -1,2 +1,2 @@
-def test(dict0):
-    return max(dict0, key=lambda k: dict0[k]['count'])
+def test(lst0):
+    return [x for x in lst0 if x[2] == '0']

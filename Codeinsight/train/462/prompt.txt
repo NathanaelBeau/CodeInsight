@@ -1,6 +1,5 @@
-Convert the dictionary dict0 into a dataframe.
+Calculate the sum of all elements in a list 
+lst0   
 
-import pandas as pd
-
-def test(dict0):
+def test(lst0):
 

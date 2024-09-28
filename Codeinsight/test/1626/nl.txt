@@ -1,1 +1,1 @@
-Divide each element in a list lst0 by an integer var0
+Replace elements in numpy array arr0 that are greater than a threshold var0 with a new value var1

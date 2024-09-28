@@ -1,3 +1,3 @@
-s = "No parentheses here!"
-expected_output = "No parentheses here!"
-assert test(s) == expected_output, 'Test failed'
+lst0 = ['apple', 'banana', 'cherry']
+expected_output = ['apple', 'banana', 'cherry']
+assert test(lst0) == expected_output, 'Test failed'

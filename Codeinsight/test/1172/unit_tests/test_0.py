@@ -1,3 +1,10 @@
-lst0 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-expected_output = (1, 4, 7)
-assert test(lst0) ==expected_output, 'Test failed'
+data = {
+            'A': [1, 2, 3],
+            'B': [4, 5, 6],
+            'A_duplicated': [7, 8, 9]  # Different column name to prevent overwriting
+        }
+df = pd.DataFrame(data)
+df.columns = ['A', 'B', 'A']  # Manually duplicate the column names
+result = test(df)
+expected = pd.DataFrame({'A': [8, 10, 12], 'B': [4, 5, 6]})
+assert result.equals(expected), 'Test failed'

@@ -1,2 +1,1 @@
-Merge a given series var0 with a dataframe df0.
-
+Lowercase a pandas dataframe df0 string column var0 if it has missing values

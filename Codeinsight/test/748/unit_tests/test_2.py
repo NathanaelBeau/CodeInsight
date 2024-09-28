@@ -1,3 +1,3 @@
-dict0 = {'a': -1, 'b': -2, 'c': -3}
-result = test(dict0, lambda x: x > 0)
-assert result ==0, 'Test failed'
+dict0 = {'Special_Key!': 'Special_Value!'}
+expected_output = {'special_key!': 'special_value!'}
+assert test(dict0) ==expected_output, 'Test failed'

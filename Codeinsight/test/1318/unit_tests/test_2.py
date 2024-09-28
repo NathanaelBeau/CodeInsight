@@ -1,6 +1,4 @@
-df0 = pd.DataFrame({'col1': [], 'col2': []})
-str0 = 'first_row'
-lst0 = [50, 60]
-expected_result =  pd.DataFrame({'col1': [50], 'col2': [60]}, index=['first_row'])
-result = test(df0.copy(), str0, lst0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [(53, 'x'), (53, 'y'), (53, 'z'), (10, 'w')]
+expected_result =  [0, 1, 2]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

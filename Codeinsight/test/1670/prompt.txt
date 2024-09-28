@@ -1,6 +1,5 @@
-Percentage match condition >0 in pandas Dataframe  df0 on column var0 
+Check if value var0 is present in the list of column lst0 in dataframe df0
 
 import pandas as pd
-
-def test(df0, var0):
+def test(df0, lst0, var0):
 

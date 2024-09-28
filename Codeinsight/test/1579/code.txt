@@ -1,4 +1,5 @@
-import pandas as pd
+import numpy as np
 
-def test(df0):
-    return df0.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+def test(lst0):
+    result = np.cumsum(lst0)
+    return result

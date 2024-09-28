@@ -1,1 +1,1 @@
-Elegant way to transform a list of dict lst0 into a dict of dicts   using key var0
+Calculate the mean values for the rows in list lst0 and columns in list lst1 of the dataframe df0

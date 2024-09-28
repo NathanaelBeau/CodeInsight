@@ -1,6 +1,3 @@
 import numpy as np
-
-def test(arr0, arr1):
-    subs = arr0 - arr1
-    out = np.sqrt(np.einsum('i,i->', subs, subs))
-    return out
+def test(arr0, var0):
+    return np.delete(arr0, var0)

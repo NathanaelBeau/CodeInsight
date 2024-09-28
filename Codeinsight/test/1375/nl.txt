@@ -1,1 +1,1 @@
-Find the indices of the numpy array arr0 where the value is True
+How to insert a character '-' after every 2 characters in a string str0  assuming string's length is always an even number 

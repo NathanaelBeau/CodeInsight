@@ -1,4 +1,3 @@
-import re
-
-def test(str0: str) -> list:
-    return [x for x in re.split(r'(\W+)', str0) if x]
+def test(lst0, var0):
+    for i in range(0, len(lst0), var0):
+        yield lst0[i:i + var0]

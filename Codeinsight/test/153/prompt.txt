@@ -1,5 +1,6 @@
-Convert a list of lists lst0 into a flattened NumPy array
+Delete the row at position var0 in numpy array x.
 
 import numpy as np
-def test(lst0):
+
+def test(x, var0):
 

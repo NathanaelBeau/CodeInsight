@@ -1,3 +1,4 @@
 import numpy as np
-def test(arr0, var0):
-    return np.argsort(arr0)[:var0]
+
+def test(arr0):
+    return np.concatenate((arr0[:2], arr0[-2:]))

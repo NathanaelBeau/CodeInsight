@@ -1,3 +1,2 @@
-str0 = "aabbbccc"
-expected_output = ('b', 3)
-assert test(str0) == expected_output, 'Test failed'
+lst2 = [["cat", "dog"], ["fish", "bird"]]
+assert test(lst2) == 4, 'Test failed'

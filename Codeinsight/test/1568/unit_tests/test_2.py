@@ -1,4 +1,3 @@
-var0 = pd.DataFrame({'C': ['a', 'b', 'c']}, index=pd.Index(['x', 'y', 'z'], name='index_name'))
-expected_result =  pd.DataFrame({'C': ['a', 'b', 'c']}, index=pd.Index(['x', 'y', 'z']))
-result = test(var0)
-assert result.equals(expected_result), 'Test failed'
+str0 = b'\x00\x00\x80?\x00\x00\x00@\x00\x00@@'
+expected_output = np.array([1.0, 2.0, 3.0], dtype=np.float32)
+assert (test(str0)  == expected_output).all(), 'Test failed'

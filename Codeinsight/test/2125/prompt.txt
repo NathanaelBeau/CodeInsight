@@ -1,4 +1,0 @@
-Check if all elements in a list lst0 are tuples with the first element of type long and the second element of type int
-
-def test(lst0):
-

@@ -1,4 +1,3 @@
-str0 = 'This is a string'
-var0 = 4
-expected_output = 'This'
-assert test(str0, var0) == expected_output, 'Test failed'
+d1 = {'key1': [1, 2, 3], 'key2': ['a', 'b', 'c']}
+expected_output1 = [{'key1': 1, 'key2': 'a'}, {'key1': 2, 'key2': 'b'}, {'key1': 3, 'key2': 'c'}]
+assert test(d1) == expected_output1, 'Test failed'

@@ -1,2 +1,3 @@
-def test(lst0):
-    return {k for d in lst0 for k in d.keys()}
+import numpy as np
+def test(arr0, var0):
+    return np.where(arr0 > var0)

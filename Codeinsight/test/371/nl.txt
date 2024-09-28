@@ -1,1 +1,1 @@
-Select rows from a DataFrame df0 where values in column column_name0 are in the list value_list0.  
+Sort the list lst0 based on values from another list lst1.

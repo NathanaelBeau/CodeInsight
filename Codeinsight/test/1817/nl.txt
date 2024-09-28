@@ -1,1 +1,1 @@
-Add 1 to each integer value in a list lst0
+Reset the index on a series named ser0 to remove any multiindex  

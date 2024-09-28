@@ -1,4 +1,3 @@
-lst0 = ["apple", "banana", "cherry", "date"]
-var0 = str
-expected_output = 4
-assert test(lst0, var0) ==expected_output, 'Test failed'
+result = test("Hello World! hello Universe!", "hello", "hi", True)
+expected = "hi World! hi Universe!"
+assert result == expected, 'Test failed'

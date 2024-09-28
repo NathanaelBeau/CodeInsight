@@ -1,4 +1,4 @@
-import pandas as pd
-
-def test(df0, index_name0):
-    return df0.reset_index(drop=True).rename_axis(index_name0)
+def test(var0, var1, lst0):
+    str_lst = str(lst0)
+    str_lst = str_lst.replace(str(var0), str(var1))
+    return eval(str_lst)

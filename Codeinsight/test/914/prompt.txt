@@ -1,5 +1,4 @@
-Filtering all elements in the list of lists 
-lst0 that satisfy a given condition var0
+Get a list of elements by splitting the string s at commas and removing white space from each resulting item.
 
-def test(lst0, var0):
+def test(s):
 

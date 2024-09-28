@@ -1,7 +1,5 @@
-arr0 = np.array([[3.2],
-                 [1.5],
-                 [2.8]])
-expected_output = np.array([[1.5],
-                            [2.8],
-                            [3.2]])
-assert (test(arr0)  == expected_output).all(), 'Test failed'
+str0 = "(7.0, 8.1)"
+tpl0 = (9.2, 10.3)
+expected_result =  (9.2, 10.3, 7.0, 8.1)
+result = test(str0, tpl0)
+assert result == expected_result, 'Test failed'

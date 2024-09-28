@@ -1,2 +1,2 @@
-def test(df0):
-	return df0.groupby(df0.index).first()
+def test(lst0, lst1):
+    return [x for _, x in sorted(zip(lst1, lst0))]

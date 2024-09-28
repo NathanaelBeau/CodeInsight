@@ -1,3 +1,5 @@
-matrix0 = np.array([[2, -1, 0], [-1, 2, -1], [0, -1, 2]])
-expected_output = True
-assert test(matrix0) == expected_output, 'Test failed'
+var0 = 0
+df0 = pd.DataFrame({'C': ['a', 'b', 'c'], 'D': ['d', 'e', 'f']})
+expected_result =  pd.Series(['a', 'b', 'c'], name='C')
+result = test(df0, var0)
+assert result.equals(expected_result), 'Test failed'

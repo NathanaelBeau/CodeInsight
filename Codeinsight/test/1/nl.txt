@@ -1,1 +1,1 @@
-insert a list lst1  at the front of another list lst0  
+How to insert a character '-' after every 2 characters in a string  str0

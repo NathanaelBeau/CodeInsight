@@ -1,2 +1,3 @@
-expected_result =  pd.DataFrame(columns=['A', 'B', 'A1R', 'B2', 'AABB4'])
-assert test().equals(expected_result), 'Test failed'
+str0 = "Word to Split"
+expected_output = ['W', 'o', 'r', 'd', ' ', 't', 'o', ' ', 'S', 'p', 'l', 'i', 't']
+assert test(str0) == expected_output, 'Test failed'

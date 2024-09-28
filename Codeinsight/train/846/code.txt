@@ -1,4 +1,3 @@
-import pandas as pd
-
-def test(df0, var0):
-    return df0[var0].value_counts().idxmax()
+import numpy as np
+def test(arr0, arr1):
+    return np.multiply(arr0, arr1)

@@ -1,2 +1,3 @@
-def test(str0, var0):
-    return str0[:min(len(str0), var0)]
+def test(d: dict) -> list:
+    keys = ['key1', 'key2']
+    return [dict((k, d[k][i]) for k in keys) for i in range(len(d['key1']))]

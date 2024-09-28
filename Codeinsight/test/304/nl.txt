@@ -1,2 +1,1 @@
-Get the list of row-index values from a DataFrame df0.
-   
+sort the input list lst0 in ascending order 

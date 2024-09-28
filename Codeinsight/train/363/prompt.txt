@@ -1,4 +1,6 @@
-Find the tuple in lst0 that has the largest item at index var0.
+NumPy - Efficient conversion from tuple arr0 with dimensions height var0 and wifth var1 to array   
 
-def test(lst0, var0):
+import numpy as np
+
+def test(arr0, var0, var1):
 

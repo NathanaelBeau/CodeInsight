@@ -1,2 +1,5 @@
-def test(var0):
-    return [name for name, value in locals().items() if value is var0][0]
+import pandas as pd
+import numpy as np
+
+def test(arr0):
+    return arr0[~pd.isnull(arr0)]

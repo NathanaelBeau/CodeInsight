@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df: pd.DataFrame) -> list:
-    return df['a'].tolist()
+def test(dict0, dict1):
+    return {**dict0, **dict1}

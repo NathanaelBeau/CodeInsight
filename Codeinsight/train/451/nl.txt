@@ -1,1 +1,1 @@
-Replace each character in the string var0 with its corresponding ASCII value.
+ display the first few characters var0 of a string str0 in Python   

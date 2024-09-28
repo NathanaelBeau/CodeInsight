@@ -1,3 +1,4 @@
-import numpy as np
-def test(arr0, var0):
-    return np.delete(arr0, var0)
+from itertools import combinations
+
+def test(set0):
+    return set(combinations(set0, 3))

@@ -1,4 +1,0 @@
-Flatten the list of lists sublist into a single list.
-
-def test(sublist):
-

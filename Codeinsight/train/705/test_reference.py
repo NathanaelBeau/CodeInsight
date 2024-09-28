@@ -1,2 +1,4 @@
-def test(lst0):
-    return sum(map(sum, lst0))
+import pandas as pd 
+
+def test(df0, var0, var1):
+    return df0.assign(**{var0: var1})

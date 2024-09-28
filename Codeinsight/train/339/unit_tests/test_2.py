@@ -1,5 +1,7 @@
-lst0 = [10, 20, 30, 40]
-lst1 = [5, 15, 25]
-expected_result =  [10, 20, 30, 40]
-result = test(lst0, lst1)
-assert result == expected_result, 'Test failed'
+# Test 3
+df0 = pd.DataFrame({'C': ['123Z', '456Z', '789Z']})
+column_name = 'C'
+unwanted_string = 'Z'
+expected_result =  pd.DataFrame({'C': ['123', '456', '789']})
+result = test(df0, column_name, unwanted_string)
+assert result.equals(expected_result), 'Test failed'

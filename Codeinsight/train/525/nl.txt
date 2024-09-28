@@ -1,1 +1,1 @@
-Replacing instances of a character at index var0 by str1 in a string str0   
+Find the column name with the maximum value for each row in dataframe df0

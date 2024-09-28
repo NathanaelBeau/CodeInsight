@@ -1,4 +1,4 @@
-lst0 = [1, 2, 3]
-lst1 = [4, 5, 6]
-expected_output = set()
-assert test(lst0, lst1) == expected_output, 'Test failed'
+var0 = "apple"
+lst0 = ["banana", "cherry", "date"]
+expected_result =  True
+assert test(var0, lst0) == expected_result, 'Test failed'

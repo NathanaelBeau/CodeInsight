@@ -1,5 +1,6 @@
-Generate all two-element string permutations from a list lst0
+check the data types of all columns in a Pandas DataFrame df0  
 
+import pandas as pd
 
-def test(lst0):
+def test(df0):
 

@@ -1,7 +1,4 @@
-Strip all punctuation characters from the string var0.
+Python: Uniqueness for list of lists  lst0 
 
-import re
-import string
-
-def test(var0):
+def test(lst0):
 

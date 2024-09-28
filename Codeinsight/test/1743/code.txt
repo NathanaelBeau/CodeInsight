@@ -1,2 +1,2 @@
-def test(lst0, lst1):
-    return [a == b for a, b in zip(lst0, lst1)]
+def test(lst0):
+    return [x for i, x in enumerate(lst0) if i < 10]

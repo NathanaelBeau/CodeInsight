@@ -1,2 +1,6 @@
-def test(lst0, lst1):
-    return [item for item in lst0 if item not in lst1]
+import pandas as pd
+
+def test(df0, var0, str0):
+    df0[var0] = df0[var0].str.replace(str0, '')
+    return df0
+

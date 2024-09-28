@@ -1,6 +1,6 @@
-List comprehension with an accumulator  on list lst0 with numpy 
+Find all indexes of a substring var0 in a string var1
 
-import numpy as np
+import re
 
-def test(lst0):
+def test(var0, var1):
 

@@ -1,4 +1,4 @@
-lst0 = pd.Series([5, 6, 7, 8, 9])
-expected_result =  []
-result = test(lst0)
+input_num = 10
+expected_result =  [0, 0, 1, 1, 2, 2, 3, 3, 4, 4]
+result = test(input_num)
 assert result == expected_result, 'Test failed'

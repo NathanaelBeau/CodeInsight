@@ -1,1 +1,1 @@
-Multiply two vectors vect0 and vect1 
+Trying to use reduce() and lambda with a list lst0 containing strings   

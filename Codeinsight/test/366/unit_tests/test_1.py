@@ -1,6 +1,3 @@
-# Test 2: Using 'bool' method
-series = pd.Series([True])
-method = "bool"
-expected_result =  True
-result = test(series, method)
-assert result == expected_result, 'Test failed'
+str0 = ""
+expected_output = []
+assert test(str0) ==expected_output, 'Test failed'

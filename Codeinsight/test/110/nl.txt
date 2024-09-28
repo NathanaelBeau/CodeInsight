@@ -1,1 +1,1 @@
-Normalize a 2-dimensional numpy array arr0
+Shift the values in column col0 of a dataframe df0 up by one.

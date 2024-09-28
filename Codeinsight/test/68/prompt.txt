@@ -1,4 +1,4 @@
-Get all the second values from a list of lists lst0.
+Control a print format when printing a list lst0 in Python   
 
 def test(lst0):
 

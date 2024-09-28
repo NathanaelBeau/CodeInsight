@@ -1,1 +1,1 @@
-Drop rows from the pandas DataFrame df0 that contain infinite values in column var0.
+Determine the byte length of a utf-8 encoded string s.

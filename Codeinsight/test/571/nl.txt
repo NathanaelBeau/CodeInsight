@@ -1,1 +1,1 @@
-Extract the first floating number from a string str0.
+Python creating a dictionary of lists  with key from list lst0, values from var0 in range of var1

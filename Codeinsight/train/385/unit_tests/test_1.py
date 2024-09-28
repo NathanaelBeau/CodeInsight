@@ -1,4 +1,5 @@
-str0 = "XYZ"
-str1 = "12"
-expected_result =  "1XYZ2"
-assert test(str0, str1) == expected_result, 'Test failed'
+str0 = "7,8,9"
+tpl0 = (10, 11, 12)
+expected_result =  (10, 11, 12, 7, 8, 9)
+result = test(str0, tpl0)
+assert result == expected_result, 'Test failed'

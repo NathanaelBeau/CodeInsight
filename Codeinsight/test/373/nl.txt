@@ -1,1 +1,1 @@
-Find the var0 character in str0 that's preceded by one or more var1 characters.
+Convert the entire DataFrame df0 into a dictionary and return it.

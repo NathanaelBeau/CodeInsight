@@ -1,4 +1,3 @@
-lst0 = [{'a': 1, 'b': 2}, {'c': 3}]
-expected_result =  {'a': 1, 'b': 2, 'c': 3}
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+s1 = "Hello, world! How are you?"
+expected_output1 = ['Hello', ', ', 'world', '! ', 'How', ' ', 'are', ' ', 'you', '?']
+assert test(s1) == expected_output1, 'Test failed'

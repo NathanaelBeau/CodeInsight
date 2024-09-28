@@ -1,4 +1,3 @@
-arr0 = np.array([[0.0, 3.0], [0.1, 1.0], [0.2, -1.0]])
-var0 = 0.0
-expected_output = np.array([[0.0, 3.0], [0.1, 1.0]])
-assert (test(arr0, var0)  == expected_output).all(), 'Test failed'
+lst0 = ['3.5', '2.1', '10.4']
+expected_result =  ['2.1', '3.5', '10.4']
+assert test(lst0) == expected_result, 'Test failed'

@@ -1,5 +1,3 @@
-import re
-
-def test(str0):
-    splitter = re.compile(r'(\s+|\S+)')
-    return splitter.findall(str0)
+def test(var0):
+    formatted_str = "{:,}".format(var0).replace(',', ' ')
+    return formatted_str

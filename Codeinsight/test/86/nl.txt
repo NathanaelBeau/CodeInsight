@@ -1,1 +1,1 @@
-switching keys and values in a dictionary dict0 in python   
+Count all the key-value pairs including nested ones in dictionary dict0.

@@ -1,4 +1,6 @@
-Create dataframe containing data of dataframe df0 where column Gender is equal to 'Male' and column Year is equal to 2014.
+randomly select a variable from a list lst0, and then modify it in python   
 
-def test(df0):
+import random
+
+def test(lst0):
 

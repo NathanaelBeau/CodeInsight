@@ -1,1 +1,1 @@
-Calculate the percentage of missing values in each column of the DataFrame df0 
+Display all rows from dataframe df0 that contain at least one NaN value

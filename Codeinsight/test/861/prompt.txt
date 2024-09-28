@@ -1,6 +1,4 @@
-Get the count of values in numpy array a that are greater than var0 and less than or equal to var1.
+Removing entries from a dictionary dict0 based on values   var0 
 
-
-
-def test(a, var0=25, var1=100):
+def test(dict0, var0):
 

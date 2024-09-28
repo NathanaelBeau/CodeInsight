@@ -1,1 +1,1 @@
-Find both the minimum and maximum values of the numpy array arr0
+Python Finding Index of Maximum in List lst0 

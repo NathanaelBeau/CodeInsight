@@ -1,6 +1,5 @@
-df3 = pd.DataFrame({'C': [9, 10], 'D': [11, 12]})
-df4 = pd.DataFrame({'C': [13, 14], 'D': [15, 16]})
-lst0 = [df3, df4]
-expected_result =  pd.DataFrame({'C': [9, 10, 13, 14], 'D': [11, 12, 15, 16]})
-result = test(lst0)
-assert result.equals(expected_result), 'Test failed'
+arr0 = np.array([1, 2, 3, 4, 5])
+n0 = 2
+expected_result =  [np.array([1, 2, 3]), np.array([4, 5])]
+result = test(arr0, n0)
+assert all([np.array_equal(r, e) for r, e in zip(result, expected_result)]), 'Test failed'

@@ -1,1 +1,1 @@
-Calculate the mean across multiple pandas DataFrames given in the list lst0 
+Merge 2 dataframes  df1 and df2 with same values in a column col0 with var0 key and var1 value

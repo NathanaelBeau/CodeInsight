@@ -1,4 +1,6 @@
 import pandas as pd
 
-def test(df0):
-    return df0.apply(pd.value_counts).fillna(0)
+def test(var0, var1, var2):
+	mydf = var2.groupby([var0,var1]).size().reset_index()
+	mydf.rename(columns = {0: 'frequency'}, inplace = True)
+	return mydf

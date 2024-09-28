@@ -1,4 +1,4 @@
-str0 = "OpenAI"
-var0 = "A"
-expected_output = "OpenI"
-assert test(str0, var0) ==expected_output, 'Test failed'
+var0 = "WoRlD"
+expected_result =  "world"
+result = test(var0)
+assert result == expected_result, 'Test failed'

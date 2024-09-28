@@ -1,4 +1,5 @@
-lst0 = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
-n = 2
-expected_output = [['a', 'b'], ['c', 'd'], ['e', 'f'], ['g']]
-assert test(lst0, n) ==expected_output, 'Test failed'
+# Test 3
+var0 = "No separation here."
+lst0 = ["No", "separation"]
+expected_result =  True
+assert test(var0, lst0) == expected_result, 'Test failed'

@@ -1,4 +1,4 @@
-check if all of the following items from list lst0 are in a list  lst1
+Convert a pandas dataframe df0 with fields 'id' and 'value' into a dictionary where 'id' becomes the key and 'value' becomes the corresponding value.
 
-def test(lst0, lst1):
+def test(df0):
 

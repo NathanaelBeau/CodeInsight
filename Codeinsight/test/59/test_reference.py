@@ -1,3 +1,4 @@
+import pandas as pd
 import numpy as np
-def test(arr0):
-    return np.unravel_index(np.argmax(arr0), arr0.shape)
+def test(df0):
+    return df0[["A", "B"]].multiply(df0["C"], axis="index")

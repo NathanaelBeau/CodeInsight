@@ -1,4 +1,5 @@
-import numpy as np
+import pandas as pd
 
-def test(arr0, var0):
-    return np.take(arr0, var0, axis=1)
+def test(df0, var0):
+    df0[var0] = df0[var0].str.lower()
+    return df0

@@ -1,7 +1,5 @@
-Get the floor or ceiling of a pandas series var0 based on the operation specified in str0 
+Create an empty matrix of shape (var0, var1) using NumPy 
 
 import numpy as np
-import pandas as pd
-
-def test(var0, str0):
+def test(var0, var1):
 

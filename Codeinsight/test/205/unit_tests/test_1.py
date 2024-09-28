@@ -1,5 +1,4 @@
-# Test 2
-df0 = pd.DataFrame({'X': [np.nan, 'banana'], 'Y': ['orange', np.nan]})
-expected_result =  df0  # No numeric columns, so the DataFrame remains unchanged
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+# Test 3
+var0 = "No brackets here"
+expected_result =  "No brackets here"
+assert test(var0) == expected_result, 'Test failed'

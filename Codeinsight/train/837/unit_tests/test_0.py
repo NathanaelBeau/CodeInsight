@@ -1,5 +1,5 @@
-df0 = pd.DataFrame({'A': ['x', 'y', 'x', 'z', 'y', 'x']})
-column_name0 = 'A'
-expected_result =  [3, 2, 1]
-result = test(df0, column_name0)
-assert set(result) == set(expected_result), 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9]})
+lst0 = ['A']
+expected_result =  pd.DataFrame({'B': [4, 5, 6], 'C': [7, 8, 9]})
+result = test(df0, lst0)
+assert result.equals(expected_result), 'Test failed'

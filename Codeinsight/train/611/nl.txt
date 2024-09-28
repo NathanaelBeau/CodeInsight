@@ -1,1 +1,1 @@
-Norm along row in pandas   dataframe df0
+Remove adjacent duplicate elements from a list lst0

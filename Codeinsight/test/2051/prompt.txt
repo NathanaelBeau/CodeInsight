@@ -1,4 +1,0 @@
- filter values Nones and replaced them by updated in a dictionary dict0 in Python  
-
-def test(dict0):
-

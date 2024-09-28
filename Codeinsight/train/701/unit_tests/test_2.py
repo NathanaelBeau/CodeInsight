@@ -1,4 +1,3 @@
-lst0 = ["split me", "into words"]
-expected_result =  [["split", "me"], ["into", "words"]]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+str0 = "OpenAI's GPT-3"
+expected_output = ["OpenAI's", "GPT-3"]
+assert test(str0) ==expected_output, 'Test failed'

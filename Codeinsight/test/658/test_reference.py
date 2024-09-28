@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0):
-    return df0[df0.columns[0]]
+def test(s: str) -> [int, float]:
+    return int(s) if "." not in s else float(s)

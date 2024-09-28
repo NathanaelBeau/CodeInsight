@@ -1,1 +1,1 @@
-Python creating a dictionary of lists  with key from list lst0, values from var0 in range of var1
+Split the string var1 based on the regular expression pattern var0.

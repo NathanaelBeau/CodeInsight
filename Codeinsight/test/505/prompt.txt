@@ -1,5 +1,6 @@
-Generate and return all possible combinations of elements from the input list of lists lst0 
+Sort a dictionary var0 with integer keys in ascending order 
 
-import itertools
-def test(lst0):
+from collections import OrderedDict
+
+def test(var0):
 

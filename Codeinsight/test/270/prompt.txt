@@ -1,4 +1,6 @@
-How do you split a list lst0 into evenly sized chunks of var0?   
+Use groupby in Pandas to count things in one column var0 in comparison to another var1 in dataframe df0  
 
-def test(lst0, var0):
+import pandas as pd
+import numpy as np
+def test(df0, var0, var1):
 

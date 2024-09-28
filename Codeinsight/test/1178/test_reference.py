@@ -1,3 +1,3 @@
 import numpy as np
-def test(lst0):
-    return np.concatenate((lst0[:3], lst0[4:]))
+def test(lst0, var0):
+    return list(np.array(lst0)[np.array(lst0) > var0])

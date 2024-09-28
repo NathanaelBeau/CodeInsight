@@ -1,1 +1,1 @@
-Divide values in multiple columns specified by columns_list0 of a dataframe df0 by the values in column column_name0.
+split a single tuple lst0 into multiple using python  

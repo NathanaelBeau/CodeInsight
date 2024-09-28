@@ -1,1 +1,3 @@
-assert test("Dave", "name", [{"name": "Alice", "age": 30}, {"name": "Bob", "age": 25}]) == False, 'Test failed'
+s2 = "héllo"
+expected_output2 = 6
+assert test(s2) == expected_output2, 'Test failed'

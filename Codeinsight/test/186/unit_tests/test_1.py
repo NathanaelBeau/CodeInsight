@@ -1,5 +1,3 @@
-var0 = 1
-df0 = pd.DataFrame({'A': [7, 8, 9], 'B': [10, 11, 12]})
-expected_result =  pd.Series([10, 11, 12], name='B')
-result = test(df0, var0)
-assert result.equals(expected_result), 'Test failed'
+arr0 = np.array([np.nan, 2.0, 3.0, np.nan, 5.0])
+expected_output = np.array([2.0, 3.0, 5.0])
+assert (test(arr0)  == expected_output).all(), 'Test failed'

@@ -1,2 +1,4 @@
-def test(dict0, dict1):
-    return set(dict0.items()) == set(dict1.items())
+import operator
+
+def test(lst0, var0):
+    return list(zip(*sorted(enumerate(lst0), key=operator.itemgetter(1))))[0][-var0:]

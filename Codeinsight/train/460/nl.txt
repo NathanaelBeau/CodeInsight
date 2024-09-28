@@ -1,1 +1,1 @@
-Reset the index of the dataframe df0.
+Convert the sparse matrix mat0 into a dense matrix  

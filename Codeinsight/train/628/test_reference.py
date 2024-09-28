@@ -1,2 +1,3 @@
-def test(str0):
-    return len(''.join(str0))
+import numpy as np
+def test(arr0):
+    return ', '.join(map(str, arr0))

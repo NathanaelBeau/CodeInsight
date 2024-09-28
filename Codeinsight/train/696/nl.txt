@@ -1,1 +1,1 @@
-changing the values of the diagonal of a matrix arr0 in numpy    by var0
+ Extract all non-zero values from a numpy array named arr0

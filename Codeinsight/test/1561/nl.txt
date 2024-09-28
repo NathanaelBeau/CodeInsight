@@ -1,1 +1,1 @@
-A pythonic way to insert a space before capital letters   in strings  str0 in one-liner implementation without using regexp
+Find both the minimum and maximum values of the numpy array arr0

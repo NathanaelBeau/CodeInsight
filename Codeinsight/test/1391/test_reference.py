@@ -1,6 +1,4 @@
-import re
+import numpy as np
 
-def test(var0):
-    pattern = r"lol+"
-    match = re.match(pattern, var0)
-    return bool(match)
+def test(arr0):
+    return arr0[~np.isnan(arr0)]

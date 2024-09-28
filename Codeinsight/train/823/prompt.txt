@@ -1,6 +1,4 @@
-Check if the object var0 is NaN using Python's math module.
+Convert a list lst0 into a concatenated string   
 
-
-import math
-def test(var0):
+def test(lst0):
 

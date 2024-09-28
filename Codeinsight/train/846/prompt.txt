@@ -1,6 +1,5 @@
-Retrieve the most frequent value from column var0 in dataframe df0
+Compute the Hadamard product (element-wise multiplication) of the numpy arrays arr0 and arr1
 
-import pandas as pd
-
-def test(df0, var0):
+import numpy as np
+def test(arr0, arr1):
 

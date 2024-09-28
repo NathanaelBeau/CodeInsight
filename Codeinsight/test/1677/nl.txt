@@ -1,1 +1,1 @@
-Remove anything in parentheses from the string var0 using regex
+Flipping the boolean values in a list lst0 with list comprehension Python   

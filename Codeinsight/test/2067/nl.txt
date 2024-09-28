@@ -1,1 +1,0 @@
-Sort a numpy array  arr0 like a table   using lexsort

@@ -1,3 +1,5 @@
-nvalues = {'X': [5, 6, 7], 'Y': [8, 9, 10], 'Z': [11, 12, 13]}
-expected_output = pd.DataFrame({'X': [5, 6, 7], 'Y': [8, 9, 10], 'Z': [11, 12, 13]})
-assert test(nvalues).equals(expected_output), 'Test failed'
+lst0 = ['alpha', 'beta', 'delta', 'gamma']
+lst1 = [1, 1, 1, 1]
+expected_result =  ['alpha', 'beta', 'delta', 'gamma']
+result = test(lst0, lst1)
+assert result == expected_result, 'Test failed'

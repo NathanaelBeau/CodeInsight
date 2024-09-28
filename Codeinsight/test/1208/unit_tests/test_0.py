@@ -1,6 +1,4 @@
-# Test 1
-df0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry'], 'B': ['dog', 'elephant', 'fox']})
-var0 = 'A'
-var1 = r'^a'
-expected_result =  pd.DataFrame({'A': ['apple'], 'B': ['dog']})
-assert test(df0, var0, var1).equals(expected_result), 'Test failed'
+dict0 = {"a": 1, "b": 2, "c": 3}
+expected_result =  {1: "a", 2: "b", 3: "c"}
+result = test(dict0)
+assert result == expected_result, 'Test failed'

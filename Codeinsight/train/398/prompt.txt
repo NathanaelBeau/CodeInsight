@@ -1,4 +1,5 @@
-Count the number of occurrences of substring sub in string s.
+Sort dataframe df0 based on custom order provided in list lst0 for column name var0
 
-def test(s: str, sub: str) -> int:
+import pandas as pd
+def test(df0, lst0, var0):
 

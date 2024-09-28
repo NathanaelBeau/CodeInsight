@@ -1,5 +1,4 @@
-var0 = [(1, 'apple'), (2, 'banana'), (3, 'cherry')]
-var1 = 2
-expected_result =  1
-result = test(var0, var1)
-assert result == expected_result, 'Test failed'
+lst0 = [10, 20, 30, 40, 50]
+lst1 = [1, 3]
+expected_output = [20, 40]
+assert test(lst0, lst1) == expected_output, 'Test failed'

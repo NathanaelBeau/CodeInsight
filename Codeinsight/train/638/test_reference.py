@@ -1,4 +1,2 @@
-def test(lst0):
-    lst0.sort()  
-    lst0.sort(key=len, reverse=True)  
-    return lst0
+def test(var0, var1, lst0):
+    return [item for item in lst0 if item[var0] == var1]

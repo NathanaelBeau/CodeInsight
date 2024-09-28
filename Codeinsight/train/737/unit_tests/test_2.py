@@ -1,4 +1,3 @@
-str0 = "OpenAI GPT-4"
-expected_result =  "GPT-4"
-result = test(str0)
-assert result == expected_result, 'Test failed'
+lst0 = [(1, 'X', 'Y'), (1, 'Y', 'X'), (1, 'A', 'B'), (1, 'B', 'A')]
+expected_output = [(1, 'X', 'Y')]
+assert test(lst0) == expected_output, 'Test failed'

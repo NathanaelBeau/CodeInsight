@@ -1,5 +1,4 @@
-df0 = pd.DataFrame([[5, 6], [7, 8]], columns=['X', 'Y'])
-var0 = 'AnotherLevel'
-expected_result =  pd.DataFrame([[5, 6], [7, 8]], columns=pd.MultiIndex.from_tuples([(var0, 'X'), (var0, 'Y')]))
-result = test(var0, df0)
-assert result.equals(expected_result), 'Test failed'
+expected_result = lst0 = [[5, 5], [10, 3], [10, 3], [15, 1]]
+expected_result_2 = [[5, 5], [10, 3], [15, 1]]
+result_2 = test([[5, 5], [10, 3], [10, 3], [15, 1]])
+assert result_2 == expected_result_2 or set(map(tuple, result_2)) == set(map(tuple, expected_result_2)), 'Test failed'

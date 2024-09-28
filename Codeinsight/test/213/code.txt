@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0):
-    return df0.shape[1]
+def test(lst0, dict0):
+    return any([i in dict0 for i in lst0])

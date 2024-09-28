@@ -1,2 +1,3 @@
-def test(var0):
-    return var0.replace('\\', '')
+import numpy as np
+def test(arr0, var0):
+    return np.where(arr0 == var0)

@@ -1,5 +1,2 @@
-import string
-
-def test(str0):
-    out = ''.join([c for c in str0 if c not in string.punctuation])
-    return out
+def test(lst0, lst1):
+    return all(item in lst1 for item in lst0)

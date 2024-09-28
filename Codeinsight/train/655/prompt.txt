@@ -1,4 +1,4 @@
-From list of integers lst0, get number closest to a given value var0
+Find the position of the var2 occurrence of substring var1 in string var0
 
-def test(lst0, var0):
+def test(var0, var1, var2):
 

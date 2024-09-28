@@ -1,3 +1,4 @@
-a = np.array([10, 20, 30, 40, 110])
-expected_output = 2  # 30 and 40 are the numbers between 25 and 100
-assert test(a,25,100) == expected_output, 'Test failed'
+lst0 = [1, 2, 3, 4, 5]
+lst1 = [3, 4, 5, 6, 7]
+expected_output = {3, 4, 5}
+assert test(lst0, lst1) ==expected_output, 'Test failed'

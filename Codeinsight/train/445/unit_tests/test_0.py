@@ -1,4 +1,3 @@
-# Test 1
-var0 = "apple*banana*fruit"
-expected_result =  ["*", "*"]
-assert test(var0) == expected_result, 'Test failed'
+arg = [['apple', 'banana', 'orange'], ['car', 'bus', 'bike'], ['jar', 'cup', 'glass'], ['bar', 'pub', 'club']]
+expected_output = [['car', 'bus', 'bike'], ['jar', 'cup', 'glass'], ['bar', 'pub', 'club']]
+assert test(arg) == expected_output, 'Test failed'

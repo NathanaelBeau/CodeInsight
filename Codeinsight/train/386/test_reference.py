@@ -1,3 +1,5 @@
-import random
-def test(var0, var1):
-    return random.randrange(var0, var1 + 1)
+import pandas as pd
+import numpy as np
+
+def test(df0, df1):
+    return df0.join(df1)

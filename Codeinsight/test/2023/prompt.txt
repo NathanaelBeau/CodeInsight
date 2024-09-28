@@ -1,6 +1,0 @@
-Split a string str0 at uppercase letters.
-
-import re
-
-def test(str0: str) -> list:
-

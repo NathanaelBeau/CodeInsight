@@ -1,6 +1,6 @@
-Multiply two 1-dimensional numpy arrays, array1 and array2.
+Replace all NaN values with 0.0 in a pandas dataframe df.
 
-import numpy as np
+import pandas as pd
 
-def test(array1: np.ndarray, array2: np.ndarray) -> np.ndarray:
+def test(df: pd.DataFrame) -> pd.DataFrame:
 

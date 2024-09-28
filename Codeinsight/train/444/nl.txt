@@ -1,1 +1,1 @@
-Find the longest common prefix between two strings var0 and var1.
+Delete digits in Python (Regex)  which are not in words in string str0 

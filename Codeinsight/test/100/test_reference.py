@@ -1,4 +1,5 @@
-import pandas as pd
+import re
 
-def test(df0, lst0):
-    return df0[df0.index.isin(lst0)]
+def test(lst0, var0):
+    result = any(re.search(var0, s) for s in lst0)
+    return result

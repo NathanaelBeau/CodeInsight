@@ -1,1 +1,1 @@
-Run KMeans on a one-dimensional array arr0 with number of clusters n_clusters and return labels
+Trim non-ASCII characters from both the start and end of the string var0

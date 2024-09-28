@@ -1,2 +1,5 @@
-def test(dict0, var0):
-    return dict(sorted(dict0.items(), key=lambda x: x[1][var0]))
+import re
+
+def test(var0):
+    pattern = r"(?<![0-9])[0-9]{2}(?![0-9])"
+    return re.findall(pattern, var0)

@@ -1,6 +1,4 @@
-Combine rows with the same index in dataframe df0 by summing their values.
+Get a list of booleans indicating if the elements at corresponding positions in lists lst0 and lst1 are equal.
 
-import pandas as pd
-
-def test(df0: pd.DataFrame) -> pd.DataFrame:
+def test(lst0, lst1):
 

@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0, var0):
-    return df0.at[0, var0]
+def test(str0):
+    return ''.join(c for c in str0 if c != "'")

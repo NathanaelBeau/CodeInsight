@@ -1,1 +1,0 @@
-Sort the elements of list lst0 in the order they appear in list lst1

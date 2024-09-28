@@ -1,2 +1,5 @@
+import pandas as pd
+from io import StringIO
+
 def test(var0):
-    return dict(sorted(var0.items(), key=lambda item: item[1], reverse=True))
+    return pd.read_csv(StringIO(var0))

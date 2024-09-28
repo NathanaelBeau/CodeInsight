@@ -1,2 +1,3 @@
-def test(dict0, var0):
-    return sum(1 for v in dict0.values() if v == var0)
+def test(df0):
+    df0.drop(df0.columns[[0, 1, 3]], axis=1, inplace=True)
+    return df0

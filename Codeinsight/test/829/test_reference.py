@@ -1,2 +1,3 @@
-def test(lst0, lst1):
-    return [i for i in lst1 if i not in lst0]
+def test(lst0):
+    m = max(lst0)
+    return [i for i, j in enumerate(lst0) if j == m]

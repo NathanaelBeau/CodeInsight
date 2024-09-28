@@ -1,6 +1,6 @@
-Split a string str0 and keep the separators.
+Removing elements from an array arr0 that are in another array   arr1 using list comprehension
 
-import re
 
-def test(str0: str) -> list:
+
+def test(arr0, arr1):
 

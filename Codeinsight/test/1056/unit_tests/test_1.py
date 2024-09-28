@@ -1,4 +1,3 @@
-matrix0 = np.array([[7, 8], [9, 10], [11, 12]])
-expected_result =  np.array([np.sqrt(113), np.sqrt(181), np.sqrt(265)])
-result = test(matrix0)
-assert np.array_equal(result, expected_result), 'Test failed'
+dict0 = {'d': 4, 'c': 3, 'b': 2, 'a': 1}
+expected_output = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+assert test(dict0) ==expected_output, 'Test failed'

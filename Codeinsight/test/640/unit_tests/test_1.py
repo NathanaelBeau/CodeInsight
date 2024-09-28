@@ -1,3 +1,3 @@
-d0 = {'apple': 10, 'banana': 5, 'cherry': 15}
-expected_result =  {'cherry': 15, 'apple': 10, 'banana': 5}
-assert test(d0) == expected_result, 'Test failed'
+dict0 = {2: 'a', 3: 'b', 4: 'c'}
+expected_output = {3: 'b'}
+assert test(dict0) ==expected_output, 'Test failed'

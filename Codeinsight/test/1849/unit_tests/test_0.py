@@ -1,4 +1,3 @@
-df0 = pd.DataFrame({'tuple_column': [(1, 'a'), (2, 'b'), (3, 'c')]})
-expected_result =  pd.DataFrame({'A': [1, 2, 3], 'B': ['a', 'b', 'c']})
-result = test(df0, 'tuple_column')
-assert result.equals(expected_result), 'Test failed'
+df0 = pd.DataFrame({ 'date_str': ['2022-05-09', '2022-05-10', '2022-05-11'] })
+expected_output = pd.DataFrame({ 'date_str': [pd.Timestamp('2022-05-09'), pd.Timestamp('2022-05-10'), pd.Timestamp('2022-05-11')] })
+assert test(df0, 'date_str').equals(expected_output), 'Test failed'

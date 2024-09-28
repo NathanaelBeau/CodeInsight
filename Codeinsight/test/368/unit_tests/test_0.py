@@ -1,4 +1,3 @@
-str0 = "123abc"
-expected_output = True
-output = test(str0)
-assert output == expected_output, 'Test failed'
+str0 = '1989, 1990'
+expected_output = ['1989', '1990']
+assert test(str0) ==expected_output, 'Test failed'

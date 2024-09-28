@@ -1,3 +1,4 @@
-var0, var1, var2 = 1.0, 5.0, 10
-result = test(var0, var1, var2)
-assert len(result) == var2, 'Test failed'
+lst0 = [1, 2, [3, 4, [5, 6]], 7]
+expected_result =  [1, 2, 3, 4, 5, 6, 7]
+result = list(test(lst0))
+assert result == expected_result, 'Test failed'

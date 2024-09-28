@@ -1,4 +1,6 @@
-Divide each element in a list lst0 by an integer var0 
+Sort a list of dictionaries lst0 by the date value.
 
-def test(var0, lst0):
+from datetime import datetime
+
+def test(lst0):
 

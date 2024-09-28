@@ -1,6 +1,4 @@
-Pandas : Use groupby on each element of list  lst0  
+insert a space after a certain amount of characters var0 in a string str0 using python  
 
-from collections import Counter
-
-def test(lst0):
+def test(str0, var0):
 

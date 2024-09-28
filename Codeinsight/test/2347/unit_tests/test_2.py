@@ -1,1 +1,0 @@
-assert test("apple, banana, orange, grape", ",") == ['apple', 'banana', 'orange', 'grape']

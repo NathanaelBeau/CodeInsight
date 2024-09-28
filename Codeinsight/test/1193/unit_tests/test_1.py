@@ -1,6 +1,4 @@
-# Test 3
-lst0 = [('red', 1), ('blue', 2), ('green', 3)]
-lst1 = ['blue', 'red', 'green']
-expected_result =  [('blue', 2), ('red', 1), ('green', 3)]
-result = test(lst0, lst1)
+var0 = b'\xe2\x82\xac'
+expected_result =  '€'
+result = test(var0)
 assert result == expected_result, 'Test failed'

@@ -1,4 +1,4 @@
-lst0 = []
-expected_result =  True  # An empty list can be considered to satisfy the condition as it doesn't have any non-int element
-result = test(lst0)
+var0 = "Python is a programming language"
+expected_result =  [6, 2, 1, 11, 8]
+result = test(var0)
 assert result == expected_result, 'Test failed'

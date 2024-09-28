@@ -1,1 +1,1 @@
-Remove all occurrences of the string var0 from the list lst0.
+Select the row at integer index var0 from the dataframe df0.

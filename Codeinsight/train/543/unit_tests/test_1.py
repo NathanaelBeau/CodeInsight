@@ -1,3 +1,5 @@
-arr0 = np.array([np.nan, 2.0, 3.0, np.nan, 5.0])
-expected_output = np.array([2.0, 3.0, 5.0])
-assert (test(arr0)  == expected_output).all(), 'Test failed'
+dict0 = {"key1": ["value1"]}
+var0 = "key1"
+var1 = "value2"
+expected_output = {"key1": ["value1", "value2"]}
+assert test(dict0,var0,var1) ==expected_output, 'Test failed'

@@ -1,1 +1,0 @@
-Find all indices in a 2D Numpy array arr0 where the value is 1

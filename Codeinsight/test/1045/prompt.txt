@@ -1,6 +1,6 @@
-Interweaving two numpy arrays   arr0 and arr1 with column_stack
+Find all sequences of characters in string var0 that are between the special characters char_start and char_end
 
-import numpy as np
+import re
 
-def test(arr0, arr1):
+def test(var0, char_start, char_end):
 

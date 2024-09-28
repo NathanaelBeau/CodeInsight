@@ -1,11 +1,5 @@
-def test(lst0):
-    max_value = max(lst0)
-    positions = []
-    index = -1
-    while True:
-        try:
-            index = lst0.index(max_value, index + 1)
-            positions.append(index)
-        except ValueError:
-            break
-    return positions
+import pandas as pd
+def test(df0,col0,var0,var1):
+    df0[col0].replace([0, 1], [var0, var1], inplace=True)
+    return df0
+

@@ -1,4 +1,3 @@
-str0 = '12345'
-var0 = r'(\d+|\W+)'
-expected_output = ['12345']
-assert test(str0, var0) == expected_output, 'Test failed'
+var0 = np.array([7, 7, 7])
+expected_output = np.array([0,1,2])
+assert (test(var0)  == expected_output).all(), 'Test failed'

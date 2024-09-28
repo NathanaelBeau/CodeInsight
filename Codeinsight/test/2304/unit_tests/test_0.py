@@ -1,1 +1,0 @@
-assert test({}) == 0, 'Test failed'

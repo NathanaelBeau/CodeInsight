@@ -1,1 +1,1 @@
-"Standardize the values in the dataframe df0 using sklearn's fit_transform and return the result as a dataframe. 
+Convert the index of DataFrame df0 into a column.

@@ -1,4 +1,5 @@
-lst0 = [100, 200, 300, 400]
-lst1 = ['one', 'two', 'three', 'four']
-expected_output = {100: 'one', 200: 'two', 300: 'three', 400: 'four'}
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+arr0 = np.array([-2, -1, 0, 1, 2])
+expected_output = np.array([[ 0, -2,  0,  0, 0],
+                            [ 0, -1,  0,  1,  0],
+                            [ 0,  0,  0 , 2,  0]])
+assert np.array_equal(test(arr0), expected_output), 'Test failed'

@@ -1,4 +1,3 @@
-import numpy as np
-def test(arr0, var0, var1):
-    arr0[arr0 == var0] = var1
-    return arr0
+import re
+def test(str0):
+    return re.sub(r'[^a-zA-Z0-9]', '', str0)

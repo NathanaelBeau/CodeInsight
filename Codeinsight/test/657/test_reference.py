@@ -1,2 +1,3 @@
-def test(lst0, lst1):
-    return [result - subtractor for result, subtractor in zip(lst0, lst1)]
+import numpy as np
+def test(arr0):
+    return arr0.tolist()

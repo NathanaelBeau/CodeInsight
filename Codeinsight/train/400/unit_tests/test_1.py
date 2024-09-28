@@ -1,3 +1,5 @@
-lst0 = [(10, 10), (20, 20), (30, 30)]
-expected_output = [20, 40, 60]
-assert test(lst0) == expected_output, 'Test failed'
+df0 = pd.DataFrame({'X': [4, 5, 6]})
+lst0 = ['Y', 'Z']
+expected_result =  pd.DataFrame({'X': [4, 5, 6], 'Y': [np.nan, np.nan, np.nan], 'Z': [np.nan, np.nan, np.nan]})
+result = test(df0, lst0)
+assert result.equals(expected_result), 'Test failed'

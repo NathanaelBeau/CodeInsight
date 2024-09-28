@@ -1,6 +1,0 @@
-Sort the elements of each row in dataframe df0 in descending order.
-
-import pandas as pd
-
-def test(df0: pd.DataFrame) -> pd.DataFrame:
-

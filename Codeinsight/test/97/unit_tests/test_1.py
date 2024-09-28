@@ -1,6 +1,3 @@
-# Test 2
-df0 = pd.DataFrame({ 'Scores': [90, 85, 90, 78, 78, 78] })
-var0 = 'Scores'
-expected_result =  pd.Series({78: 3, 90: 2, 85: 1}, name='Scores')
-result = test(df0, var0)
-assert result.sort_index().equals(expected_result.sort_index()), 'Test failed'
+lst0 = ['cat', 'dog', 'elephant', 'camel', 'lion', 'zebra']
+expected_output = {'c': ['camel', 'cat'], 'd': ['dog'], 'e': ['elephant'], 'l': ['lion'], 'z': ['zebra']}
+assert test(lst0) ==expected_output, 'Test failed'

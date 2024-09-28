@@ -1,4 +1,3 @@
-str0 = "!@#$%^&*()_+"
-expected_result =  ""
-result = test(str0)
-assert result == expected_result, 'Test failed'
+str0 = "123456789"
+expected_output = "214365879"
+assert test(str0) ==expected_output, 'Test failed'

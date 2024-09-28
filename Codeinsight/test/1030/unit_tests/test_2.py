@@ -1,3 +1,5 @@
-lst0 = ['100', '25', '50']
-expected_output = ['25', '50', '100']
-assert test(lst0) ==expected_output, 'Test failed'
+def generator2():
+    for i in range(3):
+        yield i
+result2 = test(generator2(), 5)
+assert result2 == [0, 1, 2], 'Test failed'

@@ -1,1 +1,1 @@
-Get indices of the top N  var0 values of a list   lst0 with itemgetter for long lists
+Drop rows specified in the list lst0 from the pandas DataFrame df0.

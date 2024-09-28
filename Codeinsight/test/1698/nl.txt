@@ -1,1 +1,1 @@
-Extract row with maximum value in a group pandas dataframe   df0 in column var0 at index of column var1
+Convert a string var0 to integer with decimal

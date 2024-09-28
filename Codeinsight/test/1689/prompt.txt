@@ -1,4 +1,4 @@
-Get the set intersection between dictionaries dict0 and dict1 based on keys.
+Comparing two lists  lst0 and lst1 in Python and extract the common items  
 
-def test(dict0, dict1):
+def test(lst0, lst1):
 

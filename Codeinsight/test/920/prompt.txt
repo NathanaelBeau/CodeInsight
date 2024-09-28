@@ -1,5 +1,4 @@
-ompute the L2 norm (Euclidean norm) for each row of a matrix named matrix0
+Generate a dictionary where each tuple in the list lst0 is stored as a value, and the tuple's first element serves as the corresponding key.
 
-import numpy as np
-def test(matrix0):
+def test(lst0):
 

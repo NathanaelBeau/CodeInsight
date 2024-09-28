@@ -1,5 +1,5 @@
-import pandas as pd
-df = pd.DataFrame({'year': [2022], 'month': [1], 'day': [1]})
-expected_result =  pd.DataFrame({'year': [2022], 'month': [1], 'day': [1]})
-result = test(df)
-assert result.equals(expected_result), 'Test failed'
+dict0 = {'a': 1, 'b': 2, 'c': 3}
+var0 = 2
+expected_result =  True
+result = test(dict0, var0)
+assert result == expected_result, 'Test failed'

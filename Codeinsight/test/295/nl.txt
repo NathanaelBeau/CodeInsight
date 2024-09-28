@@ -1,1 +1,1 @@
-Count the number of zero elements in the numpy array arr0  
+ count the number of words in a sentence str0, ignoring numbers, punctuation and whitespace   

@@ -1,1 +1,1 @@
-Sort the list lst0 based on version numbers using StrictVersion.
+Divide each element in a list lst0 by an integer var0 

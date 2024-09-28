@@ -1,1 +1,1 @@
-Replace all negative values with 0 in a numpy array arr0
+Find matches in string var0 that start and end with the pattern var1.

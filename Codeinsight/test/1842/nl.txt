@@ -1,1 +1,1 @@
-Removing all non-numeric characters from string str0
+Extract all numbers from a string var0 using regular expressions  

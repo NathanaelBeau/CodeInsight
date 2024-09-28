@@ -1,11 +1,6 @@
-# Test 2
-data = {
-            'A': [1, 2, 3, 4],
-            'B': [10, 20, 30, 40],
-            'C': [5, 15, 25, 35]
-        }
-df = pd.DataFrame(data)
-result = test(df, 'df0["A"] > 10')
-expected = pd.DataFrame(columns=['A', 'B', 'C'], dtype='int64')
-if pd.testing.assert_frame_equal(result, expected) is not None:
-    assert False, 'Test failed'
+def determine(x):
+    return x > 5
+lst0 = [2, 6, 8, 3, 7, 1, 9]
+var0 = determine
+expected_output = [2, 3, 1]
+assert test(lst0, var0)==expected_output, 'Test failed'

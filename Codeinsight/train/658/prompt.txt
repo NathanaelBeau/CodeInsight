@@ -1,4 +1,6 @@
-sorting list of nested dictionaries lst0 in python   
+Delete digits in Python  with Regex in string str0 
 
-def test(lst0):
+import re
+
+def test(str0):
 

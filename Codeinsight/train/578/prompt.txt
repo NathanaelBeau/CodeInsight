@@ -1,4 +1,6 @@
- pythonically set a value in a dictionary dict0 if it is None at key "a"  
+Retrieve all columns of a DataFrame df0 except the one specified by the column name var0 
 
-def test(dict0):
+import pandas as pd
+
+def test(df0, var0):
 

@@ -1,1 +1,1 @@
-Python - Locating the position of a regex match var0 in a string str0?   
+ convert nested list of lists lst0 into a list of tuples in python 3.3 using map

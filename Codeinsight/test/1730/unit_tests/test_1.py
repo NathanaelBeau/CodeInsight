@@ -1,6 +1,4 @@
-dict0 = {}
-var0 = "item3"
-var1 = 3
-expected_result =  {"item3": 3}
-result = test(dict0, var0, var1)
-assert result == expected_result, 'Test failed'
+var0 = r'x(y)z(\d)'
+str0 = 'xyz1 and again xyz2'
+expected_output = [('y', '1'), ('y', '2')]
+assert test(var0, str0) == expected_output, 'Test failed'

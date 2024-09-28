@@ -1,2 +1,5 @@
-def test(test_string: str, str0: str) -> int:
-    return test_string.rfind(str0)
+import pandas as pd 
+
+def test(df0, var0):
+    df0[var0] = df0[var0].astype(int)
+    return df0

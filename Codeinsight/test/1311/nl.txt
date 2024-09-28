@@ -1,1 +1,1 @@
-Replace NaN values in the pandas DataFrame df0 with the average of each respective column.
+Remove one column var0 for a numpy array   arr0

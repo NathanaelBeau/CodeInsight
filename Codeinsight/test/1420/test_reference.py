@@ -1,4 +1,3 @@
-import pandas as pd
-
-def test(df0, var0):
-    return df0.iloc[var0]
+from datetime import datetime
+def test(var0):
+    return datetime.strptime(var0, '%Y-%m-%d %H:%M:%S.%f')

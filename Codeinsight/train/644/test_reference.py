@@ -1,5 +1,4 @@
-import numpy as np
+import re
 
-def test(lst0):
-    result = np.cumsum(lst0)
-    return result
+def test(var0, var1):
+    return [m.start() for m in re.finditer(var0, var1)]

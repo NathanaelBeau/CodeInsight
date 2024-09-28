@@ -1,4 +1,4 @@
-import re
+import itertools
 
-def test(str0, str1):
-    return [m.start() for m in re.finditer(str0, str1)]
+def test(lst0, lst1):
+    return zip(lst0, itertools.cycle(lst1)) if len(lst0) > len(lst1) else zip(itertools.cycle(lst0), lst1)

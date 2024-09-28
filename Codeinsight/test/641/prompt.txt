@@ -1,4 +1,6 @@
-Generate list of string numbers from 0 to var0 with numbers between 0 and 9 preceded by a zero
+convert a dictionary dict0 into a NumPy array, where each element of the array is a tuple containing a key-value pair from the dictionary. The data type of the resulting NumPy array is specified by the dtype parameter
 
-def test(var0):
+import numpy as np
+
+def test(dict0, dtype = object):
 

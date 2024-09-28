@@ -1,4 +1,3 @@
-import pandas as pd
-
-def test(df0, var0):
-    return df0[(df0[var0].isna()) | (df0[var0] == 'Other')]
+import numpy as np
+def test(arr0, idx0):
+    return np.take(arr0, idx0)

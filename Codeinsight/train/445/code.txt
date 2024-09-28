@@ -1,4 +1,2 @@
-import re
-
-def test(var0):
-    return re.findall(r'\*', var0)
+def test(lst0):
+    return [item for item in lst0 if any(isinstance(x, str) and 'ar' in x for x in item)]

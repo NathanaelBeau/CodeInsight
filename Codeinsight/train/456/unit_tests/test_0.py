@@ -1,4 +1,5 @@
-# Test 1
-df0 = pd.DataFrame({ 'A': [1, 2, 3], 'B': [4, 5, 6] })
-expected_result =  ['A', 'B']
-assert test(df0) == expected_result, 'Test failed'
+lst0 = [1, 2, 1, 3]
+lst1 = ['a', 'b', 'a', 'c']
+expected_codes = pd.Series([0, 1, 0, 2], dtype='int8')
+result = pd.Series(test('col1', 'col2', lst0, lst1))
+assert result.equals(expected_codes), 'Test failed'

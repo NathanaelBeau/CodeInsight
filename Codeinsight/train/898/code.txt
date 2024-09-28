@@ -1,2 +1,6 @@
-def test(var0, var1):
-	return [i for i, v in enumerate(var0) if v[0] == var1]
+import pandas as pd
+
+def test(df0, col0, var0, var1):
+    return df0.replace({col0: {var0: var1}})
+
+

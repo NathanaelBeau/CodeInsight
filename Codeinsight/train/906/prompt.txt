@@ -1,6 +1,5 @@
-Generate all permutations of a list lst0 
+Create a list containing the subtraction of each item from the item prior to it in list lst0.
 
-import itertools
 
 def test(lst0):
 

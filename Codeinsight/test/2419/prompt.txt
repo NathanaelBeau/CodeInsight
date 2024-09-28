@@ -1,4 +1,0 @@
-Fetch all the key-value pairs from dictionary parent_dict whose keys are between 2 and 4 (inclusive).
-
-def test(parent_dict):
-

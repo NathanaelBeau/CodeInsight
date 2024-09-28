@@ -1,1 +1,1 @@
-Match and remove characters in var0 that have three or more non-consecutive occurrences.
+Split a list lst0 into nested lists on a value  var0 

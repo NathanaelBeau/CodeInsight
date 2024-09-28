@@ -1,4 +1,4 @@
-import numpy as np
+import pandas as pd
 
-def test(var0, var1):
-	return list(np.linspace(var0, var1, var1 - var0, endpoint=False))
+def test(df0):
+    return df0.loc[:, (df0 != 0).any(axis=0)]

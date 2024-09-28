@@ -1,5 +1,5 @@
-arr0 = np.array([1, 2, 3])
-arr1 = np.array([1, 2, 4])
-expected_result =  np.array([True, True, False])
-result = test(arr0, arr1)
-assert np.array_equal(result, expected_result), 'Test failed'
+lst0 = [True, True, False, True, False]
+var0 = ['BMW', 'VW', 'Volvo']
+var1 = ['b', 'c']
+expected_output = ['BMW', 'VW', 'b', 'Volvo', 'c']
+assert test(lst0, var0, var1) == expected_output, 'Test failed'

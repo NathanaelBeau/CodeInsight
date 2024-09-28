@@ -1,4 +1,1 @@
-str0 = "Python\nis\nawesome"
-expected_result =  ["Python", "is", "awesome"]
-result = test(str0)
-assert result == expected_result, 'Test failed'
+assert test({"apple": -1, "banana": 0, "cherry": 2}) == 1, 'Test failed'

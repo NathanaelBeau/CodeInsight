@@ -1,4 +1,4 @@
-Convert a string var0  of numbers separated by comma into a list of int
+How can I compare two lists lst0 and lst1  in python and return matches   
 
-def test(var0):
+def test(lst0, lst1):
 

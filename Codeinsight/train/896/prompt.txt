@@ -1,4 +1,6 @@
-Get a list of the length of words in a string var0?   
+Round the values in column column_name0 of a DataFrame df0 to decimals0 decimal places.
 
-def test(var0):
+import pandas as pd
+
+def test(df0, column_name0, decimals0):
 

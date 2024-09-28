@@ -1,4 +1,4 @@
-Sorting items of  list of list lst0
+convert 'binary string' str0 to normal string in Python3   
 
-def test(lst0):
+def test(str0):
 

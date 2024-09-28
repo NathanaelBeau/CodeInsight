@@ -1,3 +1,4 @@
-str0 = "This is a test\u200b string with \u200bunicode characters\u200b."
-expected_output = "This is a test* string with *unicode characters*."
-assert test(str0) ==expected_output, 'Test failed'
+arr0 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+expected_result =  [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
+result = test(arr0)
+assert result == expected_result, 'Test failed'

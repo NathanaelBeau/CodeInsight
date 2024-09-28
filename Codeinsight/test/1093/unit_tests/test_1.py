@@ -1,4 +1,4 @@
-lst0 = [[1, 2], [3, 4], [5, 6]]
-expected_result =  [[2, 1], [4, 3], [6, 5]]
-result = test(lst0)
+str0 = "name=John age=25 city=NY"
+expected_result =  {'name': 'John', 'age': '25', 'city': 'NY'}
+result = test(str0)
 assert result == expected_result, 'Test failed'

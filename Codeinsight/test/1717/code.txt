@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0, var0):
-    return [col for col in df0.columns if var0 in df0[col].values]
+def test(arr0):
+    return arr0[arr0[:,1].argsort()]

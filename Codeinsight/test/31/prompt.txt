@@ -1,6 +1,5 @@
-Capture the entire string from var0 using a regex pattern that includes lookaround assertions.
+Extract the str0 triangular part (upper or lower) from a numpy matrix var0
 
-import re
-
-def test(var0, pattern):
+import numpy as np
+def test(var0, str0):
 

@@ -1,4 +1,0 @@
-Keep only unique words in a list of words lst0 and join them into a string.
-
-def test(lst0):
-

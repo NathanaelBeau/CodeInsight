@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
-def test(ser0):
-    return ser0.to_numpy()
+def test(df0):
+    return df0[sorted(df0.columns, key=str.lower)]

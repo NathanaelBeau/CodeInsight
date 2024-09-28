@@ -1,1 +1,1 @@
-Replace NaN values in the pandas DataFrame df0 with the average of each respective column.
+Remove all square brackets and their contents from the string var0.

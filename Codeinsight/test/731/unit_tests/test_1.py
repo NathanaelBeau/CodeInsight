@@ -1,4 +1,7 @@
-lst0 = ['apple', 'banana', 'cherry', 'date']
-lst1 = [0, 2, 3]
-expected_output = ['apple', 'cherry', 'date']
-assert test(lst0, lst1) == expected_output, 'Test failed'
+data = {'A': [4, 2, 7],
+        'B': [1, 5, 3],
+        'C': [8, 6, 9]}
+df0 = pd.DataFrame(data)
+expected_output = pd.Series([9.000000, 8.062258, 11.789826])
+test_result = test(df0)
+assert np.allclose(test_result, expected_output), 'Test failed'

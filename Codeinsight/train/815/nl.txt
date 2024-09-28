@@ -1,1 +1,1 @@
-Replace the header of a DataFrame df0 with its first row
+Get the starting index of the last occurrence of substring str0 in the string test_string.

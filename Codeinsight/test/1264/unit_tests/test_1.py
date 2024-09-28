@@ -1,4 +1,5 @@
-arr0 = np.array([1, 2, np.nan, 4, 5])
-expected_result =  4
-result = test(arr0)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame({ 'col1': ['10', '20'] })
+var0 = 'col1'
+var1 = 'int32'
+expected_result =  pd.DataFrame({ 'col1': [10, 20] }, dtype='int32')
+assert test(df0.copy(), var0, var1).equals(expected_result), 'Test failed'

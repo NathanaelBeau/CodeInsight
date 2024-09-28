@@ -1,3 +1,4 @@
-lst0 = [('cat', 'meow'), ('dog', 'bark')]
-expected_output = {'cat': 'meow', 'dog': 'bark'}
-assert test(lst0) == expected_output, 'Test failed'
+var0 = "simpleString"
+expected_result =  "simple String"
+result = test(var0)
+assert result == expected_result, 'Test failed'

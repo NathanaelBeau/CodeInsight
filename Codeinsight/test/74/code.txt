@@ -1,3 +1,4 @@
-def test(lst0, var0):
-    return [item for item in lst0 if item != var0]
+import pandas as pd
 
+def test(df0):
+    return df0.replace(to_replace="\[|\]", value="", regex=True)

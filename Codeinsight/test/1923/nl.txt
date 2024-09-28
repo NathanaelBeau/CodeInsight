@@ -1,1 +1,0 @@
-Calculate the total number of keys in a dictionary plus the total length of all the values (assuming they are iterable, like strings or lists)

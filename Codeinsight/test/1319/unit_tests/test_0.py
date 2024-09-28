@@ -1,4 +1,6 @@
-var0 = ['key1', 'key2', 'key3']
-var1 = 0
-expected_output = {'key1': 0, 'key2': 0, 'key3': 0}
-assert test(var0, var1) ==expected_output, 'Test failed'
+lst0 = [1, 2, 3, 4, 5]
+var0 = 2
+lst1 = ['a', 'b', 'c']
+expected_result =  [1, 2, 'a', 'b', 'c', 3, 4, 5]
+result = test(lst0, var0, lst1)
+assert result == expected_result, 'Test failed'

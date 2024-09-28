@@ -1,5 +1,4 @@
-import pandas as pd
+import numpy as np
 
-def test(df: pd.DataFrame) -> list:
-    return list(df['a'].values)
-
+def test(arr0, var0):
+    return np.where(arr0 == var0)

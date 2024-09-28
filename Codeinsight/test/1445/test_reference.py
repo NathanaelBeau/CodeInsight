@@ -1,2 +1,4 @@
-def test(some_list: list, var0: int, var1: int) -> list:
-    return some_list[var0:var1]
+import pandas as pd
+
+def test(df0, column_name0, threshold0):
+    return len(df0.query(f"{column_name0} > {threshold0}"))

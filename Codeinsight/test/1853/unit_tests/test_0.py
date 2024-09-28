@@ -1,7 +1,7 @@
-# Test 1
-df0 = pd.DataFrame({ "category": ["A", "A", "B", "B", "C", "C"], "value": [10, 15, 20, 25, 30, 35] })
-col_name = "category"
-agg_function = "sum"
-expected_result =  pd.DataFrame({ "category": ["A", "B", "C"], "value": [25, 45, 65] })
-result = test(df0, col_name, agg_function)
+var0 = 2
+var1 = 'A'
+var2 = 99
+df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+expected_result =  pd.DataFrame({'A': [1, 99, 3], 'B': [4, 5, 6]})
+result = test(df0, var0, var1, var2)
 assert result.equals(expected_result), 'Test failed'

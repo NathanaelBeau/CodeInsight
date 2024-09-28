@@ -1,5 +1,4 @@
- decode unicode raw literals str0 to readable string?   
+Convert a decimal number var0 to its hexadecimal representation
 
-import codecs
-def test(str0):
+def test(var0):
 

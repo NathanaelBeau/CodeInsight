@@ -1,1 +1,1 @@
-Lowercase all keys and values in dictionary dct0.
+Generate and return all possible combinations of elements from the input list of lists lst0 

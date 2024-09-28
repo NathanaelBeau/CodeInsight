@@ -1,4 +1,2 @@
-import re
-
 def test(var0):
-    return re.sub(r'\[.*?\]', '', var0)
+	return list(map(len, var0.split()))

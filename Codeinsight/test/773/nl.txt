@@ -1,1 +1,1 @@
-Select rows from a DataFrame df0 based on column var0 matching values with string str0?   
+Check if the string var0 starts with a number.

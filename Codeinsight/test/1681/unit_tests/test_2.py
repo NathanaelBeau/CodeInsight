@@ -1,4 +1,3 @@
-df2 = pd.DataFrame({'P': [7, 8, 9], 'Q': [10, 11, 12]})
-expected_result =  pd.DataFrame(scaler.fit_transform(df2), columns=df2.columns)
-result = test(df2)
-assert result.equals(expected_result), 'Test failed'
+str0 = "OpenAI's GPT-3"
+expected_output = ["OpenAI's", "GPT-3"]
+assert test(str0) ==expected_output, 'Test failed'

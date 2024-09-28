@@ -1,3 +1,9 @@
-import numpy as np
-def test(var0, var1):
-    return np.random.choice(range(var0), var1, replace=False)
+def test(str0):
+    words = str0.split()
+    result = []
+
+    for word in words:
+        if not word.isdigit():
+            result.append(word)
+
+    return ' '.join(result)

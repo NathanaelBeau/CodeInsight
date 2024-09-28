@@ -1,4 +1,6 @@
-How to insert a character var0 after every 2 characters in a string str0  assuming string's length is always an even number 
+Reduce multiple consecutive newline characters to a single newline character in the string var0.
 
-def test(str0, var0):
+import re
+
+def test(var0):
 

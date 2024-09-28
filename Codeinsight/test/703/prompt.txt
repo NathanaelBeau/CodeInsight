@@ -1,4 +1,4 @@
-Get the maximum string length from a nested list lst0.
+convert a nested list lst0 into a one-dimensional list in Python   
 
 def test(lst0):
 

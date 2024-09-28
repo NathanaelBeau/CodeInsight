@@ -1,1 +1,1 @@
-Add character '@' after word 'get' in string var0
+split a single tuple lst0 into multiple using python  

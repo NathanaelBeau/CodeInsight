@@ -1,4 +1,4 @@
-Fastest way to remove all multiple occurrence items from a list lst0 preserving order   
+from a list lst0 Create a list of tuples with adjacent list elements if a condition is true  lst0[1:]) if y == 9
 
 def test(lst0):
 

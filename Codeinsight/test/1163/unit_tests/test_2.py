@@ -1,3 +1,4 @@
-my_string = "First line\nSecond line"
-expected_output = "First line"
-assert test(my_string) == expected_output, 'Test failed'
+lst0 = ['red', 'green', 'blue']
+lst1 = ['car', 'bike', 'boat']
+expected_output = ['redcar', 'greenbike', 'blueboat']
+assert test(lst0, lst1) ==expected_output, 'Test failed'

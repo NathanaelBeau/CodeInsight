@@ -1,2 +1,4 @@
-def test(var0, dict0):
-    return sum(1 if d[var0] else 0 for d in dict0)
+def test(s: str) -> str:
+    while s and s[-1].isdigit():
+        s = s[:-1]
+    return s

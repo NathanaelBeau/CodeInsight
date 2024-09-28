@@ -1,1 +1,1 @@
-Get the column at position var0 from the DataFrame df0.
+Design a function that test if a string var1 is 'azerty'

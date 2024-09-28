@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0, var0):
-    return arr0[np.arange(arr0.size) != var0]
+def test(arr0, var0, var1):
+    return np.pad(arr0, ((0, var0), (0, var1)), 'constant')

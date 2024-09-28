@@ -1,6 +1,4 @@
-check the data types of all columns in a Pandas DataFrame df0  
+Getting the first elements per row in an array lst0 in Python  
 
-import pandas as pd
-
-def test(df0):
+def test(lst0):
 

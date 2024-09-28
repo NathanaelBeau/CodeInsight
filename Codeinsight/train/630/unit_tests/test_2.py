@@ -1,3 +1,3 @@
-lst0 = [('Cat', 'A furry animal'), ('Dog', 'A loyal pet'), ('Elephant', 'A large mammal')]
-expected_output = "Cat\nDog\nElephant"
+lst0 = ["test,3.14,2.71,test"]
+expected_output = [3.14,2.71]
 assert test(lst0) ==expected_output, 'Test failed'

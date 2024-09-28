@@ -1,6 +1,5 @@
-Select all columns from dataframe df0 except for column var0.
+Sort a list of tuples lst0 in descending order by the first value and ascending order by the second value.
 
-import pandas as pd
 
-def test(df0, var0):
+def test(lst0):
 

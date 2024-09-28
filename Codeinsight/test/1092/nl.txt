@@ -1,1 +1,1 @@
-Get the minimum value from the second column of an array arr0
+Access an arbitrary element(first one) in a dictionary dict0 in Python   

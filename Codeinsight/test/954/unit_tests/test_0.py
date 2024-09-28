@@ -1,4 +1,3 @@
-ser0 = pd.Series([1, 2, 3], index=pd.MultiIndex.from_tuples([('a', 1), ('b', 2), ('c', 3)]))
-expected_result =  pd.Series([1, 2, 3])
-result = test(ser0)
-assert result.equals(expected_result), 'Test failed'
+var0 = "lol"
+expected_output = True
+assert test(var0) == expected_output, 'Test failed'

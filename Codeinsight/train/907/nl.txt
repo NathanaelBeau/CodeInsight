@@ -1,1 +1,1 @@
-Averaging the values in a dictionary dict0 for each keys and return a list of tuples
+Replace NaN values in the pandas DataFrame df0 with the average of each respective column.

@@ -1,4 +1,4 @@
-df0 = pd.DataFrame({ 'Username': ['user1', 'user2'], 'Name': ['John', 'Jane'], 'Age': [25, 30] })
-lst0 = ['Username', 'Name']
-expected_output = (test(df0, lst0))
-assert test(df0, lst0).equals(expected_output), 'Test failed'
+# Test 1
+var0 = "apple"
+expected_result =  1  # 'p' repeats
+assert test(var0) == expected_result, 'Test failed'

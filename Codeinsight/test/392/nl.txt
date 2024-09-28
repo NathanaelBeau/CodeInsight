@@ -1,1 +1,1 @@
-Removing nan values from an array  arr0 with function numpy.isnan 
+Is there a way to remove duplicate and continuous words/phrases in a string str0?   

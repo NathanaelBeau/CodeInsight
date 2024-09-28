@@ -1,5 +1,4 @@
-arr0 = np.array([10, 20, 30, 40, 50])
-idx0 = np.array([3, 0, 4, 1, 2])
-expected_result =  np.array([40, 10, 50, 20, 30])
-result = test(arr0, idx0)
-assert np.array_equal(result, expected_result), 'Test failed'
+df0 = pd.DataFrame(columns=['Col1', 'Col2'])
+expected_result =  pd.DataFrame(columns=['Col1', 'Col2'])
+result = test(df0, 'Col1', ['men', 'rocks', 'mountains'])
+assert result.equals(expected_result), 'Test failed'

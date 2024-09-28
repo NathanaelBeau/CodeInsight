@@ -1,1 +1,1 @@
- reverse the elements in a sublist lst0   
+Remove all symbols (non-alphanumeric characters) from a string str0.

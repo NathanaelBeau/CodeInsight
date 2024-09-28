@@ -1,4 +1,2 @@
-import re
-
-def test(str0):
-    return [re.split(r'\t', row) for row in re.split(r'\n', str0)]
+def test(dict0):
+    return [*map(dict, zip(*[[(k, v) for v in value] for k, value in dict0.items()]))]

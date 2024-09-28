@@ -1,6 +1,4 @@
-Delete the row at position var0 in numpy array x.
+ decode unicode raw literals str0 to readable string?   
 
-import numpy as np
-
-def test(x: np.ndarray, var0: int) -> np.ndarray:
+def test(str0):
 

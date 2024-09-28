@@ -1,4 +1,3 @@
-import pandas as pd
-
-def test(df0, col0, var0=','):
-    return df0[col0].str.split(var0, expand=True)
+def test(lst0, tpl0):
+    result = [(i + tpl0[0], j + tpl0[1], k + tpl0[2]) for i, j, k in lst0]
+    return result

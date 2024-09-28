@@ -1,3 +1,3 @@
-arr0 = [[-1.5, 2.7], [0.9, -3.2]]
-expected_result =  [[-1, 2], [0, -3]]
-assert test(arr0) ==expected_result, 'Test failed'
+lst0 = [[1, 3], [3, 6], [5, 9]]
+item0 = [4, 7]
+assert test(lst0, item0) == [[1, 3], [3, 6], [4, 7], [5, 9]], 'Test failed'

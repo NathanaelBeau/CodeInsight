@@ -1,5 +1,4 @@
 import pandas as pd
 
-def test(df0, df1):
-    joined_df = df0.join(df1)
-    return joined_df.dropna()
+def test(df0):
+    return df0.loc[:, ~df0.columns.str.contains('^Unnamed')]

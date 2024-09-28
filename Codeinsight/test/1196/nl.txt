@@ -1,1 +1,1 @@
-Remove elements from a list lst0 that are more than var0 standard deviations away from the mean.
+Get indices of the top N  var0 values of a list   lst0 with itemgetter

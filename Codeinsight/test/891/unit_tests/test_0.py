@@ -1,6 +1,7 @@
-lst0 = [{"language": "en", "name": "John"}, {"language": "fr", "name": "Jean"}, {"language": "en", "name": "Doe"}]
-var0 = 'language'
-var1 = 'en'
-expected_result =  [{"language": "en", "name": "John"}, {"language": "en", "name": "Doe"}, {"language": "fr", "name": "Jean"}]
-result = test(lst0, var0, var1)
-assert result == expected_result, 'Test failed'
+# Test 1
+df0_1 = pd.DataFrame({'A': [1, 2, 3, 4], 'B': ['a', 'b', 'c', 'd']})
+column_name_1 = 'A'
+lst0_1 = [2, 3]
+expected_result_1 = pd.DataFrame({'A': [2, 3], 'B': ['b', 'c']})
+result_1 = test(df0_1, column_name_1, lst0_1)
+assert result_1.equals(expected_result_1), 'Test failed'

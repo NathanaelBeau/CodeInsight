@@ -1,5 +1,6 @@
-Flatten the pandas dataframe df0 into a list  
+Create a list of 10 random floating point numbers between 0.0 and 1.0.
 
-import pandas as pd
-def test(df0):
+import random
+
+def test():
 

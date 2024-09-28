@@ -1,4 +1,6 @@
-Set value for key key0 in dict dict0 to 0 if key key0 does not exist or if its value is None.
+Extract all words from the string var0 that start with the dollar sign ($).
 
-def test(dict0, key0):
+import re
+
+def test(var0):
 

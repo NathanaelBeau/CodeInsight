@@ -1,5 +1,4 @@
-Add the list of items items0 to the numpy array arr0  
+Exclude elements of the list lst0 that start with the character char0.
 
-import numpy as np
-def test(arr0, items0):
+def test(lst0, char0):
 

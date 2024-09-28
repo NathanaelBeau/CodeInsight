@@ -1,1 +1,1 @@
-Get the maximum string length from a nested list lst.
+check if all of the following items from list lst0 are in a list  lst1 with subset

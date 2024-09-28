@@ -1,4 +1,4 @@
-lst0 = [[1, 2, 3.5], [4, 5, 1.2], [6, 7, 2.8]]
-expected_result =  [[4, 5, 1.2], [6, 7, 2.8], [1, 2, 3.5]]
-result = test(lst0)
+arr0 = np.array([4.0, 5.0, 6.0, 7.0])
+expected_result =  False
+result = test(arr0)
 assert result == expected_result, 'Test failed'

@@ -1,4 +1,4 @@
-Delete digits in Python ( without Regex)  which are not in words in string str0 
+Sort the list of tuples lst0 according to the order of elements in the list lst1.
 
-def test(str0):
+def test(lst0, lst1):
 

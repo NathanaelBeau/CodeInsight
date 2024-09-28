@@ -1,5 +1,6 @@
-Compare the values of column col0 in DataFrame df0 with its previous row and store the result in a new column named 'compared 
+Convert a pandas dataframe df to a list of dictionaries, where each dictionary represents a row and includes the index values.
 
 import pandas as pd
-def test(df0, col0):
+
+def test(df: pd.DataFrame) -> list:
 

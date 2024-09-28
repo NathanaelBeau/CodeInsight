@@ -1,4 +1,4 @@
-# Test 2
-var0 = "abcde"
-expected_result =  "abcde"
-assert test(var0) == expected_result, 'Test failed'
+lst0 = [True, False, True, False, True, True]
+var0 = [False]
+expected_output = [[True], [True], [True, True]]
+assert test(lst0,  var0) ==expected_output, 'Test failed'

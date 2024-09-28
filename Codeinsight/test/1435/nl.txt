@@ -1,1 +1,1 @@
-empty a list lst0
+Convert a string str0 representation of a dictionary into an actual dictionary

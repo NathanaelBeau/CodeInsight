@@ -1,3 +1,5 @@
-lst0 = ["Hello\tWorld", "Python\tis\tfun"]
-expected_output = [["Hello", "World"], ["Python", "is", "fun"]]
-assert test(lst0) == expected_output, 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, 3], 'B': ['foo', 'bar', 'baz']})
+arg0 = 'B'
+arg1 = 'foo'
+expected_output = pd.DataFrame({'A': [1], 'B': ['foo']})
+assert test(df0, arg0, arg1).equals(expected_output), 'Test failed'

@@ -1,1 +1,1 @@
-Pythonic way to fetch all elements in a dictionary dict0, falling between two keys?   
+Compute the logarithm of a number var0 with a given base var1 using NumPy.

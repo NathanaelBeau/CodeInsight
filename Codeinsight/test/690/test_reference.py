@@ -1,5 +1,2 @@
-import pandas as pd
-
-def test(df0, lst0):
-    df0['sum'] = df0[lst0].sum(axis=1)
-    return df0
+def test(str0):
+    return [list(map(int, str0.split(',')[i:i+2])) for i in range(0, len(str0.split(',')), 2)]

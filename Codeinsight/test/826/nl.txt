@@ -1,1 +1,1 @@
-Python reversing an UTF-8 string  str0
+Group consecutive alphanumerical characters or non-alphanumerical characters together in the string var0.

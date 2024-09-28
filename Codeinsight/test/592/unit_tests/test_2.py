@@ -1,3 +1,3 @@
-import pandas as pd
-df0 = pd.DataFrame({'A': [4, 5, 6], 'Value': [False, False, False]})
-assert test(df0).empty, 'Test failed'
+lst0 = ["test,3.14,2.71,test"]
+expected_output = [3.14,2.71]
+assert test(lst0) ==expected_output, 'Test failed'

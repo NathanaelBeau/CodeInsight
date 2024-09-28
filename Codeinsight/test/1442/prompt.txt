@@ -1,6 +1,4 @@
-Convert the output of the .value_counts() method applied to a Series var0 to a DataFrame.
+Remove all dictionaries from a list lst0 if their 'link' key's value is present in list lst1
 
-import pandas as pd
-
-def test(var0):
+def test(lst0, lst1):
 

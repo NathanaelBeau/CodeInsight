@@ -1,4 +1,2 @@
-import pandas as pd 
-
-def test(df0, lst0):
-    return df0.drop(lst0)
+def test(lst0):
+    return [d.get('values') for d in lst0 if 'values' in d]

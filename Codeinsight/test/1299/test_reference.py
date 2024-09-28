@@ -1,6 +1,14 @@
-import numpy as np
-def test(lst0):
-    unique, inverse = np.unique(lst0, return_inverse=True)
-    rank = np.empty_like(inverse)
-    np.put(rank, np.argsort(inverse, kind='mergesort'), np.arange(len(lst0)))
-    return rank
+import itertools
+
+def test(lst0, var0):
+    if var0 == 0:
+        return ['']
+    
+    result = []
+    for i, token in enumerate(lst0):
+        remaining_tokens = lst0[:i] + lst0[i + 1:]
+        for combination in test(remaining_tokens, var0 - 1):
+            result.append(token + combination)
+    
+    return result
+

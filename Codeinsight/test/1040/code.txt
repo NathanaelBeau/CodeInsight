@@ -1,2 +1,4 @@
-def test(str0, lst0):
-    return [''.join([str0, item]) for item in lst0]
+import pandas as pd
+def test(df0):
+    mask = df0.ne(df0.shift()).any(axis=1)  
+    return df0[mask].reset_index(drop=True)

@@ -1,4 +1,4 @@
-Convert each element in the list lst0 to an integer if possible; otherwise, return the element as is. Return the resulting list.
+Python:  remove the white space from all lines   in string str0
 
-def test(lst0):
+def test(str0):
 

@@ -1,4 +1,5 @@
-import re
+import numpy as np
 
-def test(var0, str0):
-    return re.findall(var0, str0)
+def test(lst0, lst1):
+    average = np.average(lst0, weights=lst1)
+    return np.sqrt(np.average((lst0-average)**2, weights=lst1))

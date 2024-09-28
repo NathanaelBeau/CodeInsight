@@ -1,6 +1,9 @@
-df0 = pd.DataFrame({ 'A': [1, 2, 3, 4, 5], 'B': [5, 6, 7, 8, 9], 'C': [10, 11, 12, 13, 14] })
-lst0 = [0, 1]
-lst1 = ['A', 'C']
-expected_result =  pd.Series([1.5, 10.5], index=['A', 'C'])
-result = test(df0, lst0, lst1)
+class ModelObject:
+    def __init__(self, **kwargs):
+        self.__dict__.update(kwargs)
+    def to_dict(self):
+        return self.__dict__
+lst0 = [ModelObject(name='John', age=25), ModelObject(name='Jane', age=30), ModelObject(name='Doe', age=35)]
+expected_result =  pd.DataFrame([{'name': 'John', 'age': 25}, {'name': 'Jane', 'age': 30}, {'name': 'Doe', 'age': 35}])
+result = test(lst0)
 assert result.equals(expected_result), 'Test failed'

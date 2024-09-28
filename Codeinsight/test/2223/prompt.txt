@@ -1,6 +1,0 @@
- alphabetically sort array of dictionaries lst0 on single key var0   
-
-from operator import itemgetter
-
-def test(lst0, var0):
-

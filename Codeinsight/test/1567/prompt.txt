@@ -1,6 +1,5 @@
-Check if an array var0 contains all the elements of an array var1
+Count all values in the matrix mat0 that are less than the value val0.  
 
 import numpy as np
-
-def test(var0, var1):
+def test(mat0, val0):
 

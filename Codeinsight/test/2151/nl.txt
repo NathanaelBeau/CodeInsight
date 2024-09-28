@@ -1,1 +1,0 @@
-Pandas: Elementwise multiplication of two dataframes  df0 and df1

@@ -1,2 +1,5 @@
-def test(var0):
-	return [len(x) for x in var0.split()]
+import pandas as pd
+
+def test(df0, column_name0, decimals0):
+    df0[column_name0] = df0[column_name0].round(decimals0)
+    return df0

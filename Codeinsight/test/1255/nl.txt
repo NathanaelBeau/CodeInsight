@@ -1,1 +1,1 @@
-Sort a dictionary dict0 based on the values of a specified key var0 within the dictionary's values (assuming the values are themselves dictionaries)
+Find all pairs of adjacent digits in var0 that have different non-digits around them.

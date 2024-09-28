@@ -1,6 +1,3 @@
-# Test 3
-df0 = pd.DataFrame({'M': [10, 11, 12], 'N': [13, 14, 15]})
-var0 = 'M'
-expected_result =  pd.Series([12, 15], name=2, index=['M', 'N'])
-result = test(df0, var0)
-assert result.equals(expected_result), 'Test failed'
+str0 = "No\u200bthing to \u200bre\u200bpl\u200bace here."
+expected_output = "No*thing to *re*pl*ace here."
+assert test(str0) ==expected_output, 'Test failed'

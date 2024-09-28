@@ -1,1 +1,1 @@
-Extract a list of strings from a delimited string var0, replacing empty strings with 0
+A pythonic way to insert a space before capital letters   in strings  str0 in one-liner implementation without using regexp

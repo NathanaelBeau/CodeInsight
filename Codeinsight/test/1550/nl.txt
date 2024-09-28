@@ -1,1 +1,1 @@
-Fastest way to remove all multiple occurrence items from a list lst0  
+Get all possible combinations of items from the 2-dimensional list lst0.

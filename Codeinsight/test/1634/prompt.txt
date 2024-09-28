@@ -1,4 +1,6 @@
-Inserting a string str0 into a list lst0  at the beginning without getting split into characters   
+ unquote a urlencoded unicode string  var0 in python   
 
-def test(lst0, str0):
+import urllib.parse
+
+def test(var0):
 

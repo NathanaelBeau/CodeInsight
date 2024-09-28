@@ -1,1 +1,1 @@
-Create a dictionary using columns col_name1 and col_name2 from a pandas DataFrame df0.
+Square each element of the 2D numpy array mat0  

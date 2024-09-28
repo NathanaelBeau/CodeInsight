@@ -1,4 +1,5 @@
-Get the smallest value greater than 2 from a list of numbers lst0
+Pandas: Counting unique values in a dataframe df0 
 
-def test(lst0):
+import pandas as pd
+def test(df0):
 

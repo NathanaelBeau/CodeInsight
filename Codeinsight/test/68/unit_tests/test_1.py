@@ -1,4 +1,4 @@
-# Test 2
-lst0 = [['a', 'b'], ['c', 'd'], ['e', 'f']]
-expected_result =  ['b', 'd', 'f']
-assert test(lst0) == expected_result, 'Test failed'
+lst0 = ["apple", "banana", "cherry"]
+expected_result =  "apple\nbanana\ncherry"
+result = test(lst0)
+assert result == expected_result, 'Test failed'

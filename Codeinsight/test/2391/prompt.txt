@@ -1,6 +1,0 @@
-Extract words from the string var0 that contain accented characters.
-
-import re
-
-def test(var0):
-

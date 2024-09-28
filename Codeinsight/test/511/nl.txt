@@ -1,1 +1,1 @@
-Divide each element in a list lst0 by an integer var0 
+Sort a list of dictionaries lst0 by the date value.

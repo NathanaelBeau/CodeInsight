@@ -1,5 +1,7 @@
-df0 = pd.DataFrame({'A': [10, 20, 30]}, index=['x', 'y', 'z'])
-df1 = pd.DataFrame({'B': [40, 50]}, index=['y', 'z'])
-expected_result =  pd.DataFrame({'A': [10, 20, 30], 'B': [np.nan, 40, 50]}, index=['x', 'y', 'z'])
-result = test(df0, df1)
-assert result.equals(expected_result), 'Test failed'
+var0 = 3
+var1 = "abc"
+var2 = "XYZ"
+var3 = "abcdefgabcabcdefgabc"
+expected_result =  "abcdefgabcXYZdefgabc"
+result = test(var0, var1, var2, var3)
+assert result == expected_result, 'Test failed'

@@ -1,3 +1,3 @@
-str0  = "racecar"
-expected_output = "racecar"
-assert test(str0) ==expected_output, 'Test failed'
+var0 = -5.2
+expected_output = -5
+assert test(var0) == expected_output, 'Test failed'

@@ -1,1 +1,2 @@
-Replacing instances of a character var0 by var1 in a string str0  with replace
+Transpose a dataframe df0 to convert its rows to columns and vice-versa
+  

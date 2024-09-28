@@ -1,3 +1,4 @@
-lst0 = ["123", "456", "789"]
-expected_output = "123 456 789"
-assert test(lst0) ==expected_output, 'Test failed'
+ttt3 = "apple"
+tt3 = "orange"
+expected_output3 = []
+assert test(ttt3, tt3) == expected_output3, 'Test failed'

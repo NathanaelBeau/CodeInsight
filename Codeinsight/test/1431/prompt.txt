@@ -1,6 +1,4 @@
-Change the sorting in the value_counts method for the column str0 in the dataframe df0
+ Retrieve the maximum value from the second element of tuples within lists of lists lst0.
 
-import pandas as pd
-
-def test(df0, str0):
+def test(lst0):
 

@@ -1,2 +1,2 @@
-def test(lst0):
-    return '\n'.join(map(str, lst0))
+def test(var0):
+    return next(name for name, value in locals().items() if value is var0)

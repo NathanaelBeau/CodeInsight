@@ -1,2 +1,4 @@
-def test(var0, var1):
-    return var0 | var1
+from operator import mul
+
+def test(lst0, lst1):
+    return sum(map(mul, lst0, lst1))

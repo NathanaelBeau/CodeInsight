@@ -1,4 +1,6 @@
 import pandas as pd
 
-def test(df0, col_name0, value0):
-    return (df0[col_name0] == value0).sum()
+def test(df0, var0):
+    df0[var0] = pd.to_numeric(df0[var0]).astype(int)
+    return df0
+

@@ -1,9 +1,4 @@
-arr0 = np.array([[11, 12, 13],
-                   [21, 22, 23],
-                   [31, 32, 33],
-                   [41, 42, 43]])
-expected_output = np.array([[11, 12, 13],
-                              [21, 22, 23],
-                              [31, 32, 33],
-                              [41, 42, 43]])
-assert (test(arr0)  == expected_output).all(), 'Test failed'
+df2 = pd.DataFrame({'X': [7, 8, 9], 'Y': [10, 11, 12]})
+expected_result2 = [[7, 10], [8, 11], [9, 12]]
+result2 = test(df2)
+assert result2 == expected_result2, 'Test failed'

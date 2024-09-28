@@ -1,5 +1,8 @@
-def test(lst0):
-    reversed_list = []
-    for sub in lst0:
-        reversed_list.append(sub[::-1])
-    return reversed_list[::-1]
+def test(str0):
+    result = ""
+    for char in str0:
+        if char == '\u200b':
+            result += '*'
+        else:
+            result += char
+    return result

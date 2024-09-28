@@ -1,5 +1,6 @@
-Convert a comma-separated string str0 into a list of numbers (integers or floats).
+ extract numbers(float) from a string str0 in Python  with regex 
 
-import ast
+import re
+
 def test(str0):
 

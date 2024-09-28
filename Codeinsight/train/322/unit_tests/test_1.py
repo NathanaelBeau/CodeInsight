@@ -1,4 +1,4 @@
-var0, var1, var2 = 3.45678, 3.45677, 5
-expected_result =  False
-result = test(var0, var1, var2)
-assert result == expected_result, 'Test failed'
+import pandas as pd
+df0 = pd.DataFrame({'Gender': ['Male', 'Female', 'Male'], 'Year': [2013, 2015, 2016]})
+expected_result =  df0[(df0['Gender'] == 'Non-existent') & (df0['Year'] == 9999)]
+assert test(df0).equals(expected_result), 'Test failed'

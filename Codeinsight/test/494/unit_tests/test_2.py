@@ -1,4 +1,10 @@
-var0 = {'alpha': True, 'beta': False, 'gamma': True}
-expected_result =  [('beta', False), ('alpha', True), ('gamma', True)]
-result = test(var0)
-assert result == expected_result, 'Test failed'
+lst0 = [
+            {'a': 1, 'b': 2},
+            {'a': 2, 'b': 3},
+            {'a': 3, 'b': 4}
+        ]
+result = test(lst0)
+expected = [{'a': 1, 'b': 2}, {'a': 2, 'b': 3}, {'a': 3, 'b': 4}]
+result = sorted([sorted(item.items()) for item in result])
+expected = sorted([sorted(item.items()) for item in expected])
+assert result == expected, 'Test failed'

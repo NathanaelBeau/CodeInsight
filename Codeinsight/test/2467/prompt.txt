@@ -1,6 +1,0 @@
-How to find the difference between 2 lists lst0 and lst1 that may have duplicate numbers   
-
-from collections import Counter
-
-def test(lst0, lst1):
-

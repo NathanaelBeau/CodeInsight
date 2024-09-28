@@ -1,3 +1,5 @@
-data = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-expected_output = 9
-assert test(data) == expected_output, 'Test failed'
+var0 = "Welcome to the world of programming."
+lst0 = ["world", "apple", "banana"]
+expected_result =  "world"
+result = test(var0, lst0)
+assert result == expected_result, 'Test failed'

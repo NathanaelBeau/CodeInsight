@@ -1,7 +1,3 @@
-df = pd.DataFrame({
-            'A': [1, 2, 3],
-            'B': [4, 5, 6]
-        })
-result = test(df)
-expected = pd.RangeIndex(start=0, stop=3, step=1)
-assert result .equals(expected), 'Test failed'
+arr0 = [1.0, 2.0, 3.0]
+expected_output = [1.0, 2.0, 3.0]
+assert test(arr0) ==expected_output, 'Test failed'

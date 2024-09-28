@@ -1,3 +1,3 @@
-lst0 = [5, 2, 8, 3, 1]
-expected_output = 1
-assert test(lst0) ==expected_output, 'Test failed'
+var0 = 10
+expected_output = [0, 0, 1, 1, 2, 2, 3, 3, 4, 4]
+assert test(var0) ==expected_output, 'Test failed'

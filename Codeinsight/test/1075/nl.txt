@@ -1,1 +1,1 @@
-Calculate the covariance between numpy arrays arr0 and arr1 
+Generate a one-hot-encoded dataframe from a column var0 in dataframe df0

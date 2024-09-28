@@ -1,6 +1,4 @@
-Extract all words from the string var0 that start with the dollar sign ($).
+Sum each element lst0 with its corresponding element in lst1 based on their respective indices.
 
-import re
-
-def test(var0):
+def test(lst0, lst1):
 

@@ -1,1 +1,1 @@
-Generate var1 non-repetitive random numbers from 0 to var0-1 using numpy.
+Delete digits in Python ( without Regex)  which are not in words in string str0 

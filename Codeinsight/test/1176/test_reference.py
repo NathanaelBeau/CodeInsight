@@ -1,2 +1,4 @@
-def test(var0, var1):
-	return pandas.concat([var0, var1], axis=1)
+def test(str0):
+    while '  ' in str0:
+        str0 = str0.replace('  ', ' ')
+    return str0

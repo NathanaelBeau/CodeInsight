@@ -1,4 +1,4 @@
-import re
+import pandas as pd
 
-def test(str0: str) -> bool:
-    return all(char.isalnum() or char in ['_', '-'] for char in str0)
+def test(df0):
+    return df0.index.tolist()

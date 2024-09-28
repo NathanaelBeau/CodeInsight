@@ -1,2 +1,3 @@
-def test(lst0):
-    return [list(map(int, sublist)) for sublist in lst0]
+import numpy as np
+def test(arr0):
+    return np.count_nonzero(arr0 == 0)

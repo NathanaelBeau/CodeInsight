@@ -1,6 +1,4 @@
-All combinations of a list of lists   lst0
+Python:  use a string str0 as a slice specifier  in list lst0 
 
-from itertools import product
-
-def test(lst0):
+def test(str0, lst0):
 

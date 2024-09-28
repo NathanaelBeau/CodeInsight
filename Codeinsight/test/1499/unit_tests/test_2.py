@@ -1,4 +1,3 @@
-matrix0 = np.array([[5, 6], [7, 8]])
-expected_result =  np.array([5, 6, 7, 8])
-result = test(matrix0)
-assert np.array_equal(result, expected_result), 'Test failed'
+df0 = pd.DataFrame({ 'E': [100, 200, 300], 'F': [400, 500, 600] })
+expected_output = df0  # No duplicate indices, so the dataframe remains unchanged
+assert test(df0).equals(expected_output), 'Test failed'

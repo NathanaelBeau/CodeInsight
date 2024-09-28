@@ -1,6 +1,6 @@
-Simpler way to create dictionary of separate variables var0
- 
-  
+Delete columns with names from list lst0 in dataframe df0
 
-def test(var0):
+import pandas as pd
+
+def test(df0, lst0):
 

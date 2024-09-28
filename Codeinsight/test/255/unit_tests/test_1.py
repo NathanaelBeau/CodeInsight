@@ -1,3 +1,4 @@
-lst0 = ['5', '15', '1']
-expected_output = ['1', '5', '15']
-assert test(lst0) ==expected_output, 'Test failed'
+var0 = "This is an example without non-English characters."
+expected_result =  False
+result = test(var0)
+assert result == expected_result, 'Test failed'

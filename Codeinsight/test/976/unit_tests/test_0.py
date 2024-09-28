@@ -1,5 +1,5 @@
-columns_list0 = ['A', 'B']
-n_rows0 = 2
-expected_result =  pd.DataFrame({'A': [np.nan, np.nan], 'B': [np.nan, np.nan]})
-result = test(columns_list0, n_rows0)
+var0 = pd.Series([1, 2, 3], name='D')
+df0 = pd.DataFrame({'A': [4, 5, 6], 'B': [7, 8, 9]})
+expected_result =  pd.DataFrame({'D': [1, 2, 3], 'A': [4, 5, 6], 'B': [7, 8, 9]})
+result = test(var0, df0)
 assert result.equals(expected_result), 'Test failed'

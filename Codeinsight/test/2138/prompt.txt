@@ -1,6 +1,0 @@
-Convert a pandas Series series0 into a DataFrame  
-
-import pandas as pd
-
-def test(series0):
-

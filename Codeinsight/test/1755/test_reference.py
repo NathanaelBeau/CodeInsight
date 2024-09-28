@@ -1,3 +1,3 @@
-def test(arr0, val0):
-    coordinates = [(i, row.index(val0)) for i, row in enumerate(arr0) if val0 in row]
-    return coordinates[0] if coordinates else None
+import pandas as pd
+def test(var0, var1):
+    return pd.DataFrame(0, index=range(var0), columns=range(var1))

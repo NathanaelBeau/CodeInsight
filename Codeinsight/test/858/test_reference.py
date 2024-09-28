@@ -1,2 +1,2 @@
-def test(str0):
-    return ''.join(map(lambda char: char, str0[::-1]))
+def test(var0: float) -> int:
+    return round(var0)

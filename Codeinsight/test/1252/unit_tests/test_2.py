@@ -1,5 +1,4 @@
-df0 = pd.DataFrame({'cat': [1, 2, 3], 'dog': [4, 5, 6], 'bird': [7, 8, 9]})
-str0 = '^[cd]'
-expected_result =  pd.DataFrame({'cat': [1, 2, 3], 'dog': [4, 5, 6]})
-result = test(df0, str0)
-assert result.equals(expected_result), 'Test failed'
+df = pd.DataFrame({'A': [1, 2, 3], 'B': [4.0, 5.0, 6.0], 'C': ['seven', 'eight', 'nine']})
+arg = (df, {'B': str})
+expected_output = df.astype({'A': int, 'B': str, 'C': str})
+assert test(*arg).equals(expected_output), 'Test failed'

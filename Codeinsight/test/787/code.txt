@@ -1,2 +1,3 @@
-def test(var0):
-	return var0.split('\n', 1)[0]
+
+def test(lst0):
+    return sorted(lst0, key=lambda tup: (tup[1], tup[2]))

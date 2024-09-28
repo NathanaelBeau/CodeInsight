@@ -1,5 +1,4 @@
-# Test 2
-df0 = pd.DataFrame({'fruit': ['apple', np.nan, 'cherry'], 'color': [np.nan, 'yellow', 'red']})
-expected_result =  pd.DataFrame({'fruit': ['apple', 'unknown', 'cherry'], 'color': [np.nan, 'yellow', 'red']})
-result = test(df0, ['fruit'], 'unknown')
-assert result.equals(expected_result), 'Test failed'
+lst0 = ["apple", "banana", "cherry"]
+lst1 = ["banana", "cherry", "date", "fig"]
+expected_output = ["banana", "cherry"]
+assert test(lst0, lst1) == expected_output, 'Test failed'

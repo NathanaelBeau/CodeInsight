@@ -1,5 +1,6 @@
-Remove substring var1 from string var0
+Replace all occurrences of '-' with np.nan in dataframe df0.
 
-import re
-def test(var0, var1):
+import numpy as np
+
+def test(df0):
 

@@ -1,2 +1,2 @@
-def test(lst0, var0):
-    return sorted(range(len(lst0)), key=lambda i: lst0[i], reverse=True)[:var0]
+def test(lst0):
+    return [int(i) for i in lst0]

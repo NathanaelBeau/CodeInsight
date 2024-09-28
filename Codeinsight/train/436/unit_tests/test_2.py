@@ -1,4 +1,4 @@
-var0 = "12345"
-expected_result =  True
-result = test(var0)
-assert result == expected_result, 'Test failed'
+lst0 = []
+lst1 = [10, 20, 30]
+expected_output = [10, 20, 30]
+assert test(lst0, lst1) ==expected_output, 'Test failed'

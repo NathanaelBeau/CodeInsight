@@ -1,4 +1,4 @@
-Append the first element of the list lst0 to the same list.`
+ find the count of a word str1 in a string str0 with split 
 
-def test(lst0):
+def test(str0, str1):
 

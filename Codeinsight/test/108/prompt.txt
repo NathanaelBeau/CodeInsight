@@ -1,5 +1,6 @@
-Retrieve the first and last element from the numpy array arr0  
+Replace text 'old_text' with 'new_text' in a string column named 'str0' of a Pandas dataframe 'df0'.
 
-import numpy as np
-def test(arr0):
+import pandas as pd
+
+def test(df0, str0, old_text, new_text):
 

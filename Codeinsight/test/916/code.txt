@@ -1,5 +1,3 @@
-def test(lst0, lst1):
-    total = 0
-    for item0, item1 in zip(lst0, lst1):
-        total += item0 * item1
-    return total
+def test(lst0):
+    max_lengths = [max(len(str(x)) for x in line) for line in zip(*lst0)]
+    return max_lengths

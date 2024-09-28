@@ -1,4 +1,4 @@
-Return True if string str0 starts with a number, else False   
+Get max value index for a list of dicts  lst0 on key var0
 
-def test(str0):
+def test(lst0, var0):
 

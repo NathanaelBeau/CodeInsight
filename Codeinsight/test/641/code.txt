@@ -1,2 +1,4 @@
-def test(var0):
-    return ["%.2d" % i for i in range(var0)]
+import numpy as np
+
+def test(dict0, dtype = object):
+    return np.array(list(dict0.items()), dtype=dtype)

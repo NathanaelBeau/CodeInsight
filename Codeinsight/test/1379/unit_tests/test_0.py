@@ -1,4 +1,5 @@
-lst0 = ['apple', 'banana', 'cherry']
-expected_result =  np.array(['apple', 'banana', 'cherry'], dtype=object)
+# Unit Test 1
+lst0 = [(1, 2), (3, 1), (4, 3)]
+expected_result =  [(4, 3), (1, 2), (3, 1)]
 result = test(lst0)
-assert np.array_equal(result, expected_result), 'Test failed'
+assert result == expected_result, 'Test failed'

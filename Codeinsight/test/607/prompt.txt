@@ -1,7 +1,6 @@
-Removing nan values from an array or list  arr0 with pd.isnull
+Append a new column with data from list lst0 to a dataframe df0
 
 import pandas as pd
-import numpy as np
 
-def test(arr0):
+def test(df0, lst0):
 

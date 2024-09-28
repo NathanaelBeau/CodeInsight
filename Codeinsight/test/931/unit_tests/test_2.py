@@ -1,4 +1,4 @@
-lst0 = [(53, 'x'), (53, 'y'), (53, 'z'), (10, 'w')]
-expected_result =  [0, 1, 2]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+arr0 = np.array([[1, 2], [np.inf, -np.inf], [np.nan, 6]])
+expected_result =  np.array([[1, 2]])
+result = test(arr0)
+assert np.array_equal(result, expected_result), 'Test failed'

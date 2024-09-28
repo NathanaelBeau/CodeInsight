@@ -1,3 +1,3 @@
-arr0 = np.array([100, 200, 300, 400, 500, 600, 700, 800])
-expected_output = np.array([[100, 200], [300, 400], [500, 600], [700, 800]])
-assert (test(arr0)  == expected_output).all(), 'Test failed'
+var0 = "A B A B A B"
+expected_result =  {("A", "B"): 3, ("B", "A"): 2}
+assert test(var0) == expected_result, 'Test failed'

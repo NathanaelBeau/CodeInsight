@@ -1,4 +1,4 @@
-Divide each element in a list lst0 by an integer var0
+Remove all duplicate items from a list lst0.
 
-def test(lst0, var0):
+def test(lst0: list) -> list:
 

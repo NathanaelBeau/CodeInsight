@@ -1,2 +1,5 @@
-def test(var0):
-    return var0.replace('get', 'get@')
+def test(lst0):
+    all_keys = set()
+    for d in lst0:
+        all_keys.update(d.keys())
+    return all_keys

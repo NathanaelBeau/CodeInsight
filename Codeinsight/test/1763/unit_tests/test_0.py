@@ -1,5 +1,3 @@
-arr0 = np.array([[1, 2], [3, 4]])
-var0 = 1
-expected_result =  np.array([[0, 0, 0, 0], [0, 1, 2, 0], [0, 3, 4, 0], [0, 0, 0, 0]])
-result = test(arr0, var0)
-assert (result  ==  expected_result).all(), 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+result = test(df0)
+assert set(result['A']) == set(df0['A']) and set(result['B']) == set(df0['B']), 'Test failed'

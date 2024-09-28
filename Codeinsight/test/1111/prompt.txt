@@ -1,4 +1,6 @@
-Python: Fetch first 10 results from a list  lst0 
+Split the string column var0 of the DataFrame df0 into two new columns var1 and var2 using the delimiter var3.
 
-def test(lst0):
+import pandas as pd
+
+def test(df0, var0, var1, var2, var3):
 

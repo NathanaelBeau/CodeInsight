@@ -1,3 +1,4 @@
-lst0 = [[10, 20, 30], [40, 50, 60], [70, 80, 90]]
-expected_output = (10, 40, 70)
-assert test(lst0) ==expected_output, 'Test failed'
+matrix0 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+lst1 = [1]
+expected_output_1 = np.array([[2], [5], [8]])
+assert np.array_equal(test(matrix0, lst1), expected_output_1), 'Test failed'

@@ -1,6 +1,5 @@
-data = {'A': [1, 2, 3],
-         'B': [4, 5, 6]}
-df0 = pd.DataFrame(data)
-expected_output = pd.DataFrame({'A': [1, 2, 3],
-                                 'B': [4, 5, 6]})
-assert test(df0) .equals(expected_output), 'Test failed'
+# Unit Test 3
+df0 = pd.DataFrame({ 'X': [], 'Y': [] })
+expected_result =  True
+result = test(df0)
+assert result == expected_result, 'Test failed'

@@ -1,6 +1,4 @@
-X0 = [[1, 2], [3, 4], [5, 6], [7, 8], [9, 10]]
-y0 = [1, 0, 1, 0, 1]
-var0 = 0.4
-var1 = 42
-X_train, X_test, y_train, y_test = test(X0, y0, var0, var1)
-assert len(X_train) == 3 and len(X_test) == 2, 'Test failed'
+arr0 = np.array([1, 2, 3, 2, 3, 4, 2])
+expected_result =  2
+result = test(arr0)
+assert result == expected_result, 'Test failed'

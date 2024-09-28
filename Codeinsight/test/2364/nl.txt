@@ -1,1 +1,0 @@
- check if a string str1 is a substring of items in a list of strings str0   with import collections.abc

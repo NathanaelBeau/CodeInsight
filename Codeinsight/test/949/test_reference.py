@@ -1,3 +1,4 @@
-def test(dict0, var0):
-    lowercase_key = var0.lower()
-    return dict0.get(lowercase_key)
+from operator import itemgetter
+
+def test(lst0, var0):
+    return sorted(range(len(lst0)), key=lambda i: lst0[i], reverse=True)[:var0]

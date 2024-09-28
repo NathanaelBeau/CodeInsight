@@ -1,4 +1,6 @@
-Python: Sum string lengths str0 
+Find the index of the element var0 in a pandas Series series0.
 
-def test(str0):
+import pandas as pd
+
+def test(series0, var0):
 

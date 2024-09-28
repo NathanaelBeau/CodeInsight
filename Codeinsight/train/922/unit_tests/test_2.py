@@ -1,5 +1,6 @@
-str0 = "xy"
-char0 = '*'
-expected_result =  "xy"
-result = test(str0, char0)
-assert result == expected_result, 'Test failed'
+# Test 2
+var0 = "Python3...is-awesome!!"
+exceptions = ".-"
+replacement = "_"
+expected_result =  "Python3...is-awesome__"
+assert test(var0, exceptions, replacement) == expected_result, 'Test failed'

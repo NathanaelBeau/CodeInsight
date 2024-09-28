@@ -1,4 +1,6 @@
-Generate a list containing var0 number of empty lists
+Solve a pair of nonlinear equations defined by the function func using an initial guess initial_guess. 
 
-def test(var0):
+from scipy.optimize import fsolve
+
+def test(func, initial_guess):
 

@@ -1,1 +1,1 @@
-Sort the input list lst0 in place, using the float values of its elements
+Extract elements from lst0 at the indices specified in lst1.

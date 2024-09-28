@@ -1,1 +1,1 @@
-Replace all negative values with 0 in a numpy array arr0
+Filter the numpy array arr0 to keep only elements greater than threshold0. 

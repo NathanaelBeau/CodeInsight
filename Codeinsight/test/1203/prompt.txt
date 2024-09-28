@@ -1,5 +1,4 @@
-Count occurrences of the word var1 in a string var0
+Remove all dictionaries from a list lst0 if their var0 key's value is present in list lst1
 
-
-def test(var0, var1):
+def test(lst0, lst1, var0):
 

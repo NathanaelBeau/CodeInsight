@@ -1,3 +1,3 @@
-import pandas as pd
-def test(df0, lst0):
-    return df0[lst0].to_numpy()
+import numpy as np
+def test(arr0, col0):
+    return np.hstack((arr0, col0))

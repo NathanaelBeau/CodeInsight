@@ -1,6 +1,6 @@
-Remove rows in the pandas DataFrame df0 that have duplicate indices, keeping only the first occurrence.
+Combine two dataframes, df1 and df2, by their index."
 
 import pandas as pd
 
-def test(df0):
+def test(df1, df2):
 

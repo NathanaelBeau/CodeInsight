@@ -1,4 +1,4 @@
 import pandas as pd
-def test(ser0, var0):
-    return ser0.apply(lambda z: z + var0)
 
+def test(df0, column_name0):
+    return df0.groupby(column_name0, as_index=False).sum()

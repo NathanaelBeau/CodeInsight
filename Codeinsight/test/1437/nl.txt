@@ -1,1 +1,1 @@
-Python- insert a character comma, into a string  str0 at index 1
+Replace NaN values in the pandas DataFrame df0 with the average of each respective column.

@@ -1,1 +1,1 @@
- Replace all values in column var0 of dataframe df0 with string var1
+Match a regex pattern var0 with a string var1 and return the matched string.

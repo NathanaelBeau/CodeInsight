@@ -1,6 +1,7 @@
-Add SUM of values of two LISTS lst0 and lst1 into new LIST   with operator
+Calculate mean for selected rows var1 for selected columns var0 in pandas data frame  df0 
 
-import operator
+import pandas as pd
+import numpy as np
 
-def test(lst0, lst1):
+def test(df0, var0, var1):
 

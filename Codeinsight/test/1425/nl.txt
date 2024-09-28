@@ -1,1 +1,1 @@
-Drop duplicated index in a pandas dataframe df0   
+Sort the list lst0 according to corresponding values from a parallel list lst1.

@@ -1,5 +1,5 @@
-arr0 = np.array([[7, 8]])
-arr1 = np.array([[9, 10], [11, 12]])
-expected_result =  np.array([[7, 8], [9, 10], [11, 12]])
-result = test(arr0, arr1)
-assert np.array_equal(result, expected_result), 'Test failed'
+# Unit Test 3
+df0 = pd.DataFrame({ ('P', 'q1'): [13, 14], ('P', 'q2'): [15, 16], ('Q', 'q3'): [17, 18] })
+expected_result =  pd.DataFrame({ 'P q1': [13, 14], 'P q2': [15, 16], 'Q q3': [17, 18] })
+result = test(df0)
+assert result.equals(expected_result), 'Test failed'

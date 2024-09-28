@@ -1,1 +1,1 @@
-Sort a list of tuples lst0 based on the second item in descending order
+ check if a string str1 is a substring of items in a list of strings str0   

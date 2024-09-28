@@ -1,5 +1,0 @@
-Sort a 2D NumPy array arr0 by the values in the second column
-import numpy as np
-
-def test(arr0):
-

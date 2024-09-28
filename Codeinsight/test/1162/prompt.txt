@@ -1,4 +1,4 @@
-Add tuple tpl0 to a list of tuples  lst0
+Find the index of the substring 'World' in string var0.
 
-def test(lst0, tpl0):
+def test(var0):
 

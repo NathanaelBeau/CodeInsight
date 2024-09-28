@@ -1,6 +1,4 @@
-Convert the string column named var0 in the dataframe df0 to lowercase.
+Filter a given list lst0 and return a new list containing only the elements that are greater than 5.
 
-import pandas as pd
-
-def test(df0, var0):
+def test(lst0):
 

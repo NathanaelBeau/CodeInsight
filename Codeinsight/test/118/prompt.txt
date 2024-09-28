@@ -1,4 +1,4 @@
-Create a list of integers with lenght var0 with duplicate values in Python   
+Merge all dictionaries present in the list lst0 into a single dictionary
 
-def test(var0):
+def test(lst0):
 

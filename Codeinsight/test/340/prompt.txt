@@ -1,6 +1,4 @@
-Extract all duplicate items from a pandas series lst0
+Create a list of integers starting to 0 to var0 with duplicate values
 
-import pandas as pd
-
-def test(lst0):
+def test(var0):
 

@@ -1,1 +1,1 @@
-Return a random word from a list of words lst0
+Retrieve all duplicated elements from the list lst0

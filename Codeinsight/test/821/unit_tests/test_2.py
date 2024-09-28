@@ -1,6 +1,3 @@
-mat0 = np.array([[10, 5], 
-                 [2, 13]])
-expected_result =  np.array([[0.66666667, 0.33333333], 
-                            [0.13333333, 0.86666667]])
-result = test(mat0)
-assert np.allclose(result, expected_result), 'Test failed'
+lst0 = ['1_for_2', '3_and_4', '5_or_6']
+expected_output = [['1', '2'], ['3', '4'], ['5', '6']]
+assert test(lst0) ==expected_output, 'Test failed'

@@ -1,1 +1,1 @@
-Count the occurrences of a specific value value0 in a column col_name0 of a DataFrame df0.
+Change the data type of the column var0 in the dataframe df0 into float and then to int.

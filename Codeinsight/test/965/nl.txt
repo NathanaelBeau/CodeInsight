@@ -1,1 +1,1 @@
-Divide each row of the numpy array arr0 by the corresponding element in the vector vec0
+return a substring of str0 that ends just before the last occurrence of the substring var0.

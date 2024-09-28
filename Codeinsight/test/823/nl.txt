@@ -1,1 +1,1 @@
-Python: Check the occurrences in a list lst0 against a value  var0
+find the first occurrence of a sub-string str0  in a python string str1  

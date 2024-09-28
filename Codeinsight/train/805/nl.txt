@@ -1,1 +1,1 @@
-Convert the string var0 to its lowercase form
+Select all columns from a dataframe df0 whose names start with a string var0 

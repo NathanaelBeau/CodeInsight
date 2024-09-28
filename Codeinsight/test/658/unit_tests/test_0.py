@@ -1,4 +1,3 @@
-df0 = pd.DataFrame({ 'A': [1, 2, 3], 'B': [4, 5, 6] })
-expected_result =  pd.Series([1, 2, 3], name='A')
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+s1 = "123"
+expected_output1 = 123
+assert test(s1) == expected_output1, 'Test failed'

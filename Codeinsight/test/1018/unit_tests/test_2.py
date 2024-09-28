@@ -1,5 +1,6 @@
-# Test 2
-df0 = pd.DataFrame({ 'old_name_1': [10, 20, 30], 'old_name_2': [40, 50, 60] })
-dict0 = {'old_name_1': 'new_name_1', 'old_name_2': 'new_name_2'}
-expected_result =  pd.DataFrame({ 'new_name_1': [10, 20, 30], 'new_name_2': [40, 50, 60] })
-assert test(df0.copy(), dict0).equals(expected_result), 'Test failed'
+# Test 3
+df0 = pd.DataFrame({'M': [10.5, 11.5]}, index=['a', 'b'])
+df1 = pd.DataFrame({'N': [12.5, 13.5]}, index=['b', 'a'])
+expected_result =  pd.DataFrame({'M': [10.5, 11.5], 'N': [13.5, 12.5]}, index=['a', 'b'])
+result = test(df0, df1)
+assert result.equals(expected_result), 'Test failed'

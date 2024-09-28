@@ -1,4 +1,4 @@
-import pandas as pd
-
-def test(df0, var0):
-    return df0[pd.to_numeric(df0[var0], errors='coerce').isna()].reset_index(drop=True)
+def test(dict0, dict1):
+    dict0_copy = dict0.copy()
+    dict0_copy.update(dict1)
+    return dict0_copy

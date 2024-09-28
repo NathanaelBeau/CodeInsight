@@ -1,6 +1,6 @@
-Sum of product of combinations in a list lst0 using itertools.combinations
+Split dataframe df0 into train and test samples with a fraction frac0 for training. Optionally, a random_state0 can be provided for reproducibility.
 
-import itertools
+import pandas as pd
 
-def test(lst0):
+def test(df0, frac0=0.75, random_state0=None):
 

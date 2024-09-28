@@ -1,1 +1,0 @@
-Extract the last word from each string in the list lst0.

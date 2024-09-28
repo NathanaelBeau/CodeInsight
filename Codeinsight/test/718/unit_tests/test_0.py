@@ -1,3 +1,4 @@
-df0 = pd.DataFrame({ 'A': ['a', 'b', 'c'] }, index=[2, 5, 8])
-expected_result =  pd.DataFrame({ 'A': ['a', 'b', 'c'] })
-assert test(df0).equals(expected_result), 'Test failed'
+str0 = 'Words, words, words.'
+expected_result =  ['Words', ' words', ' words', '']
+result = test(str0)
+assert result == expected_result, 'Test failed'

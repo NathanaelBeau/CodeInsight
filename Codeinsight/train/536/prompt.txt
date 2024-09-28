@@ -1,4 +1,6 @@
-Sorting list lst0 based on values from another list lst1  
+Select the last column of a DataFrame df0
 
-def test(lst0, lst1):
+import pandas as pd
+
+def test(df0) -> pd.Series:
 

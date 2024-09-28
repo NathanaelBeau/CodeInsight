@@ -1,1 +1,2 @@
-Add SUM of values of two LISTS lst0 and lst1 into new LIST   with zip
+Best way to strip punctuation from a string str0 with 
+regex(Regular expression)

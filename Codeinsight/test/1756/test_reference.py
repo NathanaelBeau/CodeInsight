@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0):
-    return (df0 - df0.min()) / (df0.max() - df0.min())
+def test(var0, var1):
+    return ''.join([char for char in var0 if char != var1])

@@ -1,4 +1,0 @@
-Split the string var0 into float values and return the sum.
-
-def test(var0):
-

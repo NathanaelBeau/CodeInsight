@@ -1,1 +1,1 @@
-Replace the single quote (') character from a string str0   
+Locate the first and last non NaN values in a dataframe df0

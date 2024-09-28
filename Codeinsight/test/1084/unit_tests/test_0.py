@@ -1,4 +1,5 @@
-my_dict = { 'A': [1, 2, 3, 4], 'B': [5, 6, 7, 8], 'C': [9, 10, 11, 12] }
-lst = [3, 7, 15]
-expected_output = ['A', 'B']
-assert test(my_dict, lst) == expected_output, 'Test failed'
+arr0 = np.array([0, -1, 0, 3])
+expected_output = np.array([[0, -2, 0, 2],
+                            [0, -1, 0, 3],
+                            [0, 0, 0, 4]])
+assert np.array_equal(test(arr0), expected_output), 'Test failed'

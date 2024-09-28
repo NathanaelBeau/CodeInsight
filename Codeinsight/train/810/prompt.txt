@@ -1,6 +1,4 @@
-Select all columns from a dataframe df0 whose names start with a string var0 
+Get the list of values from a dict dict0
 
-import pandas as pd
-
-def test(df0, var0='X'):
+def test(dict0):
 

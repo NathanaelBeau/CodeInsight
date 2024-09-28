@@ -1,3 +1,4 @@
-def test(lst0, var0):
-    from collections import Counter
-    return Counter(map(type, lst0))[var0]
+import numpy as np
+
+def test(arr0):
+    return arr0 / np.linalg.norm(arr0)

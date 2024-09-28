@@ -1,4 +1,10 @@
-import numpy as np
-
-def test(var0, var1, var2):
-    return np.random.uniform(var0, var1, var2)
+def test(lst0):
+    stack = [lst0]
+    flat_list = []
+    while stack:
+        current = stack.pop()
+        if isinstance(current, list):
+            stack.extend(reversed(current))
+        else:
+            flat_list.append(current)
+    return flat_list

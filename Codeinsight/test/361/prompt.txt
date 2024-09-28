@@ -1,6 +1,4 @@
-Limit the number var0 of sentences in a string str0  
+Get keys with the same value in dictionary dict0.
 
-import re
-
-def test(str0, var0):
+def test(dict0):
 

@@ -1,3 +1,4 @@
-def test(lst0):
-    lst0 = sorted(lst0, key=lambda x: float(x))
-    return lst0
+import numpy as np
+
+def test(arr0, var0):
+    return np.argmax(arr0 > var0)

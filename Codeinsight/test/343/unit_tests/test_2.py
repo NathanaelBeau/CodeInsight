@@ -1,3 +1,4 @@
-lst0 = ["test,3.14,2.71,test"]
-expected_output = [3.14,2.71]
-assert test(lst0) ==expected_output, 'Test failed'
+# Test 2
+df0 = pd.DataFrame({ 'X': ['a', 'b', 'c', 'd'], 'Y': ['d', 'e', 'f', 'g'] })
+expected_result =  4
+assert test(df0) == expected_result, 'Test failed'

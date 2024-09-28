@@ -1,2 +1,4 @@
-def test(arr0, value0):
-    return np.any(arr0 == value0)
+import pandas as pd 
+
+def test(df0, var0, var1):
+    return df0.groupby(var0).agg({var1: lambda x: x.nunique()}).iloc[:, 0]

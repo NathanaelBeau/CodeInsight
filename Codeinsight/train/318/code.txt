@@ -1,3 +1,5 @@
-import numpy as np
-def test(arr0, idx0):
-    return np.take(arr0, idx0)
+def test(lst0):
+    reversed_list = []
+    for sub in lst0:
+        reversed_list.append(sub[::-1])
+    return reversed_list[::-1]

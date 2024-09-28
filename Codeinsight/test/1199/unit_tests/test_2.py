@@ -1,4 +1,4 @@
-dict0 = {'key1': 'value1', 'key2': 'value2'}
-expected_output = np.array([('key1', 'value1'), ('key2', 'value2')], dtype=object)
-dtype = object
-assert (test(dict0)  == expected_output).all(), 'Test failed'
+lst0 = [1, 2, 3]
+var0 = 4
+expected_output = [4, 1, 2, 3]
+assert test(lst0, var0) ==expected_output, 'Test failed'

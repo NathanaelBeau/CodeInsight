@@ -1,4 +1,3 @@
-b = ["apple", "banana", "cherry", "date"]
-index = [0, 2]
-expected_output = ["apple", "cherry"]
-assert test(b, index) == expected_output, 'Test failed'
+lst0 = ['orange', 'grape', 'blueberry']
+result = test(lst0)
+assert result in lst0, 'Test failed'

@@ -1,5 +1,3 @@
-import pandas as pd
-
-def test(df0, var0, var1):
-    df0[var0] = df0[var0].astype(var1)
-    return df0
+import numpy as np
+def test(arr0):
+    return arr0 / np.linalg.norm(arr0)

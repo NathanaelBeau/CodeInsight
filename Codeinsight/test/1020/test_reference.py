@@ -1,2 +1,6 @@
-def test(lst0, lst1):
-    return sorted(lst0, key=lst1.index)
+import pandas as pd
+from sklearn.preprocessing import MinMaxScaler
+
+def test(df0):
+    scaler = MinMaxScaler()
+    return pd.DataFrame(scaler.fit_transform(df0), columns=df0.columns)

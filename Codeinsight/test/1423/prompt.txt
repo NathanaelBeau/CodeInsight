@@ -1,7 +1,6 @@
-Convert all NaN values to 0 in a dataframe df0
+Create a zero-filled pandas dataframe with var0 rows and var1 columns
 
 import pandas as pd
-import numpy as np
 
-def test(df0):
+def test(var0, var1):
 

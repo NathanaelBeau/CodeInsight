@@ -1,4 +1,4 @@
-matrix0 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-lst2 = [0, 1, 2]
-expected_output_2 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-assert np.array_equal(test(matrix0, lst2), expected_output_2), 'Test failed'
+var0 = pd.DataFrame({'Date': ['2019-12-31', '2020-01-01', '2020-01-02']})
+expected_result =  pd.Series(['2019-12-31', '2020-01-02'], index=['min', 'max'])
+result = test(var0)
+assert result.equals(expected_result), 'Test failed'

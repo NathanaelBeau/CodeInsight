@@ -1,5 +1,3 @@
-lst0 = ['alpha', 'beta', 'delta', 'gamma']
-lst1 = [1, 1, 1, 1]
-expected_result =  ['alpha', 'beta', 'delta', 'gamma']
-result = test(lst0, lst1)
-assert result == expected_result, 'Test failed'
+str0 = 'OpenAI'
+expected_output = 'O,p,e,n,A,I'
+assert test(str0) ==expected_output, 'Test failed'

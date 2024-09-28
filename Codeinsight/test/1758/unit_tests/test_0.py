@@ -1,6 +1,6 @@
 # Test 1
-series0 = pd.Series(['a', 'b', 'c', 'd', 'e'])
-var0 = 'c'
-expected_result =  2
-result = test(series0, var0)
+df0 = pd.DataFrame({'A': [1, 2], 'B': [3, 4], 'C': [5, 6]})
+var0 = 'B'
+expected_result =  1
+result = test(df0, var0)
 assert result == expected_result, 'Test failed'

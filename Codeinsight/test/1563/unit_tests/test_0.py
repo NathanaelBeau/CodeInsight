@@ -1,13 +1,6 @@
-data = {
-            'A': [1, 2, 3, 4],
-            'B': [10, 20, 30, 40],
-            'C': [5, 15, 25, 35]
-        }
-df = pd.DataFrame(data)
-result = test(df, '(df0["A"] > 1) & (df0["B"] < 40)')
-expected = pd.DataFrame({
-            'A': [2, 3],
-            'B': [20, 30],
-            'C': [15, 25]
-        }, index=[1, 2])
-assert result.equals(expected), 'Test failed'
+def determine(x):
+    return x % 2 == 0
+lst0 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+var0 = determine
+expected_output = [1, 3, 5, 7, 9]
+assert test(lst0, var0)==expected_output, 'Test failed'

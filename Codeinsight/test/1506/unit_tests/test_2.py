@@ -1,6 +1,5 @@
-# Test 3
-df0 = pd.DataFrame({'M': [10.5, 11.5]}, index=['a', 'b'])
-df1 = pd.DataFrame({'N': [12.5, 13.5]}, index=['b', 'a'])
-expected_result =  pd.DataFrame({'M': [10.5, 11.5], 'N': [13.5, 12.5]}, index=['a', 'b'])
-result = test(df0, df1)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [[1], [2, 3], [4, 5, 6]]
+length = 3
+fill_value = 0
+expected_output = [[1, 0, 0], [2, 3, 0], [4, 5, 6]]
+assert test(lst0, length, fill_value) == expected_output, 'Test failed'

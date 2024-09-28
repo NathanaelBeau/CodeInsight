@@ -1,4 +1,5 @@
-Return tuples where the second element is equal to 1 in a list lst0 of tuples
+Merge all columns in dataframe df0 into a single column.
 
-def test(lst0):
+import pandas as pd
+def test(df0):
 

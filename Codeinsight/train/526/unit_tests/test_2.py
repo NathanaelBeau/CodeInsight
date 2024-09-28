@@ -1,4 +1,5 @@
-arr0 = np.array([7, 8, 9])
-var0 = 0
-expected_output = np.array([8, 9])
-assert (test(arr0, var0)  ==  expected_output).all(), 'Test failed'
+# Test 3
+df0 = pd.DataFrame({'M': [10.5, 11.5], 'N': [12.5, 13.5]})
+expected_result =  [{'M': 10.5, 'N': 12.5}, {'M': 11.5, 'N': 13.5}]
+result = test(df0)
+assert result == expected_result, 'Test failed'

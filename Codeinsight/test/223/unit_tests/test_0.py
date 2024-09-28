@@ -1,4 +1,4 @@
-lst0 = [[1.23456789, 2.3456789, 3.45678901], [4.56789012, 5.67890123, 6.78901234]]
-var0= '{0:.8e}'
-expected_output = [['1.23456789e+00', '2.34567890e+00', '3.45678901e+00'], ['4.56789012e+00', '5.67890123e+00', '6.78901234e+00']]
-assert test(lst0, var0) == expected_output, 'Test failed'
+var0 = "any string"
+expected_result =  None
+result = test(var0)
+assert result == expected_result, 'Test failed'

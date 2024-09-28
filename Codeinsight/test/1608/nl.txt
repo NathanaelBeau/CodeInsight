@@ -1,2 +1,1 @@
-Delete the columns specified in columns_to_delete from the matrix mat0.
-
+Select rows from a dataframe df0 where column 'A' contains values from list lst0

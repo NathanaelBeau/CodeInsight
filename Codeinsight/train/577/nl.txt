@@ -1,1 +1,1 @@
-Finding the most frequent character in a string   str0  
+split string str0 into words that do not contain whitespaces in python  

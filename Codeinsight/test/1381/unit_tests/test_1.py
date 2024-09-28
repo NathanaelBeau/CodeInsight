@@ -1,4 +1,3 @@
-df0 = pd.DataFrame({'var0': [], 'b': []})
-var0 = 1
-expected_output = 0
-assert test(df0, var0) ==expected_output, 'Test failed'
+datetime0 = datetime.datetime(2015, 12, 31, 23, 59, 59)
+expected_output = pd.Timestamp("2015-12-31 23:59:59")
+assert test(datetime0) == expected_output, 'Test failed'

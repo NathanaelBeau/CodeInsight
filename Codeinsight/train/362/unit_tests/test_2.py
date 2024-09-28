@@ -1,3 +1,4 @@
-a = np.array([10, 20, 110, 120, 130])
-expected_output = 0  # No numbers between 25 and 100
-assert test(a,25,100) == expected_output, 'Test failed'
+lst0 = [10, 20, 30, 40]
+lst1 = [50, 60, 70, 80]
+expected_output = set()
+assert test(lst0, lst1) ==expected_output, 'Test failed'

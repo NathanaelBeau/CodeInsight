@@ -1,6 +1,5 @@
-arr0 = np.array([0.5, 1.5, 2.5])
-var0 = 0.4
-var1 = 2.6
-expected_result =  True
-result = test(arr0, var0, var1)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame([[9, 10], [11, 12]], columns=['C', 'D'])
+var0 = 'TopLevel'
+expected_result =  pd.DataFrame([[9, 10], [11, 12]], columns=pd.MultiIndex.from_tuples([(var0, 'C'), (var0, 'D')]))
+result = test(var0, df0)
+assert result.equals(expected_result), 'Test failed'

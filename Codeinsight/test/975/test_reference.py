@@ -1,4 +1,4 @@
-from scipy.optimize import fsolve
+from itertools import product
 
-def test(func, initial_guess):
-    return fsolve(func, initial_guess)
+def test(lst0):
+    return list(product(*lst0))

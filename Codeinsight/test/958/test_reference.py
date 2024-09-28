@@ -1,2 +1,2 @@
-def test(lst0):
-    return [sum([x[1] for x in i]) for i in lst0]
+def test(arr0, var0):
+    return np.array([arr0[i:i+var0] for i in range(len(arr0) - var0 + 1)])

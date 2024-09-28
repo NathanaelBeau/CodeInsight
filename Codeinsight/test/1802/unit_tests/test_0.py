@@ -1,4 +1,4 @@
-df0 = pd.DataFrame({'col': ['A', 'B', 'C', 'A', 'B', 'C']})
-col0 = 'col'
-expected_output = pd.DataFrame({'col': [0, 1, 2, 0, 1, 2]})
-assert test(df0, col0) .equals(expected_output), 'Test failed'
+df1 = pd.DataFrame({'col0': ['apple', 'banana', 'apple'], 'col1': [1, 2, 3]})
+result_1 = test(df1, 'col0')
+expected_1 = pd.DataFrame({'col0': [0, 1, 0], 'col1': [1, 2, 3]}).astype({'col0': 'int8'})
+assert result_1.equals(expected_1), 'Test failed'

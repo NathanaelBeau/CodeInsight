@@ -1,15 +1,9 @@
-lst0 = [
-    {'language': 'en', 'data': 'English Data'},
-    {'language': 'fr', 'data': 'French Data'},
-    {'language': 'es', 'data': 'Spanish Data'},
-    {'language': 'en', 'data': 'Another English Data'}
-]
-var0 = 'language'
-var1 = 'en'
-expected_output = [
-    {'language': 'en', 'data': 'English Data'},
-    {'language': 'en', 'data': 'Another English Data'},
-    {'language': 'fr', 'data': 'French Data'},
-    {'language': 'es', 'data': 'Spanish Data'},
-]
-assert test(lst0, var0, var1) ==expected_output, 'Test failed'
+import pandas as pd 
+df0 = pd.DataFrame({'Name': ['John', 'Alice', 'Bob'],
+                    'Age': [25, 30, 35],
+                    'City': ['New York', 'London', 'Paris']})
+var0 = 'Name'
+var1 = 'Alice'
+expected_result =  pd.DataFrame({'Name': ['Alice'], 'Age': [30], 'City': ['London']}, index=[1])
+result = test(df0, var0, var1)
+assert result.equals(expected_result), 'Test failed'

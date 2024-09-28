@@ -1,2 +1,5 @@
-def test(lst0):
-    return sorted(lst0, key=lambda x: x[0])
+import re
+
+def test(str0):
+    pattern = re.compile(r"(.+?)\1+")
+    return [match.group(0) for match in pattern.finditer(str0)]

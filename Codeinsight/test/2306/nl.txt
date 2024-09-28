@@ -1,1 +1,0 @@
-Get a list of all unique characters from a string str0   

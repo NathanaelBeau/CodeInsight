@@ -1,4 +1,4 @@
-Retrieve a list that contains all non-empty elements from the list lst0.
+Best way to remove elements var0 from a list lst0   
 
-def test(lst0):
+def test(lst0: list, var0: set):
 

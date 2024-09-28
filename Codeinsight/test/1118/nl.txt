@@ -1,1 +1,1 @@
-Sort a string str0 in lexicographic order python   
+In Python, index a list lst0  with another list  lst1 with itemgetter

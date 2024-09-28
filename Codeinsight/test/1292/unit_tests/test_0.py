@@ -1,8 +1,5 @@
-data = {'A': [1, 2, np.nan, 4],
-        'B': [np.nan, 2, 3, 4],
-        'C': [1, 2, 3, 4]}
-df0 = pd.DataFrame(data)
-expected_output = pd.DataFrame({'A': [1, 2, np.nan, 4],
-        'B': [np.nan, 2, 3, 4],
-        'C': [1, 2, 3, 4]})
-assert test(df0) .equals(expected_output), 'Test failed'
+var0 = 'date_column'
+df0 = pd.DataFrame({'date_column': ['2021-01-01', '2021-01-02', '2021-01-03']})
+expected_result =  pd.DataFrame({'date_column': [pd.Timestamp('2021-01-01'), pd.Timestamp('2021-01-02'), pd.Timestamp('2021-01-03')]})
+result = test(df0, var0)
+assert result.equals(expected_result), 'Test failed'

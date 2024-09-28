@@ -1,3 +1,1 @@
-str0 = 'Hello'
-expected_output = 'H,e,l,l,o'
-assert test(str0) ==expected_output, 'Test failed'
+assert test("New York", "city", []) == False, 'Test failed'

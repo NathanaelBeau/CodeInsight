@@ -1,4 +1,3 @@
-lst0 = [{'x': 10}, {'y': 20}, {'z': 30}]
-expected_result =  {'x': 10, 'y': 20, 'z': 30}
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+str0 = "-0b110011"
+expected_output = -51.0
+assert test(str0) ==expected_output, 'Test failed'

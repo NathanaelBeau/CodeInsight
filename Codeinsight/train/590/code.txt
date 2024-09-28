@@ -1,8 +1,6 @@
-def test(str0):
-    result = ""
-    for char in str0:
-        if char == '\u200b':
-            result += '*'
-        else:
-            result += char
-    return result
+
+
+import pandas as pd
+
+def test(df0):
+    return df0.assign(B=df0['A']**2, C=df0['A']**3)

@@ -1,5 +1,6 @@
-Subtract the row-wise mean from each element in DataFrame df0, returning the result as a new DataFrame.
+Retrieve the first var0 rows from a dataframe df0
 
 import pandas as pd
-def test(df0):
+
+def test(df0, var0=None):
 

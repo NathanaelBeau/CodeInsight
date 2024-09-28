@@ -1,6 +1,9 @@
-from collections import Counter
+import pandas as pd
+import numpy as np
 
-def test(lst0):
-    counts = Counter(lst0)
-    return [k for k in lst0 if counts[k] == 1]
 
+
+def test(df0, var0):
+    result_df = df0.groupby(var0).size().reset_index(name='count')
+    result_df.set_index(var0, inplace=True)
+    return result_df

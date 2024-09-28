@@ -1,2 +1,2 @@
-def test(lst0):
-    return tuple(item[0] for item in lst0)
+def test(lst0, var0):
+    return sorted(lst0, key=lambda x: x[var0], reverse=True)[0]

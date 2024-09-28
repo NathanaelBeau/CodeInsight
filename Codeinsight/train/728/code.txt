@@ -1,2 +1,3 @@
-def test(lst0):
-    return list(zip(lst0[::2], lst0[1::2]))
+import numpy as np
+def test(arr0):
+    return np.count_nonzero(~np.isnan(arr0))

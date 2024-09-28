@@ -1,2 +1,4 @@
-def test(dict0, dict1):
-    return sorted(dict0.items()) == sorted(dict1.items())
+def test(lst0):
+    C = lst0[0].split(",")[1:-1]
+    C1 = [float(i) for i in C if i.strip()]
+    return C1

@@ -1,5 +1,4 @@
-from collections import Counter
+import numpy as np
 
-def test(lst0, var0):
-    counter = Counter(lst0)
-    return counter[var0]
+def test(arr0, arr1):
+    return np.hstack(list(zip(arr0, arr1)))

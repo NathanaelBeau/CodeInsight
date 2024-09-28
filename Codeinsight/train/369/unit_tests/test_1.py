@@ -1,5 +1,3 @@
-var0 = 'apple'
-var1 = 'banana'
-lst0 = ['apple', 'orange', 'apple']
-expected_result =  ['banana', 'orange', 'banana']
-assert test(var0, var1, lst0) == expected_result, 'Test failed'
+lst0 = ['apple_1_2', 'apple_2_2', 'banana_1_1', 'banana_2_1', 'cherry_1_2']
+expected_output = [['apple_1_2', 'apple_2_2'], ['banana_1_1', 'banana_2_1'], ['cherry_1_2']]
+assert test(lst0) ==expected_output, 'Test failed'

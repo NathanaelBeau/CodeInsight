@@ -1,5 +1,4 @@
-Check if arr0 contains any number from lst0   
+Append tuples var1 to a tuples  var0
 
-import numpy as np
-def test(arr0, lst0):
+def test(var0, var1):
 

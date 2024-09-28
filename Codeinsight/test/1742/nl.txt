@@ -1,1 +1,1 @@
-Obtain a list of row names (index values) from the pandas DataFrame df0.
+ initialize bytearray var0 with non-zero value   

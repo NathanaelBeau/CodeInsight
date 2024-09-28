@@ -1,1 +1,0 @@
-check if any value is NaN in a Pandas DataFrame  df0 

@@ -1,1 +1,1 @@
-in Python,  convert list of float numbers  lst0 to string with certain format var0?   
+Find the starting indices of all occurrences of the regex pattern pattern in string str0.

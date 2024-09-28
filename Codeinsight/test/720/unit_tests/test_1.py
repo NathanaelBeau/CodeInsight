@@ -1,4 +1,4 @@
-a2 = [1, 2, 3, 4, 5]
-index2 = 2
-expected_output2 = [1, 2, 4, 5]
-assert test(a2, index2) == expected_output2, 'Test failed'
+var0 = pd.DataFrame({'TEST': [5, 6], 'DATA': [7, 8]})
+expected_result =  pd.DataFrame({'test': [5, 6], 'data': [7, 8]})
+result = test(var0)
+assert result.equals(expected_result), 'Test failed'

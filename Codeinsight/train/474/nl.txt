@@ -1,1 +1,1 @@
-Add a new column named var0 with a constant value var1 to the pandas DataFrame df0.
+Get all items from a list lst0 that contain the substring 'abc'

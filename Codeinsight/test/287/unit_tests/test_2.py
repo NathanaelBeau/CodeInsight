@@ -1,9 +1,12 @@
 lst0 = [
-            ('111', 'abc', 'def'),
-            ('222', 'ghi', 'jkl'),
-            ('333', 'mno', 'pqr'),
-            ('111', 'stu', 'vwx'),
-            ('222', 'yza', 'bcd')
-        ]
-expected_output = {'111': 2, '222': 2, '333': 1}
-assert test(lst0) ==expected_output, 'Test failed'
+    {"name": "Mary", "age": 29},
+    {"name": "George", "age": 27},
+    {"name": "Linda", "age": 33},
+]
+var0 = "name"
+expected_output = [
+    {"name": "George", "age": 27},
+    {"name": "Linda", "age": 33},
+    {"name": "Mary", "age": 29},
+]
+assert test(lst0, var0) == expected_output, 'Test failed'

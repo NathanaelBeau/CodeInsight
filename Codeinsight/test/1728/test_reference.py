@@ -1,4 +1,2 @@
-import numpy as np 
-
-def test(arr0):
-    return arr0.tolist()
+def test(dict0, dict1):
+    return {" ".join([dict0[char] for char in k]): v for k, v in dict1.items()}

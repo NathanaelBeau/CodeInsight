@@ -1,3 +1,5 @@
-lst0 = [['1', '2', '3'], ['4', '5', '6'], ['7', '8', '9']]
-expected_output = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-assert test(lst0) ==expected_output, 'Test failed'
+var0 = r'(<textarea.*>).*(</textarea>)'
+var1 = r'\1Bar\2'
+str0 = "<textarea>This is a sample text</textarea>"
+expected_output = "<textarea>Bar</textarea>"
+assert test(var0, var1, str0) ==expected_output, 'Test failed'

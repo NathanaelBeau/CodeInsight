@@ -1,1 +1,1 @@
-Merge all columns in dataframe df0 into a single column.
+using regular expression to split string str0 in python   

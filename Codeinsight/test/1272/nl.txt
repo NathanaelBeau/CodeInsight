@@ -1,1 +1,2 @@
-Select all columns var0 and var1 from a two index var2 and var3 data frame df0
+How to pass another entire column as argument to pandas fillna()   
+Replace all NaN values from a column var0 of a data frame var1 by values from another column var2

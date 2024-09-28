@@ -1,1 +1,2 @@
-Convert a Pandas DataFrame  df0 with index column var0 to a dictionary   
+Remove duplicated whitespaces from a string var0   
+

@@ -1,1 +1,1 @@
-Merge every two elements in a list lst0 sequentially
+Get the indices of the x and y axes in a Numpy array arr0 where the array value is equal to var0.

@@ -1,4 +1,6 @@
-Insert the string str0 into position var0 of string s.
+Sort a pandas data frame var0 by its column var1 with a custom sorting var2 resetting the index
 
-def test(s: str, str0: str, var0: int) -> str:
+import pandas as pd
+
+def test(var0, var1, var2):
 

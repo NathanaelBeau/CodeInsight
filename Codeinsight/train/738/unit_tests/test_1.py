@@ -1,8 +1,5 @@
-df0 = pd.DataFrame({ 'A': [1, 2, 3, 4, 5], 'B': ['a', 'b', 'c', 'd', 'e'], 'C': [10, 20, 30, 40, 50] })
-var0 = 'C'
-var1 = 40
-var2 = 'B'
-var3 = 'd'
-expected_result =  pd.DataFrame({'A': [4], 'B': ['d'], 'C': [40]})
-result = test(df0, var0, var1, var2, var3)
-assert result.equals(expected_result), 'Test failed'
+str0 = "0:3"
+lst0 = ["apple", "banana", "cherry", "date"]
+expected_result2 = ["apple", "banana", "cherry"]
+result2 = test(str0, lst0)
+assert test(str0, lst0) ==expected_result2, 'Test failed'

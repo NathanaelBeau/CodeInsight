@@ -1,2 +1,4 @@
-def test(tuple0, tuple1):
-    return all(i in tuple1 for i in tuple0)
+import numpy as np
+
+def test(data: np.ndarray) -> int:
+    return np.count_nonzero(~np.isnan(data))

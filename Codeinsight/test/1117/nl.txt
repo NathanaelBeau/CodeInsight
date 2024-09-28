@@ -1,1 +1,1 @@
-Comparing values in two lists lst0 and lst1 in Python   
+Find the (row, column) index of the value val0 in the 2D array arr0.

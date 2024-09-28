@@ -1,5 +1,4 @@
-# Test 2
-mat0 = np.array([[0, 3], [4, 0], [0, 0]])
-expected_result =  np.array([3., 4., 0.])  # Norms of each row
-result = test(mat0)
-assert np.allclose(result, expected_result), 'Test failed'
+lst0 = [[7, 8], [9, 10]]
+expected_result =  [[0, 7, 0, 8], [0, 9, 0, 10]]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

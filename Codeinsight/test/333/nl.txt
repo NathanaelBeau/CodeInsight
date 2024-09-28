@@ -1,1 +1,1 @@
-Find the minimum and maximum values excluding zeros in numpy array (or tuple) arr0  
+ display the first few characters var0 of a string str0 in Python   

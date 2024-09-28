@@ -1,4 +1,4 @@
-s3 = "banana"
-substring3 = "ana"
-expected_output3 = [1, 3]
-assert test(s3, substring3) == expected_output3, 'Test failed'
+lst0 = [('John', 30), ('Jane', 25), ('Mike', 40)]
+expected_result =  [30, 25, 40]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

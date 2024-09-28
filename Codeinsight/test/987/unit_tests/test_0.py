@@ -1,4 +1,4 @@
-lst0 = [1, 2, 3, 4, 5]
-var0 = {2, 4}
-expected_output = [1, 3, 5]
-assert test(lst0, var0) ==expected_output, 'Test failed'
+lst0 = [['*', '-', '+'], ['/', '*', '+'], ['-', '+', '/']]
+dict0 = {'*': 2, '/': 1, '+': 3, '-': 0}
+expected_output = [['-', '*', '+'], ['/', '*', '+'], ['-', '/', '+']]
+assert test(lst0, dict0) ==expected_output, 'Test failed'

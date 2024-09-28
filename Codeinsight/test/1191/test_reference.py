@@ -1,2 +1,4 @@
-def test(lst0):
-    return max(max(sublist) for sublist in lst0)
+import numpy as np
+
+def test(arr0, val0):
+    return np.delete(arr0, np.where(arr0 == val0))

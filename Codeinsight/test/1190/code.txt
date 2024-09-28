@@ -1,4 +1,3 @@
-import functools
-
-def test(lst0):
-    return functools.reduce(lambda x, y: x + list(y), lst0, [])
+import numpy as np
+def test(arr0, arr1):
+    return np.array(np.meshgrid(arr0, arr1)).T.reshape(-1, 2)

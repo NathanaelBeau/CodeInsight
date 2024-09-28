@@ -1,3 +1,5 @@
-var0_3 = 0
-expected_output3 = []  # Empty list for range of 0
-assert test(var0_3) == expected_output3, 'Test failed'
+var0 = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]], [[9, 10], [11, 12]]])
+var1 = 2
+expected_result =  np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
+result = test(var0, var1)
+assert np.array_equal(result, expected_result), 'Test failed'

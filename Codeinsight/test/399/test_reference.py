@@ -1,2 +1,5 @@
-def test(var0):
-    return str(var0).zfill(2)
+import pandas as pd
+import numpy as np
+
+def test(df0):
+    return df0.fillna(value=np.nan)

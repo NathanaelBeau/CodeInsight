@@ -1,4 +1,3 @@
-lst0 = [1, 2, 3, 4, 5]
-lst1 = [5, 4, 3, 2, 1]
-expected_output = [6, 6, 6, 6, 6]
-assert (test(lst0, lst1)  == expected_output).all(), 'Test failed'
+var0, var1 = 100, 200
+result3 = test(var0, var1)
+assert 100 <= result3 <= 200, 'Test failed'

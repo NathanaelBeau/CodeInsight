@@ -1,6 +1,6 @@
-Get the number of rows in dataframe df0 where the values in column column_name0 exceed threshold0.
+Detect repeated sequences in the string var0.
 
-import pandas as pd
+import re
 
-def test(df0, column_name0, threshold0):
+def test(var0):
 

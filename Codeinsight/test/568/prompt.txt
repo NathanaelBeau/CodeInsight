@@ -1,5 +1,6 @@
-Concatenate two DataFrames df0 and df1 while ignoring and resetting their indices  
+python: check if an numpy array arr0 contains any element of another array arr1   with in1d
 
-import pandas as pd
-def test(df0, df1):
+import numpy as np
+
+def test(arr0, arr1):
 

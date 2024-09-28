@@ -1,4 +1,4 @@
-char0 = 'B'
-expected_result =  66
-result = test(char0)
+var0 = 3
+expected_result =  [0, 0, 0]
+result = test(var0)
 assert result == expected_result, 'Test failed'

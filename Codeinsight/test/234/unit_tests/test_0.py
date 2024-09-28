@@ -1,4 +1,6 @@
-str0 = "HelloWorldPythonIsGreat"
-var0 = 5
-expected_output = "Hello World Pytho nIsGr eat"
-assert test(str0, var0) ==expected_output, 'Test failed'
+lst0 = [3, 1, 2]
+lst1 = ['three', 'one', 'two']
+expected_result0 = tuple([1, 2, 3])
+expected_result1 = tuple(['one', 'two', 'three'])
+result0, result1 = test(lst0, lst1)
+assert result0 == expected_result0 and result1 == expected_result1, 'Test failed'

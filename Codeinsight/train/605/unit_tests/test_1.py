@@ -1,3 +1,5 @@
-lst0 = [('a', 'b'), ('c', 'd')]
-expected_output = (('c', 'd'), ('a', 'b'))
-assert test(lst0) ==expected_output, 'Test failed'
+var0 = 5
+var1 = 5
+expected_result =  []
+result = test(var0, var1)
+assert result == expected_result, 'Test failed'

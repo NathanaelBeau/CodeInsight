@@ -1,5 +1,5 @@
- Drop all columns from a dataframe df0 whose names contain the string str0.
+Add an extra column col0 to a NumPy array arr0
 
-import pandas as pd
-def test(df0, str0):
+import numpy as np
+def test(arr0, col0):
 

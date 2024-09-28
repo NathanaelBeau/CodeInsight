@@ -1,4 +1,5 @@
-str0 = "hello456world789"
-expected_result =  "456789"
-result = test(str0)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame({'X': ['a', 'b', 'c'], 'Y': ['d', 'e', 'f']})
+Col0_name0 = 'Y'
+expected_result =  pd.DataFrame({'X': ['a', 'b', 'c'], 'Y': ['e', 'f', None]})
+result = test(df0, Col0_name0)
+assert result.equals(expected_result), 'Test failed'

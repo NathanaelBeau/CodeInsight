@@ -1,3 +1,4 @@
-var0_2 = 3
-expected_output2 = [0, 1, 3]  # Cumulative sums of [0, 1, 2]
-assert test(var0_2) == expected_output2, 'Test failed'
+var0 = "OpenAI\tGPT-3.5"
+expected_result =  ['OpenAI', 'GPT-3.5']
+result = test(var0)
+assert result == expected_result, 'Test failed'

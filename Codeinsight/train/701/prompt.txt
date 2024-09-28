@@ -1,4 +1,6 @@
-split elements of a list lst0   
+split string str0 into words that do not contain whitespaces in python  
 
-def test(lst0):
+import re
+
+def test(str0):
 

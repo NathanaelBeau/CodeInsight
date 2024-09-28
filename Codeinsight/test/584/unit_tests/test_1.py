@@ -1,4 +1,4 @@
-var0 = pd.DataFrame({'A': [9, 7, 8], 'B': [6, 4, 5], 'C': [1, 3, 2]})
-expected_result =  pd.DataFrame({'A': [9, 7, 8], 'B': [6, 4, 5], 'C': [1, 3, 2]})
-result = test(var0)
-assert result.equals(expected_result), 'Test failed'
+s2 = "A1 B2 C3 D4 E5"
+pattern2 = r"\d"
+expected_output2 = [1, 4, 7, 10, 13]
+assert test(s2, pattern2) == expected_output2, 'Test failed'

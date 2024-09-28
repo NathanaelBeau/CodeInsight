@@ -1,1 +1,1 @@
-calculate equal parts of two dictionaries  dict0 and dict1 
+Create a list containing the first var0 values from generator it0.

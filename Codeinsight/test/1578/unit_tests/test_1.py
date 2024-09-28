@@ -1,3 +1,5 @@
-dict0 = {'First Key': 'Value 1', 'Second Key': 'Value 2', 'Third Key': 'Value 3'}
-expected_output = {'first key': 'value 1', 'second key': 'value 2', 'third key': 'value 3'}
-assert test(dict0) ==expected_output, 'Test failed'
+arr1 = np.array([1, 3, 5, 7, 9, 2, 4, 6, 8, 0])
+var1 = 3
+expected_result =  np.array([7, 8, 9])
+result = test(arr1, var1)
+assert np.array_equal(result, expected_result), 'Test failed'

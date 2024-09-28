@@ -1,1 +1,1 @@
-Format string - spaces between every three digit  in string var0 
+Extract columns from the numpy array arr0 as separate arrays

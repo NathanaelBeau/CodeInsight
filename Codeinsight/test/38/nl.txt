@@ -1,1 +1,1 @@
-Remove key-value pairs with key 'var0' from a list of dictionaries lst0
+Check if one of the following items from list lst0 is in a list  lst1 

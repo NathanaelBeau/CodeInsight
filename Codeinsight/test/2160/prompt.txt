@@ -1,4 +1,0 @@
-Convert a list of lists lst0 into a dictionary where each inner list's first element is the key and the second element is the value
-
-def test(lst0):
-

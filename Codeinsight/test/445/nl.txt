@@ -1,1 +1,1 @@
-Get all indices of the boolean numpy array arr0 where the value is True.
+Rearrange the columns from list lst0 of pandas DataFrame df to the sequence mentioned in list lst1.

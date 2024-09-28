@@ -1,5 +1,5 @@
-lst0 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-var0 = 5
-expected_result =  [(1, 1)]
-result = test(lst0, var0)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+df1 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9]})
+var0 = ['A', 'B']
+expected_output = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+assert test(df0, df1, var0) .equals( expected_output), 'Test failed'

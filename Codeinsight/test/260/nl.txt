@@ -1,1 +1,1 @@
-Convert a 3D list lst0 into a 3D NumPy array.
+get keys correspond to a value in dictionary dict0 

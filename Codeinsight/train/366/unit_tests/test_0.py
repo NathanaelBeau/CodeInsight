@@ -1,4 +1,3 @@
-var0 = 5
-lst0 = [1, 6, 7, 4, 8]
-expected_result =  3
-assert test(var0, lst0) == expected_result, 'Test failed'
+lst0 = [('A', 'V', 'C'), ('A', 'D', 'D')]
+expected_output = ['AVC', 'ADD']
+assert test(lst0) ==expected_output, 'Test failed'

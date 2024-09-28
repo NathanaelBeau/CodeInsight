@@ -1,4 +1,4 @@
-import pandas as pd
-df0 = pd.DataFrame({'A': [10, 20], 'B': [30, 40], 'column_name': [50, 60]})
-expected_result =  pd.DataFrame({'A': [10, 20], 'B': [30, 40]})
-assert test(df0, 'column_name').equals(expected_result), 'Test failed'
+test_array_4 = np.array([[3, 1]])
+result_4 = test(test_array_4, sort_columns=[0])
+expected_4 = np.array([[3, 1]])
+assert np.array_equal(result_4, expected_4), 'Test failed'

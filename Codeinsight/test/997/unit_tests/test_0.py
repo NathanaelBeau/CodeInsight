@@ -1,4 +1,4 @@
-input_list = [1, 1, 1, 1, 1]
-expected_result =  True
-result = test(input_list)
-assert result==expected_result, 'Test failed'
+s1 = "The rain in Spain falls mainly on the plain."
+pattern1 = r"\b\w+ain\b"  # matches words ending with "ain"
+expected_output1 = ["rain", "Spain", "plain"]
+assert test(s1, pattern1) == expected_output1, 'Test failed'

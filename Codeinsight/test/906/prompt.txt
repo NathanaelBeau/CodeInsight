@@ -1,4 +1,4 @@
-Combine row with same index summing values of its columns from a dataframe df0
+Retrieve all elements from the list lst0 that are not of type integer.
 
-def test(df0):
+def test(lst0):
 

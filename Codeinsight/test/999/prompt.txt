@@ -1,4 +1,6 @@
-Get the lengths of each word in a sentence named var0
+Extract all digits after the '[' character in a string str0
 
-def test(var0):
+import re
+
+def test(str0):
 

@@ -1,5 +1,4 @@
-Count the number of occurrences of item item0 in a numpy ndarray arr0
+convert each item in the input list lst0 to a string, then join these string representations with newline characters, and finally return the resulting single string.
 
-import numpy as np
-def test(arr0, item0):
+def test(lst0):
 

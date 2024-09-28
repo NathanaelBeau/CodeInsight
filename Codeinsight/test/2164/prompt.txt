@@ -1,6 +1,0 @@
-Split a string str0 using one or more whitespace characters and avoid single spaces in the resulting list.
-
-import re
-
-def test(s: str) -> list:
-

@@ -1,1 +1,1 @@
-Insert a space before each capital letter of a string var0
+ unpacking keys and values of a dictionary dict0  into two lists, without losing consistence   

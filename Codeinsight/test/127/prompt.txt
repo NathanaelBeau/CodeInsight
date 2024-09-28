@@ -1,5 +1,4 @@
-Remove duplicates from a dataframe df0 based on columns 'A' and 'B', retaining the row with the maximum value in column 'C
+ combine two lists lst0 and lst1Cinto a dictionary in Python   
 
-import pandas as pd
-def test(df0):
+def test(lst0, lst1):
 

@@ -1,3 +1,4 @@
-lst0_3 = [1, 1, 2, 3, 4, 4, 4, 5, 6, 6, 7]
-expected_result_3 = [1, 2, 3, 4, 5, 6, 7]
-assert test(lst0_3) == expected_result_3, 'Test failed'
+lst0 = ['100', '200', '300']
+expected_result =  [100, 200, 300]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

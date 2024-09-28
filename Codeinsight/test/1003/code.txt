@@ -1,4 +1,3 @@
-import numpy as np
-
-def test(arr0):
-    return np.unravel_index(arr0.argmax(), arr0.shape)
+from operator import itemgetter
+def test(dict0, var0):
+    return [k for k, _ in sorted(dict0.items(), key=itemgetter(1, var0))]

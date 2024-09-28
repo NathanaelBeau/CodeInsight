@@ -1,6 +1,5 @@
-Extract the content within the brackets from the string var0.
+Change the index of the DataFrame df0 to a multi-level index using the specified columns named str0 and str1
 
-import re
-
-def test(var0):
+import pandas as pd
+def test(df0, str0, str1):
 

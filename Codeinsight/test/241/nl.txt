@@ -1,1 +1,1 @@
-Convert a list of model objects lst0 to a pandas dataframe using their to_dict method 
+Determine if numbers var0 and var1 are nearly equal when rounded to var2 significant decimal digits 

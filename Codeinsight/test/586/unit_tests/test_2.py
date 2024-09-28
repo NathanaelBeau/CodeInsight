@@ -1,4 +1,5 @@
-df3 = pd.DataFrame({'P': [None, 45., None, 80.], 'Q': [100., 110., 120., 130.]})
-expected_result =  pd.DataFrame({'P': [100., 45., 120., 80.], 'Q': [100., 110., 120., 130.]})
-result = test(df3, 'P', 'Q')
-assert result .equals( expected_result), 'Test failed'
+# Test 2
+df0 = pd.DataFrame({ 'X': ['a', 'b', 'c'], 'Y': ['d', 'e', 'f'], 'Z': ['g', 'h', 'i'] })
+lst0 = ['X', 'Z']
+expected_result =  pd.DataFrame({ 'X': ['a', 'b', 'c'], 'Z': ['g', 'h', 'i'] })
+assert test(df0.copy(), lst0).equals(expected_result), 'Test failed'

@@ -1,6 +1,6 @@
-Compute the average or mean of the column named col_name in the pandas DataFrame df0.
+Move the column named var0 to the front of the dataframe df0
 
 import pandas as pd
 
-def test(df0, col_name):
+def test(df0, var0):
 

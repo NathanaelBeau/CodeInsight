@@ -1,4 +1,4 @@
-from itertools import permutations
+import numpy as np
 
-def test(lst0):
-    return [''.join(p) for p in permutations(lst0, 2)]
+def test(arr0):
+    return np.sort(arr0, axis=0)

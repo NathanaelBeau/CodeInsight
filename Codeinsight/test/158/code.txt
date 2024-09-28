@@ -1,2 +1,4 @@
-def test(lst0):
-    return sorted(list({word.lower() for word in lst0}))
+import re
+
+def test(str0: str) -> bool:
+    return all(char.isalnum() or char in ['_', '-'] for char in str0)

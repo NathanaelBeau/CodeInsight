@@ -1,2 +1,2 @@
-def test(lst0):
-    return sorted(set([item for sublist in lst0 for item in sublist]))
+def test(dict0):
+    return {k: sum(v)/len(v) for k, v in dict0.items()}

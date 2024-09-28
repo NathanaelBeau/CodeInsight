@@ -1,2 +1,3 @@
-def test(dict0):
-    return {v: k for k, v in dict0.items()}
+def test(dict0, dict1):
+    dict0 = dict(dict0, **dict1)
+    return dict0

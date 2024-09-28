@@ -1,4 +1,4 @@
-df0 = pd.DataFrame({'data': ['apple-orange', 'banana-grape', 'cherry-blueberry']})
-expected_result =  pd.DataFrame({0: ['apple', 'banana', 'cherry'], 1: ['orange', 'grape', 'blueberry']})
-result = test(df0, 'data', var0='-')
-assert result.equals(expected_result), 'Test failed'
+lst0 = [(10, 20, 30), (100, 200, 300), (1000, 2000, 3000)]
+tpl0 = (-5, -10, -15)
+expected_output = [(5, 10, 15), (95, 190, 285), (995, 1990, 2985)]
+assert test(lst0, tpl0) == expected_output, 'Test failed'

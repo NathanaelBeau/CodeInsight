@@ -1,2 +1,2 @@
-def test(lst0):
-    return list(map(tuple, lst0))
+def test(var0):
+    return int(var0.replace(",", ""))

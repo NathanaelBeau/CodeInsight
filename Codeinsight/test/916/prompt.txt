@@ -1,4 +1,4 @@
- sum the product of two list lst0 and lst1 items using loop and zip 
+Find max length of each column in a list of lists   lst0 
 
-def test(lst0, lst1):
+def test(lst0):
 

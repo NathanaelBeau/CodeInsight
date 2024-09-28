@@ -1,6 +1,3 @@
-df0 = pd.DataFrame({'A': [1.235, 2.456, 3.678]})
-column_name0 = 'A'
-decimals0 = 2
-expected_result =  pd.DataFrame({'A': [1.24, 2.46, 3.68]})
-result = test(df0, column_name0, decimals0)
-assert result.equals(expected_result), 'Test failed'
+arr0 = np.array([1.0, 2.0, np.nan, 4.0, 5.0])
+expected_output = np.array([1.0, 2.0, 4.0, 5.0])
+assert (test(arr0)  == expected_output).all(), 'Test failed'

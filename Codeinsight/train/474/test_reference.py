@@ -1,5 +1,2 @@
-import pandas as pd 
-
-def test(df0, var0, var1):
-    df0[var0] = var1
-    return df0
+def test(lst0):
+    return list(filter(lambda x: 'abc' in x, lst0))

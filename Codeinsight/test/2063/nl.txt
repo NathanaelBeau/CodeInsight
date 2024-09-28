@@ -1,1 +1,0 @@
-Compute the norm for each row of the matrix mat0.  

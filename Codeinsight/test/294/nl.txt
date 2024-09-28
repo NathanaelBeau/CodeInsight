@@ -1,1 +1,1 @@
-Create a numpy array from the list of strings lst0 with arbitrary length.  
+Generate all combinations of var0 binary values.

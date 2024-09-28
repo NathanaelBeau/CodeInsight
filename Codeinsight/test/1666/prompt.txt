@@ -1,4 +1,4 @@
-Search recursively for the key var0 in a nested dictionary dct0 
+Convert a list of lists lst0 containing 2 elements in a dictionary with the first element as the key and the second element as the value
 
-def search_generator(var0, dct0):
+def test(lst0):
 

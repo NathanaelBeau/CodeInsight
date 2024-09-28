@@ -1,6 +1,6 @@
-Convert a dictionary dict0 into a list where each key is repeated based on its corresponding value.
+Check if a string str0 contains only letters, numbers, underscores, and dashes.
 
-import itertools
+import re
 
-def test(dict0):
+def test(str0: str) -> bool:
 

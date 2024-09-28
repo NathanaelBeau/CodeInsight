@@ -1,4 +1,4 @@
-List comprehension - converting strings in one list lst0, sum elements and convert to integers in another list   
+reverse tuples elements inside each tuple in list of tuples lst0  in Python  
 
 def test(lst0):
 

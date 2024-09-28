@@ -1,3 +1,7 @@
-df0 = pd.DataFrame({'A': ['apple', 'banana'], 'B': ['carrot', 'date']})
-expected_output = ['apple', 'carrot', 'banana', 'date']
-assert np.array_equal(test(df0) , (expected_output)), 'Test failed'
+df0 = pd.DataFrame({
+            'A': [1, 2, 3],
+            'B': [4, 5, 6]
+        })
+expected = df0
+result = test(df0)
+assert result.equals(expected), 'Test failed'

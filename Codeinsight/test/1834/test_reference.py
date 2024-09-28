@@ -1,2 +1,2 @@
-def test(lst0, var0):
-    return [var0] + lst0
+def test(str0):
+    return str0[:100]

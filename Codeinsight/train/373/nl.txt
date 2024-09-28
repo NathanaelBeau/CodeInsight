@@ -1,1 +1,1 @@
-Remove all occurrences of value val0 from numpy array arr0.
+python  split a word str0 into a list   

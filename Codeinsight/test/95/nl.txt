@@ -1,1 +1,1 @@
-Split dataframe df0 into train and test samples with a fraction frac0 for training. Optionally, a random_state0 can be provided for reproducibility.
+tokenize a string str0 keeping delimiters in Python   

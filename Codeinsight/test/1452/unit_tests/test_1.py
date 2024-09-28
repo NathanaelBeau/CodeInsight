@@ -1,5 +1,3 @@
-arr0 = np.array([6, 7, 8, 9])
-var0 = 10
-expected_result =  np.array([6, 7, 8, 9, 10])
-result = test(arr0, var0)
-assert np.array_equal(result, expected_result), 'Test failed'
+dict0 = {'X': [10, 20], 'Y': [30, 40], 'Z': [50, 60]}
+expected_output = {'Z': 110, 'Y': 70, 'X': 30}
+assert test(dict0) == expected_output, 'Test failed'

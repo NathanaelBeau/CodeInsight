@@ -1,4 +1,4 @@
-Copy the elements of list lst0 into a new list.
+Get all items from a list lst0 that contain the substring 'abc'
 
 def test(lst0):
 

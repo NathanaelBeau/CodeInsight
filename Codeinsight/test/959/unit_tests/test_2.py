@@ -1,6 +1,5 @@
-# Test 3
-series0 = pd.Series(['apple', 'banana', 'cherry'])
-var0 = 'banana'
-expected_result =  1
-result = test(series0, var0)
+var0 = "python"
+var1 = "pytho"
+expected_result =  False
+result = test(var0, var1)
 assert result == expected_result, 'Test failed'

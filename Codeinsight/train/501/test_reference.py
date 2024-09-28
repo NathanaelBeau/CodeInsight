@@ -1,3 +1,6 @@
-import numpy as np
-def test(arr0: np.ndarray):
-    return arr0[arr0 != 0].min()
+import pandas as pd
+def test(lst0):
+    df = pd.DataFrame(lst0)
+    stacked = df['categories'].explode()
+    value_counts = stacked.value_counts().to_dict()
+    return value_counts

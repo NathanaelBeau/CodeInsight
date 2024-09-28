@@ -1,6 +1,6 @@
-how to turn a string of letters embedded in squared brackets str0 into embedded lists   
+Count the number of rows for each unique group defined by key_columns in the dataframe df.
 
-import re
+import pandas as pd
 
-def test(str0):
+def test(df: pd.DataFrame, key_columns: str) -> pd.DataFrame:
 

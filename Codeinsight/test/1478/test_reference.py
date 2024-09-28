@@ -1,2 +1,5 @@
-def test(lst0):
-    return all(not x for x in lst0)
+import pandas as pd
+
+def test(df0, col, str0):
+    df0[col] = str0 + df0[col].astype(str)
+    return df0

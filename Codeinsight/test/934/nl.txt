@@ -1,1 +1,2 @@
-Append the sum of each tuple pair from lists lst0 and lst1 to list lst2
+Best way to strip punctuation from a string str0 with 
+replace

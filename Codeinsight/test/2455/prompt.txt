@@ -1,6 +1,0 @@
-Indexing a pandas dataframe df0 by integer var0 
-
-import pandas as pd
-
-def test(df0, var0):
-

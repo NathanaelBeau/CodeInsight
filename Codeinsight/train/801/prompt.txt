@@ -1,5 +1,4 @@
-Get all elements from a numpy array lst0 excluding the element at index 3
+Convert the comma-separated string var0 into a list of integers.
 
-import numpy as np
-def test(lst0):
+def test(var0):
 

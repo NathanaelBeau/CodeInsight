@@ -1,4 +1,5 @@
-import numpy as np
+import pandas as pd
 
-def test(arr0):
-    return ~np.isnan(arr0)
+
+def test(df0, n):
+    return df0[-n:]

@@ -1,4 +1,4 @@
-in Python,  join a list of tuples lst0 into one list   
+string str0 to list conversion in python   
 
-def test(lst0):
+def test(str0):
 

@@ -1,4 +1,4 @@
-import pandas as pd
+import numpy as np
 
-def test(df0, cond0):
-    return df0.query(condition)
+def test(vect0, vect1):
+    return np.outer(vect0, vect1)

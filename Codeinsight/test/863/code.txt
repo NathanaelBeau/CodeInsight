@@ -1,3 +1,5 @@
-import numpy as np
-def test(arr0):
-    return np.count_nonzero(~np.isnan(arr0))
+def test(str0):
+    return list(map(int, str0.split(',')))
+
+
+

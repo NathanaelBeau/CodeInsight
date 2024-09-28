@@ -1,4 +1,4 @@
-lst0 = [100, 200, 300, 400]
-lst1 = ['one', 'two', 'three', 'four']
-expected_output = {100: 'one', 200: 'two', 300: 'three', 400: 'four'}
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+dict0 = { 'a': [1, 'foo'], 'b': [1, 'bar'], 'c': [1, 'baz'] }
+var0 = 1
+expected_output = ['b', 'c', 'a']
+assert test(dict0, var0) ==expected_output, 'Test failed'

@@ -1,3 +1,3 @@
-lst0 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-expected_output = (1, 4, 7)
+lst0 = [1, 2, 3, 4, 5]
+expected_output = 12345
 assert test(lst0) ==expected_output, 'Test failed'

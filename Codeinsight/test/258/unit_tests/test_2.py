@@ -1,5 +1,4 @@
-var0 = pd.DataFrame({'name': ['John', 'Jane', 'Mike']})
-lst0 = [30, 25, 40]
-expected_result =  pd.DataFrame({'name': ['John', 'Jane', 'Mike'], 'new_column': [30, 25, 40]})
-result = test(var0, lst0)
-assert result.equals(expected_result), 'Test failed'
+var0 = {'x': 0, 'y': 0, 'z': 0}
+expected_result =  'x'  # or 'y' or 'z' since all have the same value
+result = test(var0)
+assert result == expected_result, 'Test failed'

@@ -1,1 +1,1 @@
-Filter rows in dataframe df0 where values in column var0 are present in the list lst0 resetting index.
+do multiple substitutions in string var0 using regex with Create a regular expression  from the dictionary keys  dict0 and For each match, look-up corresponding value in dictionary  dict0

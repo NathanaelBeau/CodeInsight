@@ -1,6 +1,6 @@
-Delete elements from the array arr0 along a specified axis var1 at intervals determined by var0. 
+ Extract all words from a string var0 while removing punctuation
 
-import numpy as np
+import re
 
-def test(arr0, var0, var1):
+def test(var0):
 

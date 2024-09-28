@@ -1,4 +1,4 @@
-lst0 = [{"language": "es", "name": "Juan"}, {"language": "de", "name": "Hans"}, {"language": "it", "name": "Giovanni"}]
-expected_result =  [{"language": "es", "name": "Juan"}, {"language": "de", "name": "Hans"}, {"language": "it", "name": "Giovanni"}]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+lst0 = ["888a8a888", "8bb8", "ccc8", "dddddd888"]
+var0 = '8'
+expected_output = ["aa", "bb", "ccc", "dddddd"]
+assert test(lst0, var0) == expected_output, 'Test failed'

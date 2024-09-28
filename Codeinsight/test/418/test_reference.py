@@ -1,3 +1,4 @@
-import numpy as np
-def test(lst0, var0):
-    return np.eye(var0)[lst0]
+import pandas as pd
+
+def test(df0, var0):
+    return df0[var0].value_counts().idxmax()

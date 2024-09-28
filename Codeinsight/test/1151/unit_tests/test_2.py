@@ -1,5 +1,4 @@
-# Test 3
-df0 = pd.DataFrame({'A': [np.nan, np.nan, 3., 4., 5.]})
-expected_result =  pd.DataFrame({'A': [3., 3., 3., 4., 5.]})
-result = test(df0.copy(), 'bfill')
-assert result.equals(expected_result), 'Test failed'
+arr0 = np.array([[[5, 6], [7, 8]], [[9, 10], [11, 12]]])
+expected_result =  np.array([5, 6, 7, 8, 9, 10, 11, 12])
+result = test(arr0)
+assert np.array_equal(result, expected_result), 'Test failed'

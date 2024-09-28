@@ -1,3 +1,5 @@
-df0 = pd.DataFrame({'A': [-1, 0, 1], 'B': [-1, 0, 1]})
-expected_result =  pd.DataFrame({'A': [-1.22474487, 0, 1.22474487], 'B': [-1.22474487, 0, 1.22474487]})
-assert np.allclose(test(df0).values, expected_result.values, atol=1e-5), 'Test failed'
+# Test 2
+df0 = pd.DataFrame({"B": [10, 20, 30]}, index=[10, 20, 30])
+expected_result =  pd.DataFrame({"index": [10, 20, 30], "B": [10, 20, 30]})
+result = test(df0)
+assert result.equals(expected_result), 'Test failed'

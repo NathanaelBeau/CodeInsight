@@ -1,5 +1,2 @@
-import pandas as pd
-
-def test(df0, var0, var1):
-    df0[var1] = df0[var0].apply(''.join)
-    return df0
+def test(lst0):
+    return [item for item in lst0 if item is not None and item != '']

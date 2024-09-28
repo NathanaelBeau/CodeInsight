@@ -1,4 +1,4 @@
-Extract row with maximum value in a group pandas dataframe   df0
+Add key var0 with value var1 to a dictionary dict0
 
-def test(df0):
+def test(dict0, var0, var1):
 

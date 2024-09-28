@@ -1,4 +1,4 @@
-arr0 = np.array([1, 2, 3])
-expected_result =  arr0 / np.linalg.norm(arr0)
-result = test(arr0)
-assert np.allclose(result, expected_result), 'Test failed'
+# Test 1
+df0 = pd.DataFrame({ 'A': [1, 2, 3], 'B': [4, 5, 6] })
+expected_result =  3
+assert test(df0) == expected_result, 'Test failed'

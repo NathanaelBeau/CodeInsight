@@ -1,5 +1,3 @@
-# Test 2
-var0 = "dog cat mouse"
-dict0 = {"dog": "bark", "mouse": "squeak"}
-expected_result =  "bark cat squeak"
-assert test(var0, dict0) == expected_result, 'Test failed'
+lst0 = [-1, -5, -10]
+expected_output = -10
+assert test(lst0) ==expected_output, 'Test failed'

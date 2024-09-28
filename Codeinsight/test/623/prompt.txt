@@ -1,6 +1,6 @@
-Find all indexes of a substring var0 in a string var1
+Transform a string var0 into its corresponding unicode escaped representation
 
-import re
+import codecs
 
-def test(var0, var1):
+def test(var0):
 

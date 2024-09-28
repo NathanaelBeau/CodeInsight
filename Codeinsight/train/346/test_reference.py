@@ -1,2 +1,7 @@
 def test(lst0):
-    return [d.get('values') for d in lst0 if 'values' in d]
+    max_value = max(lst0)
+    positions = []
+    for i in range(len(lst0)):
+        if lst0[i] == max_value:
+            positions.append(i)
+    return positions

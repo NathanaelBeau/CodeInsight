@@ -1,12 +1,3 @@
-import numpy
-import math
-import pandas
-import string
-import datetime
-import json
-import itertools
-import random
-import functools
-import collections
-result = test(123456789)
-assert result==987654321, 'Test failed'
+str0 = "Another example\u200b\u200b\u200b with multiple \u200bzero width spaces\u200b."
+expected_output = "Another example*** with multiple *zero width spaces*."
+assert test(str0) ==expected_output, 'Test failed'

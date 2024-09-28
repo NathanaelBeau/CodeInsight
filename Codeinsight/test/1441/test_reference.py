@@ -1,8 +1,4 @@
-def test(lst0, var0):
-    a = [[] for _ in range(lst0)]
-
-    for i in range(lst0):
-        a[i].append(var0[i])
-
-    return a
-
+def test(lst0):
+    iterator = iter(lst0)
+    result = dict(zip(iterator, iterator))
+    return result

@@ -1,5 +1,4 @@
-# Test 3
-var0 = "No separation here."
-regex_pattern = r"\s"
-expected_result =  17
-assert test(var0, regex_pattern) == expected_result, 'Test failed'
+dtype1 = 'int64'
+expected_result =  8
+result = test(dtype1)
+assert result == expected_result, 'Test failed'

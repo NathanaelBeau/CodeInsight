@@ -1,1 +1,1 @@
-Check if the string var0 contains any non-English characters.
+Split a string the_list into chunks of size n and return a list of these chunks.

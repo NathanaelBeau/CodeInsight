@@ -1,1 +1,1 @@
-Concatenate a list of DataFrames lst0 together.
+Remove line break character in a string var0 if it follows a lowercase letter

@@ -1,4 +1,4 @@
-Convert a dictionary var0 into a list of tuples
+Check if list lst1 contains all elements of list lst0
 
-def test(var0):
+def test(lst0, lst1):
 

@@ -1,1 +1,1 @@
-Concatenate all elements of the input list lst0 into a single string, with each element separated by a space. 
+find indexes of all occurrences of a substring str0 in a string str1

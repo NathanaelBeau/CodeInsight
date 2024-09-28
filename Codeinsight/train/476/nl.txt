@@ -1,1 +1,3 @@
-Convert the pandas DataFrame df0 to a list of dictionaries.
+Return a list of unique words from a list 
+lst0
+lst0, case-insensitive

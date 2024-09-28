@@ -1,5 +1,5 @@
-df0 = pd.DataFrame({'A': [1, 2, 3]})
-index_name0 = 'new_index'
-expected_result =  pd.DataFrame({'A': [1, 2, 3]}, index=pd.Index([0, 1, 2], name='new_index'))
-result = test(df0, index_name0)
-assert result.equals(expected_result), 'Test failed'
+var0 = 3
+var1 = 4
+lst0 = [1, 2, 3, 4, 5]
+expected_result =  [1, 2, 4, 4, 5]
+assert test(var0, var1, lst0) == expected_result, 'Test failed'

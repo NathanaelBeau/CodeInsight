@@ -1,1 +1,1 @@
-Find the greatest number in a list of numbers  lst0
+Check if all of the following items from dict dict0 are in a list lst0   

@@ -1,4 +1,4 @@
-arr0 = np.array([1, 2, 3, 4, 5])
-expected_result =  (1, 5)
-result = test(arr0)
-assert result == expected_result, 'Test failed'
+var0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry'], 'B': ['dog', 'cat', 'bird']})
+expected_result1 = pd.DataFrame({'A': ['apple', 'banana', 'cherry'], 'B': ['doggo', 'cat', 'bird']})
+result1 = test(var0.copy(), 'B', 'dog', 'doggo')
+assert result1.equals(expected_result1), 'Test failed'

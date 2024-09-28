@@ -1,7 +1,6 @@
-Grab all sequences of numbers from a string var0
+Converting a list of tuples lst0 into a dict with defaultdict
 
+from collections import defaultdict
 
-import re
-
-def test(var0):
+def test(lst0):
 

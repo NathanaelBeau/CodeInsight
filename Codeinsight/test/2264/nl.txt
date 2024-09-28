@@ -1,1 +1,0 @@
-How to check if all elements of a list lst0 match a condition at least one element's flag(3rd element) is 0?   

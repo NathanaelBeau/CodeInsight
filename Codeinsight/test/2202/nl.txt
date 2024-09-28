@@ -1,1 +1,0 @@
-Convert all values from a dictionary dict0 into a list.

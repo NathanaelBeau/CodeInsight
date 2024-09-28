@@ -1,6 +1,6 @@
-Get the element number var0 of each tuple from a list of tuple lst0 
+Find the longest common prefix between two strings var0 and var1.
 
-from operator import itemgetter
+import os
 
-def test(lst0, var0):
+def test(var0, var1):
 

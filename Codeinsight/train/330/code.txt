@@ -1,3 +1,5 @@
-import numpy as np
-def test(mat0, var0, var1):
-    return mat0.transpose(*[var1 if i == var0 else var0 if i == var1 else i for i in range(mat0.ndim)])
+import re
+
+def test(var0, replacements):
+    pattern = re.compile("|".join(map(re.escape, replacements.keys())))
+    return pattern.sub(lambda m: replacements[m.group(0)], var0)

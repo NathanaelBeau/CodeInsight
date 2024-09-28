@@ -1,2 +1,3 @@
-def test(lst0, lst1):
-    return sum(x*y for x, y in zip(lst0, lst1))
+import numpy as np
+def test(lst0, var0):
+    return np.eye(var0)[lst0]

@@ -1,4 +1,4 @@
-lst0 = ['a', 'ab', 'abc']
-expected_result =  np.array(['a', 'ab', 'abc'], dtype=object)
+lst0 = [(True, 0.1), (False, 0.9), (True, 0.5)]
+expected_result =  [(False, 0.9), (True, 0.5), (True, 0.1)]
 result = test(lst0)
-assert np.array_equal(result, expected_result), 'Test failed'
+assert result == expected_result, 'Test failed'

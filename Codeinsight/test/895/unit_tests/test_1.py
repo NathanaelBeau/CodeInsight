@@ -1,4 +1,5 @@
-str0 = "123"
-str1 = ["one", "two", "three"]
-expected_output = "one123two123three"
-assert test(str0, str1) ==expected_output, 'Test failed'
+arr0 = np.array([1, 2, 3])
+arr1 = np.array([1, 2, 4])
+expected_result =  False
+result = test(arr0, arr1)
+assert result == expected_result, 'Test failed'

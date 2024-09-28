@@ -1,6 +1,4 @@
-dict0 = {"item1": 1}
-var0 = "item3"
-var1 = 3
-expected_result =  {"item1": 1, "item3": 3}
-result = test(dict0, var0, var1)
-assert result == expected_result, 'Test failed'
+var0 = r'hello (\w+) world (\d+)'
+str0 = 'hello openai world 3, hello python world 2'
+expected_output = [('openai', '3'), ('python', '2')]
+assert test(var0, str0) == expected_output, 'Test failed'

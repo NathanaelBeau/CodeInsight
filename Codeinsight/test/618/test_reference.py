@@ -1,4 +1,3 @@
-import pandas as pd
-
-def test(df0):
-    return pd.DataFrame(index=df0.index)
+import re
+def test(var0):
+    return re.sub(r'\bget\b', 'get@', var0)

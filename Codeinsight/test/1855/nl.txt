@@ -1,1 +1,1 @@
-Convert a dataframe df0 into a list of dictionaries
+Creating a dictionary dict0 from a string str0  in oneliner with specific separator for pairs key values var0

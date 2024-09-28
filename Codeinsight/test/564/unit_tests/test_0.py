@@ -1,3 +1,4 @@
-lst0 = ["Hello", "world", "Python"]
-expected_output = "Hello world Python"
-assert test(lst0) ==expected_output, 'Test failed'
+ttt1 = "hellohellohello"
+tt1 = "hello"
+expected_output1 = [0, 5, 10]
+assert test(ttt1, tt1) == expected_output1, 'Test failed'

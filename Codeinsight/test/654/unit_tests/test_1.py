@@ -1,3 +1,3 @@
-str0 = "Let's test this code!"
-expected_output = "Lets test this code"
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = [4, 2, 9, 6, 7]
+expected_output = 42967
+assert test(lst0) ==expected_output, 'Test failed'

@@ -1,8 +1,2 @@
-import numpy as np
-
-def test(var0, var1):
-	diff = np.setdiff1d(var1, var0)
-	if diff.size:
-		return False
-	else:
-		return True
+def test(lst0, var0):
+	return [item for item in lst0 if item[0] == var0]

@@ -1,6 +1,4 @@
-pythonic way to explode a list of tuples lst0  
-
-import unittest
+ index nested lists lst0 in Python  with output as a tuple
 
 def test(lst0):
 

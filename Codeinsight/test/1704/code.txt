@@ -1,2 +1,3 @@
-def test(lst0, lst1):
-    return [x for x in lst0 if x not in lst1]
+import pandas as pd
+def test(df0, var0):
+    return df0.query("var0 == 1")['b'].sum()

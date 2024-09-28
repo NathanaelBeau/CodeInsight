@@ -1,6 +1,0 @@
-Exclude columns in list lst0 from dataframe df0.
-
-import pandas as pd
-
-def test(df0, lst0):
-

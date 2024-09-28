@@ -1,3 +1,5 @@
-arr0 = np.array([np.nan, 1.0])
-expected_output = np.array([1.0])
-assert test(arr0) ==expected_output, 'Test failed'
+var0 = pd.DataFrame({'name': ['John', 'Jane', 'Mike']})
+lst0 = [30, 25, 40]
+expected_result =  pd.DataFrame({'name': ['John', 'Jane', 'Mike'], 'new_column': [30, 25, 40]})
+result = test(var0, lst0)
+assert result.equals(expected_result), 'Test failed'

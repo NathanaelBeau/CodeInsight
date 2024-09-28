@@ -1,7 +1,7 @@
-python pandas flatten a dataframe df0 to a list with numpy  ravel
+ delete a column that contains only zeros in Pandas dataframe df0   
 
-import numpy as np
 import pandas as pd
+import numpy as np
 
 def test(df0):
 

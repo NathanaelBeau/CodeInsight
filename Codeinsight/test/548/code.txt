@@ -1,5 +1,3 @@
-import pandas as pd
 
-def test(df0):
-    df0.columns = [' '.join(col).strip() for col in df0.columns.values]
-    return df0
+def test(lst0):
+    return tuple(map(sum, zip(*lst0)))

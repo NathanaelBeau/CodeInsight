@@ -1,4 +1,4 @@
-import re
-
-def test(var0):
-    return re.findall(r"\n", var0)
+def test(var0, var1):
+    for item in var1:
+        var0.add(item)
+    return var0

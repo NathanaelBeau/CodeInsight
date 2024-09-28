@@ -1,1 +1,1 @@
- delete a column that contains only zeros in Pandas dataframe df0   
+Flipping the boolean values in a list lst0

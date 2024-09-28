@@ -1,5 +1,0 @@
-Sum of outer product of corresponding lists in two arrays lst0 and lst1- NumPy   
-
-import numpy as np
-def test(lst0, lst1):
-

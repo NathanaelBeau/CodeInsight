@@ -1,1 +1,1 @@
- convert nested list of lists lst0 into a list of tuples in python 3.3 using map
+Convert a string representation of a number var0 that includes commas (as thousands separators) into an integer 

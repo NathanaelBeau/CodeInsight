@@ -1,4 +1,4 @@
-check if a value var0 exists in a dictionary dict0 
+Remove all trailing digits from the end of string s.
 
-def test(dict0, var0):
+def test(s):
 

@@ -1,2 +1,9 @@
-def test(lst0, lst1):
-    return [(var0, var1) for var0, var1 in zip(lst0, lst1)]
+def test(lst0):
+    n = len(lst0)
+    for i in range(n):
+        for j in range(i + 1, n):
+            if len(lst0[i]) > len(lst0[j]):
+                temp = lst0[i]
+                lst0[i] = lst0[j]
+                lst0[j] = temp
+    return lst0

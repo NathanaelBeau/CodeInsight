@@ -1,6 +1,0 @@
-Set the index of dataframe df0 using the column named 'month'.
-
-import pandas as pd
-
-def test(df0):
-

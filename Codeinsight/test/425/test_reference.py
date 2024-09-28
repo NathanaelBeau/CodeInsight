@@ -1,3 +1,5 @@
-import numpy as np
-def test(arr0):
-    return arr0.tolist()
+def test(lst0):
+    result = {}
+    for d in lst0:
+        result.update(d)
+    return result

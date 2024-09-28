@@ -1,1 +1,0 @@
-Generate all combinations of 3 elements from a set set0

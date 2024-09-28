@@ -1,1 +1,1 @@
-string str0 to list conversion in python   
+Clamp a floating number val0 between min0 and max0.

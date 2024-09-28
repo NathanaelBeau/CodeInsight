@@ -1,2 +1,4 @@
-def test(lst0, var0):
-    return {d.pop(var0): d for d in lst0}
+import pandas as pd
+
+def test(df0, lst0, lst1):
+    return df0.loc[lst0, lst1].agg('mean')

@@ -1,3 +1,1 @@
-str0 = 'OpenAI'
-expected_output = 'O,p,e,n,A,I'
-assert test(str0) ==expected_output, 'Test failed'
+assert test("San Francisco", "city", [{"name": "Alice", "age": 30, "city": "New York"}, {"name": "Bob", "age": 25, "city": "San Francisco"}]) == True, 'Test failed'

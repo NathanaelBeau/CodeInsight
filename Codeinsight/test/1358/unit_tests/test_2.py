@@ -1,5 +1,4 @@
-str0 = "banana"
-lst0 = ["apple", "Banana", "cherry"]
-expected_result =  ["apple", "Banana", "banana", "cherry"]
-result = test(str0, lst0)
-assert result == expected_result, 'Test failed'
+arg0 = r'\s+'  
+arg1 = 'This is a test'  
+expected_output = 3  
+assert test(arg0, arg1) == expected_output, 'Test failed'

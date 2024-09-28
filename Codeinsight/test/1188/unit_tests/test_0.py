@@ -1,7 +1,3 @@
-lst0 = [
-    [1, 2, 3],
-    ['a', 'b'],
-    [10.0, 20.0]
-]
-expected_output = [('1', 'a', '10.0'), ('1', 'b', '10.0'), ('2', 'a', '10.0'), ('2', 'b', '10.0'), ('3', 'a', '10.0'), ('3', 'b', '10.0'), ('1', 'a', '20.0'), ('1', 'b', '20.0'), ('2', 'a', '20.0'), ('2', 'b', '20.0'), ('3', 'a', '20.0'), ('3', 'b', '20.0')]
-assert test(lst0) ==expected_output, 'Test failed'
+str0 = "hello"
+expected_result =  "ehllo"
+assert test(str0) == expected_result, 'Test failed'

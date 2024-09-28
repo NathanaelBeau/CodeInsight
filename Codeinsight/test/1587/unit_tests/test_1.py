@@ -1,5 +1,12 @@
-# Test 3
-var0 = "abcDEFghiJKL"
-var1 = r'[a-z]+'
-expected_result =  ["cba", "ihg"]
-assert test(var0, var1) == expected_result, 'Test failed'
+lst0 = [
+    {"name": "Zoe", "age": 28},
+    {"name": "Eva", "age": 35},
+    {"name": "David", "age": 30},
+]
+var0 = "name"
+expected_output = [
+    {"name": "David", "age": 30},
+    {"name": "Eva", "age": 35},
+    {"name": "Zoe", "age": 28},
+]
+assert test(lst0, var0) == expected_output, 'Test failed'

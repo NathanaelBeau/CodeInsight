@@ -1,1 +1,0 @@
-Code to detect all words that start with a capital letter in a string  str0 

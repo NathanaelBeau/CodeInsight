@@ -1,2 +1,2 @@
-def test(lst0):
-    return tuple(reversed(lst0))
+def test(var0, var1):
+    return list(range(var0, var1))

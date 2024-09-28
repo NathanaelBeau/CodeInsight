@@ -1,6 +1,4 @@
-Check if all the values in the columns of the numpy matrix var0 are identical.
+Summing the second elements of sublists in each sublist of a list lst0 of lists 
 
-import numpy as np
-
-def test(var0):
+def test(lst0):
 

@@ -1,1 +1,1 @@
-Calculate the average of all elements in a nested list lst0.
+pythonic way to explode a list of tuples lst0  

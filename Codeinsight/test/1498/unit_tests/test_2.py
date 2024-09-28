@@ -1,7 +1,5 @@
-# Test 3
-columns = ['x', 'y']
-index = 2
-values = [10, 20]
-expected_result =  pd.DataFrame({"x": [ 10], "y": [ 20]},index=[2])
-result = test(columns, index, values)
-assert result.equals(expected_result), 'Test failed'
+lst0 = np.array([-1, -2, -3])
+lst1 = np.array([-4, -5, -6])
+expected_result =  np.sqrt((-1+4)**2 + (-2+5)**2 + (-3+6)**2)
+result = test(lst0, lst1)
+assert result == expected_result, 'Test failed'

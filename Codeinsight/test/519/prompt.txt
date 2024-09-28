@@ -1,6 +1,4 @@
-Group a dataframe df0 by a column named column_name0 and sum the other columns without turning the grouped by column into an index.
+Get the lengths of each word in a sentence named var0
 
-import pandas as pd
-
-def test(df0, column_name0):
+def test(var0):
 

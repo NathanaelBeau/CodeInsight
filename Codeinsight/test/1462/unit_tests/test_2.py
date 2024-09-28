@@ -1,3 +1,5 @@
-lst0 = [[10, 20], [30, 40], [50, 60]]
-expected_result =  10+20 + 30+40 + 50+60
-assert test(lst0) == expected_result, 'Test failed'
+arr0 = np.array([-2, -1, 0, 1, 2])
+expected_output = np.array([[ 0, -2,  0,  0, 0],
+                            [ 0, -1,  0,  1,  0],
+                            [ 0,  0,  0 , 2,  0]])
+assert np.array_equal(test(arr0), expected_output), 'Test failed'

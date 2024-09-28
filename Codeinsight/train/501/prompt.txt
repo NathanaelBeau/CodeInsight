@@ -1,5 +1,5 @@
-Find the minimum value in a numpy matrix arr0
+Pandas : Use groupby on each element of list  lst0  
 
-import numpy as np
-def test(arr0: np.ndarray):
+import pandas as pd
+def test(lst0):
 

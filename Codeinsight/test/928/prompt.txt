@@ -1,6 +1,4 @@
-Python: Split NumPy array based on values in the array arr0   
+Retrieve all indices of the character char0 from the string word.
 
-import numpy as np
-
-def test(arr0):
+def test(word, char0):
 

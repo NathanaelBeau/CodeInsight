@@ -1,2 +1,2 @@
-def test(lst0):
-    return sorted((sorted(item) for item in lst0), key=lambda x: (len(x), x))
+def test(str0):
+    return str0.decode('ascii')

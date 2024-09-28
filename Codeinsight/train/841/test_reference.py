@@ -1,5 +1,2 @@
-import pandas as pd
-import datetime
-
-def test(datetime0):
-    return pd.Timestamp(datetime0)
+def test(lst0):
+    return [tuple(lst0[i:i+2]) for i in range(0, len(lst0), 2)]

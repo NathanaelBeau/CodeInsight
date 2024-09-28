@@ -1,6 +1,4 @@
-import difflib
+import pandas as pd
 
-def test(var0, var1):
-    diff = list(difflib.ndiff(var0, var1))
-    insertions = [item[2:] for item in diff if item.startswith('+ ')]
-    return ''.join(insertions)
+def test(series0):
+    return series0.to_frame()

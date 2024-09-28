@@ -1,2 +1,6 @@
+import operator
+
 def test(lst0):
-    return [list(t) for t in zip(*lst0)]
+    lst0.sort(key=operator.attrgetter('resultType'))
+    return lst0
+

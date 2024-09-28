@@ -1,5 +1,4 @@
-df0 = pd.DataFrame({'W': ['c', 'd', 'c', 'd'], 'Z': [100, 200, 300, 400]})
-column_name0 = 'W'
-expected_result =  pd.DataFrame({'W': ['c', 'd'], 'Z': [400, 600]})
-result = test(df0.copy(), column_name0)
-assert result.equals(expected_result), 'Test failed'
+var0 = "Python is a programming language"
+expected_result =  [6, 2, 1, 11, 8]
+result = test(var0)
+assert result == expected_result, 'Test failed'

@@ -1,5 +1,4 @@
-Randomly select an item from the list lst0.
+Convert the string var0 to its lowercase form
 
-import random
-def test(lst0):
+def test(var0):
 

@@ -1,5 +1,4 @@
-var0 = "Bananas are tasty. I like bananas."
-var1 = "bananas"
-expected_result =  "Bananas are tasty. I like ."
-result = test(var0, var1)
+var0 = "OpenAI GPT3"
+expected_result =  "OAIGPT"
+result = test(var0)
 assert result == expected_result, 'Test failed'

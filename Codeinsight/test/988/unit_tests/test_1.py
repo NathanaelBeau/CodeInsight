@@ -1,5 +1,4 @@
-# Test 2
-lst0 = [[[0, 0], [0, 0]], [[0, 0], [0, 0]]]
-expected_result =  np.array(lst0)
-result = test(lst0)
-assert np.array_equal(result, expected_result), 'Test failed'
+df0 = pd.DataFrame({ 'Name': ['Alice', 'Bob', 'Charlie'], 'Age': [28, 35, 22] })
+var0 = 'Name'
+expected_output = { 'Alice': [28], 'Bob': [35], 'Charlie': [22] }
+assert test(df0, var0) ==expected_output, 'Test failed'

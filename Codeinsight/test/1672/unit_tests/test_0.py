@@ -1,5 +1,3 @@
-shape0 = (3, 3)
-var0 = 5
-expected_result =  np.array([[5, 5, 5], [5, 5, 5], [5, 5, 5]])
-result = test(shape0, var0)
-assert np.array_equal(result, expected_result), 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9]})
+expected_output = [('A', 1, 2, 3), ('B', 4, 5, 6), ('C', 7, 8, 9)]
+assert test(df0)== expected_output, 'Test failed'

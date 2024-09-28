@@ -1,4 +1,5 @@
-Add 1 to each integer value in a list lst0
+Reset the index on a series named ser0 to remove any multiindex  
 
-def test(lst0):
+import pandas as pd
+def test(ser0):
 

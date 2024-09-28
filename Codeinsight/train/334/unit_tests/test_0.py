@@ -1,12 +1,5 @@
-import numpy
-import math
-import pandas
-import string
-import datetime
-import json
-import itertools
-import random
-import functools
-import collections
-result = test(4)
-assert result == True, 'Test failed'
+# Unit Test 1
+dict0 = {'A': [1, 2, 3], 'B': [4, 5, 6]}
+expected_result =  pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+result = test(dict0)
+assert result.equals(expected_result), 'Test failed'

@@ -1,6 +1,0 @@
-Select rows from the pandas DataFrame df0 where the date in column var0 is between date0 and date1.
-
-import pandas as pd 
-
-def test(df0, var0, date0, date1):
-

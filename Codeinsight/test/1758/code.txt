@@ -1,5 +1,4 @@
-import pandas as pd
+import pandas as pd 
 
-def test(series0, var0):
-    indices = series0[series0 == var0].index
-    return indices[0] if len(indices) > 0 else None
+def test(df0, var0):
+    return df0.columns.get_loc(var0)

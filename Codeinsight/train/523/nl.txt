@@ -1,1 +1,1 @@
- remove identical items from a list lst0 and sort it in Python with sorted   
+Combine two pandas Series ser0 and ser1 into a DataFrame.

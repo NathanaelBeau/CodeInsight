@@ -1,4 +1,6 @@
-Remove all elements from list lst1 present in list lst0.
+Remove the unwanted_string str0 from the column named var0 in DataFrame df0.
 
-def test(lst0, lst1):
+import pandas as pd
+
+def test(df0, var0, str0):
 

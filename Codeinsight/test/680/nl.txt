@@ -1,1 +1,1 @@
-summarize a dictionary of arrays dict0 by calculating the sum of each key's values
+How to convert list lst0 to dictionnary?

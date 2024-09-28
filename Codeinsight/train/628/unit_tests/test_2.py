@@ -1,3 +1,4 @@
-str0= ['cat', 'dog', 'elephant', 'giraffe']
-expected_output = 21
-assert test(str0) ==expected_output, 'Test failed'
+arr0 = np.array([0.5, 1.5, 2.5])
+expected_result =  "0.5, 1.5, 2.5"
+result = test(arr0)
+assert result == expected_result, 'Test failed'

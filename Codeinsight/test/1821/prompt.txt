@@ -1,4 +1,4 @@
-List comprehension - converting strings in one list lst0, sum elements and convert to integers in another list   
+apply a logical operator to all elements in a python list  lst0 
 
 def test(lst0):
 

@@ -1,4 +1,5 @@
-sort the input list lst0 in ascending order 
+Compare the values of column col0 in DataFrame df0 with its previous row and store the result in a new column named 'compared 
 
-def test(lst0):
+import pandas as pd
+def test(df0, col0):
 

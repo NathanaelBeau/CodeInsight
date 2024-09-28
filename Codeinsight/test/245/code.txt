@@ -1,2 +1,2 @@
-def test(lst0):
-    return [''.join(map(str, t)) for t in lst0]
+def test(str0):
+    return str0.split(' ')

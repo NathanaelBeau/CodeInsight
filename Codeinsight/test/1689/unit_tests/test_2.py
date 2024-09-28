@@ -1,5 +1,4 @@
-dict0 = {'name': 'John', 'age': 30, 'city': 'New York'}
-dict1 = {'age': 25, 'city': 'London', 'country': 'UK'}
-expected_result =  {'age': 30, 'city': 'New York'}
-result = test(dict0, dict1)
-assert result == expected_result, 'Test failed'
+lst0 = [1, 2, 3]
+lst1 = [4, 5, 6]
+expected_output = []
+assert test(lst0, lst1) ==expected_output, 'Test failed'

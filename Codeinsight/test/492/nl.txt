@@ -1,1 +1,1 @@
-Parse a string str0 to an integer if it contains a number
+Sort a dictionary dct0 by the highest value of its nested list values in descending order   

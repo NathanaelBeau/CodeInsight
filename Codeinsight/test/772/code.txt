@@ -1,2 +1,2 @@
-def test(start0, end0, step0, start1, end1, step1):
-    return np.mgrid[start0:end0:step0, start1:end1:step1]
+def test(lst0, var0):
+    return [item for item in lst0 if item != var0]

@@ -1,3 +1,4 @@
-lst0 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-expected_output = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-assert test(lst0) == expected_output, 'Test failed'
+counter0 = Counter({'a': 3, 'b': 2, 'c': 5})
+expected_result =  10
+result = test(counter0)
+assert result == expected_result, 'Test failed'

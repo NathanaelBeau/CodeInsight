@@ -1,4 +1,0 @@
-Python: Split string str0 by list of separators  str1 
-
-def test(str0, str1):
-

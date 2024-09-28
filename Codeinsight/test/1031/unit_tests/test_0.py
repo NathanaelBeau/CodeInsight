@@ -1,3 +1,4 @@
-df1 = pd.DataFrame({ 'A': [0, 1, 2], 'B': [3, 0, 4], 'C': [5, 0, 0] })
-expected_result1 = (1.0, 0.8)
-assert test(df1) == expected_result1, 'Test failed'
+dict0 = { 'New York City': 'NYC', 'San Francisco': 'SF', 'Los Angeles': 'LA', 'Chicago': 'CHI', 'Miami': 'MIA' }
+arg0 = 'new york'
+expected_output = ['NYC']
+assert test(dict0, arg0) ==expected_output, 'Test failed'

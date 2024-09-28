@@ -1,4 +1,6 @@
-Find all duplicated elements between two lists lst0 and lst1.
+Filter string var0 to keep only alphanumeric characters, spaces, and ignore non-ASCII characters.
 
-def test(lst0: list, lst1: list) -> list:
+import re
+
+def test(var0):
 

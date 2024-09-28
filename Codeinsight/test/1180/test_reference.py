@@ -1,5 +1,4 @@
-def test(dict0, dict1):
-    result = {}
-    for key, value in dict0.items():
-        result[key] = dict1[value]
-    return result
+import pandas as pd
+
+def test(df1, df2):
+    return pd.concat([df1, df2], axis=1)

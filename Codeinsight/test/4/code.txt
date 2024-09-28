@@ -1,2 +1,2 @@
-def test(str0):
-    return str0.split('\n')
+def test(var0):
+    return sum(var0.values())

@@ -1,5 +1,4 @@
-Bin the column str0 of the dataframe df0 using the bin edges specified in lst0
+Generate a list by alternating elements from lists lst0 and lst1
 
-import pandas as pd
-def test(df0, str0, lst0):
+def test(lst0, lst1):
 

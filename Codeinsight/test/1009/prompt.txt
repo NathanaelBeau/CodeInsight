@@ -1,4 +1,6 @@
- find all positions of the maximum value in a list lst0   
+Count the number of true elements in a NumPy boolean array arr0.
 
-def test(lst0):
+import numpy as np
+
+def test(arr0):
 

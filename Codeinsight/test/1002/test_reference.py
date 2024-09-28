@@ -1,5 +1,4 @@
-import numpy as np
+import re
 
-def test(arr0, var0, var1):
-    indices = list(range(0, arr0.shape[var1], var0))
-    return np.delete(arr0, indices, axis=var1)
+def test(var0):
+    return re.findall(r'\b\w+\b', var0)

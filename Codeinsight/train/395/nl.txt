@@ -1,1 +1,2 @@
-Get indexes of all true boolean values from a list lst0.
+Create a cartesian product of two dataframes, df0 and 
+df1

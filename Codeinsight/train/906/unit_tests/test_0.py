@@ -1,4 +1,4 @@
-lst0 = []
-expected_result =  [()]
+lst0 = [5]
+expected_result =  []
 result = test(lst0)
 assert result == expected_result, 'Test failed'

@@ -1,1 +1,1 @@
-Find and return all newline characters in the string var0
+Append values var1 to a set var0 in Python   

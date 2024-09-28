@@ -1,4 +1,5 @@
-import pandas as pd
-
-def test(df0, func):
-    return df0.applymap(func)
+def test(lst0):
+    flattened_list = []
+    for tpl in lst0:
+        flattened_list.extend(tpl)
+    return flattened_list

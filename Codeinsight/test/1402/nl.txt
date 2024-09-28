@@ -1,1 +1,1 @@
-Remove non-alpha-numeric characters from the column col_name in the dataframe df0.
+Merge two or more lists (lists) with given order of merging  selector  

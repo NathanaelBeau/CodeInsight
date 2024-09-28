@@ -1,2 +1,2 @@
-def test(var0, lst0):
-    return [x[var0] for x in lst0]
+def test(lst0, var0):
+    return [x for x in lst0 if var0(x)]

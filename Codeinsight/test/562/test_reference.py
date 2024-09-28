@@ -1,5 +1,4 @@
-import re
+from itertools import repeat, chain
 
-def test(var0, var1):
-    pattern = r'\b\d{{{0},}}\b'.format(var1)
-    return re.findall(pattern, var0)
+def test(str0, var0):
+    return "".join(chain(*zip(*repeat(str0, var0))))

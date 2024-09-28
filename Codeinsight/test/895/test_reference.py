@@ -1,2 +1,3 @@
-def test(str0, str1):
-    return "".join([s + str0 for s in str1])[:-len(str0)]
+import numpy as np
+def test(arr0, arr1):
+    return np.array_equal(arr0, arr1)

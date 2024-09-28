@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0):
-    return np.amin(arr0), np.amax(arr0)
+def test(dict0, var0):
+    return [key for key in dict0 if dict0[key] == var0]

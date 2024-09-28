@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(arr0):
-    return not arr0.size
+def test(var0, dict0):
+    return var0 in dict0

@@ -1,1 +1,1 @@
-Create a series that contains the length of each list in the column col0 of DataFrame df0, and return this series. 
+Convert the integer var0 into its base 7 string representation.

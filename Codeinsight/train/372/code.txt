@@ -1,4 +1,5 @@
-import random
+import pandas as pd
 
-def test():
-    return [random.random() for _ in range(10)]
+def test(df, var0):
+    result = df.groupby(var0, as_index=False).head(1).reset_index(drop=True)
+    return result

@@ -1,3 +1,5 @@
-str0 = "python"
-expected_output = "nohtyp"
-assert test(str0) ==expected_output, 'Test failed'
+shape0 = (4, 1)
+var0 = True
+expected_result =  np.ones((4,1), dtype=bool)
+result = test(shape0, var0)
+assert np.array_equal(result, expected_result), 'Test failed'

@@ -1,3 +1,5 @@
 import numpy as np
-def test(arr0, var0):
-    return np.pad(arr0, pad_width=var0, mode='constant', constant_values=0)
+
+def test(df0):
+    df0 = df0.iloc[np.random.permutation(len(df0))].reset_index(drop=True)
+    return df0

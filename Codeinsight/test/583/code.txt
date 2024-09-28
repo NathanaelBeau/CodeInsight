@@ -1,2 +1,4 @@
-def test(lst0, lst1):
-    return [x for _, x in sorted(zip(lst1, lst0))]
+import re
+
+def test(lst0, var0):
+    return [item for item in lst0 if not re.search(var0, item)]

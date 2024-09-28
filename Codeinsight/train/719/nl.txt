@@ -1,1 +1,1 @@
-Convert a dataframe df0 into a list of dictionaries
+Check if a numpy array arr0 is empty.

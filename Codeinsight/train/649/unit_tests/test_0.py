@@ -1,3 +1,6 @@
-lst0 = [1, 2, 3, 4]
-expected_output = {((3, 4), (1, 2)), ((3, 1), (2, 4)), ((2, 3), (1, 4)), ((4, 3), (1, 2)), ((4, 3), (2, 1)), ((2, 3), (4, 1)), ((2, 1), (4, 3)), ((1, 3), (4, 2)), ((3, 2), (1, 4)), ((3, 1), (4, 2)), ((1, 4), (2, 3)), ((3, 4), (2, 1)), ((4, 2), (1, 3)), ((4, 2), (3, 1)), ((1, 4), (3, 2)), ((2, 4), (1, 3)), ((4, 1), (2, 3)), ((2, 4), (3, 1)), ((1, 3), (2, 4)), ((3, 2), (4, 1)), ((4, 1), (3, 2)), ((1, 2), (4, 3)), ((1, 2), (3, 4)), ((2, 1), (3, 4))}
-assert test(lst0) ==expected_output, 'Test failed'
+df0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry']})
+var0 = 'a'
+var1 = 'A'
+expected_result =  pd.DataFrame({'A': ['Apple', 'bAnAnA', 'cherry']})
+result = test(df0, 'A', var0, var1)
+assert result.equals(expected_result), 'Test failed'

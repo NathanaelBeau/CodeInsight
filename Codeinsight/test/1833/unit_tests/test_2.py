@@ -1,4 +1,6 @@
-arr2 = np.array([0, 0, 0, 0, 1, 1, 1])
-var2 = 0
-expected_output_2 = 4  # First value greater than 0 is 1
-assert test(arr2, var2) == expected_output_2, 'Test failed'
+import pandas as pd 
+df0 = pd.DataFrame({'M': [7], 'N': [8], 'O': [9]})
+var0 = 0
+expected_result =  pd.Series([7], name='M')
+result = test(df0, var0)
+assert result.equals(expected_result), 'Test failed'

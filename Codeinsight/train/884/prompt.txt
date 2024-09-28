@@ -1,5 +1,6 @@
-Replace all negative values with 0 in a numpy array arr0
+Find matches in string var0 that start and end with the pattern var1.
 
-import numpy as np
-def test(arr0):
+import re
+
+def test(var0, var1):
 

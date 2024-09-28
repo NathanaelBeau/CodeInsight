@@ -1,1 +1,1 @@
-Convert camel case string var0 to space delimited string taking acronyms into account.
+Replace occurrences of the regular expression pattern pattern with replacement in string str0.

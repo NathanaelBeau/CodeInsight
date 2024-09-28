@@ -1,4 +1,2 @@
-import numpy as np
-from scipy.special import factorial
-def test(var0):
-    return factorial(var0)
+def test(str0, var0, var1):
+    return str0[:var0] + var1 + str0[(var0+1):]

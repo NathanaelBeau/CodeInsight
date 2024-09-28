@@ -1,9 +1,6 @@
-df0 = pd.DataFrame({'user_id': [1, 2, 3, 4, 5],
-                            'data': ['A', 'B', 'C', 'D', 'E']})
-df1 = pd.DataFrame({'user_id': [3, 4, 5, 6, 7],
-                            'data': ['C', 'D', 'E', 'F', 'G']})
-var0 = 'user_id'
-expected_output = pd.DataFrame({'user_id': [3, 4, 5],
-                                        'data_x': ['C', 'D', 'E'],
-                                        'data_y': ['C', 'D', 'E']})
-assert test(df0, df1, var0) .equals(expected_output), 'Test failed'
+import pandas as pd
+var0 = 'A'
+var1 = pd.DataFrame([[1, 2, 3], [1, 5, 6], [1, 8, 9]], columns=['A', 'B', 'C'])
+expected_result =  pd.DataFrame([[1, 15, 18]], columns=['A', 'B', 'C'])
+result = test(var0, var1)
+assert result.equals(expected_result), 'Test failed'

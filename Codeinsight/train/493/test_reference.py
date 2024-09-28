@@ -1,2 +1,2 @@
-def test(tup0):
-    return ' '.join(map(str, tup0))
+def test(lst0):
+    return [int(numeric_string) for numeric_string in lst0]

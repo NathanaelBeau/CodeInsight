@@ -1,3 +1,4 @@
-str0 = "This is is a test test string string."
-expected_output = "This is a test string."
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = [{'a': 1, 'b': 2}, {'b': 3, 'c': 4}]
+expected_result =  {'a': 1, 'b': 3, 'c': 4}
+result = test(lst0)
+assert result == expected_result, 'Test failed'

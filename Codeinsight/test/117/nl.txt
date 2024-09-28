@@ -1,2 +1,1 @@
-Calculate the sum of all elements in a list 
-lst0   
+Find the common elements between two lists, lst0 and lst1.

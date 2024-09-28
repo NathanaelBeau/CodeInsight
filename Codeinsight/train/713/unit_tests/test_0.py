@@ -1,4 +1,4 @@
-lst0 = [1, 2, 3, 4, 5]
-expected_result =  "1\n2\n3\n4\n5"
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+arr0 = np.array([[0,1],[1,0],[0,1],[1,1]])
+expected_result =  (np.array([0, 2]),)
+result = test(arr0)
+assert np.array_equal(result, expected_result), 'Test failed'

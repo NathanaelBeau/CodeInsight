@@ -1,3 +1,3 @@
-import numpy as np
-def test(arr0):
-    return arr0.astype(float)
+import operator
+def test(dict0):
+    return sorted(dict0.items(), key=operator.itemgetter(1, 0))

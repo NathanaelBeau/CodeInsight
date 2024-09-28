@@ -1,5 +1,4 @@
-Detect if the numpy array arr0 contains any non-numeric values
+Get max value index for a list of dicts lst0 with max
 
-import numpy as np
-def test(arr0):
+def test(lst0):
 

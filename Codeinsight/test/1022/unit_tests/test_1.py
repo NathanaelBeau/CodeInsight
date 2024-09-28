@@ -1,5 +1,3 @@
-lst0 = ['cat', 'dog', 'elephant', 'bird']
-lst1 = [4, 1, 3, 2]
-expected_result =  ['dog', 'bird', 'elephant', 'cat']
-result = test(lst0, lst1)
-assert result == expected_result, 'Test failed'
+str0 = 'Python'
+expected_output = 'P,y,t,h,o,n'
+assert test(str0) ==expected_output, 'Test failed'

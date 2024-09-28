@@ -1,4 +1,4 @@
-lst0 = (5, 6, 7, 8, 9)
-expected_result =  ((5,), (6,), (7,), (8,), (9,))
+lst0 = ['a', 'b', 'a', 'c', 'c', 'b', 'b']
+expected_result =  ['b', 'b', 'b', 'a', 'a', 'c', 'c']
 result = test(lst0)
 assert result == expected_result, 'Test failed'

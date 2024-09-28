@@ -1,3 +1,4 @@
-str0 = "Monday 1, Tuesday 2, and Wednesday 3"
-expected_output = ['Monday 1, Tuesday 2, and Wednesday 3']
-assert test(str0) ==expected_output, 'Test failed'
+dict1 = {'apple': 5, 'banana': 3, 'cherry': 8}
+lst1 = ['apple', 'cherry']
+expected_output2 = {'apple': 5, 'cherry': 8}
+assert test(dict1, lst1) == expected_output2, 'Test failed'

@@ -1,4 +1,4 @@
-# Test 3
-var0 = "No double backslashes here."
-expected_result =  "No double backslashes here."
-assert test(var0) == expected_result, 'Test failed'
+# Test 2
+lst0 = [['a', 'b'], ['c', 'd'], ['e', 'f']]
+expected_result =  ['b', 'd', 'f']
+assert test(lst0) == expected_result, 'Test failed'

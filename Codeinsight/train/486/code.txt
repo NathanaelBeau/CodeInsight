@@ -1,5 +1,7 @@
 import pandas as pd
 
-def test(df0, var0, str0):
-    df0[var0] = df0[var0].str.replace(str0, '', regex=False)
-    return df0
+def test(df0, column_name0, threshold0, column_name1):
+    filtered_df = df0.query(f"{column_name0} > {threshold0}")
+    count_condition = len(filtered_df)
+    sum_condition = filtered_df[column_name1].sum()
+    return count_condition, sum_condition

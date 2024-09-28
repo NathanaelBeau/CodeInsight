@@ -1,1 +1,0 @@
-Split the list lst0 into sub-lists of length var0.

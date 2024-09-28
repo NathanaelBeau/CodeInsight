@@ -1,5 +1,6 @@
-Compute the row-wise dot product of two matrices mat0 and mat1  
+Pandas DataFrame Groupby two columns lst0 and lst1 and get counts   on dataframe df0
 
-import numpy as np
-def test(mat0, mat1):
+import pandas as pd
+
+def test(lst0, lst1):
 

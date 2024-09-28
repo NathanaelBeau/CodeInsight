@@ -1,4 +1,6 @@
-Retrieve the value at position idx0 from the dictionary dict0's values list. If the index is out of bounds, return None.
+Sort a list of lists lst0 according to the second element
 
-def test(dict0, idx0):
+import operator
+
+def test(lst0):
 

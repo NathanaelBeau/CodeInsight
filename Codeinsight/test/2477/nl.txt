@@ -1,1 +1,0 @@
-Divide each row of the numpy array arr0 by the corresponding element in the vector vec0

@@ -1,6 +1,4 @@
-Sort the list lst0 such that positive numbers (including zero) come before negative numbers, maintaining the relative order of the positives and negatives.  
+Get indices of the top N  var0 values of a list   lst0 
 
-from bisect import bisect
-
-def test(lst0):
+def test(lst0, var0):
 

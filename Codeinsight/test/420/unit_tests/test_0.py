@@ -1,11 +1,4 @@
-df0 = pd.DataFrame({
-            'A': [0, 1, 2],
-            'B': [0, 0, 0],
-            'C': [3, 4, 5]
-        })
-expected = pd.DataFrame({
-            'A': [np.nan, 1, 2],
-            'C': [3, 4, 5]
-        })
-result = test(df0)
-assert result.equals(expected), 'Test failed'
+df1 = pd.DataFrame({'col1': [[1, 2, 3], [4, 5], [6], [], [7, 8]]})
+expected_result1 = pd.Series([3, 2, 1, 0, 2], name='col1')
+result1 = test(df1, 'col1')
+assert result1.equals(expected_result1), 'Test failed'

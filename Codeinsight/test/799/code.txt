@@ -1,3 +1,3 @@
-def test(arr0, val0):
-    coordinates = ((i, row.index(val0)) for i, row in enumerate(arr0) if val0 in row)
-    return next(coordinates, None)
+import pandas as pd
+def test(var0):
+    return var0.groupby('variable').size().reset_index(name='counts')

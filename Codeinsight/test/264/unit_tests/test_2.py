@@ -1,3 +1,4 @@
-num0 = 3.999
-expected_result =  "4.00"
-assert test(num0) == expected_result, 'Test failed'
+var0 = [1, 2, 3]
+expected_result =  False
+result = test(var0)
+assert result == expected_result, 'Test failed'

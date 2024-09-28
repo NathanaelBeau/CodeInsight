@@ -1,4 +1,4 @@
-lst0 = ["apple", "banana", "cherry", "date", "fig", "grape"]
-var0 = 3
-expected_output = [["apple", "banana"], ["cherry", "date"], ["fig", "grape"]]
-assert test(lst0, var0) == expected_output, 'Test failed'
+lst0 = [(7, 8), (9, 10)]
+expected_result =  ["78", "910"]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

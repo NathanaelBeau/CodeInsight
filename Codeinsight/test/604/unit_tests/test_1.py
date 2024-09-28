@@ -1,3 +1,6 @@
-lst0 = [('a', 'b', 'c'), ('d', 'e', 'f')]
-expected_output = ['a', 'b', 'c', 'd', 'e', 'f']
-assert test(lst0) ==expected_output, 'Test failed'
+str0 = "Python"
+var0 = 3
+var1 = "o"
+expected_result =  "Pytoon"
+result = test(str0, var0, var1)
+assert result == expected_result, 'Test failed'

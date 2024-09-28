@@ -1,6 +1,5 @@
-# Test 2
-var0 = "The quick brown fox jumps over the lazy dog"
-var1 = "jumps"
-var2 = 2
-expected_result =  ("brown", "fox", "over", "the")
-assert test(var0, var1, var2) == expected_result, 'Test failed'
+s1 = pd.Series([4, 5, 6])
+func_map_2 = lambda x: x**3
+expected_result_map_2 = pd.Series([64, 125, 216])
+result_map_2 = test(s1, func_map_2)
+assert result_map_2.equals(expected_result_map_2), 'Test failed'

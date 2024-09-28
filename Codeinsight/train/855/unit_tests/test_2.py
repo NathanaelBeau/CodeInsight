@@ -1,5 +1,5 @@
-var0 = np.array([1, 2, 3])
-var1 = np.array([4, 5, 6])
-expected_result =  np.sqrt(27)
-result = test(var0, var1)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame({'name': ['pear', 'melon', 'peach', 'plum']})
+lst0 = ['melon', 'peach', 'pear', 'plum']
+expected_result =  pd.DataFrame({'name': ['melon', 'peach', 'pear', 'plum']})
+result = test(df0, lst0)
+assert result.equals(expected_result), 'Test failed'

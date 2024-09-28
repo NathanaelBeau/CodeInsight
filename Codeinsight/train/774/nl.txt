@@ -1,1 +1,1 @@
-Create a dictionary with keys as indices and values from a list lst0
+Pandas: Elementwise multiplication of two dataframes  df0 and df1

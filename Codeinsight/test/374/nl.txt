@@ -1,1 +1,1 @@
-Python sorting - A list of objects   lst0 with operator
+Generate a list of integers starting from var0 and ending with var1

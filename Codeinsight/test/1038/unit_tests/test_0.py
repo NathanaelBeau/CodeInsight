@@ -1,5 +1,3 @@
-var0 = 3
-var1 = 3
-expected_result =  pd.DataFrame(0, index=range(3), columns=range(3))
-result = test(var0, var1)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [[1, 2, 3], [2, 3, 4], [3, 4, 5], [1, 2, 3]]  
+expected_output = [{1, 2, 3}, {2, 3, 4}, {3, 4, 5}]
+assert test(lst0) ==expected_output, 'Test failed'

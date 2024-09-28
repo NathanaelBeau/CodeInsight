@@ -1,3 +1,3 @@
-arg = pd.DataFrame({'A': [1, 2, 3], 'B': [4.0, 5.0, 6.0]})
-expected_output = pd.Series({'A': int, 'B': float})
-assert test(arg).equals(expected_output), 'Test failed'
+lst0 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+expected_output = (1, 4, 7)
+assert test(lst0) ==expected_output, 'Test failed'

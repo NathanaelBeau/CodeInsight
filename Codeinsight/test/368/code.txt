@@ -1,2 +1,2 @@
 def test(str0):
-    return str0[0].isdigit()
+    return list(filter(None, map(str.strip, str0.split(','))))

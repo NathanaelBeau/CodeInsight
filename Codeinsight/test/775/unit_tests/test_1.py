@@ -1,3 +1,3 @@
-lst0 = [[1, 2, 3, 4], [1, 2, 3], [4, 5], [10, 2]]
-expected_output = [[10, 2]]
-assert test(lst0) == expected_output, 'Test failed'
+str0 = "This.is.a.Test"
+expected_output = "This. is. a. Test"
+assert test(str0) == expected_output, 'Test failed'

@@ -1,5 +1,1 @@
-# Test 3
-df0 = pd.DataFrame({'Name': ['Alice', np.nan, 'Charlie'], 'Age': [25, 30, np.nan]})
-expected_result =  pd.DataFrame({'Name': ['Alice', '', 'Charlie'], 'Age': [25, 30, ""]})
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+assert test("   apple, banana  ,  cherry, date  ") == ["apple", "banana", "cherry", "date"], 'Test failed'

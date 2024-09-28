@@ -1,5 +1,4 @@
-data = {'X': [10, 20, 30], 'Y': [40, 50, 60]}
-df0 = pd.DataFrame(data)
-expected_data = {'X': [10, 20, 30], 'Y': [40, 50, 60]}
-expected_output = pd.DataFrame(expected_data)
-assert test(df0) .equals(expected_output), 'Test failed'
+lst0 = [9, 1, 2, 3, 9, 9, 4]
+expected_result =  [(3, 9), (9, 9)]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

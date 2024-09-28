@@ -1,1 +1,1 @@
-Split the string var0 on new lines, tabs, and one or more spaces.
+Group rows of a pandas DataFrame df0 based on column var0 and convert the values of column var1 into lists.

@@ -1,5 +1,5 @@
-# Test 2
-var0 = "apple b banana c cherry"
-var1 = "X"
-expected_result =  "apple X banana X cherry"
-assert test(var0, var1) == expected_result, 'Test failed'
+arr0 = np.array([[5], [15], [25]])
+vec0 = np.array([5, 15, 25])
+expected_result =  np.array([[1], [1], [1]])
+result = test(arr0, vec0)
+assert np.array_equal(result, expected_result), 'Test failed'

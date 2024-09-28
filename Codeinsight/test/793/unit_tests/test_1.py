@@ -1,3 +1,4 @@
-str0 = "Python is awesome"
-expected_output = ["Python", "is", "awesome"]
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = ['a', 'b', 'c', 'd', 'e']
+expected_result =  pd.DataFrame({'Column_Name': ['a', 'b', 'c', 'd', 'e']})
+result = test(lst0)
+assert result.equals(expected_result), 'Test failed'

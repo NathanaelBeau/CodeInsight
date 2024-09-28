@@ -1,1 +1,1 @@
-Compute the total sum of all elements in a two-dimensional list lst0.
+Design a function that test if a number var1 is in the range from 4 to 10

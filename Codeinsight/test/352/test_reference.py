@@ -1,2 +1,4 @@
-def test(lst0, lst1):
-    return [lst0[i] + [lst1[i]] for i in range(4)]
+import collections
+
+def test(str0):
+    return collections.Counter(str0).most_common(1)[0]

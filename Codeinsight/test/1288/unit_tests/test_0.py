@@ -1,4 +1,4 @@
-dict0 = {'name': 'John', 'age': 30, 'gender': 'male'}
-expected_result =  {'name', 'age', 'gender'}
-result = test(dict0)
+lst0 = [('John', 30), ('Jane', 25), ('Mike', 40)]
+expected_result =  ['John', 'Jane', 'Mike']
+result = test(lst0)
 assert result == expected_result, 'Test failed'

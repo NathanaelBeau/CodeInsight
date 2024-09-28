@@ -1,4 +1,6 @@
-str0 = "1234,5678,90,12,34,567,89,0"
-var0 = ","
-expected_output = "1234,5678,90,12,34,567,89"
-assert test(str0, var0) ==expected_output, 'Test failed'
+var0 = 'C'
+var1 = 0.5
+df0 = pd.DataFrame({'A': [13, 14, 15], 'B': [16, 17, 18], 'C': [19, 20, 21]})
+expected_result =  pd.DataFrame({'A': [13, 14, 15], 'B': [16, 17, 18], 'C': [9.5, 10.0, 10.5]})
+result = test(df0.copy(), var0, var1)
+assert result.equals(expected_result), 'Test failed'

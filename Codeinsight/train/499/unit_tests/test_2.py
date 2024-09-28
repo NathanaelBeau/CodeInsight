@@ -1,4 +1,5 @@
-df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9]})
-str0 = 'A'
-expected_output = pd.DataFrame({'B': [4, 5, 6], 'C': [7, 8, 9]})
-assert test(df0, str0).equals(expected_output), 'Test failed'
+arr0 = np.array([[10, 11, 12], [13, 14, 15], [16, 17, 18]])
+var0 = 0
+expected_result =  np.array([[10, 11, 12], [13, 14, 15], [16, 17, 18]])
+result = test(arr0, var0)
+assert np.array_equal(result, expected_result), 'Test failed'

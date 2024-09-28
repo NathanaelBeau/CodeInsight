@@ -1,6 +1,5 @@
-dict0 = {'name': 'John', 'age': 30, 'gender': 'Male'}
-var0 = 'name'
-var1 = 'city'
-var2 = 'gender'
-expected_output = {'name': 'John', 'city': None, 'gender': 'Male'}
-assert test(dict0, var0, var1, var2) ==expected_output, 'Test failed'
+arr0 = np.array([10, 20])
+arr1 = np.array([1, 2, 3, 4])
+expected_output = np.array([[10, 20, 30, 40],
+                            [20, 40, 60, 80]])
+assert (test(arr0, arr1)  == expected_output).all(), 'Test failed'

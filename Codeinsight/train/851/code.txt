@@ -1,4 +1,4 @@
-import pandas as pd
 
-def test(df0):
-    return df0['Date'].agg(['min', 'max'])
+
+def test(var0):
+    return any(char.isalpha() for char in var0)

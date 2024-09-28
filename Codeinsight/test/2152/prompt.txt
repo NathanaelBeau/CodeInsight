@@ -1,4 +1,0 @@
-Python:  remove the white space from all lines   in string str0
-
-def test(str0):
-

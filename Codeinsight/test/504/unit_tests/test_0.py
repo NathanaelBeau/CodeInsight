@@ -1,4 +1,3 @@
-var0 = "Hello World!"
-var1 = r"^(\w+)"
-expected_result =  "Hello"
-assert test(var0, var1) == expected_result, 'Test failed'
+df0 = pd.DataFrame({ 'A': [1, 2, 3], 'B': [4, 5, 6], 'A_1': [7, 8, 9] })
+expected_result =  pd.DataFrame({ 'A': [4, 5, 6], 'B': [4, 5, 6] })
+assert test(df0).equals(expected_result), 'Test failed'

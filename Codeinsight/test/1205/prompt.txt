@@ -1,10 +1,6 @@
-"Standardize the values in the dataframe df0 using sklearn's fit_transform and return the result as a dataframe. 
+Convert the index of DataFrame df0 into a column.
 
 import pandas as pd
-import numpy as np
-from pandas.testing import assert_frame_equal
-
-from sklearn.preprocessing import StandardScaler
 
 def test(df0):
 

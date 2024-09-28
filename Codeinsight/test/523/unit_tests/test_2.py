@@ -1,4 +1,6 @@
-lst0 = [(10, 20, 30), (100, 200, 300), (1000, 2000, 3000)]
-tpl0 = (-5, -10, -15)
-expected_output = [(5, 10, 15), (95, 190, 285), (995, 1990, 2985)]
-assert test(lst0, tpl0) == expected_output, 'Test failed'
+# Test 3
+df0 = pd.DataFrame({'Group': ['alpha', 'beta', 'alpha', 'beta'], 'Score': [50, 75, 90, 60]})
+var0 = 'Group'
+expected_result =  pd.DataFrame({'Score': [140, 135]}, index=['alpha', 'beta'])
+result = test(df0, var0)
+assert result.equals(expected_result), 'Test failed'

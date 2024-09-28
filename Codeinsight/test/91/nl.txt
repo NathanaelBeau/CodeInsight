@@ -1,1 +1,1 @@
-convert a dictionary dict0 into a NumPy array with the specified data type dtype.
+ find the count of a word str1 in a string str0 with count   

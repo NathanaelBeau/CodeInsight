@@ -1,3 +1,4 @@
-def test(lst0):
-    lst0 = []
-    return lst0
+import json
+
+def test(str0):
+    return json.loads(str0.replace("'", '"'))

@@ -1,4 +1,6 @@
-Convert the integer var0 into its base 7 string representation.
+Reset the index of the dataframe df0.
 
-def test(var0):
+import pandas as pd
+
+def test(df0):
 

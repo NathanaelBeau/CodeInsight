@@ -1,1 +1,1 @@
-Python - Speed up for converting a categorical variable to it&#39;s numerical index on column col0 on datframe pandas df0 with pd.factorize
+Convert a categorical variable to it&#39;s numerical index on column col0 on dataframe pandas df0 with astype

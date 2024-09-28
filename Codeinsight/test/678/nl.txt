@@ -1,1 +1,1 @@
-Remove all symbols (non-alphanumeric characters) from a string str0.
+How to add a column to a multi-indexed DataFrame df0?   

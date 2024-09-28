@@ -1,2 +1,2 @@
-def test(var0):
-    return [i // 2 for i in range(var0)]
+def test(lst0):
+    return {k: v for d in lst0 for k, v in d.items()}

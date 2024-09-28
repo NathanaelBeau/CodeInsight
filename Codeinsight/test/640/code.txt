@@ -1,3 +1,2 @@
-def test(d0):
-    return dict(sorted(d0.items(), key=lambda item: item[1], reverse=True))
-
+def test(dict0):
+    return {k: v for k, v in dict0.items() if 2 < k < 4}

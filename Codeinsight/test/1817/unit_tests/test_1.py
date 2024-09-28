@@ -1,4 +1,4 @@
-lst0 = [10, 20, 30]
-expected_result =  [11, 21, 31]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+ser0 = pd.Series([7, 8, 9], index=pd.MultiIndex.from_tuples([('g', 7), ('h', 8), ('i', 9)]))
+expected_result =  pd.Series([7, 8, 9])
+result = test(ser0)
+assert result.equals(expected_result), 'Test failed'

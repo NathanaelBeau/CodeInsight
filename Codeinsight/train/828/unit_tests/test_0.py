@@ -1,4 +1,3 @@
-ser0 = pd.Series([10, 20, 30])
-expected_result =  10
-result = test(ser0)
-assert result == expected_result, 'Test failed'
+df1 = pd.DataFrame({'a': [1, 2, 3], 'b': [4, 5, 6]})
+expected_output1 = [1, 2, 3]
+assert test(df1) == expected_output1, 'Test failed'

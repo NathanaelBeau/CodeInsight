@@ -1,4 +1,4 @@
-Sum the corresponding elements of multiple lists lst_args
+Replace double backslashes with a single backslash in the string var0.
 
-def test(*lst_args):
+def test(var0):
 

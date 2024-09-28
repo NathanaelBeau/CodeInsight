@@ -1,5 +1,3 @@
-import pandas as pd
-
-def test(df0):
-    df0.reset_index(drop=True, inplace=True)
-    return df0
+import re
+def test(str0):
+    return re.split(r'[.,;!?]', str0)

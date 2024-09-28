@@ -1,9 +1,5 @@
-# Test 2
-df0 = pd.DataFrame({'X': ['apple/orange', 'banana/grape', 'cherry/peach']})
-var0 = 'X'
-var1 = 'Fruit1'
-var2 = 'Fruit2'
-var3 = '/'
-expected_result =  pd.DataFrame({'X': ['apple/orange', 'banana/grape', 'cherry/peach'], 'Fruit1': ['apple', 'banana', 'cherry'], 'Fruit2': ['orange', 'grape', 'peach']})
-result = test(df0, var0, var1, var2, var3)
-assert result.equals(expected_result), 'Test failed'
+mat1 = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
+var0, var1 = 0, 2
+expected_result =  np.array([[[1, 5], [3, 7]], [[2, 6], [4, 8]]])
+result = test(mat1, var0, var1)
+assert np.array_equal(result, expected_result), 'Test failed'

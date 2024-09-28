@@ -1,3 +1,5 @@
-lst0 = [{'name': 'John', 'age': 25}, {'age': 30, 'city': 'New York'}]
-expected_output = {'name': 'John', 'age': 30, 'city': 'New York'}
-assert test(lst0) ==expected_output, 'Test failed'
+lst0 = [0, 0, 0]
+lst1 = [1, 1, 1]
+expected_result =  np.sqrt(3)
+result = test(lst0, lst1)
+assert result == expected_result, 'Test failed'

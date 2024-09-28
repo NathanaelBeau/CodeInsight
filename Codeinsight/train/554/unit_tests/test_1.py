@@ -1,3 +1,3 @@
-str0 = '   Hello    world   !    '
-expected_output = ' Hello world ! '
-assert test(str0) ==expected_output, 'Test failed'
+var0 = "Hello"
+expected_output = 'var0'
+assert test(var0) ==expected_output, 'Test failed'

@@ -1,3 +1,3 @@
-lst0 = ['a', 'b', 'c', 'b', 'a', 'd']
-expected_output = [0, 1, 2, 1, 0, 3]
-assert (test(lst0)  == expected_output).all(), 'Test failed'
+lst0 = ["949.0", "1099.0", "750.0", "200.0", "1500.0"]
+expected_output = ["200.0", "750.0", "949.0", "1099.0", "1500.0"]
+assert test(lst0) ==expected_output, 'Test failed'

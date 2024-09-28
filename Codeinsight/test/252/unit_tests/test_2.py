@@ -1,7 +1,4 @@
-df0 = pd.DataFrame({'K': ['a', 'b'], 'L': ['c', 'd'], 'M': ['e', 'f']})
-df1 = pd.DataFrame({'K': ['a', 'b'], 'N': ['g', 'h']})
-var0 = 'K'
-lst0 = ['K', 'L']
-expected_result =  pd.DataFrame({'K': ['a', 'b'], 'L': ['c', 'd'], 'N': ['g', 'h']})
-result = test(df0, df1, var0, lst0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [1.1, 2.2, 3.3, 4.4, 5.5]
+lst1 = [2, 4]
+expected_output = [3.3, 5.5]
+assert test(lst0, lst1) ==expected_output, 'Test failed'

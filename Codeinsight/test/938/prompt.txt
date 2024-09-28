@@ -1,4 +1,6 @@
-Concatenate key/value pairs in dictionary dic0 using ', ' as a separator into a single string.
+Calculate the mean row and column index of the nonzero values in a dataframe df0
 
-def test(dic0):
+import pandas as pd
+
+def test(df0):
 

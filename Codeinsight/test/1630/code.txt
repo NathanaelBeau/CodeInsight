@@ -1,5 +1,3 @@
-import pandas as pd
 import numpy as np
-
-def test(df0):
-    return df0.dropna(axis=1, how='all')
+def test(arr0, lst0):
+    return np.append(arr0, [lst0], axis=0)

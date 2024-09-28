@@ -1,1 +1,1 @@
-multi-column factorize in pandas with columns var0 and var1 and values lst0 and lst1
+Extract a substring from var0 using the regular expression pattern var1.

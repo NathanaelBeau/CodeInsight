@@ -1,4 +1,3 @@
-Counting the amount of occurrences in a list lst0 of tuples   with Counter from collections  
-
-def test(lst0):
+summarize a dictionary of arrays dict0 by calculating the sum of each key's values
+def test(dict0):
 

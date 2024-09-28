@@ -1,2 +1,5 @@
-def test(var0, var1, lst0):
-    return [*filter(lambda x: x.get(var1) == var0, lst0)]
+import pandas as pd
+
+def test(df0, var0, var1):
+    df0.columns.values[var0] = var1
+    return df0

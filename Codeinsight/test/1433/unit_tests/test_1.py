@@ -1,8 +1,4 @@
-lst0 = [1, 2, 3]
-lst1 = [10, 20, 30]
-lst2 = [100, 200, 300]
-lst3 = [1000, 2000, 3000]
-lst4 = [10000, 20000, 30000]
-lst5 = [100000, 200000, 300000]
-expected_output = True
-assert test(lst0, lst1, lst2, lst3, lst4, lst5) == expected_output, 'Test failed'
+df2 = pd.DataFrame({'A': [1, 2, 3, 4], 'B': [5, 6, 7, 8]})
+expected_result2 = pd.DataFrame({'A': [1, 3, 4], 'B': [5, 7, 8]})
+result2 = test(df2, 'A', 2)
+assert result2.equals(expected_result2), 'Test failed'

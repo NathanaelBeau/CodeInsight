@@ -1,3 +1,5 @@
-import numpy as np
-def test(arr0):
-    return arr0 / arr0.sum(axis=1)[:, np.newaxis]
+import re
+
+def test(var0):
+    match = re.search(r'a+(b)', var0)
+    return match.group(1) if match else None

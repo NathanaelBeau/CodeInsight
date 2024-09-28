@@ -1,4 +1,5 @@
-var0 = 7
-expected_result =  5040
-result = test(var0)
-assert result == expected_result, 'Test failed'
+str0 = "Hello World"
+var0 = 6
+var1 = "!"
+expected_output = "Hello !orld"
+assert test(str0, var0,var1)==expected_output, 'Test failed'

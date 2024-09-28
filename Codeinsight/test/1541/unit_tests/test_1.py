@@ -1,5 +1,7 @@
-str0 = "0:3"
-lst0 = ["apple", "banana", "cherry", "date"]
-expected_result2 = ["apple", "banana", "cherry"]
-result2 = test(str0, lst0)
-assert test(str0, lst0) ==expected_result2, 'Test failed'
+lst0 = [range(5), range(5), range(5)]
+expected_output = [(0, 0, 0),
+ (1, 1, 1),
+ (2, 2, 2),
+ (3, 3, 3),
+ (4, 4, 4)]
+assert test(lst0) == expected_output, 'Test failed'

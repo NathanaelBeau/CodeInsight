@@ -1,3 +1,4 @@
-import numpy as np
-def test(arr0, var0):
-    return np.repeat(arr0[:, :, np.newaxis], var0, axis=2)
+from functools import reduce
+
+def test(lst0):
+    return reduce(lambda x, y: 10 * x + y, lst0)

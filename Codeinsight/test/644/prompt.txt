@@ -1,4 +1,6 @@
-Count the number of True values associated with the key 'success' in the dictionary dct0.
+Get the indices of the x and y axes in a Numpy array np_array where the array value is equal to value.
 
-def test(dct0):
+import numpy as np
+
+def test(np_array: np.ndarray, value: float) -> tuple:
 

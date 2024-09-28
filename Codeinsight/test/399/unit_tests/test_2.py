@@ -1,4 +1,4 @@
-var0 = 0
-expected_result =  '00'
-result = test(var0)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame({'M': ['a', None, 'c'], 'N': [None, 'b', 'd']})
+expected_result =  pd.DataFrame({'M': ['a', np.nan, 'c'], 'N': [np.nan, 'b', 'd']})
+result = test(df0)
+assert result.equals(expected_result), 'Test failed'

@@ -1,4 +1,4 @@
-input_list = ['hello', 'hello', 'hello']
-expected_result =  True
-result = test(input_list)
-assert result==expected_result, 'Test failed'
+s3 = "apple, orange, apple!"
+pattern3 = r"apple"
+expected_output3 = ["apple", "apple"]
+assert test(s3, pattern3) == expected_output3, 'Test failed'

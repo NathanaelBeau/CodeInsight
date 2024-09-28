@@ -1,4 +1,4 @@
-reverse tuples elements inside each tuple in list of tuples lst0  in Python  
+Return a list containing elements from the list lst0 where the sum of the elements in each sub-list is greater than 10.
 
-def test(lst0):
+def test(lst0: list) -> list:
 

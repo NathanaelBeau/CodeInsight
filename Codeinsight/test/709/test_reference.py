@@ -1,2 +1,4 @@
-def test(dict0):
-    return max(dict0, key=lambda x: dict0[x]['count'])
+def test(lst0):
+    lst0.sort()  
+    lst0.sort(key=len, reverse=True)  
+    return lst0

@@ -1,6 +1,6 @@
-Convert a dictionary dict0 into a list where each key is repeated based on its corresponding value.
+Convert the pandas DataFrame df0 to a list of dictionaries.
 
-import numpy as np
+import pandas as pd
 
-def test(dict0):
+def test(df0):
 

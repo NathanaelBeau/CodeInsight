@@ -1,6 +1,4 @@
-lst0 = [['apple', 'banana'], 
-        ['cherry', 'date'], 
-        ['eggplant', 'fig']]
-expected_result =  ['eggplant', 'banana']
+lst0 = np.array([1, 2, 3, 4, 5, 100])
+expected_result =  np.array([1, 2, 3, 4, 5])
 result = test(lst0)
-assert result == expected_result, 'Test failed'
+assert np.array_equal(result, expected_result), 'Test failed'

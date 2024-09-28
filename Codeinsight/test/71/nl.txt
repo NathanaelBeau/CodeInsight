@@ -1,1 +1,1 @@
-Convert a string str0 into a tuple and append it to another tuple tpl0
+Filter out all strings in the list lst that contain the substring 'ab'.

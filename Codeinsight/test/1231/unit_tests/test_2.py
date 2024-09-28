@@ -1,4 +1,6 @@
-arr0 = np.array([1.1, 2.2, 3.3])
-expected_result =  np.array([1.1, 2.2, 3.3])
-result = test(arr0)
-assert np.array_equal(result, expected_result) and not np.may_share_memory(result, arr0), 'Test failed'
+df = pd.DataFrame({ 'Name': ['Alice', 'Bob'], 'Age': [25, 30] })
+expected_output = [
+    {'Name': ['Alice', 'Bob']},
+    {'Age': [25, 30]}
+]
+assert test(df) == expected_output, 'Test failed'

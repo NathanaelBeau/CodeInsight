@@ -1,3 +1,3 @@
-lst0 = [(1, 2), (3, 4), (5, 6)]
-expected_output = [1, 2, 3, 4, 5, 6]
-assert test(lst0) ==expected_output, 'Test failed'
+str0 = '1989, 1990'
+expected_output = ['1989', '1990']
+assert test(str0) ==expected_output, 'Test failed'

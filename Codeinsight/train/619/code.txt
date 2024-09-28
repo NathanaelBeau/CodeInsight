@@ -1,2 +1,2 @@
-def test(str0, var0, var1):
-    return str0.replace(var0, var0*var1, 1)
+def test(lst0):
+    return [item for sublist in lst0 for item in (test(sublist) if isinstance(sublist, list) else [sublist])]

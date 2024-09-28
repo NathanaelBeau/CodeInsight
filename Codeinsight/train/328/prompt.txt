@@ -1,5 +1,6 @@
-Compare the values of column col0 in DataFrame df0 with its previous row and store the result in a new column named 'compared 
+Rearrange the columns of a pandas DataFrame df0 in the order: 'x', 'y', 'a', 'b'.
 
 import pandas as pd
-def test(df0, col0):
+
+def test(df0: pd.DataFrame) -> pd.DataFrame:
 

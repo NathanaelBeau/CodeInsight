@@ -1,6 +1,6 @@
-Pandas : Use groupby on each element of list  lst0  
+Rename specific column(s) var0 by var1 in pandas  dataframe df using dictionary mapping and list comprehension
 
 import pandas as pd
 
-def test(lst0):
+def test(df):
 

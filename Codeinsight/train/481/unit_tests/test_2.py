@@ -1,7 +1,4 @@
-# Test 3
-df0 = pd.DataFrame({'name': ['John', 'Jane', 'Doe'], 'age': [30, 25, 40]})
-col_name1 = 'name'
-col_name2 = 'age'
-expected_result =  {'John': 30, 'Jane': 25, 'Doe': 40}
-result = test(df0, col_name1, col_name2)
-assert result == expected_result, 'Test failed'
+mat2 = np.array([[-1, -2], [-3, -4]])
+expected_result =  np.array([[1, 4], [9, 16]])
+result = test(mat2)
+assert np.array_equal(result, expected_result), 'Test failed'

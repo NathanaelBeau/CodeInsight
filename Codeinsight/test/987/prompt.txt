@@ -1,4 +1,4 @@
-Best way to remove elements var0 from a list lst0   
+sort lists lst0 within list in user defined order in dictionary dict0   
 
-def test(lst0: list, var0: set):
+def test(lst0, dict0):
 

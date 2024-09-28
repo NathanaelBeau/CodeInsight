@@ -1,4 +1,3 @@
-import operator
-
-def test(lst0):
-    return tuple(map(operator.itemgetter(0), lst0))
+import pandas as pd
+def test(df0):
+    return df0.groupby(df0.columns, axis=1).sum()

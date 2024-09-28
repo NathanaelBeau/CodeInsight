@@ -1,4 +1,3 @@
-arr0 = [True, False, True, False, True, True]
-expected_result =  6
-result = test(arr0)
-assert result == expected_result, 'Test failed'
+var0 = "Hello"
+expected_output = 'Value is "Hello"'
+assert test(var0) ==expected_output, 'Test failed'

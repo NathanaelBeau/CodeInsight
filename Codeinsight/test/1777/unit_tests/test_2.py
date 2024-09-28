@@ -1,3 +1,4 @@
-lst3 = ["sun", "moon", "star"]
-expected_result3 = lst3
-assert test(lst3) == expected_result3, 'Test failed'
+str0 = '12345678'
+var0= '-'
+expected_output = '12-34-56-78'
+assert test(str0, var0) ==expected_output, 'Test failed'

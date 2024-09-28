@@ -1,5 +1,6 @@
-Concatenate rows of two dataframes, df0 and df1, in pandas
+Getting the first elements per row in an array lst0 in Python   with operator
 
-import pandas as pd
-def test(df0, df1):
+import operator
+
+def test(lst0):
 

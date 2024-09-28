@@ -1,4 +1,5 @@
-import numpy as np
+import pandas as pd
 
-def test(arr0, var0):
-    return np.argmax(arr0 == var0)
+def test(df0, var0):
+    df0.drop(var0, axis=1, inplace=True)
+    return df0

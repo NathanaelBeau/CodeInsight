@@ -1,4 +1,4 @@
 import pandas as pd
 
-def test(df0):
-    return df0.isnull().sum(axis=1).sum()
+def test(df0, df1):
+    return pd.concat([df0, df1], ignore_index=True)

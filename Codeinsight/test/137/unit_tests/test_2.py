@@ -1,5 +1,4 @@
-var0 = 'city'
-df0 = pd.DataFrame({'city': [None, 'PARIS', 'LONDON', 'BERLIN']})
-expected_result =  pd.DataFrame({'city': [None, 'paris', 'london', 'berlin']})
-result = test(df0, var0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [1, 2, 3, 4, 5]
+expected_result =  []
+result = test(lst0)
+assert result == expected_result, 'Test failed'

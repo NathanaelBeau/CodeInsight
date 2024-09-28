@@ -1,4 +1,0 @@
-Python: Sum string lengths str0 
-
-def test(str0):
-

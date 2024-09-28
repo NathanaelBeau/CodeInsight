@@ -1,5 +1,4 @@
-var0 = "ab"
-var1 = "abcabcabc"
-expected_result =  [0, 3, 6]
-result = test(var0, var1)
-assert result==expected_result, 'Test failed'
+var0 = "Hello, 世界!"
+expected_result =  "Hello, \\u4e16\\u754c!"
+result = test(var0)
+assert result == expected_result, 'Test failed'

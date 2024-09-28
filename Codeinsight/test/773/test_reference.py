@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0, var0, str0):
-    return df0.loc[df0[var0] == str0]
+def test(var0):
+    return var0[0].isdigit() if var0 else False

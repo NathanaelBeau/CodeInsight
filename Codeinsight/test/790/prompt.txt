@@ -1,5 +1,4 @@
-Strip the whitespace from the headers of a dataframe df0
+Convert all keys in dictionary dict0 to lowercase
 
-import pandas as pd
-def test(df0):
+def test(dict0):
 

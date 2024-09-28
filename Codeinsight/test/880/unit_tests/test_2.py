@@ -1,4 +1,4 @@
-# Test 2
-var0 = "Another \\\\ example \\\\ with \\\\ multiple \\\\ instances."
-expected_result =  "Another \\ example \\ with \\ multiple \\ instances."
-assert test(var0) == expected_result, 'Test failed'
+dict0 = {'a': None, 'b': 2}
+key0 = 'a'
+expected_result =  {'a': 0, 'b': 2}
+assert test(dict0, key0) == expected_result, 'Test failed'

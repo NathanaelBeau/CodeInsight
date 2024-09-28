@@ -1,2 +1,2 @@
-def test(str0):
-    return dict(item.split('-') for item in str0.split(','))
+def test(lst0, lst1):
+    return [a * b for a, b in zip(lst0, lst1)]

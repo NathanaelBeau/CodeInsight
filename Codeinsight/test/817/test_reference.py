@@ -1,5 +1,4 @@
-def test(lst0):
-    for row in lst0:
-        for i in range(len(row)):
-            row.insert(i * 2, 0)
-    return lst0
+import re
+
+def test(var0):
+    return re.findall(r"\n", var0)

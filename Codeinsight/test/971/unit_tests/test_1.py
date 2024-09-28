@@ -1,3 +1,4 @@
-str0 = "OpenAI OpenAI is is amazing!"
-expected_output = "OpenAI is amazing!"
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = [{'p': 5, 'q': 6}, {'q': 7}]
+expected_result =  {'p': 5, 'q': 7}
+result = test(lst0)
+assert result == expected_result, 'Test failed'

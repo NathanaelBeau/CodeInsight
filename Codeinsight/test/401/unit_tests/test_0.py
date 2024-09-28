@@ -1,3 +1,3 @@
-arr0 = np.array([1, 2, 3, 4, 5, 6])
-expected_output = np.array([[1, 2], [3, 4], [5, 6]])
-assert (test(arr0)  == expected_output).all(), 'Test failed'
+var0 = "Hello world Hello user Hello"
+expected_result =  {("Hello", "world"): 1, ("world", "Hello"): 1, ("Hello", "user"): 1, ("user", "Hello"): 1}
+assert test(var0) == expected_result, 'Test failed'

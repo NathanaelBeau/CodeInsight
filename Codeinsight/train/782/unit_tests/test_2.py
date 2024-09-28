@@ -1,4 +1,4 @@
-lst0 = ['a', 'b', 'c']
-expected_result =  []
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+input_list = ['hello', 'hello', 'hello']
+expected_result =  True
+result = test(input_list)
+assert result==expected_result, 'Test failed'

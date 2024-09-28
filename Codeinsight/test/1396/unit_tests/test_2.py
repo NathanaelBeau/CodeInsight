@@ -1,5 +1,3 @@
-shape0 = (1, 5)
-var0 = 9
-expected_result =  np.array([[9, 9, 9, 9, 9]])
-result = test(shape0, var0)
-assert np.array_equal(result, expected_result), 'Test failed'
+df0 = pd.DataFrame({'alpha': [0.1, 0.2, None], 'beta': [0.5, None, None]})
+expected_result =  2
+assert test(df0) == expected_result, 'Test failed'

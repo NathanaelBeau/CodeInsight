@@ -1,2 +1,4 @@
-def test(str0):
-    return str0[:100]
+import re
+
+def test(str0, str1):
+    return [m.start() for m in re.finditer(str0, str1)]

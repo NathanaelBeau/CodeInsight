@@ -1,4 +1,5 @@
-arr0 = np.array([[3, 2, 1], [6, 5, 4], [9, 8, 7]])
-expected_result =  np.array([[3, 2, 1], [6, 5, 4], [9, 8, 7]])
-result = test(arr0)
-assert np.array_equal(result, expected_result), 'Test failed'
+var0 = "Hello, World! This is an example string. Hello, again!"
+var1 = "Hello"
+expected_result =  ", World! This is an example string. , again!"
+result = test(var0, var1)
+assert result == expected_result, 'Test failed'

@@ -1,1 +1,1 @@
-Get a list of items in the list lst0 with attribute attr_name equal to var0.
+Comparing two lists lst0 and lst1 in Python  with filter and lambda

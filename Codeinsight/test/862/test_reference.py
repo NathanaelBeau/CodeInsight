@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(arr0):
-    return arr0.size == 0
+def test(var0):
+    return [{} for _ in range(var0)]

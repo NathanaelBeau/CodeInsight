@@ -1,4 +1,4 @@
-str0 = ['apple', 'banana', 'orange', 'grape']
-str1 = 'an'
-expected_output = ['banana', 'orange']
-assert test(str0, str1) ==expected_output, 'Test failed'
+var0 = math.pi / 2
+expected_result =  90
+result = test(var0)
+assert result == expected_result, 'Test failed'

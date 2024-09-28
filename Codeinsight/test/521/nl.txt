@@ -1,1 +1,1 @@
-Reduce multiple consecutive newline characters to a single newline character in the string var0.
+Remove the first appearance of the word var1 from the string var0.

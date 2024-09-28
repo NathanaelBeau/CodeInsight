@@ -1,1 +1,1 @@
-How to add items from list lst0 into a numpy array arr0   
+Replace values in column var0 of DataFrame df0 from var1 to var2.

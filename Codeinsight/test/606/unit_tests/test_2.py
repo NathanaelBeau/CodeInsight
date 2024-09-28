@@ -1,3 +1,4 @@
-dict0 = {'one': 1, 'two': 2, 'three': 3, 'four': 4}
-expected_output = ['one', 1, 'two', 2, 'three', 3, 'four', 4]
-assert test(dict0) ==expected_output, 'Test failed'
+str0 = "OpenAI ChatGPT"
+str1 = "AI ChatGPT"
+expected_output = "Open"
+assert test(str0, str1) ==expected_output, 'Test failed'

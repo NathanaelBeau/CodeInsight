@@ -1,4 +1,4 @@
-lst0 = ['stack overflow', 'github repository', 'python library']
-lst1 = ['javascript', 'python', 'java']
-expected_output = ['python library']
-assert test(lst0, lst1) == expected_output, 'Test failed'
+df3 = pd.DataFrame({'P': [], 'Q': []})
+expected_result3 = []
+result3 = test(df3)
+assert result3 == expected_result3, 'Test failed'

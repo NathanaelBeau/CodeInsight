@@ -1,4 +1,4 @@
-str0 = 'text.txt'
-str1 = ['.docx', '.xlsx', '.pptx']
-expected_output = False
-assert test(str0, str1 ) ==expected_output, 'Test failed'
+mat1 = np.array([[0, 0], [0, 0]])
+expected_result =  np.log(mat1 + 1e-10)
+result = test(mat1)
+assert np.allclose(result, expected_result), 'Test failed'

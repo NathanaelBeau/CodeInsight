@@ -1,3 +1,5 @@
-lst0 = ["A\tB\tC", "D\tE"]
-expected_output = [["A", "B", "C"], ["D", "E"]]
-assert test(lst0) == expected_output, 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, 3], 'B': ['foo', 'bar', 'foo'], 'C': [True, False, True]})
+arg0 = 'B'
+arg1 = 'foo'
+expected_output = pd.DataFrame({'A': [1, 3], 'B': ['foo', 'foo'], 'C': [True, True]})
+assert test(df0, arg0, arg1).columns.equals(expected_output.columns), 'Test failed'

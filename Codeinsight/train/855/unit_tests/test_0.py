@@ -1,5 +1,5 @@
-var0 = np.array([0, 0])
-var1 = np.array([3, 4])
-expected_result =  5.0
-result = test(var0, var1)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame({'name': ['Banana', 'Apple', 'Cherry'], 'value': [2, 1, 3]})
+lst0 = ['Apple', 'Banana', 'Cherry']
+expected_result =  pd.DataFrame({'name': ['Apple', 'Banana', 'Cherry'], 'value': [1, 2, 3]})
+result = test(df0, lst0)
+assert result.equals(expected_result), 'Test failed'

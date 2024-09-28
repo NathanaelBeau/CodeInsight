@@ -1,4 +1,0 @@
-How to insert a character '-' after every 2 characters in a string  str0
-
-def test(str0):
-

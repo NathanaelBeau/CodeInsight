@@ -1,5 +1,6 @@
-s3 = "a1b2c3"
-pattern3 = r"\d"
-replacement3 = "X"
-expected_output3 = "aXbXcX"
-assert test(s3, pattern3, replacement3) == expected_output3, 'Test failed'
+# Test 2
+var0 = "This is a Test"
+var1 = "Test"
+var2 = "exam"
+expected_result =  "This is a Exam"
+assert test(var0, var1, var2) == expected_result, 'Test failed'

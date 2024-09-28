@@ -1,8 +1,3 @@
-lst0 = [["Name", "Age", "City"],
-        ["Alice", 25, "New York"],
-        ["Bob", 30, "Los Angeles"],
-        ["Charlie", 22, "Chicago"]]
-expected_output = pd.DataFrame({"Name": ["Alice", "Bob", "Charlie"],
-                                "Age": [25, 30, 22],
-                                "City": ["New York", "Los Angeles", "Chicago"]})
-assert test(lst0).equals(expected_output), 'Test failed'
+arr0 = np.array([[1.0, 2.0, np.nan], [4.0, np.nan, 6.0]])
+expected_output = np.array([[0, 2], [1, 1]])
+assert np.array_equal(test(arr0), expected_output), 'Test failed'

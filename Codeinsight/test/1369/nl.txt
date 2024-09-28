@@ -1,1 +1,1 @@
-Scale the columns in list lst0 of DataFrame df0 using sklearn's StandardScaler.
+Find the row with the maximum value of column var0 in dataframe df0

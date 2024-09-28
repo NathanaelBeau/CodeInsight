@@ -1,4 +1,7 @@
-series0 = pd.Series([5, 5, 15, 75])
-expected_result =  pd.Series([5.0, 5.0, 15.0, 75.0])
-result = test(series0)
-assert result.equals(expected_result), 'Test failed'
+# Test 2
+import pandas as pd
+df0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry'], 'B': ['dog', 'cat', 'fish']})
+var0 = 'B'
+var1 = '^c.*'
+expected_result =  True
+assert test(df0, var0, var1) == expected_result, 'Test failed'

@@ -1,7 +1,4 @@
-Converting a list of tuples lst0 into a dict with itemgetter and groupby
-
-from operator import itemgetter
-from itertools import groupby
+Compute the mean of elements in list lst0.
 
 def test(lst0):
 

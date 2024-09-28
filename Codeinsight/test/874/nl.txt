@@ -1,1 +1,1 @@
-Group the pandas DataFrame df0 by the column var0 and calculate the sum of each group.
+Group a DataFrame df0 by column var0 and select the most common value from column var1lue   

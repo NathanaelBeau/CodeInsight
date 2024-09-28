@@ -1,2 +1,4 @@
-def test(str0):
-    return dict((n, int(v)) for n, v in (a.split('=') for a in str0.split()))
+import pandas as pd
+
+def test(df0):
+    return df0.values.tolist()

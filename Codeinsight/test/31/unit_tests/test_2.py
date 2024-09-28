@@ -1,4 +1,4 @@
-var2 = "startExample text.close"
-pattern2 = r"(?<=start).*(?=close)"
-expected_output3 = "Example text."
-assert test(var2, pattern2) == expected_output3, 'Test failed'
+var0 = np.array([[1, 2], [3, 4]])
+str0 = "upper"
+expected_output = np.array([[1, 2], [0, 4]])
+assert np.array_equal(test(var0, str0), expected_output), 'Test failed'

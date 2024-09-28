@@ -1,2 +1,2 @@
-def test(s: str) -> str:
-    return s.split(':', 1)[0]
+def test(lst0, lst1):
+    return sorted(lst0, key=lst1.index)

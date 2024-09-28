@@ -1,5 +1,4 @@
-df0 = pd.DataFrame({'P': [10, 20, 30], 'Q': [40, 50, 60]})
-Col0 = 'P'
-expected_result =  pd.DataFrame({'P': [20, 30, None], 'Q': [40, 50, 60]})
-result = test(df0, Col0)
-assert result.equals(expected_result), 'Test failed'
+lst0= [True, False, True, False, True, False, True, False]
+var0 = 2
+expected_output = [[True, False], [True, False], [True, False], [True, False]]
+assert test(lst0, var0) ==expected_output, 'Test failed'

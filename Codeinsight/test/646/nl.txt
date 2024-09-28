@@ -1,1 +1,1 @@
-Replace consecutive repeated words in the string var0 with a single occurrence of the word.
+How to delete a substring var0 from a string var1 using Python   

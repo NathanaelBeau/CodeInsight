@@ -1,2 +1,3 @@
-def test(str0, lst0):
-    return str0.endswith(tuple(lst0))
+import numpy as np
+def test(mat0):
+    return np.log(mat0 + 1e-10)

@@ -1,1 +1,1 @@
-Count the number of true booleans in a Python list lst0.
+Calculate the total combined length of all strings in the list lst0.

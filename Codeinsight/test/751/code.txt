@@ -1,7 +1,5 @@
-def test(var0):
-    words = var0.split()
-    bigrams = [(words[i], words[i+1]) for i in range(len(words)-1)]
-    bigram_counts = {}
-    for bigram in bigrams:
-        bigram_counts[bigram] = bigram_counts.get(bigram, 0) + 1
-    return bigram_counts
+def test(lst0, lst1):
+    combined_lists = list(zip(lst0, lst1))
+    combined_lists.sort(key=lambda x: x[0], reverse=True)
+    list_0_sorted, list_1_sorted = zip(*combined_lists)
+    return list(list_0_sorted), list(list_1_sorted)

@@ -1,6 +1,4 @@
-# Test 3
-df0 = pd.DataFrame({'D': [2, 4], 'E': [6, 8], 'F': [10, 12]})
-var0 = '^D|F$'
-var1 = 2
-expected_result =  pd.DataFrame({'D': [1.0, 2.0], 'E': [6, 8], 'F': [5.0, 6.0]})
-assert test(df0, var0, var1).equals(expected_result), 'Test failed'
+arr0 = np.array([-10.5, 20.6, -30.7, 40.8])
+expected_result =  np.array([0, 20.6, 0, 40.8])
+result = test(arr0)
+assert np.array_equal(result, expected_result), 'Test failed'

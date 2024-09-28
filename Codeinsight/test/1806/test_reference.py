@@ -1,2 +1,2 @@
-def test(lst0, var0):
-    return sorted(lst0, key=lambda x: getattr(x, var0), reverse=True)
+def test(dict0, lst0):
+    return set(lst0).issubset(dict0)

@@ -1,1 +1,1 @@
-Select all rows from dataframe df0 where the column named var0 contains NaN values.
+Find the inserted portion in the string var1 as compared to the original string var0.

@@ -1,4 +1,0 @@
-Add items "1" to a dictionary of lists lst0 at key var0
-
-def test(lst0, var0):
-

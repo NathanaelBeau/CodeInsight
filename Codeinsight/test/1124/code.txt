@@ -1,5 +1,4 @@
-import pandas as pd
+import numpy as np
 
-def test(lst0, lst1):
-    df_grouped = lst0.groupby([lst1[0], lst1[1]]).size()
-    return df_grouped
+def test(arr0):
+    return np.sum(np.arange(len(arr0)) * arr0) / np.sum(arr0)

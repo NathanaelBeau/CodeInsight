@@ -1,4 +1,4 @@
-Count the number of elements in the array arr0.
+return variables var0 without spaces between values with formatting  
 
-def test(arr0):
+def test(var0):
 

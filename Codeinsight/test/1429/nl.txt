@@ -1,1 +1,1 @@
-Calculate the rolling mean for the 'value' column in a DataFrame df0, using the timestamps in column str0, over a specified time interval var0
+Replace all elements of a numpy array arr0 that are greater than the value var0.

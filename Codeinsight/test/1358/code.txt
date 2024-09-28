@@ -1,3 +1,6 @@
-def test(str0, lst0):
-    lst0.append(str0)
-    return sorted(lst0, key=lambda s: s.lower())
+import re
+
+def test(var0,str0):
+    matches = re.findall(var0, str0)
+    count0 = len(matches)
+    return count0

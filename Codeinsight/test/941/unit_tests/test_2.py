@@ -1,5 +1,4 @@
-lst0 = []
-lst1 = []
-expected_result =  pd.DataFrame({'List1': [], 'List2': []}).reset_index(drop=True)
-result = test(lst0, lst1).reset_index(drop=True)
-assert result.empty, 'Test failed'
+lst0 = [100, 200, 300, 400, 500]
+num0 = 350
+expected_result =  300
+assert test(lst0, num0) == expected_result, 'Test failed'

@@ -1,7 +1,5 @@
-from functools import reduce
+import math
+from operator import itemgetter
 
-def extract_element(lst, index):
-    return lst[index]
-
-def test(lst0, lst1):
-    return list(map(lambda i: extract_element(lst0, i), lst1))
+def test(lst0):
+    return min(filter(lambda t: not math.isnan(t[1]), lst0), key=itemgetter(1))

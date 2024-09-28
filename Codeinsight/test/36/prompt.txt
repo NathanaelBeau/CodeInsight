@@ -1,6 +1,6 @@
-Select the last column of a DataFrame df0
+ convert a string of hexadecimal values str0 to a list of integers?   
 
-import pandas as pd
+import struct
 
-def test(df0):
+def test(str0):
 

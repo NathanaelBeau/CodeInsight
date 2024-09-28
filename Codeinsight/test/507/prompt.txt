@@ -1,6 +1,4 @@
- convert a binary (string) str0 into a float value  
+in Python,  convert list of float numbers  lst0 to string with certain format var0?   
 
-from ast import literal_eval
-
-def test(str0):
+def test(lst0, var0):
 

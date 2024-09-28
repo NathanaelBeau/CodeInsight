@@ -1,1 +1,1 @@
-Generate a SHA-256 hash of the string var0, then truncate the hash to the first var1 characters, and return the result.
+change a specific row at index var0 by var1 label in a Pandas dataframe   df0

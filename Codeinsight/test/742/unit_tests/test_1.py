@@ -1,4 +1,4 @@
-lst0 = ['x', 'y']
-lst1 = ['a', 'b', 'c']
-expected_output = False
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+import pandas as pd
+df0 = pd.DataFrame({'id': ['apple', 'banana', 'cherry'], 'value': [5, 3, 8]})
+expected_result =  {'apple': 5, 'banana': 3, 'cherry': 8}
+assert test(df0) == expected_result, 'Test failed'

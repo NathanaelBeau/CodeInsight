@@ -1,1 +1,1 @@
-Count the number of elements in the array arr0.
+How to find the difference between 2 lists lst0 and lst1 that may have duplicate numbers   

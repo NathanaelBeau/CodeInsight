@@ -1,2 +1,4 @@
-def test(dict0, lst0):
-    return all(key in dict0 for key in lst0)
+import numpy as np
+
+def test(arr0, var0):
+    return np.eye(var0)[arr0]

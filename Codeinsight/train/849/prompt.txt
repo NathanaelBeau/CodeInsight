@@ -1,6 +1,5 @@
-Add a new column named 'max_value' to dataframe df0 that contains the row-wise maximum value of columns specified in list lst0.
+Find both the minimum and maximum values of the numpy array arr0
 
-import pandas as pd
-
-def test(df0, lst0):
+import numpy as np
+def test(arr0):
 

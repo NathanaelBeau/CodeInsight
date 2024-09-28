@@ -1,7 +1,4 @@
-def test(str0: str, pattern: str) -> list:
-    matches = []
-    i = str0.find(pattern)
-    while i != -1:
-        matches.append(i)
-        i = str0.find(pattern, i+1)
-    return matches
+import pandas as pd
+
+def test(df0, var0):
+    return df0[(df0[var0].isna()) | (df0[var0] == 'Other')]

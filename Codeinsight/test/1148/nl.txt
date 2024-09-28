@@ -1,1 +1,1 @@
-Extract the first var0 columns from the numpy matrix mat0  
+Get an ordered list of unique items in list lst0  

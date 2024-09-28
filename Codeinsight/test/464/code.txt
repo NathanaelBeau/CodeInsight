@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0, str0):
-    return df0.groupby(str0).filter(lambda x: len(x) > 1).reset_index(drop=True)
+def test(str0, str1):
+    return str0.rsplit(str1, 1)

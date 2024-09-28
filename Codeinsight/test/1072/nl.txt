@@ -1,1 +1,1 @@
-Sort the string str0 in lexicographic order.
+Create a numpy array with strings of arbitrary lengths from a list lst0

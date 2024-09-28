@@ -1,4 +1,5 @@
-import re
+import pandas as pd
 
-def test(var0):
-    return re.findall(r'(?<=\{)([^}]+)(?=\})', var0)
+def test(df0, var0):
+    del df0[var0]
+    return df0

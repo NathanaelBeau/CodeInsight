@@ -1,4 +1,4 @@
-lst0 = ['python code', 'java programming', 'c++ development']
-lst1 = ['java', 'ruby', 'python']
-expected_output = ['python code', 'java programming']
-assert test(lst0, lst1) == expected_output, 'Test failed'
+df2 = pd.DataFrame({'X': ['a', 'b'], 'Y': ['c', 'd']})
+expected_result2 = [{'X': 'a', 'Y': 'c'}, {'X': 'b', 'Y': 'd'}]
+result2 = test(df2)
+assert result2 == expected_result2, 'Test failed'

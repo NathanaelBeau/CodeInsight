@@ -1,1 +1,1 @@
-Find the integer indices of rows containing NaN values in a given dataframe df0.
+reverse the input string str0

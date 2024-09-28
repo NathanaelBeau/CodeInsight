@@ -1,1 +1,1 @@
-Replace all occurrences of substring var1 with substring var2 in string var0, ignoring case
+multi-column factorize in pandas with columns var0 and var1 and values lst0 and lst1

@@ -1,1 +1,1 @@
-check whether a number var1 is strictly negative
+Convert list of strings lst0 to int  using map

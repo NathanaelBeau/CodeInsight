@@ -1,1 +1,1 @@
-insert a space after a certain amount of characters var0 in a string str0 using python  
+Filter and return the rows of DataFrame df0 where the sum of the elements across each row is not equal to zero.

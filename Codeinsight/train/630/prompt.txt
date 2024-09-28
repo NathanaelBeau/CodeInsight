@@ -1,4 +1,4 @@
- convert and extract first elements from  tuple lst0 to a string      
+ convert a list of str lst0 to a list of floats  with split
 
 def test(lst0):
 

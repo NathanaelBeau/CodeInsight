@@ -1,1 +1,1 @@
- "unpivot" specific columns lst0 from a pandas DataFrame df0  with pivoted columns var0 and  var1
+What is the easiest way to convert list with str lst0 into list with int?   

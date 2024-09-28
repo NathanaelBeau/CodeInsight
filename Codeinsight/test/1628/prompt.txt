@@ -1,4 +1,6 @@
-calculate equal parts of two dictionaries  dict0 and dict1 
+Create a list containing the first var0 values from generator it0.
 
-def test(dict0, dict1):
+from itertools import islice
+
+def test(it0, var0):
 

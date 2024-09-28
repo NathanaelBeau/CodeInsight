@@ -1,1 +1,1 @@
-Remove duplicate characters from a string var0
+Group DataFrame df0 by column str0 and aggregate the str1 column, returning the mean and sum for each group.

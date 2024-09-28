@@ -1,5 +1,4 @@
-Sort a list of tuples lst0 in descending order by the first value and ascending order by the second value.
+Extract a substring starting from the position var0 to the end of the string x.
 
-
-def test(lst0):
+def test(x: str, var0: int) -> str:
 

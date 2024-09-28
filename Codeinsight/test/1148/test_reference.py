@@ -1,3 +1,4 @@
-import numpy as np
-def test(mat0, var0):
-    return mat0[..., :var0]
+import itertools
+
+def test(lst0):
+    return sorted(set(itertools.chain.from_iterable(lst0)))

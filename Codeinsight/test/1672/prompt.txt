@@ -1,5 +1,6 @@
-nitialize a NumPy array with shape shape0 and fill it with the value var0
+generate a list of tuples from a pandas DataFrame df0 with the column name and column values   
 
-import numpy as np
-def test(shape0, var0):
+import pandas as pd
+
+def test(df0):
 

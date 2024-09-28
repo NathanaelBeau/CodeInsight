@@ -1,4 +1,4 @@
-Sum the second elements from a list of lists lst0.
+How to check if a value var0 exists in a dictionary dict0(python)   
 
-def test(lst0):
+def test(dict0, var0):
 

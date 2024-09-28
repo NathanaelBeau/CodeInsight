@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
-
-def test(arr0, arr1):
-    return pd.Series(arr0).isin(arr1).any()
+def test(arr0):
+    non_zero_values = arr0[arr0 != 0]
+    return non_zero_values.min(), non_zero_values.max()

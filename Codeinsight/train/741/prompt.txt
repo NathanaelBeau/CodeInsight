@@ -1,6 +1,4 @@
-Find all rows in dataframe df0 where column var0 contains non-numeric values 
+Merge two dictionaries dict0 and dict1 into a single dictionary in one expression.
 
-import pandas as pd
-
-def test(df0, var0):
+def test(dict0, dict1):
 

@@ -1,1 +1,1 @@
-Append elements from list lst1 at positions from 0 to 3 to the sublists at the same positions in list lst0.
+Finding the most frequent character in a string   str0 

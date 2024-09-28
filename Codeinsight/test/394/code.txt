@@ -1,8 +1,4 @@
-import binascii
+import pandas as pd
 
-def test(str0):
-    try:
-        hex_num = int(str0, 16)
-        return hex_num
-    except ValueError:
-        return None
+def test(df0, df1, var0):
+    return pd.concat([df0, df1]).sort_values(by=var0).reset_index(drop=True)

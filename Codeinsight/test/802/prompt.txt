@@ -1,4 +1,6 @@
-Create a list by appending components from list lst0 and the reversed list lst1 interchangeably.
+Calculate the mean of DataFrame df0 along the specified axis axis0, subtract these means from the original DataFrame, and return the normalized DataFrame.
 
-def test(lst0, lst1):
+import pandas as pd
+
+def test(df0, axis0):
 

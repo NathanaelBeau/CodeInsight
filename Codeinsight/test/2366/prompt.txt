@@ -1,4 +1,0 @@
-Replacing instances of a character str1 by str2 at index between var0 and  var1  in a string str0   
-
-def test(str0: str, var0: int, var1: int, str1: str, str2: str) -> str:
-

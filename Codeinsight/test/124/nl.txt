@@ -1,1 +1,3 @@
-pandas DataFrame: replace nan values with average of columns   in dataframe df0
+Convert a tuple 
+tpl0
+tpl0 into a single string

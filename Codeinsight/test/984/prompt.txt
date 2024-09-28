@@ -1,6 +1,5 @@
-Retrieve the minimum float value from a list of tuples lst0, where the second element of the tuple is a float, ignoring nan values.
+Iterate over the elements of the numpy array arr0 and return them in a list
 
-import math
-
-def test(lst0: list) -> float:
+import numpy as np
+def test(arr0):
 

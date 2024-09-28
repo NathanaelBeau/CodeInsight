@@ -1,4 +1,3 @@
-lst_test_1 = ['3', '1', '4', '2']
-result_1 = test(lst_test_1)
-expected_1 = [1, 2, 3, 4]
-assert result_1 == expected_1,'Test failed'
+lst0 = ['A:1', 'B:2', 'C:3', 'D:4']
+expected_output = {'A': '1', 'B': '2', 'C': '3', 'D': '4'}
+assert test(lst0) == expected_output, 'Test failed'

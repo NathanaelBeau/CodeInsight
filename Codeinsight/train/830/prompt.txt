@@ -1,6 +1,6 @@
-Get the shape (number of rows and columns) of a dataframe df0
+Find the first index of the value var0 in the numpy array arr0
 
+import numpy as np
 
-import pandas as pd
-def test(df0):
+def test(arr0, var0):
 

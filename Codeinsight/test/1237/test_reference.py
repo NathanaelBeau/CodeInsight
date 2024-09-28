@@ -1,5 +1,2 @@
-import numpy as np
-
-def test(var0, var1, var2):
-    sliced = np.hstack(var0[:, var1:var2])
-    return sliced
+def test(dict0, var0):
+    return {k: var0 for k, v in dict0.items() if v is None}

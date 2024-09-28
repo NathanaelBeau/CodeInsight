@@ -1,1 +1,1 @@
-Create a list by summing up the respective elements of the tuples present in list lst0.
+Set the value in column var1 of dataframe df0 to a new value wherever the value in column var0 is greater than 2.

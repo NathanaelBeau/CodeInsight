@@ -1,5 +1,6 @@
-Generate all possible combinations (Cartesian product) of elements from the list of lists lst0, and return the results as a list of tuples.
+Use a list of values lst0 to select rows for values in column var0 from a Pandas dataframe   df0
 
-import itertools
-def test(lst0):
+import pandas as pd
+
+def test(df0, lst0, var0):
 

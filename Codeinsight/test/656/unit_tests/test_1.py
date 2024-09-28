@@ -1,3 +1,4 @@
-str0 = "101010"
-expected_output = np.array(['1', '0', '1', '0', '1', '0'])
-assert (test(str0)  == expected_output).all(), 'Test failed'
+lst0 = [['a', 'a'], ['b', 'c'], ['d', 'd']]
+expected_result =  [True, False, True]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

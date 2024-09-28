@@ -1,4 +1,5 @@
-Extract elements from lst0 at the indices specified in lst1.
+Create a new Series where a specified integer var0 is added to each element of the original Series ser0. 
 
-def test(lst0, lst1):
+import pandas as pd
+def test(ser0, var0):
 

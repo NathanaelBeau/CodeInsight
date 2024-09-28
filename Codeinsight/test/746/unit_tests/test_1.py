@@ -1,7 +1,7 @@
-# Test 2 (Applying str.upper)
-df0 = pd.DataFrame({ 'A': [1, 2, 3], 'B': [4, 5, 6] })
-var0 = 'B'
-func = str
-expected_result =  pd.Series(['4', '5', '6'], name='B')
-result = test(df0, var0, func)
+# Test 2
+columns = ['name', 'age']
+index = 1
+values = ["Alice", 25]
+expected_result =  pd.DataFrame({"name": [ "Alice"], "age": [ 25]}, index=[1])
+result = test(columns, index, values)
 assert result.equals(expected_result), 'Test failed'

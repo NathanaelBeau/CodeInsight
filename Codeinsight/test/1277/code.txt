@@ -1,6 +1,2 @@
-import numpy as np
-def test(arr0, var0):
-    arr0 = np.array(arr0)
-    arr0 = arr0[arr0 < var0]
-    return arr0.tolist()
-    
+def test(var0, var1, lst0):
+    return [var1 if item == var0 else item for item in lst0]

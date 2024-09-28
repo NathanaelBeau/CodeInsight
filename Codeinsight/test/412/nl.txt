@@ -1,1 +1,1 @@
-In Python,  compare two lists lst0 and lst1 and get all indices of matches   
+ convert and extract first elements from  tuple lst0 to a string      

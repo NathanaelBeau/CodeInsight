@@ -1,4 +1,6 @@
-Filter rows in dataframe df0 where column var0 contains alphabetic characters.
+ use regular expression to separate numbers and characters in strings str0 like "30M1000N20M"   
 
-def test(df0, var0):
+import re
+
+def test(str0):
 

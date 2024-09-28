@@ -1,1 +1,1 @@
-Convert a list of tuples lst0 into a list of lists
+Python sorting - A list of objects   lst0 with operator

@@ -1,4 +1,5 @@
-dict0 = {"somekey": 1, "someotherkey": 2, "extraKey": 3}
-lst0 = ["somekey", "someotherkey"]
-expected_result =  True
-assert test(dict0, lst0) == expected_result, 'Test failed'
+arr0 = np.array([1, 0])
+var0 = 2
+expected_result =  np.array([[0, 1], [1, 0]])
+result = test(arr0, var0)
+assert np.array_equal(result, expected_result), 'Test failed'

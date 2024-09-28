@@ -1,1 +1,1 @@
-Capturing group with findall on string str0 with pattern var0   
+Calculate the weighted standard deviation of a list of numbers lst0 using weights lst1

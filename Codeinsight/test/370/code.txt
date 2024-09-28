@@ -1,2 +1,3 @@
-def test(lst0):
-	return [ x for x in lst0 if x[1] == 1 ]
+import pandas as pd
+def test(df0):
+    return df0.agg(' '.join, axis=1)

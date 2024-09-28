@@ -1,6 +1,6 @@
-Check if the value value0 exists in the numpy array arr0. 
+Extract a slice of columns from dataframe df0 starting from start_column0 to end_column0.
 
-import numpy as np
+import pandas as pd
 
-def test(arr0, value0):
+def test(df0, start_column0, end_column0):
 

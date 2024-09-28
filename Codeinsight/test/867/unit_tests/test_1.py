@@ -1,4 +1,3 @@
-df2 = pd.DataFrame({'col2': [[], [], []]})
-expected_result2 = pd.Series([0, 0, 0], name='col2')
-result2 = test(df2, 'col2')
-assert result2.equals(expected_result2), 'Test failed'
+var0 = -7
+expected_output2 = "-10"
+assert test(var0) == expected_output2, 'Test failed'

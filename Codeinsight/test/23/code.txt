@@ -1,4 +1,3 @@
-def test(lst0):
-    unique_data = list(map(list, set(map(lambda i: tuple(i), lst0))))
-    sorted_data = sorted(unique_data)
-    return sorted_data
+import numpy as np
+def test(arr0):
+    return np.argwhere((arr0 == [0, 1]).all(axis=1)).flatten()

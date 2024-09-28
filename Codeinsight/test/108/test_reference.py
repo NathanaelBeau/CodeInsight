@@ -1,3 +1,5 @@
-import numpy as np
-def test(arr0):
-    return arr0.take(0), arr0.take(-1)
+import pandas as pd
+
+def test(df0, str0, old_text, new_text):
+    df0[str0] = df0[str0].str.replace(old_text, new_text)
+    return df0

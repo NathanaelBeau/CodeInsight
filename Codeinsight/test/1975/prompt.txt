@@ -1,6 +1,0 @@
-Numpy: find the euclidean distance between two 3-D arrays  arr0 and arr1
-
-import numpy as np
-
-def test(arr0, arr1):
-

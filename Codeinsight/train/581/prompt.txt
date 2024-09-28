@@ -1,4 +1,6 @@
-python sum the values of lists of list    lst0
+ remove all the punctuation in a string str0    
 
-def test(lst0):
+import string
+
+def test(str0):
 

@@ -1,4 +1,4 @@
-var0 = "introduction"
-var1 = "introductory"
-expected_result =  "introduct"
-assert test(var0, var1) == expected_result, 'Test failed'
+str0 = "123abc"
+expected_output = True
+output = test(str0)
+assert output == expected_output, 'Test failed'

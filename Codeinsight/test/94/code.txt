@@ -1,5 +1,4 @@
-import pandas as pd
+import numpy as np
 
-def test(df):
-    df.columns = ['var1' if x=='var0' else x for x in df.columns]
-    return df
+def test(arr0):
+    return arr0[arr0[:, 1] > 0.0]

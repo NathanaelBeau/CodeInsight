@@ -1,6 +1,7 @@
-Pandas: Create another column var1 while splitting each row from the first column var0    in dataframe df0 
+Select all columns except the ones in the list lst0 from a dataframe df0
+
 
 import pandas as pd
 
-def test(df0, var0, var1):
+def test(df0, lst0):
 

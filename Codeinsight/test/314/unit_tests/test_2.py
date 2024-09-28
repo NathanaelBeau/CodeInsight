@@ -1,5 +1,6 @@
-arr0 = np.array([-5, -4, -3, -2, -1, 0])
-var0 = -3
-expected_result =  np.array([-5, -4, -3, 0, 0, 0])
-result = test(arr0, var0)
-assert np.array_equal(result, expected_result), 'Test failed'
+str0 = "1234567890"
+var0 = "0"
+var1 = "5"
+var2 = 1
+expected_output = "1234567895"
+assert test(str0, var0, var1, var2) ==expected_output, 'Test failed'

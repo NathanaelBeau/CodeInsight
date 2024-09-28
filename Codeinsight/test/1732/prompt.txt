@@ -1,7 +1,4 @@
-Check if column var0 exists in dataframe df0.
+Removing elements from an array arr0 that are in another array   arr1
 
-import pandas as pd
-
-
-def test(df0, var0):
+def test(arr0, arr1):
 

@@ -1,4 +1,4 @@
-def test(lists, selector):
-    its = [iter(l) for l in lists]
-    for i in selector:
-        yield next(its[i])
+import pandas as pd
+
+def test(df0, var0, var1):
+    return df0.at[var0, var1]

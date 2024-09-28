@@ -1,4 +1,1 @@
-str0 = "SingleString"
-expected_result =  ["SingleString"]
-result = test(str0)
-assert result == expected_result, 'Test failed'
+assert test({"apple": 1, "banana": 2, "cherry": 3}) == 6, 'Test failed'

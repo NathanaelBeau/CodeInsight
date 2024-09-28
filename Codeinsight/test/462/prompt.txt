@@ -1,4 +1,6 @@
-split string str0 into words that do not contain whitespaces in python  
+Parse a string str0 to an integer if it contains a number
+
+import re
 
 def test(str0):
 

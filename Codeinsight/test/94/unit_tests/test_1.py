@@ -1,5 +1,3 @@
-var0 = 'population'
-var1 = 'log(population)'
-expected_output = pd.DataFrame({'var1': [100, 200, 300, 400, 500]})
-df = pd.DataFrame({'var0': [100, 200, 300, 400, 500]})
-assert test(df) .equals(expected_output), 'Test failed'
+arr0 = np.array([[0.0, 3.0], [0.1, 1.0], [0.2, -1.0]])
+expected_output = np.array([[0.0, 3.0], [0.1, 1.0]])
+assert (test(arr0)  == expected_output).all(), 'Test failed'

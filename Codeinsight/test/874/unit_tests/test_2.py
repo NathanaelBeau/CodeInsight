@@ -1,6 +1,6 @@
-# Test 3
-df0 = pd.DataFrame({'Group': ['alpha', 'beta', 'alpha', 'beta'], 'Score': [50, 75, 90, 60]})
-var0 = 'Group'
-expected_result =  pd.DataFrame({'Score': [140, 135]}, index=['alpha', 'beta'])
-result = test(df0, var0)
+df0 = pd.DataFrame({'A': ['apple', 'apple', 'apple', 'orange'], 'B': ['red', 'red', 'green', 'orange']})
+var0 = 'A'
+var1 = 'B'
+expected_result =  pd.Series(['red', 'orange'], index=['apple', 'orange'], name='B')
+result = test(df0, var0, var1)
 assert result.equals(expected_result), 'Test failed'

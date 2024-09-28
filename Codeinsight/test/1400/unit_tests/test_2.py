@@ -1,3 +1,3 @@
-str0 = ("(Python) (programming)")
-expected_output = ("Python programming")
-assert test(str0) ==expected_output, 'Test failed'
+lst0_3 = []
+expected_output_3 = []
+assert test(lst0_3) == expected_output_3, 'Test failed'

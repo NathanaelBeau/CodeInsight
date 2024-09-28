@@ -1,2 +1,4 @@
-def test(var0):
-    return var0.strip()
+import pandas as pd
+
+def test(df0):
+    return df0.iloc[3:]

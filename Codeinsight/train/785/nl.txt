@@ -1,1 +1,1 @@
-Convert a string str0 into a dictionary by splitting each item at the = sign
+ find all positions of the maximum value in a list lst0   

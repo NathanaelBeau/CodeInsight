@@ -1,4 +1,3 @@
 import numpy as np
-
-def test(lst0):
-    return np.cov(lst0)
+def test(arr0, arr1):
+    return np.array([arr0, arr1])

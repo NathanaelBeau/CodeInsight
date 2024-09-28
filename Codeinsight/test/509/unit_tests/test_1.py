@@ -1,3 +1,4 @@
-lst0 = [('X', 10), ('Y', 20)]
-expected_output = {'X': 10, 'Y': 20}
-assert test(lst0) == expected_output, 'Test failed'
+var0 = "convertHTMLToPDF"
+expected_result =  "convert HTML To PDF"
+result = test(var0)
+assert result == expected_result, 'Test failed'

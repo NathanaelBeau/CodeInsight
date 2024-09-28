@@ -1,5 +1,4 @@
-# Test 3
-s0 = pd.Series([10, 20, 20, 30, 30, 30])
-expected_result =  pd.DataFrame({'value': [30, 20, 10], 'count': [3, 2, 1]})
-result = test(s0)
-assert result.equals(expected_result), 'Test failed'
+arr0 = np.array([100, 200])
+arr1 = np.array([300, 400])
+expected_output = np.array([100, 300, 200, 400])
+assert (test(arr0,arr1)  == expected_output).all(), 'Test failed'

@@ -1,4 +1,0 @@
-Remove the element at index 2 from a list lst0
-
-def test(lst0):
-

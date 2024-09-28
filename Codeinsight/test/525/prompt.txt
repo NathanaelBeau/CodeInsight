@@ -1,4 +1,5 @@
-Convert all string numbers to integers in a list named lst0  
+Reset the index of dataframe df0 and transfer existing index values into columns.
 
-def test(lst0):
+import pandas as pd
+def test(df0):
 

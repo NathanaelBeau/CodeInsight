@@ -1,4 +1,6 @@
-Switch every pair of characters in a string str0 
+Sort a dictionary var0 by value to iterate over it
 
-def test(str0):
+import operator
+
+def test(var0):
 

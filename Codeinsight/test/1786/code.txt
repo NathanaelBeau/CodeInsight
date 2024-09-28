@@ -1,3 +1,3 @@
-import numpy as np
-def test(mat0, mat1):
-    return np.sum(mat0 * mat1.T, axis=1)
+import pandas as pd
+def test(df0, var0, var1):
+    return df0[df0[var0].str.contains(var1, na=False)]

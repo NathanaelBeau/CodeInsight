@@ -1,4 +1,2 @@
-import pandas as pd
-
 def test(lst0):
-    return pd.json_normalize(lst0)
+    return sum([sum(sublist) for sublist in lst0])

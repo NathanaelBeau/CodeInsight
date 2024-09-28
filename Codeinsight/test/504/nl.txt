@@ -1,1 +1,1 @@
-Extract a substring from var0 using the regular expression pattern var1.
+Calculate the mean of columns with identical names in the dataframe df0.

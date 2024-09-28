@@ -1,1 +1,0 @@
-Converting a list of tuples lst0 into a dict with defaultdict

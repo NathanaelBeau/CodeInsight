@@ -1,8 +1,7 @@
-from collections import Counter
-
-def test(lst0):
-    categories_counter = Counter()
-    for entry in lst0:
-        categories_counter.update(entry['categories'])
-    
-    return dict(categories_counter)
+def test(str0, var0):
+    result = ""
+    for i, char in enumerate(str0):
+        if i % var0 == 0 and i != 0:
+            result += " "
+        result += char
+    return result

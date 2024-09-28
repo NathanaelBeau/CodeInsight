@@ -1,4 +1,3 @@
-var0 = 100
-var1 = 10
-result = test(var0, var1)
-assert len(result) == len(set(result)) and all([num < var0 for num in result]), 'Test failed'
+str0 = "Hello123 World456"
+expected_output = "Hello123 World456"
+assert test(str0) == expected_output, 'Test failed'

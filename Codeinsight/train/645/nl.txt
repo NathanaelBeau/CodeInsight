@@ -1,1 +1,1 @@
-Multiplication of 1d arrays arr0 and arr1 in numpy   
+Extract the values associated with the key 'value' from each dictionary in the input list lst0, provided that the key 'value' exists in the dictionary 

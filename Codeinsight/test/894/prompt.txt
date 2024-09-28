@@ -1,4 +1,6 @@
- check if a string str1 is a substring of items in a list of strings str0   
+Convert a value in radians (var0) to degrees  
 
-def test(str0, str1):
+import math
+
+def test(var0):
 

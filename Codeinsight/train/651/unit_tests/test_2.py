@@ -1,6 +1,4 @@
-data = {'P': [0, 0, 0, 0, 0],
-         'Q': [-1, -2, -3, -4, -5]}
-df0 = pd.DataFrame(data)
-var0 = 'P'
-expected_output = 0.0
-assert test(df0, var0) ==expected_output, 'Test failed'
+var0 = 5
+expected_result =  ['00', '01', '02', '03', '04']
+result = test(var0)
+assert result == expected_result, 'Test failed'

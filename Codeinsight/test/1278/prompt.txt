@@ -1,6 +1,4 @@
-Removing all non-numeric characters from string str0
+Counting the number of True Booleans in a Python List lst0  with count 
 
-from string import digits
-
-def test(str0: str) -> str:
+def test(lst0):
 

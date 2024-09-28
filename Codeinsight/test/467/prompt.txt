@@ -1,4 +1,4 @@
-Retrieve the first value from the dictionary dict0.  
+Drop the subcolumn 'a' under the main column 'col1' from dataframe df0.
 
-def test(dict0):
+def test(df0):
 

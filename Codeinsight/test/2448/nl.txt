@@ -1,1 +1,0 @@
-Calculate the var0 percentile of a numpy array arr0.

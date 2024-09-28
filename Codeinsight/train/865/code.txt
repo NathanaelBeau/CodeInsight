@@ -1,4 +1,5 @@
-import numpy as np
+import pandas as pd
 
-def test(arr0):
-    return arr0[~np.isnan(arr0)]
+def test(df0, df1):
+    joined_df = df0.join(df1)
+    return joined_df.dropna()

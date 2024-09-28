@@ -1,1 +1,1 @@
-Norm along row in pandas   dataframe df0
+Extract all elements from a NumPy array arr0 excluding the element at index var0

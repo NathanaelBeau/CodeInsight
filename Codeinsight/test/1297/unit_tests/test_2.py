@@ -1,4 +1,5 @@
-lst0 = [10, 20, 30, 40, 50]
-n = 5
-expected_output = [[10, 20, 30, 40, 50]]
-assert test(lst0, n) ==expected_output, 'Test failed'
+# Test 2
+var0 = "Python programming is fun."
+lst0 = ["Python", "fun", "Java"]
+expected_result =  False
+assert test(var0, lst0) == expected_result, 'Test failed'

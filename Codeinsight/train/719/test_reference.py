@@ -1,4 +1,4 @@
-import pandas as pd
+import numpy as np
 
-def test(df0):
-    return [df0.iloc[i].to_dict() for i in range(len(df0))]
+def test(arr0):
+    return not arr0.size

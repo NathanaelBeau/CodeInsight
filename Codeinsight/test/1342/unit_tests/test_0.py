@@ -1,5 +1,12 @@
-arr0 = np.array([[1, 2, 3], [4, 5, 6]])
-lst0 = [7, 8, 9]
-expected_result =  np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-result = test(arr0, lst0)
-assert np.array_equal(result, expected_result), 'Test failed'
+lst0 = [['a', 'b'], ['c'], ['d', 'e'], ['f', 'g'], ['h']]
+expected_output = [
+    ('a', 'c', 'd', 'f', 'h'),
+    ('a', 'c', 'd', 'g', 'h'),
+    ('a', 'c', 'e', 'f', 'h'),
+    ('a', 'c', 'e', 'g', 'h'),
+    ('b', 'c', 'd', 'f', 'h'),
+    ('b', 'c', 'd', 'g', 'h'),
+    ('b', 'c', 'e', 'f', 'h'),
+    ('b', 'c', 'e', 'g', 'h')
+]
+assert expected_output == list(itertools.product(*lst0)), 'Test failed'

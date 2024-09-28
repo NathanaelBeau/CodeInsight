@@ -1,4 +1,4 @@
-Move dictionaries in list lst0 to the end if the value of the key 'language' in each dictionary is not equal to 'en'
+Removing character var0 in list of strings   lst0
 
-def test(lst0):
+def test(lst0, var0):
 

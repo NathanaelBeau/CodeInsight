@@ -1,6 +1,4 @@
-Select distinct values across columns lst0 in a dataframe df0
+Convert the binary string binary_str into its corresponding integer value.
 
-import pandas as pd
-
-def test(df0, lst0):
+def test(binary_str: str) -> int:
 

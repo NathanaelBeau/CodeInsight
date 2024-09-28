@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(str0):
-    return np.array(list(str0))
+def test(lst0):
+    return [all(x == sub_lst[0] for x in sub_lst) for sub_lst in lst0]

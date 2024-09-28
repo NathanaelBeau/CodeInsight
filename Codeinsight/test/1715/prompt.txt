@@ -1,5 +1,8 @@
-Perform element-wise logical AND operation on two numpy arrays arr0 and arr1 
+Sort the elements of each row in dataframe df0 in descending order.
+
+import pandas as pd
 
 import numpy as np
-def test(arr0, arr1):
+
+def test(df0: pd.DataFrame) -> pd.DataFrame:
 

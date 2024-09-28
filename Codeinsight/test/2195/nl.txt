@@ -1,1 +1,0 @@
-Subtract values from list lst0 by values from list lst1

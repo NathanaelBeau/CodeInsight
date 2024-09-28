@@ -1,3 +1,3 @@
-var0 = "The whole World is watching."
-expected_result =  10
-assert test(var0) == expected_result, 'Test failed'
+lst0 = [-1, -2, -3]
+expected_output = [-3, -2, -1]
+assert test(lst0) == expected_output, 'Test failed'

@@ -1,1 +1,0 @@
-Drop rows specified in the list lst0 from the pandas DataFrame df0.

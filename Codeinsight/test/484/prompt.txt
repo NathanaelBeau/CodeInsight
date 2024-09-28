@@ -1,6 +1,4 @@
-Generating all unique pair permutations from a list lst0 
+Python: Split string str0 by list of separators  lst0 
 
-from itertools import permutations
-
-def test(lst0):
+def test(str0, lst0):
 

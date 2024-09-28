@@ -1,7 +1,7 @@
-import numpy as np
+import re
 
-def test(lst0):
-    la = len(lst0)
-    arr = np.array(np.meshgrid(*lst0)).T.reshape(-1, la)
-    arr = [tuple(map(str, row)) for row in arr]
-    return arr
+def test(str0):
+    numbers = ''.join(sorted(re.findall(r'\d', str0)))
+    letters = ''.join(sorted(re.findall(r'[a-zA-Z]', str0)))
+    
+    return numbers + letters

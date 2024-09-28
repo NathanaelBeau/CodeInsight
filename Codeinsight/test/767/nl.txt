@@ -1,1 +1,1 @@
-Retrieve the number of columns in the pandas DataFrame df0.
+Calculate the average of all elements in a nested list lst0.

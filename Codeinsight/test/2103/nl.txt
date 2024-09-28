@@ -1,1 +1,0 @@
-Move the column named var0 to the front of the dataframe df0

@@ -1,3 +1,4 @@
-lst0 = [(1, 'A', 'B'), (2, 'X', 'Y'), (2, 'Y', 'X'), (1, 'C', 'D'), (3, 'P', 'Q'), (3, 'Q', 'P')]
-expected_output = [(1, 'A', 'B'), (2, 'X', 'Y'), (3, 'P', 'Q')]
-assert test(lst0) == expected_output, 'Test failed'
+df0 = pd.DataFrame({'A': ['apple', 'banana'], 'B': ['cherry', 'date']})
+str0 = 'banana'
+expected_output = True
+assert test(str0, df0) == expected_output, 'Test failed'

@@ -1,1 +1,1 @@
-Rename the index of DataFrame df0 based on the mappings provided in dictionary dict0.
+Insert the string str0 into position var0 of string s.

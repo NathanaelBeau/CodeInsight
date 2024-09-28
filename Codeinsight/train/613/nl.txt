@@ -1,1 +1,1 @@
-python regex get first part of an email address  string str0 
+Get max value index for a list of dicts  lst0 on key var0

@@ -1,1 +1,1 @@
-Find all tuples in a list lst0 that contain the value '1'.
+Add a new row row0 to a numpy array arr0.

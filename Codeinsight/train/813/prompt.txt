@@ -1,6 +1,4 @@
-Convert all column headers to lowercase in a dataframe df0
+Checking if the character char0 exists in the string str0
 
-import pandas as pd
-
-def test(df0):
+def test(str0, char0):
 

@@ -1,6 +1,4 @@
- slice a numpy array arr0 to get both the first and last two rows   
+check whether a number var1 is strictly negative
 
-import numpy as np
-
-def test(arr0):
+def test(var1):
 

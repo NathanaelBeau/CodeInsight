@@ -1,1 +1,1 @@
-convert a nested list lst0 into a one-dimensional list in Python   
+ simple way to remove multiple spaces and spaces at the beginning and the end in a string str0 with regex

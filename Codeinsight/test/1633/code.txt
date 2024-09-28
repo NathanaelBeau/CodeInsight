@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0):
-    return arr0[np.where(arr0 != 0)]
+def test(var0, var1):
+    return [[0]*var0 for _ in range(var1)]

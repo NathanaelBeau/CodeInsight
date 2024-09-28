@@ -1,4 +1,4 @@
-import pandas as pd
+import numpy as np
 
-def test(df0, var0, var1):
-    return df0.rename(columns={df0.columns[var0]: var1})
+def test(arr0, row0):
+    return any(np.array_equal(x, row0) for x in arr0)

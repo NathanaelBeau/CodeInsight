@@ -1,1 +1,1 @@
-Get the index values of the pandas DataFrame df0 as a list.
+Dictionary to lowercase in Python  in dictionary dict0 with generator expression 

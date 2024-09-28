@@ -1,6 +1,6 @@
-How to convert a hex string  str0 to hex number   
+Concatenate dataframe df0 to dataframe df1 and sort by values of the column var0
 
-import binascii
+import pandas as pd
 
-def test(str0):
+def test(df0, df1, var0):
 

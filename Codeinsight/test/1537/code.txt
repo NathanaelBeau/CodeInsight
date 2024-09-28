@@ -1,6 +1,2 @@
-import pandas as pd
-import numpy as np
-
-
-def test(df0, var0):
-    return df0[pd.isna(df0[var0])]
+def test(dict0):
+    return {k: v for k, v in sorted(dict0.items(), key=lambda item: max(item[1]), reverse=True)}

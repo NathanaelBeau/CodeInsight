@@ -1,4 +1,6 @@
-Concatenate all integers from a list lst0 to form a single integer
+ count values in a certain range between var0 and var1 in a Numpy array arr0   
 
-def test(lst0):
+import numpy as np
+
+def test(arr0, var0, var1):
 

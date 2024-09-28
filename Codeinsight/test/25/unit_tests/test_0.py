@@ -1,5 +1,4 @@
-var0 = 0
-lst0 = []
-expected_result =  []
-result = test(var0, lst0)
+var0 = 'A'
+expected_result =  65
+result = test(var0)
 assert result == expected_result, 'Test failed'

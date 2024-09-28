@@ -1,1 +1,1 @@
-Convert the string var0 with format like '3.71B' or '4M' to its numeric equivalent.
+Filter out duplicate dictionaries in list lst0 based on the 'id' key.

@@ -1,1 +1,1 @@
-Create a zero-filled pandas dataframe with dimensions var0 x var1
+ count all elements in a nested dictionary dict0   

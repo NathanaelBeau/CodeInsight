@@ -1,6 +1,4 @@
-var0_1 = 0
-var1_1 = 'A'
-df0_1 = pd.DataFrame({'col1': [1, 2], 'col2': [3, 4]})
-expected_result_1 = pd.DataFrame({'col1': [1, 2], 'col2': [3, 4]}, index=['A', 1])
-result_1 = test(df0_1.copy(), var0_1, var1_1)
-assert result_1.equals(expected_result_1), 'Test failed'
+dict0 = { "apple": "fruit", "carrot": "vegetable", "banana": "fruit", "broccoli": "vegetable" }
+var0 = "I like to eat apple and carrot. Banana and broccoli are also good."
+expected_output = "I like to eat fruit and vegetable. fruit and vegetable are also good."
+assert test(dict0, var0) ==expected_output, 'Test failed'

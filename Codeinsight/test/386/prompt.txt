@@ -1,4 +1,7 @@
-Check if string var0 only contains characters from string var1
+python: check if an numpy array arr0 contains any element of another array arr1  with isin
 
-def test(var0, var1):
+import numpy as np
+import pandas as pd
+
+def test(arr0, arr1):
 

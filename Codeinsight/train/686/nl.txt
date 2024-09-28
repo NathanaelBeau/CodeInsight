@@ -1,1 +1,1 @@
- count the number of words in a sentence str0, ignoring numbers, punctuation and whitespace   
+Clamp an integer var0 between var1 and var2  

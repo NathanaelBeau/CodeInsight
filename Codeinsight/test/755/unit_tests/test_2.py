@@ -1,3 +1,4 @@
-str0 = '5.678'
-expected_output = 5
-assert test(str0) ==expected_output, 'Test failed'
+str0 = "Let's decode\\\\this"
+expected_result =  "Let's decode\\this"
+result = test(str0)
+assert result == expected_result, 'Test failed'

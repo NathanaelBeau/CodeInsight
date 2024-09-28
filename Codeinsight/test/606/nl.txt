@@ -1,1 +1,1 @@
-Converting a dict dict0 into a list   
+python: using rstrip  to remove one exact string str1 in string str0, respecting order   

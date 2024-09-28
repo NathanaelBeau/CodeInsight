@@ -1,2 +1,3 @@
-def test(var0):
-    return [len(word) for word in var0.split()]
+from operator import itemgetter
+def test(lst0):
+    return list(map(itemgetter(0), lst0))

@@ -1,4 +1,11 @@
-var0 = {'apple': 3, 'banana': 2, 'cherry': 1}
-expected_result =  [('cherry', 1), ('banana', 2), ('apple', 3)]
-result = test(var0)
-assert result == expected_result, 'Test failed'
+lst0 = [
+            {'a': 1, 'b': 2},
+            {'b': 2, 'a': 1},  # same content, different order
+            {'a': 1, 'b': 3},
+            {'a': 1, 'b': 2}   # duplicate of the first dict
+        ]
+result = test(lst0)
+expected = [{'a': 1, 'b': 2}, {'a': 1, 'b': 3}, {'b': 2, 'a': 1}]
+result = sorted([sorted(item.items()) for item in result])
+expected = sorted([sorted(item.items()) for item in expected])
+assert result == expected, 'Test failed'

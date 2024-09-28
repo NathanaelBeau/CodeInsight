@@ -1,4 +1,4 @@
-data0 = np.array([['cat', 'dog'], [np.nan, 'dog'], ['cat', np.nan]], dtype=object)
-expected_result =  np.array([['cat', 'dog'], ['cat', 'dog'], ['cat', 'dog']], dtype=object)
-result = test(data0)
-assert (result == expected_result).all(), 'Test failed'
+expected_output= 10000
+var0 = 10000
+result = test(var0)
+assert len(result)==expected_output, 'Test failed'

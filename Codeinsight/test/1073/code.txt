@@ -1,7 +1,2 @@
-import pandas as pd
-
-def test(df0):
-    result = []
-    for index, row in df0.iterrows():
-        result.append((index, row['A']))
-    return result
+def test(lst0):
+    return sum(d['gold'] for d in lst0 if 'gold' in d)

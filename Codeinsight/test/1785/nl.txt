@@ -1,1 +1,1 @@
-Rename specific column(s) var0 by var1 in pandas  dataframe df using dictionary mapping and list comprehension
+Map two lists, lst0 representing keys and lst1 representing values, into a dictionary

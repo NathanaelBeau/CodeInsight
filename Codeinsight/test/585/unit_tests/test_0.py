@@ -1,3 +1,4 @@
-lst0 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-expected_output = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-assert test(lst0) == expected_output, 'Test failed'
+s1 = "apple banana apple orange"
+pattern1 = "apple"
+expected_output1 = [(0, 5, 'apple'), (13, 18, 'apple')]
+assert test(s1, pattern1) == expected_output1, 'Test failed'

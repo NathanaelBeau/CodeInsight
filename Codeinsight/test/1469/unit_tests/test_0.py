@@ -1,4 +1,4 @@
-ttt1 = "hellohellohello"
-tt1 = "hello"
-expected_output1 = [0, 5, 10]
-assert test(ttt1, tt1) == expected_output1, 'Test failed'
+var0 = 'one,"two,three",four,five,"six,seven",eight'
+expected_result =  ['one', 'two,three', 'four', 'five', 'six,seven', 'eight']
+result = test(var0)
+assert result == expected_result, 'Test failed'

@@ -1,1 +1,1 @@
-Generate and return all possible combinations of elements from the input list of lists lst0  
+Divide each element in list lst0 by its corresponding element in list lst1.

@@ -1,6 +1,4 @@
-convert a dictionary dict0 into a NumPy array, where each element of the array is a tuple containing a key-value pair from the dictionary. The data type of the elements in the array is specified by the dtype parameter
+Extract all the values of a specific key var0 from a list of dictionaries var1
 
-import numpy as np
-
-def test(dict0, dtype= object):
+def test(var0, var1):
 

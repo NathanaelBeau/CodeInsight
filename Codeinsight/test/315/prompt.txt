@@ -1,6 +1,5 @@
-Create an empty pandas DataFrame with NaN of type float having a specified number of rows and given columns.
- 
+in pandas dataframe df0 convert your column of strs to a column of ints with  map(int) 
 
-import numpy as np
-def test(rows=1, columns=['A']):
+import pandas as pd
+def test(df0):
 

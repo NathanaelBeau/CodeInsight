@@ -1,7 +1,4 @@
-lst0 = [
-    {'City': 'Paris', 'Population': 2200000},
-    {'City': 'London', 'Population': 8900000},
-    {'City': 'New York', 'Population': 8600000}
-]
-expected_output = pd.DataFrame(lst0)
-assert test(lst0) .equals(expected_output), 'Test failed'
+var0 = "A\n\nB\nC\nD"
+expected_result =  [("A", "\nB\nC\nD")]
+result = test(var0)
+assert result == expected_result, 'Test failed'

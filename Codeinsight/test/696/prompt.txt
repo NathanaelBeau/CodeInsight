@@ -1,6 +1,4 @@
-Find the first index of value var0 in a numpy array arr0
+Add key "item3" with value 3 to a dictionary dict0
 
-import numpy as np
-
-def test(arr0, var0):
+def test(dict0):
 

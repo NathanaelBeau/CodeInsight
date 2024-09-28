@@ -1,5 +1,8 @@
-def test(df0, var0, var1):
-	try:
-		return df0.groupby(var1)[var0].sum()[1]
-	except:
-		return 0
+
+
+def test(lst0):
+    result = []
+    for tup in lst0:
+        for item in tup:
+            result.append(item)
+    return result

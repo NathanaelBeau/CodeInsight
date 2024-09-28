@@ -1,3 +1,4 @@
-lst2 = ["abacus", "cab", "dog", "elephant"]
-expected_result2 = ["dog", "elephant"]
-assert test(lst2) == expected_result2, 'Test failed'
+str0 = 'abcdef'
+var0 = '-'
+expected_output = 'ab-cd-ef'
+assert test(str0, var0) ==expected_output, 'Test failed'

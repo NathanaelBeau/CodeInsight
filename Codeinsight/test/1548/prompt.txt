@@ -1,6 +1,4 @@
-Remove all columns with names starting with 'Unnamed' in a pandas dataframe df0 
+Print the maximum value from a nested list named lst0
 
-import pandas as pd
-
-def test(df0):
+def test(lst0):
 

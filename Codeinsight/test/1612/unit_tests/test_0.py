@@ -1,3 +1,4 @@
-var0 = np.array([[0, 1], [3, 2]])
-expected_output = (np.array([0]), np.array([0]))
-assert test(var0) ==expected_output, 'Test failed'
+var0 = 'hello'
+expected_result =  b'hello'
+result = test(var0)
+assert result == expected_result, 'Test failed'

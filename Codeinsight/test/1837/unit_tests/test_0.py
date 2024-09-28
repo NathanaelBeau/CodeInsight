@@ -1,5 +1,4 @@
-# Test 1
-var0 = "abcde12345"
-regex_pattern = r"\d"
+dtype0 = 'float32'
 expected_result =  4
-assert test(var0, regex_pattern) == expected_result, 'Test failed'
+result = test(dtype0)
+assert result == expected_result, 'Test failed'

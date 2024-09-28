@@ -1,4 +1,6 @@
- alphabetically sort array of dictionaries lst0 on single key var0   
+Get indices of the top N  var0 values of a list   lst0 with numpy argsort
+
+import numpy as np
 
 def test(lst0, var0):
 

@@ -1,3 +1,3 @@
-import pandas as pd
-def test(df0, df1):
-    return pd.concat([df0, df1], axis=0, ignore_index=True)
+def test(lst0):
+    i = iter(lst0)
+    return dict(zip(i, i))

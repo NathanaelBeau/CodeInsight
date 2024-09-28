@@ -1,1 +1,1 @@
-Sort a list lst0 by the number after the second
+Create a dictionary with keys as indices and values from a list lst0

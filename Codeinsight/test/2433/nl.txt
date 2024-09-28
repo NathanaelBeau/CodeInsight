@@ -1,1 +1,0 @@
-Return a random word from a list of words lst0

@@ -1,1 +1,1 @@
-Check if all of the following items from dict dict0 are in a list lst0   
+Add  days var0 and  hours var1 to the given datetime dt0

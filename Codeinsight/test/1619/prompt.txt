@@ -1,6 +1,4 @@
-Counting array elements in Python array lst0  
+convert string str0 to dict using list comprehension with values as integers 
 
-import numpy as np
-
-def test(lst0):
+def test(str0):
 

@@ -1,4 +1,4 @@
- sort list lst0 by length of string followed by alphabetical order   
+Get all tuples which value in position var0 equals to var1 in a list of tuples lst0
 
-def test(lst0):
+def test(var0, var1, lst0):
 

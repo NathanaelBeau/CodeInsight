@@ -1,4 +1,5 @@
-lst0 = ["x", "y", "z"]
-var0 = 3
-expected_output = ['xyz', 'xzy', 'yxz', 'yzx', 'zxy', 'zyx']
-assert test(lst0, var0) ==expected_output, 'Test failed'
+import pandas as pd
+df = pd.DataFrame({'year': [2022, 2021, 2022], 'month': [1, 12, 2], 'day': [1, 31, 15]})
+expected_result =  pd.DataFrame({'year': [2021, 2022, 2022], 'month': [12, 1, 2], 'day': [31, 1, 15]})
+result = test(df)
+assert result.equals(expected_result), 'Test failed'

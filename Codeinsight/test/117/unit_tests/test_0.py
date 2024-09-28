@@ -1,4 +1,4 @@
 lst0 = [1, 2, 3, 4, 5]
-expected_result =  15
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+lst1 = [4, 5, 6, 7, 8]
+expected_result =  [4, 5]
+assert test(lst0, lst1) == expected_result, 'Test failed'

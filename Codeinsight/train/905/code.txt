@@ -1,4 +1,4 @@
-import numpy as np
+import pandas as pd 
 
-def test(arr0, var1):
-    return arr0[np.arange(arr0.shape[0])!= var1,:,:]
+def test(df0, var0, date0, date1):
+    return df0[df0[var0].between(date0, date1, inclusive='neither')]

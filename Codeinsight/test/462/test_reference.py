@@ -1,2 +1,5 @@
+import re
+
 def test(str0):
-    return [word for word in str0.split(" ") if word]
+    match = re.match(r'^\d+$', str0)
+    return int(match.group()) if match else None

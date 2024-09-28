@@ -1,4 +1,4 @@
-dict0 = {"x": "apple", "y": "banana", "z": "cherry"}
-idx0 = 2
-expected_output = "cherry"
-assert test(dict0, idx0) == expected_output, 'Test failed'
+lst0 = [('b', 2), ('c', 3), ('a', 1)]
+expected_result =  [('a', 1), ('b', 2), ('c', 3)]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

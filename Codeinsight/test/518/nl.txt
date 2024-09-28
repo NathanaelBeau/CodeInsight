@@ -1,1 +1,1 @@
-Normalize the rows of numpy array arr0 by dividing each row by its sum   
+Find the 'b' character in var0 that's preceded by one or more 'a' characters.

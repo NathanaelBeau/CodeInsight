@@ -1,4 +1,5 @@
-lst0 = [1, 2, 3]
-lst1 = [4, 5, 6]
-expected_output = [5, 7, 9]
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+df_test_4 = pd.DataFrame({'A': [1], 'B': ['hello']})
+dict_test_4 = {'A': 2, 'B': 'world'}
+result_4 = test(df_test_4, dict_test_4)
+expected_4 = pd.DataFrame({'A': [1, 2], 'B': ['hello', 'world']})
+assert result_4.equals(expected_4), 'Test failed'

@@ -1,1 +1,1 @@
-Split a column named col0 containing tuples into two separate columns, 'A' and 'B', in a dataframe df0
+Convert the data type of the column str0 in DataFrame df0 from string to datetime.

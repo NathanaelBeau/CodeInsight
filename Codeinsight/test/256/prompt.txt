@@ -1,4 +1,4 @@
-Transform a space-separated string of integers str0 into a list of integers.
+ index nested lists lst0 in Python  with output as a tuple using zip
 
-def test(str0):
+def test(lst0):
 

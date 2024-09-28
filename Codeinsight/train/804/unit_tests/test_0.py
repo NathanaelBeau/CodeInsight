@@ -1,4 +1,5 @@
-var0 = pd.DataFrame({'sex': [0, 1, 0, 1]})
-expected_result =  pd.DataFrame({'sex': ['Female', 'Male', 'Female', 'Male']})
-result = test(var0)
-assert result.equals(expected_result), 'Test failed'
+# Test 1
+lst0 = [[1, 2], [3, 4]]
+expected_result =  [(1, 3), (1, 4), (2, 3), (2, 4)]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

@@ -1,1 +1,1 @@
-Get the element number var0 of each tuple from a list of tuple lst0 
+Find the longest common prefix between two strings var0 and var1.

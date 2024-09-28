@@ -1,6 +1,4 @@
-How to subset a data frame df0 using Pandas based on a group criteria  var0 and var1 when value == var2
+Sort a list of dictionaries lst0 based on key var0
 
-import pandas as pd
-
-def test(df0, var0, var1, var2):
+def test(lst0, var0):
 

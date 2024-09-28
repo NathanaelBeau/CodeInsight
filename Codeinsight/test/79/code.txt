@@ -1,5 +1,8 @@
-import pandas as pd
+import re
 
-def test(df0):
-    df0['name'] = df0['name'].str.replace(r"\(.*\)", "", regex=True)
-    return df0
+def test(str0, var0):
+    sentences = re.split(r'(?<=[.?!])\s+', str0)
+    if len(sentences) > var0:
+        return ' '.join(sentences[:var0])
+    else:
+        return str0

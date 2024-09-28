@@ -1,4 +1,4 @@
-str0 = "OpenAI"
-var0 = 5
-expected_output = "OpenA"
-assert test(str0, var0) == expected_output, 'Test failed'
+dict0 = {'p': {'count': 100}, 'q': {'count': 50}, 'r': {'count': 100}}
+expected_result =  'p'
+result = test(dict0)
+assert result == expected_result, 'Test failed'

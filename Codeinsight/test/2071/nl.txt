@@ -1,1 +1,0 @@
- filter values Nones and replaced them by var0 in a dictionary dict0 in Python  

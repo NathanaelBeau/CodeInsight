@@ -1,1 +1,1 @@
-Retrieve all matches of the regular expression pattern in the end of string str0.
+Concatenate a numpy array arr1 to another numpy array arr0.

@@ -1,7 +1,4 @@
-def test(lst0):
-    max_value = max(lst0)
-    positions = []
-    for i in range(len(lst0)):
-        if lst0[i] == max_value:
-            positions.append(i)
-    return positions
+import pandas as pd
+
+def test(df0):
+    return df0.index.astype(str).tolist()

@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(arr0):
-    return arr0[[0, 1, -2, -1]]
+def test(lst0):
+    return list(map(lambda x: x[0], lst0))

@@ -1,5 +1,6 @@
-Generate a 3 by 3 matrix of random numbers.
+Get a pandas DataFrame summing over the rows with identical column names in DataFrame df0.
 
-import numpy as np
-def test():
+import pandas as pd
+
+def test(df0):
 

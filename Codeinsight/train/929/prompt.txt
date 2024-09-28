@@ -1,6 +1,4 @@
-Retrieve all rows from DataFrame df0 that have duplicate items in column var0.
+Prepend the string 'hello' to all items in a list lst0
 
-import pandas as pd
-
-def test(df0, var0):
+def test(lst0):
 

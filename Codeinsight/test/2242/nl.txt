@@ -1,1 +1,0 @@
-Merge a list of dictionaries lst0 into a single dictionary.

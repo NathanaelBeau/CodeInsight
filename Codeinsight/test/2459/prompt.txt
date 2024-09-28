@@ -1,4 +1,0 @@
-Removing entries from a dictionary dict0 based on values   var0 
-
-def test(dict0, var0):
-

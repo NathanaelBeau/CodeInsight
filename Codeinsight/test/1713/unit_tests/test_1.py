@@ -1,6 +1,5 @@
-# Test for an empty DataFrame
-df_empty = pd.DataFrame(columns=['A', 'B'])
-result_empty = test(df_empty)
-expected_empty = []
-
-assert result_empty.tolist() == expected_empty, f"Test Failed"
+str0 = 'cat'
+var0 = 8
+str1 = '*'
+expected_output = '**cat***'
+assert test(str0, var0, str1) == expected_output, 'Test failed'

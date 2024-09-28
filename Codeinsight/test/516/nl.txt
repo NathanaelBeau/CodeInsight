@@ -1,1 +1,1 @@
-Normalize a numpy array arr0 to a unit vector.
+Find matches in string var0 that start and end with the pattern var1.

@@ -1,4 +1,3 @@
-lst0 = ['Python', 'java', 'JAVA', 'Python', 'C++']
-expected_result =  ['c++', 'java', 'python']
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+s3 = "No_symbols-Or_maybe_some"
+expected_output3 = True
+assert test(s3) == expected_output3, 'Test failed'

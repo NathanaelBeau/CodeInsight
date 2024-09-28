@@ -1,1 +1,1 @@
- get the name of the rows from the index of a data frame df0  
+Extract numbers from var0 along with any accompanying comparison adjectives or ranges (less than, greater than, between, more than).

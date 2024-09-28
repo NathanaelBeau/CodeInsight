@@ -1,6 +1,0 @@
-Create a numpy matrix of shape shape0 filled with NaNs.
-
-import numpy as np
-
-def test(shape0):
-

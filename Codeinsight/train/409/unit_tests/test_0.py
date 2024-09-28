@@ -1,5 +1,4 @@
-s = "Hello World"
-str0 = "Beautiful "
-var0 = 6
-expected_output = "Hello Beautiful World"
-assert test(s, str0, var0) == expected_output, 'Test failed'
+df = pd.DataFrame({ 'col1': [1, 2, 3], 'col2': [4, 5, 6] })
+expected_result =  pd.DataFrame({ 'col1': [3, 2, 1], 'col2': [6, 5, 4] })
+result = test(df, 'col1', lambda x: -x)
+assert result .equals( expected_result), 'Test failed'

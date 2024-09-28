@@ -1,2 +1,4 @@
-def test(str0):
-    return str0.split("@")[0]
+from packaging.version import Version
+
+def test(lst0):
+    return sorted(lst0, key=Version)

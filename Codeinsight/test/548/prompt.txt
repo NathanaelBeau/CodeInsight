@@ -1,6 +1,5 @@
-Flatten the hierarchical index in columns of dataframe df0."
+Sum each value in a list of tuples lst0   
 
-import pandas as pd
 
-def test(df0):
+def test(lst0):
 

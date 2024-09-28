@@ -1,1 +1,1 @@
- sort list lst0 by length of string followed by alphabetical order   
+Check the versions of the given modules var0 and var1.  

@@ -1,1 +1,1 @@
- iterate through a list of tuples lst0 containing three pair values   
+Retrieve the first column of a dataframe df0 as a series

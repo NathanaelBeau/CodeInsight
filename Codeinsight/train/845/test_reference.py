@@ -1,3 +1,4 @@
-import pandas as pd
-def test(df0, df1):
-    return pd.concat([df0, df1], ignore_index=True)
+import operator
+
+def test(lst0):
+    return tuple(map(operator.itemgetter(0), lst0))

@@ -1,1 +1,1 @@
-Getting the first elements per row in an array lst0 in Python  
+filter out key-value pairs from the dictionary dict0 where the value is equal to var0 

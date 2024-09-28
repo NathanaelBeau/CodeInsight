@@ -1,3 +1,3 @@
-import pandas as pd
-def test(df0):
-    return df0.index.to_list()
+def test(lst0: list) -> list:
+    lst0.clear()
+    return lst0

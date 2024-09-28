@@ -1,1 +1,0 @@
-Find all pairs of adjacent digits in var0 that have different non-digits around them.

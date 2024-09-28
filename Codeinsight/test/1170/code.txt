@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0, lst0):
-    return df0.groupby(lst0).size().reset_index(name='var0')
+def test(dct0):
+    return sum(1 for key, value in dct0.items() if key == 'success' and value == True)

@@ -1,1 +1,1 @@
-Convert the pandas Series or Index ser0 to a Numpy array.
+Extract the first and last rows of a DataFrame df0 

@@ -1,2 +1,4 @@
-def test(lst0, typ0):
-    return all(isinstance(x, typ0) for x in lst0)
+import pandas as pd
+
+def test():
+    return pd.DataFrame(columns=['A', 'B', 'A1R', 'B2', 'AABB4'])

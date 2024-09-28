@@ -1,3 +1,3 @@
-lst0 = [[4.0, 2.0, 3.0], [3.0, 1.0, 2.0], [3.5, 2.5, 1.5]]
-expected_output = [4.0, 3.0, 3.5]
-assert test(lst0) ==expected_output, 'Test failed'
+dict0 = {'a': 1, 'b': 2, 'c': 3}
+expected_output = {1: 'a', 2: 'b', 3: 'c'}
+assert test(dict0) ==expected_output, 'Test failed'

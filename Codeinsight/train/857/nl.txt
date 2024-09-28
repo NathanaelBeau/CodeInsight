@@ -1,1 +1,1 @@
-Get indices of the top var0 maximum values from a NumPy array lst0
+"Standardize the values in the dataframe df0 using sklearn's fit_transform and return the result as a dataframe. 

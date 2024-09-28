@@ -1,3 +1,4 @@
-var0 = 10
-expected_output = [0, 0, 1, 1, 2, 2, 3, 3, 4, 4]
-assert test(var0) ==expected_output, 'Test failed'
+lst0 = [{'a': 1, 'b': 2}, {'b': 3, 'c': 4}]
+expected_result =  {'a': 1, 'b': 3, 'c': 4}
+result = test(lst0)
+assert result == expected_result, 'Test failed'

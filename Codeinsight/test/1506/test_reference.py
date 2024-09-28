@@ -1,4 +1,5 @@
-import pandas as pd
-
-def test(df0, df1):
-    return df0.join(df1)
+def test(lst0, length, fill_value):
+    for sublist in lst0:
+        while len(sublist) < length:
+            sublist.append(fill_value)
+    return lst0

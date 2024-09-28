@@ -1,1 +1,1 @@
-Merging a listlst0 with a list of lists  lst1 
+How do I get the name of the rows as pandas Index list object from the index of a data frame df0?   

@@ -1,2 +1,2 @@
-def test(dict0):
-    return list(dict0.keys())
+def test(lst0):
+    return [x.split('\t') for x in lst0]

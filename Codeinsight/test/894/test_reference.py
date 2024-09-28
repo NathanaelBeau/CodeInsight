@@ -1,5 +1,4 @@
-def test(str0, str1):
-    if any(str1 in s for s in str0):
-        matching = [s for s in str0 if str1 in s]
-        return matching
- 
+import math
+
+def test(var0):
+    return var0 * (180 / math.pi)

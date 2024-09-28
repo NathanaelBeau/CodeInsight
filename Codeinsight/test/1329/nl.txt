@@ -1,1 +1,1 @@
-Pandas : Use groupby on each element of list  lst0  
+Compute the average of a list named lst0.

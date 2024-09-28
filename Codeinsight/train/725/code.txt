@@ -1,2 +1,3 @@
-def test(str0, tpl0):
-    return tpl0 + tuple(eval(str0))
+import numpy as np
+def test(lst0, var0):
+    return np.append(lst0, var0)

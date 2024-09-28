@@ -1,6 +1,6 @@
-Check if the variable var0 is either a python list, numpy array, or pandas series  
+Remove all characters from the string var0 except for letters and spaces.
 
-import numpy as np
-import pandas as pd
+import re
+
 def test(var0):
 

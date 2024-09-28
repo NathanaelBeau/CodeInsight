@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0, var0):
-    return np.sort(arr0)[-var0:]
+def test(dict0):
+    return {v: k for k, v in dict0.items()}

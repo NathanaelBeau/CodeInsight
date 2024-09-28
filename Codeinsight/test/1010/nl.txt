@@ -1,1 +1,1 @@
-in Python,  convert list of float numbers  lst0 to string with certain format '{0:.8e}'?   
+ get the size of a string var0

@@ -1,3 +1,2 @@
-arr0 = np.array([1, 2, 0, 3, 0, 4])
-expected_output = np.array([1, 2, 3, 4])
-assert (test(arr0)  == expected_output).all(), 'Test failed'
+var0 = "Hello, World! How are you today?"
+assert test(var0) == ['Hello', 'World', 'How', 'are', 'you', 'today', ''], 'Test failed'

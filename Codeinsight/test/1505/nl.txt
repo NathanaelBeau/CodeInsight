@@ -1,1 +1,1 @@
-Round the elements of the numpy array arr0 to var0 decimal places 
+ompute the L2 norm (Euclidean norm) for each row of a matrix named matrix0

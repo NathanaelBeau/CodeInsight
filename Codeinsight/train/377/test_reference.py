@@ -1,4 +1,4 @@
-from itertools import product
+import re
 
-def test(var0):
-    return list(product([0, 1], repeat=var0))
+def test(str0):
+    return re.sub(r'\.(?=[^ .])', '. ', str0)

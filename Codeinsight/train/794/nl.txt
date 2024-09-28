@@ -1,1 +1,1 @@
-Create a list with var0 number of empty dictionaries
+Change the case of the first letter in the string str0.

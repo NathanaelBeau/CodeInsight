@@ -1,4 +1,5 @@
 import numpy as np
 
-def test(mat0, vec0):
-    return mat0 @ vec0
+def test(arr0):
+    x = np.array(arr0)
+    return np.int_(x).tolist()

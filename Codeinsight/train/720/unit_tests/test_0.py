@@ -1,4 +1,5 @@
-var0 = "There are 3 apples and 5 oranges."
-expected_result =  ["3", "5"]
-result = test(var0)
+dict0 = {'a': 1, 'b': 2, 'c': 3}
+var0 = 2
+expected_result =  True
+result = test(dict0, var0)
 assert result == expected_result, 'Test failed'

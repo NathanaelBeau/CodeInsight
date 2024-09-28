@@ -1,3 +1,5 @@
-def test(str0):
-    return '-'.join(a + b for a, b in zip(str0[::2], str0[1::2]))
-
+def test(lst0):
+    result = ""
+    for item in lst0:
+        result += str(item) + '\n'
+    return result.strip()

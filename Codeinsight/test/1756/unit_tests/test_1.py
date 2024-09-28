@@ -1,5 +1,4 @@
-# Test 3
-df0 = pd.DataFrame({ 'P': [5, 10, 15], 'Q': [3, 6, 9] })
-expected_result =  pd.DataFrame({ 'P': [0.0, 0.5, 1.0], 'Q': [0.0, 0.5, 1.0] })
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+var0 = "This is a test string with some special characters."
+var1 = "."
+expected_result2 = "This is a test string with some special characters"
+assert test(var0, var1) == expected_result2, 'Test failed'

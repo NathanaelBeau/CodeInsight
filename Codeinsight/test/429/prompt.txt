@@ -1,6 +1,6 @@
-Count the number of rows in dataframe df0 that have missing values.
+create a function that takes a pandas DataFrame df0 and a column name col0, and applies uppercase transformation to the values in the specified column
 
 import pandas as pd
 
-def test(df0):
+def test(df0, col0):
 

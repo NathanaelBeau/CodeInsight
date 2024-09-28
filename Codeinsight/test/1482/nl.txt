@@ -1,1 +1,1 @@
-Convert a 2D float numpy array arr0 to a 2D int numpy array
+Remove all matches in the string var0 that match the pattern var1.

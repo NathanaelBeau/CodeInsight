@@ -1,1 +1,1 @@
-sum the product of two list items lst0 and lst1 using for loop in python  
+Pandas: Create another column var1 while splitting each row from the first column var0    in dataframe df0 

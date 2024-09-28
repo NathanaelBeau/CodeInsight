@@ -1,4 +1,4 @@
- unpacking keys and values of a dictionary dict0  into two lists, without losing consistence   
+Python: an efficient way to slice a list lst0 with a index list  lst1 
 
-def test(dict0):
+def test(lst0, index):
 

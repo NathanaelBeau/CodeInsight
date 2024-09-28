@@ -1,1 +1,1 @@
-For DataFrame df0, use the apply method to apply the function func along the axis ax
+How to flatten a tuple lst0 python   

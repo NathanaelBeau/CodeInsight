@@ -1,5 +1,3 @@
-str0 = "3:6"
-lst0 = [True, 1, "apple", 3.14, "banana", 42, None]
-expected_result3 = [3.14, "banana", 42]
-result3 = test(str0, lst0)
-assert test(str0, lst0) ==expected_result3, 'Test failed'
+lst0 = [np.array([2, 3, 4,5]), np.array([5, 6, 7, 8])]
+expected_output = np.array([2, 3, 4, 5, 5, 6, 7, 8])
+assert (test(lst0)  == expected_output).all(), 'Test failed'

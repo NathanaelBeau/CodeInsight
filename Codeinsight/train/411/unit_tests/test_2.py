@@ -1,4 +1,4 @@
-lst0 = [{"name": "mars", "type": "planet"}, {"name": "saturn", "type": "planet"}, {"name": "pluto", "type": "planet"}]
-var0 = "pluto"
-expected_output = {"name": "pluto", "type": "planet"}
-assert test(lst0, var0) == expected_output, 'Test failed'
+input_str = "   hello world   "
+expected_result =  "helloworld"
+result = test(input_str)
+assert result==expected_result, 'Test failed'

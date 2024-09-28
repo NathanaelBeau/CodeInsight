@@ -1,4 +1,4 @@
-df1 = pd.DataFrame({ 'A': ['apple', 'banana', 'apple', 'banana', 'apple'], 'B': ['red', 'yellow', 'red', 'yellow', 'red'], 'C': [1, 2, 3, 4, 5] })
-expected_result1 = pd.DataFrame({ 'A': ['apple', 'banana'], 'B': ['red', 'yellow'], 'C': [5, 4] })
-result1 = test(df1)
-assert result1.sort_values(by=['A', 'B']).reset_index(drop=True).equals(expected_result1.sort_values(by=['A', 'B']).reset_index(drop=True)), 'Test failed'
+lst0 = [1, 2, 3, 4]
+lst1 = ['a', 'b', 'c', 'd']
+expected_output = {1: 'a', 2: 'b', 3: 'c', 4: 'd'}
+assert test(lst0, lst1) ==expected_output, 'Test failed'

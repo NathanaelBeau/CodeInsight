@@ -1,4 +1,4 @@
- split sub-lists lst0 into sub-lists k  var0 times? (Python)   
+Add SUM of values of two LISTS lst0 and lst1 into new LIST  with sum and zip
 
-def test(lst0, var0):
+def test(lst0, lst1):
 

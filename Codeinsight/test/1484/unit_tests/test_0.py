@@ -1,5 +1,4 @@
-df0 = pd.DataFrame([[1, 2], [3, 4]], columns=['A', 'B'])
-var0 = 'NewLevel'
-expected_result =  pd.DataFrame([[1, 2], [3, 4]], columns=pd.MultiIndex.from_tuples([(var0, 'A'), (var0, 'B')]))
-result = test(var0, df0)
-assert result.equals(expected_result), 'Test failed'
+var0, var1 = 3, 3
+expected_result =  (np.array([[0, 0, 0], [1, 1, 1], [2, 2, 2]]), np.array([[0, 1, 2], [0, 1, 2], [0, 1, 2]]))
+result = test(var0, var1)
+assert np.array_equal(result[0], expected_result[0]) and np.array_equal(result[1], expected_result[1]), 'Test failed'

@@ -1,4 +1,6 @@
-lst0 = [('a', 'b'), ('c', 'd'), ('e', 'f')]
-var0 = 0
-expected_output = ['a', 'c', 'e']
-assert test(lst0, var0) ==expected_output, 'Test failed'
+import pandas
+df1 = pandas.DataFrame()
+df2 = pandas.DataFrame()
+expected_output = pandas.DataFrame()
+# Act
+assert expected_output.equals(test(df1,df2)), 'Test failed'

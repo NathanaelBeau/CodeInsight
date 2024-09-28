@@ -1,5 +1,4 @@
-lst0 = ['a', 'b', 'c', 'a', 'd', 'e', 'f']
-var0 = 'a'
-expected_result =  [0, 3]
-result = test(lst0, var0)
-assert result == expected_result, 'Test failed'
+dict0 = {'X': 100, 'Y': 200, 'Z': 300}
+expected_output = np.array([('X', 100), ('Y', 200), ('Z', 300)], dtype=object)
+dtype= object
+assert (test(dict0, dtype)  == expected_output).all(), 'Test failed'

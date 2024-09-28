@@ -1,1 +1,1 @@
-Python:  use a string str0 as a slice specifier  in list lst0 
+Find all duplicated elements between two lists lst0 and lst1.

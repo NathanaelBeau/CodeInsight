@@ -1,3 +1,4 @@
-lst0 = [1, 2, 3]
-expected_output = 14  # 1^2 + 2^2 + 3^2 = 14
-assert test(lst0) == expected_output, 'Test failed'
+var0 = "There are 3 apples and 5 oranges."
+expected_result =  ["3", "5"]
+result = test(var0)
+assert result == expected_result, 'Test failed'

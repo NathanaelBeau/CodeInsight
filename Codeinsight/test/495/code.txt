@@ -1,4 +1,4 @@
 import pandas as pd
 
-def test(df0, column_name0, some_value0):
-    return df0.index[df0[column_name0] == some_value0].tolist()[0]
+def test(df0, var0, var1, var2):
+    return df0.pivot(index=var0, columns=var1, values=var2)

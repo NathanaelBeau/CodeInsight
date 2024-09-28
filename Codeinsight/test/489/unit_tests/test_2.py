@@ -1,4 +1,6 @@
-lst0 = [('a', 'b'), ('c', 'd')]
-expected_result =  ['a', 'b', 'c', 'd']
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+# Test 3
+df0 = pd.DataFrame({'name': ['John', 'Jane', 'Doe'], 'age': [30, 25, 40]})
+condition = "name != 'Doe' & age > 26"
+expected_result =  pd.DataFrame({'name': ['John'], 'age': [30]})
+result = test(df0, condition)
+assert result.equals(expected_result), 'Test failed'

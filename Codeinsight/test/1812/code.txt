@@ -1,4 +1,5 @@
-import operator
+import pandas as pd
 
-def test(dict0):
-    return dict(sorted(dict0.items(), key=operator.itemgetter(1), reverse=True))
+def test(df0):
+    df0.sort_values(['col0', 'col1'], ascending=[True, False], inplace=True)
+    return df0

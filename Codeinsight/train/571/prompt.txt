@@ -1,6 +1,7 @@
-add a string prefix var0 to each value in a string column col0 using Pandas in pandas dataframe df0  
+Replace NaN values in the pandas DataFrame df0 with an empty string.
 
-import pandas as pd
+import numpy as np
+import pandas as pd 
 
-def test(df0, col0, var0):
+def test(df0):
 

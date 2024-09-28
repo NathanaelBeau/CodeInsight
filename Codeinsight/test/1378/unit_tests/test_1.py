@@ -1,3 +1,4 @@
-lst0 = [[1, 1, 1], [1, 1, 2], [1, 1, 1]]
-expected_result =  False
-assert test(lst0) == expected_result, 'Test failed'
+df0 = pd.DataFrame({ 'ID': [101, 102], 'City': ['New York', 'Los Angeles'], 'Population': [8623457, 3990456] })
+lst0 = ['City', 'ID']
+expected_output = (test(df0, lst0))
+assert test(df0, lst0).equals(expected_output), 'Test failed'

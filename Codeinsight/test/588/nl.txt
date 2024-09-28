@@ -1,1 +1,1 @@
-Multiply each element of the list lst0 by the number var0  
+Intent: Convert a variable named var0 to a string

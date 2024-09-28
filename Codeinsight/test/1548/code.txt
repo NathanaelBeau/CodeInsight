@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0):
-    return df0.loc[:, ~df0.columns.str.contains('^Unnamed')]
+def test(lst0):
+    return max(max(sublist) for sublist in lst0)

@@ -1,4 +1,4 @@
-dict0 = {'A': 'Apple', 'B': 'Banana', 'C': 'Cherry'}
-dict1 = {'A': 1, 'B': 2, 'C': 3}
-expected_output = {'Apple': 1, 'Banana': 2, 'Cherry': 3}
-assert test(dict0, dict1) ==expected_output, 'Test failed'
+lst0 = [1, 2, 3, 4, 5]
+lst1 = [3, 4, 5, 6, 7]
+expected_output = {3, 4, 5}
+assert test(lst0, lst1) ==expected_output, 'Test failed'

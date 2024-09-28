@@ -1,1 +1,1 @@
-Remove all elements from list lst1 present in list lst0.
+Remove the unwanted_string str0 from the column named var0 in DataFrame df0.

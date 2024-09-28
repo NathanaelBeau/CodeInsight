@@ -1,4 +1,5 @@
-import numpy as np
+import re
 
-def test(arr0, arr1):
-    return np.ravel(np.column_stack((arr0, arr1)))
+def test(var0, char_start, char_end):
+    pattern = r'(?<=[{0}])([^{1}]+)(?=[{1}])'.format(re.escape(char_start), re.escape(char_end))
+    return re.findall(pattern, var0)

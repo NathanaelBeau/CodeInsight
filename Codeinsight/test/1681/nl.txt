@@ -1,1 +1,1 @@
-Scale the columns of the pandas dataframe df0 using sklearn's StandardScaler  
+split string str0 into words that do not contain whitespaces in python  

@@ -1,5 +1,4 @@
-lst0 = [1, 2, 3]
-lst1 = ['a', 'b', 'c']
-expected_result =  pd.DataFrame({'List1': [1, 2, 3], 'List2': ['a', 'b', 'c']})
-result = test(lst0, lst1)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [1, 3, 5, 7, 9]
+num0 = 4
+expected_result =  3
+assert test(lst0, num0) == expected_result, 'Test failed'

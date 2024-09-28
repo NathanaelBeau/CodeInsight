@@ -1,4 +1,4 @@
-lst0 = [0, 5, 10, 15, 20, 25, 30]
-expected_result =  [0, 5, 10, 20, 25, 30]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+lst0 = ['stack overflow', 'github repository', 'python library']
+lst1 = ['javascript', 'python', 'java']
+expected_output = ['python library']
+assert test(lst0, lst1) == expected_output, 'Test failed'

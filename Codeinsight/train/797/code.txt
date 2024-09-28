@@ -1,3 +1,3 @@
-def test(lst0):
-    lst0.append('foo')
-    return lst0
+import numpy as np
+def test(arr0, var0):
+    return arr0[np.arange(arr0.size) != var0]

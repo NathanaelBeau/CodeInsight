@@ -1,5 +1,6 @@
-dict0 = {'a': 10, 'b': 20, 'c': 30}
-dict1 = {'a': 2, 'b': 5, 'c': 3}
-expected_result =  {'a': 5.0, 'b': 4.0, 'c': 10.0}
-result = test(dict0, dict1)
-assert result == expected_result, 'Test failed'
+def determine(x):
+    return x % 2 == 0
+lst0 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+var0 = determine
+expected_output = [1, 3, 5, 7, 9]
+assert test(lst0, var0)==expected_output, 'Test failed'

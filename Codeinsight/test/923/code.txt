@@ -1,4 +1,4 @@
-import numpy as np
+import pandas as pd
 
-def test(arr0, var0, var1):
-    return np.sum(np.logical_and(arr0 >= var0, arr0 <= var1))
+def test(df0, col_name0, value0):
+    return (df0[col_name0] == value0).sum()

@@ -1,1 +1,1 @@
-Get max value index for a list of dicts  lst0 on key var0
+Assign a number to each unique value in a list lst0 based on the order of appearance of the values with pandas.factorize

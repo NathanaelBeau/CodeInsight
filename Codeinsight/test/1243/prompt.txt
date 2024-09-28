@@ -1,4 +1,6 @@
- reverse the elements in a sublist lst0   
+Delete all columns in DataFrame df0 that contain only zeros
 
-def test(lst0):
+import pandas as pd
+
+def test(df0):
 

@@ -1,4 +1,4 @@
-var0 = "camelCaseString"
-expected_result =  "camel-case-string"
-result = test(var0)
-assert result == expected_result, 'Test failed'
+lst0 = [1, 2, 2]
+expected_result =  None
+result = test(lst0)
+assert result ==expected_result, 'Test failed'

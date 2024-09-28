@@ -1,2 +1,4 @@
-def test(lst0):
-    return lst0[-1:] + lst0[:-1]
+import numpy as np
+
+def test(arr0):
+    return arr0.size == 0

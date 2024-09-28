@@ -1,6 +1,0 @@
-Flipping the boolean values in a list lst0 with operator in  Python   
-
-import operator
-
-def test(lst0):
-

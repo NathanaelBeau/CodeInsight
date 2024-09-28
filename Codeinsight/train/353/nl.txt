@@ -1,1 +1,1 @@
-Reverse the elements in list lst0.
+ create key var0 or append an element var1 to key var0 in dictionary dict0  

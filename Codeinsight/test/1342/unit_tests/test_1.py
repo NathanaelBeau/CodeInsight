@@ -1,5 +1,3 @@
-arr0 = np.array([[10, 11, 12]])
-lst0 = [13, 14, 15]
-expected_result =  np.array([[10, 11, 12], [13, 14, 15]])
-result = test(arr0, lst0)
-assert np.array_equal(result, expected_result), 'Test failed'
+lst0 = [['x', 'y', 'z'], ['m', 'n']]
+expected_output = [('x', 'm'), ('x', 'n'), ('y', 'm'), ('y', 'n'), ('z', 'm'), ('z', 'n')]
+assert expected_output == list(itertools.product(*lst0)), 'Test failed'

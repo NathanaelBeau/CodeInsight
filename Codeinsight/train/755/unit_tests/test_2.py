@@ -1,5 +1,3 @@
-lst0 = [9, 10]
-lst1 = [11, 12]
-expected_result =  [(9, 11), (10, 12)]
-result = test(lst0, lst1)
-assert result == expected_result, 'Test failed'
+str0 = "This\\ is\\ a\\ test\\ string"
+expected_output = "This is a test string"
+assert test(str0) ==expected_output, 'Test failed'

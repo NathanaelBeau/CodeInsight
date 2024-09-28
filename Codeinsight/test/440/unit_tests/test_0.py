@@ -1,3 +1,14 @@
-str0 = "This is line 1.\tThis is line 2.\tThis is line 3."
-expected_output = [['This is line 1.', 'This is line 2.', 'This is line 3.']]
-assert test(str0) == expected_output, 'Test failed'
+df0 = pd.DataFrame({
+            'A': [1, 2, 3],
+            'B': [4, 5, 6]
+        })
+df1 = pd.DataFrame({
+            'A': [1, 1, 1],
+            'B': [1, 1, 1]
+        })
+result = test(df0, df1)
+expected = pd.DataFrame({
+            'A': [0, 1, 2],
+            'B': [3, 4, 5]
+        })
+assert result.equals(expected), 'Test failed'

@@ -1,5 +1,5 @@
-# Test 3
-df0 = pd.DataFrame({ 'col1': ['a', 'b', 'c'], 'col2': ['x', 'y', 'z'] })
-lst0 = ['first', 'second']
-expected_result =  pd.DataFrame({ 'first': ['a', 'b', 'c'], 'second': ['x', 'y', 'z'] })
-assert test(df0.copy(), lst0).equals(expected_result), 'Test failed'
+str0 = "programming_is_fun"
+lst0 = [11, 14]
+expected_result =  ["programming", "_is", "_fun"]
+result = test(str0, lst0)
+assert result == expected_result, 'Test failed'

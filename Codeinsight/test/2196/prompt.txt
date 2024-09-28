@@ -1,6 +1,0 @@
-Extract all numbers from a string var0 using regular expressions  
-
-import re
-
-def test(var0):
-

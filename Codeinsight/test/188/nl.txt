@@ -1,1 +1,1 @@
- find the index of a value var0 in 2d array arr0 in Python with zip
+calculate equal parts of two dictionaries  dict0 and dict1 

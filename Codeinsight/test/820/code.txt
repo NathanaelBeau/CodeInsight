@@ -1,5 +1,4 @@
-import pandas as pd
-
-def test(df0, var0, var1, var2):
-    df0[var0] = df0[var0].replace(var1, var2)
-    return df0
+import numpy as np
+def test(arr0, old_val0, new_val0):
+    arr0[arr0 == old_val0] = new_val0
+    return arr0

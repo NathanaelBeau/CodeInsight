@@ -1,3 +1,5 @@
-lst0 = [['z', 'a'], ['a', 'z'], ['m', 'n']]
-expected_result =  [['a', 'z'], ['m', 'n'], ['z', 'a']]
-assert test(lst0) == expected_result, 'Test failed'
+dct0 = {'key1': 'value1', 'key2': 'value2'}
+var0 = 'key3'  # Key which doesn't exist
+expected_result =  {'key1': 'value1', 'key2': 'value2'}  # Dictionary remains unchanged
+result = test(dct0, var0)
+assert result == expected_result, 'Test failed'

@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0, func, var0):
-    return df0.apply(func, axis=var0)
+def test(var0):
+    return var0.strip()

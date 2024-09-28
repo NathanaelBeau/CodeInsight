@@ -1,4 +1,3 @@
-str0 = 'x+13.5*10x-4e1'
-var0 = r'(\d+|\W+)'
-expected_output = ['x', '+', '13', '.', '5', '*', '10', 'x', '-', '4', 'e', '1']
-assert test(str0, var0) == expected_output, 'Test failed'
+var0 = np.array([3, 1, 4, 1, 5, 1])
+expected_output = np.array([1, 3, 5])
+assert (test(var0)  == expected_output).all(), 'Test failed'

@@ -1,2 +1,4 @@
-def test(var0, lst0):
-    return var0 not in lst0
+def test(lst0, var0, var1):
+    return [d for d in lst0 if d.get(var0) == var1] + [d for d in lst0 if d.get(var0) != var1]
+
+

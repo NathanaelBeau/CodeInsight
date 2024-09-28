@@ -1,2 +1,3 @@
-def test(df0, var0, var1):
-    return df0.loc[df0[var0] == var1]
+import numpy as np
+def test(mat0, mat1):
+    return np.einsum('ij,ji->i', mat0, mat1)

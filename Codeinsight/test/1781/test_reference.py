@@ -1,2 +1,4 @@
-def test(var0):
-	return [(v, k) for k, v in var0.items()]
+import pandas as pd
+
+def test(s0, s1):
+    return pd.concat([s0, s1])

@@ -1,5 +1,5 @@
-var0 = 'population'
-var1 = 'log(population)'
-expected_output = pd.DataFrame({'var1': [100, 200, 300, 400, 500]})
-df = pd.DataFrame({'var0': [100, 200, 300, 400, 500]})
-assert test(df) .equals(expected_output), 'Test failed'
+lst0 = ['name', 'age', 'city']
+lst1 = ['John', 25, 'New York']
+expected_result =  {'name': 'John', 'age': 25, 'city': 'New York'}
+result = test(lst0, lst1)
+assert result == expected_result, 'Test failed'

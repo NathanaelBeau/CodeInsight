@@ -1,4 +1,3 @@
-var0 = "Hello, world!"
-expected_result =  "Hello world"
-result = test(var0)
-assert result == expected_result, 'Test failed'
+lst0 = [['a', 'b'], ['c', 'd'], ['a', 'b'], ['e', 'f'], ['c', 'd']]
+expected_output = [  ['a', 'b'], ['c', 'd'], ['e', 'f']]
+assert test(lst0) == expected_output, 'Test failed'

@@ -1,3 +1,3 @@
-def test(lst0):
-    filtered = sorted([x for x in lst0 if x > 2])
-    return filtered[0] if filtered else None
+import pandas as pd
+def test(df0):
+    return df0.apply(pd.Series.value_counts, axis=1).fillna(0)

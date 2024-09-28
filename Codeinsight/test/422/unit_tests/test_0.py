@@ -1,5 +1,4 @@
-# Test 1
-lst0 = ["Hello world", "The quick brown fox", "Pandas are awesome"]
-lst1 = ["world", "fox"]
-expected_result =  ["Hello", "The quick brown", "Pandas are awesome"]
-assert test(lst0, lst1) == expected_result, 'Test failed'
+lst0 = [[1], [2], [3], [4]]
+lst1 = [5, 6, 7, 8]
+expected_result =  [[1, 5], [2, 6], [3, 7], [4, 8]]
+assert test(lst0, lst1) ==expected_result, 'Test failed'

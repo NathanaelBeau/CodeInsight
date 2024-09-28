@@ -1,6 +1,5 @@
- delete a column that contains only zeros in Pandas dataframe df0   
+Flipping the boolean values in a list lst0
+import numpy as np
 
-import pandas as pd
-
-def test(df0):
+def test(lst0):
 

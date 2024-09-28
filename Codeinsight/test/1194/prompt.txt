@@ -1,6 +1,4 @@
-Obtain the element-wise logical NOT of the pandas Series ser0.
+Reverse indices of a sorted list  lst0
 
-import pandas as pd 
-
-def test(ser0):
+def test(lst0):
 

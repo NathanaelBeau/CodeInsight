@@ -1,5 +1,2 @@
-import re
-
-def test(var0, var1):
-    matches = re.findall(var1, var0)
-    return [match[::-1] for match in matches]
+def test(lst0, var0):
+    return sorted(lst0, key=lambda x: x.get(var0, ''))

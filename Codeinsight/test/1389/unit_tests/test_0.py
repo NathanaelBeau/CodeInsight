@@ -1,3 +1,3 @@
-x1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-expected_output1 = [7, 8, 9]
-assert test(x1) == expected_output1, 'Test failed'
+str0 = "{'muffin' : 'lolz', 'foo' : 'kitty'}"
+expected_output = {'muffin': 'lolz', 'foo': 'kitty'}
+assert test(str0) ==expected_output, 'Test failed'

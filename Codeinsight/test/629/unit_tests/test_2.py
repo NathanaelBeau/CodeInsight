@@ -1,4 +1,3 @@
-df0 = pd.DataFrame({'X': [0, 0, 0], 'Y': [3, 4, 5]})
-expected_result =  pd.DataFrame({'X': [0, 0, 0], 'Y': [1, 1, 1]})
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+var0 = "München in Germany"
+expected_result =  ["München", "in", "Germany"]
+assert test(var0) == expected_result, 'Test failed'

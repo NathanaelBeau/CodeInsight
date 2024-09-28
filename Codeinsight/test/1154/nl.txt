@@ -1,1 +1,1 @@
-find the first occurrence of a sub-string str0  in a python string str1  
+Find the sequence in string var0 that consecutively repeats itself the most times.

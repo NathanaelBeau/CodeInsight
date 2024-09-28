@@ -1,2 +1,2 @@
-def test(var0, var1, lst0):
-    return [d for d in lst0 if d[var1] == var0]
+def test(lst0, lst1):
+    return [index for index, item in enumerate(lst0) if item in lst1]

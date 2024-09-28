@@ -1,6 +1,4 @@
-val0 = 5.5
-min0 = 2.5
-max0 = 8.5
-expected_result =  5.5
-result = test(val0, min0, max0)
-assert result == expected_result, 'Test failed'
+lst0 = [8, 4, 7, 9, 2, 9, 1]
+var0= 9
+expected_output = [(7, 9), (2, 9)]
+assert test(lst0, var0) ==expected_output, 'Test failed'

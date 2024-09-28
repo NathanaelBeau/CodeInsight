@@ -1,1 +1,1 @@
-Sort the numpy arrays arr0 and arr1 based on the values in arr0  
+Regex for removing data in parenthesis  in list lst0

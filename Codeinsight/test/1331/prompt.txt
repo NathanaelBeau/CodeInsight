@@ -1,6 +1,6 @@
-Concatenate dataframe df0 to dataframe df1 and sort by values of the column var0
+Replace invalid values with None in Pandas DataFrame  df0  
 
 import pandas as pd
 
-def test(df0, df1, var0):
+def test(df0: pd.DataFrame):
 

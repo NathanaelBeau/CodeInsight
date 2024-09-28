@@ -1,1 +1,1 @@
-Check if all elements of a list lst0 are of the same type   
+Remove rows from DataFrame df0 where column var0 matches the regular expression var1 resetting index

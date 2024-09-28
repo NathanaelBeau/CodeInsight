@@ -1,1 +1,1 @@
-Replace all NaN values in column col0 with the corresponding values from column col1 in a DataFrame df0
+Check if a numpy array arr0 contains only zeros

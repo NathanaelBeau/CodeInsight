@@ -1,4 +1,3 @@
-var0 = np.array([[1, 1], [2, 2], [3, 3]])
-expected_result =  True
-result = test(var0)
-assert result == expected_result, 'Test failed'
+lst0 = [[[1, 0], [2, 0]], [[0, 0], [0, 0]]]
+expected_output = [[0], [0]]
+assert test(lst0) ==expected_output, 'Test failed'

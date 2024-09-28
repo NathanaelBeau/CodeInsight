@@ -1,2 +1,4 @@
-def test(d: dict, var0: str, var1: str) -> bool:
-    return var0 in d and var1 in d
+import pandas as pd
+
+def test(df0, col0):
+    return pd.Series([len(lst) for lst in df0[col0]])

@@ -1,6 +1,4 @@
-Multiply a numpy matrix mat0 with a numpy vector vec0.
+Removing key values pairs with key var0 from a list lst0 of dictionaries   
 
-import numpy as np
-
-def test(mat0, vec0):
+def test(lst0, var0):
 

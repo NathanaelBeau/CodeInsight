@@ -1,4 +1,4 @@
-df0 = pd.DataFrame({'Text': ['Hello', 'WORLD', 'Python']})
-expected = pd.DataFrame({'Text': ['hello', 'world', 'python']})
-result = test(df0, 'Text')
-assert result.equals(expected), 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, np.nan, 4]})
+expected_result =  [2]
+result = test(df0)
+assert result == expected_result, 'Test failed'

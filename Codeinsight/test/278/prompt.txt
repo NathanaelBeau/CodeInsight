@@ -1,5 +1,7 @@
-Calculate the percentage of missing values in each column of the DataFrame df0 
+Display all rows from dataframe df0 that contain at least one NaN value
 
 import pandas as pd
+import numpy as np
+
 def test(df0):
 

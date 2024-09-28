@@ -1,3 +1,3 @@
-str0 = b'\x00\x00\x00\x00'
-expected_output = np.array([0.0], dtype=np.float32)
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = [9, 8, 7, 6, 5]
+expected_output = 98765
+assert test(lst0) ==expected_output, 'Test failed'

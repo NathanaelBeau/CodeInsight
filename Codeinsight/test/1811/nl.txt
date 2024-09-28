@@ -1,1 +1,1 @@
-Convert a list of pairs lst0 into a dictionary where each pair represents a key-value pair. 
+Filter out empty strings from a list of strings lst0.

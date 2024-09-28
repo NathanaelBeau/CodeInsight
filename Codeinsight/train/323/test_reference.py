@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0, var0, var1):
-    return np.pad(arr0, ((0, var0), (0, var1)), mode='constant')
+def test(lst0):
+    return [x[0] for x in lst0]

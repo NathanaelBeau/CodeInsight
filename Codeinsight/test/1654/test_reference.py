@@ -1,2 +1,3 @@
-def test(lst0):
-    return list(map(list, zip(*lst0)))
+from xml.etree.ElementTree import Element
+def test(var0):
+    return list(var0)

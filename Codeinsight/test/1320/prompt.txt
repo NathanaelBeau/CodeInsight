@@ -1,4 +1,6 @@
-Split a list lst0 into nested lists on a value  var0 
+Calculate the factorial of the number var0 using numpy and scipy 
 
-def _itersplit(lst0, var0):
+import numpy as np
+from scipy.special import factorial
+def test(var0):
 

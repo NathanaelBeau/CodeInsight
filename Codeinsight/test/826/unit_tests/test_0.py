@@ -1,3 +1,4 @@
-byte_str = b'hello world'
-result = test(byte_str)
-assert result ==b'dlrow olleh', 'Test failed'
+# Test 1
+var0 = "Hello, World!"
+expected_result =  ["Hello", ", ", "World", "!"]
+assert test(var0) == expected_result, 'Test failed'

@@ -1,1 +1,1 @@
-Replace double backslashes with a single backslash in the string var0.
+Set value for key key0 in dict dict0 to 0 if key key0 does not exist or if its value is None.

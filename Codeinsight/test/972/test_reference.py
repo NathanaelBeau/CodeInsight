@@ -1,5 +1,3 @@
-import pandas as pd
-
-def test(df0, col0):
-    return df0[col0].value_counts()
-
+import numpy as np
+def test(arr0):
+    return np.where(arr0 == True)

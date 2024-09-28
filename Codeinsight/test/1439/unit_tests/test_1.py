@@ -1,3 +1,4 @@
-str0 = "FF"
-expected_output = 255
-assert test(str0) == expected_output, 'Test failed'
+lst0 = []
+str0 = 'hello'
+expected_output = ['hello']
+assert test(lst0, str0) == expected_output, 'Test failed'

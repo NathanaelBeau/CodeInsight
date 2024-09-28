@@ -1,4 +1,3 @@
-var0 = ['key1', 'key2', 'key3']
-var1 = 0
-expected_output = {'key1': 0, 'key2': 0, 'key3': 0}
-assert test(var0, var1) ==expected_output, 'Test failed'
+str0 = "hello 42 I'm a 32 string 30"
+expected_output = [42, 32, 30]
+assert test(str0) ==expected_output, 'Test failed'

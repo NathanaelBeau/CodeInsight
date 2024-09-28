@@ -1,4 +1,4 @@
-dict0 = {}
-var0 = 0
-expected_output = []
-assert test(dict0, var0) ==expected_output, 'Test failed'
+lst0 = ["a", "b", "c"]
+var0 = 2
+expected_output = ['ab', 'ac', 'bc']
+assert test(lst0, var0) ==expected_output, 'Test failed'

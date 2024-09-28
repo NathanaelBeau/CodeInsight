@@ -1,4 +1,6 @@
-lst0 = [1, 2, 3, 4]
-expected_result =  [2, 3, 4, 5]
-result = test(lst0)
+str0 = "aaab"
+var0 = "b"
+var1 = "a"
+expected_result =  "b"
+result = test(str0, var0, var1)
 assert result == expected_result, 'Test failed'

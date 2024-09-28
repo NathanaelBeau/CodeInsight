@@ -1,4 +1,6 @@
-Compute the average of a list named lst0.
+Extract specific columns specified in the list lst0 from the pandas DataFrame df0 and create a new DataFrame as a copy.
 
-def test(lst0):
+import pandas as pd
+
+def test(df0, lst0):
 

@@ -1,1 +1,1 @@
-Find the indices of local maxima and minima in a 1D numpy array arr0
+Replace occurrences of the regular expression pattern var0 with replacement var1 in string str0.

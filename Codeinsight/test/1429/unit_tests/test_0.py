@@ -1,6 +1,5 @@
-df0 = pd.DataFrame({ 'timestamp': pd.to_datetime(['2023-01-01', '2023-01-02', '2023-01-03']), 'value': [1, 2, 3] })
-str0 = 'timestamp'
-time_interval0 = '2D'
-expected_result =  pd.DataFrame({ 'timestamp': pd.to_datetime(['2023-01-01', '2023-01-02', '2023-01-03']), 'value': [1.0, 1.5, 2.5] })
-result = test(df0, str0, time_interval0)
-assert result.equals(expected_result), 'Test failed'
+arr0 = np.array([[1, 10], [15, 5], [20, 30]])
+var0 = 10
+expected_result =  np.array([[1, 10], [10, 5], [10, 10]])
+result = test(arr0, var0)
+assert np.array_equal(result, expected_result), 'Test failed'

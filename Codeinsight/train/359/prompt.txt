@@ -1,4 +1,4 @@
-Sum each element lst0 with its corresponding element in lst1 based on their respective indices.
+Return True if string str0 starts with a number, else False   
 
-def test(lst0, lst1):
+def test(str0):
 

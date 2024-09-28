@@ -1,5 +1,4 @@
-import numpy as np
+import pandas as pd
 
-def test(arr0, var0):
-    format_func = np.vectorize(lambda x: var0.format(x))
-    return format_func(arr0)
+def test(df0):
+    return len(df0.columns)

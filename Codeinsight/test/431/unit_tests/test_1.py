@@ -1,3 +1,4 @@
-lst0 = [[], [1, 2, 3], [4], [1, 2, 3], [], [5, 6]]
-expected_output = [1, 2, 3, 4, 5, 6]
-assert test(lst0) ==expected_output, 'Test failed'
+lst_test_3 = [['10', '20'], ['30', '40']]
+result_3 = test(lst_test_3)
+expected_3 = [[10, 20], [30, 40]]
+assert result_3 == expected_3, 'Test failed'

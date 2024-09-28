@@ -1,4 +1,4 @@
-import numpy as np
+import pandas as pd
+def test(df0, var0):
+    return pd.concat([df0] * var0)
 
-def test(arr0):
-    return np.concatenate((arr0[:2], arr0[-2:]))

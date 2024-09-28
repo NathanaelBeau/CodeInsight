@@ -1,4 +1,3 @@
-var0 = "Please get the book."
-expected_result =  "Please get@ the book."
-result = test(var0)
-assert result == expected_result, 'Test failed'
+lst0 = [{'a': 1, 'b': 2}, {'b': 3, 'c': 4}, {'d': 5}]
+expected_output = {'a', 'b', 'c', 'd'}
+assert test(lst0) == expected_output, 'Test failed'

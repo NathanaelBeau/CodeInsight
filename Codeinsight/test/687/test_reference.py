@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0, condition):
-    return df0.query(condition)
+def test(str0, var0, var1):
+    return str0.replace(var0, var0*var1, 1)

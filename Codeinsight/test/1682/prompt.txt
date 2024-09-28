@@ -1,5 +1,6 @@
-Calculate the weighted average of column col_values using the weights from column col_weights in the dataframe df0 
+Rename the column names of DataFrame df0 using the provided mapping dict0 or list lst0.
 
 import pandas as pd
-def test(df0, col_values, col_weights):
+
+def test(df0, dict0):
 

@@ -1,4 +1,4 @@
-# Test 1
-var0 = "This is a string with \\\\ double backslashes."
-expected_result =  "This is a string with \\ double backslashes."
-assert test(var0) == expected_result, 'Test failed'
+dict0 = {'a': 1, 'b': 2}
+key0 = 'a'
+expected_result =  {'a': 1, 'b': 2}
+assert test(dict0, key0) == expected_result, 'Test failed'

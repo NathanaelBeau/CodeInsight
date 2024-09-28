@@ -1,4 +1,3 @@
-# Test 3
-var0 = "NoSeparationHere"
-expected_result =  ["NoSeparationHere"]
-assert test(var0) == expected_result, 'Test failed'
+lst0 = [3, 4]
+expected_output = '34'
+assert test(lst0) ==expected_output, 'Test failed'

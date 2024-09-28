@@ -1,7 +1,4 @@
-df0 = pd.DataFrame({'X': [6, 7, 8], 'Y': [9, 10, 11]})
-column_name0 = 'X'
-threshold0 = 6
-column_name1 = 'Y'
-expected_result =  (2, 21)
-result = test(df0, column_name0, threshold0, column_name1)
-assert result == expected_result, 'Test failed'
+arr0 = np.array([1, 2, 3, 4, 5])
+expected_result =  np.array([1, 2, 3, 4, 5])  
+result = test(arr0)
+assert np.array_equal(result, expected_result), 'Test failed'

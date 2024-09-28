@@ -1,4 +1,4 @@
-Python "extend" for a dictionary  dict0 with an other dictionary dict1
+check if a value var0 exists in a dictionary dict0 
 
-def test(dict0, dict1):
+def test(dict0, var0):
 

@@ -1,13 +1,9 @@
-lst0_3 = [
-    {'language': 'es', 'data': 'Spanish Data'},
-    {'language': 'fr', 'data': 'French Data'},
-    {'language': 'en', 'data': 'English Data'}
-]
-var0_3 = 'language'
-var1_3 = 'fr'
-expected_output_3 = [
-    {'language': 'fr', 'data': 'French Data'},
-    {'language': 'es', 'data': 'Spanish Data'},
-    {'language': 'en', 'data': 'English Data'}
-]
-assert test(lst0_3, var0_3, var1_3) == expected_output_3, 'Test failed'
+import pandas as pd 
+df0 = pd.DataFrame({'ID': [1, 2, 3],
+                    'Salary': [5000, 6000, 7000],
+                    'Department': ['HR', 'IT', 'Finance']})
+var0 = 'Salary'
+var1 = 6000
+expected_result =  pd.DataFrame({'ID': [2], 'Salary': [6000], 'Department': ['IT']})
+result = test(df0, var0, var1).reset_index(drop=True)
+assert result.equals(expected_result), 'Test failed'

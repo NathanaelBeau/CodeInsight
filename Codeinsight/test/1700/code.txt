@@ -1,3 +1,5 @@
-import numpy as np
-def test(mat0, mat1):
-    return np.sum(mat0 * mat1, axis=1)
+import pandas as pd
+
+def test(lst0, lst1):
+    df_grouped = lst0.groupby([lst1[0], lst1[1]]).size()
+    return df_grouped

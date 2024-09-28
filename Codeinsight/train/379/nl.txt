@@ -1,1 +1,1 @@
-Sort pandas data frame df0 using values from columns col0 and col1 in ascending order.
+split elements of a list lst0   

@@ -1,4 +1,0 @@
-Remove characters "!@#$" from the string var0.
-
-def test(var0):
-

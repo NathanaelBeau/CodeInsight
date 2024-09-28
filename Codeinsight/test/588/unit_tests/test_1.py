@@ -1,5 +1,4 @@
-lst1 = [5, 6, 7, 8]
-var1 = 3
-expected_result =  [15, 18, 21, 24]
-result = test(lst1, var1)
+var0 = 456.789
+expected_result =  "456.789"
+result = test(var0)
 assert result == expected_result, 'Test failed'

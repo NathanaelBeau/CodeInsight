@@ -1,4 +1,5 @@
-counter0 = Counter({'x': 7, 'y': 2, 'z': 1})
-expected_result =  10
-result = test(counter0)
+str0 = "Num"
+lst0 = ["1", "2", "3"]
+expected_result =  ["Num1", "Num2", "Num3"]
+result = test(str0, lst0)
 assert result == expected_result, 'Test failed'

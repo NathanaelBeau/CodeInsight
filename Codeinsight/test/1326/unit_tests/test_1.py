@@ -1,5 +1,3 @@
-# Test 3
-var0 = "hello world universe"
-dict0 = {"world": "earth"}
-expected_result =  "hello earth universe"
-assert test(var0, dict0) == expected_result, 'Test failed'
+lst0 = [10, 5, 8, 3, 6]
+expected_output = 3
+assert test(lst0) ==expected_output, 'Test failed'

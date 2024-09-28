@@ -1,4 +1,5 @@
-Get all upper characters in a string var0
+Convert a binary string str0 to a list of integers.
 
-def test(var0):
+
+def test(str0):
 

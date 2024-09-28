@@ -1,1 +1,3 @@
-Convert two lists lst0 and lst1 into a pandas dataframe with columns 'List1' and 'List2'.
+Return a list of unique words from a list 
+lst0
+lst0, case-insensitive

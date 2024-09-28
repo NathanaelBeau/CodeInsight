@@ -1,4 +1,6 @@
-move the last item in list lst0 to the beginning
+Summarizing a dictionary of arrays dict0 in Python   
 
-def test(lst0):
+import heapq
+
+def test(dict0):
 

@@ -1,5 +1,6 @@
-Check if the input string var0 is empty.
+How to sort a dataFrame df0 in python pandas by two or more columns var0 and var1?   
 
-import re
-def test(var0):
+import pandas as pd
+
+def test(df0, var0, var1):
 

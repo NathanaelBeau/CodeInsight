@@ -1,1 +1,1 @@
- split a list lst0 into evenly sized chunks of size  var0 
+Extract the last word from each string in the list lst0.

@@ -1,1 +1,1 @@
-Expand the numpy array arr0 by adding var0 number of rows and var1 number of columns filled with zeros 
+Find the nearest value var0 in a numpy array lst0 

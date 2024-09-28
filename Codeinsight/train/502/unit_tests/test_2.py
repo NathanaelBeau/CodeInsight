@@ -1,3 +1,3 @@
-lst0 = [[2, 'b'], [2, 'a'], [2, 'c']]
-expected_output = [[2, 'b'], [2, 'a'], [2, 'c']]
-assert test(lst0) ==expected_output, 'Test failed'
+str0 = '11111(7)(7)333'
+expected_output = ['11111', '(7)(7)', '333']
+assert test(str0) ==expected_output, 'Test failed'

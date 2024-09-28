@@ -1,1 +1,1 @@
-Get indices of the top N  var0 values of a list   lst0 
+From list of integers lst0, get number closest to a given value var0

@@ -1,3 +1,8 @@
-import pandas as pd
-def test(df0):
-    return df0.sort_values('C', ascending=False).drop_duplicates(subset=['A', 'B'], keep='first').sort_index()
+def test(lst0, lst1):
+    result_dict = {}
+    for i in range(len(lst0)):
+        if i < len(lst1):
+            result_dict[lst0[i]] = lst1[i]
+        else:
+            result_dict[lst0[i]] = None
+    return result_dict

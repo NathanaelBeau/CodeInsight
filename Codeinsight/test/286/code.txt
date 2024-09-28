@@ -1,2 +1,4 @@
-def test(lst0, lst1):
-    return list(zip(lst0, lst1))
+import pandas as pd
+
+def test(df0, var0):
+    return df0['A'].iloc[var0]

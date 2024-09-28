@@ -1,4 +1,4 @@
-import numpy as np
+import operator
 
-def test(arr0, lst0):
-    return np.vstack((arr0, lst0))
+def test(dict0):
+    return dict(sorted(dict0.items(), key=operator.itemgetter(1), reverse=True))

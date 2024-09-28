@@ -1,5 +1,8 @@
-import re
+from collections import defaultdict
 
-def test(str0: str) -> float:
-    matches = re.findall(r'[-+]?\d*\.\d+|\d+', str0)
-    return float(matches[0]) if matches else None
+def test(lst0, var0, var1):
+    d = defaultdict(list)
+    for i in lst0:
+        for j in range(int(i), int(i) + var1):
+            d[j].append(var0)
+    return d

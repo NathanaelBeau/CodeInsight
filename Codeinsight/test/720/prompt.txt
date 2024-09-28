@@ -1,4 +1,6 @@
-Remove the element in list a at the specified index index.
+Convert all column headers to lowercase in a dataframe df0
 
-def test(a: list, index: int) -> list:
+import pandas as pd
+
+def test(df0):
 

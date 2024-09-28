@@ -1,5 +1,6 @@
-Remove duplicated whitespaces from a string var0   
+Percentage match condition >0 in pandas Dataframe  df0 on column var0 
 
+import pandas as pd
 
-def test(var0):
+def test(df0, var0):
 

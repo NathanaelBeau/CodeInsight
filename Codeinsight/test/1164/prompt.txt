@@ -1,6 +1,6 @@
-Average values in two Numpy arrays arr0 andd arr1   
+Apply multiple filters specified by condition var0 to a pandas DataFrame df0.
 
-import numpy as np
+import pandas as pd
 
-def test(arr0: np.ndarray, arr1: np.ndarray) :
+def test(df0, var0):
 

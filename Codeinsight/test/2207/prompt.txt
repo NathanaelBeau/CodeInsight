@@ -1,4 +1,0 @@
-Split all strings in list lst0 on the first occurring tab and return a new list with only the first resulting substring.
-
-def test(lst0):
-

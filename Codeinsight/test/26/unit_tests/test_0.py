@@ -1,4 +1,4 @@
-var0 = 5
-lst0 = [1, 6, 7, 4, 8]
-expected_result =  3
-assert test(var0, lst0) == expected_result, 'Test failed'
+int0 = 65
+expected_result =  'A'
+result = test(int0)
+assert result == expected_result, 'Test failed'

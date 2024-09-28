@@ -1,5 +1,4 @@
-import pandas as pd
+import re
 
-def test(var0, var1, var2):
-	var0.sort_values(by=[var1], key=lambda x: x.map(var2), inplace=True)
-	return var0.reset_index(drop=True)
+def test(str0):
+    return re.match(r'(?:.*?[A-Z]){3}.*?([A-Z].*)', str0).group(1)

@@ -1,2 +1,2 @@
-def test(my_string):
-    return my_string.split('\n')[0]
+def test(lst0, lst1):
+    return [a + b for a, b in zip(lst0, lst1)]

@@ -1,5 +1,7 @@
-Detect if the numpy array arr0 contains any non-numeric values
+Select all columns except the ones in the list lst0 from a dataframe df0
 
-import numpy as np
-def test(arr0):
+
+import pandas as pd
+
+def test(df0, lst0):
 

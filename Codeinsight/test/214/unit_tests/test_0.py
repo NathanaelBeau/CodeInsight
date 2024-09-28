@@ -1,4 +1,5 @@
-lst0 = [1, 2, 3, 4, 5]
-expected_result =  [5, 4, 3, 2, 1]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame({'group': ['A', 'A', 'B', 'B', 'B', 'C', 'C'], 'value': [1, 2, 3, 4, 5, 6, 7]})
+col_name = 'group'
+var0 = 1
+result = test(df0, col_name, var0)
+assert result['group'].value_counts().max() == var0, 'Test failed'

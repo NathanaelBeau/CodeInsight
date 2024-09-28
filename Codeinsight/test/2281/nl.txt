@@ -1,1 +1,0 @@
-Escape all special characters in string str0 to prepare it for regex usage.

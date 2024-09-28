@@ -1,6 +1,3 @@
-str0 = "aaab"
-var0 = "b"
-var1 = "a"
-expected_result =  "b"
-result = test(str0, var0, var1)
-assert result == expected_result, 'Test failed'
+arg = pd.DataFrame({'A': [1, 2, 3], 'B': ['one', 'two', 'three']})
+expected_output = {'A': {0: 1, 1: 2, 2: 3}, 'B': {0: 'one', 1: 'two', 2: 'three'}}
+assert test(arg) == expected_output, 'Test failed'

@@ -1,1 +1,1 @@
- unquote a urlencoded unicode string  var0 in python   
+Find the position (row, column) of the minimum value in the numpy array arr0  

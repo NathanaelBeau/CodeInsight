@@ -1,4 +1,6 @@
- Return a list of non-empty, lowercase, stripped lines from an input multi-line string str0.
+Sort the pandas DataFrame df0 by the columns specified in the list lst0.
 
-def test(str0):
+import pandas as pd
+
+def test(df0, lst0):
 

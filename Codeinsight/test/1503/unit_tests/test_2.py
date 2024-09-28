@@ -1,4 +1,4 @@
-str0 = "1234,5678,90,12,34,567,89,0"
-var0 = ","
-expected_output = "1234,5678,90,12,34,567,89"
-assert test(str0, var0) ==expected_output, 'Test failed'
+str0 = "100.0"
+expected_result =  [100.0]
+result = test(str0)
+assert result == expected_result, 'Test failed'

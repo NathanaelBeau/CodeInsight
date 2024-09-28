@@ -1,1 +1,1 @@
-Reverse sort the items in dictionary d0 by their values.
+Pythonic way to fetch all elements in a dictionary dict0, falling between two keys?   

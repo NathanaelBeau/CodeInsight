@@ -1,4 +1,4 @@
-def test(dict0, key0):
-    if dict0.get(key0) is None:
-        dict0[key0] = 0
-    return dict0
+import re
+
+def test(var0):
+    return re.findall(r'\$\w+', var0)

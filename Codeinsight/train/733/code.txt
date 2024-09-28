@@ -1,2 +1,2 @@
-def test(*lst_args):
-    return list(map(sum, zip(*lst_args)))
+def test(var0):
+    return var0.replace('\\\\', '\\')

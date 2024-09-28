@@ -1,1 +1,0 @@
-Check if a list lst0 has one or more strings that match a regex (r'\d', s) looking for a int

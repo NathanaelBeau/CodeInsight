@@ -1,6 +1,3 @@
-var0 = " to the"
-var1 = "Welcome"
-var2 = 0
-expected_result =  "Welcome to the"
-result = test(var0, var1, var2)
-assert result==expected_result, 'Test failed'
+lst0 = [2, 4]
+expected_output = 8
+assert test(lst0) ==expected_output, 'Test failed'

@@ -1,6 +1,0 @@
-Regex for removing data in parenthesis  in list lst0
-
-import re
-
-def test(lst0: list):
-

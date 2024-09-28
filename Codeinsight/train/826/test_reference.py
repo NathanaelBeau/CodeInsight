@@ -1,3 +1,2 @@
-import pandas as pd
-def test(var0):
-    return var0.groupby('variable').size().reset_index(name='counts')
+def test(lst0, var0):
+	return [x[var0] for x in lst0]

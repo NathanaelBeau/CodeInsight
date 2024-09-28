@@ -1,1 +1,1 @@
-Index the first and the last n elements var0 of a list lst0  
+Scale the columns of the pandas dataframe df0 using sklearn's StandardScaler  

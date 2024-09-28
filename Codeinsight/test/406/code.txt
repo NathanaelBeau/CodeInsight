@@ -1,4 +1,4 @@
-def test(var0):
-    while '**' in var0:
-        var0 = var0.replace('**', '*')
-    return var0
+import pandas as pd
+
+def test(df0, var0):
+    return df0.loc[df0.index.repeat(var0)].reset_index(drop=True)

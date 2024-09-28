@@ -1,3 +1,5 @@
-dict0 = { 'key1': [1, 2, 3], 'key2': ['a', 'b', 'c'], 'key3': [True, False, True] }
-expected_output = 9
-assert test(dict0) ==expected_output, 'Test failed'
+start0, end0, step0 = 0, 4, 2
+start1, end1, step1 = 1, 5, 2
+expected_result =  [np.array([[0, 0], [2, 2]]), np.array([[1, 3], [1, 3]])]
+result = test(start0, end0, step0, start1, end1, step1)
+assert all([np.array_equal(res, exp) for res, exp in zip(result, expected_result)]), 'Test failed'

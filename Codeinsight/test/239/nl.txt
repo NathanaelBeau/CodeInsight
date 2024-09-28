@@ -1,1 +1,1 @@
-Get all the values from column 'b' in a dataframe df0
+Find the row in DataFrame df0 where the value for column var0 is maximal.

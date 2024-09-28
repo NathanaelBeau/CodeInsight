@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(dict0, dtype= object):
-    return np.array(list(dict0.items()), dtype=dtype)
+def test(str0, str1):
+    return str0.count(str1)

@@ -1,6 +1,4 @@
-str0 = "Python"
-var0 = 3
-var1 = "o"
-expected_result =  "Pytoon"
-result = test(str0, var0, var1)
+str0 = "10 20 30"
+expected_result =  [10, 20, 30]
+result = test(str0)
 assert result == expected_result, 'Test failed'

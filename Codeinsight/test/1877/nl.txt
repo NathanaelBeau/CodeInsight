@@ -1,1 +1,0 @@
-Replace string var1 with var2 in text var0 while preserving the case.

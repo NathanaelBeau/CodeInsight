@@ -1,1 +1,1 @@
-Removing character var0 in list of strings   lst0
+Find the indices of elements in list A that are also present in list B.

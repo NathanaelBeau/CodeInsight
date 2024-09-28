@@ -1,4 +1,6 @@
-Search a specific element in a list of tuples var0 if var1 is matching the first element
+Replace values in column col0 of dataframe df0 that match condition var0 with value var1
 
-def test(var0, var1):
+import pandas as pd
+
+def test(df0, col0, var0, var1):
 

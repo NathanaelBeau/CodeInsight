@@ -1,5 +1,4 @@
-dict0 = {'name': 'John', 'age': 30, 'city': 'New York'}
-dict1 = {'age': 25, 'city': 'London', 'country': 'UK'}
-expected_result =  {'age': 30, 'city': 'New York'}
-result = test(dict0, dict1)
-assert result == expected_result, 'Test failed'
+lst0 = [1.5, 2.5, 3.5, 4.5, 5.5]
+var0 = float
+expected_output = 5
+assert test(lst0, var0) ==expected_output, 'Test failed'

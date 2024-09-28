@@ -1,5 +1,4 @@
-def test(lst0):
-    result = 0
-    for num in lst0:
-        result = result * (10 ** len(str(num))) + num
-    return result
+import numpy as np
+
+def test(arr0, var0, var1):
+    return np.sum(np.logical_and(arr0 >= var0, arr0 <= var1))

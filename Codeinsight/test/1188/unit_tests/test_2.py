@@ -1,7 +1,3 @@
-lst0 = [
-            [100, 200, 300],
-            ['red', 'blue'],
-            [1.0, 2.0]
-        ]
-expected_output = [('100', 'red', '1.0'), ('100', 'blue', '1.0'), ('200', 'red', '1.0'), ('200', 'blue', '1.0'), ('300', 'red', '1.0'), ('300', 'blue', '1.0'), ('100', 'red', '2.0'), ('100', 'blue', '2.0'), ('200', 'red', '2.0'), ('200', 'blue', '2.0'), ('300', 'red', '2.0'), ('300', 'blue', '2.0')]
-assert test(lst0) ==expected_output, 'Test failed'
+str0 = "aZbYcX"
+expected_result =  "XYZabc"
+assert test(str0) == expected_result, 'Test failed'

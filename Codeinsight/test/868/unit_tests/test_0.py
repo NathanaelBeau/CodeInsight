@@ -1,6 +1,4 @@
-# Test 1
-df0 = pd.DataFrame({ 'A': ['apple', 'banana', 'apple', 'apple'], 'B': ['red', 'yellow', 'red', 'green'] })
-lst0 = ['A', 'B']
-expected_result =  pd.DataFrame({ 'A': [3., 1., np.nan, np.nan, np.nan], 'B': [np.nan, np.nan, 1., 2., 1.] }, index=['apple', 'banana', 'green', 'red', 'yellow'])
-result = test(df0, lst0)
-assert result.equals(expected_result), 'Test failed'
+str0 = '<a href="/blog/first">Link 1</a><a href="/blog/second">Link 2</a>'
+regex_str = r'<a\s+href="/blog/(.+?)">'
+expected_output= ('first', 'second')
+assert test(str0, regex_str) ==expected_output, 'Test failed'

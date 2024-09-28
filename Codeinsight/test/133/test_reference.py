@@ -1,2 +1,7 @@
-def test(var0):
-    return ''.join(' ' + char if char.isupper() else char.strip() for char in var0).strip()
+import pandas as pd
+
+def test(df0):
+    result = []
+    for i, g in df0.groupby(["a", "b"]):
+        result.append((i[0], g["c"].values.tolist()))
+    return sorted(result)

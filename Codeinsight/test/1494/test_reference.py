@@ -1,5 +1,4 @@
-import re
+import numpy as np
 
-def test(str0):
-    pattern = "([0-9]+)([A-Z])"
-    return re.findall(pattern, str0)
+def test(value):
+    return isinstance(value, (np.generic, np.ndarray))

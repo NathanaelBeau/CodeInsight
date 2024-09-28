@@ -1,7 +1,6 @@
-lst0 = [5.4, 2.1, 3.8, 9.7, 1.2]
-var0 = 3
-expected_output = [0, 3, 2]
-lst0 = [5.4, 2.1, 3.8, 9.7, 1.2]
-var0 = 3
-expected_output = [0, 3, 2]
-assert set(test(lst0, var0)) == set(expected_output), 'Test failed'
+# Test 1
+df0 = pd.DataFrame({'A': [1, 2, 3, 4], 'B': [5, 6, 7, 8]})
+lst0 = [0, 3]
+expected_result =  pd.DataFrame({'A': [2, 3], 'B': [6, 7]})
+result = test(df0, lst0).reset_index(drop=True)
+assert result.equals(expected_result), 'Test failed'

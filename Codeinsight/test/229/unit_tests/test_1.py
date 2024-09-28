@@ -1,7 +1,4 @@
-lst0 = [
-    {'categories': ['A', 'B', 'C']},
-    {'categories': ['A', 'A', 'D']},
-    {'categories': ['B', 'C', 'C']}
-]
-expected_output = {'A': 3, 'C': 3, 'B': 2, 'D': 1}
-assert test(lst0)== expected_output, 'Test failed'
+dict0 = {'name': 'John', 'age': 30}
+dict1 = {'age': 30, 'name': 'John'}
+expected_output = True
+assert test(dict0, dict1) == expected_output, 'Test failed'

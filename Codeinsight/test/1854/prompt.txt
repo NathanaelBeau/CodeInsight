@@ -1,4 +1,4 @@
-Sort list lst0 using the first dimension of its elements.
+Remove key named var0 from a dictionary dict0
 
-def test(lst0):
+def test(dict0, var0):
 

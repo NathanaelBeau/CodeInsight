@@ -1,4 +1,2 @@
 def test(lst0):
-    from collections import Counter
-    counts = Counter(lst0)
-    return [item for item in lst0 if counts[item] == 1]
+    return [(x, y) for x, y in zip(lst0, lst0[1:]) if y == 9]

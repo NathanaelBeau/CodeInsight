@@ -1,4 +1,5 @@
-functions = [lambda x: x*2, lambda x: x-1]
-values = [5, 10, 15]
-expected_output = [[10, 4], [20, 9], [30, 14]]
-assert test(functions, values) == expected_output, 'Test failed'
+var0 = 'hello'
+var1 = pd.Series(['hello', 'world', 'hello'])
+expected_result =  pd.Series([np.nan, 'world', np.nan])
+result = test(var0, var1)
+assert result.equals(expected_result), 'Test failed'

@@ -1,4 +1,5 @@
 import re
-def test(var0):
-    return re.match('(?!)', var0)
 
+def test(mystring, var0, var1):
+    pattern = r"{}{}{}".format(var1, var0, var1)
+    return re.findall(pattern, mystring)

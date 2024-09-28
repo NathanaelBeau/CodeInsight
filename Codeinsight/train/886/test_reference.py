@@ -1,5 +1,4 @@
-import numpy as np
+import pandas as pd
 
-def test(lst0, lst1):
-    average = np.average(lst0, weights=lst1)
-    return np.sqrt(np.average((lst0-average)**2, weights=lst1))
+def test(var0, var1, var2, var3, df0):
+    return df0.loc[:, ([var2, var3], [var0, var1])]

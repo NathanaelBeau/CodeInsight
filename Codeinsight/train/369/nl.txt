@@ -1,1 +1,1 @@
-Replace all occurrences of var0 with var1 in the list lst0.
+group similar items in a list lst0

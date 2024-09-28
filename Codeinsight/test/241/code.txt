@@ -1,3 +1,3 @@
-import pandas as pd
-def test(lst0):
-    return pd.DataFrame.from_records([obj.to_dict() for obj in lst0])
+def test(var0, var1, var2):
+    diff = abs(var0 - var1)
+    return diff < 10**(-var2)

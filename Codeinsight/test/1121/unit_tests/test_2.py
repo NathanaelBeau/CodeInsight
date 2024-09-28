@@ -1,4 +1,4 @@
-lst0 = [['/', '+', '*'], ['-', '*', '+'], ['+', '/', '-']]
-dict0 = {'*': 2, '/': 1, '+': 3, '-': 0}
-expected_output = [['/', '*', '+'], ['-', '*', '+'], ['-', '/', '+']]
-assert test(lst0, dict0) ==expected_output, 'Test failed'
+str0 = "((Hello world))"
+expected_result =  "Hello world))"
+result = test(str0)
+assert result == expected_result, 'Test failed'

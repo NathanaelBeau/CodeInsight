@@ -1,4 +1,4 @@
-lst0 = [1, 1, 1]
-lst1 = [0, 0, 0]
-expected_output = 0
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+df0 = pd.DataFrame()
+result = test(df0)
+if not pd.testing.assert_frame_equal(result, df0) is None:
+    assert 'Test failed'

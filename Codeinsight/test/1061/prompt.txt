@@ -1,4 +1,6 @@
-Reverse the string s.
+Python split string str0 on any regex  var0
 
-def test(s: str) -> str:
+import re
+
+def test(str0, var0):
 

@@ -1,1 +1,1 @@
-Retrieve all duplicated elements from the list lst0
+Replace NaNs in the dataframe df0 using the method method0 ('ffill' for forward fill or 'bfill' for backward fill).

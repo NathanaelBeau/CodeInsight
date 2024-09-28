@@ -1,3 +1,5 @@
-str0 = "{'a': {'b': {'c': {'d': {'e': {'f': 'final_value'}}}}}}"
-expected_output = {'a': {'b': {'c': {'d': {'e': {'f': 'final_value'}}}}}}
-assert test(str0) ==expected_output, 'Test failed'
+arr0 = np.array([-5, -4, -3, -2, -1, 0])
+var0 = -3
+expected_result =  np.array([-5, -4, -3, 0, 0, 0])
+result = test(arr0, var0)
+assert np.array_equal(result, expected_result), 'Test failed'

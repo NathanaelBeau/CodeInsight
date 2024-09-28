@@ -1,5 +1,4 @@
-def test(dict0):
-    result = {}
-    for key, value in dict0.items():
-        result.setdefault(value, []).append(key)
-    return {key: value for key, value in result.items() if len(value) > 1}
+import pandas as pd 
+
+def test(df0):
+    return df0.reset_index(drop=True)

@@ -1,4 +1,3 @@
-var0 = "apple,,grape"
-expected_result =  ["apple", "0", "grape"]
-result = test(var0)
-assert result == expected_result, 'Test failed'
+str0 = "MyCodeIsWorking"
+expected_output = "My Code Is Working"
+assert test(str0) ==expected_output, 'Test failed'

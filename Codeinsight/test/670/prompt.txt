@@ -1,5 +1,6 @@
-Find the indices of elements in the numpy array arr0 that are equal to zero
+ Construct a pandas DataFrame from a nested dictionary dict0
 
-import numpy as np
-def test(arr0):
+import pandas as pd
+
+def test(dict0):
 

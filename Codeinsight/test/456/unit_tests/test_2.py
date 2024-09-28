@@ -1,4 +1,4 @@
-arr2 = np.array([0.1, 0.2, -np.inf, 0.3])
-expected_result =  np.array([0.1, 0.2, 0, 0.3])
-result = test(arr2)
+arr0 = np.array([1, 2, 3, 4, 5])
+expected_result =  np.array([1, 2, 3, 4, 5])  
+result = test(arr0)
 assert np.array_equal(result, expected_result), 'Test failed'

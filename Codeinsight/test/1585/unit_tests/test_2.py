@@ -1,3 +1,4 @@
-lst0 = [1, 2, 3, 2, 1]
-expected_output = [0, 1, 2, 1, 0]
-assert (test(lst0) == expected_output).all(), 'Test failed'
+df0 = pd.DataFrame({ 'Start Time': pd.to_datetime(['2021-01-01 10:00:00', '2021-01-01 10:30:00']), 'End Time': pd.to_datetime(['2021-01-01 11:00:00', '2021-01-01 12:00:00']) })
+expected_result =  pd.DataFrame({ 'Hours': [1, 1], 'Minutes': [0, 30] })
+result = test(df0, 'Start Time', 'End Time')
+assert result.equals(expected_result), 'Test failed'

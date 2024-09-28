@@ -1,2 +1,2 @@
 def test(lst0):
-    return [sublist[1] for sublist in lst0]
+    return '\n'.join(map(str, lst0))

@@ -1,3 +1,4 @@
-lst0 = [{'a': 1, 'b': 2}, {'c': 1, 'd': 2}]
-expected_output = {'a': 1, 'b': 2, 'c': 1, 'd': 2}
-assert test(lst0) ==expected_output, 'Test failed'
+var0 = 12345678.46
+expected_result =  "12 345 678,46"
+result = test(var0)
+assert result == expected_result, 'Test failed'

@@ -1,7 +1,7 @@
-# Test 3
-df0 = pd.DataFrame({'C': ['123Z', '456Z', '789Z']})
-column_name = 'C'
-unwanted_string = 'Z'
-expected_result =  pd.DataFrame({'C': ['123', '456', '789']})
-result = test(df0, column_name, unwanted_string)
-assert result.equals(expected_result), 'Test failed'
+df0 = pd.DataFrame({'X': [6, 7, 8], 'Y': [9, 10, 11]})
+column_name0 = 'X'
+threshold0 = 6
+column_name1 = 'Y'
+expected_result =  (2, 21)
+result = test(df0, column_name0, threshold0, column_name1)
+assert result == expected_result, 'Test failed'

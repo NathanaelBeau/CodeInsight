@@ -1,1 +1,1 @@
-Sort the input list lst0 in place, using the float values of its elements 
+Find the index of the first occurrence of a value in numpy array arr0 that is greater than var0.

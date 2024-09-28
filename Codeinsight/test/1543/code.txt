@@ -1,4 +1,2 @@
-import itertools
-
-def test(sublist):
-    return list(itertools.chain.from_iterable(sublist))
+def test(lst0):
+    return [x for x, _ in lst0]

@@ -1,5 +1,4 @@
-# Test 3
-df0 = pd.DataFrame({'A': ['x', 'x', 'x'], 'B': [1, 2, 3]})
-expected_result =  pd.DataFrame({'A': ['x'], 'B': [3]})
-result = test(df0).reset_index(drop=True)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [-3, -7, -1, -5, -11]  
+lst1 = [-7, -5, -3, -1]  
+expected_output = [-11, -7, -5, -3, -1,]
+assert test(lst0, lst1) ==expected_output, 'Test failed'

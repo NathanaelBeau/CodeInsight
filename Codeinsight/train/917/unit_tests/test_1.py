@@ -1,4 +1,3 @@
-var0 = "hello world"
-expected_result =  ""
-result = test(var0)
-assert result == expected_result, 'Test failed'
+str0 = "110 10"
+expected_output = [6, 2]
+assert test(str0) == expected_output, 'Test failed'

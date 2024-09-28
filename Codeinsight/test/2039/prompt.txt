@@ -1,4 +1,0 @@
-Convert all keys and values in a dictionary dict0 to lowercase.
-
-def test(dict0):
-

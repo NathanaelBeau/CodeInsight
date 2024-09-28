@@ -1,4 +1,4 @@
-lst0 = [3, 8, 5, 12]
-expected_result =  [5, -3, 7]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+b = [5, 15, 25, 35, 45]
+index = [2, 4]
+expected_output = [25, 45]
+assert test(b, index) == expected_output, 'Test failed'

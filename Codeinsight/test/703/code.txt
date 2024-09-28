@@ -1,2 +1,6 @@
 def test(lst0):
-    return max(len(s) for sublist in lst0 for s in sublist)
+    for i in lst0:
+        if isinstance(i, list):
+            yield from test(i)
+        else:
+            yield i

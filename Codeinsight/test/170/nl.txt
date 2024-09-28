@@ -1,1 +1,1 @@
-Find and replace the 2nd occurrence of the word 'cat' by 'Bull' in a sentence str0.
+Extracting first n columns var0 of a numpy matrix matrix0   

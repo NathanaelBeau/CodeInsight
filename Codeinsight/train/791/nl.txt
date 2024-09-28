@@ -1,1 +1,1 @@
-Checking if all the elements in list lst0 are unique.
+pythonic way to explode a list of tuples lst0   with itertools

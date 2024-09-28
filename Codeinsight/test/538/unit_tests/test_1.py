@@ -1,3 +1,4 @@
-arr0 = np.array([np.nan, -3, -2, -4])
-expected_output = np.array([-2., -3., -4., np.nan])
-assert np.allclose(test(arr0), expected_output, equal_nan=True), 'Test failed'
+dict0 = {'cat': 'chat', 'dog': 'chien', 'bird': 'oiseau'}
+var0 = 'DOG'
+expected_output = 'chien'
+assert test(dict0, var0 ) ==expected_output, 'Test failed'

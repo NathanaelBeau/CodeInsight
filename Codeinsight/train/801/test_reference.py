@@ -1,3 +1,2 @@
-import numpy as np
-def test(lst0):
-    return np.delete(lst0, 3)
+def test(var0):
+    return [int(i) for i in var0.split(',')]

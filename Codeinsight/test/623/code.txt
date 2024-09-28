@@ -1,4 +1,4 @@
-import re
+import codecs
 
-def test(var0, var1):
-    return [m.start() for m in re.finditer(var0, var1)]
+def test(var0):
+    return codecs.encode(var0, 'unicode_escape').decode('utf-8')

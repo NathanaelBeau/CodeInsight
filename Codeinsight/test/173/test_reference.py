@@ -1,3 +1,4 @@
-import numpy as np
-def test(mat0):
-    return mat0 ** 2
+from operator import itemgetter
+
+def test(lst0, var0):
+    return list(map(itemgetter(var0), lst0))

@@ -1,4 +1,4 @@
-df0 = pd.DataFrame({'X': ['a', 'b', 'c'], 'Y': ['x', 'y', 'z']})
-var0 = 'x'
-expected_output = ['Y True', 'None False', 'None False']
-assert test(df0, var0).equals(pd.Series(expected_output)), 'Test failed'
+lst0 = [{"name": "venus", "type": "planet"}, {"name": "pluto", "type": "ex-planet"}, {"name": "moon", "type": "satellite"}]
+var0 = "pluto"
+expected_output = {"name": "pluto", "type": "ex-planet"}
+assert test(lst0, var0) == expected_output, 'Test failed'

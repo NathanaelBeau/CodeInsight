@@ -1,4 +1,3 @@
-df0 = pd.DataFrame({ 'A': [0, 1, 0], 'B': [1, 0, 0] })
-expected_result =  np.mean([(0, 1), (1, 0)])
-result = test(df0)
-assert np.isclose(result, expected_result), 'Test failed'
+sublist = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]
+expected_output = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+assert test(sublist) == expected_output, 'Test failed'

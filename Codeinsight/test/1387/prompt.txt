@@ -1,6 +1,6 @@
- remove all the punctuation in a string str0    
+Remove all white spaces from a string str0 using regular expressions.
 
-import string
+import re
 
 def test(str0):
 

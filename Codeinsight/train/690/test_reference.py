@@ -1,6 +1,7 @@
-import numpy as np
-
-def test(arr0):
-    arr = np.vstack((arr0 - 1, arr0, arr0 + 1))
-    arr[:, ::2] = 0
-    return arr
+def test(str0):
+    decimal_index = str0.find('.')
+    if decimal_index != -1:
+        int_part = str0[:decimal_index]
+        return int(int_part)
+    else:
+        return int(str0)

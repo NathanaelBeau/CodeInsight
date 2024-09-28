@@ -1,2 +1,3 @@
-def test(lst0):
-    return len(lst0) - 1
+import pandas as pd
+def test(df0):
+    return len(df0.index), len(df0.columns)

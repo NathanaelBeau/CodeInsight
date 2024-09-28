@@ -1,3 +1,4 @@
 import numpy as np
-def test(arr0, row0):
-    return (arr0 == row0).all(axis=1).any()
+
+def test(arr0, arr1):
+    return np.concatenate((arr0, arr1))

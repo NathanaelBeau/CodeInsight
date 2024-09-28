@@ -1,4 +1,4 @@
-import re
+import pandas as pd
 
-def test(var0):
-    return var0.startswith("lol")
+def test(df0, var0):
+    return df0.columns[df0.isin([var0]).any()].tolist()

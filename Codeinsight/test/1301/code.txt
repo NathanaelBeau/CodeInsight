@@ -1,2 +1,3 @@
-def test(lst0, lst1):
-    return [index for index, item in enumerate(lst0) if item in lst1]
+def test(lst0):
+    return all(flag == 0 for (_, _, flag) in lst0)
+

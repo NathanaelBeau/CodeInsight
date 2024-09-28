@@ -1,2 +1,2 @@
-def test(arr0):
-    return len(arr0)
+def test(var0):
+    return f'Value is "{var0}"'

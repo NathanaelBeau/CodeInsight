@@ -1,3 +1,4 @@
-dict0 = {'P': [5, 7, 9], 'Q': [2, 4], 'R': [8, 6, 3]}
-expected_output = {'P': 21, 'R': 17, 'Q': 6}
-assert test(dict0) == expected_output, 'Test failed'
+var0 = [0, 1, 2]
+var1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+expected_output = [18, 21, 24]
+assert test(var0, var1) ==expected_output, 'Test failed'

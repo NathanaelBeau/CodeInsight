@@ -1,4 +1,4 @@
-dict0 = {'a': [1, 2.5, 3], 'b': [4, 5.5, 6]}
-expected_result =  {'a': 2.1666666666666665, 'b': 5.166666666666667}
-result = test(dict0)
+lst0 = [(53, 'x'), (53, 'y'), (53, 'z'), (10, 'w')]
+expected_result =  [0, 1, 2]
+result = test(lst0)
 assert result == expected_result, 'Test failed'

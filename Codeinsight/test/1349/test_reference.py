@@ -1,4 +1,5 @@
-import re
+import pandas as pd
 
-def test(str0):
-    return [x.strip() for x in re.split(r'\s*,\s*', str0) if x.strip()]
+
+def test(df0, var0):
+    return df0[var0].sum()

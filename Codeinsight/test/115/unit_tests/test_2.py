@@ -1,4 +1,4 @@
-lst0 = [(10, 30), (10, 28), (9, 40)]
-expected_result =  [(10, 28), (10, 30), (9, 40)]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+x = "StackOverflow"
+var0 = 5
+expected_output = "Overflow"
+assert test(x, var0) == expected_output, 'Test failed'

@@ -1,2 +1,2 @@
-def test(lst0):
-	return len(set(lst0)) == 1
+def test(lst0, lst1):
+    return sum(x * y for x, y in zip(lst0, lst1))

@@ -1,3 +1,2 @@
-import numpy as np
-def test(lst0, var0):
-    return list(np.array(lst0)[np.array(lst0) > var0])
+def test(lst0):
+    return sorted(lst0, key=lambda x: int(x.split('.')[2]))

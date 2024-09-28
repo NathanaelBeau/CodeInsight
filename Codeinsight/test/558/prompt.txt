@@ -1,6 +1,4 @@
-In Python, index a list lst0  with another list  lst1 with itemgetter
+Remove items from dictionary myDict where the value of the item is equal to var0.
 
-from operator import itemgetter
-
-def test(lst0, lst1):
+def test(myDict: dict, var0: any) -> dict:
 

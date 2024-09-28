@@ -1,5 +1,5 @@
-dict0 = {"apple": 1, "banana": 2}
-dict1 = {"cherry": 3}
-expected_result =  {"apple": 1, "banana": 2, "cherry": 3}
-result = test(dict0, dict1)
-assert result == expected_result, 'Test failed'
+# Test 1
+var0 = "apple banana ape atone"
+var1 = "ap"
+expected_result =  ["apple", "ape"]
+assert test(var0, var1) == expected_result, 'Test failed'

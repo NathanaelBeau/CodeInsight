@@ -1,3 +1,12 @@
-word = "hello world"
-char0 = 'e'
-assert test(word, char0) == [1], 'Test failed'
+import numpy
+import math
+import pandas
+import string
+import datetime
+import json
+import itertools
+import random
+import functools
+import collections
+result = test(0,3)
+assert result==[], 'Test failed'

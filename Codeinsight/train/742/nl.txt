@@ -1,1 +1,1 @@
-Clamp an integer var0 between var1 and var2  
+ "unpivot" specific columns lst0 from a pandas DataFrame df0  with pivoted columns var0 and  var1

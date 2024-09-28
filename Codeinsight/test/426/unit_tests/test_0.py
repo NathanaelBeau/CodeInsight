@@ -1,4 +1,5 @@
-df0 = pd.DataFrame({'ID': [1, 1, 2, 2], 'Value': [10, 20, 30, 40]})
-expected_result =  pd.DataFrame({'ID': [1, 1, 2, 2], 'Value': [10, 20, 30, 40], 'ID_mean': [15.0, 15.0, 35.0, 35.0], 'ID_sum': [30, 30, 70, 70]})
-result = test(df0, 'ID', 'Value')
-assert result.equals(expected_result), 'Test failed'
+arr0 = np.array([10, 20, 30, 40, 50])
+var0 = 3
+expected_result =  np.array([0, 1, 2])
+result = test(arr0, var0)
+assert np.array_equal(result, expected_result), 'Test failed'

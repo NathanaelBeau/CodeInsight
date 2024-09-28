@@ -1,4 +1,4 @@
-str0 = "PythonCodeGeneration"
-var0 = 4
-expected_output = "Pyth onCo deGe nera tion"
-assert test(str0, var0) ==expected_output, 'Test failed'
+var0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+expected_result =  var0
+result = test(var0)
+assert result.equals(expected_result), 'Test failed'

@@ -1,5 +1,4 @@
-# Test 3
-df0 = pd.DataFrame({ 'Score': [90, 85, 85, 95] }, index=[1, 2, 2, 3])
-expected_result =  pd.DataFrame({ 'Score': [90, 85, 95] }, index=[1, 2, 3])
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [('a', 'b', 'c'), ('d', 'e', 'f')]
+expected_result =  ["abc", "def"]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

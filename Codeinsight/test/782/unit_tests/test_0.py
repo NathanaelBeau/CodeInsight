@@ -1,4 +1,3 @@
-df1 = pd.DataFrame({'col1': [[1, 2, 3], [4, 5], [6], [], [7, 8]]})
-expected_result1 = pd.Series([3, 2, 1, 0, 2], name='col1')
-result1 = test(df1, 'col1')
-assert result1.equals(expected_result1), 'Test failed'
+df1 = pd.DataFrame({ 'a': [1, 2, 3], 'b': [4, 5, 6], 'x': [7, 8, 9], 'y': [10, 11, 12] })
+expected_output1 = pd.DataFrame({ 'x': [7, 8, 9], 'y': [10, 11, 12], 'a': [1, 2, 3], 'b': [4, 5, 6] })
+assert test(df1).equals(expected_output1), 'Test failed'

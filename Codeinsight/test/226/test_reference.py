@@ -1,5 +1,5 @@
-import numpy as np
-def test(arr0):
-    nans, x = np.isnan(arr0), lambda z: z.nonzero()[0]
-    arr0[nans] = np.interp(x(nans), x(~nans), arr0[~nans])
-    return arr0
+import pandas as pd
+
+def test(df0, column_name0):
+    df0[column_name0] = df0[column_name0].astype(int)
+    return df0

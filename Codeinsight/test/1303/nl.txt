@@ -1,1 +1,1 @@
-Initialize a list a with var0 items, each having the value var1.
+Retrieve a list that contains all non-empty elements from the list lst0.

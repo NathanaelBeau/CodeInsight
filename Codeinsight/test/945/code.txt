@@ -1,2 +1,3 @@
-def test(dict0, var0):
-    return var0 in dict0.values()
+import numpy as np
+def test(matrix0, vec0):
+    return matrix0 - vec0[:, np.newaxis]

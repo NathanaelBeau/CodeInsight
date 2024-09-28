@@ -1,1 +1,1 @@
-how do I insert a column at a specific column index value in pandas dataframe df0   
+Calculate percentage of sparsity for a numpy array/matrix  var0?

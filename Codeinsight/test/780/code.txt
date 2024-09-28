@@ -1,6 +1,3 @@
-def test(lst0):
-    result = []
-    for i in range(10):
-        if i < len(lst0):
-            result.append(lst0[i])
-    return result
+from collections import Counter
+def test(counter0):
+    return sum(counter0.values())

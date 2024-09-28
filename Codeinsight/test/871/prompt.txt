@@ -1,8 +1,5 @@
-Generate a random string of length var0, a-z only
-
-import random
-import string
+Generate all two-element string permutations from a list lst0
 
 
-def test(var0):
+def test(lst0):
 

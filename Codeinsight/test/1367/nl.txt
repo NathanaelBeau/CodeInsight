@@ -1,1 +1,1 @@
-Check if numpy arrays arr0 and arr1 potentially share the same memory/data  
+ remove specific elements at index var0 in a numpy array  arr0 Using numpy.delete() - returns a new array with sub-arrays along an axis deleted

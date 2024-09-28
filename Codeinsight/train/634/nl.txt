@@ -1,1 +1,1 @@
- convert a dictionary dict0 into a list of tuples   
+Sorting a list lst0 of string in ascending order based on the length of the string   

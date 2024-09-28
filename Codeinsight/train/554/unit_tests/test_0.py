@@ -1,3 +1,3 @@
-str0 = 'The     quick brown    fox'
-expected_output = 'The quick brown fox'
-assert test(str0) ==expected_output, 'Test failed'
+var0 = 42
+expected_output = 'var0'
+assert test(var0) ==expected_output, 'Test failed'

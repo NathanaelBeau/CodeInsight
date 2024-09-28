@@ -1,4 +1,4 @@
-Find the position of the var2 occurrence of substring var1 in string var0
+First common element from two lists   lst0 and lst1
 
-def test(var0, var1, var2):
+def test(lst0, lst1):
 

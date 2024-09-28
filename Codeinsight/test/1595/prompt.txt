@@ -1,5 +1,5 @@
-Replace all instances of value var0 with value var1 in an array arr0
+Remove all non-alphanumeric characters from the string str0.
 
-import numpy as np
-def test(arr0, var0, var1):
+import re
+def test(str0):
 

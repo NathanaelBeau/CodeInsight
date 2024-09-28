@@ -1,4 +1,6 @@
-Determine if all the words in the list lst0 exist in the string var0.
+Split the column named col0 in a dataframe df0 using the delimiter var0
 
-def test(var0, lst0):
+import pandas as pd
+
+def test(df0, col0, var0=','):
 

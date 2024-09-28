@@ -1,4 +1,6 @@
-var0 = {'a': 1, 'b': 2, 'c': 3}
-expected_result =  [1, 2, 3]
-result = test(var0)
-assert result == expected_result, 'Test failed'
+var0 = np.array([[9, 8, 7, 6, 5],
+                   [9, 8, 7, 6, 5],
+                   [9, 8, 7, 6, 5],
+                   [9, 8, 7, 6, 5]])
+expected_output = np.array([6, 5, 6, 5, 6, 5, 6, 5])
+assert (test(var0)  == expected_output).all(), 'Test failed'

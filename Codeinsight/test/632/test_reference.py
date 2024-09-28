@@ -1,3 +1,3 @@
-def test(lst0, lst1):
-    result = lst1 + lst0[:]
-    return result
+import numpy as np
+def test(arr0):
+    return np.unravel_index(np.argmax(arr0), arr0.shape)

@@ -1,1 +1,1 @@
-Compute the power of elements in arr0 raised to the elements of arr1  
+Create and return a NumPy array with the specified shape shape0, filled with the boolean value of var0..

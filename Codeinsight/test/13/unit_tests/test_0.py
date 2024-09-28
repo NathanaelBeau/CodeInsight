@@ -1,3 +1,4 @@
-s1 = "Hello, world! How are you?"
-expected_output1 = ['Hello', ', ', 'world', '! ', 'How', ' ', 'are', ' ', 'you', '?']
-assert test(s1) == expected_output1, 'Test failed'
+arr0 = [1, 2, 3, 4, 5]
+arr1 = [3, 5, 7]
+expected_output = [1, 2, 4]
+assert test(arr0, arr1) ==expected_output, 'Test failed'

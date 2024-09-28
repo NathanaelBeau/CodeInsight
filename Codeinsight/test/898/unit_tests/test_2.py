@@ -1,4 +1,4 @@
-df = pd.DataFrame({'A': [0.1234, 0.5678], 'B': [100, 200]})
-result = test(df, ['A'])
-expected = pd.DataFrame({'A': ['12.34%', '56.78%'], 'B': [100, 200]})
-assert result.equals(expected), 'Test failed'
+data0 = np.array([['red', 'blue'], [np.nan, 'green'], ['red', np.nan]], dtype=object)
+expected_result =  np.array([['red', 'blue'], ['red', 'green'], ['red', 'blue']], dtype=object)
+result = test(data0)
+assert (result == expected_result).all(), 'Test failed'

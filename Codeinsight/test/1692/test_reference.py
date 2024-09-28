@@ -1,6 +1,4 @@
 import pandas as pd
-import numpy as np
 
-def test(df0):
-    df0.replace([np.inf, -np.inf], np.nan, inplace=True)
-    return df0
+def test(df0, dict0):
+    return df0.rename(index=dict0)

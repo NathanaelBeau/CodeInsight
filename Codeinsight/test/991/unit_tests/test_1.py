@@ -1,7 +1,5 @@
-lst0 = np.array([-1, 0, 1])
-lst1 = np.array([1, 0, -1])
-var0 = 0.1
-var1 = 0.2
-expected_result =  1
-result = test(lst0, lst1, var0, var1)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame({'B': [7, 8, 9]})
+arr0 = np.array([10, 11, 12])
+expected_result =  pd.DataFrame({'B': [7, 8, 9], 'new_column': [10, 11, 12]})
+result = test(df0, arr0)
+assert result.equals(expected_result), 'Test failed'

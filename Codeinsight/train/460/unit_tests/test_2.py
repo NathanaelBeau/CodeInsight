@@ -1,5 +1,5 @@
-# Unit Test 2
-df0 = pd.DataFrame({ 'X': [7, 8, 9], 'Y': [10, 11, 12] }, index=['a', 'b', 'c'])
-expected_result =  pd.DataFrame({ 'X': [7, 8, 9], 'Y': [10, 11, 12] })
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+from scipy.sparse import csr_matrix
+mat2 = csr_matrix([[6], [7]])
+expected_result =  np.matrix([[6], [7]])
+result = test(mat2)
+assert np.array_equal(result, expected_result), 'Test failed'

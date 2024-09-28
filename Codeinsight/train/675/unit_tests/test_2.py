@@ -1,3 +1,4 @@
-lst0 = ["12345", "1", "123456789", "12", "1234"]
-expected_output = ["1", "12", "1234","12345",  "123456789"]
-assert test(lst0) == expected_output, 'Test failed'
+df0 = pd.DataFrame({ 'col1': [1, 2, 3], 'col2': [4, 5, 6], 'col3': [7, 8, 9] })
+lst0 = ['col1', 'col2', 'col1']
+expected_output = pd.DataFrame({ 'col3': [7, 8, 9] })
+assert test(df0, lst0) .equals(expected_output), 'Test failed'

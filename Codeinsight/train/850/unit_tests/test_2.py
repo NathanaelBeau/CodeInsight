@@ -1,7 +1,5 @@
-df3 = pd.DataFrame({ 'grades': [['A', 'B'], ['C', 'D'], ['E', 'F']] })
-col_name3 = 'grades'
-val3 = 'D'
-expected_result3 = [False, True, False]
-result3 = test(df3, col_name3, val3)
-result3_list = result3.tolist()
-assert result3_list == expected_result3, 'Test failed'
+dict0 = {'first': 'alpha', 'second': 'beta'}
+dict1 = {'alpha': 1, 'beta': 2}
+expected_result =  {'first': 1, 'second': 2}
+result = test(dict0, dict1)
+assert result == expected_result, 'Test failed'

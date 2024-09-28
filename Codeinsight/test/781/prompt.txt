@@ -1,4 +1,6 @@
-Delete column with name var0 from dataframe df0.
+Sort a numpy array  arr0 like a table   using lexsort
 
-def test(df0, var0):
+import numpy as np
+
+def test(arr0, sort_columns):
 

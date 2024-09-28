@@ -1,4 +1,3 @@
-import pandas as pd
-df0 = pd.DataFrame({'A': [7, 8, 9], 'B': [10, 11, 12]}, index=['alpha', 'beta', 'gamma'])
-expected_result =  ['alpha', 'beta', 'gamma']
-assert test(df0) == expected_result, 'Test failed'
+var0 = 128
+expected_output = bytearray([128]) * (10 ** 9)
+assert test(var0) ==expected_output, 'Test failed'

@@ -1,6 +1,4 @@
-Use a list of values lst0 to select rows for values in column var0 from a Pandas dataframe   df0
+Search for all tags with name tag0 containing the string str0 in the BeautifulSoup object soup0
 
-import pandas as pd
-
-def test(df0, lst0, var0):
+def test(soup0, str0='Elsie', tag0='a'):
 

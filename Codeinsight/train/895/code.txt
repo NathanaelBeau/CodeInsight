@@ -1,2 +1,2 @@
-def test(var0):
-    return var0.replace(" ", "")
+def test(lst0):
+    return [not elem for elem in lst0]

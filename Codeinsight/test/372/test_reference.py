@@ -1,4 +1,3 @@
-import re
-
-def test(str0: str, pattern: str) -> list:
-    return [match.group() for match in re.finditer(pattern, str0)]
+import numpy as np
+def test(data0):
+    return np.array(data0, dtype=object)

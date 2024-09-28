@@ -1,2 +1,4 @@
-def test(lst0):
-    return [t for sub in lst0 for t in sub]
+import pandas as pd
+
+def test(df0, condition):
+    return df0.query(condition)

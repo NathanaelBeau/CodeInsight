@@ -1,5 +1,4 @@
-Retrieve all the values from the numpy array arr0 excluding the value at index var0  
+Extend a numpy array arr0 in both dimensions by var0 rows and var1 columns  
 
-import numpy as np
-def test(arr0, var0):
+def test(arr0, var0, var1):
 

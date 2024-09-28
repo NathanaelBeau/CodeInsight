@@ -1,3 +1,4 @@
-s3 = "No-symbols! Or... maybe^some?"
-expected_output3 = 'NosymbolsOrmaybesome'
-assert test(s3) == expected_output3, 'Test failed'
+df = pd.DataFrame({'A': [1, 2, 3], ('col1', 'col2'): [None, None, None], 'B': [4, 5, 6]})
+expected_output = True
+result = test(df)
+assert result == expected_output, 'Test failed'

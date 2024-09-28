@@ -1,6 +1,4 @@
-Sort a list of lists lst0 according to the second element
+Python "extend" for a dictionary  dict0 with an other dictionary dict1
 
-import operator
-
-def test(lst0):
+def test(dict0, dict1):
 

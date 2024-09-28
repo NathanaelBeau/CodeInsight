@@ -1,4 +1,4 @@
-str0 = "Only one sentence here."
-var0 = 3  
-expected_output = "Only one sentence here."
-assert test(str0, var0) == expected_output, 'Test failed'
+x2 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+var0_2 = 1
+expected_output2 = np.array([[1, 2, 3], [7, 8, 9]])
+assert np.array_equal(test(x2, var0_2), expected_output2), 'Test failed'

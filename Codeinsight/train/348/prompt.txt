@@ -1,5 +1,6 @@
-Merge all columns in dataframe df0 into a single column.
+using regular expression to split string str0 in python   
 
-import pandas as pd
-def test(df0):
+import re
+
+def test(str0):
 

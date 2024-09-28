@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df):
-    return [{col: df[col].tolist()} for col in df.columns]
+def test(lst0):
+    return list(filter(lambda x: not isinstance(x, int), lst0))

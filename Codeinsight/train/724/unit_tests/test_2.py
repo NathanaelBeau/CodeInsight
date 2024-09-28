@@ -1,4 +1,3 @@
-str0 = 'openai.gpt'
-expected_result =  'gpt'
-result = test(str0)
-assert result == expected_result, 'Test failed'
+str0  = "racecar"
+expected_output = "racecar"
+assert test(str0) ==expected_output, 'Test failed'

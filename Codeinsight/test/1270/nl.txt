@@ -1,1 +1,1 @@
-Remove specific elements by index  of numpy array var0 in a numpy array  arr0
+Remove all whitespace and convert the string var0 to lowercase.

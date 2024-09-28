@@ -1,4 +1,5 @@
-Convert a list of string lst0 into a list of number
+Retrieve all columns of a DataFrame df0 except the one specified by the column name var0 
 
-def test(lst0):
+import pandas as pd
+def test(df0, var0):
 

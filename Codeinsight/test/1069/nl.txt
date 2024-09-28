@@ -1,1 +1,1 @@
-Get all possible combinations of items from the 2-dimensional list lst0.
+return variables var0 without spaces between values with concatenation  

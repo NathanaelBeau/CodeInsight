@@ -1,1 +1,1 @@
-Python - Remove dictionary from list lst0 if key var0 is equal to value  in list lst1
+Find the integer indices of rows containing NaN values in a given dataframe df0.

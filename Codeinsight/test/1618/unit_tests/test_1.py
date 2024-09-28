@@ -1,7 +1,4 @@
-dict0 = [
-    {"key1": "value1"},
-    {"key2": "value2"},
-    {"key3": "value3"},
-]
-expected_output = {"key1", "key2", "key3"}
-assert test(dict0) ==expected_output, 'Test failed'
+matrix0 = np.array([[9, 10], [11, 12]])
+expected_result =  np.array([9, 10, 11, 12])
+result = test(matrix0)
+assert np.array_equal(result, expected_result), 'Test failed'

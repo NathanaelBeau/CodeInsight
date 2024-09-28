@@ -1,1 +1,1 @@
-Subtract each element of lst1 from the corresponding element of lst0.
+Convert a NumPy array arr0 into a Python list  

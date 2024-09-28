@@ -1,3 +1,5 @@
-strings1 = ["apple", "banana", "cherry"]
-expected_result1 = 17
-assert test(strings1) == expected_result1, 'Test failed'
+var0 = [(1, 'apple'), (2, 'banana'), (3, 'cherry')]
+var1 = 2
+expected_result =  [1]
+result = test(var0, var1)
+assert result == expected_result, 'Test failed'

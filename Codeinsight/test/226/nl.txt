@@ -1,1 +1,1 @@
-Interpolate NaN values present in the numpy array arr0 
+Convert the data type of the column column_name0 in dataframe df0 from object to integer. 

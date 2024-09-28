@@ -1,6 +1,5 @@
-Reset the index of the dataframe df0.
+Convert the sparse matrix mat0 into a dense matrix  
 
-import pandas as pd
-
-def test(df0):
+from scipy.sparse import csr_matrix
+def test(mat0):
 

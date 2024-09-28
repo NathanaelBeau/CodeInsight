@@ -1,1 +1,2 @@
-Extract the dictionary from list lst0 where the value for the key 'name' is var0.
+Remove all whitespaces from a string var0   
+

@@ -1,4 +1,7 @@
-arg0 = r'[A-Za-z]+'  
-arg1 = 'Hello World'  
-expected_output = 2  
-assert test(arg0, arg1) == expected_output, 'Test failed'
+dict0 = [
+    {"key1": "value1"},
+    {"key2": "value2"},
+    {"key3": "value3"},
+]
+expected_output = {"key1", "key2", "key3"}
+assert test(dict0) ==expected_output, 'Test failed'

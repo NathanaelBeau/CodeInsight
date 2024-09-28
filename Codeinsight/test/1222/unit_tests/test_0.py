@@ -1,4 +1,4 @@
-dict0 = { 'a': [10, 'foo'], 'b': [5, 'bar'], 'c': [20, 'baz'], 'd': [15, 'qux'] }
-var0 = 0
-expected_output = ['b', 'a', 'd', 'c']
-assert test(dict0, var0) ==expected_output, 'Test failed'
+lst0 = ["hel", "lo", "bye"]
+var0 = 2
+expected_output = ['hello', 'helbye', 'lobye']
+assert test(lst0, var0) ==expected_output, 'Test failed'

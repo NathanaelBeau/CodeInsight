@@ -1,6 +1,2 @@
-import numpy as np
-
-def test(var0):
-    min_value = var0.min()
-    min_indices = np.argwhere(var0 == min_value)
-    return min_indices.flatten()
+def test(var0, lst0):
+    return any(var0.startswith(prefix) for prefix in lst0)

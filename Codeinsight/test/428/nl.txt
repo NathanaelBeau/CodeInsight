@@ -1,1 +1,1 @@
-Convert the comma-separated string var0 into a list of integers.
+Merge every two elements in a list lst0 sequentially

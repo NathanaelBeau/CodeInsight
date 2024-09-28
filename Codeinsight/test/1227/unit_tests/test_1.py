@@ -1,4 +1,6 @@
-lst0 = [10, "orange", 20, "mango", 30]
-expected_result =  ["orange", "mango"]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+class MyClass:
+    def __init__(self, my_attr):
+        self.my_attr = my_attr
+lst0 = [MyClass("a"), MyClass("b"), MyClass("c")]
+expected_result =  ["a", "b", "c"]
+assert test(lst0) == expected_result, 'Test failed'

@@ -1,3 +1,3 @@
-def test(lst0):
-    C = [float(item) for item in lst0[0].split(",")[1:-1]]
-    return C
+import numpy as np
+def test(arr0):
+    return np.array2string(arr0, separator=', ', max_line_width=np.inf)[1:-1]

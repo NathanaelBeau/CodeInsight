@@ -1,5 +1,5 @@
-import pandas as pd 
-
-def test(df0, var0, var1, var2):
-    df0.insert(var0, var1, var2)
-    return df0
+def test(test_string: str, str0: str) -> int:
+    try:
+        return test_string.rindex(str0)
+    except ValueError:
+        return -1

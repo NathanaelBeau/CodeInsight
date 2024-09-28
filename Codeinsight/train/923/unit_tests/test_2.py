@@ -1,4 +1,5 @@
-lst0 = [{'date':'2010-07-04'}, {'date':'2009-08-15'}, {'date':'2011-09-06'}]
-expected_result =  [{'date':'2009-08-15'}, {'date':'2010-07-04'}, {'date':'2011-09-06'}]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+arr0 = np.empty((0,3))
+lst0 = [1, 2, 3]
+expected_result =  np.array([[1, 2, 3]])
+result = test(arr0, lst0)
+assert np.array_equal(result, expected_result), 'Test failed'

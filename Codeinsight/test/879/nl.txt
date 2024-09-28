@@ -1,1 +1,1 @@
-Append a new column with data from list lst0 to a dataframe df0
+Count the number of non-NaN elements in the numpy ndarray matrix data.

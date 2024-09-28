@@ -1,2 +1,1 @@
-Flatten a list of lists lst0, remove duplicates, and sort the result.
-
+Get the average value of all list elements for each key in a dictionary named dict0

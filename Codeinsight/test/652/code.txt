@@ -1,6 +1,5 @@
-def test(var0, var1, var2):
-    start = var0.find(var1)
-    while start >= 0 and var2 > 1:
-        start = var0.find(var1, start+len(var1))
-        var2 -= 1
-    return start
+def test(lst0, lst1):
+    for i in lst0:
+        if i in lst1:
+            return i
+    return None

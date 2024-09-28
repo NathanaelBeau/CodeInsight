@@ -1,4 +1,6 @@
-lst0 = [10, 20, 30, 40]
-lst1 = [40, 30, 20, 10]
-expected_output = [0, 0, 0, 0]
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+# Test 2
+arr0 = [['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i']]
+val0 = 'h'
+expected_result =  (2, 1)
+result = test(arr0, val0)
+assert result == expected_result, 'Test failed'

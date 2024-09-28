@@ -1,4 +1,4 @@
-lst0 = ["apple", "banana", "cherry"]
-lst1 = ["banana", "cherry", "date", "fig"]
-expected_output = ["banana", "cherry"]
-assert test(lst0, lst1) == expected_output, 'Test failed'
+# Test 3
+var0 = "No special chars here."
+expected_result =  "No special chars here"
+assert test(var0) == expected_result, 'Test failed'

@@ -1,6 +1,2 @@
-import pandas as pd
-import numpy as np
-
-def test(df0, var0, var1):
-    df0[var0] = df0[var0].fillna(var1)
-    return df0
+def test(lst0: list, lst1: list) -> list:
+    return [x for x in lst0 if x in lst1]

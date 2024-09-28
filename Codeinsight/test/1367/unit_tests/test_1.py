@@ -1,5 +1,4 @@
-arr2 = np.array([4, 5, 6])
-arr3 = arr2.copy()
-expected_result =  False
-result = test(arr2, arr3)
-assert result == expected_result, 'Test failed'
+arr0 = np.array([100, 200, 300, 400, 500])
+var0 = 4
+expected_output = np.array([100, 200, 300, 400])
+assert (test(arr0, var0)  ==  expected_output).all(), 'Test failed'

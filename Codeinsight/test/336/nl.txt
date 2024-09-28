@@ -1,1 +1,1 @@
-Split a string the_list into chunks of size n and return a list of these chunks.
+Replace NaN values in an array named arr0 with zeros

@@ -1,3 +1,5 @@
-import numpy as np
-def test(matrix0):
-    return np.sqrt(np.sum(matrix0**2, axis=1))
+import collections
+
+def test(dict0):
+    sorted_dict = collections.OrderedDict(sorted(dict0.items()))
+    return sorted_dict

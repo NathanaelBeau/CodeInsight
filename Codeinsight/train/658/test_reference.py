@@ -1,3 +1,4 @@
-def test(lst0):
-    sorted_lst = sorted(lst0, key=lambda e: e['key']['subkey'], reverse=True)
-    return sorted_lst
+import re
+
+def test(str0):
+    return re.sub(r"[0-9]", "", str0)

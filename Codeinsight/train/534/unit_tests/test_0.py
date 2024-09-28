@@ -1,4 +1,3 @@
-str0 = "Hello,world;how|are+you"
-lst0 = [",", ";", "|", "+"]
-expected_output = ["Hello", "world", "how", "are", "you"]
-assert test(str0, lst0) ==expected_output, 'Test failed'
+lst0 = [1, 2, 3, 4, 5]
+expected_output = True
+assert test(lst0) ==expected_output, 'Test failed'

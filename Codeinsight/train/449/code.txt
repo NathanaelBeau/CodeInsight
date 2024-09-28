@@ -1,4 +1,2 @@
-import re
-
-def test(var0):
-    return re.findall(r'\w+|\W+', var0)
+def test(lst0):
+    return ''.join(str(i) for i in lst0)

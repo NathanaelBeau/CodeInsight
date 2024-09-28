@@ -1,2 +1,3 @@
-def test(lst0):
-    return {k for d in lst0 for k in d.keys()}
+import numpy as np
+def test(matrix0):
+    return matrix0.flatten()

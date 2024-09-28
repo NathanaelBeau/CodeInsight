@@ -1,2 +1,2 @@
-def test(lst0):
-    return len([x for x in lst0 if x])
+def test(lst0: list) -> int:
+    return sum(len(s) for s in lst0)

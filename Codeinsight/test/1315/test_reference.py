@@ -1,2 +1,3 @@
-def test(lst0, lst1):
-    return set(filter(lambda item: item in lst1, lst0))
+import numpy as np
+def test(arr0):
+    return arr0.shape

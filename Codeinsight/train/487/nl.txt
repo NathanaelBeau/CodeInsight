@@ -1,1 +1,1 @@
-Remove the unwanted_string str0 from the column named var0 in DataFrame df0.
+Python remove list elements  from lst0 which are ''

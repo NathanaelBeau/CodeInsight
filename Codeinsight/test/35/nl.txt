@@ -1,1 +1,1 @@
-Calculate and return the sum of the values in the column var0 of DataFrame df0.
+Replace all NaN values in column col0 with the corresponding values from column col1 in a DataFrame df0

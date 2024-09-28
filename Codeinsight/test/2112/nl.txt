@@ -1,1 +1,0 @@
-Reverse indices of a sorted list  lst0

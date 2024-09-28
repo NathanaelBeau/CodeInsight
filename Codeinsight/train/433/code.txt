@@ -1,3 +1,2 @@
-import re
-def test(str0):
-    return re.findall(r'[A-Z][^A-Z]*', str0)
+def test(lst0):
+	return {lst0[i]: lst0[i+1] for i in range(0, len(lst0), 2)}

@@ -1,5 +1,4 @@
-vec0 = np.array([1, 2, 3])
-num_times0 = 2
-expected_result =  np.array([[1, 2, 3, 1, 2, 3]])
-result = test(vec0, num_times0, axis0=1)
-assert np.array_equal(result, expected_result), 'Test failed'
+lst0 = [[10, 20, 30], [40, 50, 60], [70, 80, 90]]
+expected_result =  450
+result = test(lst0)
+assert result == expected_result, 'Test failed'

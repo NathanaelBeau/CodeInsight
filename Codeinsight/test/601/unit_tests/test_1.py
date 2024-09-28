@@ -1,4 +1,6 @@
-input_list = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
-expected_result =  ['red', 'blue', 'green', 'orange', 'yellow', 'indigo', 'violet']
-result = test(input_list)
-assert result==expected_result, 'Test failed'
+var0_2 = 1
+var1_2 = 'B'
+df0_2 = pd.DataFrame({'col1': [5, 6], 'col2': [7, 8]})
+expected_result_2 = pd.DataFrame({'col1': [5, 6], 'col2': [7, 8]}, index=[0, 'B'])
+result_2 = test(df0_2.copy(), var0_2, var1_2)
+assert result_2.equals(expected_result_2), 'Test failed'

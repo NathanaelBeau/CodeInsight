@@ -1,1 +1,1 @@
- simple way to remove multiple spaces in a string  str0 with replace
+Split a column named col0 containing tuples into two separate columns, 'A' and 'B', in a dataframe df0

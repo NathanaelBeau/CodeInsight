@@ -1,2 +1,2 @@
-def test(var0, dict0):
-    return var0 in dict0
+def test(s: str) -> str:
+    return s.split(':', 1)[0]

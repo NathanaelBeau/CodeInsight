@@ -1,5 +1,6 @@
-import pandas as pd
+import numpy as np
 
-def test(df0, var0):
-    df0[var0] = None
-    return df0
+def test(str0):
+    chars = np.array(list(str0))
+    reversed_chars = np.flip(chars)
+    return ''.join(reversed_chars)

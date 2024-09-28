@@ -1,1 +1,0 @@
-How to reorder indexed rows of dataframe df0 based on a list lst0 in Pandas data frame   

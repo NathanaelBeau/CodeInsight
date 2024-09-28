@@ -1,3 +1,5 @@
-str0 = "example_string"
-expected_output = "xemalp_etsirgn"
-assert test(str0) ==expected_output, 'Test failed'
+var0 = "Hello world! Good world!"
+replacements = {"world": "planet", "Good": "Great"}
+expected_result =  "Hello planet! Great planet!"
+result = test(var0, replacements)
+assert result == expected_result, 'Test failed'

@@ -1,3 +1,4 @@
-lst0 = [456, 789, 123]
-expected_result =  ["456", "789", "123"]
-assert test(lst0) == expected_result, 'Test failed'
+df0 = pd.DataFrame({'Date':['25-12-2019']})
+expected_result =  pd.DataFrame({'Date': [pd.Timestamp('2019-12-25')]})
+result = test(df0)
+assert result .equals( expected_result), 'Test failed'

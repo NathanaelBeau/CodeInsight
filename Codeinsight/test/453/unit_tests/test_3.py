@@ -1,1 +1,0 @@
-assert test('') == [''], 'Test failed'

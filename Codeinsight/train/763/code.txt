@@ -1,2 +1,2 @@
-def test(var0):
-    return [0] * var0
+def test(lst0):
+    return {k for d in lst0 for k in d.keys()}

@@ -1,4 +1,4 @@
-dict0 = {"a": 1, "b": 2, "c": 3}
-expected_result =  {1: "a", 2: "b", 3: "c"}
-result = test(dict0)
-assert result == expected_result, 'Test failed'
+dict0 = {'a': 1, 'b': 2}
+dict1 = {'c': 3, 'd': 4}
+expected_output = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+assert test(dict0, dict1) ==expected_output, 'Test failed'

@@ -1,4 +1,4 @@
-Remove all occurrences of the string var0 from the list lst0.
+Insert a dictionary with keys var1 and values var3 into dictionary dict0 under the key var2
 
-def test(lst0, var0):
+def test(dict0, var1, var2, var3):
 

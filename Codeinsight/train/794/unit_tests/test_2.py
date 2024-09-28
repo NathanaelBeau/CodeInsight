@@ -1,4 +1,3 @@
-var0 = 0
-expected_result =  []
-result = test(var0)
-assert result == expected_result, 'Test failed'
+s3 = "Python"
+expected_output3 = "python"
+assert test(s3) == expected_output3, 'Test failed'

@@ -1,1 +1,1 @@
-Extract a sublist from a list of strings lst0 starting from index var0 and ending at index var1
+Remove all instances of [1, 1] from a list lst0

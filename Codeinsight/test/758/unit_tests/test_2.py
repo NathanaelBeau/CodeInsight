@@ -1,4 +1,4 @@
-str0 = '12345678'
-var0= '-'
-expected_output = '12-34-56-78'
-assert test(str0, var0) ==expected_output, 'Test failed'
+# Test 2
+var0 = "Python\n\n\n\nis\n\n\n\nawesome\n\n"
+expected_result =  "Python\nis\nawesome\n"
+assert test(var0) == expected_result, 'Test failed'

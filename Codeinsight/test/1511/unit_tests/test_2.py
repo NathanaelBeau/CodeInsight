@@ -1,4 +1,3 @@
-var0 = "hello,,world"
-expected_result =  ["hello", "0", "world"]
-result = test(var0)
-assert result == expected_result, 'Test failed'
+df3 = pd.DataFrame({'P': [], 'Q': []})
+expected_output3 = []
+assert test(df3) == expected_output3, 'Test failed'

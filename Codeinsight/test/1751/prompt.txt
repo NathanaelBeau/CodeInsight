@@ -1,4 +1,4 @@
-Check if the string var0 contains any items from the list lst0.
+Replacing instances of a character at index var0 by str1 in a string str0   
 
-def test(var0, lst0):
+def test(str0, var0, str1):
 

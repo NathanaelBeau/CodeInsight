@@ -1,4 +1,3 @@
-import pandas as pd
-
-def test(df0):
-    return df0[sorted(df0.columns, key=str.lower)]
+import numpy as np
+def test(arr0):
+    return np.unique(arr0, axis=0)

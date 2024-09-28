@@ -1,3 +1,5 @@
-str0 = "This is line 1.\tThis is line 2.\tThis is line 3."
-expected_output = [['This is line 1.', 'This is line 2.', 'This is line 3.']]
-assert test(str0) == expected_output, 'Test failed'
+arr0 = np.array([[0, 1, 2], [3, 1, 4]])
+var0 = 1
+expected_output = (np.array([0, 1]), np.array([1, 1]))
+output = test(arr0, var0)
+assert np.array_equal(output[0], expected_output[0]) and np.array_equal(output[1], expected_output[1]), 'Test failed'

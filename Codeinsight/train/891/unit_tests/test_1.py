@@ -1,2 +1,4 @@
-df = pd.DataFrame({'var0': [1, 2, 3], 'var1': ['a', 'b', 'c']})
-assert test('var0', 'var1', df).equals(pd.DataFrame({'var0': [1, 2, 3], 'var1': ['a', 'b', 'c'], 'frequency': [1, 1, 1]})), 'Test failed'
+lst0 = [10, 20, 30]
+lst1 = ['X', 'Y', 'Z']
+expected_output = ([30, 20, 10], ['Z', 'Y', 'X'])
+assert test(lst0, lst1) == expected_output, 'Test failed'

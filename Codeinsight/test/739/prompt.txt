@@ -1,6 +1,4 @@
-Pythonic way to get the largest item with the greatest specified attribute at index 1 in a list   lst0 
+Create and return a list of empty lists. The number of empty lists in is equal to var0. 
 
-import operator
-
-def test(lst0):
+def test(var0):
 

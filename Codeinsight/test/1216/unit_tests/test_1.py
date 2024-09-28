@@ -1,6 +1,4 @@
-df0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry', 'date', 'applepie'], 'B': ['fruit', 'fruit', 'fruit', 'fruit', 'dessert']})
-col0 = 'B'
-str0 = 'fruit'
-expected_result =  pd.DataFrame({'A': ['apple', 'banana', 'cherry', 'date'], 'B': ['fruit', 'fruit', 'fruit', 'fruit']})
-result = test(df0, col0, str0)
-assert result.equals(expected_result), 'Test failed'
+var0 = (('FR', 'France'), ('ES', 'Spain'), ('US', 'United States'))
+str0 = 'ES'
+expected_output = 'Spain'
+assert test(var0, str0) ==expected_output, 'Test failed'

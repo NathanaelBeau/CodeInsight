@@ -1,6 +1,5 @@
-# Test 2
-df0 = pd.DataFrame({'X': ['a', 'b'], 'Y': ['c', 'd']})
-var0 = 'list'
-expected_result =  {'X': ['a', 'b'], 'Y': ['c', 'd']}
-result = test(df0, var0)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame({'c1': [3, 1, 2], 'c2': [3, 2, 1]})
+col0 = 'c1'
+col1 = 'c2'
+expected_result =  pd.DataFrame({'c1': [1, 2, 3], 'c2': [2, 1, 3]}, index=[1, 2, 0])
+assert test(df0, col0, col1).equals(expected_result), 'Test failed'

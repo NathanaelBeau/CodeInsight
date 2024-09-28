@@ -1,3 +1,6 @@
-lst0 = ["apple", "banana", "apple", "banana", "banana"]
-expected_output = [('banana', 3), ('apple', 2)]
-assert test(lst0) == expected_output, 'Test failed'
+# Test 3: Using 'item' method
+series = pd.Series([1])
+method = "item"
+expected_result =  1
+result = test(series, method)
+assert result == expected_result, 'Test failed'

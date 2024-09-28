@@ -1,4 +1,3 @@
-var0 = float('nan')
-expected_result =  True
-result = test(var0)
-assert result == expected_result, 'Test failed'
+str0 = "hello"
+expected_result =  "ehllo"
+assert test(str0) == expected_result, 'Test failed'

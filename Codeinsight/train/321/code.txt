@@ -1,3 +1,2 @@
-import numpy as np
-def test(dtype0):
-    return np.nbytes[dtype0]
+def test(dict0):
+    return sorted(dict0.keys())

@@ -1,5 +1,2 @@
-from collections import Counter
-import numpy as np
-
-def test(arr0):
-    return dict(Counter(arr0))
+def test(df0, var0, var1):
+    return df0[df0[var0] != var1]

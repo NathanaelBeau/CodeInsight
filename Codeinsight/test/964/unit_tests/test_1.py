@@ -1,6 +1,4 @@
-import pandas as pd
-data = {'X': [10, 20, 30], 'Y': [40, 50, 60]}
-df0 = pd.DataFrame(data, index=[100, 200, 300])
-expected_result =  pd.DataFrame({'X': [10, 20, 30], 'Y': [40, 50, 60]}, index=[100, 200, 300])
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [5, 10, 15]
+lst1 = ['apple', 'banana', 'cherry']
+expected_output = {5: 'apple', 10: 'banana', 15: 'cherry'}
+assert test(lst0, lst1) ==expected_output, 'Test failed'

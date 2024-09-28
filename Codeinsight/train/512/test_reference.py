@@ -1,2 +1,5 @@
-def test(var0, var1, var2):
-    return [tuple([var0, var1] + var2) for var0, var1, var2 in zip(var0, var1, var2)]
+import pandas as pd
+
+def test(df, var0):
+    result = df[df.groupby(var0).cumcount() == 0].reset_index(drop=True)
+    return result

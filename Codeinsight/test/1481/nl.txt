@@ -1,1 +1,1 @@
-Split the dataframe df0 into two dataframes at the row number n0.  
+Sort the input list lst0 in place, using the float values of its elements 

@@ -1,5 +1,4 @@
-import pandas as pd
+import numpy as np
 
-def test(df, var0):
-    result = df.groupby(var0, as_index=False).head(1).reset_index(drop=True)
-    return result
+def test(arr0):
+    return arr0.sum(axis=0)

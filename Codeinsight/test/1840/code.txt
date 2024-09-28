@@ -1,4 +1,4 @@
-def test(lst0, lst1):
-	if lst0 == []:
-		return []
-	return list(list(zip(*sorted(zip(lst1,lst0))))[1]) 
+import pandas as pd
+
+def test(df0, df1, var0, lst0):
+    return pd.merge(df0[lst0], df1, on=var0)

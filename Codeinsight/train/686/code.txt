@@ -1,4 +1,2 @@
-def test(str0):
-    word_generator = (word for word in str0.split() if not any(char.isdigit() for char in word))
-    word_count = sum(1 for _ in word_generator)
-    return word_count
+def test(var0, var1, var2):
+    return var1 if var0 < var1 else var2 if var0 > var2 else var0

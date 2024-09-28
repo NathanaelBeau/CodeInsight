@@ -1,4 +1,4 @@
-lst0 = [{'my_attr': 123}, {'my_attr': 456}, {'my_attr': 789}]
-var0 = 'my_attr'
-expected_output = [123, 456, 789]
-assert test(lst0, var0) ==expected_output, 'Test failed'
+df1 = pd.DataFrame({ 'X': [np.nan, np.nan, np.nan, np.nan], 'Y': [1, 1, 1, 1], 'Z': [1, np.nan, 1, np.nan] })
+expected_result =  pd.Series({'X': 100.0, 'Y': 0.0, 'Z': 50.0})
+result = test(df1)
+assert result.equals(expected_result), 'Test failed'

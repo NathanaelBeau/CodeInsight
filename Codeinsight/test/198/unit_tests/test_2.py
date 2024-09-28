@@ -1,4 +1,3 @@
-var0 = "12345 is a consecutive number sequence."
-expected_result =  ["12345"]
-result = test(var0)
-assert result == expected_result, 'Test failed'
+lst0 = [[1, 1, 1], [2, 2, 2], [1, 1, 1], [3, 3, 3]]
+expected_output = [[1, 1, 1], [2, 2, 2], [3, 3, 3]]
+assert test(lst0) ==expected_output, 'Test failed'

@@ -1,4 +1,0 @@
-Delete digits in Python  without Regex in string str0 
-
-def test(str0):
-

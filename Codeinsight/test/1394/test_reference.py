@@ -1,5 +1,5 @@
-def test(lst0, var0):
-    lst0.reverse()
-    lst0.append(var0)
-    lst0.reverse()
-    return lst0
+import re
+
+def test(var0):
+    pattern = r'\b\w*[\u00C0-\u017F]\w*\b'
+    return re.findall(pattern, var0)

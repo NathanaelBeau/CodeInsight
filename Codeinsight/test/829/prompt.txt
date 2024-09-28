@@ -1,4 +1,4 @@
-Remove all values from list lst1 that appear in list lst0
+find all positions of the maximum value in a list lst0   
 
-def test(lst0, lst1):
+def test(lst0):
 

@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0, str0):
-    return df0.loc[:, df0.columns[df0.columns.str.contains(str0)]]
+def test(lst0):
+    return [i for i, x in enumerate(lst0) if x != 0]

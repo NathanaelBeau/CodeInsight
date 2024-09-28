@@ -1,2 +1,2 @@
-def test(lst0):
-    return lst0.copy()
+def test(s: str, beginning: int, LENGTH: int) -> str:
+    return s[beginning:beginning+LENGTH]

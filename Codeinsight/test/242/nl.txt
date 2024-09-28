@@ -1,1 +1,1 @@
-compare two JSON objects dict0 and dict1  with the same elements in a different order equal   
+Get indices of the top N  var0 values of a list   lst0 with itemgetter for long lists

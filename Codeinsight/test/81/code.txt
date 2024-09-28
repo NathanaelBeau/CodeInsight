@@ -1,4 +1,3 @@
-import re
-def test(var0):
-    pattern = r'\b(\w+)\b(?=.*\b\1\b)'
-    return re.findall(pattern, var0)
+def test(var0, var1):
+    return {key: var1 for key in var0}
+

@@ -1,4 +1,3 @@
-dict0 = {'HELLO': 'world', 'PYTHON': 'rules'}
-expected_result =  {'hello': 'world', 'python': 'rules'}
-result = test(dict0)
-assert result == expected_result, 'Test failed'
+str0 = "hello"
+expected_output = "ehllo"
+assert test(str0) ==expected_output, 'Test failed'

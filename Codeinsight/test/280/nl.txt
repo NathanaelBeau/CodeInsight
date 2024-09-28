@@ -1,1 +1,1 @@
-Split the string str0 at indices specified in the list lst0.
+Reverse sort a Numpy array arr0 containing NaN values  

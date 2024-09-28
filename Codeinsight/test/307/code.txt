@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0, arr1):
-    return np.sum(arr0 == arr1)
+def test(var0, var1):
+    return var1.groupby(var0).sum().reset_index()

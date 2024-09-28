@@ -1,1 +1,1 @@
-Concatenate a numpy array arr1 to another numpy array arr0.
+Reset the indexes of the dataframe df0.

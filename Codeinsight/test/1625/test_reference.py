@@ -1,4 +1,2 @@
-import re 
-
-def test(var0):
-	return " ".join(re.findall("[a-zA-Z]+", var0))
+def test(lst0):
+    return lst0 + [lst0[0]]

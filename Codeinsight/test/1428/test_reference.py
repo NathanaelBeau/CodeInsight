@@ -1,2 +1,2 @@
-def test(lst0, lst1):
-    return set(lst0).intersection(lst1)
+def test(lst0):
+    return sorted(lst0, key=len)

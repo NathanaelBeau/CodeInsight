@@ -1,3 +1,3 @@
-s = "(Hello) world!"
-expected_output = "Hello world!"
-assert test(s) == expected_output, 'Test failed'
+str0 = '  apple , orange,   banana  '
+expected_output = ['apple', 'orange', 'banana']
+assert test(str0) ==expected_output, 'Test failed'

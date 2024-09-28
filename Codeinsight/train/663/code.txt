@@ -1,4 +1,3 @@
-import re
-
-def test(str0):
-    return re.sub(r"\d+", "", str0)
+import numpy as np
+def test(arr0):
+    return np.where(arr0 == 0)

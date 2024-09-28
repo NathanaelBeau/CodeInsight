@@ -1,1 +1,1 @@
-Removing backslashes from a string str0 in Python   
+Replace one item var0 in a list lst0 with one item var1  

@@ -1,6 +1,6 @@
-Extract row with maximum value in a group pandas dataframe   df0 in column var0
+ Calculate the sum of all columns of a 2D numpy array arr0.   
 
-import pandas as pd
+import numpy as np
 
-def test(df, var0):
+def test(arr0):
 

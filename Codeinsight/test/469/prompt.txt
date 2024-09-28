@@ -1,6 +1,4 @@
-Check if an array var0 contains all the elements of an array var1
+Find an element var0 in first position in a list of tuples lst0
 
-import numpy as np
-
-def test(var0, var1):
+def test(lst0, var0):
 

@@ -1,2 +1,1 @@
-Generate list of int numbers from var0 to var1 
-
+Add key-value pairs with keys var0 and var2 and corresponding values var1 and var3 to a dictionary dict0

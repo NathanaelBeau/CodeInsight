@@ -1,3 +1,4 @@
-str0 = "Let's test some code."
-expected_output = "Lets test some code"
-assert test(str0) ==expected_output, 'Test failed'
+str0 = "   Leading and trailing spaces   "
+expected_result =  "Leadingandtrailingspaces"
+result = test(str0)
+assert result == expected_result, 'Test failed'

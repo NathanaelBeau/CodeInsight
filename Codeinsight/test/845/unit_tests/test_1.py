@@ -1,4 +1,4 @@
-var0 = "áéíóú"
-expected_result =  "\\xe1\\xe9\\xed\\xf3\\xfa"
-result = test(var0)
-assert result == expected_result, 'Test failed'
+arr0 = [10, 20, 30, 40, 50]
+var0 = 100
+expected_output = [10, 20, 30, 40, 50]
+assert test(arr0, var0) ==expected_output, 'Test failed'

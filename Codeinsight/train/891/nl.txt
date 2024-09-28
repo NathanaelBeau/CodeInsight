@@ -1,1 +1,1 @@
-Remove duplicate rows according to columns var0 and var1 from DataFrame var2 and return a Dataframe with a column frequency   
+Sorting a list lst1 in Python using the result from sorting another list   lst0

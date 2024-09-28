@@ -1,4 +1,6 @@
-Move the last element to the front of a list named lst0
+Check if a numpy array arr0 is empty.
 
-def test(lst0):
+import numpy as np
+
+def test(arr0):
 

@@ -1,3 +1,4 @@
-str0 = "animal-Dog, breed-Golden Retriever, age-3"
-expected_output = {'animal': 'Dog', 'breed': 'Golden Retriever', 'age': '3'}
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = [10, 20, 30, 40]
+lst1 = [50, 60, 70, 80]
+expected_output = set()
+assert test(lst0, lst1) ==expected_output, 'Test failed'

@@ -1,2 +1,4 @@
-def test(lst0):
-    return [[x, y] for (x, y) in lst0]
+import pandas as pd
+
+def test(df0):
+    return pd.get_dummies(df0, dtype=int)

@@ -1,6 +1,5 @@
-var0 = "this is a test, this is only a test"
-var1 = "this"
-var2 = 2
-expected_result =  16
-result = test(var0, var1, var2)
-assert result == expected_result, 'Test failed'
+arr0 = np.array([[1, 2, 3, 4, 5],
+                 [6, 7, 8, 9, 10],
+                 [11, 12, 13, 14, 15]])
+expected_output = np.array([5, 9, 13])
+assert (test(arr0)  == expected_output).all(), 'Test failed'

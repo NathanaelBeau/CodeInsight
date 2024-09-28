@@ -1,4 +1,6 @@
-How to convert a hex string  str0 to hex number   
+Change the data type of the column var0 in the dataframe df0 into float and then to int.
 
-def test(str0):
+import pandas as pd
+
+def test(df0, var0):
 

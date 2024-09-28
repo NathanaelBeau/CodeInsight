@@ -1,3 +1,4 @@
-df0 = pd.DataFrame({ 'E': [100, 200, 300], 'F': [400, 500, 600] })
-expected_output = df0  # No duplicate indices, so the dataframe remains unchanged
-assert test(df0).equals(expected_output), 'Test failed'
+lst0 = [True, False, True]
+lst1 = [True, True, True]
+expected_result =  [True, False, True]
+assert test(lst0, lst1) == expected_result, 'Test failed'

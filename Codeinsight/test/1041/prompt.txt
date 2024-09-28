@@ -1,6 +1,6 @@
-find most common elements of a list lst0 and return the top var0
+Apply a function func to a column named var0 in a pandas DataFrame df0.
 
-from collections import Counter
+import pandas as pd
 
-def test(lst0, var0):
+def test(df0, var0, func):
 

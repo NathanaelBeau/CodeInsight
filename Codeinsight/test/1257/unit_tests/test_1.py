@@ -1,4 +1,4 @@
-dict0 = {'k': 'v'}
-expected_output = ['k']
-result = test(dict0)
-assert result == expected_output, 'Test failed'
+lst0 = ['A\tB\tC', '1\t2\t3']
+expected_result =  [['A', 'B', 'C'], ['1', '2', '3']]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

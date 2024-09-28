@@ -1,3 +1,3 @@
-lst0 = ["-5", "0", "5"]
-expected_output = [-5, 0, 5]
-assert test(lst0) ==expected_output, 'Test failed'
+df2 = pd.DataFrame({'a': ['apple', 'banana', 'cherry'], 'b': [7, 8, 9]})
+expected_output2 = ['apple', 'banana', 'cherry']
+assert test(df2) == expected_output2, 'Test failed'

@@ -1,3 +1,5 @@
-str0 = "12345"
-expected_output = ['1', '2', '3', '4', '5']
-assert test(str0) == expected_output, 'Test failed'
+lst0 = [1, 2, 3, 4, 5]
+var0 = 5
+expected_result =  []
+result = test(lst0, var0)
+assert result == expected_result, 'Test failed'

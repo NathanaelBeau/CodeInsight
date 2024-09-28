@@ -1,1 +1,1 @@
-Replace NaN values in the numpy array arr0 with the average of their respective columns
+Calculate the average values for a dataframe df0 by grouping on columns var0 and var1.

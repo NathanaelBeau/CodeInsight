@@ -1,4 +1,0 @@
-Case insensitive dictionary dict0 search key var0   
-
-def test(dict0, var0):
-

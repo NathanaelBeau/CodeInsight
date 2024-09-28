@@ -1,4 +1,6 @@
-find indexes of all occurrences of a substring str0 in a string str1
+Split the string var0 on commas but ignore commas that are inside double quotes.
 
-def test(str0: str, str1: str) -> list:
+import csv
+
+def test(var0):
 

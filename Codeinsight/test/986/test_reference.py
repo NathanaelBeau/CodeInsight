@@ -1,4 +1,2 @@
-from operator import sub
-
-def test(lst0, lst1):
-	return list(map(sub, lst0, lst1))
+def test(lst0):
+    return lst0[:3] + lst0[-3:]

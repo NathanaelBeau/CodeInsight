@@ -1,1 +1,1 @@
-Retrieve the value from the dataframe df0 at the specified row label var0 and column label var1
+Rename specific column(s) var0 by var1 in pandas  dataframe df

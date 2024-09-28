@@ -1,4 +1,3 @@
-var0 = {'cat': 'meow', 'dog': 'woof', 'elephant': 'trumpet'}
-expected_result =  [('cat', 'meow'), ('elephant', 'trumpet'), ('dog', 'woof')]
-result = test(var0)
-assert result == expected_result, 'Test failed'
+str0 = "abc*def*ghi"
+expected_output = ['abcdef', 'abcghi']
+assert test(str0)== expected_output, 'Test failed'

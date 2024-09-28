@@ -1,5 +1,6 @@
-Flipping the boolean values in a list lst0
-import numpy as np
+Combine rows in dataframe df0 based on column col0 and sum the values in column col1.
 
-def test(lst0):
+import pandas as pd
+
+def test(df0, col0, col1):
 

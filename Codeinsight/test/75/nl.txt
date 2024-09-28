@@ -1,1 +1,1 @@
-Multiply elements at the same index from two lists: lst0 and lst1.
+Split the string var0 on one or more spaces using a regular expression.

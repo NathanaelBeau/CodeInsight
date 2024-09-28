@@ -1,1 +1,0 @@
-Convert each string in the list of lists 'lst0' to an integer. 

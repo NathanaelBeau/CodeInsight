@@ -1,5 +1,4 @@
-var0 = 'country'
-df0 = pd.DataFrame({'country': ['USA', None, 'CANADA', 'UK']})
-expected_result =  pd.DataFrame({'country': ['usa', None, 'canada', 'uk']})
-result = test(df0, var0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [10, 11, 12]
+expected_result =  [10, 11, 12]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

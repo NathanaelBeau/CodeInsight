@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0, condition):
-    return arr0[condition(arr0)]
+def test(str0):
+    return ' '.join(str0.split()[1:])

@@ -1,5 +1,6 @@
-dict0 = {'apple': 100, 'banana': 200}
-dict1 = {'apple': 4, 'banana': 50}
-expected_result =  {'apple': 25.0, 'banana': 4.0}
-result = test(dict0, dict1)
-assert result == expected_result, 'Test failed'
+def determine(x):
+    return x == ""
+lst0 = ["hello", "", "world", "", "python"]
+var0 = determine
+expected_output = ["hello", "world", "python"]
+assert test(lst0, var0)==expected_output, 'Test failed'

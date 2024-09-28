@@ -1,1 +1,1 @@
-Get max value index for a list of dicts lst0 with max
+How to convert a hex string  str0 to hex number   

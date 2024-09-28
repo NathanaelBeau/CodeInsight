@@ -1,2 +1,6 @@
-def test(dict0, var0):
-    return [k for k, v in dict0.items() if v == var0]
+import pandas as pd
+import numpy as np
+
+def test(df0, var0):
+    df0[var0] = df0[var0].shift(1)
+    return df0

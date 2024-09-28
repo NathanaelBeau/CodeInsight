@@ -1,6 +1,5 @@
-import pandas as pd
+import re
 
-def test(df0, frac0=0.75, random_state0=None):
-    train = df0.sample(frac=frac0, random_state=random_state0)
-    test = df0.drop(train.index)
-    return train, test
+def test(str0):
+    splitter = re.compile(r'(\s+|\S+)')
+    return splitter.findall(str0)

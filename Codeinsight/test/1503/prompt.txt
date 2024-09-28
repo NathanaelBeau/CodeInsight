@@ -1,4 +1,5 @@
-Return a substring of str0 that ends just before the last occurrence of the substring var0. 
+Convert a comma-separated string str0 into a list of numbers (integers or floats).
 
-def test(str0, var0):
+import ast
+def test(str0):
 

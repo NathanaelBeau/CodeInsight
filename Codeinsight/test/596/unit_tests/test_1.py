@@ -1,4 +1,5 @@
-lst0 = [{'size': 15}, {'size': 8}, {'size': 12}, {'size': 18}]
-var0 = 'size'
-expected_output = 3
-assert test(lst0, var0) ==expected_output, 'Test failed'
+# Test 3
+lst0 = ["test1", "test2", "test3"]
+var0 = "_done"
+expected_result =  ["test1_done", "test2_done", "test3_done"]
+assert test(lst0, var0) == expected_result, 'Test failed'

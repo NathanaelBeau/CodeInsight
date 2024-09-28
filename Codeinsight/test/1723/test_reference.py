@@ -1,4 +1,4 @@
-import re
+import pandas as pd 
 
-def test(var0):
-    return re.findall(r'\b\w+\b', var0)
+def test(df0, var0='dict'):
+    return df0.to_dict(orient=var0)

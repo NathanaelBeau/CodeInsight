@@ -1,3 +1,5 @@
-lst0 = ['Jellicle', 'Cats', 'are', 'black', 'and', 'white,', 'Jellicle', 'Cats', 'are', 'rather', 'small;', 'Jellicle', 'Cats', 'are', 'merry', 'and', 'bright,', 'And', 'pleasant', 'to', 'hear', 'when', 'they', 'caterwaul.', 'Jellicle', 'Cats', 'have', 'cheerful', 'faces,', 'Jellicle', 'Cats', 'have', 'bright', 'black', 'eyes;', 'They', 'like', 'to', 'practise', 'their', 'airs', 'and', 'graces', 'And', 'wait', 'for', 'the', 'Jellicle', 'Moon', 'to', 'rise.', '']
-expected_output= ['Jellicle', 'Cats', 'are']
-assert test(lst0)== expected_output, 'Test failed'
+arr0 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+row0 = np.array([4, 5, 6])
+expected_result =  True
+result = test(arr0, row0)
+assert result == expected_result, 'Test failed'

@@ -1,3 +1,4 @@
-import numpy as np
-def test(arr0):
-    return arr0[arr0 != 0]
+import pandas as pd
+
+def test(lst0, lst1):
+    return pd.DataFrame(list(zip(lst0, lst1)), columns=['List1', 'List2'])

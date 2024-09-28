@@ -1,6 +1,5 @@
-Split the string var0 on new lines, tabs, and one or more spaces.
+Flatten a list of NumPy arrays lst0.  
 
-import re
-
-def test(var0):
+import numpy as np
+def test(lst0):
 

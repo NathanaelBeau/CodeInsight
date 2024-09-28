@@ -1,1 +1,1 @@
-Write a Python function to create a multidimensional list (lists of lists) with zeros of size var1 * var2.
+Fill NaN values in specified columns var0 of DataFrame df0 with the given value var1.

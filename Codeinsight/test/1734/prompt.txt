@@ -1,4 +1,6 @@
-Sum the element-wise product of two lists lst0 and lst1 
+Convert float Series var0 into an integer Series in pandas   
 
-def test(lst0, lst1):
+import pandas as pd
+
+def test(var0):
 

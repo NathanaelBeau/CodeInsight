@@ -1,5 +1,4 @@
-var0 = "The quick brown fox jumps over the lazy dog."
-lst0 = ['a', 'an', 'and', 'is', 'the', 'to', 'in']
-expected_result =  "quick brown fox jumps over lazy dog."
-result = test(var0, lst0)
-assert result == expected_result, 'Test failed'
+arr0 = np.array([1.234567, 2.345678, 3.456789])
+var0 = 2
+expected_output = ['1.23', '2.35', '3.46']
+assert (test(arr0, var0)  ==  expected_output).all(), 'Test failed'

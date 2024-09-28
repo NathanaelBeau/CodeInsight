@@ -1,5 +1,4 @@
-def generator1():
-    for i in range(10):
-        yield i
-result1 = test(generator1(), 5)
-assert result1 == [0, 1, 2, 3, 4], 'Test failed'
+lst0 = [1, [2, 3], [4, [5, 6]], 7]
+expected_result =  ['1', '2', '3', '4', '5', '6', '7']
+result = test(lst0)
+assert result == expected_result, 'Test failed'

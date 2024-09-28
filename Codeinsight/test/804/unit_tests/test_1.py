@@ -1,2 +1,3 @@
-expected_output = list(range(11, 20))
-assert test() == expected_output, 'Test failed'
+lst0 = [1, 2, 2, 4, 5]
+expected_output = False
+assert test(lst0) ==expected_output, 'Test failed'

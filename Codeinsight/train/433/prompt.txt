@@ -1,5 +1,4 @@
-Split the CamelCase string str0 into its individual words
+Convert a list lst0 into a dictionary where each key is the element at index i and its corresponding value is the element at index i+1
 
-import re
-def test(str0):
+def test(lst0):
 

@@ -1,4 +1,6 @@
-Swap values in a tuple/list lst0 inside a list in python with list comprehension 
+how to turn a string of letters embedded in squared brackets str0 into embedded lists   
 
-def test(lst0):
+import re
+
+def test(str0):
 

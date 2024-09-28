@@ -1,1 +1,1 @@
-How to iterate over a range of keys in a dictionary dict0?   
+Split each string in a list named lst0 on the tab character.

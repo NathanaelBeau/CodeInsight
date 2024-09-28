@@ -1,4 +1,6 @@
-var0, var1 = 2, 4
-expected_result =  (np.array([[0, 0, 0, 0], [1, 1, 1, 1]]), np.array([[0, 1, 2, 3], [0, 1, 2, 3]]))
-result = test(var0, var1)
-assert np.array_equal(result[0], expected_result[0]) and np.array_equal(result[1], expected_result[1]), 'Test failed'
+arr0 = np.array([[1, 0],
+                 [0, 1]])
+var0 = 5
+expected_output = np.array([[5, 0],
+                            [0, 5]])
+assert np.array_equal(test(arr0, var0), expected_output), 'Test failed'

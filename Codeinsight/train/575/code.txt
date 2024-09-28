@@ -1,3 +1,5 @@
+import operator
 
-def test(str0):
-    return eval(str0)
+def test(lst0):
+	lst0.sort(key=operator.itemgetter(1))
+	return lst0

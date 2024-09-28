@@ -1,5 +1,5 @@
-# Test 1
-df0 = pd.DataFrame({'A': [1, 2], 'B': [3, 4]})
-expected_result =  [{'A': 1, 'B': 3}, {'A': 2, 'B': 4}]
-result = test(df0)
+var0 = r'\s+'
+str0 = 'Hello   World'
+expected_result =  ['Hello', 'World']
+result = test(var0, str0)
 assert result == expected_result, 'Test failed'

@@ -1,2 +1,2 @@
-def test(lst0, lst1):
-    return {lst0[i]: lst1[i] for i in range(len(lst0))}
+def test(lst0):
+    return [''.join(map(str, t)) for t in lst0]

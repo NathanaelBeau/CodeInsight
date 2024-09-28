@@ -1,5 +1,5 @@
 import pandas as pd
 
-def test(df0, df1):
-    result_df = df0.multiply(df1)
-    return result_df
+def test(df0, var0, var1, var2):
+    df0.at[var0, var1] = var2
+    return df0

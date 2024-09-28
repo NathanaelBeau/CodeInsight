@@ -1,3 +1,4 @@
-df0 = pd.DataFrame({'A': [13]}, index=['d'])
-df2 = test(df0)
-assert df2.empty and (df2.index == df0.index).all(), 'Test failed'
+var0 = "I need to get groceries and get some rest."
+expected_result =  "I need to get@ groceries and get@ some rest."
+result = test(var0)
+assert result == expected_result, 'Test failed'

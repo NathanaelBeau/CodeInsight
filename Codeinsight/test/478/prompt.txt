@@ -1,4 +1,6 @@
-Return all elements of a list lst0 of lists in position var0 which are different of var1 
+write a regular expression to match a string str0 literal where the escape is a doubling of the quote character   
 
-def test(lst0, var0, var1):
+import re
+
+def test(str0):
 

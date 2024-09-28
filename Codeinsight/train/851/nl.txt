@@ -1,1 +1,1 @@
-Get the minimum and maximum dates from a dataframe column 'Date' in df0. 
+Check if the string var0 contains any upper or lower-case ASCII letters.

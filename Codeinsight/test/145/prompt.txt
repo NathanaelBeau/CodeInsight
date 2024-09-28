@@ -1,5 +1,5 @@
-How to compare two lists in python : 
-How ccheck if each element of lst0 is smaller than corresponding element of lst1 at the same index 
+Delete a column var0 from a Pandas DataFrame  df0
 
-def test(lst0: list, lst1: list) -> bool:
+import pandas as pd
+def test(df0, var0):
 

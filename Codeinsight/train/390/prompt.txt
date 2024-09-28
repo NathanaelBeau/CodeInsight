@@ -1,4 +1,4 @@
-Compute the logical XOR between two variables var0 and var1
+Count all integers in a list named lst0.
 
-def test(var0, var1):
+def test(lst0):
 

@@ -1,5 +1,3 @@
-str0 = "programming_is_fun"
-lst0 = [11, 14]
-expected_result =  ["programming", "_is", "_fun"]
-result = test(str0, lst0)
-assert result == expected_result, 'Test failed'
+arr0 = np.array([np.nan, -3, -2, -4])
+expected_output = np.array([-2., -3., -4., np.nan])
+assert np.allclose(test(arr0), expected_output, equal_nan=True), 'Test failed'

@@ -1,1 +1,1 @@
-Rename an index value in the DataFrame df0 from var0 to var1
+Sort all positive numbers before negative numbers in a list named lst0

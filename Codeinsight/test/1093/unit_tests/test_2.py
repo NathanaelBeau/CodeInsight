@@ -1,4 +1,4 @@
-lst0 = [(1, 2, 3), (4, 5, 6)]
-expected_result =  [(2, 1, 3), (5, 4, 6)]
-result = test(lst0)
+str0 = "a=1 b=2 c=3"
+expected_result =  {'a': '1', 'b': '2', 'c': '3'}
+result = test(str0)
 assert result == expected_result, 'Test failed'

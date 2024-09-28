@@ -1,7 +1,3 @@
-import numpy as np
-
-def test(arr0):
-    p = arr0
-    q = arr0
-    result = np.vstack([p, q])
-    return result
+def test(lst0, *args):
+    lengths = [len(lst0), *[len(arg) for arg in args]]
+    return all(length == lengths[0] for length in lengths)

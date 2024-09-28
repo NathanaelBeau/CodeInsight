@@ -1,2 +1,4 @@
-def test(lst0, lst1):
-    return [x + y for x, y in zip(lst0, lst1)]
+import re
+
+def test(str0):
+    return re.sub(r'[^\w\s]', '', str0)

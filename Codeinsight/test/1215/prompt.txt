@@ -1,4 +1,4 @@
-How to convert a hex string  str0 to hex number   
+Extract substrings from every string in the list buckets starting from character position var0 up to var1.
 
-def test(str0):
+def test(buckets: list, var0: int, var1: int) -> list:
 

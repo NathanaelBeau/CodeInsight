@@ -1,2 +1,4 @@
-def test(var0):
-    return [[] for _ in range(var0)]
+from scipy.optimize import fsolve
+
+def test(func, initial_guess):
+    return fsolve(func, initial_guess)

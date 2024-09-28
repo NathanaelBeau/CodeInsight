@@ -1,6 +1,5 @@
-Split the string var0 on commas but ignore commas that are inside double quotes.
+ Replace all values in column var0 of dataframe df0 with string var1
 
-import re
-
-def test(var0):
+import pandas as pd
+def test(df0, var0, var1):
 

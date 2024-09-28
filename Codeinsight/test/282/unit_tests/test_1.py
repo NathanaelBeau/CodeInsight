@@ -1,7 +1,4 @@
-df0 = pd.DataFrame({'X': ['a', 'b', 'c'], 'Y': ['d', 'e', 'f']})
-var0 = 0
-var1 = 0
-var2 = 'z'
-expected_result =  pd.DataFrame({'X': ['z', 'b', 'c'], 'Y': ['d', 'e', 'f']})
-result = test(df0, var0, var1, var2)
-assert result.equals(expected_result), 'Test failed'
+arr0 = np.array([[10, 20], [30, 40], [50, 60], [70, 80]])
+original_contents = arr0.copy()
+result = test(arr0)
+assert np.array_equal(np.sort(original_contents, axis=0), np.sort(result, axis=0)), 'Test failed'

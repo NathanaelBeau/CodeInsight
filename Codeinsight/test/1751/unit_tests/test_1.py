@@ -1,5 +1,5 @@
-var0 = "hello world"
-lst0 = ["earth", "mars"]
-expected_result =  False
-result = test(var0, lst0)
-assert result == expected_result, 'Test failed'
+str0 = 'abcdefgh'
+var0 = 8
+str1 = 'Z'
+expected_output ="abcdefghZ"
+assert test(str0, var0, str1) ==expected_output, 'Test failed'

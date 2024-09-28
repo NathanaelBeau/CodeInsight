@@ -1,6 +1,6 @@
-Delete all columns in DataFrame df0 that contain only zeros
+Find all integers in the string var0 that have at least var1 digits.
 
-import pandas as pd
+import re
 
-def test(df0):
+def test(var0, var1):
 

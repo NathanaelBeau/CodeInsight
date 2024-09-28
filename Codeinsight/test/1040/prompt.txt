@@ -1,4 +1,5 @@
-Prepend the same string str0 to all items in a list lst0  
+Drop all consecutive duplicate rows in a DataFrame df0, keeping only the first occurrence of each duplicate
 
-def test(str0, lst0):
+import pandas as pd
+def test(df0):
 

@@ -1,5 +1,4 @@
-import pandas as pd
+import numpy as np
 
-def test(df0: pd.DataFrame) -> pd.DataFrame:
-    df0['A_perc'] = df0['A'] / df0['sum']
-    return df0
+def test(var0, var1):
+	return list(np.linspace(var0, var1, var1 - var0, endpoint=False))

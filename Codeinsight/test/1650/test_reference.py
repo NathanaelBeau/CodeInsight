@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(nvalues: dict) -> pd.DataFrame:
-    return pd.DataFrame(nvalues)
+def test(lst0):
+    return [t for sub in lst0 for t in sub]

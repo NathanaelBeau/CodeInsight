@@ -1,6 +1,6 @@
-Create an empty dataframe with the same index as dataframe df0.
+Select all columns from a dataframe df0 whose names start with a string var0 
 
 import pandas as pd
 
-def test(df0):
+def test(df0, var0='X'):
 

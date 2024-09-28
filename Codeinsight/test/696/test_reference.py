@@ -1,4 +1,3 @@
-import numpy as np
-
-def test(arr0, var0):
-    return np.where(arr0 == var0)[0][0]
+def test(dict0):
+    dict0["item3"] = 3
+    return dict0

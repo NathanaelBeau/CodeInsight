@@ -1,5 +1,3 @@
-dict0 = {'x': 'apple', 'y': 'banana', 'z': 'cherry'}
-var0 = 'grape'
-expected_result =  False
-result = test(dict0, var0)
-assert result == expected_result, 'Test failed'
+var0 = "https://youtu.be/SHORT_VIDEO_ID"
+expected_result =  "SHORT_VIDEO_ID"
+assert test(var0) == expected_result, 'Test failed'

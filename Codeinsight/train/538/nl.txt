@@ -1,1 +1,1 @@
- sort a zipped list lst0 in Python  
+Generate a SHA-256 hash of the string var0, then truncate the hash to the first var1 characters, and return the result.

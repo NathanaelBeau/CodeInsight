@@ -1,2 +1,4 @@
-def test(lst0):
-    return [dict(t) for t in {tuple(d.items()) for d in lst0}]
+import pandas as pd
+
+def test(df0, var0):
+    return df0.iloc[:var0], df0.iloc[var0:]

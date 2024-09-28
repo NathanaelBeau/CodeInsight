@@ -1,4 +1,0 @@
-split string str0 into words that do not contain whitespaces in python  
-
-def test(str0):
-

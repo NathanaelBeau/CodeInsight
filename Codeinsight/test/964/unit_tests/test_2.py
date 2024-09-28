@@ -1,6 +1,4 @@
-import pandas as pd
-data = {'P': [100, 200, 300], 'Q': [400, 500, 600]}
-df0 = pd.DataFrame(data, index=[1, 1, 2])
-expected_result =  pd.DataFrame({'P': [100, 300], 'Q': [400, 600]}, index=[1, 2])
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [100, 200, 300, 400]
+lst1 = ['one', 'two', 'three', 'four']
+expected_output = {100: 'one', 200: 'two', 300: 'three', 400: 'four'}
+assert test(lst0, lst1) ==expected_output, 'Test failed'

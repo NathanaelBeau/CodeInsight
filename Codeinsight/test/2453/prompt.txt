@@ -1,6 +1,0 @@
-Sorting numpy array var0 on multiple columns col0 in Python on data0  
-
-import numpy as np
-
-def test(var0,data0, col0):
-

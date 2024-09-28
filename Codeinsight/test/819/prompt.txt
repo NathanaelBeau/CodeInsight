@@ -1,4 +1,4 @@
-Sort and reindex a data frame df0 by its year column, then by its month column, then by its day column 
+check if a value var0 exists in a dictionary dict0 
 
-def test(df0):
+def test(dict0, var0):
 

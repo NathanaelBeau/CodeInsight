@@ -1,1 +1,1 @@
-Replace NaN values in the pandas DataFrame df0 with an empty string.
+All combinations of a list of lists  lst0

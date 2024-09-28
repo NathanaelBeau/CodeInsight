@@ -1,1 +1,1 @@
-Convert the numpy array of strings arr0 to an array of floats
+Delete digits in Python  without Regex in string str0 

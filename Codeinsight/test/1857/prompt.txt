@@ -1,4 +1,4 @@
-Add items var1 to a dictionary of lists lst0 at key var0
+Unpack keys and values of a dictionary dct0 into two lists.
 
-def test(lst0, var0, var1):
+def test(dct0):
 

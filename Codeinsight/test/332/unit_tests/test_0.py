@@ -1,3 +1,3 @@
-str0 = '\xc5\xc4\xd6'
-expected_result =  b'\xc3\x85\xc3\x84\xc3\x96'
-assert test(str0) == expected_result, 'Test failed'
+s = "hello world"
+expected_output = "dlrow olleh"
+assert test(s) == expected_output, 'Test failed'

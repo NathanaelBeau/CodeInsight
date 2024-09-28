@@ -1,5 +1,4 @@
-Append a new column arr1 to the numpy array arr0  
+How to modify the elements var0 in a list lst0 within list   
 
-import numpy as np
-def test(arr0, arr1):
+def test(var0, lst0):
 

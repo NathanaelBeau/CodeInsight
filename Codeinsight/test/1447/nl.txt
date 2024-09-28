@@ -1,1 +1,1 @@
-Convert the binary string binary_str into its corresponding integer value.
+Check if two numpy arrays arr0 and arr1 are equal, treating NaNs in corresponding positions as equal.  

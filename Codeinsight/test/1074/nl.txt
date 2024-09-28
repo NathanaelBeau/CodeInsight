@@ -1,1 +1,1 @@
-Add an extra column col0 to a NumPy array arr0
+Remove specific elements by index  of numpy array var0 in a numpy array  arr0

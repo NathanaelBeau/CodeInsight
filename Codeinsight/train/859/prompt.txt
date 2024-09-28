@@ -1,6 +1,4 @@
-Sort a NumPy array arr0 based on the column with indexvar0.
+Inserting a string var0 in a string var1 in specific position var2
 
-import numpy as np
-
-def test(arr0, var0):
+def test(var0, var1, var2):
 

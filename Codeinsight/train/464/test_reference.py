@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0, var0):
-    return df0.nsmallest(n=len(df0), columns=var0)
+def test(lst0, lst1):
+    return sum(x*y for x, y in zip(lst0, lst1))

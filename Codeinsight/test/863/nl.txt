@@ -1,1 +1,1 @@
-Counting the number of non-NaN elements in a numpy ndarray arr0 in Python   
+convert a string str0 of space- and comma- separated numbers into a list of int  with map

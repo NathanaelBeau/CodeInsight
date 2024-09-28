@@ -1,1 +1,1 @@
-Check if the variable var0 is a pandas DataFrame.
+Split the data data0 into three sets: train, validation, and test, using the specified sizes train_size0 and val_size0.

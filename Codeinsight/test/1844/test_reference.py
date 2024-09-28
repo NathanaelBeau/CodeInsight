@@ -1,6 +1,4 @@
-import pandas as pd
+import re
 
-def test(df0):
-    df0['grade'] = pd.to_numeric(df0['grade']).astype(int)
-    return df0
-
+def test(str0):
+    return re.sub(r" \(\w+\)", "", str0)

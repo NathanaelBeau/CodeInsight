@@ -1,2 +1,2 @@
 def test(lst0):
-    return sorted(lst0, key=lambda x: int(x.split('.')[2]))
+    return dict(enumerate(lst0))

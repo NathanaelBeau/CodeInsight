@@ -1,1 +1,1 @@
-Get the count of values in numpy array a that are greater than var0 and less than or equal to var1.
+Removing entries from a dictionary dict0 based on values   var0 

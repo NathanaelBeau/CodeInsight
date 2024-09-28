@@ -1,5 +1,4 @@
-Reset the index on a series named ser0 to remove any multiindex  
+Remove stop words from the string var0 based on the list of stop words lst0.
 
-import pandas as pd
-def test(ser0):
+def test(var0, lst0):
 

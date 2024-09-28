@@ -1,5 +1,8 @@
-Generate a random integer between two given numbers var0 and var1.
+Join two dataframes df0 and df1 based on their index.
 
-import random
-def test(var0, var1):
+
+import pandas as pd
+import numpy as np
+
+def test(df0, df1):
 

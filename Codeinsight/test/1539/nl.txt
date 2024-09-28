@@ -1,1 +1,1 @@
-How to calculate moving average in Python 3 on sequence lst0  with window size window_size with numpy
+Swap the first two values in each tuple/list inside the list lst0

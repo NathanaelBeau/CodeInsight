@@ -1,4 +1,3 @@
-str0 = "Python"
-var0 = 3
-expected_output = "Pyt"
-assert test(str0, var0) == expected_output, 'Test failed'
+str0 = "hello"
+expected_output = "ehllo"
+assert test(str0) ==expected_output, 'Test failed'

@@ -1,4 +1,4 @@
-import numpy as np
-arr0 = np.array([[1, 10], [2, 9], [3, 8]])
-expected_result =  np.array([[3, 8], [2, 9], [1, 10]])
-assert np.array_equal(test(arr0), expected_result), 'Test failed'
+var0 = 31
+var1= " toulouse "
+expected_output = "31 toulouse "
+assert test(var0, var1) ==expected_output, 'Test failed'

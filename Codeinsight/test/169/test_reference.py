@@ -1,4 +1,4 @@
-import re
+import pandas as pd
 
-def test(var0):
-    return re.sub(r"(?<=[a-z])\r?\n"," ", var0)
+def test(df0):
+    return df0[df0.columns[0]]

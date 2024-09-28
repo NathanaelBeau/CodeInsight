@@ -1,2 +1,4 @@
-def test(var0):
-    return var0.lower()
+import re
+
+def test(str0: str) -> str:
+    return ''.join(re.findall(r'[^()]+(?![^(]*\))', str0))

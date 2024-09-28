@@ -1,4 +1,6 @@
-reverse tuples elements inside each tuple in list of tuples lst0  in Python  
+Remove NaN values from a numpy array arr0.
 
-def test(lst0):
+import numpy as np
+
+def test(arr0):
 

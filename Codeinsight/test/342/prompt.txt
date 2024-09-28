@@ -1,6 +1,4 @@
-Reset the index of a DataFrame df0 and assign it a new name index_name0.
+How to repeat var0 times individual characters in strings str0 in Python   
 
-import pandas as pd
-
-def test(df0, index_name0):
+def test(str0, var0):
 

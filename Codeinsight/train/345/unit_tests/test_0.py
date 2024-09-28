@@ -1,4 +1,3 @@
-str0 = "1,2,3,4.5,5.6"
-expected_result =  [1, 2, 3, 4.5, 5.6]
-result = test(str0)
-assert result == expected_result, 'Test failed'
+str0 = "hello 42 I'm a 32 string 30"
+expected_output = ['42', '32', '30']
+assert test(str0) ==expected_output, 'Test failed'

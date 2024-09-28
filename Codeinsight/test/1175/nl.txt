@@ -1,1 +1,1 @@
- get the size of a string var0
+Split a string str0 using one or more whitespace characters and avoid single spaces in the resulting list.

@@ -1,5 +1,6 @@
-regular expression match nothing in string var0
+Find all substrings in mystring where each occurrence of var0 is directly preceded and succeeded by var1.
 
 import re
-def test(var0):
+
+def test(mystring, var0, var1):
 

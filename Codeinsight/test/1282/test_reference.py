@@ -1,3 +1,2 @@
-import codecs
-def test(str0):
-    return codecs.decode(str0, 'unicode_escape')
+def test(var0):
+    return hex(var0)

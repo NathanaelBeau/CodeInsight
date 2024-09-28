@@ -1,2 +1,1 @@
-Get the number of items associated with key key0 in the dictionary dict0
-
+return a substring of str0 that ends just before the last occurrence of the substring var0.

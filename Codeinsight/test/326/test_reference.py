@@ -1,4 +1,2 @@
-import re
-
-def test(str0: str) -> str:
-    return re.sub(r'\w+:\s?', '', str0)
+def test(lst0):
+    return [max(column, key=len) for column in zip(*lst0)]

@@ -1,3 +1,3 @@
-lst0 = [('a', 'b', 'c'), ('d', 'e', 'f')]
-expected_output = ['a', 'b', 'c', 'd', 'e', 'f']
+lst0 = [('A', 'B', 'C')]
+expected_output = {'A': 1}
 assert test(lst0) ==expected_output, 'Test failed'

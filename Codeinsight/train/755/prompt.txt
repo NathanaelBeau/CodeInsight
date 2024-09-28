@@ -1,4 +1,4 @@
-Zip two lists lst0 and lst1 into a list of tuples containing elements at the same index in each lis
+Removing backslashes from a string str0 in Python   
 
-def test(lst0, lst1):
+def test(str0):
 

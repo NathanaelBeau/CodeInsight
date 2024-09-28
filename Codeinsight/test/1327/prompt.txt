@@ -1,7 +1,6 @@
-Replace all negative numbers with zero in a given dataframe df0
+ remove all words that end in &quot;:&quot; from a string  str0 in Python?   
 
-import pandas as pd
-import numpy as np
+import re
 
-def test(df0):
+def test(str0: str) -> str:
 

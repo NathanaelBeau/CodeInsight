@@ -1,4 +1,6 @@
-Merging items in a list lst0 - Python   
+Convert the dictionary dict0 into a dataframe.
 
-def test(lst0):
+import pandas as pd
+
+def test(dict0):
 

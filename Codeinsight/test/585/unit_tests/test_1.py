@@ -1,3 +1,4 @@
-lst0 = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape', 'honeydew', 'kiwi', 'lemon', 'mango', 'orange']
-expected_output = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape', 'honeydew', 'kiwi', 'lemon']
-assert test(lst0) == expected_output, 'Test failed'
+s2 = "1a23b456c"
+pattern2 = "\d+"
+expected_output2 = [(0, 1, '1'), (2, 4, '23'), (5, 8, '456')]
+assert test(s2, pattern2) == expected_output2, 'Test failed'

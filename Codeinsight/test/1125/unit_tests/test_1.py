@@ -1,4 +1,3 @@
-lst0 = [10, 20, 30]
-lst1 = [1, 2, 3]
-expected_output = [11, 22, 33]
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+str0 = "Let's test this code!"
+expected_output = "Lets test this code"
+assert test(str0) ==expected_output, 'Test failed'

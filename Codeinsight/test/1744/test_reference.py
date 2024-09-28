@@ -1,3 +1,9 @@
-def test(var0, var1):
-    return {key: var1 for key in var0}
+def test(str0):
+    txt = l = []
+    for t in str0.split():
+        try:
+            l.append(float(t))
+        except ValueError:
+            pass
+    return txt
 

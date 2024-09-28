@@ -1,6 +1,6 @@
-import pandas as pd
+import operator
 
-def test(var0, var1, var2):
-	mydf = var2.groupby([var0,var1]).size().reset_index()
-	mydf.rename(columns = {0: 'frequency'}, inplace = True)
-	return mydf
+def test(lst0, lst1):
+    sorted_lists = sorted(zip(lst0, lst1), key=operator.itemgetter(0), reverse=True)
+    list_0_sorted, list_1_sorted = zip(*sorted_lists)
+    return list(list_0_sorted), list(list_1_sorted)

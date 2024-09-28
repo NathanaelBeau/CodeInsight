@@ -1,1 +1,1 @@
-Python: Check the occurrences in a list lst0 against a value  var0
+Select rows from a DataFrame df0 where values in column column_name0 are in the list value_list0.  

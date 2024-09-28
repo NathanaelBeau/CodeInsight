@@ -1,4 +1,0 @@
-Split a string var0 according to a special character var1 and return the beginning
-
-def test(var0, var1):
-

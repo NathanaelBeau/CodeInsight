@@ -1,4 +1,4 @@
+import pandas as pd
 
-
-def test(var0):
-    return any(char.isalpha() for char in var0)
+def test(df0, var0):
+    return len(df0[var0].unique())

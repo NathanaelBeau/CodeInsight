@@ -1,5 +1,2 @@
-def test(lst0):
-    if lst0 and isinstance(lst0[0], tuple):
-        return [(x[1], x[0], *x[2:]) for x in lst0]
-    else:
-        return [[x[1], x[0], *x[2:]] for x in lst0]
+def test(str0):
+    return {x.split('=')[0]: x.split('=')[1] for x in str0.split()}

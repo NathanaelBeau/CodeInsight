@@ -1,1 +1,1 @@
-count how many of an object type var0  there are in a list lst0 Python   
+Normalize a numpy array arr0 to a unit vector.

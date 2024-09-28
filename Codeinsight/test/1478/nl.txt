@@ -1,1 +1,1 @@
-Check if all elements in the list lst0 are False. 
+Append string str0 at the beginning of each value in column col of dataframe df0.

@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(arr0, arr1):
-    return np.hstack((arr0, arr1))
+def test(dict0, lst0):
+    return all(key in dict0 for key in lst0)

@@ -1,2 +1,5 @@
-def test(str0, str1):
-    return not set(str0) - set(str1)
+import pandas as pd
+
+def test(df0):
+    df0.fillna(df0.mean(), inplace=True)
+    return df0

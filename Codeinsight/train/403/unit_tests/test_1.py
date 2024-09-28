@@ -1,4 +1,5 @@
-dictA = {"d": "duck", "e": "duck goose duck", "f": "goose goose goose"}
-expected_output = ["e"]
-str0 ="duck"
-assert test(dictA, str0) == expected_output, 'Test failed'
+var0 = np.array([0, 0, 0])
+var1 = np.array([0, 0, 0])
+expected_result =  0.0
+result = test(var0, var1)
+assert result == expected_result, 'Test failed'

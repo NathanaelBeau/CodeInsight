@@ -1,6 +1,4 @@
-Trim non-ASCII characters from both the start and end of the string var0
+Zip the list of tuples lst0 into another list of tuples based on the original tuple indices.
 
-import re
-
-def test(var0):
+def test(lst0: list) -> list:
 

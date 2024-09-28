@@ -1,4 +1,6 @@
-lst0 = [0.5, 1.5, 2.5, 3.5, 4.5]
-lst1 = [2, 4]
-expected_output = [2.5, 4.5]
-assert test(lst0, lst1) == expected_output, 'Test failed'
+var0 = {'salary': 85000, 'bonus': 80000}
+var1 = 'salary'
+var2 = 'bonus'
+expected_result =  85000
+result = test(var0, var1, var2)
+assert result == expected_result, 'Test failed'

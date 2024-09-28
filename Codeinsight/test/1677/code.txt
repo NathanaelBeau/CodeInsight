@@ -1,4 +1,5 @@
-import re
-
-def test(var0):
-    return re.sub(r'\(.*?\)', '', var0)
+def test(lst0):
+    result = []
+    for elem in lst0:
+        result.append(not elem)
+    return result

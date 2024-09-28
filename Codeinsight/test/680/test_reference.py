@@ -1,2 +1,2 @@
-def test(dict0):
-    return {key: np.sum(value) for key, value in dict0.items()}
+def test(lst0):
+    return dict(lst0)

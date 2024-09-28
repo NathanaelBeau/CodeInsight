@@ -1,3 +1,3 @@
-str0 = "This is a test string"
-expected_output = "This is a test string"
-assert test(str0) ==expected_output, 'Test failed'
+str0 = "98765432"
+expected_output = "98,765,432"
+assert test(str0) == expected_output, 'Test failed'

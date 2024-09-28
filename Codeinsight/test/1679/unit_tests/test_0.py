@@ -1,3 +1,4 @@
-lst0 = [(3, 'A', 'C'), (3, 'C', 'A'), (2, 'B', 'C'), (2, 'C', 'B'), (1, 'A', 'B'), (1, 'B', 'A')]
-expected_output = [(3, 'A', 'C'), (2, 'B', 'C'), (1, 'A', 'B')]
-assert test(lst0) == expected_output, 'Test failed'
+df1 = pd.DataFrame({'grade': ['100.5', '90.7', '80.2']})
+expected_result1 = pd.DataFrame({'grade': [100, 90, 80]})
+result1 = test(df1)
+assert result1.equals(expected_result1), 'Test failed'

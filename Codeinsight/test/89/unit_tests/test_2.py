@@ -1,4 +1,5 @@
-arr0 = np.array([0, 0, 0, 2])
-expected_result =  2
-result = test(arr0)
+pattern0 = r"aa"
+var0 = "aaaa"
+expected_result =  ['aa', 'aa', 'aa']
+result = test(pattern0, var0)
 assert result == expected_result, 'Test failed'

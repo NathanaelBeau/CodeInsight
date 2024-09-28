@@ -1,2 +1,2 @@
-def test(var0: float) -> float:
-    return round(var0, 3)
+def test(lst0, lst1, var0):
+    return sorted(lst1, key=lambda x: lst0.index(x[var0]))

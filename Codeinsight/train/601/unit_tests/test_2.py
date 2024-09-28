@@ -1,6 +1,5 @@
-data = {'columnOne': ['Hello $#!', '@ World', 'Movie Night']}
-df0 = pd.DataFrame(data)
-var0 = 'columnOne'
-var1 = 'column2'
-expected_output = pd.DataFrame({ 'columnOne': ['Hello $#!', '@ World', 'Movie Night'], 'column2': ['Hello$#!', '@World', 'MovieNight'] })
-assert test(df0, var0, var1) .equals(expected_output), 'Test failed'
+df0 = pd.DataFrame({'G': [19, 20, 21], 'H': [22, 23, 24], 'I': [25, 26, 27]})
+lst0 = ['I']
+expected_result =  pd.DataFrame({'G': [19, 20, 21], 'H': [22, 23, 24]})
+result = test(df0, lst0)
+assert result.equals(expected_result), 'Test failed'

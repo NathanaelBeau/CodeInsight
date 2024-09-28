@@ -1,5 +1,4 @@
-# Test 1
-ser0 = pd.Series([1, 2, 3, 4])
-expected_result =  np.array([1, 2, 3, 4])
-result = test(ser0)
-assert np.array_equal(result, expected_result), 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+expected_result =  pd.DataFrame({'A': [1, 3], 'B': [4, 6]}, index=[0, 2])
+result = test(df0)
+assert result.equals(expected_result), 'Test failed'

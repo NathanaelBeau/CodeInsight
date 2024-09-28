@@ -1,2 +1,2 @@
-def test(lst0):
-    return [x.split('\t') for x in lst0]
+def test(lst0: list) -> int:
+    return sum(sum(sublist) for sublist in lst0)

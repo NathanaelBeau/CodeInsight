@@ -1,2 +1,6 @@
-def test(lst0, var0, var1):
-	return [x for x in lst0 if x[var0] == var1]
+import re
+
+def test(str0):
+    pattern = r"'(''|[^'])*'"
+    matches = re.findall(pattern, str0)
+    return matches

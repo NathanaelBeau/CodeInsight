@@ -1,4 +1,3 @@
-arr0 = np.array([False, False, False, False])
-expected_result =  (np.array([]),)
-result = test(arr0)
-assert np.array_equal(result, expected_result), 'Test failed'
+str0 = '12345678'
+expected_output = '12-34-56-78'
+assert test(str0) ==expected_output, 'Test failed'

@@ -1,3 +1,5 @@
-dict0 = {'a': 1, 'b': 2, 'c': 3}
-expected_output = 6.0
-assert test(dict0) ==expected_output, 'Test failed'
+var0 = 4
+var1 = 10
+result = test(var0, var1)
+expected = np.array([10, 10, 10, 10])
+assert (result ==expected).all(), 'Test failed'

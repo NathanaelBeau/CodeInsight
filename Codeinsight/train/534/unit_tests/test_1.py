@@ -1,4 +1,3 @@
-str0 = "OpenAI|GPT-3.5|model"
-lst0 = ["|"]
-expected_output = ["OpenAI", "GPT-3.5", "model"]
-assert test(str0, lst0) ==expected_output, 'Test failed'
+lst0 = [1, 2, 2, 4, 5]
+expected_output = False
+assert test(lst0) ==expected_output, 'Test failed'

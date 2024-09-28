@@ -1,3 +1,4 @@
-var0 = "This is a test! string@ with# some$ special characters."
-expected_result2 = "This is a test string with some special characters."
-assert test(var0) == expected_result2, 'Test failed'
+dict0 = {'apple': 'red', 'banana': 'yellow', 'orange': 'orange', 'grape': 'purple'}
+var0 = 'yellow'
+expected_output = ['banana']
+assert test(dict0, var0) ==expected_output, 'Test failed'

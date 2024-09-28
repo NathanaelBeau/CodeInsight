@@ -1,1 +1,1 @@
-Find the indices of elements in list A that are also present in list B.
+Cartesian product of x and y array points  lst0 into single array of 2D points   

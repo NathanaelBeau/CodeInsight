@@ -1,7 +1,5 @@
-data = {'A': [1, 2, 3],
-        'B': [4, 5, 6],
-        'C': [7, 8, 9]}
-df0 = pd.DataFrame(data)
-expected_output = pd.Series([8.124038, 9.643651, 11.224972])
-test_result = test(df0)
-assert np.allclose(test_result, expected_output), 'Test failed'
+arr0 = np.array([1, 2, 3, 4, 5])
+var0 = 2
+expected_result =  np.array([1, 2, 4, 5])
+result = test(arr0, var0)
+assert np.array_equal(result, expected_result), 'Test failed'

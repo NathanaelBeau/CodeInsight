@@ -1,2 +1,4 @@
-def test(lst0, lst1):
-    return list(map(lambda i: lst0[i], lst1))
+import pandas as pd
+
+def test(df0, df1):
+    return df0.merge(df1, left_index=True, right_index=True)

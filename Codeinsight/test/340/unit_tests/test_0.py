@@ -1,5 +1,4 @@
-# Unit Test 1
-lst0 = pd.Series([1, 2, 3, 2, 4, 3])
-expected_result =  [2, 3]
-result = test(lst0)
+input_num = 6
+expected_result =  [0, 0, 1, 1, 2, 2]
+result = test(input_num)
 assert result == expected_result, 'Test failed'

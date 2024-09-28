@@ -1,4 +1,4 @@
-Find the (row, column) index of the value val0 in the 2D array arr0.
+Check if all elements in a list lst0 are tuples with the first element of type long and the second element of type int
 
-def test(arr0, val0):
+def test(lst0):
 

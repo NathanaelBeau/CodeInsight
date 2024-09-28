@@ -1,5 +1,6 @@
-Compute the logarithm of the matrix mat0 while efficiently avoiding taking the log of zero values   
+Intent: Filter rows in a DataFrame df0 where the string length in column str0 is greater than var0.
 
-import numpy as np
-def test(mat0):
+import pandas as pd
+
+def test(df0, str0, var0):
 

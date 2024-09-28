@@ -1,3 +1,4 @@
-var0 = pd.DataFrame({'variable': [True, False, True, True, False]})
-expected_output = pd.Series({True: 3, False: 2}, name='variable').sort_index()
-assert test(var0).sort_index().equals(expected_output), 'Test failed'
+df0 = pd.DataFrame({'Col1': [0.5], 'Col2': [1.5]})
+expected_result =  [0.5, 1.5]
+result = test(df0)
+assert result == expected_result, 'Test failed'

@@ -1,1 +1,1 @@
-Replace multiple substrings in str0 based on the replacement mappings provided in the dictionary dict0.
+Normalize each row of a dataframe df0 such that the sum of each row is 1.

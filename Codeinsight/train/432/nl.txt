@@ -1,1 +1,1 @@
-Remove substring var1 from string var0
+Get all upper characters in a string var0

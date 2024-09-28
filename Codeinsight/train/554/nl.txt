@@ -1,1 +1,3 @@
- simple way to remove multiple spaces in a string  str0 with regex
+Simpler way to create dictionary of separate variables var0
+ 
+  

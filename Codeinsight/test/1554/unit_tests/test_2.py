@@ -1,3 +1,4 @@
-lst0 = [1]
-expected_output = 1
-assert test(lst0) ==expected_output, 'Test failed'
+lst0 = []
+arg0 = set()
+expected_output = True
+assert test(lst0, arg0) ==expected_output, 'Test failed'

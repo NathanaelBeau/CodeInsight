@@ -1,4 +1,4 @@
-Retrieve all indices of the character char0 from the string word.
+Write a Python function to create a multidimensional list (lists of lists) with zeros of size var1 * var2.
 
-def test(word, char0):
+def test(var1, var2):
 

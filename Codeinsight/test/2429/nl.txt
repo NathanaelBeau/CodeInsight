@@ -1,2 +1,0 @@
-Replace every occurrence of '\u200b' with '*' in a string str0
-

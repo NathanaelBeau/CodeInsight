@@ -1,1 +1,1 @@
-Select columns lst0 from DataFrame df0.
+Merge two dataframes df0 and df1 on column var0 without duplicating columns. 

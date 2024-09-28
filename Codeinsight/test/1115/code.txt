@@ -1,3 +1,4 @@
 import numpy as np
-def test(arr0):
-    return list(arr0.flatten())
+
+def test(arr0: np.ndarray, arr1: np.ndarray) -> np.ndarray:
+    return np.concatenate((arr0, arr1))

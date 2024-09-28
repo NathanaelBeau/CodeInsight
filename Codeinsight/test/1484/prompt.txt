@@ -1,6 +1,5 @@
-Prepend a new level named var0 to the columns of a DataFrame df0 with a MultiIndex.
+Generate a multidimensional range equivalent to Python's range for dimensions var0 and var1 
 
-import pandas as pd
-
-def test(var0, df0):
+import numpy as np
+def test(var0, var1):
 

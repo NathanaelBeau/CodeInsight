@@ -1,1 +1,1 @@
-Replace double backslashes with a single backslash in the string var0.
+Get all the second values from a list of lists lst0.

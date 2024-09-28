@@ -1,1 +1,1 @@
-Retrieve the most frequent value from column var0 in dataframe df0
+Compute the Hadamard product (element-wise multiplication) of the numpy arrays arr0 and arr1

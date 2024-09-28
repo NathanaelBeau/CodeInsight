@@ -1,6 +1,3 @@
-# Test 3: Using 'item' method
-series = pd.Series([1])
-method = "item"
-expected_result =  1
-result = test(series, method)
-assert result == expected_result, 'Test failed'
+str0 = "This is a string without numbers."
+expected_output = []
+assert test(str0) ==expected_output, 'Test failed'

@@ -1,1 +1,1 @@
-Conditionally create a new column named col0 in a dataframe df0 where values are label_high if column 'A' is greater than val0 and label_low otherwise
+Get (column, row) index from NumPy array var0 that meets a boolean condition   

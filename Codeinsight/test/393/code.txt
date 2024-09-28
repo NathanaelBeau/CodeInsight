@@ -1,6 +1,4 @@
-def test(a: str) -> bool:
-    try:
-        int(a)
-        return True
-    except ValueError:
-        return False
+import numpy as np
+
+def test(arr0, var0):
+    return np.quantile(arr0, var0 / 100)

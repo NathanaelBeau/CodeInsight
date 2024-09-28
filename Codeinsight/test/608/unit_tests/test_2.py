@@ -1,3 +1,3 @@
-s = "noDigitsHere"
-expected_output = "noDigitsHere"
-assert test(s) == expected_output, 'Test failed'
+dict0 = { 'key1': { 'subkey1': 1, 'subkey2': 2, 'subkey3': 3 } }
+expected_output = 4
+assert test(dict0) ==expected_output, 'Test failed'

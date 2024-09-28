@@ -1,6 +1,4 @@
-# Test 3
-df0 = pd.DataFrame({'C': [10.01, 11.49, 12.99, 13.50]})
-var0 = 'C'
-expected_result =  pd.DataFrame({'C': [10, 11, 12, 13]})
-result = test(df0, var0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = ['1', '2', '3', '4', '5']
+expected_result =  '12345'
+result = test(lst0)
+assert result == expected_result, 'Test failed'

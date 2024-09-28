@@ -1,6 +1,4 @@
-# Unit Test 1
-df0 = pd.DataFrame({ 'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9] })
-var0 = 'B'
-expected_result =  pd.DataFrame({ 'A': [1, 2, 3], 'C': [7, 8, 9] })
-result = test(df0, var0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [(5, 10), (3, 15), (5, 8)]
+expected_result =  [(5, 8), (5, 10), (3, 15)]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

@@ -1,3 +1,4 @@
-str0 = "No\u200bthing to \u200bre\u200bpl\u200bace here."
-expected_output = "No*thing to *re*pl*ace here."
-assert test(str0) ==expected_output, 'Test failed'
+var0 = pd.DataFrame({'A': [7, 8, 9]})
+expected_result =  pd.DataFrame({'A': [7, 8, 9], 'B': [49, 64, 81], 'C': [343, 512, 729]})
+result = test(var0)
+assert result.equals(expected_result), 'Test failed'

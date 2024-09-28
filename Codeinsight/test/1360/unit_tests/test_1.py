@@ -1,7 +1,5 @@
-lst0 = [
-    {'categories': ['A', 'B', 'C']},
-    {'categories': ['A', 'A', 'D']},
-    {'categories': ['B', 'C', 'C']}
-]
-expected_output = {'A': 3, 'C': 3, 'B': 2, 'D': 1}
-assert test(lst0)== expected_output, 'Test failed'
+var0 = 'population'
+var1 = 'log(population)'
+expected_output = pd.DataFrame({'var1': [100, 200, 300, 400, 500]})
+df = pd.DataFrame({'var0': [100, 200, 300, 400, 500]})
+assert test(df) .equals(expected_output), 'Test failed'

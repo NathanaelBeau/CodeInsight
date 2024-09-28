@@ -1,1 +1,1 @@
-Check if a value value is a numpy type.
+Convert an HTML string str0 into a readable string text with line breaks.

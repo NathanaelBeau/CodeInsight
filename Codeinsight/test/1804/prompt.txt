@@ -1,6 +1,6 @@
- get the min value  of List of Tuples lst0 (string, float)with NaN using math
+Remove values that contain numbers from a list of strings lst0
 
-import math
+import re
 
 def test(lst0):
 

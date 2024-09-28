@@ -1,1 +1,0 @@
-Normalize an array arr0  

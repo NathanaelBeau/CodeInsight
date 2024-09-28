@@ -1,1 +1,0 @@
-Extract the str0 triangular part (upper or lower) from a numpy matrix var0

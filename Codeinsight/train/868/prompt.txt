@@ -1,6 +1,5 @@
-Remove all occurrences of the element var0 from the numpy array arr0.
+Count the number of zero elements in the numpy array arr0  
 
 import numpy as np
-
-def test(arr0, var0):
+def test(arr0):
 

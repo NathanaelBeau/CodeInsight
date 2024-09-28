@@ -1,1 +1,1 @@
-Remove all integer values from a list lst0  
+Split a string str0 and keep the separators.

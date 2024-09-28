@@ -1,7 +1,5 @@
-df0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry'], 'B': ['old_value1', 'old_value2', 'grape']})
-var0 = 'B'
-lst0 = ['old_value1', 'old_value2']
-var1 = 'new_value'
-expected_result =  pd.DataFrame({'A': ['apple', 'banana', 'cherry'], 'B': ['new_value', 'new_value', 'grape']})
-result = test(df0, var0, lst0, var1)
-assert result.equals(expected_result), 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, None, 4],
+                    'B': [5, None, 7, 8],
+                    'C': [None, 10, 11, 12]})
+expected_output = 3
+assert test(df0) ==expected_output, 'Test failed'

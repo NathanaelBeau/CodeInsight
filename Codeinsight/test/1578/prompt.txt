@@ -1,4 +1,5 @@
-Dictionary dict0 to lowercase in Python  for keys and values 
+Find the largest var0 elements in the numpy array arr0  
 
-def test(dict0):
+import numpy as np
+def test(arr0, var0):
 

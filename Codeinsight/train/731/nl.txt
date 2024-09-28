@@ -1,1 +1,1 @@
-Access a specific group named var1 from a dataframe df0 grouped by column var0  
+Split the list lst0 into sub-lists of length var0.

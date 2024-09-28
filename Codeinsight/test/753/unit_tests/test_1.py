@@ -1,4 +1,4 @@
-html_str0 = "<h1>Title</h1><br><p>Some content.</p>"
-expected_result =  "Title\nSome content."
-result = test(html_str0)
-assert result == expected_result, 'Test failed'
+strings2 = ["zebra", "apple", "orange"]
+result2 = test(strings2, None)
+expected2 = ['aberz', 'aelpp', 'aegnor']
+assert result2 == expected2, 'Test failed'

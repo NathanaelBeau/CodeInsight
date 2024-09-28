@@ -1,4 +1,4 @@
-str0 = "http://www.domain.com/?s=some&two=20"
-var0 = "&"
-expected_output = "http://www.domain.com/?s=some"
-assert test(str0, var0) ==expected_output, 'Test failed'
+lst0 = [1, 2, 3, 4]
+lst1 = [1, 0, 3, 4]
+expected_output = [1, 0, 1, 1]
+assert test(lst0, lst1) ==expected_output, 'Test failed'

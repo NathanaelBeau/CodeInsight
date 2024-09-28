@@ -1,4 +1,4 @@
-Get the first 3 and last 3 elements from the list lst0
+Check if list lst0 items contains substrings from another list   lst1
 
-def test(lst0):
+def test(lst0, lst1):
 

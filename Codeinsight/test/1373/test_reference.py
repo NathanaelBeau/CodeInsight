@@ -1,10 +1,2 @@
-def test(dict0):
-    total = 0
-    for value in dict0.values():
-        if isinstance(value, dict):
-            total += count(value)
-        elif isinstance(value, list):
-            total += len(value)
-        else:
-            total += 1
-    return total
+def test(start0, end0, step0, start1, end1, step1):
+    return np.mgrid[start0:end0:step0, start1:end1:step1]

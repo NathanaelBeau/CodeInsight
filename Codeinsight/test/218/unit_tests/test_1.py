@@ -1,3 +1,5 @@
-str0 = "Another example\u200b\u200b\u200b with multiple \u200bzero width spaces\u200b."
-expected_output = "Another example*** with multiple *zero width spaces*."
-assert test(str0) ==expected_output, 'Test failed'
+vec0 = np.array([1, 2, 3])
+num_times0 = 2
+expected_result =  np.array([[1, 2, 3, 1, 2, 3]])
+result = test(vec0, num_times0, axis0=1)
+assert np.array_equal(result, expected_result), 'Test failed'

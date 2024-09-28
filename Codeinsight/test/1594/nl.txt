@@ -1,1 +1,1 @@
-Merge two dictionaries, dict0 and dict1, into a single dictionary
+How to flatten a tuple lst0 python with chain from itertools

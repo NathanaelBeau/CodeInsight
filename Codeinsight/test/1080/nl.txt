@@ -1,1 +1,1 @@
-Check if all elements in the list lst0 are of the type typ0
+Initialize a pandas DataFrame with columns ['A', 'B', 'A1R', 'B2', 'AABB4'].

@@ -1,1 +1,1 @@
-Merge two pandas DataFrames, df0 and df1, by their indices.
+Get the intersection of keys from dictionaries dict0 and dict1

@@ -1,1 +1,1 @@
-Get value counts for multiple columns specified in the list lst0 from the dataframe df0.  
+Python: store  many regex regex_str matches found in string str0 in tuple

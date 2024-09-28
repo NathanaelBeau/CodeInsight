@@ -1,1 +1,0 @@
- Drop rows from a dataframe df0 based on a "not in" condition for column var0 using values from list lst0

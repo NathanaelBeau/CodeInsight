@@ -1,1 +1,1 @@
- remove identical items from a list lst0  and sort it in Python   
+Binarize the values in the pandas DataFrame df0, converting non-zero values to 1 and zero values to 0.

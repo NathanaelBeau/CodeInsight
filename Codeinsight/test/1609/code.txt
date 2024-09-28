@@ -1,4 +1,4 @@
-import pandas as pd
-def test(df0, lst0):
-    reordered = lst0 + [c for c in df0.columns if c not in lst0]
-    return df0[reordered]
+from collections import Counter
+def test(var0):
+    counts = Counter(var0)
+    return sum(1 for count in counts.values() if count > 1)

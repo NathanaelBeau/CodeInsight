@@ -1,7 +1,4 @@
-# Test 1
-df0_1 = pd.DataFrame({'A': [1, 2, 3, 4], 'B': ['a', 'b', 'c', 'd']})
-column_name_1 = 'A'
-lst0_1 = [2, 3]
-expected_result_1 = pd.DataFrame({'A': [2, 3], 'B': ['b', 'c']})
-result_1 = test(df0_1, column_name_1, lst0_1)
-assert result_1.equals(expected_result_1), 'Test failed'
+dict0 = { "apple": "fruit", "carrot": "vegetable", "banana": "fruit", "broccoli": "vegetable" }
+var0 = "I like to eat apple and carrot. Banana and broccoli are also good."
+expected_output = "I like to eat fruit and vegetable. fruit and vegetable are also good."
+assert test(dict0, var0) ==expected_output, 'Test failed'

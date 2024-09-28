@@ -1,4 +1,5 @@
-import re
+import numpy as np
 
-def test(var0):
-    return bool(re.search(r'[^\x00-\x7F]+', var0))
+def test(arr0, var0):
+    formatted_arr = [var0.format(x) for x in arr0]
+    return formatted_arr

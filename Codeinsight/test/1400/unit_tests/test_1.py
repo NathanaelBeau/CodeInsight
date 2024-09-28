@@ -1,3 +1,3 @@
-str0 = ("(OpenAI) is (awesome)")
-expected_output = ("OpenAI is awesome")
-assert test(str0) ==expected_output, 'Test failed'
+lst0_2 = ['a', 'b', 'c']
+expected_output_2 = ['a', 'b', 'c']
+assert test(lst0_2) == expected_output_2, 'Test failed'

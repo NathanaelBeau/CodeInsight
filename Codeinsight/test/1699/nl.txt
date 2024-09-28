@@ -1,1 +1,1 @@
-Remove all text within parentheses, including the parentheses, from string str0.
+Sort a list of strings lst0 such that items starting with 's' come first.

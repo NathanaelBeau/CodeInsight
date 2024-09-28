@@ -1,5 +1,6 @@
-df0 = pd.DataFrame({'A': [None, None, None],
-                    'B': [None, None, None],
-                    'C': [None, None, None]})
-expected_output = 9
-assert test(df0) ==expected_output, 'Test failed'
+# Test 2
+df0 = pd.DataFrame({'X': [], 'Y': []})
+df1 = pd.DataFrame({'X': ['apple'], 'Y': ['orange']})
+expected_result =  pd.DataFrame({'X': ['apple'], 'Y': ['orange']})
+result = test(df0, df1)
+assert result.equals(expected_result), 'Test failed'

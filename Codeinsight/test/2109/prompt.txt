@@ -1,4 +1,0 @@
-Check if both keys var0 and var1 are present in the dictionary d.
-
-def test(d: dict, var0: str, var1: str) -> bool:
-

@@ -1,4 +1,2 @@
-lst0 = [1, 2, 'hello', 4, 5]
-typ0 = int
-expected_output = False
-assert test(lst0, typ0) == expected_output, 'Test failed'
+expected_shape = (0, 5) # 0 rows, 5 columns
+assert test().shape == expected_shape, 'Test failed'

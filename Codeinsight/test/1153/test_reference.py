@@ -1,4 +1,6 @@
-import numpy as np
-def test(lst0, var0):
-    arr = np.array(lst0)
-    return [tuple(x) for x in np.argwhere(arr == var0)]
+import pandas as pd
+
+def test(df0, df1, var0):
+    merged = pd.merge(df0, df1, on=var0, how='inner')
+    selected_cols = var0
+    return merged[var0]

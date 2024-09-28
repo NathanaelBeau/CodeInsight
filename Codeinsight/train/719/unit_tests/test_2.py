@@ -1,4 +1,4 @@
-df3 = pd.DataFrame({'P': [], 'Q': []})
-expected_result3 = []
-result3 = test(df3)
-assert result3 == expected_result3, 'Test failed'
+arr0 = np.array([1, 2, 3])
+expected_result =  False
+result = test(arr0)
+assert result == expected_result, 'Test failed'

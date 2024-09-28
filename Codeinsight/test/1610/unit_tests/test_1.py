@@ -1,4 +1,3 @@
-dict0 = {'name': 'John', 'age': 30}
-dict1 = {'age': 30, 'name': 'John'}
-expected_output = True
-assert test(dict0, dict1) == expected_output, 'Test failed'
+lst0 = ["value,1.0,2.0,3.0, value"]
+expected_output = [1.0, 2.0, 3.0]
+assert test(lst0) ==expected_output, 'Test failed'

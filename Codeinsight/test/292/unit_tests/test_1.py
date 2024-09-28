@@ -1,4 +1,4 @@
-lst0 = ['a', 'b', 'c']
-expected_result =  ['a', 'b', 'c', 'a']
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+str0 = "The quick brown fox jumps over the lazy dog."
+str1 = "fox"
+expected_output = 1
+assert test(str0, str1) ==expected_output, 'Test failed'

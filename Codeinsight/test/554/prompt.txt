@@ -1,4 +1,4 @@
-Remove adjacent duplicate elements from a list lst0
+Convert all string numbers to integers in a list named lst0  
 
 def test(lst0):
 

@@ -1,3 +1,4 @@
-var0 = np.array([7, 7, 7])
-expected_output = np.array([0,1,2])
-assert (test(var0)  == expected_output).all(), 'Test failed'
+var0 = "banana"
+lst0 = ["apple", "orange"]
+expected_output = False
+assert test(var0, lst0) == expected_output, 'Test failed'

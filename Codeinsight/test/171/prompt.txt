@@ -1,7 +1,6 @@
-Remove NaN/NULL columns in a Pandas dataframe df0   
+Check if dataframe df0 is empty
 
 import pandas as pd
-import numpy as np
 
 def test(df0):
 

@@ -1,2 +1,2 @@
-def test(int0):
-    return chr(int0)
+def test(d0: dict) -> dict:
+    return {k: 'updated' for k, v in d0.items() if v is not None}

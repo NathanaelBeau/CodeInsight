@@ -1,1 +1,1 @@
-Search recursively for the key var0 in a nested dictionary dct0 
+Append the character var2 to every substring in var0 that matches the regular expression var1.

@@ -1,6 +1,0 @@
-Shift all elements in a numpy array arr0 by var0 positions
-
-import numpy as np
-
-def test(arr0, var0):
-

@@ -1,1 +1,1 @@
-Normalize the columns of the pandas DataFrame df0 so that values range between 0 and 1.
+Remove character var1 from the string var0.

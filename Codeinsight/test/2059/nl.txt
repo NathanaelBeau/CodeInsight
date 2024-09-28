@@ -1,1 +1,0 @@
-List comprehension with an accumulator  on list lst0 

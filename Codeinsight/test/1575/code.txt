@@ -1,3 +1,5 @@
-def test(var0, str0):
-	dict0 = dict(var0)
-	return dict0.get(str0, None)
+import numpy as np
+
+def test(lst0):
+    inverted_array = ~np.array(lst0)
+    return list(inverted_array)

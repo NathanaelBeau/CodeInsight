@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0):
-    return df0.dtypes
+def test(lst0):
+    return tuple(x[0] for x in lst0)

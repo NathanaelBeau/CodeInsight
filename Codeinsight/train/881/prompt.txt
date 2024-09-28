@@ -1,7 +1,6 @@
- Check if the object var0 is NaN using numpy or pandas
+Create a zero-filled pandas dataframe with dimensions var0 x var1
 
-import numpy as np
 import pandas as pd
 
-def test(var0):
+def test(var0, var1):
 

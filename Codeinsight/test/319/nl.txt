@@ -1,1 +1,1 @@
-Remove character var1 from the string var0.
+ Count the occurrences of each unique value in column col0 of DataFrame df0

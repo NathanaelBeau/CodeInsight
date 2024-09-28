@@ -1,6 +1,5 @@
-lst0 = ['k3', 'k2', 'k1', 'k4']
-var0 = 'k3'
-var1 = 1
-expected_output = {'k3': [1], 'k2': [], 'k1': [], 'k4': []}
-output = test(lst0, var0, var1)
-assert output == expected_output, 'Test failed'
+dict0 = {'a': 1, 'b': 2, 'c': 3}
+expected_keys = ['a', 'b', 'c']
+expected_values = [1, 2, 3]
+result_keys, result_values = test(dict0)
+assert result_keys == expected_keys and result_values == expected_values, 'Test failed'

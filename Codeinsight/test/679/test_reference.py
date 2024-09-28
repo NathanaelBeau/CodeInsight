@@ -1,4 +1,3 @@
-import pandas as pd
-
-def test(df0, var0):
-    return df0[var0].value_counts()
+import numpy as np
+def test(shape0, var0):
+    return np.full(shape0, var0)

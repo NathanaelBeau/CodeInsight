@@ -1,5 +1,6 @@
-# Test 3
-df0 = pd.DataFrame({ 'col1': [10, 20, 30], 'col2': [40, 50, 60], 'col3': [70, 80, 90] })
-lst0 = ['col1', 'col3']
-expected_result =  pd.DataFrame({ 'col1': [10, 20, 30], 'col3': [70, 80, 90] })
-assert test(df0.copy(), lst0).equals(expected_result), 'Test failed'
+df0 = pd.DataFrame({'id': [4, 5, 6], 'X': ['m', 'n', 'o']})
+df1 = pd.DataFrame({'id': [4, 5, 6], 'Y': ['p', 'q', 'r'], 'X': ['s', 't', 'u']})
+var0 = 'id'
+expected_result =  pd.DataFrame({'id': [4, 5, 6], 'X': ['m', 'n', 'o'], 'Y': ['p', 'q', 'r']})
+result = test(df0, df1, var0)
+assert result.equals(expected_result), 'Test failed'

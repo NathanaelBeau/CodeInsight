@@ -1,2 +1,5 @@
-def test(dict0, var0):
-    return any(val == var0 for val in dict0.values())
+import re
+
+def test(var0):
+    match = re.search(r'(?<=v=)[^&#]+', var0) or re.search(r'(?<=be/)[^&#]+', var0)
+    return match.group() if match else None

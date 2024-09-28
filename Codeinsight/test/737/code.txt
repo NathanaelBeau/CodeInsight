@@ -1,4 +1,5 @@
-import numpy as np
+import pandas as pd
 
-def test(arr0, arr1):
-    return np.vstack((arr0, arr1))
+def test(df0):
+    df0.columns = df0.columns.map(' '.join)
+    return df0

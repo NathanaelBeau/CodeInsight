@@ -1,6 +1,5 @@
-def determine(x):
-    return x % 2 == 0
-lst0 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-var0 = determine
-expected_output = [1, 3, 5, 7, 9]
-assert test(lst0, var0)==expected_output, 'Test failed'
+arr0 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+var0 = 1
+expected_result =  np.array([[1, 3], [4, 6], [7, 9]])
+result = test(arr0, var0)
+assert np.array_equal(result, expected_result), 'Test failed'

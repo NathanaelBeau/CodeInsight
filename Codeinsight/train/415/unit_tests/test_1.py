@@ -1,3 +1,5 @@
-df2 = pd.DataFrame({ 'A': [5, 15, 25], 'sum': [25, 75, 125] })
-expected_result2 = pd.DataFrame({ 'A': [5, 15, 25], 'sum': [25, 75, 125], 'A_perc': [0.2, 0.2, 0.2] })
-assert test(df2).equals(expected_result2), 'Test failed'
+var0 = 0
+var1 = 5
+expected_result =  [0, 1, 2, 3, 4]
+result = test(var0, var1)
+assert result == expected_result, 'Test failed'

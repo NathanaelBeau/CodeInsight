@@ -1,1 +1,1 @@
-Generating all unique pair permutations from a list lst0 
+Python: Split string str0 by list of separators  lst0 

@@ -1,3 +1,4 @@
-def test(dict0):
-    total = sum(dict0.values())
-    return total
+import numpy as np
+
+def test(arr0, arr1):
+    return np.equal(arr0, arr1)

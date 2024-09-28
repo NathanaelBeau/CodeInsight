@@ -1,5 +1,5 @@
-# Test 3
-df0 = pd.DataFrame({ 'Score': [90, 85, 85, 95] }, index=[1, 2, 2, 3])
-expected_result =  pd.DataFrame({ 'Score': [90, 85, 95] }, index=[1, 2, 3])
-result = test(df0)
+df1 = pd.DataFrame({'X': [13, 14, 15]})
+df2 = pd.DataFrame({'Y': [16, 17, 18]})
+expected_result =  pd.DataFrame({'X': [13, 14, 15], 'Y': [16, 17, 18]})
+result = test(df1, df2)
 assert result.equals(expected_result), 'Test failed'

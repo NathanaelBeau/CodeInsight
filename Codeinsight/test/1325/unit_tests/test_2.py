@@ -1,6 +1,4 @@
-df0 = pd.DataFrame({'A': [1, 2, 3, 4, 5], 'B': [6, 7, 8, 9, 10], 'C': [11, 12, 13, 14, 15]})
-lst0 = [1, 4]
-lst1 = ['A', 'C']
-expected_result =  df0.loc[lst0, lst1].mean()
-result = test(df0, lst0, lst1)
-assert result.equals(expected_result), 'Test failed'
+var0 = {}
+expected_result =  {}
+result = test(var0)
+assert result == expected_result, 'Test failed'

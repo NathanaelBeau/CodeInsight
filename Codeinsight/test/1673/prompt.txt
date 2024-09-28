@@ -1,6 +1,4 @@
-Flattening a list of NumPy arrays lst0  
-
-import numpy as np
+Get the immediate minimum among a list of numbers lst0 in python   
 
 def test(lst0):
 

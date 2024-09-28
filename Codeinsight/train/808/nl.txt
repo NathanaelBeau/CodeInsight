@@ -1,1 +1,1 @@
-Combine the values of columns col0 and col1 in DataFrame df0 into a single datetime object and return the result as a datetime series.
+Prepend the same string str0 to all items in a list lst0  

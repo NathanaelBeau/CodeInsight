@@ -1,2 +1,3 @@
-def test(dict0):
-    return [k for k, v in dict0.items() if v == 1]
+import pandas as pd
+def test(dataset0):
+    return pd.DataFrame(data=dataset0.data, columns=dataset0.feature_names)

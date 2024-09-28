@@ -1,4 +1,4 @@
-var0 = "I'm good. Thanks for asking! How about you?"
-expected_result =  ["I'm good.", " Thanks for asking!", " How about you?"]
-result = test(var0)
-assert result == expected_result, 'Test failed'
+s0 = pd.Series(['apple', 'banana', 'apple', 'orange', 'banana', 'orange', 'orange'])
+expected_result =  pd.DataFrame({'value': ['orange', 'apple', 'banana'], 'count': [3, 2, 2]})
+result = test(s0)
+assert result.equals(expected_result), 'Test failed'

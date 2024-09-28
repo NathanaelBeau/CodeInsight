@@ -1,4 +1,3 @@
-# Test 1
-var0 = "Hello, World!"
-expected_result =  ["Hello", ", ", "World", "!"]
-assert test(var0) == expected_result, 'Test failed'
+lst0 = [1, 2, 3, 4]
+expected_output = '1234'
+assert test(lst0) ==expected_output, 'Test failed'

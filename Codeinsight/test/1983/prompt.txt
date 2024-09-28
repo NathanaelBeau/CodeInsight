@@ -1,6 +1,0 @@
-Replace NaN values with zeros in the column var0 of the dataframe df0.
-
-import pandas as pd
-
-def test(df0, var0):
-

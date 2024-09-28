@@ -1,1 +1,1 @@
-Get the number of rows in dataframe df0 where the values in column column_name0 exceed threshold0.
+Detect repeated sequences in the string var0.

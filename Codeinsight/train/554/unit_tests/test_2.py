@@ -1,3 +1,3 @@
-str0 = 'NoMultipleSpacesHere'
-expected_output = 'NoMultipleSpacesHere'
-assert test(str0) ==expected_output, 'Test failed'
+var0 = [1, 2, 3]
+expected_output = 'var0'
+assert test(var0) ==expected_output, 'Test failed'

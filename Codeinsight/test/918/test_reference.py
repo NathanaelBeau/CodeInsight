@@ -1,3 +1,5 @@
 import pandas as pd
-def test(df0):
-    return len(df0.index), len(df0.columns)
+
+def test(df0, var0, agg_function):
+    grouped = df0.groupby(var0).agg(agg_function)
+    return grouped.reset_index()

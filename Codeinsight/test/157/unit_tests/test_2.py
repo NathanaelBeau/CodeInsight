@@ -1,4 +1,4 @@
-df0 = pd.DataFrame({'Name': ['Alice', 'Bob', 'Charlie'], 'Age': [25, 30, 35]})
-expected_result =  pd.DataFrame({'Name': ['Alice', 'Charlie'], 'Age': [25, 35]}, index=[0, 2])
-result = test(df0)
+var0 = pd.DataFrame({'A': [-1, 0, 1], 'B': [-2, 0, 2]})
+expected_result =  pd.DataFrame({'A': [0.0, 0.5, 1.0], 'B': [0.0, 0.5, 1.0]})
+result = test(var0)
 assert result.equals(expected_result), 'Test failed'

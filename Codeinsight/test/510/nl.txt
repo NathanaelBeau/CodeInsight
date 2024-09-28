@@ -1,2 +1,1 @@
-Select columns with level 1 label as str0 in a multiindex dataframe df0
-
+Rename specific column(s) var0 by var1 in pandas  dataframe df

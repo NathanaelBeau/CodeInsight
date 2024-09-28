@@ -1,6 +1,5 @@
-split string str0 into words that do not contain whitespaces in python  
+Convert a list lst0 to a pandas dataframe with a single column named 'Column_Name
 
-import re
-
-def test(str0):
+import pandas as pd
+def test(lst0):
 

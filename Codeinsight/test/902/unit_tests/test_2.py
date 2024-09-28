@@ -1,5 +1,3 @@
-dict0 = {'name': 'John'}
-dict1 = {'age': 25, 'city': 'London'}
-expected_result =  {'name': 'John', 'age': 25, 'city': 'London'}
-result = test(dict0, dict1)
-assert result == expected_result, 'Test failed'
+str0 = "This is not a cat. That's also not a cat."
+expected_result =  "This is not a cat. That's also not a Bull."
+assert test(str0) == expected_result, 'Test failed'

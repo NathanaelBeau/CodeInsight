@@ -1,2 +1,4 @@
-def test(lst0, lst1):
-    return sorted(lst0, key=lambda x: lst1.index(x) if x in lst1 else len(lst1))
+import numpy as np
+
+def test(arr0):
+    return np.unravel_index(arr0.argmax(), arr0.shape)

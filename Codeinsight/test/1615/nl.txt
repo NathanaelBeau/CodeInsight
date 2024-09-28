@@ -1,1 +1,1 @@
-Return a list containing the index values of a DataFrame df0. 
+Numpy: find the euclidean distance between two 3-D arrays  arr0 and arr1 with np.einsum

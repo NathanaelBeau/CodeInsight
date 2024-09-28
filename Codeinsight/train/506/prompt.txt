@@ -1,4 +1,6 @@
-Append several variables var0 and var1 and var2 to a list lst0 in Python   
+Multiply a numpy matrix mat0 with a numpy vector vec0.
 
-def test(lst0, var0, var1, var2):
+import numpy as np
+
+def test(mat0, vec0):
 

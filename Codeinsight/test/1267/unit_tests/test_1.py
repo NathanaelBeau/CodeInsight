@@ -1,6 +1,3 @@
-# Test 2
-df0 = pd.DataFrame({'X': ['a', 'b', 'c'], 'Y': ['d', 'e', 'f'], 'Z': ['g', 'h', 'i']})
-lst0 = ['X', 'Z']
-expected_result =  pd.DataFrame({'X': ['a', 'b', 'c'], 'Z': ['g', 'h', 'i']})
-result = test(df0, lst0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [['10', '20', '30'], ['40', '50', '60'], ['70', '80', '90']]
+expected_output = [[10, 20, 30], [40, 50, 60], [70, 80, 90]]
+assert test(lst0) ==expected_output, 'Test failed'

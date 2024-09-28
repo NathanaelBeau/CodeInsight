@@ -1,4 +1,4 @@
-lst0 = ['abc', 'def']
-var0 = 'ghi'
-expected_output = ['ghi','abc', 'def']
-assert test(lst0, var0) ==expected_output, 'Test failed'
+str0 = "This is a sample text that we are going to use to check if our function works correctly. It should trim this text to its first 100 characters."
+expected_result =  str0[:100]
+result = test(str0)
+assert result == expected_result, 'Test failed'

@@ -1,3 +1,4 @@
-def test(lst0, tpl0):
-    result = [tuple([i + j for i, j in zip(e, tpl0)]) for e in lst0]
-    return result
+import pandas as pd 
+
+def test(df0, var0):
+    return df0.groupby(var0).sum()

@@ -1,1 +1,1 @@
-Replace NaNs in the dataframe df0 using the method method0 ('ffill' for forward fill or 'bfill' for backward fill).
+Flatten an N-dimensional numpy array arr0 into a 1D array

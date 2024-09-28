@@ -1,4 +1,5 @@
-Extract substrings from every string in the list buckets starting from character position var0 up to var1.
+how do I insert a column at a specific column index value in pandas dataframe df0   
 
-def test(buckets: list, var0: int, var1: int) -> list:
+import pandas as pd
+def test(df0, column, value):
 

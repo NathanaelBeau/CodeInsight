@@ -1,4 +1,6 @@
-Check if all elements in a list lst0 are the same   
+Split a string str0 into words using multiple word boundary delimiters
 
-def test(lst0):
+import re
+
+def test(str0):
 

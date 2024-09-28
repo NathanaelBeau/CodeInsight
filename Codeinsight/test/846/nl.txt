@@ -1,1 +1,1 @@
-Delete all columns in DataFrame df0 that contain only zeros
+Find all integers in the string var0 that have at least var1 digits.

@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0, var0=None):
-    return df0.head(var0)
+def test(lst0):
+    return [i for sub in lst0 for i in sub]

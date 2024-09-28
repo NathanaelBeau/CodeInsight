@@ -1,4 +1,4 @@
-Retrieve the nth-to-last item from a list named some_list.
+split a unicode string str0 into list  u
 
-def test(n, some_list):
+def test(str0):
 

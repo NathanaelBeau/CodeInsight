@@ -1,6 +1,6 @@
-Normalize each row of a dataframe df0 such that the sum of each row is 1.
+ remove all zero elements from a NumPy array arr0   
 
-import pandas as pd
+import numpy as np
 
-def test(df0):
+def test(arr0):
 

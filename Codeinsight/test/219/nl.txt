@@ -1,1 +1,1 @@
-Check if arr0 contains any number from lst0   
+Append tuples var1 to a tuples  var0

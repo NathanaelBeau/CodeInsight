@@ -1,4 +1,5 @@
-import re
+import numpy as np
 
-def test(var0):
-    return re.findall(r'(less than \d+|greater than \d+|between \d+ and \d+|more than \d+|\d+(?:\.\d+)?(?:\s?-\s?\d+(?:\.\d+)?)?)', var0)
+def test(arr0, var0):
+    formatted_arr = np.array([var0.format(x) for x in arr0])
+    return formatted_arr.tolist()

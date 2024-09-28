@@ -1,4 +1,4 @@
- reset index in a pandas dataframe df0   
+Convert a dataframe df0 into a list of dictionaries
 
 import pandas as pd
 

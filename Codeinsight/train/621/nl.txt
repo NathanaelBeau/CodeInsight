@@ -1,1 +1,1 @@
-multi-column factorize in pandas with columns var0 and var1 and values lst0 and lst1
+Split the string var0 on new lines, tabs, and one or more spaces.

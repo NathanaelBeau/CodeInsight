@@ -1,4 +1,7 @@
-arg0 = r'\d+'  
-arg1 = '123 456 789'  
-expected_output = 3  
-assert test(arg0, arg1) == expected_output, 'Test failed'
+dict0 = [
+    {"key1": "value1", "key2": "value2"},
+    {"key2": "value2", "key3": "value3"},
+    {"key1": "value1", "key3": "value3"},
+]
+expected_output = {"key1", "key2", "key3"}
+assert test(dict0) ==expected_output, 'Test failed'

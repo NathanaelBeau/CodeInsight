@@ -1,1 +1,1 @@
-Split the string var0 by commas that are positioned outside of parentheses.
+Select and return specific columns between index var0 and var1 from a NumPy array arr0

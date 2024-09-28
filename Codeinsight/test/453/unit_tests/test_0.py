@@ -1,2 +1,5 @@
-var0 = "Hello, World! How are you today?"
-assert test(var0) == ['Hello', 'World', 'How', 'are', 'you', 'today', ''], 'Test failed'
+var0 = "hello world"
+lst0 = ["world", "earth"]
+expected_result =  True
+result = test(var0, lst0)
+assert result == expected_result, 'Test failed'

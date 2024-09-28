@@ -1,1 +1,1 @@
-Reset the index of a DataFrame df0 and assign it a new name index_name0.
+Replace all occurrences of var0 with var1 in the list lst0.

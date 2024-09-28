@@ -1,1 +1,1 @@
-Get a pandas DataFrame summing over the rows with identical column names in DataFrame df0.
+Calculate the Mean Squared Error between two lists lst0 and lst1 using Numpy

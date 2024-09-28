@@ -1,5 +1,2 @@
-import pandas as pd
-
-def test(df0, df1):
-    result_df = df0 * df1
-    return result_df
+def test(var0):
+    return var0.strip().split()

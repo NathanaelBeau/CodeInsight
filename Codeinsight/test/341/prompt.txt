@@ -1,6 +1,6 @@
-Find the first index of value var0 in a numpy array arr0
+Delete the column with name var0 from the dataframe df0 
 
-import numpy as np
+import pandas as pd
 
-def test(arr0, var0):
+def test(df0, var0):
 

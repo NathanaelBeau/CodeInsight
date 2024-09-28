@@ -1,5 +1,3 @@
-import numpy as np
+def test(lst0):
+    return [i.split("/")[1] for i in lst0 if "/" in i]
 
-def test(arr0, var0):
-    formatted_arr = np.array([var0.format(x) for x in arr0])
-    return formatted_arr.tolist()

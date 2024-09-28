@@ -1,3 +1,4 @@
 import pandas as pd
+
 def test(df0):
-    return pd.concat([df0.head(1), df0.tail(1)])
+    return (df0 - df0.min()) / (df0.max() - df0.min())

@@ -1,1 +1,1 @@
-Convert float Series var0 into an integer Series in pandas   
+ "unpivot" specific columns lst0 from a pandas DataFrame df0  with pivoted columns var0 and  var1

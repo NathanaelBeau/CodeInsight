@@ -1,2 +1,4 @@
-def test(lst0):
-    return sum([x**2 for x in lst0])
+import re
+
+def test(var0):
+    return re.findall(r'\d+', var0)

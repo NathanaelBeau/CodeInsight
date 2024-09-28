@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0):
-    return np.array(arr0).T.tolist()
+def test(var0):
+    return sorted(var0)

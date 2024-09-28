@@ -1,4 +1,2 @@
-from packaging.version import Version
-
-def test(lst0):
-    return sorted(lst0, key=Version)
+def test(var0, lst0):
+    return [x / var0 for x in lst0]

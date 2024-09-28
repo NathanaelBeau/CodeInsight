@@ -1,5 +1,7 @@
-df0_1 = pd.DataFrame({'A': [1, 2, 3]}, index=['x', 'y', 'z'])
-df1_1 = pd.DataFrame({'B': [4, 5, 6]}, index=['x', 'y', 'z'])
-expected_result_1 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]}, index=['x', 'y', 'z'])
-result_1 = test(df0_1, df1_1)
-assert result_1 .equals( expected_result_1), 'Test failed'
+# Test 1
+df0 = pd.DataFrame({'text': ['apple pie', 'banana bread', 'cherry tart']})
+column_name = 'text'
+lst0 = ['apple', 'banana']
+expected_result =  pd.Series([True, True, False])
+result = test(df0, column_name, lst0)
+assert result.equals(expected_result), 'Test failed'

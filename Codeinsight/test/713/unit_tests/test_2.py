@@ -1,4 +1,4 @@
-lst0 = []
-lst1 = [10, 20, 30]
-expected_output = [10, 20, 30]
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+str0 = "Python is awesome"
+var0 = "s"
+expected_output = "Python i awesome"
+assert test(str0) ==expected_output, 'Test failed'

@@ -1,3 +1,3 @@
-str0 = b'Hello, World!'
-expected_output = ['H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!']
-assert test(str0) == expected_output, 'Test failed'
+var0, var1, var2 = 1.0, 5.0, 10
+result = test(var0, var1, var2)
+assert len(result) == var2, 'Test failed'

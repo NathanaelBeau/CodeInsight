@@ -1,4 +1,4 @@
-s2 = "1a23b456c"
-pattern2 = "\d+"
-expected_output2 = [(0, 1, '1'), (2, 4, '23'), (5, 8, '456')]
-assert test(s2, pattern2) == expected_output2, 'Test failed'
+arr0 = np.array([0, 6])
+expected_result =  arr0 / np.linalg.norm(arr0)
+result = test(arr0)
+assert np.array_equal(result, expected_result), 'Test failed'

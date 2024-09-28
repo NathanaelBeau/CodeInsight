@@ -1,5 +1,4 @@
-var0 = 'gdp'
-var1 = 'log(gdp)'
-expected_output = pd.DataFrame({'var1': [1, 2, 3, 4, 5]})
-df = pd.DataFrame({'var0': [1, 2, 3, 4, 5]})
-assert test(df) .equals(expected_output), 'Test failed'
+lst0 = [(1, 1), (2, 0), (3, 1), (4, 1)]
+expected_result =  [(1, 1), (3, 1), (4, 1)]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

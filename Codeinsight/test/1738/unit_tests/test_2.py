@@ -1,4 +1,5 @@
-dict0 = {'somekey': 1, 'someotherkey': 2, 'somekeyggg': 3}
-lst0 = []
-expected_output = True  
-assert test(dict0, lst0) == expected_output, 'Test failed'
+A = [[13, 14], [15, 16]]
+var0 = 1
+var1 = 0
+expected_output = (14, 15)
+assert test(A, var0, var1) == expected_output, 'Test failed'

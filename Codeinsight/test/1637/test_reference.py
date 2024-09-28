@@ -1,3 +1,4 @@
-def test(lst0, lst1):
-    result_dict = {key: value for key, value in zip(lst0, lst1)}
-    return result_dict
+import numpy as np
+
+def test(arr0):
+    return (np.arange(arr0.size) % 2) * (arr0 + np.array([-1, 0, 1])[:, None])

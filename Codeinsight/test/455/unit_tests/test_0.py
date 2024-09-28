@@ -1,4 +1,3 @@
-arr0 = np.array([1, 3, 7, 1, 2, 6, 3, 4, 5, 1])
-expected_min, expected_max = 1, 7
-result_min, result_max = test(arr0)
-assert result_min == expected_min and result_max == expected_max, 'Test failed'
+lst0 = [5, 3, 8, 2, 7]
+expected_output = 2
+assert test(lst0) ==expected_output, 'Test failed'

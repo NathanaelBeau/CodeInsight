@@ -1,4 +1,3 @@
-var0 = pd.DataFrame({'A': [4, 5, 6]})
-expected_result =  pd.DataFrame({'A': [4, 5, 6], 'B': [16, 25, 36], 'C': [64, 125, 216]})
-result = test(var0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [100, 200, 50, 150]
+expected_result =  [1, 3, 0, 2]
+assert (test(lst0) == expected_result).all(), 'Test failed'

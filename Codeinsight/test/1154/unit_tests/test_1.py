@@ -1,4 +1,4 @@
-substring = "banana"
-string = "I like apples and bananas"
-expected_output = 18
-assert test(substring, string) == expected_output, 'Test failed'
+# Test 3
+var0 = "abcde"
+expected_result =  ""  # No sequence repeats consecutively
+assert test(var0) == expected_result, 'Test failed'

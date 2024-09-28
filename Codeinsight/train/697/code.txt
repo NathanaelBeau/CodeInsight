@@ -1,10 +1,6 @@
-def test(str0):
-    try:
-        
-        str0 = str0.strip().lstrip("0x").lstrip("0X")
-        
-        
-        hex_num = int(str0, 16)
-        return hex_num
-    except ValueError:
-        return None
+import pandas as pd
+
+def test(df0, var0):
+    df0[var0] = df0[var0].astype(float).astype(int)
+    return df0
+

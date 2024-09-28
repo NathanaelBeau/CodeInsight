@@ -1,3 +1,4 @@
-df0 = pd.DataFrame({'A': [7, 8, 9], 'B': [10, 11, 12]}, index=['a', 'b', 'c'])
-df2 = test(df0)
-assert df2.empty and (df2.index == df0.index).all(), 'Test failed'
+df0 = pd.DataFrame({'Xtest': [10, 20, 30], 'Btest': [40, 50, 60], 'Xscore': [70, 80, 90]})
+expected_result =  pd.DataFrame({'Xtest': [10, 20, 30], 'Xscore': [70, 80, 90]})
+result = test(df0)
+assert result.equals(expected_result), 'Test failed'

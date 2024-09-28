@@ -1,3 +1,3 @@
-lst0 = [(1, 2), (3, 4), (5, 6)]
-expected_output = [9, 12]
-assert test(lst0) ==expected_output, 'Test failed'
+var0 = "no repetition here"
+expected_result =  "no repetition here"
+assert test(var0) == expected_result, 'Test failed'

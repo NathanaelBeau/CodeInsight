@@ -1,2 +1,4 @@
-def test(dict0, dict1):
-    return {k: dict1.get(v) for k, v in dict0.items()}
+import pandas as pd
+
+def test(df0, df1):
+    return pd.concat([df0, df1], axis=1)

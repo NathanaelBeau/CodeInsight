@@ -1,4 +1,4 @@
-lst0 = [4, 2, 2, 8, 3, 3, 1]
-expected_result =  [2, 2, 3, 3, 1, 4, 8]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+var0 = [1, 0, 0, 1, 0, 0]
+var1 = [[0, 1], [1, 1], [1, 0], [1, 0], [1, 1], [0, 1]]
+expected_output = [1, 1]
+assert test(var0, var1) ==expected_output, 'Test failed'

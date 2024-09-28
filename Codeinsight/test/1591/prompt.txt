@@ -1,5 +1,6 @@
-Group the columns of the DataFrame df0 by their names and then sum the values within each group
+Sort NumPy float array arr0 column by column   
 
-import pandas as pd
-def test(df0):
+import numpy as np
+
+def test(arr0):
 

@@ -1,3 +1,5 @@
-import numpy as np
-def test(arr0):
-    return (arr0 == 0).sum()
+def test(lst0, lst1):
+    for item in lst0:
+        if item not in lst1:
+            return False
+    return True

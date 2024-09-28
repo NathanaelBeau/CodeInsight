@@ -1,4 +1,5 @@
-# Test 2
-lst0 = [{'X': 10}, {'Y': 20, 'Z': 5}, {'X': 5, 'Z': 5}]
-expected_result =  {'Y': 20, 'X': 15, 'Z': 10}
-assert test(lst0) == expected_result, 'Test failed'
+# Test 3
+df0 = pd.DataFrame({'C': [np.nan, np.nan, np.nan, np.nan]})
+expected_result =  pd.DataFrame({'C': []})
+result = test(df0, 'C').reset_index(drop=True)
+assert result.equals(expected_result), 'Test failed'

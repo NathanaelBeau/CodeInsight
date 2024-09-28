@@ -1,6 +1,5 @@
-lst0 = [{"name": "Demo"}, {"name": "Trial"}, {"name": "Example"}]
-var0 = "name"
-var1 = "Test"
-expected_result =  False
-result = test(lst0, var0, var1)
+dict0 = {'x': 10, 'y': 20}
+dict1 = {'a': 30, 'b': 40}
+expected_result =  {}
+result = test(dict0, dict1)
 assert result == expected_result, 'Test failed'

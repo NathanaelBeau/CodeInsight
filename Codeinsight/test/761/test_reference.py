@@ -1,3 +1,2 @@
-def test(str0):
-    return list(set(str0))
-
+def test(lst0):
+    return [tuple(l) for l in lst0]

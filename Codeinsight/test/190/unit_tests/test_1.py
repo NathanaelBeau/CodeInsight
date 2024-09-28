@@ -1,4 +1,6 @@
-lst0 = ['a', 'b', 'c']
-arg0 = {'d', 'e'}
-expected_output = False
-assert test(lst0, arg0) ==expected_output, 'Test failed'
+dt1 = datetime(2022, 1, 1, 12, 0, 0)
+days1 = 1
+hours1 = 3
+expected_result =  dt1 + timedelta(days=1, hours=3)
+result = test(dt1, days1, hours1)
+assert result == expected_result, 'Test failed'

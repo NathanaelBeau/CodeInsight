@@ -1,1 +1,2 @@
-List of dictionaries from numpy array arr0 without for loop   
+Create an empty pandas DataFrame with NaN of type float having a specified number of rows and given columns.
+ 

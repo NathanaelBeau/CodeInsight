@@ -1,1 +1,1 @@
-find all positions of the maximum value in a list lst0   
+ get the name of the rows from the index of a data frame df0  

@@ -1,3 +1,3 @@
-s = "(This) is (not) a (good) (example string)."
-expected_output = "This is not a good (example string)."
-assert test(s) == expected_output, 'Test failed'
+str0 = 'one,two,three,four,five'
+expected_output = ['one', 'two', 'three', 'four', 'five']
+assert test(str0) ==expected_output, 'Test failed'

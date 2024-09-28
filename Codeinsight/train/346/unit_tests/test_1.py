@@ -1,4 +1,3 @@
-lst0 = [{"values": "a"}, {"values": "b"}, {"values": "c"}]
-expected_result =  ["a", "b", "c"]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+lst0 = [5, 5, 5, 5, 5]
+expected_output = [0, 1, 2, 3, 4]
+assert test(lst0) ==expected_output, 'Test failed'

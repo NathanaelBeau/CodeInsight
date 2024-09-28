@@ -1,3 +1,5 @@
-s3 = "No@separator."
-expected_output3 = ['No', '@', 'separator', '.']
-assert test(s3) == expected_output3, 'Test failed'
+lst0 = []
+var0 = 3
+expected_output = []
+result = list(test(lst0, var0))
+assert result == expected_output, 'Test failed'

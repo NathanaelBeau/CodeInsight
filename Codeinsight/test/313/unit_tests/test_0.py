@@ -1,7 +1,8 @@
-# Test 1
-df0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry']})
-column_name = 'A'
-prefix_string = 'fruit_'
-expected_result =  pd.DataFrame({'A': ['fruit_apple', 'fruit_banana', 'fruit_cherry']})
-result = test(df0, column_name, prefix_string)
-assert result.equals(expected_result), 'Test failed'
+df2 = pd.DataFrame({
+    'A': [1, 2, 3],
+    'B': [4.0, 5.5, 6.1]
+})
+result_2 = test(df2)
+expected_2 = df2
+if pd.testing.assert_frame_equal(result_2, expected_2, check_dtype=False) is not None:
+    assert False, 'Test failed'

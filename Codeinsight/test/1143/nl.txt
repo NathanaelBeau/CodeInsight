@@ -1,1 +1,1 @@
-convert string str0 to dict using list comprehension with values as integers 
+Convert rows in pandas DataFrame df0 into a list.

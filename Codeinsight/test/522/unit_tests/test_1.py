@@ -1,5 +1,3 @@
-str0 = "bye"
-var0 = "Bye bye Birdie!"
-expected_result =  ["Bye", "bye"]
-result = test(str0, var0)
-assert result == expected_result, 'Test failed'
+str0 = "abc123def456"
+expected_output = "abcdef"
+assert test(str0) ==expected_output, 'Test failed'

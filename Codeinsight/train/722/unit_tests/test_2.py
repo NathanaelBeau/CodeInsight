@@ -1,4 +1,3 @@
-dict0 = {'cat': 1, 'dog': 2}
-expected_result =  ['cat', 'dog', 'dog']
-result = test(dict0)
-assert result == expected_result, 'Test failed'
+s3 = "No_symbols-Or_maybe_some"
+expected_output3 = True
+assert test(s3) == expected_output3, 'Test failed'

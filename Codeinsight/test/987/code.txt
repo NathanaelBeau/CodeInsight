@@ -1,2 +1,7 @@
-def test(lst0: list, var0: set):
-    return [item for item in lst0 if item not in var0]
+def test(lst0, dict0):
+    result = []
+    for item in lst0:
+        sorted_item = sorted(item, key=dict0.get)
+        result.append(sorted_item)
+    return result
+

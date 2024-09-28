@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0):
-    return tuple(x for x in arr0.flat)
+def test(lst0):
+    return [sublist[::-1] for sublist in lst0[::-1]]

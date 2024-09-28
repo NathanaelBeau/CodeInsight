@@ -1,4 +1,5 @@
-ser0 = pd.Series([7, 8, 9], index=pd.MultiIndex.from_tuples([('g', 7), ('h', 8), ('i', 9)]))
-expected_result =  pd.Series([7, 8, 9])
-result = test(ser0)
-assert result.equals(expected_result), 'Test failed'
+var0 = "It was the best of times, it was the worst of times."
+lst0 = ['a', 'an', 'and', 'is', 'the', 'to', 'in', 'of', 'it', 'was']
+expected_result =  "best times, worst times."
+result = test(var0, lst0)
+assert result == expected_result, 'Test failed'

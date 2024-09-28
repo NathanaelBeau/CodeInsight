@@ -1,5 +1,2 @@
-import re
-
-def test(var0):
-    pattern = r"(?P<repeat>.+?)\1+"
-    return re.findall(pattern, var0, re.DOTALL)
+def test(lst0):
+    return all(map(lambda x: isinstance(x, int), lst0))

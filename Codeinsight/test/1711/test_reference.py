@@ -1,3 +1,2 @@
-import pandas as pd
-def test(df0):
-    return df0['b']
+def test(lst0, lst1):
+    return [x + y for x, y in zip(lst0, lst1)]

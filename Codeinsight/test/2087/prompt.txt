@@ -1,6 +1,0 @@
-Convert a pandas dataframe df to a list of dictionaries, where each dictionary represents a row.
-
-import pandas as pd
-
-def test(df: pd.DataFrame) -> list:
-

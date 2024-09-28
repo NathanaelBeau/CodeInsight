@@ -1,4 +1,5 @@
-var0 = [0, 1, 2]
-var1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-expected_output = [18, 21, 24]
-assert test(var0, var1) ==expected_output, 'Test failed'
+# Unit Test 2
+df0 = pd.DataFrame({ ('X', 'alpha', 'one'): [7, 8], ('X', 'beta', 'two'): [9, 10], ('Y', 'gamma', 'three'): [11, 12] })
+expected_result =  pd.DataFrame({ 'X alpha one': [7, 8], 'X beta two': [9, 10], 'Y gamma three': [11, 12] })
+result = test(df0)
+assert result.equals(expected_result), 'Test failed'

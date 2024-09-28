@@ -1,5 +1,7 @@
-def test(str0):
-    reversed_str = ""
-    for i in range(len(str0) - 1, -1, -1):
-        reversed_str += str0[i]
-    return reversed_str
+import numpy as np
+
+def test(shape0, var0):
+    if var0:
+        return np.ones(shape0, dtype=bool)
+    else:
+        return np.zeros(shape0, dtype=bool)

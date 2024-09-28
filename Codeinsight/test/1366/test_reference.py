@@ -1,2 +1,4 @@
-def test(var0):
-    return ", ".join(f"{key}={value}" for key, value in var0.items())
+import pandas as pd
+
+def test(df0):
+    return df0.sort_values(by=['b', 'c'], ascending=[True, False])

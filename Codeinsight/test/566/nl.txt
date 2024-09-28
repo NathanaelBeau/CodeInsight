@@ -1,1 +1,1 @@
-python sum the values of lists of list    lst0
+Reset the index of a DataFrame df0 and assign it a new name index_name0.

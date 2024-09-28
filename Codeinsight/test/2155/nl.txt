@@ -1,1 +1,0 @@
-Fastest way to remove all multiple occurrence items from a list lst0  

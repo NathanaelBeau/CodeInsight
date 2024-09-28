@@ -1,6 +1,6 @@
-class YetAnotherClass:
-    a_string = "Yet Another String"
-obj0 = YetAnotherClass()
-expected_result3 = "Yet Another String"
-result3 = test(obj0)
-assert result3 == expected_result3, 'Test failed'
+lst0 = ['foo', 'bar', 'baz']
+expected_output = {'foo': [1], 'bar': [], 'baz': []}
+var0 = "foo"
+var1 = 1
+output = test(lst0, var0, var1)
+assert output == expected_output, 'Test failed'

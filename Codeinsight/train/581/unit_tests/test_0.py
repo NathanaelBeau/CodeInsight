@@ -1,3 +1,3 @@
-lst0 = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]
-expected_output = [6, 9, 30]
-assert test(lst0) ==expected_output, 'Test failed'
+str0 = "Hello, world! This is a test string: with some punctuation."
+expected_output = "Hello world This is a test string with some punctuation"
+assert test(str0) ==expected_output, 'Test failed'

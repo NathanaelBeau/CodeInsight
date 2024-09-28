@@ -1,4 +1,6 @@
-convert a nested list lst0 into a one-dimensional list in Python   
+Number rows within a dataframe df0 based on a group var0 in increasing orde  
 
-def test(lst0):
+import pandas as pd
+
+def test(df0, var0):
 

@@ -1,4 +1,4 @@
-str0 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum."
-expected_result =  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum."
-result = test(str0)
-assert result == expected_result, 'Test failed'
+str0 = 'test'
+str1 = 'test test test test'
+expected_output = [0, 5, 10, 15]
+assert test(str0, str1) ==expected_output, 'Test failed'

@@ -1,5 +1,3 @@
-lst0 = ['a', 'b', 'c', 'd']
-lst1 = [4, 3, 2, 1]
-expected_result =  ['d', 'c', 'b', 'a']
-result = test(lst0, lst1)
-assert result == expected_result, 'Test failed'
+var0 = 5
+var1 = "apple"
+assert test(var0, var1) == ["apple", "apple", "apple", "apple", "apple"], 'Test failed'

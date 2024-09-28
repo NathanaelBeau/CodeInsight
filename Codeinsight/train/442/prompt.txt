@@ -1,6 +1,4 @@
-Find the 'b' character in var0 that's preceded by one or more 'a' characters.
+Python - Remove dictionary from list lst0 if key var0 is equal to value  in list lst1
 
-import re
-
-def test(var0):
+def test(lst0, var0, lst1):
 

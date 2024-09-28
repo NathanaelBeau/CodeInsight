@@ -1,1 +1,1 @@
-Find the starting indices of all occurrences of the regex pattern pattern in string str0.
+Sum values from the column var0 when values from column var1 are equal to 1 in a dataframe df0   

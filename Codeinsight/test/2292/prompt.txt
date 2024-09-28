@@ -1,5 +1,0 @@
-Sort a list of tuples lst0 depending on two elements   
-
-
-def test(lst0):
-

@@ -1,4 +1,6 @@
-Add SUM of values of two LISTS lst0 and lst1 into new LIST  with sum and zip
+Sort a NumPy array arr0 based on the column with indexvar0.
 
-def test(*args):
+import numpy as np
+
+def test(arr0, var0):
 

@@ -1,7 +1,4 @@
-Find the integer indices of rows containing NaN values in a given dataframe df0.
+reverse the input string str0
 
-import pandas as pd
-import numpy as np
-
-def test(df0):
+def test(str0):
 

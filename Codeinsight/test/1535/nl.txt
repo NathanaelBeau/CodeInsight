@@ -1,1 +1,1 @@
- convert nested list of lists lst0 into a list of tuples in python 3.3 using list comprehension
+Remove rows from dataframe df0 where column var0 has the value var1 resetting index.

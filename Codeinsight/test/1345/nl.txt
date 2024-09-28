@@ -1,1 +1,1 @@
-Replace occurrences of var0 with var2 in the column var1 of DataFrame df0, and return the modified DataFrame.
+Extract the decision rules from a scikit-learn decision-tree tree0 using the provided feature names feature_names0 

@@ -1,4 +1,5 @@
- reverse the elements in a sublist lst0   
+Delete rows and columns from a NumPy array arr0 using lists of indices lst0 and lst1 respectively.
 
-def test(lst0):
+import numpy as np
+def test(arr0, lst0, lst1):
 

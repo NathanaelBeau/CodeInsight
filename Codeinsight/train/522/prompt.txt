@@ -1,4 +1,4 @@
-Replace keys in a dictionary   dict1 with keys dictionnary dict0
+How can I compare two lists lst0 and lst1  in python and return matches   
 
-def test(dict0, dict1):
+def test(lst0, lst1):
 

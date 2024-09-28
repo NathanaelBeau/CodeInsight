@@ -1,1 +1,1 @@
-Extract a substring from string s starting from the position beginning with a length of LENGTH.
+Extract all the values of a specific key var0 from a list of dictionaries var1

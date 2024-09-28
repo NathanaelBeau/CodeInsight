@@ -1,3 +1,3 @@
-arr0 = np.array([np.nan, 2.0, 3.0, np.nan, 5.0])
-expected_output = np.array([2.0, 3.0, 5.0])
-assert (test(arr0)  == expected_output).all(), 'Test failed'
+str0 = "OpenAI OpenAI is is amazing!"
+expected_output = "OpenAI is amazing!"
+assert test(str0) ==expected_output, 'Test failed'

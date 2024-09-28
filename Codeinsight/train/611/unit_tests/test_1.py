@@ -1,7 +1,3 @@
-data = {'A': [4, 2, 7],
-        'B': [1, 5, 3],
-        'C': [8, 6, 9]}
-df0 = pd.DataFrame(data)
-expected_output = pd.Series([9.000000, 8.062258, 11.789826])
-test_result = test(df0)
-assert np.allclose(test_result, expected_output), 'Test failed'
+lst0_2 = ['a', 'a', 'b', 'c', 'c', 'c', 'd', 'd']
+expected_result_2 = ['a', 'b', 'c', 'd']
+assert test(lst0_2) == expected_result_2, 'Test failed'

@@ -1,1 +1,1 @@
-Add SUM of values of two LISTS lst0 and lst1 into new LIST  with sum and zip
+Add an extra row from a dctionary dict0 to a pandas dataframe  df0

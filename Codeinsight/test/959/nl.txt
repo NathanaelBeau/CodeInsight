@@ -1,1 +1,1 @@
-Find the index of the element var0 in a pandas Series series0.
+Check if string str0 only contains characters from string str1

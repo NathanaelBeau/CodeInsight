@@ -1,2 +1,3 @@
-def test(soup0, str0='Elsie', tag0='a'):
-    return soup0.find_all(tag0, string=str0)
+from functools import reduce
+def test(str0, str1):
+    return reduce(lambda x, y: x + str0 + y, str1)

@@ -1,6 +1,0 @@
-Create a pandas data frame from a list of nested dictionaries lst0.
-
-import pandas as pd
-
-def test(lst0):
-

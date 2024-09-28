@@ -1,4 +1,4 @@
-import numpy as np
+import pandas as pd
 
-def test(arr0):
-    return (np.arange(arr0.size) % 2) * (arr0 + np.array([-1, 0, 1])[:, None])
+def test(df0):
+    return list(df0.columns)

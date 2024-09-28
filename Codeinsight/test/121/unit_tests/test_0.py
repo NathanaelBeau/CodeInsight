@@ -1,4 +1,3 @@
-lst0 = [{'a': 1, 'b': 2}, {'b': 3, 'c': 4}]
-expected_result =  {'a': 1, 'b': 3, 'c': 4}
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+str0 = "0b1010101"
+expected_output = 85.0
+assert test(str0) ==expected_output, 'Test failed'

@@ -1,3 +1,6 @@
-arg = pd.DataFrame({'A': [1, 2, 3], 'B': ['one', 'two', 'three']})
-expected_output = {'A': {0: 1, 1: 2, 2: 3}, 'B': {0: 'one', 1: 'two', 2: 'three'}}
-assert test(arg) == expected_output, 'Test failed'
+df0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry']})
+var0 = r'^a'
+var1 = 'A'
+expected_result =  pd.DataFrame({'A': ['Apple', 'banana', 'cherry']})
+result = test(df0, 'A', var0, var1)
+assert result.equals(expected_result), 'Test failed'

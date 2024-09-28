@@ -1,3 +1,4 @@
-string2 = "***Multiple*stars**in*a*row***"
-expected_output2 = "*Multiple*stars*in*a*row*"
-assert test(string2) == expected_output2, 'Test failed'
+str0 = "Short text."
+expected_result =  "Short text."
+result = test(str0)
+assert result == expected_result, 'Test failed'

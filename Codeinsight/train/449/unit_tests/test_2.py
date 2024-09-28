@@ -1,4 +1,3 @@
-# Test 2
-var0 = "Python3...is-awesome!!"
-expected_result =  ["Python3", "...", "is", "-", "awesome", "!!"]
-assert test(var0) == expected_result, 'Test failed'
+lst0 = [1, 2]
+expected_output = '12'
+assert test(lst0) ==expected_output, 'Test failed'

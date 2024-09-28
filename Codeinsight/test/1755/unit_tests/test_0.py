@@ -1,6 +1,5 @@
-# Test 1
-arr0 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-val0 = 5
-expected_result =  (1, 1)
-result = test(arr0, val0)
-assert result == expected_result, 'Test failed'
+var0 = 3
+var1 = 3
+expected_result =  pd.DataFrame(0, index=range(3), columns=range(3))
+result = test(var0, var1)
+assert result.equals(expected_result), 'Test failed'

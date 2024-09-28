@@ -1,2 +1,2 @@
-def test(lst0):
-    return max(lst0)
+def test(str0):
+    return list(map(lambda cell: cell.split('\t'), str0.splitlines()))

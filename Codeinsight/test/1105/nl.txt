@@ -1,1 +1,1 @@
-Generate a dictionary where each tuple in the list lst0 is stored as a value, and the tuple's first element serves as the corresponding key.
+Split a column named var0 containing tuples into two separate columns in dataframe df0

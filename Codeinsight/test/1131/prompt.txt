@@ -1,6 +1,6 @@
-Convert rows in pandas DataFrame df0 into a list.
+Convert multiple lists provided in lst0 into a pandas DataFrame with column names specified in lst1.
 
 import pandas as pd
 
-def test(df0):
+def test(lst0, lst1):
 

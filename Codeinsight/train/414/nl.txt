@@ -1,1 +1,1 @@
-Calculate the total combined length of all strings in the list lst0.
+Search a specific element in a list of tuples var0 if var1 is matching the first element

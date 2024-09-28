@@ -1,1 +1,0 @@
-Swap values in a tuple/list lst0 inside a list in python with map   

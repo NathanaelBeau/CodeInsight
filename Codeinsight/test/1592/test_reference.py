@@ -1,4 +1,4 @@
-import pandas as pd
+import ast
 
-def test(df0, df1, var0):
-    return pd.merge(df0, df1, on=var0)
+def test(str0):
+    return ast.literal_eval(str0)

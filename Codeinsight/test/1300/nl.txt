@@ -1,1 +1,1 @@
-Check if string str0 only contains characters from string str1
+Replace NaN values in dataframe df0 with the average of its respective column.

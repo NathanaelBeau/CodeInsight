@@ -1,4 +1,4 @@
-dict0 = {'a': 10, 'b': 20, 'c': 30, 'd': 40, 'e': 50}
-var0 = 100
-expected_output = []
-assert test(dict0, var0) ==expected_output, 'Test failed'
+data = { 'A': [0, 0, 0], 'B': [1, 0, 0], 'C': [0, 2, 0], 'D': [0, 0, 3] }
+df0 = pd.DataFrame(data)
+expected_output = df0[['B', 'C', 'D']]
+assert test(df0) .equals(expected_output), 'Test failed'

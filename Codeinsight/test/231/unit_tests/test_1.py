@@ -1,3 +1,5 @@
-dict0 = {'a': 5, 'b': 2, 'c': 1}
-results = [test(dict0) for _ in range(1000)]
-assert results.count('a') > results.count('b') and results.count('b') > results.count('c'), 'Test failed'
+arr0 = np.array([[10, 11, 12], [13, 14, 15], [16, 17, 18]])
+lst0 = [2, 0, 1]
+expected_result =  np.array([12, 13, 17])
+result = test(arr0, lst0)
+assert result.tolist() == expected_result.tolist(), 'Test failed'

@@ -1,4 +1,4 @@
-Flatten an N-dimensional numpy array arr0 into a 1D array
+Find the minimum non-zero value in a numpy array arr0
 
 import numpy as np
 def test(arr0):

@@ -1,1 +1,1 @@
-convert list lst0 with str into list with int   using numpy
+Remove all trailing digits from the end of string s.

@@ -1,4 +1,6 @@
-Extract values associated with the key 'value' from each dictionary inside the list lst0.
+Find the last position in the string var0 where characters do not match the regular expression pattern regex_pattern.
 
-def test(lst0):
+import re
+
+def test(var0, regex_pattern):
 

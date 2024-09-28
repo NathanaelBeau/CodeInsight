@@ -1,2 +1,5 @@
-def test(lst0, lst1):
-    return list(set(lst0) - set(lst1))
+import numpy as np
+import pandas as pd 
+
+def test(df0):
+    return df0.fillna("")

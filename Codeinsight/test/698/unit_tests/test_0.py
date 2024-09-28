@@ -1,4 +1,4 @@
-str0 = "This is a sample text that we are going to use to check if our function works correctly. It should trim this text to its first 100 characters."
-expected_result =  str0[:100]
-result = test(str0)
-assert result == expected_result, 'Test failed'
+dict0 = { 'age': {'context': 2}, 'address': {'context': 4}, 'name': {'context': 1} }
+var0 = 'context'
+expected_output = { 'name': {'context': 1}, 'age': {'context': 2}, 'address': {'context': 4} }
+assert test(dict0, var0) ==expected_output, 'Test failed'

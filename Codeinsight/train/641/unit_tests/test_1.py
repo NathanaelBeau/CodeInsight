@@ -1,4 +1,12 @@
-lst0 = [5, 10, 15, 20, 25]
-window_size = 2
-expected_output = [7.5, 12.5, 17.5, 22.5]
-assert test(lst0, window_size) ==expected_output, 'Test failed'
+import numpy
+import math
+import pandas
+import string
+import datetime
+import json
+import itertools
+import random
+import functools
+import collections
+result = test(1, 1)
+assert result==True, 'Test failed'

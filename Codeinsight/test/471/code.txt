@@ -1,4 +1,4 @@
-import pandas as pd
+import numpy as np
 
-def test(df0, var0):
-    return df0.nlargest(1, var0).iloc[0]
+def test(str0):
+    return np.array(list(str0))

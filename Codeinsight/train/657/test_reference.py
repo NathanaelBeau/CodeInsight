@@ -1,4 +1,3 @@
-def test(str0):
-    lines = str0.split('\n')
-    stripped_lines = [line.lstrip() for line in lines]
-    return '\n'.join(stripped_lines)
+import numpy as np
+def test(arr0, lst0):
+    return np.array([arr0[i, idx] for i, idx in enumerate(lst0)])

@@ -1,1 +1,1 @@
-Limit the number var0 of sentences in a string str0  
+Calculate the frequency of unique combinations of values in columns col1 and col2 of the dataframe df0 and return a list of tuples with each combination and its frequency.  

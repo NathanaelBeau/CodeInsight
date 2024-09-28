@@ -1,4 +1,6 @@
-Convert a dictionary var0 into a list of tuples reversing key and value
+Append pandas series s0 and s1 with the same index.
 
-def test(var0):
+import pandas as pd
+
+def test(s0, s1):
 

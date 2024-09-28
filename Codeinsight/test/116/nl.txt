@@ -1,1 +1,1 @@
-Replace nan values with average of columns in dataframe df0
+generate a list of lists from a pandas DataFrame df0 with the column name and column values   

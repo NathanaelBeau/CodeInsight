@@ -1,3 +1,5 @@
-lst0 = [('P', 1.0), ('Q', 1.0), ('R', 1.0)]
-expected_output = ('P', 1.0)
-assert test(lst0) ==expected_output, 'Test failed'
+# Test 3
+lst0 = ["1test", "test2", "test", "3test3"]
+expected_result =  ["test"]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

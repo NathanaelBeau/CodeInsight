@@ -1,2 +1,4 @@
-def test(str0):
-    return [int(s) for s in str0.split(',')]
+import operator
+
+def test(lst0):
+    return sorted(lst0, key=operator.itemgetter(2))

@@ -1,4 +1,4 @@
-lst0 = ["apple", "banana", "cherry"]
-lst1 = ["banana", "cherry", "date"]
-expected_result =  ["banana", "cherry"]
-assert test(lst0, lst1) == expected_result or test(lst0, lst1) == ["cherry", "banana"], 'Test failed'
+dict0 = {'one': 10, 'two': 5, 'three': 7}
+expected_result =  {'two': 5, 'three': 7, 'one': 10}
+result = test(dict0)
+assert result == expected_result, 'Test failed'

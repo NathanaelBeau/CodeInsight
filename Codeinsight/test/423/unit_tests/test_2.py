@@ -1,5 +1,4 @@
-df0 = pd.DataFrame({'X': ['a', 'b', 'c'], 'Y': ['d', 'e', 'f']})
-var0 = 'Y'
-expected_result =  pd.DataFrame({'X': ['a', 'b', 'c'], 'Y': [np.nan, 'd', 'e']})
-result = test(df0, var0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = [3, 7, 1, 9, 5]
+var0 = 4
+expected_output = [0, 4, 1, 3]
+assert test(lst0, var0) ==expected_output, 'Test failed'

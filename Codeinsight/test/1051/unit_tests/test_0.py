@@ -1,7 +1,4 @@
-# Test 1
-df0 = pd.DataFrame({"A": [1, 2, 3, 4], "B": [10, 20, 30, 40]})
-col_name = "A"
-value = 3
-expected_result =  pd.DataFrame({"A": [1, 2, 4], "B": [10, 20, 40]})
-result = test(df0, col_name, value).reset_index(drop=True)
-assert result.equals(expected_result), 'Test failed'
+import numpy as np
+arr0 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+expected_output = 3
+assert test(arr0) == expected_output, 'Test failed'

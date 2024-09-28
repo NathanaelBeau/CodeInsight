@@ -1,1 +1,1 @@
-Find the first index of value var0 in a numpy array arr0
+Delete the column with name var0 from the dataframe df0 

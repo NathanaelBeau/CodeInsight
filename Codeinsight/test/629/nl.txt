@@ -1,1 +1,1 @@
-Binarize the values in the pandas DataFrame df0, converting non-zero values to 1 and zero values to 0.
+Find all words, including those with accent characters, in the string var0.

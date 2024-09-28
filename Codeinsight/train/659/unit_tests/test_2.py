@@ -1,4 +1,8 @@
-df1 = pd.DataFrame({'X': [1, 2, 3], 'Y': [4, 5, 6]})
-df2 = pd.DataFrame({'X': [0, 0, 0], 'Y': [0, 0, 0]})
-expected_output = pd.DataFrame({'X': [0, 0, 0], 'Y': [0, 0, 0]})
-assert test(df1, df2).equals(expected_output), 'Test failed'
+# Test 3
+df0 = pd.DataFrame({"x": ["apple", "banana", "cherry"], "y": [10, 20, 30]})
+index = 2
+col_name = "y"
+value = 40
+expected_result =  pd.DataFrame({"x": ["apple", "banana", "cherry"], "y": [10, 20, 40]})
+result = test(df0, index, col_name, value)
+assert result.equals(expected_result), 'Test failed'

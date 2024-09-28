@@ -1,6 +1,4 @@
-df0 = pd.DataFrame({'C': [7, 8, 9], 'D': [10, 11, 12]})
-var0 = 1
-var1 = 'Y'
-expected_result =  pd.DataFrame({'C': [7, 8, 9], 'Y': [10, 11, 12]})
-result = test(df0.copy(), var0, var1)
-assert result.equals(expected_result), 'Test failed'
+arr0 = np.array([[1,2],[10,20],[100,200]])
+row0 = [1, 20]
+expected_output = False
+assert test(arr0, row0) ==expected_output, 'Test failed'

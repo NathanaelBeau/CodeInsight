@@ -1,3 +1,7 @@
-binary_str0 = '0100000000001001001000010100011110101110000101000111101011100001'  
-expected_output = 3.14125
-assert test(binary_str0) == expected_output, 'Test failed'
+# Test 1
+df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9]})
+lst0 = ['A', 'B']
+new_column_name = 'sum_AB'
+expected_result =  pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9], 'sum_AB': [5, 7, 9]})
+result = test(df0, lst0, new_column_name)
+assert result.equals(expected_result), 'Test failed'

@@ -1,5 +1,5 @@
-from functools import reduce
-import operator
+from scipy.sparse import csr_matrix
+import numpy as np
 
-def test(lst0):
-    return reduce(operator.and_, lst0, True)
+def test(var0):
+    return csr_matrix(var0)

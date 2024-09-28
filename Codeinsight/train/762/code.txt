@@ -1,2 +1,2 @@
-def test(lst0):
-    return sum([x[1] for x in lst0])
+def test(dict0, var0):
+    return var0 in dict0.values()

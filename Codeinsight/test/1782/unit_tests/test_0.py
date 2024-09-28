@@ -1,3 +1,5 @@
-lst0 = [1, 2, 3, 4, 3, 2, 5]
-expected_output = [1, 2, 3, 4, 5]
-assert test(lst0) == expected_output, 'Test failed'
+lst0 = [10, 20, 30, 40]
+var0 = 10
+expected_result =  [1.0, 2.0, 3.0, 4.0]
+result = test(lst0, var0)
+assert result == expected_result, 'Test failed'

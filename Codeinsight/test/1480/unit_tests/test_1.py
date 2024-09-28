@@ -1,4 +1,5 @@
-df0 = pd.DataFrame({'X': [7, 8, 9], 'Y': [10, np.nan, 12]})
-expected_result =  pd.DataFrame({'X': [8], 'Y': [np.nan]}).reset_index(drop=True)
-result = test(df0).reset_index(drop=True)
-assert result.equals(expected_result), 'Test failed'
+df0 = pd.DataFrame({'X': [10, 20, 30], 'Y': [40, 50, 60], 'Z': [70, 80, 90]})
+lst0 = ['X', 'Z']
+expected_result =  np.array([[10, 70], [20, 80], [30, 90]])
+result = test(df0, lst0)
+assert np.array_equal(result, expected_result), 'Test failed'

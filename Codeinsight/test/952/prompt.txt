@@ -1,7 +1,4 @@
-Count the number of unique values in column var0 of dataframe df0.
+Create a new dictionary by mapping the values of dict0 to the corresponding values in dict1.
 
-
-import pandas as pd
-
-def test(df0, var0):
+def test(dict0, dict1):
 

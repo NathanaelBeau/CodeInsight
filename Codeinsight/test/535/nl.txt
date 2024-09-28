@@ -1,1 +1,1 @@
-Merging items in a list lst0 - Python   
+Convert the dictionary dict0 into a dataframe.

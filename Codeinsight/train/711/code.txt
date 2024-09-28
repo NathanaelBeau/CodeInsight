@@ -1,7 +1,4 @@
-import random
+import pandas as pd
 
-def test(lst0):
-    random_choice = random.choice(lst0)
-    index = lst0.index(random_choice)
-    lst0[index] = "modified_value"
-    return lst0
+def test(df0, var0):
+    return df0[var0].str.split(',', expand=True).stack().reset_index(drop=True)

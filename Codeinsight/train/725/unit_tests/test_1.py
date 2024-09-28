@@ -1,5 +1,5 @@
-str0 = "('a', 'b', 'c')"
-tpl0 = ('d', 'e', 'f')
-expected_result =  ('d', 'e', 'f', 'a', 'b', 'c')
-result = test(str0, tpl0)
-assert result == expected_result, 'Test failed'
+lst0 = np.array([])
+var0 = 5
+expected_result =  np.array([5])
+result = test(lst0, var0)
+assert np.array_equal(result, expected_result), 'Test failed'

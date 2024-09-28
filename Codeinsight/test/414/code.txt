@@ -1,5 +1,3 @@
-def test(lst0):
-	if len(lst0[0]) == 0:
-		return {}
-	else:
-		return dict(lst0)
+def test(lst0, var0):
+    return [item for item in lst0 if item != var0]
+

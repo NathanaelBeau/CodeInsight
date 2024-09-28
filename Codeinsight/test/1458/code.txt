@@ -1,2 +1,2 @@
-def test(dict0, var0) :
-    return dict((k, dict0[k]) for k in var0)
+def test(lst0, lst1):
+    return [i for i in lst1 if i not in lst0]

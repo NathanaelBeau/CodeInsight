@@ -1,4 +1,3 @@
-str0 = "Python\\tis\\tawesome!"
-expected_result =  "Python\tis\tawesome!"
-result = test(str0)
-assert result == expected_result, 'Test failed'
+lst0 = ['x', 100, 'y', 200, 'z', 300]
+expected_output = {'x': 100, 'y': 200, 'z': 300}
+assert test(lst0) ==expected_output, 'Test failed'

@@ -1,4 +1,4 @@
-import pandas as pd
+import numpy as np
 
-def test(df0, lst0):
-    return df0.assign(new_column=lst0)
+def test(data: np.ndarray) -> int:
+    return data.size - np.isnan(data).sum()

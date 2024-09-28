@@ -1,2 +1,4 @@
-def test(lst0):
-    return sum(x[0] for x in lst0), sum(x[1] for x in lst0)
+import numpy as np
+
+def test(arr0, arr1):
+    return np.vstack((arr0, arr1)).reshape((-1,), order='F')

@@ -1,1 +1,1 @@
-Convert a list of integers lst0 into a single integer
+Append the string var0 to a list named lst0

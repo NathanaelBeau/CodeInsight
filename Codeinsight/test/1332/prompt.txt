@@ -1,6 +1,5 @@
-Convert list of tuples lst0 to list   
+concatenate two DataFrames, df0 and df1, along the columns axis (i.e., horizontally), but only include the 'dates' column from df1 in the concatenated result.
 
-
-
-def test(lst0):
+import pandas as pd
+def test(df0, df1):
 

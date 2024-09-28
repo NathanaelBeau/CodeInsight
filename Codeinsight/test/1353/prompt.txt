@@ -1,6 +1,6 @@
-Sort a dictionary var0 with integer keys in ascending order 
+Add a new column named 'max_value' to dataframe df0 that contains the row-wise maximum value of columns specified in list lst0.
 
-from collections import OrderedDict
+import pandas as pd
 
-def test(var0):
+def test(df0, lst0):
 

@@ -1,1 +1,1 @@
-Get a list of indices of non-zero elements from the list lst0.
+Sorting items of  list of list lst0

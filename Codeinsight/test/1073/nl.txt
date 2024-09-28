@@ -1,1 +1,1 @@
-Iterate over a multiindex dataframe df0 and return a list of tuples containing the index and the value in column 'A'
+Sum values in list of dictionaries lst0 with key 'gold'.

@@ -1,4 +1,6 @@
-Get the list of values from a dict dict0
+getting the opposite diagonal of a numpy array   arr0 
 
-def test(dict0):
+import numpy as np
+
+def test(arr0):
 

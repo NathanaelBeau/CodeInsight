@@ -1,5 +1,6 @@
-some_list = ['apple', 'banana', 'cherry', 'date', 'elderberry']
-var0 = 1
-var1 = 4
-expected_output = ['banana', 'cherry', 'date']
-assert test(some_list, var0, var1) == expected_output, 'Test failed'
+df0 = pd.DataFrame({'M': [10, 11, 12], 'N': [13, 14, 15]})
+column_name0 = 'M'
+threshold0 = 11
+expected_result =  1
+result = test(df0, column_name0, threshold0)
+assert result == expected_result, 'Test failed'

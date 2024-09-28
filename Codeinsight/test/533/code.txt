@@ -1,6 +1,5 @@
-import re
+import numpy as np
 
-def test(var0):
-    pattern = "^(.+)\\n((?:\\n.+)+)"
-    matches = re.findall(pattern, var0)
-    return matches
+def test(arr0):
+    x = np.array(arr0)
+    return x.astype(int).tolist()

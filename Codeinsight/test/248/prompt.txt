@@ -1,4 +1,6 @@
-Find the indices of elements in list A that are also present in list B.
+Check if the value var0 exists in the index of dataframe df0  
 
-def test(A: list, B: list) -> list:
+import pandas as pd
+
+def test(df0, var0):
 

@@ -1,1 +1,1 @@
-Access a group with the value var0 in the column var1 of DataFrame df0.
+Index the first and the last n elements var0 of a list lst0  

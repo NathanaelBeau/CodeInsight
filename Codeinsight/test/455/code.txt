@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0):
-    return np.min(arr0), np.max(arr0)
+def test(lst0):
+    return max(enumerate(lst0), key=lambda x: x[1])[0]

@@ -1,4 +1,4 @@
-Create a new dictionary by finding the intersection of values from dict1 and dict2 for matching keys.
+Extract values associated with the key 'value' from each dictionary inside the list lst0.
 
-def test(dict1, dict2):
+def test(lst0):
 

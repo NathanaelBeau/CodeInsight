@@ -1,2 +1,2 @@
-def test(var0, var1):
-    return var0.count(var1)
+def test(lst0, lst1, var0):
+    return [dict for dict in lst0 if dict[var0] not in lst1]

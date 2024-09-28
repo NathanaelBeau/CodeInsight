@@ -1,5 +1,4 @@
-arr4 = np.array([[7, 8], [9, 10]])
-arr5 = arr4[:, 1]
-expected_result =  True
-result = test(arr4, arr5)
-assert result == expected_result, 'Test failed'
+lst0 = [-1, -2, -3]
+lst1 = [4, 5, 6]
+expected_output = -32
+assert test(lst0, lst1) == expected_output, 'Test failed'

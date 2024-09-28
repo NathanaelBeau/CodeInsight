@@ -1,1 +1,1 @@
-Drop rows with NaN values from a dataframe df0
+Create a pandas DataFrame df0 from a Numpy array arr0, using lst0 for the index and lst1 for column headers.

@@ -1,5 +1,4 @@
-arr0 = np.array([[0, 0, 0], [0, 0, 0]])
-var0 = 1
-expected_output = (np.array([], dtype=int), np.array([], dtype=int))
-output = test(arr0, var0)
-assert np.array_equal(output[0], expected_output[0]) and np.array_equal(output[1], expected_output[1]), 'Test failed'
+s3 = "banana"
+substring3 = "ana"
+expected_output3 = [1, 3]
+assert test(s3, substring3) == expected_output3, 'Test failed'

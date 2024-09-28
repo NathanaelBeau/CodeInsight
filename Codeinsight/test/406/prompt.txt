@@ -1,4 +1,6 @@
-Replace consecutive occurrences of the character * with a single * in the string var0.
+duplicate data in pandas dataframe df0 for var0 times resetting index
 
-def test(var0):
+import pandas as pd
+
+def test(df0, var0):
 

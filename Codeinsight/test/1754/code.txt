@@ -1,4 +1,4 @@
-from itertools import repeat, chain
+import random
 
-def test(str0, var0):
-    return "".join(chain(*zip(*repeat(str0, var0))))
+def test(var0):
+    return ''.join([char.upper() if random.choice([True, False]) else char.lower() for char in var0])

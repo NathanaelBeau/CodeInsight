@@ -1,4 +1,6 @@
-Check if string str0 only contains characters from string str1
+Replace NaN values in dataframe df0 with the average of its respective column.
 
-def test(str0, str1):
+import pandas as pd
+
+def test(df0):
 

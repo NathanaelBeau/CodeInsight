@@ -1,4 +1,4 @@
-var0 = "1234567890"
-expected_result =  False
-result = test(var0)
+lst0 = ['hello', '', 'world', '']
+expected_result =  ['hello', 'world']
+result = test(lst0)
 assert result == expected_result, 'Test failed'

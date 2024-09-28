@@ -1,1 +1,1 @@
-Append the DataFrame df1 to the (potentially empty) DataFrame df0 and reset the index.
+Filter rows in dataframe df0 where column var0 contains any string from the list lst0.

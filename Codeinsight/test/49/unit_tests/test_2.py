@@ -1,4 +1,5 @@
-input_str = "OpenAI GPT-3"
-expected_result =  [6, 5]
-result = test(input_str)
-assert result == expected_result, 'Test failed'
+str0 = ';b;c;d'
+var0 = 0
+var1 = 3
+expected_output = ':b:c;d'
+assert test(str0, var0, var1) ==expected_output, 'Test failed'

@@ -1,3 +1,4 @@
-def test(lst0, dict0):
-    return sorted(lst0, key=lambda x: dict0[x])
+import pandas as pd
 
+def test(df0, str0):
+    return df0.drop(str0, axis=1)

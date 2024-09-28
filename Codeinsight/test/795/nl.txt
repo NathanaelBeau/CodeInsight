@@ -1,1 +1,1 @@
-Counting the number of non-NaN elements in a numpy ndarray arr0 in Python   
+Create a DataFrame named df0 from a Numpy array arr0 with index labels lst0 and column headers lst1   

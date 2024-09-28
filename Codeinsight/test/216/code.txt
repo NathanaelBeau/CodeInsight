@@ -1,4 +1,2 @@
-import re
-
-def test(var0, var1):
-    return re.sub(var1, '', var0)
+def test(lst0, var0, var1):
+    return any(d.get(var0) == var1 for d in lst0)

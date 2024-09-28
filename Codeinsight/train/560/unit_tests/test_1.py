@@ -1,4 +1,5 @@
-dict0 = {'x': 10, 'y': 20, 'z': 30}
-expected_output = np.array([('x', 10), ('y', 20), ('z', 30)], dtype=object)
-dtype = object
-assert (test(dict0)  == expected_output).all(), 'Test failed'
+var0 = 'col2'
+var1 = [{'col1': 'x', 'col2': 'a'}, {'col1': 'y', 'col2': 'b'}, {'col1': 'z', 'col2': 'c'}]
+expected_result =  ['a', 'b', 'c']
+result = test(var0, var1)
+assert result==expected_result, 'Test failed'

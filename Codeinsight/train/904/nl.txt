@@ -1,1 +1,1 @@
-Split a string var0 with whitespace as separator, returning only plain text
+Get the var0 element of each tuple in a list lst0 in Python  with itemgetter

@@ -1,4 +1,2 @@
-def test(dict0, var0):
-    dict0[len(dict0)] = var0
-    return dict0
-
+def test(var0):
+	return list(var0.items())

@@ -1,4 +1,6 @@
-Convert a list lst0 of characters into a concatenated string   
+Find and return the index of the first row in DataFrame df0 where the value in column var0 equals var1.
 
-def test(lst0):
+import pandas as pd
+
+def test(df0, var0, var1):
 

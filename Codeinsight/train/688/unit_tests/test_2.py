@@ -1,3 +1,4 @@
-str0 = "NoChangesHere"
-expected_output = "NoChangesHere"
-assert test(str0) == expected_output, 'Test failed'
+lst0 = ['a', 'b', 'c']
+lst1 = ['c', 'b', 'a']
+expected_output = True
+assert test(lst0, lst1) ==expected_output, 'Test failed'

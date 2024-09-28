@@ -1,5 +1,3 @@
-var0 = 5
-var1 = 2
-expected_result =  pd.DataFrame(0, index=range(5), columns=range(2))
-result = test(var0, var1)
-assert result.equals(expected_result), 'Test failed'
+dict0 = { 'key1': [1, 2, 3], 'key2': ['a', 'b', 'c'], 'key3': [True, False, True] }
+expected_output = 9
+assert test(dict0) ==expected_output, 'Test failed'

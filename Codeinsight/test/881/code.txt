@@ -1,5 +1,2 @@
-import pandas as pd
-
-
-def test(df0, var0):
-    return [group.reset_index(drop=True) for _, group in df0.groupby(var0)]
+def test(dict0, str0):
+    return {k: v for k, v in dict0.items() if str0 in k}

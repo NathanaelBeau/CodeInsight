@@ -1,1 +1,1 @@
-Delete digits in Python (Regex)  which are not in words in string str0 
+Reverse a numpy array arr0

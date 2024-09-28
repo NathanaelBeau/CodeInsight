@@ -1,4 +1,4 @@
-Find Max in Nested Dictionary dict0
+ sort list lst0 by length of string followed by alphabetical order   
 
-def test(dict0):
+def test(lst0):
 

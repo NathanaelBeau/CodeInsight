@@ -1,4 +1,4 @@
-import numpy as np
-a = np.array([10, 20, 30, 40, 110])
-expected_output = 2  # 30 and 40 are the numbers between 25 and 100
-assert test(a,25,100) == expected_output, 'Test failed'
+dict0 = {'A': 1, 'B': 0, 'C': 3, 'D': 0}
+var0 = 0
+expected_output = {'B': 0, 'D': 0}
+assert test(dict0, var0) ==expected_output, 'Test failed'

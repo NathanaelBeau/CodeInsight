@@ -1,6 +1,6 @@
-Replace all NaN values in column col0 with the corresponding values from column col1 in a DataFrame df0
+Select columns lst0 from DataFrame df0.
 
 import pandas as pd
 
-def test(df0, col0, col1):
+def test(df0, lst0):
 

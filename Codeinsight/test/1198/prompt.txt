@@ -1,4 +1,6 @@
-Find the tuple in lst0 that has the largest item at index var0.
+Access the var0-th column from a NumPy multidimensional array arr0
 
-def test(lst0, var0):
+import numpy as np
+
+def test(arr0, var0):
 

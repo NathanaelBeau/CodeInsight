@@ -1,4 +1,5 @@
-check if a value var0 exists in a dictionary dict0 
+Return a list containing the index values of a DataFrame df0. 
 
-def test(dict0, var0):
+import pandas as pd
+def test(df0) :
 

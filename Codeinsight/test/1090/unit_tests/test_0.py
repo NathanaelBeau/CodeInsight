@@ -1,3 +1,3 @@
-str0 = 'aabbccdd'
-expected_output = 'aa-bb-cc-dd'
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = ["apple", "banana", "cherry", "date"]
+expected_output = ["date", "apple", "banana", "cherry"]
+assert test(lst0) == expected_output, 'Test failed'

@@ -1,4 +1,6 @@
-Add tuple tpl0 to a list of tuples  lst0
+Group the pandas DataFrame df0 by the column var0 and calculate the sum of each group.
 
-def test(lst0, tpl0):
+import pandas as pd 
+
+def test(df0, var0):
 

@@ -1,1 +1,1 @@
-Compute the logical XOR between two variables var0 and var1
+Copy an array arr0 into another array row by row

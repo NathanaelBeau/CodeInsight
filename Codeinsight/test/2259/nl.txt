@@ -1,1 +1,0 @@
-takes a string str0, an integer var0, and a character str1 and returns a string consisting of str0 padded with str1 to create a string with a centered str0 of length var0

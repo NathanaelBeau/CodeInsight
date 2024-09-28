@@ -1,2 +1,2 @@
-def test(lst0):
-    return min(lst0)
+def test(var0):
+    return [i // 2 for i in range(var0)]

@@ -1,4 +1,6 @@
-Get the string with the maximum length from each column in a list of lists lst0
+Remove elements from a list lst0 that are more than var0 standard deviations away from the mean.
 
-def test(lst0):
+import numpy as np
+
+def test(lst0, var0=2):
 

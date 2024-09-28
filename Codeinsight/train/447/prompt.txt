@@ -1,6 +1,4 @@
-Remove all square brackets and their contents from the string var0.
-
-import re
+Get a list of the length of words in a string var0?   
 
 def test(var0):
 

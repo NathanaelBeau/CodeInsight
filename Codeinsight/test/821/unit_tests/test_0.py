@@ -1,6 +1,3 @@
-mat0 = np.array([[10, 2], 
-                 [1, 5]])
-expected_result =  np.array([[0.83333333, 0.16666667], 
-                            [0.16666667, 0.83333333]])
-result = test(mat0)
-assert np.allclose(result, expected_result), 'Test failed'
+lst0 = ['apple_for_banana', 'orange_and_grape', 'mango_or_peach']
+expected_output = [['apple', 'banana'], ['orange', 'grape'], ['mango', 'peach']]
+assert test(lst0) ==expected_output, 'Test failed'

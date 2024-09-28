@@ -1,4 +1,4 @@
-Sort the list lst0 based on the length of its elements.
+reverse the input string str0   
 
-def test(lst0):
+def test(str0):
 

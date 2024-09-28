@@ -1,1 +1,1 @@
-Combine two 1D numpy arrays arr0 and arr1 into a single 2D numpy array  
+convert a binary (string)str0 into a float value   

@@ -1,4 +1,4 @@
-Round the number var0 up to 3 decimal points.
+Sorting a list of dictionaries lst0 based on the order of values of another list lst1 at index var0  with lambda
 
-def test(var0: float) -> float:
+def test(lst0, lst1, var0):
 

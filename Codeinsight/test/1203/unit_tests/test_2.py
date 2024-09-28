@@ -1,5 +1,6 @@
-var0 = "Greetings, how are you?"
-var1 ='Hello'
-expected_result =  0
-result = test(var0, var1)
+lst0 = [{'link': 'example8.com'}, {'link': 'example9.com'}]
+lst1 = ['example8.com', 'example9.com']
+var0 = 'link'
+expected_result =  []
+result = test(lst0, lst1, var0)
 assert result == expected_result, 'Test failed'

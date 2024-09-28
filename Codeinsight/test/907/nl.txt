@@ -1,1 +1,1 @@
-Replace the var0 occurrence(s) of word var1 by var2 in a string var3
+Drop all columns from a dataframe df0 that have a maximum value greater than 0

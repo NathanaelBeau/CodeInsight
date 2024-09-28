@@ -1,6 +1,2 @@
-import pandas as pd
-
-def test(var0):
-    df0 = var0.value_counts().reset_index()
-    df0.columns = ['value', 'count']
-    return df0
+def test(lst0, lst1):
+    return [dict for dict in lst0 if dict['link'] not in lst1]

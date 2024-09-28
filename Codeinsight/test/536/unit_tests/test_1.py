@@ -1,7 +1,5 @@
-# Test 3
-df0 = pd.DataFrame({'name': ['John Appleseed', 'Jane', 'Doe', 'Smith', 'Roe']})
-col_name = 'name'
-substring = 'John'
-expected_result =  pd.DataFrame({'name': ['Jane', 'Doe', 'Smith', 'Roe']}, index=[1, 2, 3, 4])
-result = test(df0, col_name, substring)
-assert result.equals(expected_result), 'Test failed'
+df0 = pd.DataFrame({'A': [5, 6]}, 
+                   index=pd.MultiIndex.from_tuples([('c', 30), ('c', 40)], names=['letters', 'numbers']))
+expected_result =  [(('c', 30), 5), (('c', 40), 6)]
+result = test(df0)
+assert result == expected_result, 'Test failed'

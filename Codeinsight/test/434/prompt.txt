@@ -1,6 +1,7 @@
-Determine the non-NaN elements in a numpy array arr0.   
+Retrieve the last var0 rows of the pandas DataFrame df0.
 
-import numpy as np
+import pandas as pd
 
-def test(arr0):
+
+def test(df0, n):
 

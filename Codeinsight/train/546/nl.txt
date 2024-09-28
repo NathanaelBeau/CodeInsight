@@ -1,1 +1,1 @@
-find all positions of the maximum value in a list lst0   
+Sum the second list items in a list of lists of lists lst0

@@ -1,5 +1,3 @@
-def test(var0, var1):
-    result = {}
-    for key in var0:
-        result[key] = var1
-    return result
+import pandas as pd
+def test(df0):
+    return df0.sort_values('C').drop_duplicates(subset=['A', 'B'], keep='last')

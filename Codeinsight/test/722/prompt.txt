@@ -1,4 +1,4 @@
- index nested lists lst0 in Python  
+Convert strings containing digits in lst0 to integers and store the result in a new list.
 
-def test(lst0):
+def test(lst0: list) -> list:
 

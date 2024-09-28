@@ -1,5 +1,4 @@
-var0 = 3
-lst0 = [3, 6, 9]
-expected_result =  [1.0, 2.0, 3.0]
-result = test(var0, lst0)
+lst0 = [{'date':'2022-05-01'}, {'date':'2021-03-03'}, {'date':'2023-04-02'}]
+expected_result =  [{'date':'2021-03-03'}, {'date':'2022-05-01'}, {'date':'2023-04-02'}]
+result = test(lst0)
 assert result == expected_result, 'Test failed'

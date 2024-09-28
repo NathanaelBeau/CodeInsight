@@ -1,7 +1,4 @@
-import numpy as np
+import pandas as pd
 
-def test(arr0, var0):
-    arr0 = np.array(arr0)
-    arr0[arr0 >= var0] = 0
-    return arr0.tolist()
-    
+def test(df0, var0):
+    return df0.groupby(var0).filter(lambda x: len(x) > 1).reset_index(drop=True)

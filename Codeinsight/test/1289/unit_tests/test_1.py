@@ -1,3 +1,4 @@
-arg = [[3, 2, 1, 10], [6, 5, 4, 1], [9, 8, 7, 3]]
-expected_output = [[6, 5, 4, 1], [9, 8, 7, 3], [3, 2, 1, 10]]
-assert test(arg) == expected_output, 'Test failed'
+dict0 = {"x": "apple", "y": "banana", "z": "cherry"}
+idx0 = 2
+expected_output = "cherry"
+assert test(dict0, idx0) == expected_output, 'Test failed'

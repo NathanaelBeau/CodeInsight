@@ -1,4 +1,4 @@
-# Test 2
-var0 = "Special chars: @#&*! and non-ASCII: éáü"
-expected_result =  "Special chars  and nonASCII "
-assert test(var0) == expected_result, 'Test failed'
+var0 = 5
+expected_result =  False
+result = test(var0)
+assert result == expected_result, 'Test failed'

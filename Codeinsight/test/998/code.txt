@@ -1,5 +1,7 @@
+from collections import Counter
+
 def test(lst0):
-    idx = sorted(range(len(lst0)), key=lst0.__getitem__)
-    ridx_dict = {k: v for v, k in enumerate(idx)}
-    ridx = [ridx_dict[k] for k in range(len(idx))]
-    return ridx
+    word_counter = Counter(lst0)
+    popular_words = sorted(word_counter, key=word_counter.get, reverse=True)
+    top_3 = popular_words[:3]
+    return top_3

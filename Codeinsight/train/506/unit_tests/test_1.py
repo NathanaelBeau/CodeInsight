@@ -1,6 +1,5 @@
-lst0 = ['apple', 'banana']
-var0 = 'cherry'
-var1 = 'date'
-var2 = 'elderberry'
-expected_output = ['apple', 'banana', 'cherry', 'date', 'elderberry']
-assert test(lst0, var0, var1, var2) ==expected_output, 'Test failed'
+mat0 = np.array([[0, 1], [1, 0]])
+vec0 = np.array([2, 3])
+expected_result =  np.array([3, 2])
+result = test(mat0, vec0)
+assert np.array_equal(result, expected_result), 'Test failed'

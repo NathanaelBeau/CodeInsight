@@ -1,2 +1,1 @@
-Convert the frequencies in pandas series var0 into percentages.
-
+Check if any value in column var0 of dataframe df0 matches the regex pattern var1.

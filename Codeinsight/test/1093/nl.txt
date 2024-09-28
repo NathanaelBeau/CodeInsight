@@ -1,1 +1,1 @@
-Swap the first two values in each tuple/list inside the list lst0
+Convert a string str0 into a dictionary by splitting each item at the = sign

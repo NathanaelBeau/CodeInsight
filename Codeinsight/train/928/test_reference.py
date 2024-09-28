@@ -1,6 +1,7 @@
-import pandas as pd
+import numpy as np
+import re
 
-def test(df0, df1):
-    combined_df = pd.concat([df0, df1], ignore_index=True)
-    combined_df = combined_df.reset_index(drop=True)
-    return combined_df
+def test(df0, var0, lst0):
+    pattern = '|'.join(lst0)
+    vfunc = np.vectorize(lambda x: bool(re.search(pattern, x, re.I) if isinstance(x, str) else False))
+    return df0[vfunc(df0[var0])]

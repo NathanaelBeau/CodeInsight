@@ -1,4 +1,8 @@
-var0 = {'a': 3, 'b': 1, 'c': 2}
-expected_result =  {'a': 3, 'c': 2, 'b': 1}
+# Test 1
+var0 = """A,B,C
+1,2,3
+4,5,6
+"""
+expected_result =  pd.DataFrame({ 'A': [1, 4], 'B': [2, 5], 'C': [3, 6] })
 result = test(var0)
-assert result == expected_result, 'Test failed'
+assert result.equals(expected_result), 'Test failed'

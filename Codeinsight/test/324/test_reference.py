@@ -1,4 +1,3 @@
-import pandas as pd
-
-def test(df0):
-    return df0.apply(dict, axis=1).tolist()
+import re
+def test(var0, str0):
+    return re.split(var0, str0)

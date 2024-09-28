@@ -1,7 +1,5 @@
-import numpy as np
 import pandas as pd
+import numpy as np
 
 def test(df0):
-    return np.ravel(df0.to_numpy())
-
-
+    return df0.replace(0, np.nan).dropna(axis=1, how="all")

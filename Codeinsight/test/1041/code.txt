@@ -1,7 +1,5 @@
-from collections import Counter
+import pandas as pd
 
-def test(lst0, var0):
-    word_counter = Counter(lst0)
-    popular_words = sorted(word_counter, key=word_counter.get, reverse=True)
-    top = popular_words[:var0]
-    return top
+def test(df0, var0, func):
+    df0[var0] = [func(x) for x in df0[var0]]
+    return df0[var0]

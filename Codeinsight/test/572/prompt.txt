@@ -1,5 +1,4 @@
-How to add items from list lst0 into a numpy array arr0   
+Convert a list of pairs lst0 into a dictionary where each pair represents a key-value pair. 
 
-import numpy as np
-def test(arr0, lst0):
+def test(lst0):
 

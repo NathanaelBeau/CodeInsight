@@ -1,1 +1,0 @@
-Extract sub-lists from a list lst0 where the third element is the string '0'.

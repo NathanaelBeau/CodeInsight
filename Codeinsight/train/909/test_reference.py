@@ -1,5 +1,2 @@
-def test(var0):
-    if len(var0) < 1:
-        return []
-    else:
-        return [int(s) for s in var0.split(',')]
+def test(lst0, lst1):
+    return set(filter(lambda item: item in lst1, lst0))

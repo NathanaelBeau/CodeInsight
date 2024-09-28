@@ -1,5 +1,4 @@
-dt = np.dtype([('x', np.float64), ('y', np.float64), ('z', np.float64)])
-arr0 = np.array([(1.0, 2.0, 3.0), (4.0, 5.0, 6.0)], dtype=dt)
-expected_result =  np.array([[1.0, 2.0, 3.0], [4.0, 5.0, 6.0]])
-result = test(arr0)
-assert np.array_equal(result, expected_result), 'Test failed'
+import pandas as pd
+df0 = pd.DataFrame({ 'A': [0, 1, 2, 3], 'B': [-2, 0, 1, 2] })
+expected_result1 = pd.DataFrame({ 'A': [0, 2, 3], 'B': [-2, 1, 2] }, index=[0, 2, 3])
+assert test(df0).equals(expected_result1), 'Test failed'

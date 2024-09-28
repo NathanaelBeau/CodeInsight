@@ -1,4 +1,3 @@
-dict0 = {'1': 'one', '3': 'three', '2': 'two', '5': 'five', '4': 'four'}
-var0 = 'two'
-expected_output = True
-assert test(dict0, var0) ==expected_output, 'Test failed'
+arr0 = np.array([1, 2, 3])
+expected_output = np.vstack([arr0, arr0])
+assert np.array_equal(test(arr0), expected_output), 'Test failed'

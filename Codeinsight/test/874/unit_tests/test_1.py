@@ -1,6 +1,6 @@
-# Test 2
-df0 = pd.DataFrame({'Type': ['X', 'Y', 'X', 'Y'], 'Count': [5, 10, 15, 20]})
-var0 = 'Type'
-expected_result =  pd.DataFrame({'Count': [20, 30]}, index=['X', 'Y'])
-result = test(df0, var0)
+df0 = pd.DataFrame({'A': ['apple', 'banana', 'apple', 'orange', 'apple'], 'B': [1, 2, 3, 4, 5]})
+var0 = 'A'
+var1 = 'B'
+expected_result =  pd.Series([1, 2, 4], index=['apple', 'banana', 'orange'], name='B')
+result = test(df0, var0, var1)
 assert result.equals(expected_result), 'Test failed'

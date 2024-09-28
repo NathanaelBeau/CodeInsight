@@ -1,4 +1,4 @@
-lst0_test3 = [10, 20, 30, 40, 50]
-var0_test3 = 25
-expected_result3 = [30, 40, 50]
-assert test(lst0_test3, var0_test3) ==expected_result3, 'Test failed'
+lst0 = ["1.2.5", "1.2.15", "1.2.3"]
+expected_result =  ["1.2.3", "1.2.5", "1.2.15"]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

@@ -1,4 +1,4 @@
-reverse the input string str0  
+Round the number var0 to the nearest integer.
 
-def test(str0):
+def test(var0: float) -> int:
 

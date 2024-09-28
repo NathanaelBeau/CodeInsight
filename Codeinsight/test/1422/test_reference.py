@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(arr0, var0):
-    return np.where(arr0 > var0, var0, arr0)
+def test(dict0):
+    return {k: v for k, v in dict0.items() if v > 0}

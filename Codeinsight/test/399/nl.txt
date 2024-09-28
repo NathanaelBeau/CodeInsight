@@ -1,1 +1,1 @@
-Convert a single-digit integer var0 into a double digits string in Python
+Intent: Replace all None values with NaN in a dataframe df0  

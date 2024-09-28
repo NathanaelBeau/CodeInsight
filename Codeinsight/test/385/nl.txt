@@ -1,1 +1,1 @@
-Sum the second list items in a list of lists of lists lst0
+update dictionary dict0 with dynamic keys and values from var0 in python   

@@ -1,4 +1,5 @@
-lst0 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-n = 3
-expected_output = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [10]]
-assert test(lst0, n) ==expected_output, 'Test failed'
+# Test 1
+var0 = "Hello, World!"
+lst0 = ["Hello", "World"]
+expected_result =  True
+assert test(var0, lst0) == expected_result, 'Test failed'

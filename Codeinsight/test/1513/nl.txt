@@ -1,1 +1,1 @@
-Select columns lst0 from DataFrame df0.
+ remove identical items from a list lst0 and sort it in Python

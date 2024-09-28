@@ -1,4 +1,2 @@
-import re
-
-def test(df0, var0, var1):
-    return df0[var0].str.contains(var1, case=False, na=False).any()
+def test(str0, var0):
+    return str0[:str0.rfind(var0)]

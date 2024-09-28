@@ -1,1 +1,1 @@
-check whether a number var1 is strictly positive
+Get the indices of rows in DataFrame df0 where the column var0 matches the value var1.

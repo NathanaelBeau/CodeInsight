@@ -1,5 +1,4 @@
-Replace NaN values in the numpy array arr0 with the average of their respective columns
+Concatenate key/value pairs in dictionary dic0 using ', ' as a separator into a single string.
 
-import numpy as np
-def test(arr0):
+def test(dic0):
 

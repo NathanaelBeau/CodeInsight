@@ -1,5 +1,7 @@
-Counting the number of non-NaN elements in a numpy ndarray arr0 in Python   
+Create a DataFrame named df0 from a Numpy array arr0 with index labels lst0 and column headers lst1   
 
+import pandas as pd
 import numpy as np
-def test(arr0):
+
+def test(arr0, lst0, lst1):
 

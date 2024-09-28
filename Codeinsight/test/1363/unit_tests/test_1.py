@@ -1,3 +1,4 @@
-s2 = "123.45"
-expected_output2 = 123.45
-assert test(s2) == expected_output2, 'Test failed'
+str0 = "Python"
+var0 = 3
+expected_output = "Pyt"
+assert test(str0, var0) == expected_output, 'Test failed'

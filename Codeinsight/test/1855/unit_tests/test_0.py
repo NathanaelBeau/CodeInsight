@@ -1,4 +1,4 @@
-df1 = pd.DataFrame({'A': [1, 2], 'B': [3, 4]})
-expected_result1 = [{'A': 1, 'B': 3}, {'A': 2, 'B': 4}]
-result1 = test(df1)
-assert result1 == expected_result1, 'Test failed'
+str0 = ['apple - red', 'banana - yellow', 'grape - purple']
+var0 = ' - '
+expected_output = {'apple': 'red', 'banana': 'yellow', 'grape': 'purple'}
+assert test(str0, var0 ) ==expected_output, 'Test failed'

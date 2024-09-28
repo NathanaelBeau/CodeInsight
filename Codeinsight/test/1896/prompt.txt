@@ -1,6 +1,0 @@
-Find all sequences of characters in string var0 that are between the special characters char_start and char_end
-
-import re
-
-def test(var0, char_start, char_end):
-

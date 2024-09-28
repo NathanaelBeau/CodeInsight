@@ -1,2 +1,4 @@
-def test(str0, var0):
-    return len(str0) - len(str0.rstrip(var0))
+import re
+
+def test(var0):
+    return re.split(r'[\n\t ]+', var0)

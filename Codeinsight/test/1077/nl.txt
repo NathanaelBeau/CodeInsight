@@ -1,1 +1,1 @@
-Add 1 to each integer value in a list lst0
+Find the var0 character in str0 that's preceded by one or more var1 characters.

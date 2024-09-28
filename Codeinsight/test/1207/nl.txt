@@ -1,1 +1,1 @@
-Inserting a string var0 in a string var1 in specific position var2
+Sum of product of combinations in a list lst0 using itertools.combinations

@@ -1,4 +1,3 @@
-var0 = "apple,banana,grape,,orange"
-expected_result =  ["apple", "banana", "grape", "0", "orange"]
-result = test(var0)
-assert result == expected_result, 'Test failed'
+str0 = "PythonicWayToInsertASpaceBeforeCapitalLetters"
+expected_output = "Pythonic Way To Insert A Space Before Capital Letters"
+assert test(str0) == expected_output, 'Test failed'

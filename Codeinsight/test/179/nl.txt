@@ -1,1 +1,1 @@
-Python split string var1 by pattern  var0 
+Format the floating-point values in columns specified by columns_list0 of dataframe df0 into percentage format with two decimal places.

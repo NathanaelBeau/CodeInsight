@@ -1,4 +1,6 @@
-How to split a word str0 into letters in Python   
+Get a random key from a dictionary dict0 with probability weighted by its values. 
 
-def test(str0):
+import random
+
+def test(dict0):
 

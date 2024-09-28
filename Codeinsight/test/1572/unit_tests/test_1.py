@@ -1,4 +1,3 @@
-arr = np.array([1, 2, 3, 4, 5])
-result = test(arr, 3)
-expected = np.array([[2]])
-assert (result == expected).all(), 'Test failed'
+lst0 = [{'key': 'x', 'data': 100}, {'key': 'y', 'data': 200}]
+expected_result =  {'x': {'key': 'x', 'data': 100}, 'y': {'key': 'y', 'data': 200}}
+assert test(lst0) == expected_result, 'Test failed'

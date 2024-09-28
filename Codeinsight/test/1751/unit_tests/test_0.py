@@ -1,5 +1,5 @@
-var0 = "hello world"
-lst0 = ["world", "earth"]
-expected_result =  True
-result = test(var0, lst0)
-assert result == expected_result, 'Test failed'
+str0 = 'python'
+var0 = 4
+str1 = 'i'
+expected_output = "pythin"
+assert test(str0, var0, str1) ==expected_output, 'Test failed'

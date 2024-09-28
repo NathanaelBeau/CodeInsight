@@ -1,2 +1,1 @@
-Grouping dataframes in pandas: 
-find how many rows in my dataframe df0have the same value in the a and b column and for these rows and to store the c value.
+Appending value var0 to list at key str0 in Python dictionary  dict0 

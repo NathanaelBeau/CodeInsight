@@ -1,6 +1,6 @@
-Generate all combinations of var0 binary values.
+Regex add character to matched string   str0
 
-from itertools import product
+import re
 
-def test(var0):
+def test(str0):
 

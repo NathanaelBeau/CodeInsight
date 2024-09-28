@@ -1,5 +1,3 @@
-import pandas as pd
-
-def test(df0):
-    df0['grade'] = df0['grade'].astype(float).astype(int)
-    return df0
+import numpy as np
+def test(arr0, arr1):
+    return (arr0 + arr1) / 2

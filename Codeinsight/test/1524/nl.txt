@@ -1,1 +1,1 @@
-Extract the video ID from the YouTube link var0.
+Check if all elements of a list lst0 are of the same type   

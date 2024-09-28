@@ -1,3 +1,3 @@
-var0 = "Hello World!"
-expected_result =  6
-assert test(var0) == expected_result, 'Test failed'
+lst0 = [3, -4, 2, -1, 0]
+expected_output = [2, 3, -4, -1, 0]
+assert test(lst0) == expected_output, 'Test failed'

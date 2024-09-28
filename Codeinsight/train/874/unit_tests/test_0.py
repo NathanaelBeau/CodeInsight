@@ -1,5 +1,5 @@
-arr0 = np.array([1, 3, 7, 1, 2, 6, 3, 4, 5, 1])
-expected_maxima = np.array([2, 5, 8])
-expected_minima = np.array([3,6])
-maxima, minima = test(arr0)
-assert np.array_equal(maxima, expected_maxima) and np.array_equal(minima, expected_minima), 'Test failed'
+s1 = "Hello 123 world 456"
+pattern1 = r"\d+"  # matches one or more digits
+replacement1 = "NUM"
+expected_output1 = "Hello NUM world NUM"
+assert test(s1, pattern1, replacement1) == expected_output1, 'Test failed'

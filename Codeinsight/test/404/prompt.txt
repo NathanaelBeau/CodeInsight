@@ -1,6 +1,5 @@
-Merge 2 dataframes  df1 and df2 with same values in a column col0 with var0 key and var1 value
+Check if a list lst0 has one or more strings that match a regex (r'\d', s) looking for a int
 
-import pandas as pd
-
-def test(df1, df2, col0, var0, var1):
+import re
+def test(lst0):
 

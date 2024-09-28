@@ -1,3 +1,6 @@
-dict0 = {1: 'one', 2: 'two', 3: 'three'}
-expected_output = {'one': 1, 'two': 2, 'three': 3}
-assert test(dict0) ==expected_output, 'Test failed'
+df0 = pd.DataFrame({'BrandName': ['ABC', 'DEF', 'AB', 'GHI', 'JKL']})
+col0 = 'BrandName'
+var0 = ['XYZ']
+var1 = 'X'
+expected_output = pd.DataFrame({'BrandName': ['ABC', 'DEF', 'AB', 'GHI', 'JKL']})
+assert test(df0, col0, var0, var1) .equals(expected_output), 'Test failed'

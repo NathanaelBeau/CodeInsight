@@ -1,1 +1,1 @@
-Get the dimensions of the numpy array arr0.
+Convert binary string str0 to list of integers using Python   

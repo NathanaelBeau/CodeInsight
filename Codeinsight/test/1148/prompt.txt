@@ -1,5 +1,6 @@
-Extract the first var0 columns from the numpy matrix mat0  
+Get an ordered list of unique items in list lst0  
 
-import numpy as np
-def test(mat0, var0):
+import itertools
+
+def test(lst0):
 

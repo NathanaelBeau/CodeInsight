@@ -1,4 +1,4 @@
-def test(lst0, var0, var1):
-    return [d for d in lst0 if d.get(var0) == var1] + [d for d in lst0 if d.get(var0) != var1]
+import pandas as pd
 
-
+def test(df0, var0, lst0):
+    return df0[df0[var0].isin(lst0)].reset_index(drop=True)

@@ -1,4 +1,3 @@
-df0 = pd.DataFrame({'ID': [1, 1, 2, 2], 'Value': [10, 20, 30, 40]})
-expected_result =  pd.DataFrame({'ID': [1, 1, 2, 2], 'Value': [10, 20, 30, 40], 'ID_mean': [15.0, 15.0, 35.0, 35.0], 'ID_sum': [30, 30, 70, 70]})
-result = test(df0, 'ID', 'Value')
-assert result.equals(expected_result), 'Test failed'
+lst0 = [(1, 5), (2, 3), (3, 9), (4, 2)]
+expected_output = (3, 9)
+assert test(lst0) ==expected_output, 'Test failed'

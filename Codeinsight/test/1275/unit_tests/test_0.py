@@ -1,10 +1,5 @@
-arr0 = np.array([[1, 2],
-                 [3, 4],
-                 [5, 6],
-                 [7, 8],
-                 [9, 0]])
-expected_output = np.array([[1, 2],
-                            [3, 4],
-                            [7, 8],
-                            [9, 0]])
-assert (test(arr0)  == expected_output).all(), 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, 3]})
+var0 = 4
+expected_output = pd.DataFrame({'A': [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]})
+result = test(df0, var0)
+assert result['A'].tolist() == expected_output['A'].tolist(), 'Test failed'

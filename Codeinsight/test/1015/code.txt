@@ -1,3 +1,4 @@
-import numpy as np
-def test(arr0):
-    return arr0.ndim > 1
+import pandas as pd
+
+def test(lst0):
+    return pd.DataFrame(columns=columns_list)

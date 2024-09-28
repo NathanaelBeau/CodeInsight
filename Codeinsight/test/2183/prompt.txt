@@ -1,6 +1,0 @@
-Extract the first floating number from a string str0.
-
-import re
-
-def test(str0: str) -> float:
-

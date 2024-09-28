@@ -1,1 +1,1 @@
-Generate a list of consecutive numbers from var0 to var1
+Use groupby in Pandas to count things in one column 'Event' in comparison to another 'Event'in datframe df0  

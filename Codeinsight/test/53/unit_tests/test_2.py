@@ -1,4 +1,4 @@
-df3 = pd.DataFrame({'Name': ['John', 'Jane', 'Mike'], 'Age': [30, 25, 40]})
-expected_result3 = [['John', 30], ['Jane', 25], ['Mike', 40]]
-result3 = test(df3)
-assert result3 == expected_result3, 'Test failed'
+var0 = "hello,,world"
+expected_result =  ["hello", "0", "world"]
+result = test(var0)
+assert result == expected_result, 'Test failed'

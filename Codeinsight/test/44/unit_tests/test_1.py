@@ -1,3 +1,3 @@
-arg = [['apple', 'banana', 'orange'], ['car', 'bus', 'bike'], ['jar', 'cup', 'glass'], ['foo', 'bar', 'baz']]
-expected_output = [['car', 'bus', 'bike'], ['jar', 'cup', 'glass'], ['foo', 'bar', 'baz']]
-assert test(arg) == expected_output, 'Test failed'
+lst0 = [('a', 1)]
+expected_output = {'a': [1]}
+assert test(lst0) ==expected_output, 'Test failed'

@@ -1,3 +1,3 @@
-input2 = [(7, 8), (9, 10)]
-expected_result2 = [(7, 9), (8, 10)]
-assert test(input2) == expected_result2, 'Test failed'
+dict0 = {'x': 10, 'y': 20, 'z': 30}
+expected_output = [('x', 10), ('y', 20), ('z', 30)]
+assert test(dict0) ==expected_output, 'Test failed'

@@ -1,4 +1,6 @@
-import pandas as pd
+import re
 
-def test(df0, var0, var1):
-    return df0[df0[var0] != var1].reset_index(drop=True)
+def test(str0):
+    
+    hashtags = re.findall(r'#(\w+)', str0, re.UNICODE)
+    return hashtags

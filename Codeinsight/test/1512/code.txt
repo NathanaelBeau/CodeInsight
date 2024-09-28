@@ -1,3 +1,3 @@
-def test(lst0):
-    lst0.sort(key=lambda e: e['key']['subkey'], reverse=True)
-    return lst0
+import pandas as pd
+def test(df0, col_values, col_weights):
+    return (df0[col_values] * df0[col_weights]).sum() / df0[col_weights].sum()

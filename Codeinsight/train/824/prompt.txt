@@ -1,5 +1,4 @@
-Sort dataframe df0 based on custom order provided in list lst0 for column name var0
+Convert the string var0 with format like '3.71B' or '4M' to its numeric equivalent.
 
-import pandas as pd
-def test(df0, lst0, var0):
+def test(var0):
 

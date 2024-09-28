@@ -1,4 +1,4 @@
-lst0 = ["Steve", "Steve", "Ben", "Ben", "Johnny"]
-dict0 = {"Steve": "Blue", "Ben": "Red", "Johnny": "Green"}
-expected_output = ["Blue", "Blue", "Red", "Red", "Green"]
-assert test(lst0, dict0 ) ==expected_output, 'Test failed'
+df0 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+df1 = pd.DataFrame({'A': [2, 2, 2], 'B': [2, 2, 2]})
+expected_output = pd.DataFrame({'A': [2, 4, 6], 'B': [8, 10, 12]})
+assert test(df0, df1).equals(expected_output), 'Test failed'

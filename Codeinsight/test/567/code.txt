@@ -1,3 +1,7 @@
-import re
-def test(var0, var1):
-    return re.split(var0, var1)
+def test(lst0):
+    from collections import defaultdict
+    result = defaultdict(int)
+    for d in lst0:
+        for key, value in d.items():
+            result[key] += value
+    return dict(result)

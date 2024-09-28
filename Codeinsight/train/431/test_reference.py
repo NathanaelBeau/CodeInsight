@@ -1,4 +1,2 @@
-import re
-
-def test(str0: str) -> str:
-    return ''.join(re.findall(r'[^()]+(?![^(]*\))', str0))
+def test(lst0):
+	return ''.join(map(str, lst0))

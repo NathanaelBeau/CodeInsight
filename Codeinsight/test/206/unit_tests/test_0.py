@@ -1,5 +1,4 @@
-lst0 = []
-lst1 = []
-expected_result =  []
-result = list(test(lst0, lst1))
+lst0 = [[1,2,3], [4,5,6], [7,8,9]]
+expected_result =  15
+result = test(lst0)
 assert result == expected_result, 'Test failed'

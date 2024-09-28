@@ -1,3 +1,5 @@
-nvalues = {'A': [1, 2, 3], 'B': [4, 5, 6]}
-expected_output = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
-assert test(nvalues).equals(expected_output), 'Test failed'
+lst0 = ['a', 'b', 'c', 'd']
+lst1 = [4, 3, 2, 1]
+expected_result =  ['d', 'c', 'b', 'a']
+result = test(lst0, lst1)
+assert result == expected_result, 'Test failed'

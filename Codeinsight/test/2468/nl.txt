@@ -1,1 +1,0 @@
-Use a list of values lst0 to select rows for values in column var0 from a Pandas dataframe   df0

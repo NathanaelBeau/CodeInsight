@@ -1,1 +1,0 @@
- sum values in a column in dataframe pandas df0 that match a given condition which is var0 using  query

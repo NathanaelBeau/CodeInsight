@@ -1,4 +1,6 @@
-Check if list lst0 items contains substrings from another list   lst1
+Convert a dataframe df0 into a list of dictionaries
 
-def test(lst0, lst1):
+import pandas as pd
+
+def test(df0):
 

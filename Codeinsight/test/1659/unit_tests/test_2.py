@@ -1,5 +1,7 @@
-str0 = '123'
-var0 = 8
-str1 = '0'
-expected_output = '00123000'
-assert test(str0, var0, str1) == expected_output, 'Test failed'
+# Test 2
+var0 = "hello world hello world hello world"
+var1 = "hello"
+var2 = "hi"
+var3 = 3
+expected_result =  "hello world hello world hi world"
+assert test(var0, var1, var2, var3) == expected_result, 'Test failed'

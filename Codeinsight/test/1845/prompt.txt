@@ -1,7 +1,4 @@
-Retrieve the last var0 rows of the pandas DataFrame df0.
+Python: find out whether a list of integers lst0 is coherent   
 
-import pandas as pd
-
-
-def test(df0, n):
+def test(lst0):
 

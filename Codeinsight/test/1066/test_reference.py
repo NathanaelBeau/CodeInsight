@@ -1,5 +1,5 @@
 def test(lst0):
-    flattened_list = []
-    for tpl in lst0:
-        flattened_list.extend(tpl)
-    return flattened_list
+    d = {}
+    for x, y, z in lst0:
+        d[x] = d.get(x, 0) + 1
+    return d

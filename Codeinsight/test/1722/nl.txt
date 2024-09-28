@@ -1,1 +1,1 @@
-Merge two lists lst0 and lst1 and flattens the resulting pairs into a single list 
+concatenate two strings (str0 and str1) by inserting str1 into str0 at a specific location: after the first character and before the seventh character.

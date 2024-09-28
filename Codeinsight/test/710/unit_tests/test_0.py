@@ -1,4 +1,2 @@
-lst0 = ["apple", "banana3", "cherry", "date1", "egg"]
-expected_result =  ["apple", "cherry", "egg"]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+lst1 = ["apple", "banana", "cherry"]
+assert test(lst1) in lst1, 'Test failed'

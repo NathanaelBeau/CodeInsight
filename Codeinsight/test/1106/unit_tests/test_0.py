@@ -1,4 +1,5 @@
-dct0 = {'a': 1, 'b': 2, 'c': 1, 'd': 3}
-expected_result =  ['a', 'c']
-result = test(dct0)
-assert result == expected_result, 'Test failed'
+from sklearn.datasets import load_iris
+# Test 1
+dataset0 = load_iris()
+df = test(dataset0)
+assert df.shape == (150, 4), 'Test failed'

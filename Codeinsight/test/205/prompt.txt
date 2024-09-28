@@ -1,7 +1,6 @@
-Replace NaN values in the pandas DataFrame df0 with the average of each respective column.
+Remove all square brackets and their contents from the string var0.
 
-import pandas as pd
-import numpy as np
+import re
 
-def test(df0):
+def test(var0):
 

@@ -1,3 +1,4 @@
-df0 = pd.DataFrame({'X': [10, 20, 30, 40], 'Y': [100, 200, 300, 400]})
-expected_result =  pd.DataFrame({'X': [10, 20, 30], 'Y': [100, 200, 300]})
-assert test(df0).equals(expected_result), 'Test failed'
+arr1 = np.array([10, 20, -np.inf, 40, 50])
+expected_result =  np.array([10, 20, 0, 40, 50])
+result = test(arr1)
+assert np.array_equal(result, expected_result), 'Test failed'

@@ -1,4 +1,4 @@
-import pandas as pd
-
-def test(df0, var0):
-    return df0[[var0]]
+import numpy as np
+def test(arr0, arr1):
+    sorter = np.argsort(arr1)
+    return arr0[sorter]

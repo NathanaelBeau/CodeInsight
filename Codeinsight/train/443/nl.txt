@@ -1,1 +1,1 @@
-Extract numbers from var0 along with any accompanying comparison adjectives or ranges (less than, greater than, between, more than).
+Formatting floats in a numpy array    arr0 with format var0 

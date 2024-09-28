@@ -1,4 +1,4 @@
-from itertools import islice
-
-def test(it0, var0):
-    return list(islice(it0, var0))
+def test(str0):
+    reversed_chars = [char for char in str0]
+    reversed_chars.reverse()
+    return ''.join(reversed_chars)

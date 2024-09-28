@@ -1,6 +1,0 @@
-Filter and return the rows of DataFrame df0 where the sum of the elements across each row is not equal to zero.
-
-import pandas as pd
-
-def test(df0):
-

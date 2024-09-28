@@ -1,6 +1,3 @@
-# Test 2
-arr0 = [['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i']]
-val0 = 'h'
-expected_result =  (2, 1)
-result = test(arr0, val0)
-assert result == expected_result, 'Test failed'
+var0 = pd.DataFrame({'variable': [True, False, True, True, False]})
+expected_output = pd.DataFrame({'variable': [False, True], 'counts': [2, 3]})
+assert test(var0).equals(expected_output), 'Test failed'

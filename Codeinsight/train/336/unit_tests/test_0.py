@@ -1,12 +1,7 @@
-import numpy
-import math
-import pandas
-import string
-import datetime
-import json
-import itertools
-import random
-import functools
-import collections
-result = test(10)
-assert result == True, 'Test failed'
+# Test 1
+df0 = pd.DataFrame({ 'A': ['x', 'y', 'x', 'z', 'y'] })
+var0 = 'A'
+var1 = 'x'
+expected_result =  [0, 2]
+result = test(df0, var0, var1)
+assert result == expected_result, 'Test failed'

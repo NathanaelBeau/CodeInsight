@@ -1,5 +1,2 @@
-def test(lst0):
-    result = ""
-    for elem in lst0:
-        result += elem[0] + "\n"
-    return result.rstrip("\n")
+def test(lst0, var0):
+    return max(range(len(lst0)), key=lambda index: lst0[index][var0])

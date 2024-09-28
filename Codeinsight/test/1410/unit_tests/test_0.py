@@ -1,5 +1,4 @@
 # Test 1
-lst0 = [[1, 2], [3, 4]]
-expected_result =  np.array([[1, 2], [3, 4]])
-result = test(lst0)
-assert np.array_equal(result, expected_result), 'Test failed'
+var0 = "apple*banana*fruit"
+expected_result =  ["*", "*"]
+assert test(var0) == expected_result, 'Test failed'

@@ -1,12 +1,4 @@
-lst0 = [
-    {"name": "John", "age": 25},
-    {"name": "Alice", "age": 30},
-    {"name": "Bob", "age": 22},
-]
-var0 = "name"
-expected_output = [
-    {"name": "Alice", "age": 30},
-    {"name": "Bob", "age": 22},
-    {"name": "John", "age": 25},
-]
-assert test(lst0, var0) == expected_output, 'Test failed'
+lst0 = [[1,2,3], [4,5,6], [7,8,9]]
+expected_result =  15
+result = test(lst0)
+assert result == expected_result, 'Test failed'

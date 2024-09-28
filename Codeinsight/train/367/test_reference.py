@@ -1,2 +1,5 @@
-def test(lst0, lst1):
-    return list(map(lambda a, b: a is b, lst0, lst1))
+import pandas as pd
+
+def test(df0, var0):
+    positive_values = df0[df0[var0] > 0]
+    return len(positive_values) / len(df0)

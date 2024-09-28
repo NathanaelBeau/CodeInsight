@@ -1,1 +1,0 @@
-Remove whitespace from before punctuation in string var0 but keep whitespace after punctuation.

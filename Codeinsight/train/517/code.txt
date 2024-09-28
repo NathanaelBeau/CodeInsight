@@ -1,2 +1,4 @@
-def test(lst0, dict0):
-    return sorted(lst0, key=dict0.get)
+import pandas as pd 
+def test(df0):
+    return df0.to_numpy().flatten()
+

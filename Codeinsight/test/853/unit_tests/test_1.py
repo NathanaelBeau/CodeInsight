@@ -1,4 +1,3 @@
-arr0 = np.array([1, 2, 3, 4, 5])
-expected_result =  (5,)
-result = test(arr0)
-assert result == expected_result, 'Test failed'
+str0 = "110011"
+expected_output = [6, 3]
+assert test(str0) == expected_output, 'Test failed'

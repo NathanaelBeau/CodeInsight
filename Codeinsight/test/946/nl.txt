@@ -1,1 +1,1 @@
-check if all of the following items in list lst0 are in a list lst1
+Filter rows from DataFrame df0 where column col_name does not contain the substring substring.

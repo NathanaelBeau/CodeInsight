@@ -1,6 +1,6 @@
-lst0 = [True, False, True, False]
-var0 = ['a', 'b', 'c', 'd']
-var1 = [1, 2, 3, 4]
-expected_output = ['a', 2, 'c', 4]
-output = test(lst0, var0, var1)
-assert output == expected_output, 'Test failed'
+df0 = pd.DataFrame({'col_name': [1, 2, 3], 'A': ['A0', 'A1', 'A2']})
+df1 = pd.DataFrame({'col_name': [1, 2, 3], 'B': ['B0', 'B1', 'B2']})
+df2 = pd.DataFrame({'col_name': [1, 2, 3], 'C': ['C0', 'C1', 'C2']})
+expected_result =  pd.DataFrame({'col_name': [1, 2, 3], 'A': ['A0', 'A1', 'A2'], 'B': ['B0', 'B1', 'B2'], 'C': ['C0', 'C1', 'C2']})
+result = test(df0, df1, df2, 'col_name')
+assert result.equals(expected_result), 'Test failed'

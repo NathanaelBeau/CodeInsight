@@ -1,4 +1,4 @@
-Generate rolling windows of size var0 for a 1D numpy array arr0  
+Drop rows from DataFrame df0 where the value in column col_name is NaN.
 
-def test(arr0, var0):
+def test(df0, col_name):
 

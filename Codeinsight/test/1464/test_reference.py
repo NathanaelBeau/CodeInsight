@@ -1,4 +1,5 @@
-import numpy as np
+from functools import reduce
 
-def test(vect0, vect1):
-    return np.outer(vect0, vect1)
+def test(lst0):
+    return reduce(lambda x, y: x * y, map(int, lst0))
+

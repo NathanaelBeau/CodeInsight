@@ -1,4 +1,4 @@
-lst0 = np.array([10, 20, 30, 40, 50, 1000])
-expected_result =  np.array([10, 20, 30, 40, 50])
-result = test(lst0)
-assert np.array_equal(result, expected_result), 'Test failed'
+lst0 = [5.1, 2.2, 9.9, 7.8, 3.6]
+var0 = 4
+expected_output = [2, 3, 4, 0]
+assert set(test(lst0, var0)) == set(expected_output), 'Test failed'

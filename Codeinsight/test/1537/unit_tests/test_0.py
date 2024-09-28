@@ -1,5 +1,4 @@
-var0 = 'A'
-df0 = pd.DataFrame({'A': [1, 2, np.nan, 4]})
-expected_result =  pd.DataFrame({'A': [np.nan]}, index=[2])
-result = test(df0, var0)
-assert result.equals(expected_result), 'Test failed'
+dict0 = {'a': [1, 2, 3], 'b': [4, 5, 6], 'c': [7, 8, 9]}
+expected_result =  {'c': [7, 8, 9], 'b': [4, 5, 6], 'a': [1, 2, 3]}
+result = test(dict0)
+assert result == expected_result, 'Test failed'

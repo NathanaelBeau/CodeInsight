@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 def test(df0):
-    return [row_name for row_name in df0.index]
+    return df0.dropna(axis=1, how='all')

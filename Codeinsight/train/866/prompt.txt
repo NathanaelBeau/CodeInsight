@@ -1,6 +1,4 @@
-Calculate the frequency counts of unique values in a numpy array arr0.
+insert a list lst1  at the front of another list lst0  
 
-import numpy as np
-
-def test(arr0):
+def test(lst0, lst1):
 

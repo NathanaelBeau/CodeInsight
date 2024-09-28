@@ -1,1 +1,1 @@
-Regex for removing data in parenthesis   in string str0 
+Delete digits in Python (Regex)   in string str0

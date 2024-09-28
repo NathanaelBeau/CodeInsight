@@ -1,1 +1,0 @@
-Remove key-value pairs with key 'var0' from a list of dictionaries lst0

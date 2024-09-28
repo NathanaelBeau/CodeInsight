@@ -1,4 +1,4 @@
-lst0 = ['a', 'b', 'a', 'c', 'c', 'b', 'b']
-expected_result =  ['b', 'b', 'b', 'a', 'a', 'c', 'c']
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+str0 = "OpenAI"
+var0 = "A"
+expected_output = "OpenI"
+assert test(str0, var0) ==expected_output, 'Test failed'

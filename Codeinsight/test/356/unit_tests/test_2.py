@@ -1,6 +1,3 @@
-lst0 = [{"id": 1, "name": "Alice"}, {"id": 2, "name": "Bob"}, {"id": 3, "name": "Charlie"}]
-key0 = "id"
-value0 = 4
-expected_result =  None
-result = test(lst0, key0, value0)
-assert result == expected_result, 'Test failed'
+lst0 = [['1', '2', '3'], ['4', '5'], ['6', '7', '8']]
+expected_output = [('1', '4', '6'), ('1', '4', '7'), ('1', '4', '8'), ('1', '5', '6'), ('1', '5', '7'), ('1', '5', '8'), ('2', '4', '6'), ('2', '4', '7'), ('2', '4', '8'), ('2', '5', '6'), ('2', '5', '7'), ('2', '5', '8'), ('3', '4', '6'), ('3', '4', '7'), ('3', '4', '8'), ('3', '5', '6'), ('3', '5', '7'), ('3', '5', '8')]
+assert expected_output == list(itertools.product(*lst0)), 'Test failed'

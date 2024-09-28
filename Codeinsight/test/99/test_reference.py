@@ -1,4 +1,2 @@
-import pandas as pd
-def test(df0, var0, var1, var2):
-    df0.loc[df0[var0] == var1, var2] = var1
-    return df0
+def test(lst0, lst1):
+    return [item for item in lst0 if item[0] in [x[0] for x in lst1]]

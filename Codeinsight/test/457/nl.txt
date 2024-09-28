@@ -1,1 +1,1 @@
-Split a list lst0 whenever there are repeating elements in the list.
+Order a list of lists lst0 by the first value of each list

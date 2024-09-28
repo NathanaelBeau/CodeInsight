@@ -1,7 +1,4 @@
-# Test 3
-df0 = pd.DataFrame({'M': ['red', 'green', 'blue']})
-column_name = 'M'
-prefix_string = 'color_'
-expected_result =  pd.DataFrame({'M': ['color_red', 'color_green', 'color_blue']})
-result = test(df0, column_name, prefix_string)
-assert result.equals(expected_result), 'Test failed'
+df0 = pd.DataFrame({'A': ['-', '14', '15'], 'B': ['16', '17', '18']})
+expected_result_3 = pd.DataFrame({'A': [np.nan, 14., 15.], 'B': [16., 17., 18.]})
+result_3 = test(df0)
+assert test(df0) .equals( expected_result_3), 'Test failed'

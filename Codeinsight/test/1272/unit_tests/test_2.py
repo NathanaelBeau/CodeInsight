@@ -1,9 +1,6 @@
-import numpy as np
-col = pd.MultiIndex.from_arrays([['one', 'one', 'one', 'two', 'two', 'two'],
-                                ['a', 'b', 'c', 'a', 'b', 'c']])
-df = pd.DataFrame(columns=col)
-values = np.array([[1, 2, 3, 4, 5, 6]])
-df.loc[0] = values[0]
-expected_result =  df.drop(columns=[('one', 'b'), ('two', 'b')])
-result = test('a', 'c', 'one', 'two', df)
+var0 = 'C'
+var1 = pd.DataFrame({'A': [1, 2, None, 4], 'B': [5, None, 7, 8], 'C': [9, 10, 11, None]})
+var2 = 'A'
+expected_result =  pd.DataFrame({'A': [1., 2., None, 4.], 'B': [5., None, 7., 8.], 'C': [9., 10., 11., 4.]})
+result = test(var0, var1, var2)
 assert result.equals(expected_result), 'Test failed'

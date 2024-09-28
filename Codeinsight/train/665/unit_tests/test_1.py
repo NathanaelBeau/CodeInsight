@@ -1,6 +1,4 @@
-df_data = {'Category': ['X', 'X', 'Y', 'Y', 'Z'],
-           'Score': [90, 85, 70, 75, 60]}
-df0 = pd.DataFrame(df_data)
-var0 = 'Category'
-expected_output = df0.groupby(var0, as_index=False).first()
-assert test(df0, var0).equals(expected_output), 'Test failed'
+arr0 = np.array([[10, 20], [30, 40], [50, 60]])
+expected_result =  np.array([90, 120])
+result = test(arr0)
+assert np.array_equal(result, expected_result), 'Test failed'

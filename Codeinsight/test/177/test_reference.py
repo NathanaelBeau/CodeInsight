@@ -1,7 +1,3 @@
-import pandas as pd
-
-def test(df0, var0, var1):
-    if var1 == "column":
-        return df0[var0].tolist()
-    elif var1 == "row":
-        return df0.iloc[var0].tolist()
+def test(lst0, var0):
+    for i in range(0, len(lst0), var0):
+        yield lst0[i:i + var0]

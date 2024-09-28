@@ -1,2 +1,2 @@
-def test(lst0, lst1):
-    return [item for item in lst0 if item[0] in [x[0] for x in lst1]]
+def test(str0):
+    return sorted(str0, key=lambda x: (x.isupper(), x))

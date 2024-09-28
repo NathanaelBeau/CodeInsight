@@ -1,1 +1,0 @@
-Drop all consecutive duplicate rows in a DataFrame df0, keeping only the first occurrence of each duplicate

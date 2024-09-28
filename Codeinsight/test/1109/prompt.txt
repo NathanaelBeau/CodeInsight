@@ -1,7 +1,4 @@
-In a dataframe df0 column var0, replace patterns matching string str0 with string str1.
+ get first part of an email address  string str0 with index
 
-import pandas as pd 
-import re
-
-def test(df0, var0, str0, str1):
+def test(str0):
 

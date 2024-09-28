@@ -1,1 +1,1 @@
-Get the var0 element of each tuple in a list lst0 in Python  with itemgetter
+Convert all elements of list lst0 to float values.

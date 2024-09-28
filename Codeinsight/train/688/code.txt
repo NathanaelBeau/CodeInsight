@@ -1,3 +1,2 @@
-import re
-def test(str0):
-    return re.sub(r'\.(?=\S)', '. ', str0)
+def test(lst0, lst1):
+    return all(item in lst1 for item in lst0)

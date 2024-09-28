@@ -1,4 +1,4 @@
-str0 = "OpenAI is awesome"
+str0 = "No match here."
 var0 = "is"
-expected_output = "is awesome"
+expected_output = -1
 assert test(str0, var0) ==expected_output, 'Test failed'

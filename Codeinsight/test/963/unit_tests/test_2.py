@@ -1,4 +1,4 @@
-lst0 = ['red', 'green', 'blue']
-lst1 = ['car', 'bike', 'boat']
-expected_output = ['redcar', 'greenbike', 'blueboat']
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+lst0 = [1, 2, 'hello', 4, 5]
+typ0 = int
+expected_output = False
+assert test(lst0, typ0) == expected_output, 'Test failed'

@@ -1,5 +1,4 @@
-var0 = pd.DataFrame({'A': [np.nan, 2, 3], 'B': [4, np.nan, np.nan]})
-expected_first = pd.Series({'A': 1, 'B': 0})
-expected_last = pd.Series({'A': 2, 'B': 0})
-result_first, result_last = test(var0)
-assert result_first.equals(expected_first) and result_last.equals(expected_last), 'Test failed'
+lst0 = [(1, 2, 3), (4, 5, 6), (7, 8, 9)]
+var0 = 0
+expected_output = (7, 8, 9)
+assert test(lst0, var0) == expected_output, 'Test failed'

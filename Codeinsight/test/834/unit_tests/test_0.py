@@ -1,3 +1,3 @@
-var0 = 255
-expected_output = bytearray([255]) * (10 ** 9)
-assert test(var0) ==expected_output, 'Test failed'
+arr0 = np.array([[1, 0, 3], [0, 5, 0], [7, 0, 9]])
+expected_output = 1.0
+assert test(arr0) ==expected_output, 'Test failed'

@@ -1,5 +1,6 @@
-s2 = "apple, orange, apple!"
-pattern2 = r"apple"
-replacement2 = "banana"
-expected_output2 = "banana, orange, banana!"
-assert test(s2, pattern2, replacement2) == expected_output2, 'Test failed'
+# Test 3
+var0 = "Another example here"
+var1 = "example"
+var2 = "instance"
+expected_result =  "Another instance here"
+assert test(var0, var1, var2) == expected_result, 'Test failed'

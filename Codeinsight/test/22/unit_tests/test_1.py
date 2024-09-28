@@ -1,4 +1,3 @@
-var0 = 'a,b,"c,d,e",f'
-expected_result =  ['a', 'b', 'c,d,e', 'f']
-result = test(var0)
-assert result == expected_result, 'Test failed'
+str0 = "Monday 1, Tuesday 2, and Wednesday 3"
+expected_output = ['Monday 1, Tuesday 2, and Wednesday 3']
+assert test(str0) ==expected_output, 'Test failed'

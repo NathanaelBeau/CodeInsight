@@ -1,1 +1,0 @@
-Create and return a list of empty lists. The number of empty lists in is equal to var0. 

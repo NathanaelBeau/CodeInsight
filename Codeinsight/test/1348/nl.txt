@@ -1,1 +1,1 @@
-Compute the norm for each row of the matrix mat0.  
+Insert 0s before each element in a 2D list lst0

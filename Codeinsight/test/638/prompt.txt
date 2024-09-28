@@ -1,4 +1,5 @@
-Format a floating-point number var0 to its full precision without truncation.
+Convert the sparse matrix mat0 into a dense matrix  
 
-def test(var0):
+from scipy.sparse import csr_matrix
+def test(mat0):
 

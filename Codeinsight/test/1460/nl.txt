@@ -1,1 +1,1 @@
-Access an arbitrary element(first one) in a dictionary dict0 in Python   
+Extract the first var0 columns from the numpy matrix mat0  

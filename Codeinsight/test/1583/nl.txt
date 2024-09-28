@@ -1,1 +1,1 @@
-Use a list of values lst0 to select rows for values in column var0 from a Pandas dataframe   df0
+Run KMeans on a one-dimensional array arr0 with number of clusters n_clusters and return labels

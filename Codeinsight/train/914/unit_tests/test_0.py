@@ -1,6 +1,7 @@
-lst0 = [(1, 2, 'apple'), (3, 4, 'apple'), (5, 6, 'apple')]
-var0 = 'apple'
-var1 = 'apple'
-expected_result =  True
-result = test(lst0, var0, var1)
-assert result == expected_result, 'Test failed'
+lst0 = [
+    {'categories': ['A', 'B', 'C']},
+    {'categories': ['A', 'C', 'D']},
+    {'categories': ['B', 'C', 'C']}
+]
+expected_output = {'C': 4, 'A': 2, 'B': 2, 'D': 1}
+assert test(lst0) ==expected_output, 'Test failed'

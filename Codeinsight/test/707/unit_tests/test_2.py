@@ -1,3 +1,5 @@
-dict0 = {'a': 0, 'b': 5, 'c': 5}
-results = [test(dict0) for _ in range(1000)]
-assert 'a' not in results, 'Test failed'
+str0 = "Mix"
+lst0 = ["Apple", "5", "Banana"]
+expected_result =  ["MixApple", "Mix5", "MixBanana"]
+result = test(str0, lst0)
+assert result == expected_result, 'Test failed'

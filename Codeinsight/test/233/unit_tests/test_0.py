@@ -1,5 +1,5 @@
-df0 = pd.DataFrame({'A': [10, 20, 30, 40, 50]})
-column_name0 = 'A'
-expected_result =  (20.0, 30.0, 40.0)
-result = test(df0, column_name0)
+lst0 = [{'key': 'value1'}, {'key': 'value2'}, {'not_key': 'value3'}]
+var0 = 'key'
+expected_result =  ['value1', 'value2']
+result = test(lst0, var0)
 assert result == expected_result, 'Test failed'

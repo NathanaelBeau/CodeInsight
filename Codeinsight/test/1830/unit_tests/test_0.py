@@ -1,4 +1,3 @@
-str0 = '<a href="/blog/first">Link 1</a><a href="/blog/second">Link 2</a>'
-regex_str = r'<a\s+href="/blog/(.+?)">'
-expected_output= ('first', 'second')
-assert test(str0, regex_str) ==expected_output, 'Test failed'
+str0 = "Word to Split"
+expected_output = ['W', 'o', 'r', 'd', ' ', 't', 'o', ' ', 'S', 'p', 'l', 'i', 't']
+assert test(str0) == expected_output, 'Test failed'

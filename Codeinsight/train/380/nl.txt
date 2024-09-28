@@ -1,1 +1,1 @@
-Sum values in list of dictionaries lst0 with key 'gold'.
+split elements of a list lst0   

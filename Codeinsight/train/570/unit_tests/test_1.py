@@ -1,4 +1,3 @@
-dict0 = {'x': 10, 'y': 20}
-dict1 = {'z': 30}
-expected_output = {'x': 10, 'y': 20, 'z': 30}
-assert test(dict0, dict1) == expected_output, 'Test failed'
+var0 = "Python"
+result = test(var0)
+assert len(result) == len(var0) and all(c1.lower() == c2.lower() for c1, c2 in zip(result, var0)), 'Test failed'

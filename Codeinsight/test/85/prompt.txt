@@ -1,4 +1,6 @@
- Check if all boolean values in a dictionary dict0 are true
+Check if the variable var0 is a pandas DataFrame.
 
-def test(dict0):
+import pandas as pd
+
+def test(var0):
 

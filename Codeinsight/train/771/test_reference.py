@@ -1,3 +1,2 @@
-import re
-def test(var0):
-    return re.sub(r'\bget\b', 'get@', var0)
+def test(lst0):
+    return tuple((x,) for x in [i for i in lst0])

@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0):
-    return ', '.join(map(str, arr0))
+def test(str0, lst0):
+    return any(item in str0 for item in lst0)

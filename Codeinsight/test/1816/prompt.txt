@@ -1,4 +1,6 @@
-Get the first elements from a list of tuples lst0.
+Get the count of values in numpy array a that are greater than var0 and less than or equal to var1.
 
-def test(lst0):
+import numpy as np
+
+def test(a, var0, var1):
 

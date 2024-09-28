@@ -1,4 +1,6 @@
-split a unicode string str0 into list  using list comprehension
+Make new column 'sum' in Panda dataframe df0 by adding values from other columns  lst0
 
-def test(str0):
+import pandas as pd
+
+def test(df0, lst0):
 

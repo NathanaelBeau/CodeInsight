@@ -1,3 +1,5 @@
-lst0_3 = []
-expected_output_3 = []
-assert test(lst0_3) == expected_output_3, 'Test failed'
+s = "StackOverflow"
+beginning = 5
+LENGTH = 4
+expected_output = "Over"
+assert test(s, beginning, LENGTH) == expected_output, 'Test failed'

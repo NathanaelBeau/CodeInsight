@@ -1,1 +1,1 @@
-Replace occurrences of string str0 with new string str1 in the specified column str2 of DataFrame df0.
+remove very high values equal or higher than a treshold var0 from numpy array arr0

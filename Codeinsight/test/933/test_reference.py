@@ -1,2 +1,5 @@
 def test(str0):
-    return str0.replace("\\", "")
+    value = int(str0)
+    formatted_result = "{:,}".format(value)
+    return formatted_result
+

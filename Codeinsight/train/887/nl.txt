@@ -1,1 +1,1 @@
-nterweave elements from two numpy arrays, arr0 and arr1, into a single numpy array
+Sort the rows of numpy array arr0 based on the order of elements in another numpy array arr1 

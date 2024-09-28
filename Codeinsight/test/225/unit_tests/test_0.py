@@ -1,6 +1,3 @@
-# Test 1
-df0 = pd.DataFrame({ 'A': [1, 2, 3] })
-var0 = 'B'
-lst0 = [4, 5, 6]
-expected_result =  pd.DataFrame({ 'A': [1, 2, 3], 'B': [4, 5, 6] })
-assert test(df0.copy(), var0, lst0).equals(expected_result), 'Test failed'
+dict0 = {'a': 1, 'b': 0, 'c': None, 'd': 'hello', 'e': False}
+expected_result =  {'a': 1, 'd': 'hello'}
+assert test(dict0) == expected_result, 'Test failed'

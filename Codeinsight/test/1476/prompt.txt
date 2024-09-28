@@ -1,6 +1,6 @@
-Access the var0-th column from a NumPy multidimensional array arr0
+Convert the string column named var0 in the dataframe df0 to lowercase.
 
-import numpy as np
+import pandas as pd
 
-def test(arr0, var0):
+def test(df0, var0):
 

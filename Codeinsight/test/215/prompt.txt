@@ -1,6 +1,6 @@
-Concatenate a numpy array arr1 to another numpy array arr0.
+Reset the indexes of the dataframe df0.
 
-import numpy as np
+import pandas as pd
 
-def test(arr0, arr1):
+def test(df0):
 

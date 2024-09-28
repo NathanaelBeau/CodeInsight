@@ -1,1 +1,1 @@
-Python sorting - A list of objects   lst0
+Normalize an array arr0  

@@ -1,1 +1,1 @@
-How to remove all characters before a specific character var0 in string str0 in Python?   
+Python - Locating the position of a regex match var0 in a string str0?   

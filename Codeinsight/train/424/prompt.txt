@@ -1,6 +1,4 @@
-Convert a pandas dataframe df to a list of dictionaries, where each dictionary represents a row.
+Convert a string var0  of numbers separated by comma into a list of int
 
-import pandas as pd
-
-def test(df: pd.DataFrame) -> list:
+def test(var0):
 

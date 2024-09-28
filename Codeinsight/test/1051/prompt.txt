@@ -1,6 +1,4 @@
-Delete rows from DataFrame df0 where column var0 has a value equal to var1.
+Determine the length of the second column in a 2D array named arr0.
 
-import pandas as pd
-
-def test(df0, var0, var1):
+def test(arr0):
 

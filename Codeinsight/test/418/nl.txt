@@ -1,1 +1,1 @@
-Perform one-hot encoding on a list lst0 with var0 unique classes  
+Retrieve the most frequent value from column var0 in dataframe df0

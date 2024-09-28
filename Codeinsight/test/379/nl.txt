@@ -1,1 +1,1 @@
-apply a logical operator to all elements in a python list  lst0 with operator
+Transform a numpy matrix or array var0 into a scipy sparse matrix

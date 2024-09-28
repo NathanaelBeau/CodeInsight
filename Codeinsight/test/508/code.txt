@@ -1,2 +1,2 @@
-def test(lst0, var0):
-	return [item for item in lst0 if item[0] == var0]
+def test(lst0):
+    return sum(bool(x) for x in lst0)

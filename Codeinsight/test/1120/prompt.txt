@@ -1,4 +1,4 @@
-Convert the string var0 with format like '3.71B' or '4M' to its numeric equivalent.
+simplest way to Sort a list lst0 based on dictionary values from dict0 in python  using equivalent explicit lambda
 
-def test(var0):
+def test(lst0, dict0):
 

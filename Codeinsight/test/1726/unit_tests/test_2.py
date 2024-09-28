@@ -1,4 +1,5 @@
-df0 = pd.DataFrame({'M': [11, 12, 13], 'N': [14, 15, 16]})
-expected_result =  0
-result = test(df0)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame({'X': [], 'Y': []})
+lst0 = [7, 8]
+expected_result =  pd.DataFrame({'X': [7], 'Y': [8]})
+result = test(df0.copy(), lst0)
+assert result.equals(expected_result), 'Test failed'

@@ -1,4 +1,3 @@
-lst0 = [10, 20, 30, 40, 50]
-lst1 = [100, 200, 300]
-expected_output = []
-assert test(lst0, lst1) ==expected_output, 'Test failed'
+lst0 = [('Cat', 'A furry animal'), ('Dog', 'A loyal pet'), ('Elephant', 'A large mammal')]
+expected_output = "Cat\nDog\nElephant"
+assert test(lst0) ==expected_output, 'Test failed'

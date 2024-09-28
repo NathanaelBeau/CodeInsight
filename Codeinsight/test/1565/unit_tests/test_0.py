@@ -1,3 +1,3 @@
-lst0 = ["apple", "banana", "kiwi"]
-expected_result =  ["kiwi", "apple", "banana"]
-assert test(lst0) == expected_result, 'Test failed'
+str0 = "hello"
+expected_output = "olleh"
+assert test(str0) ==expected_output, 'Test failed'

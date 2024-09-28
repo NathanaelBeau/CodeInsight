@@ -1,1 +1,1 @@
- sum the product of two list items lst0 and lst1
+Compute the cosine similarity for the given sparse matrix sparse_matrix0. 

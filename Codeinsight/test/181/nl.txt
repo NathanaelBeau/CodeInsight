@@ -1,1 +1,1 @@
-Return a list containing unique sublists from the list of lists lst0.
+Convert all values from a dictionary dict0 into a list.

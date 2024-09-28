@@ -1,4 +1,4 @@
-import pandas as pd
+import re
 
-def test(df0):
-    return df0.apply(lambda x: x.to_dict(), axis=1).tolist()
+def test(str0: str) -> str:
+    return ''.join(char for char in str0 if char.isalnum())

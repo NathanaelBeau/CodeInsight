@@ -1,6 +1,4 @@
-return all the minimum indices in numpy  array var0
+Check if the string var0 starts with any of the elements in list lst0.
 
-import numpy as np
-
-def test(var0):
+def test(var0, lst0):
 

@@ -1,5 +1,5 @@
-df0 = pd.DataFrame({ 'X_data': [19, 20, 21], 'Y_data': [22, 23, 24], 'Z_info': [25, 26, 27] })
-str0 = 'data'
-expected_result =  pd.DataFrame({ 'Z_info': [25, 26, 27] })
-result = test(df0, str0)
-assert result.equals(expected_result), 'Test failed'
+arr0 = np.array([[7], [8]])
+col0 = np.array([[9], [10]])
+expected_result =  np.array([[7, 9], [8, 10]])
+result = test(arr0, col0)
+assert np.array_equal(result, expected_result), 'Test failed'

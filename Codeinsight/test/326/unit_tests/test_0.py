@@ -1,3 +1,6 @@
-str0 = "word word: monty py: thon"
-expected_output = "word monty thon"
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = [['apple', 'banana'], 
+        ['cherry', 'date'], 
+        ['eggplant', 'fig']]
+expected_result =  ['eggplant', 'banana']
+result = test(lst0)
+assert result == expected_result, 'Test failed'

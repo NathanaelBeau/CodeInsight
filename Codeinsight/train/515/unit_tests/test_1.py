@@ -1,3 +1,4 @@
-str0 = 'abcdef'
-expected_output = 'ab-cd-ef'
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = ["apple", "banana", "cherry"]
+expected_result =  "apple\nbanana\ncherry"
+result = test(lst0)
+assert result == expected_result, 'Test failed'

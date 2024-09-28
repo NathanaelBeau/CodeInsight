@@ -1,1 +1,1 @@
-Extract all hashtags from a given string str0
+Reverse the elements in list lst0.

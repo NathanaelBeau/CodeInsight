@@ -1,1 +1,1 @@
-Convert the pandas DataFrame df0 to a list of dictionaries.
+Split a string str0 based on the regular expression pattern var0

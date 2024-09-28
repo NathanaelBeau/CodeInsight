@@ -1,6 +1,3 @@
-lst0 = [(0,0), (0,0)]
-lst1 = [(0,0), (0,0)]
-lst2 = []
-expected_result =  [(0,0), (0,0)]
-result = test(lst0, lst1, lst2)
-assert result == expected_result, 'Test failed'
+str0 = "Python is awesome!"
+expected_output = "Python is awesome"
+assert test(str0) ==expected_output, 'Test failed'

@@ -1,5 +1,5 @@
-import re
-
-def test(var0):
-    pattern = r"^[a-zA-Z0-9]+$"
-    return bool(re.match(pattern, var0))
+def test(lst0, lst1):
+    lst1.reverse()
+    for item in lst1:
+        lst0.insert(0, item)
+    return lst0

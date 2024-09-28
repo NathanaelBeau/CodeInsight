@@ -1,5 +1,5 @@
-Divide each element in list lst0 by its corresponding element in list lst1.
+Get indices of the top var0 maximum values from a NumPy array lst0
 
 import numpy as np
-def test(lst0, lst1):
+def test(lst0, var0):
 

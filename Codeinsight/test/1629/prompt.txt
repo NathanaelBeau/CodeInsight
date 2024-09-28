@@ -1,7 +1,4 @@
-Impute the missing categorical values in the dataset df0 using the most frequent strategy from scikit-learn.
+Declare a list of length var0 with all elements initialized to 0.
 
-from sklearn.impute import SimpleImputer
-import numpy as np
-
-def test(df0):
+def test(var0):
 

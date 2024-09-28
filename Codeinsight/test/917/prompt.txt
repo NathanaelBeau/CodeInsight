@@ -1,4 +1,4 @@
-Python: Check the occurrences in a list lst0 against a value  var0
+Sorting a dictionary dict0 by value then by key   
 
-def test(lst0, var0):
+def test(dict0):
 

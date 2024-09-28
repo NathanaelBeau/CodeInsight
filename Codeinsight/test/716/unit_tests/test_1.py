@@ -1,4 +1,4 @@
-arr0 = np.array([10, 20, 30, 10, 20])
-expected_result =  np.array([10, 20, 30])
-result = test(arr0)
-assert np.array_equal(result, expected_result), 'Test failed'
+# Test 3
+var0 = "5.5K"
+expected_result =  5.5 * 10**3
+assert test(var0) == expected_result, 'Test failed'

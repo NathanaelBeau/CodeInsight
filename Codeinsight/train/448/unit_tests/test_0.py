@@ -1,3 +1,5 @@
-var0 = "There are 12 apples, 345 bananas, and 5678 grapes."
-expected_result =  ["12", "345"]
-assert test(var0) == expected_result, 'Test failed'
+var0 = 'B'
+df0 = pd.DataFrame({'A': [3, 1, 2], 'B': [6, 4, 5]})
+expected_result =  pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+result = test(df0, var0)
+assert result.equals(expected_result), 'Test failed'

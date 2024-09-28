@@ -1,1 +1,0 @@
- count values in a certain range between var0 and var1 in a Numpy array arr0   

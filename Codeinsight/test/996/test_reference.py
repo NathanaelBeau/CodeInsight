@@ -1,5 +1,2 @@
-import pandas as pd
-
-def test(df0, col0):
-    df0.loc[:, col0] = df0[col0].shift(-1)
-    return df0
+def test(lst0, var0):
+    return [lst0[i:i+var0] for i in range(0, len(lst0), var0)]

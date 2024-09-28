@@ -1,2 +1,4 @@
-def test(x: str, var0: int) -> str:
-    return x[var0:]
+import re
+
+def test(str0):
+    return re.sub("'", "", str0)

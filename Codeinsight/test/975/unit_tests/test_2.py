@@ -1,9 +1,4 @@
-def third_equations(vars):
-    x, y = vars
-    eq1 = x**3 - y**2 + 1
-    eq2 = y**3 - x + 2
-    return [eq1, eq2]
-initial_guess = (1, -1)
-expected_result =  fsolve(third_equations, initial_guess)
-result = test(third_equations, initial_guess)
-assert np.allclose(result, expected_result), 'Test failed'
+lst0 = [[1, 2, 3], [4, 5]]
+expected_result =  [(1, 4), (1, 5), (2, 4), (2, 5), (3, 4), (3, 5)]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

@@ -1,4 +1,6 @@
-import pandas as pd
+import struct
 
-def test(df0):
-    return df0.loc[:, df0.columns[-1]]
+def test(str0):
+    format_string = f"{len(str0)//2}B"  # Adjust the format string based on half of the input length
+    byte_values = struct.unpack(format_string, bytes.fromhex(str0))
+    return list(byte_values)

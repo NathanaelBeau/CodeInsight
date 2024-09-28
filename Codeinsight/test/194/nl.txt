@@ -1,1 +1,1 @@
-Removing backslashes from a string str0 in Python   
+get a variance-cov matrix of list lst0 in numpy python   

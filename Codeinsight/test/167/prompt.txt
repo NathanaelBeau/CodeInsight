@@ -1,6 +1,4 @@
-Sort a dataframe df0 by column 'b' in ascending order and column 'c' in descending order
+Sort a list of dictionaries lst0 based on the order of IDs provided in list lst1
 
-import pandas as pd
-
-def test(df0):
+def test(lst0, lst1):
 

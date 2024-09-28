@@ -1,4 +1,4 @@
-Sort a list of dictionaries lst0 based on the order of IDs provided in list lst1
+Removing items var0 from unnamed lists lst0 in Python   
 
-def test(lst0, lst1):
+def test(lst0, var0):
 

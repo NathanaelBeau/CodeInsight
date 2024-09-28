@@ -1,4 +1,6 @@
-df0 = pd.DataFrame({ 'X': [10, 20, 30], 'Y': [40, 50, 60], 'Z': [70, 80, 90] })
-expected_result =  pd.Series([70, 80, 90], name='Z')
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+df0 = pd.DataFrame({'key': ['A', 'B', 'A', 'C', 'B', 'A'], 'value': [1, 2, 3, 4, 5, 6]})
+var0 = 'key'
+var1 = 'B'
+expected_result =  pd.DataFrame({'key': ['B', 'B'], 'value': [2, 5]})
+result = test(df0, var0, var1)
+assert (result.values == expected_result.values).all(), 'Test failed'

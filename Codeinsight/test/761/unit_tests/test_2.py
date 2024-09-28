@@ -1,4 +1,3 @@
-str0 = "python"
-expected_result =  sorted(['p', 'y', 't', 'h', 'o', 'n'])
-result = sorted(test(str0))
-assert result==expected_result, 'Test failed'
+lst0 = [['a'], ['b'], ['c']]
+expected_output = [('a',), ('b',), ('c',)]
+assert test(lst0)== expected_output, 'Test failed'

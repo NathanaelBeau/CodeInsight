@@ -1,5 +1,0 @@
-Extracting first n columns var0 of a numpy matrix matrix0   
-
-import numpy as np
-def test(matrix0, var0):
-

@@ -1,3 +1,6 @@
-def test(lst0, lst1):
-    lst0[0:0] = lst1
-    return lst0
+def test(lst0):
+    reversed_tuples = []
+    for x in lst0:
+        reversed_tuple = tuple(reversed(x))
+        reversed_tuples.append(reversed_tuple)
+    return tuple(reversed_tuples)

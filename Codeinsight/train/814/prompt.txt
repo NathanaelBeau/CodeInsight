@@ -1,6 +1,4 @@
- Drop rows from a dataframe df0 based on a "not in" condition for column var0 using values from list lst0
+Inserting a string var0  into  the end of a list lst0without getting split into characters   
 
-import pandas as pd
-
-def test(df0, var0, lst0):
+def test(lst0, var0):
 

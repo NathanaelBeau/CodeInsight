@@ -1,1 +1,1 @@
-Comparing two lists  lst0 and lst1 in Python and extract the common items  
+Convert pandas group by object to multi-indexed Dataframe    on dataframe df0 with index  columns var0

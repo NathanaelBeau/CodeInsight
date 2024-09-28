@@ -1,3 +1,6 @@
-lst0 = [0, 1, 2, 3, 4]
-expected_output = False
-assert test(lst0) ==expected_output, 'Test failed'
+lst0 = [['John', 25], ['Alice', 30], ['Bob', 35]]
+var0 = 0
+var1 = 'Eve'
+expected_result =  []
+result = test(lst0, var0, var1)
+assert result == expected_result, 'Test failed'

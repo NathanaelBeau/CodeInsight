@@ -1,1 +1,0 @@
-Python 3: Multiply a vector var0 by a matrix var1 without NumPy   

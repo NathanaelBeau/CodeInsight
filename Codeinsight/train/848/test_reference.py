@@ -1,4 +1,3 @@
-import pandas as pd
-
-def test(df0, var0):
-    return df0.iloc[:var0], df0.iloc[var0:]
+import numpy as np
+def test(lst0):
+    return np.concatenate((lst0[:3], lst0[4:]))

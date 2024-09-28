@@ -1,4 +1,5 @@
-array1 = np.array([1, 2, 3])
-array2 = np.array([4, 5, 6])
-expected_output = np.array([4, 10, 18])
-assert (test(array1, array2) == expected_output).all(), 'Test failed'
+import numpy as np
+import pandas as pd
+df1 = pd.DataFrame({ 'A': [1, 2, np.nan], 'B': [4, np.nan, 6] })
+expected_result1 = pd.DataFrame({ 'A': [1, 2, 0.0], 'B': [4, 0.0, 6] })
+assert test(df1).equals(expected_result1), 'Test failed'

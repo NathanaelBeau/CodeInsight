@@ -1,7 +1,3 @@
-import random
-
-def random_case(char):
-    return char.upper() if random.choice([True, False]) else char.lower()
-
-def test(var0):
-    return ''.join(map(random_case, var0))
+def test(str0):
+    import re
+    return re.sub(r'(?<!^)([A-Z])', r' \1', str0)

@@ -1,3 +1,4 @@
-str0 = "The Quick Brown Fox Jumps Over The Lazy Dog."
-expected_output = ['The', 'Quick', 'Brown', 'Fox', 'Jumps', 'Over', 'The', 'Lazy', 'Dog.']
-assert test(str0) ==expected_output, 'Test failed'
+lst0 = ['a', 'a', 'b', 'c', 'c', 'd', 'e', 'e', 'e']
+expected_result =  [['a', 'a'], ['b'], ['c', 'c'], ['d'], ['e', 'e', 'e']]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

@@ -1,6 +1,4 @@
-Randomly change the cases of all characters in a string var0
+A pythonic way to insert a space before capital letters   in strings  str0 using regex
 
-import random
-
-def random_case(char):
+def test(str0):
 

@@ -1,3 +1,5 @@
-str0 = "abc123def456"
-expected_output = "abcdef"
-assert test(str0) ==expected_output, 'Test failed'
+var0 = 1
+var1 = 1000
+var2 = 100
+expected_result =  len(set(test(var0, var1, var2))) == var2
+assert expected_result, 'Test failed'

@@ -1,2 +1,1 @@
-Create a cartesian product of two dataframes, df0 and 
-df1
+Get max value index for a list of dicts lst0 with enumerate

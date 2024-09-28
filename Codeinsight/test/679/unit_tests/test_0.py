@@ -1,6 +1,5 @@
-# Test 1
-df0 = pd.DataFrame({ 'A': ['x', 'x', 'y', 'y', 'y'] })
-var0 = 'A'
-expected_result =  pd.Series({'y': 3, 'x': 2}, name='A')
-result = test(df0, var0)
-assert result.equals(expected_result), 'Test failed'
+shape0 = (3, 3)
+var0 = 5
+expected_result =  np.array([[5, 5, 5], [5, 5, 5], [5, 5, 5]])
+result = test(shape0, var0)
+assert np.array_equal(result, expected_result), 'Test failed'

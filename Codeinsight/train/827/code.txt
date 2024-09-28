@@ -1,5 +1,4 @@
-import pandas as pd
+import numpy as np
 
-def test(var0):
-    df0 = var0.value_counts().rename_axis('value').reset_index(name='count')
-    return df0
+def test(arr0, arr1):
+    return np.ravel((arr0, arr1), order='F')

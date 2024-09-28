@@ -1,5 +1,7 @@
- Extract all non-zero values from a numpy array named arr0
+Best way to strip punctuation from a string str0 with 
+maketrans and string.punctuation
 
-import numpy as np
-def test(arr0):
+import string
+
+def test(str0):
 

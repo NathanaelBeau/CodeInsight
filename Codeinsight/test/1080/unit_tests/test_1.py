@@ -1,4 +1,2 @@
-lst0 = ['hello', 'world']
-typ0 = str
-expected_output = True
-assert test(lst0, typ0) == expected_output, 'Test failed'
+expected_columns = ['A', 'B', 'A1R', 'B2', 'AABB4']
+assert test().columns.tolist() == expected_columns, 'Test failed'

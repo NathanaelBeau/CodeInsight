@@ -1,3 +1,4 @@
-var0 = -3.2
-expected_output = -4
-assert test(var0) == expected_output, 'Test failed'
+var0 = "camelCaseString"
+expected_result =  "camel-case-string"
+result = test(var0)
+assert result == expected_result, 'Test failed'

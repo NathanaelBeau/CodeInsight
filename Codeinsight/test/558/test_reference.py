@@ -1,4 +1,2 @@
-from operator import itemgetter
-
-def test(lst0, lst1):
-    return list(itemgetter(*lst1)(lst0))
+def test(myDict: dict, var0: any) -> dict:
+    return dict(filter(lambda item: item[1] != var0, myDict.items()))

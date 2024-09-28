@@ -1,4 +1,5 @@
-var0 = set()
-var1 = {'x', 'y', 'z'}
-expected_output = {'x', 'y', 'z'}
-assert test(var0, var1) ==expected_output, 'Test failed'
+lst0 = ['a', 'b', 'c']
+var0 = 0
+expected_result =  ['b', 'c']
+result = test(lst0, var0)
+assert result == expected_result, 'Test failed'

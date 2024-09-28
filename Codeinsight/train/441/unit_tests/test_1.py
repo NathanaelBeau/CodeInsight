@@ -1,5 +1,4 @@
-var0 = "apple, banana, cherry"
-replacements = {"apple": "grape", "cherry": "peach"}
-expected_result =  "grape, banana, peach"
-result = test(var0, replacements)
+var0 = "getgetget"
+expected_result =  "get@get@get@"
+result = test(var0)
 assert result == expected_result, 'Test failed'

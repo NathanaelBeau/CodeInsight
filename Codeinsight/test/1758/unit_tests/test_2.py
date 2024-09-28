@@ -1,6 +1,6 @@
 # Test 3
-series0 = pd.Series(['apple', 'banana', 'cherry'])
-var0 = 'banana'
-expected_result =  1
-result = test(series0, var0)
+df0 = pd.DataFrame({'Name': ['Alice'], 'Age': [25], 'Gender': ['Female']})
+var0 = 'Gender'
+expected_result =  2
+result = test(df0, var0)
 assert result == expected_result, 'Test failed'

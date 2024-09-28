@@ -1,4 +1,6 @@
-arr0 = np.array([5, 8, 6, 7])
-expected_result =  np.array([1, 3, 2, 0])
-result = test(arr0)
-assert np.array_equal(result, expected_result), 'Test failed'
+var0 = 'group_column'
+var1 = 'value_column'
+df0 = pd.DataFrame({ 'group_column': ['P', 'P', 'Q', 'Q', 'R', 'R'], 'value_column': [9, 9, 10, 10, 11, 12] })
+expected_result =  pd.Series([1, 1, 2], index=['P', 'Q', 'R'])
+result = test(df0, var0, var1)
+assert result.equals(expected_result), 'Test failed'

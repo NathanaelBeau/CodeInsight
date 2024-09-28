@@ -1,1 +1,1 @@
- Replace all values in column 'prod_type' of dataframe df0 with string 'responsive
+Sort a dictionary dict0 based on the lengths of its values which are of list type.

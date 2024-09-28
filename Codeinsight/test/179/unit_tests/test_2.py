@@ -1,4 +1,4 @@
-arg0 = '\t'
-arg1 = "Tab\tSeparated\tText"
-expected_output = ['Tab', 'Separated', 'Text']
-assert test(arg0, arg1) == expected_output, 'Test failed'
+df = pd.DataFrame({'A': [0.1234, 0.5678], 'B': [100, 200]})
+result = test(df, ['A'])
+expected = pd.DataFrame({'A': ['12.34%', '56.78%'], 'B': [100, 200]})
+assert result.equals(expected), 'Test failed'

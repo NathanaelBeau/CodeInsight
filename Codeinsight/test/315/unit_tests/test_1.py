@@ -1,6 +1,5 @@
-# Test 2
-rows = 3
-columns = ['A', 'B']
-expected_result =  pd.DataFrame(np.nan, index=range(3), columns=['A', 'B'])
-result = test(rows, columns)
-assert result.equals(expected_result), 'Test failed'
+df0 = pd.DataFrame({'col': ['1', '2', '3', '4','5']})
+expected_output = pd.DataFrame({'col': [1, 2, 3, 4,5]})
+test(df0)
+result = (df0['col'] == expected_output['col']).all()
+assert result, 'Test failed'

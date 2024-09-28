@@ -1,4 +1,5 @@
-str0 = ['John - 25', 'Alice - 30', 'Bob - 27']
-var0 = ' - '
-expected_output = {'John': '25', 'Alice': '30', 'Bob': '27'}
-assert test(str0, var0 ) ==expected_output, 'Test failed'
+arr0 = np.array([10, 20])
+arr1 = np.array([1, 2, 3, 4])
+expected_output = np.array([[10, 20, 30, 40],
+                            [20, 40, 60, 80]])
+assert (test(arr0, arr1)  == expected_output).all(), 'Test failed'

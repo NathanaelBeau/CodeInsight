@@ -1,5 +1,6 @@
-str0 = "Stack Overflow"
-var0 = 5
-var1 = "-"
-expected_output = "Stack-Overflow"
-assert test(str0, var0,var1)==expected_output, 'Test failed'
+var0 = np.array([[False, True, False],
+                   [True, False, True]])
+expected_output = np.array([[0, 1],
+                              [1, 0],
+                              [1, 2]])
+assert (test(var0)  ==  expected_output).all(), 'Test failed'

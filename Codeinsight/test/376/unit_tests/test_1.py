@@ -1,3 +1,4 @@
-lst0 = [{'x': 10, 'y': 20}, {'z': 30}]
-expected_output = {'x': 10, 'y': 20, 'z': 30}
-assert test(lst0) ==expected_output, 'Test failed'
+var0 = 98765.432
+expected_result =  "98 765,43"
+result = test(var0)
+assert result == expected_result, 'Test failed'

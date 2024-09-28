@@ -1,4 +1,3 @@
-var0 = 12345
-expected_result =  [1, 2, 3, 4, 5]
-result = test(var0)
-assert result == expected_result, 'Test failed'
+d0 = {'a': 1, 'b': 3, 'c': 2}
+expected_result =  {'b': 3, 'c': 2, 'a': 1}
+assert test(d0) == expected_result, 'Test failed'

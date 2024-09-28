@@ -1,8 +1,3 @@
-import pandas as pd
-data = {'P': [100, 200, 300], 'Q': [1, 0, 1]}
-df0 = pd.DataFrame(data)
-var0 = 'P'
-var1 = 'Q'
-expected_result =  400
-result = test(df0, var0, var1)
-assert result == expected_result, 'Test failed'
+str0 = "abcdefghijklmnopqrstuvwxyz"
+expected_output = "a b c d e f g h i j k l m n o p q r s t u v w x y z"
+assert test(str0) == expected_output, 'Test failed'

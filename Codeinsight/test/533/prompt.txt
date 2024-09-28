@@ -1,7 +1,6 @@
-Find all matches of a line followed by a series of lines in the string var0
+ convert 2D float numpy array arr0 to 2D int numpy array  with astype
 
+import numpy as np
 
-import re
-
-def test(var0):
+def test(arr0):
 

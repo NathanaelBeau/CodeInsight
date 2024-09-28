@@ -1,3 +1,3 @@
-def test(lst0, lst1):
-    order = {item: i for i, item in enumerate(lst1)}
-    return sorted(lst0, key=lambda x: order.get(x, -1))
+def test(lst0, dict0):
+    colors = [dict0[name] for name in lst0]
+    return colors

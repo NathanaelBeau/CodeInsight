@@ -1,6 +1,4 @@
-# Test 2
-df0 = pd.DataFrame({'fruit': ['apple', 'banana', 'cherry'], 'count': [5, 10, 15]})
-condition = "fruit == 'apple' | count > 12"
-expected_result =  pd.DataFrame({'fruit': ['apple', 'cherry'], 'count': [5, 15]})
-result = test(df0, condition).reset_index(drop=True)
-assert result.equals(expected_result), 'Test failed'
+arg0 = np.array([1, 1])
+arg1 = np.array([0, 0])
+expected_output = np.array([[0, 0], [0, 0]])
+assert (test(arg0,arg1)  == expected_output).all(), 'Test failed'

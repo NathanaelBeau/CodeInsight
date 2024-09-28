@@ -1,3 +1,3 @@
-import numpy as np
-def test(arr0):
-    return np.min(arr0[arr0 > 0])
+import re
+def test(pattern0, var0):
+    return [match.group(1) for match in re.finditer(r"(?=(" + pattern0 + "))", var0)]

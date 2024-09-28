@@ -1,4 +1,4 @@
-lst0 = [['A', 1]]
-expected_result =  {'A': 1}
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+lst0 = [1, 1, 2, 2, '', 3, 3, '', 4, 4]
+var0 = ''
+expected_output = [1, 1, 2, 2, 3, 3, 4, 4]
+assert test(lst0, var0) ==expected_output, 'Test failed'

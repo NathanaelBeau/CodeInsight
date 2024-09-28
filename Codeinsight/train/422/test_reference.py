@@ -1,2 +1,2 @@
-def test(s: str) -> int:
-    return len(s.encode('utf-8'))
+def test(dict0):
+    return [(i,sum(j)/len(j)) for i,j in dict0.items()]

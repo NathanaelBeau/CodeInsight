@@ -1,4 +1,6 @@
-import re
-
-def test(str0):
-    return re.sub(r"^\s+", "", str0, flags=re.MULTILINE)
+def test(lst0, var0, lst1):
+    result = []
+    for x in lst0:
+        if x[var0] not in lst1:
+            result.append(x)
+    return result

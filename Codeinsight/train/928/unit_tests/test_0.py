@@ -1,6 +1,7 @@
+import pandas as pd
 # Test 1
-df0 = pd.DataFrame(columns=['A', 'B'], dtype=int)
-df1 = pd.DataFrame({'A': [1], 'B': [2]})
-expected_result =  pd.DataFrame({'A': [1], 'B': [2]})
-result = test(df0, df1)
-assert result.equals(expected_result), 'Test failed'
+df0 = pd.DataFrame({'A': ['apple', 'banana', 'cherry', 'dog'], 'B': ['dog', 'apple', 'fish', 'apple']})
+var0 = 'A'
+lst0 = ['apple', 'banana']
+expected_result =  pd.DataFrame({'A': ['apple', 'banana'], 'B': ['dog', 'apple']})
+assert test(df0, var0, lst0).equals(expected_result), 'Test failed'

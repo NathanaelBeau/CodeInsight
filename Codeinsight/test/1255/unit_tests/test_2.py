@@ -1,4 +1,4 @@
-dict0 = {}
-var0 = 'context' 
-expected_output = {}
-assert test(dict0, var0) ==expected_output, 'Test failed'
+var0 = "911emergency23code456"
+expected_result =  ["23"]
+result = test(var0)
+assert result == expected_result, 'Test failed'

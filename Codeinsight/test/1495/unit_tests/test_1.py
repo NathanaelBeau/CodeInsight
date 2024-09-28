@@ -1,4 +1,5 @@
-lst0 = [('name', 'Alice'), ('age', 30), ('city', 'New York')]
-expected_result =  {'name': 'Alice', 'age': 30, 'city': 'New York'}
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+# Test 2
+var0 = "apple b banana c cherry"
+var1 = "X"
+expected_result =  "apple X banana X cherry"
+assert test(var0, var1) == expected_result, 'Test failed'

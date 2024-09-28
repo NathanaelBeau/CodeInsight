@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0):
-    return np.nonzero(arr0 == 0)
+def test(lst0):
+    return sorted(range(len(lst0)), key=lambda i: lst0[i], reverse=True)[:2]

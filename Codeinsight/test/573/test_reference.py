@@ -1,2 +1,4 @@
-def test(s):
-    return ''.join('{:02x}'.format(ord(c)) for c in s)
+import pandas as pd
+
+def test(df0):
+    return df0 * 1

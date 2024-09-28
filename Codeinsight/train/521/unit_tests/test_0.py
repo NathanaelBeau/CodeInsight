@@ -1,5 +1,3 @@
-var0 = 2
-lst0 = [1, 2, 3]
-expected_output = 1
-output = test(var0, lst0)
-assert output == expected_output, 'Test failed'
+words1 = ['HELLO', 'WORLD', 'PYTHON']
+expected_output1 = True
+assert test(words1) == expected_output1, 'Test failed'

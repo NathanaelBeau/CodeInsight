@@ -1,5 +1,7 @@
-# Test 3
-lst0 = ["1test", "test2", "test", "3test3"]
-expected_result =  ["test"]
-result = test(lst0)
-assert result == expected_result, 'Test failed'
+lst2 = []
+# Handle the edge case where the list is empty
+try:
+    test(lst2)
+    print(False)  # This line shouldn't be reached
+except IndexError:
+    assert True, 'Test failed'

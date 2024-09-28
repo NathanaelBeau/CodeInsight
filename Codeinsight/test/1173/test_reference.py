@@ -1,3 +1,2 @@
-import numpy as np
-def test(arr0, arr1):
-    return np.multiply(arr0, arr1)
+def test(var0):
+    return str(var0).zfill(2)

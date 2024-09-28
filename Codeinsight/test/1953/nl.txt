@@ -1,1 +1,0 @@
-Determine the lengths of sequences of identical values in numpy array arr0 using run length encoding  

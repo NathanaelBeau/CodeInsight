@@ -1,4 +1,4 @@
-reverse the input string str0  
+Ordering a list lst0 of dictionaries in python :  efficient/cleanest way to order that list by weight then factor (numerically).  
 
-def test(str0):
+def test(lst0):
 

@@ -1,3 +1,4 @@
-input_str = "Line 1\n\nLine 2\n\nLine 3"
-expected = ['Line 1', 'Line 2', 'Line 3']
-assert test(input_str) ==expected, 'Test failed'
+# Test 3
+lst0 = [{'D': 2}, {'E': 6}, {'F': 10, 'D': 4}]
+expected_result =  {'F': 10, 'E': 6, 'D': 6}
+assert test(lst0) == expected_result, 'Test failed'

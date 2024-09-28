@@ -1,6 +1,0 @@
-Convert a list of lists into a Pandas DataFrame. The first sublist in lst0 is used as the header (column names), and the remaining sublists are used as the data rows.
-
-import pandas as pd
-
-def test(lst0):
-

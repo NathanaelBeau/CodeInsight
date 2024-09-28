@@ -1,5 +1,4 @@
-Select elements from a numpy array arr0 where they satisfy the condition
+Remove the first word from a string named str0   
 
-import numpy as np
-def test(arr0, condition):
+def test(str0):
 

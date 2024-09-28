@@ -1,1 +1,1 @@
-Replace all semicolons with colons in a string var0
+Counting the number of non-NaN elements in a numpy ndarray arr0 in Python   

@@ -1,5 +1,5 @@
-import pandas as pd
+import collections.abc
 
-def test(df0, var0):
-    df0[var0] = df0[var0].apply(lambda x: x.date())
-    return df0
+def test(str0, str1):
+    matching = [el for el in str0 if isinstance(el, collections.abc.Iterable) and (str1 in el)]
+    return matching

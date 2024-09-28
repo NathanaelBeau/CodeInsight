@@ -1,4 +1,4 @@
-arr0 = np.array([5, 6, 5, 7, 7, 7, 8, 7])
-expected_result =  7
-result = test(arr0)
-assert result == expected_result, 'Test failed'
+import pandas as pd
+df0 = pd.DataFrame({'A': [13, 14], 'B': [15, 16]}, index=['first', 'second'])
+expected_result =  ['first', 'second']
+assert test(df0) == expected_result, 'Test failed'

@@ -1,1 +1,1 @@
-Find the position of the var2 occurrence of substring var1 in string var0
+First common element from two lists   lst0 and lst1

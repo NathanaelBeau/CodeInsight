@@ -1,4 +1,2 @@
-import pandas as pd
-
-def test(df0):
-    return list(df0.index)
+def test(dict0):
+    return dict((k.lower(), v.lower()) for k, v in dict0.items())

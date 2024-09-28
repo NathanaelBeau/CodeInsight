@@ -1,6 +1,6 @@
-Convert a column var0 in dataframe df0 from Timestamp to datetime.date
+ check if a string str1 is a substring of items in a list of strings str0   with import collections.abc
 
-import pandas as pd
+import collections.abc
 
-def test(df0, var0):
+def test(str0, str1):
 

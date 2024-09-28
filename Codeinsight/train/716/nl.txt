@@ -1,1 +1,1 @@
-Create a zero-filled pandas dataframe with var0 rows and var1 columns
+Access an arbitrary element(first one) in a dictionary dict0 in Python   

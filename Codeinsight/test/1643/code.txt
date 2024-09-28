@@ -1,2 +1,4 @@
-def test(lst0):
-    return [sum(list(zip(*x))[1]) if x else 0 for x in lst0]
+import pandas as pd
+
+def test(df0, var0):
+    return df0.columns[(df0 == var0).any()].tolist()

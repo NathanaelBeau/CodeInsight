@@ -1,1 +1,1 @@
-Remove all integer values from a list lst0 
+Extract attribute my_attr from each object in the list lst0.

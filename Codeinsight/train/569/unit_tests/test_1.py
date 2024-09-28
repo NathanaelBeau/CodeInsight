@@ -1,4 +1,5 @@
-dict0 = {'x': 10, 'y': 20}
-dict1 = {'z': 30}
-expected_output = {'x': 10, 'y': 20, 'z': 30}
-assert test(dict0, dict1) == expected_output, 'Test failed'
+dict0 = {'x': 'apple', 'y': 'banana', 'z': 'cherry'}
+var0 = 'grape'
+expected_result =  False
+result = test(dict0, var0)
+assert result == expected_result, 'Test failed'

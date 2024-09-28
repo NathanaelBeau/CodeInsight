@@ -1,5 +1,5 @@
-Generate all combinations of elements from two numpy arrays arr0 and arr1
+Merge all columns in dataframe df0 into a single column.
 
-import numpy as np
-def test(arr0, arr1):
+import pandas as pd
+def test(df0):
 

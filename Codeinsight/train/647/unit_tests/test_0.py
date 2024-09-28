@@ -1,3 +1,4 @@
-str0 = '23.45678'
-expected_output = 23
-assert test(str0) ==expected_output, 'Test failed'
+str0 = 'a.b.c.d'
+expected_result =  'd'
+result = test(str0)
+assert result == expected_result, 'Test failed'

@@ -1,1 +1,1 @@
- display the first few characters var0 of a string str0 in Python   
+Create a list of dictionaries from dictionary d where each dictionary has keys 'key1' and 'key2' with corresponding values from lists in d.

@@ -1,7 +1,4 @@
-# Test 3
-df0 = pd.DataFrame({'name': ['John Appleseed', 'Jane', 'Doe', 'Smith', 'Roe']})
-col_name = 'name'
-substring = 'John'
-expected_result =  pd.DataFrame({'name': ['Jane', 'Doe', 'Smith', 'Roe']}, index=[1, 2, 3, 4])
-result = test(df0, col_name, substring)
+series0 = pd.Series([10, 10, 10, 10])
+expected_result =  pd.Series([25.0, 25.0, 25.0, 25.0])
+result = test(series0)
 assert result.equals(expected_result), 'Test failed'

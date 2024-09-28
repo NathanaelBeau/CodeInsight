@@ -1,1 +1,1 @@
-Formatting floats in a numpy array    arr0 with format var0 
+Generate a 3 by 3 matrix of random numbers.

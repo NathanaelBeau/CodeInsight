@@ -1,3 +1,4 @@
-var0 = 10.0
-expected_output = 10
-assert test(var0) == expected_output, 'Test failed'
+var0 = "AnotherExampleString"
+expected_result =  "another-example-string"
+result = test(var0)
+assert result == expected_result, 'Test failed'

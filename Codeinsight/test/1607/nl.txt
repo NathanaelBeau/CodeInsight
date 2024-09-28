@@ -1,1 +1,1 @@
-Find the inserted portion in the string var1 as compared to the original string var0.
+Convert a pandas Series series0 into a DataFrame  

@@ -1,5 +1,6 @@
-Generate a multidimensional range equivalent to Python's range for dimensions var0 and var1 
+changing the values of the diagonal of a matrix arr0 in numpy    by var0
 
 import numpy as np
-def test(var0, var1):
+
+def test(arr0, var0):
 

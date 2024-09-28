@@ -1,1 +1,1 @@
-Sort a dictionary dict0 by the highest value of its nested list values in descending order   
+Concatenate strings from lst0 without space  

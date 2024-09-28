@@ -1,1 +1,1 @@
-Python split string str0 on specific regex  r'((?:Friday|Saturday)\s*\d{1,2})'
+Extract a subset of key-value pairs from dictionary dict0 based on the keys present in list lst0.

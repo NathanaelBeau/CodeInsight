@@ -1,4 +1,4 @@
-var0, var1, var2 = 1.12345, 1.12346, 4
-expected_result =  True
-result = test(var0, var1, var2)
+var0 = 2.345e-67
+expected_result =  "0.000000000000000000000000000000000000000000000000000000000000000000234"
+result = test(var0)
 assert result == expected_result, 'Test failed'

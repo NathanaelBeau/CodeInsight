@@ -1,5 +1,0 @@
-Slice a NumPy array arr0 with slice rows var0 and slice cols var1 and then extend it precising extension var2
-import numpy as np
-
-def test(arr0, var0, var1, var2):
-

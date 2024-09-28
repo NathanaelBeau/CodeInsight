@@ -1,6 +1,5 @@
-Retrieve the non-flat indices of the maximum value in a numpy array arr0
+on dictionary dict0 Sorting dictionary keys based on their values   with index of values var0 with itemgetter
 
-import numpy as np
-
-def test(arr0):
+from operator import itemgetter
+def test(dict0, var0):
 

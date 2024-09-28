@@ -1,7 +1,5 @@
-import numpy as np
-
-def test(arr0, arr1):
-    arr0_reshaped = arr0[:, None]
-    result = arr0_reshaped * arr1
-    return result
-
+def test(lst0):
+    int_list = []
+    for item in lst0:
+        int_list.append(int(item))
+    return int_list

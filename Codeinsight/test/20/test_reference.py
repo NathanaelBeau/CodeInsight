@@ -1,2 +1,4 @@
-def test(var0):
-	return [dict(s) for s in set(frozenset(d.items()) for d in var0)]
+import pandas as pd
+def test(df0):
+    df0['prod_type'] = 'responsive'
+    return df0

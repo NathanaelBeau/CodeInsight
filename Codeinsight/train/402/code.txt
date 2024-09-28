@@ -1,4 +1,6 @@
-def test(A, var0, var1):
-    first_element = A[0][var0]
-    second_element = A[1][var1]
-    return first_element, second_element
+import pandas as pd
+
+def test(df0):
+    min_date = df0['Date'].min()
+    max_date = df0['Date'].max()
+    return pd.Series([min_date, max_date], index=['min', 'max'])

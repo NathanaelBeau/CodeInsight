@@ -1,4 +1,4 @@
-df0 = pd.DataFrame({'X': [None, 8, 9], 'Y': [10, 11, None]})
-expected_result =  pd.DataFrame({'X': [np.nan, 8., 9.], 'Y': [10., 11., np.nan]})
-result = test(df0)
-assert result.equals(expected_result), 'Test failed'
+arr0 = np.array([1, 3, 4, 7, 8, 10])
+expected_result =  [np.array([1]), np.array([3, 4]), np.array([7, 8]), np.array([10])]
+result = test(arr0)
+assert all([np.array_equal(r, e) for r, e in zip(result, expected_result)]), 'Test failed'

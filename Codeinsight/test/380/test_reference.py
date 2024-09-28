@@ -1,2 +1,2 @@
-def test(var0):
-	return list(var0.items())
+def test(lst0, lst1):
+    return all(x in lst1 for x in lst0)

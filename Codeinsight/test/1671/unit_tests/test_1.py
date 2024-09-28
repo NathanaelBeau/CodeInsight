@@ -1,4 +1,5 @@
-lst0_test2 = [-10, -5, 0, 5, 10]
-var0_test2 = 0
-expected_result2 = [5, 10]
-assert test(lst0_test2, var0_test2) ==expected_result2, 'Test failed'
+# Test 2
+ser0 = pd.Series(['a', 'b', 'c'])
+expected_result =  np.array(['a', 'b', 'c'])
+result = test(ser0)
+assert np.array_equal(result, expected_result), 'Test failed'

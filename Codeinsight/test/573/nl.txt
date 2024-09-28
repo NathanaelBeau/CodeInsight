@@ -1,1 +1,1 @@
-Convert a string s containing characters into its corresponding hex string representation.
+Convert boolean values (True/False) in a pandas DataFrame df0 to integers (1/0).

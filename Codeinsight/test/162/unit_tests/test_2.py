@@ -1,5 +1,6 @@
-arr2 = np.array([0, 1, 2, 3, 4, 5])
-var2 = 4
-expected_result =  np.array([[0, 1, 2, 3], [1, 2, 3, 4], [2, 3, 4, 5]])
-result = test(arr2, var2)
-assert np.array_equal(result, expected_result), 'Test failed'
+import pandas as pd
+import numpy as np
+df3 = pd.DataFrame({'A': [1, 2, 3, 4], 'B': [5, 6, 7, 8]})
+expected_result_3 = df3  # No rows should be dropped
+result_3 = test(df3, 'A')
+assert result_3.equals(expected_result_3), 'Test failed'

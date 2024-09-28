@@ -1,8 +1,0 @@
-dict0 = {"existing_key": "existing_value", "key1": "old_value1"}
-var0 = "key1"
-var1 = "new_value1"
-var2 = "key2"
-var3 = "value2"
-expected_result =  {"existing_key": "existing_value", "key1": "new_value1", "key2": "value2"}
-result = test(dict0, var0, var1, var2, var3)
-assert result == expected_result, 'Test failed'

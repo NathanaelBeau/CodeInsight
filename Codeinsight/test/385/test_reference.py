@@ -1,5 +1,4 @@
-import operator
+def test(dict0, var0):
+    dict0[len(dict0)] = var0
+    return dict0
 
-def test(lst0):
-    f = operator.itemgetter(1)
-    return [sum(map(f, x)) for x in lst0]

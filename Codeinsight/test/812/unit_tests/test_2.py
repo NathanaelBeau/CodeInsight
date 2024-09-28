@@ -1,4 +1,3 @@
-# Test 2
-var0 = "¥Python¥"
-expected_result =  "Python"
-assert test(var0) == expected_result, 'Test failed'
+input3 = [(11, 12, 13)]
+expected_result3 = [(11,), (12,), (13,)]
+assert test(input3) == expected_result3, 'Test failed'

@@ -1,1 +1,1 @@
-Removing items var0 from unnamed lists lst0 in Python   
+Retrieve the minimum float value from a list of tuples lst0, where the second element of the tuple is a float, ignoring nan values.

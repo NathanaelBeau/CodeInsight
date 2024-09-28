@@ -1,4 +1,6 @@
-Counting array elements in Python array lst0  
+Obtain the element-wise logical NOT of the pandas Series ser0.
 
-def test(lst0):
+import pandas as pd 
+
+def test(ser0):
 

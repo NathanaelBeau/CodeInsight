@@ -1,4 +1,6 @@
-Python sorting - A list of objects   lst0
+Normalize an array arr0  
 
-def test(lst0):
+from sklearn.preprocessing import StandardScaler
+
+def test(arr0):
 

@@ -1,2 +1,2 @@
-def test(lst0, lst1):
-    return set(lst0) & set(lst1)
+def test(str0):
+    return ''.join([c for c in str0 if c != "'"])

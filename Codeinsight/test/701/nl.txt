@@ -1,1 +1,1 @@
-Find all words, including those with accent characters, in the string var0.
+Convert a boolean array bool_array0 into an index array in numpy.   

@@ -1,2 +1,2 @@
-def test(lst0, lst1):
-    return list(set(lst0) & set(lst1))
+def test(dict0):
+    return dict(sorted(dict0.items(), key=lambda item: item[1]))

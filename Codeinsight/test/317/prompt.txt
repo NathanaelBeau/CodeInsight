@@ -1,4 +1,4 @@
-Convert a string representation of a number var0 that includes commas (as thousands separators) into an integer 
+Check if all elements from tuple tuple0 are present in tuple tuple1
 
-def test(var0):
+def test(tuple0, tuple1):
 

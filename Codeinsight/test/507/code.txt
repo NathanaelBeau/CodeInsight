@@ -1,6 +1,3 @@
-from ast import literal_eval
-
-def test(str0):
-    float_str = str0.replace("-0b", "-0b0")
-    result = float(literal_eval(float_str))
-    return result
+def test(lst0, var0):
+    formatted_result = [[var0.format(flt) for flt in sublist] for sublist in lst0]
+    return formatted_result

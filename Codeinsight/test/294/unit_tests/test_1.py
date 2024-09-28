@@ -1,5 +1,3 @@
-# Test 2
-lst0 = ['short', 'longer_str', 'medium_len']
-expected_result =  np.array(['short', 'longer_str', 'medium_len'], dtype=object)
-result = test(lst0)
-assert np.array_equal(result, expected_result), 'Test failed'
+var0 = 1
+expected_result =  [(0,), (1,)]
+assert test(var0) == expected_result, 'Test failed'

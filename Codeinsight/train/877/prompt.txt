@@ -1,5 +1,4 @@
-Extract columns from the numpy array arr0 as separate arrays
+Get the smallest value greater than 2 from a list of numbers lst0
 
-import numpy as np
-def test(arr0):
+def test(lst0):
 

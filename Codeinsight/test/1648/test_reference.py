@@ -1,5 +1,3 @@
-import pandas as pd
-import datetime
-
-def test(datetime0):
-    return pd.to_datetime(datetime0)
+import numpy as np
+def test(arr0, arr1):
+    return arr0 * arr1

@@ -1,3 +1,3 @@
-str0 = 'abcd'
-expected_output = ['abcd']
-assert test(str0) == expected_output, 'Test failed'
+s3 = "NoUpperCaseHere"
+expected_output3 = ['No', 'Upper', 'Case', 'Here']
+assert test(s3) == expected_output3, 'Test failed'

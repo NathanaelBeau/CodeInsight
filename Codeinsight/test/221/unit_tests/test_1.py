@@ -1,3 +1,4 @@
-lst0 = ['a', 'b', 'c']
-expected_output = ['c', 'a', 'b']
-assert test(lst0) == expected_output, 'Test failed'
+var0 = [0, 0, 0]
+var1 = [[2, 0, 1], [1, 2, 3]]
+expected_output = [0, 0, 0]
+assert test(var0, var1) ==expected_output, 'Test failed'

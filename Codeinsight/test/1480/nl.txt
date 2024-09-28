@@ -1,1 +1,1 @@
-Display all rows from dataframe df0 that contain at least one NaN value
+Convert selected columns lst0 in a pandas dataframe df0 to a numpy array  

@@ -1,6 +1,4 @@
-Find the first index of the value var0 in the numpy array arr0
+Remove the element at index 2 from a list lst0
 
-import numpy as np
-
-def test(arr0, var0):
+def test(lst0):
 

@@ -1,4 +1,4 @@
-import pandas as pd 
+import pandas as pd
 
-def test(df0, var0='dict'):
-    return df0.to_dict(orient=var0)
+def test(df0, col0, col1):
+    return df0.sort_values(by=[col0, col1], ascending=True)

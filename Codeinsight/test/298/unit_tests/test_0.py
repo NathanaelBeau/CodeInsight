@@ -1,7 +1,7 @@
-df0 = pd.DataFrame({
-            'A': [1, 2, 3],
-            'B': [4, 5, 6]
-        })
-expected = np.array([1, 4, 2, 5, 3, 6])
-result = test(df0)
-assert (result == expected).all(), 'Test failed'
+dict0 = [
+    {"key1": "value1", "key2": "value2"},
+    {"key2": "value2", "key3": "value3"},
+    {"key1": "value1", "key3": "value3"},
+]
+expected_output = {"key1", "key2", "key3"}
+assert test(dict0) ==expected_output, 'Test failed'

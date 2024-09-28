@@ -1,6 +1,4 @@
-Remove one column var0 for a numpy array   arr0
+Perform element-wise addition of two tuples tuple0 and tuple1  
 
-import numpy as np
-
-def test(arr0, var0):
+def test(tuple0, tuple1):
 

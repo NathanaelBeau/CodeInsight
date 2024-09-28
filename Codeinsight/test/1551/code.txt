@@ -1,2 +1,2 @@
-def test(var0, var1):
-	return next((i for i, v in enumerate(var0) if v[0] == var1), None)
+def test(lst0, lst1):
+    return list(map(lambda i: lst0[i], lst1))

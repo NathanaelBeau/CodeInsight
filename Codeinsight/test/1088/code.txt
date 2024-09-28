@@ -1,4 +1,3 @@
-import numpy as np
-
-def test(lst0, lst1):
-    return np.add(lst0, lst1)
+import random
+def test(var0, var1):
+    return random.randrange(var0, var1 + 1)

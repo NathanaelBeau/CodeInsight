@@ -1,6 +1,0 @@
-Sum the rows in DataFrame df0 for the columns listed in lst0 and store the result in a new column named var0.
-
-import pandas as pd
-
-def test(df0, lst0, var0):
-

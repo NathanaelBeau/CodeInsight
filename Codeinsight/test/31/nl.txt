@@ -1,1 +1,1 @@
-Capture the entire string from var0 using a regex pattern that includes lookaround assertions.
+Extract the str0 triangular part (upper or lower) from a numpy matrix var0

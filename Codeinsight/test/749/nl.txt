@@ -1,1 +1,1 @@
-Combine rows with the same index in dataframe df0 by summing their values.
+Get a list of booleans indicating if the elements at corresponding positions in lists lst0 and lst1 are equal.

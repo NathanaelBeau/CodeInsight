@@ -1,5 +1,4 @@
-# Test 2
-var0 = "45678, 90, 1234567890"
-var1 = 5
-expected_result =  ["45678", "1234567890"]
-assert test(var0, var1) == expected_result, 'Test failed'
+str0 = "12345"
+var0 = 3
+expected_output = "111222333444555"
+assert test(str0, var0) ==expected_output, 'Test failed'

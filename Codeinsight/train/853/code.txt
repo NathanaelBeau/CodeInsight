@@ -1,5 +1,4 @@
-import pandas as pd
 import numpy as np
-def test(df0, var0):
-    df0['diff_column'] = df0[var0] - df0[var0].shift(1)
-    return df0
+def test(arr0):
+    _, idx = np.unique(arr0, return_index=True)
+    return arr0[np.sort(idx)]

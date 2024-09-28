@@ -1,1 +1,1 @@
-Count the number of trailing question marks in a string str0
+Check if both keys var0 and var1 are present in the dictionary d.

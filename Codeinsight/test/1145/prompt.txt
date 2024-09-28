@@ -1,6 +1,6 @@
-Change the data type of the column var0 in the dataframe df0 into float and then to int.
+Interweaving two numpy arrays   arr0 and arr1 
 
-import pandas as pd
+import numpy as np
 
-def test(df0, var0):
+def test(arr0, arr1):
 

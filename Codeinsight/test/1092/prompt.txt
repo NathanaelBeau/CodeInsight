@@ -1,6 +1,6 @@
-Get the minimum value from the second column of an array arr0
+Access an arbitrary element(first one) in a dictionary dict0 in Python   
 
-import numpy as np
+import six
 
-def test(arr0):
+def test(dict0):
 

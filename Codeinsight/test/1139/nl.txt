@@ -1,1 +1,1 @@
-Converting a Pandas GroupBy output df0 from Series to DataFrame   
+ check if any value of a column var0 is in a range (in between two values var1 and var2) in Pandas dataframe df0 with between  

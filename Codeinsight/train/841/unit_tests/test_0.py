@@ -1,3 +1,4 @@
-datetime0 = datetime.datetime(2020, 1, 1)
-expected_output = pd.Timestamp("2020-01-01 00:00:00")
-assert test(datetime0) == expected_output, 'Test failed'
+lst0 = [1, 2, 3, 4, 5, 6]
+expected_result =  [(1, 2), (3, 4), (5, 6)]
+result = test(lst0)
+assert result == expected_result, 'Test failed'

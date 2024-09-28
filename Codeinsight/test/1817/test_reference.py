@@ -1,2 +1,3 @@
-def test(lst0):
-    return list(map(lambda x: x+1, lst0))
+import pandas as pd
+def test(ser0):
+    return pd.Series(ser0.values)

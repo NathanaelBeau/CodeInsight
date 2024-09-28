@@ -1,6 +1,3 @@
-from collections import OrderedDict
-
-def test(str0: str) :
-    Dict0 = OrderedDict.fromkeys(str0)
-    str1 = " ".join(Dict0.keys())
-    return str1
+def test(lst0, var0):
+    formatted_result = [list(map(lambda flt: var0.format(flt), sublist)) for sublist in lst0]
+    return formatted_result

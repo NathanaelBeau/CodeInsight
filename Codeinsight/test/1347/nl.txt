@@ -1,1 +1,1 @@
-Check if var0 is absent from the list lst0.
+Move dictionaries in list lst0 to the end if the value of the key var0 in each dictionary is not equal to var1

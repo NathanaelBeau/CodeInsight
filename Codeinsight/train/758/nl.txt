@@ -1,1 +1,1 @@
-Search for all tags with name tag0 containing the string str0 in the BeautifulSoup object soup0
+Replacing the empty strings in a string str1 with string str0

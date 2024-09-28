@@ -1,3 +1,5 @@
-lst0 = ["value,1.0,2.0,3.0, value"]
-expected_output = [1.0, 2.0, 3.0]
-assert test(lst0) ==expected_output, 'Test failed'
+# Test 2
+lst0 = [[[0, 0], [0, 0]], [[0, 0], [0, 0]]]
+expected_result =  np.array(lst0)
+result = test(lst0)
+assert np.array_equal(result, expected_result), 'Test failed'

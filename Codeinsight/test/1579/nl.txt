@@ -1,1 +1,1 @@
-Strip all leading and trailing whitespaces from every string in a dataframe df0
+List comprehension with an accumulator  on list lst0 with numpy 

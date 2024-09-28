@@ -1,6 +1,6 @@
-Remove parentheses around single words in the string s using regex.
+string str0 to list conversion in python   
 
 import re
 
-def test(s):
+def test(str0):
 

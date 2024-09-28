@@ -1,4 +1,3 @@
-str0 = ['hellojava', 'world', 'python', 'programming']
-str1 = ['java']
-expected_output = ['hellojava']
-assert test(str0, str1) ==expected_output, 'Test failed'
+s3 = "No special characters here!"
+expected_output3 = 'No\ special\ characters\ here!'
+assert test(s3) == expected_output3, 'Test failed'

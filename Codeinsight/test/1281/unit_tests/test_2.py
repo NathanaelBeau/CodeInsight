@@ -1,4 +1,4 @@
-lst0 = [[-1, 2, -3], [4, -5, 6], [-7, 8, -9]]
-expected_result =  -5
-result = test(lst0)
+str0 = b'\xc2\xa92023'
+expected_result =  '©2023'
+result = test(str0)
 assert result == expected_result, 'Test failed'

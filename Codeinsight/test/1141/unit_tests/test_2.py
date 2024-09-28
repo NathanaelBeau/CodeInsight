@@ -1,4 +1,4 @@
-var0 = pd.DataFrame({'P': [11], 'Q': [12]}, index=['yellow'])
-expected_result =  ['yellow']
-result = test(var0)
-assert result == expected_result, 'Test failed'
+lst2 = [1, 2, 3, 4, 5]
+var2 = 10
+expected_output2 = [[1, 2, 3, 4, 5]]
+assert test(lst2, var2) == expected_output2, 'Test failed'

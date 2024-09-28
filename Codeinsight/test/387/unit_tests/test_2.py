@@ -1,3 +1,3 @@
-df0 = pd.DataFrame({'Column1': [1.1, 2.2, 3.3], 'Column2': [4.4, 5.5, 6.6]})
-expected_output = ['0', '1', '2']
-assert test(df0) ==expected_output, 'Test failed'
+var0 = "The numbers 5, 7.5, and 10-15 are important."
+expected_result =  ["5", "7.5", "10-15"]
+assert test(var0) == expected_result, 'Test failed'

@@ -1,5 +1,12 @@
-def test(var0):
-    for char in set(var0):
-        if var0.count(char) >= 3:
-            var0 = var0.replace(char, '')
-    return var0
+def _itersplit(lst0, var0):
+    current = []
+    for item in lst0:
+        if item in var0:
+            yield current
+            current = []
+        else:
+            current.append(item)
+    yield current
+
+def test(lst0, var0):
+    return [subl for subl in _itersplit(lst0, var0) if subl]

@@ -1,1 +1,1 @@
-Count unique values in column var1 for each group in column var0 of the pandas DataFrame df0.
+ check if any value of a column var0 is in a range (in between two values var1 and var2) in Pandas dataframe df0  

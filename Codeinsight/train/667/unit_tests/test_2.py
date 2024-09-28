@@ -1,3 +1,4 @@
-str0 = "Single Line"
-expected_output = [['Single Line']]
-assert test(str0) == expected_output, 'Test failed'
+dict0 = {'a': [], 'b': [], 'c': []}
+expected_result =  []
+result = test(dict0)
+assert result == expected_result, 'Test failed'

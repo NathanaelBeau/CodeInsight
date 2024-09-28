@@ -1,5 +1,8 @@
-# Test 3
-df0 = pd.DataFrame({'name': ['John', 'Jane'], 'gender': ['M', 'F'], 'age': [30, 25]})
-expected_result =  []
-result = test(df0)
-assert set(result) == set(expected_result), 'Test failed'
+lst0 = [["A", "B", "C"],
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]]
+expected_output = pd.DataFrame({"A": [1, 4, 7],
+                                "B": [2, 5, 8],
+                                "C": [3, 6, 9]})
+assert test(lst0).equals(expected_output), 'Test failed'

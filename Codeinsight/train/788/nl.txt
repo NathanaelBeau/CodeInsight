@@ -1,1 +1,1 @@
-Compose keys from dictionary dict0 with respective values in dictionary dict1
+Copy the elements of list lst0 into a new list.

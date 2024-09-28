@@ -1,1 +1,1 @@
-Remove a specified column named str0 from a given DataFrame df0 
+Sort a NumPy array arr0 based on the column with indexvar0.

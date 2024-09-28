@@ -1,7 +1,5 @@
-# Test 2
-df0 = pd.DataFrame({ 'Name': ['John', 'John', 'Jane', 'Jane'], 'Scores': [90, 85, 88, 78] })
-var0 = 'Name'
-var1 = 'Scores'
-expected_result =  pd.Series({ 'John': [90, 85], 'Jane': [88, 78] }, name='Scores')
-result = test(df0, var0, var1)
-assert result.sort_index().equals(expected_result.sort_index()), 'Test failed'
+data = {'X': [10, 20, 30], 'Y': [40, 50, 60]}
+df0 = pd.DataFrame(data)
+expected_data = {'X': [10, 20, 30], 'Y': [40, 50, 60]}
+expected_output = pd.DataFrame(expected_data)
+assert test(df0) .equals(expected_output), 'Test failed'

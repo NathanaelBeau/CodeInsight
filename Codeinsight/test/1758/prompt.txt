@@ -1,6 +1,6 @@
-Find the index of the element var0 in a pandas Series series0.
+Get the column index of column name var0 in the pandas DataFrame df0.
 
-import pandas as pd
+import pandas as pd 
 
-def test(series0, var0):
+def test(df0, var0):
 

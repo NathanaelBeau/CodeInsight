@@ -1,4 +1,4 @@
-Convert a list lst0 into a concatenated string   
+Sort the list of strings lst0 by their numeric value.
 
 def test(lst0):
 

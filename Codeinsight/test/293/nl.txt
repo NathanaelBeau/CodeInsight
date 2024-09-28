@@ -1,1 +1,1 @@
-Insert the elements of list lst1 into the list lst0 starting at the index var0 without removing any existing elements in lst0
+ simple way to remove multiple spaces in a string str0 with regex

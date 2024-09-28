@@ -1,6 +1,4 @@
-Format the floating-point values in columns specified by columns_list0 of dataframe df0 into percentage format with two decimal places.
+Count the number of trailing question marks in a string str0
 
-import pandas as pd
-
-def test(df0, columns_list0):
+def test(str0):
 

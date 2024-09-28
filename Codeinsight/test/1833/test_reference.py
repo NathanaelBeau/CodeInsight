@@ -1,4 +1,2 @@
-import numpy as np
-
-def test(arr0, var0):
-    return np.argmax(arr0 > var0)
+def test(df0, var0):
+    return df0[df0.columns[var0]]

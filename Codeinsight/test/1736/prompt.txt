@@ -1,4 +1,6 @@
-Counting array elements in Python array lst0  
+pandas: in datframe df0 replace string var0  with another string   from dictionary dict0
 
-def test(lst0):
+import pandas as pd
+
+def test(df0, var0, dict0):
 

@@ -1,1 +1,1 @@
-Assign a number to each unique value in a list lst0 based on the order of appearance of the values with pandas.factorize
+ Calculate the difference in hours and minutes between two time columns, col0 and col1, in a dataframe df0

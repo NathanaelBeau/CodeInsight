@@ -1,5 +1,5 @@
-Check if the numpy array arr0 contains any NaN values
+Concatenate two one-dimensional numpy arrays, lst0 and lst1
 
 import numpy as np
-def test(arr0):
+def test(lst0, lst1):
 

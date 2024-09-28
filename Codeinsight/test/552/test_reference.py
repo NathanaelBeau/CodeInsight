@@ -1,3 +1,4 @@
-def test(lst0):
-    return [(t[1], t[0]) for t in lst0]
+import re
 
+def test(str0):
+    return [i.split() for i in re.findall(r'\[([^\[\]]+)\]', str0)]

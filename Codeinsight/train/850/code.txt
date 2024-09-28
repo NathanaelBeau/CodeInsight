@@ -1,3 +1,5 @@
-import pandas as pd
-def test(df0, lst0, var0):
-    return df0[lst0].apply(lambda x: var0 in x)
+def test(dict0, dict1):
+    result = {}
+    for key, value in dict0.items():
+        result[key] = dict1[value]
+    return result

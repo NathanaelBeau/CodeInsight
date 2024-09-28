@@ -1,6 +1,5 @@
-# Test 3
-df0 = pd.DataFrame({'M': [10, 11], 'N': [12, 13]})
-var0 = 'split'
-expected_result =  {'index': [0, 1], 'columns': ['M', 'N'], 'data': [[10, 12], [11, 13]]}
-result = test(df0, var0)
-assert result == expected_result, 'Test failed'
+df0 = pd.DataFrame({'c1': [1, 2, 3], 'c2': [3, 2, 1]})
+col0 = 'c1'
+col1 = 'c2'
+expected_result =  pd.DataFrame({'c1': [1, 2, 3], 'c2': [3, 2, 1]})
+assert test(df0, col0, col1).equals(expected_result), 'Test failed'

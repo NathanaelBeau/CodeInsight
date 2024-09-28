@@ -1,1 +1,1 @@
- remove all the punctuation in a string str0    
+check if all of the following items in list lst0 are in a list lst1

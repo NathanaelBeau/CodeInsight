@@ -1,6 +1,5 @@
-Interweaving two numpy arrays   arr0 and arr1
+ convert ndarray  var0 to array using ravel  
 
 import numpy as np
-
-def test(arr0, arr1):
+def test(var0):
 

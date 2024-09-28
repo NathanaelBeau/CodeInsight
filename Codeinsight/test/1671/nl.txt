@@ -1,1 +1,1 @@
-Return list of items in list lst0 greater than some value  var0
+Convert the pandas Series or Index ser0 to a Numpy array.

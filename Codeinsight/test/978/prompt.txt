@@ -1,6 +1,4 @@
-Pandas: Elementwise multiplication of two dataframes  df0 and df1
+Strip any leading and trailing white spaces from the string var0 and then split it into a list of words based on white spaces.
 
-import pandas as pd
-
-def test(df0, df1):
+def test(var0):
 

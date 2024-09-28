@@ -1,1 +1,1 @@
-find most common elements of a list lst0 and return the top var0
+Apply a function func to a column named var0 in a pandas DataFrame df0.

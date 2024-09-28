@@ -1,6 +1,0 @@
-Replace NaN values in dataframe df0 with the average of its respective column.
-
-import pandas as pd
-
-def test(df0):
-

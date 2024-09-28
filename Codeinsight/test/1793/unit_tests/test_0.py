@@ -1,4 +1,4 @@
-lst0 = ['hel', 'lo', 'bye']
-expected_result =  sorted(['hello', 'helbye', 'lobye', 'lohel', 'byehel', 'byelo'])
-result = sorted(test(lst0))
-assert result == expected_result, 'Test failed'
+arr0 = np.array([[3, 2, 1], [6, 5, 4], [9, 8, 7]])
+expected_result =  np.array([[3, 2, 1], [6, 5, 4], [9, 8, 7]])
+result = test(arr0)
+assert np.array_equal(result, expected_result), 'Test failed'

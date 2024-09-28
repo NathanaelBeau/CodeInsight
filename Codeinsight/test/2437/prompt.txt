@@ -1,4 +1,0 @@
-Remove all instances of var0 from a list lst0
-
-def test(lst0, var0):
-

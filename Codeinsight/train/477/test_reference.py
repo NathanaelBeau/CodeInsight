@@ -1,5 +1,6 @@
 import pandas as pd
-import numpy as np
 
-def test(df0, col_name):
-    return df0[df0[col_name].notna()]
+def test(df0):
+    df0['B'] = df0['A']**2
+    df0['C'] = df0['A']**3
+    return df0

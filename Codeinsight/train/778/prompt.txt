@@ -1,4 +1,6 @@
-Divide values from dictionary dict0 by corresponding values in dictionary dict1 for each matching key.
+Fast way to remove a few items from a list/queue lst0 with criterias from function var0  
 
-def test(dict0, dict1):
+from functools import reduce
+
+def test(lst0, var0):
 

@@ -1,4 +1,4 @@
-ttt2 = "abcabcabc"
-tt2 = "b"
-expected_output2 = [1, 4, 7]
-assert test(ttt2, tt2) == expected_output2, 'Test failed'
+var0 = 'a,b,"c,d,e",f'
+expected_result =  ['a', 'b', 'c,d,e', 'f']
+result = test(var0)
+assert result == expected_result, 'Test failed'

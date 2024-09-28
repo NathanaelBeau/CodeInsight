@@ -1,6 +1,7 @@
-df0 = pd.DataFrame({ "group": ["X", "X", "Y", "Y", "Z", "Z"], "score": [50, 60, 70, 80, 90, 100] })
-col_name = "group"
-agg_function = "mean"
-expected_result =  pd.DataFrame({ "group": ["X", "Y", "Z"], "score": [55.0, 75.0, 95.0] })
-result = test(df0, col_name, agg_function)
+var0 = 'old'
+var1 = 'status'
+var2 = 'new'
+df0 = pd.DataFrame({'status': ['old', 'old', 'old'], 'value': [5, 6, 7]})
+expected_result =  pd.DataFrame({'status': ['new', 'new', 'new'], 'value': [5, 6, 7]})
+result = test(df0, var0, var1, var2)
 assert result.equals(expected_result), 'Test failed'

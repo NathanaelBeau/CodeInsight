@@ -1,6 +1,6 @@
-Replace all non-alphanumeric characters in string var0, except for the characters provided in exceptions, with the string replacement.
+Check if the string var0 contains any upper or lower-case ASCII letters.
 
 import re
 
-def test(var0, exceptions='', replacement=''):
+def test(var0):
 

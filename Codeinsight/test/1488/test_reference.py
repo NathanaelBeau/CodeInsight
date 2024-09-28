@@ -1,4 +1,4 @@
-import numpy as np
+import pandas as pd
 
-def test(arr0):
-    return np.amin(arr0[:, 1])
+def test(lst0):
+    return pd.concat(lst0).reset_index(drop=True)

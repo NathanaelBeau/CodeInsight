@@ -1,5 +1,9 @@
-arr0 = np.array([5, 6, 7, 8, 9])
-var0 = 6
-expected_result =  1
-result = test(arr0, var0)
-assert result == expected_result, 'Test failed'
+arr0 = np.array([[11, 12, 13],
+                   [21, 22, 23],
+                   [31, 32, 33],
+                   [41, 42, 43]])
+expected_output = np.array([[11, 12, 13],
+                              [21, 22, 23],
+                              [31, 32, 33],
+                              [41, 42, 43]])
+assert (test(arr0)  == expected_output).all(), 'Test failed'

@@ -1,3 +1,4 @@
-lst0 = [['x', 'y', 'z'], ['m', 'n']]
-expected_output = [('x', 'm'), ('x', 'n'), ('y', 'm'), ('y', 'n'), ('z', 'm'), ('z', 'n')]
-assert expected_output == list(itertools.product(*lst0)), 'Test failed'
+var0 = {'Z': 26, 'Y': 25, 'X': 24}
+expected_result =  OrderedDict([('X', 24), ('Y', 25), ('Z', 26)])
+result = test(var0)
+assert result == expected_result, 'Test failed'

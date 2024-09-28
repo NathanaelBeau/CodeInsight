@@ -1,1 +1,1 @@
- get first part of an email address  string str0 with index
+Perform element-wise logical AND operation on two numpy arrays arr0 and arr1 

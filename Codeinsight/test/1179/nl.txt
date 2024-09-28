@@ -1,1 +1,1 @@
-Find both the minimum and maximum values of the numpy array arr0
+Get key by value in dictionary dict0 with same value equal to var0  

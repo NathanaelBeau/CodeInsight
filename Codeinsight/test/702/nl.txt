@@ -1,1 +1,1 @@
-How to check if character var1 exists in DataFrame cell   df0  at column var0
+Filter out elements from the input list lst0 that contain any digits.

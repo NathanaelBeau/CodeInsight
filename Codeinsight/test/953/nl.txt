@@ -1,1 +1,1 @@
-Remove the dimension specified by var0 from the numpy array arr0   
+Python:  use a string str0 as a slice specifier  in list lst0 

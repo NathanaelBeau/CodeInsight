@@ -1,4 +1,4 @@
-python  split a word str0 into a list   
+Get all items from a list lst0 that are greater than var0
 
-def test(str0):
+def test(lst0, var0):
 

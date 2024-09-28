@@ -1,1 +1,1 @@
-Determine if the numpy array arr0 is multidimensional 
+Create an empty pandas DataFrame with column names provided in the list lst0.

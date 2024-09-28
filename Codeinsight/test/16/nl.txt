@@ -1,1 +1,1 @@
-Create a list containing the first var0 values from generator it0.
+reverse the input string str0  

@@ -1,3 +1,3 @@
-str0 = b'a string'
-expected_output = 'a string'
-assert test(str0) ==expected_output, 'Test failed'
+input_str = "Line 1\nLine 2\nLine 3"
+expected = ['Line 1\nLine 2\nLine 3']
+assert test(input_str) ==expected, 'Test failed'

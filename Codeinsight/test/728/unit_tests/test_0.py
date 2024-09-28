@@ -1,7 +1,8 @@
-df0 = pd.DataFrame({ 'User': ['A', 'A', 'B', 'B', 'C', 'C'], 'X': [0, 1, 2, 3, 0, 0] })
-var0 = 'User'
-var1 = 'X'
-var2 = 0
-expected_output = pd.DataFrame({ 'User': ['C', 'C'], 'X': [0, 0] })
-result = test(df0, var0, var1, var2)
-assert expected_output.reset_index(drop=True, inplace=True)==result.reset_index(drop=True, inplace=True), 'Test failed'
+lst0 = [{'file_name': 'docA', 'file_number': 3},
+        {'file_name': 'docB', 'file_number': 1},
+        {'file_name': 'docC', 'file_number': 2}]
+expected_result =  [{'file_name': 'docB', 'file_number': 1},
+                   {'file_name': 'docC', 'file_number': 2},
+                   {'file_name': 'docA', 'file_number': 3}]
+result = test(lst0, 'file_number')
+assert result == expected_result, 'Test failed'

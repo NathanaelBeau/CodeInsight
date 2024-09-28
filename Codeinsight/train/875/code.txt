@@ -1,3 +1,4 @@
-import pandas as pd
-def test(df0):
-    return (df0 - df0.min()) / (df0.max() - df0.min())
+import re
+
+def test(df0, var0, var1):
+    return df0[var0].str.contains(var1, case=False, na=False).any()

@@ -1,5 +1,4 @@
-df0 = pd.DataFrame({'M': [100, 200, 300], 'N': [400, 500, 600]}, index=['x', 'y', 'z'])
-lst0 = ['x', 'z']
-expected_result =  pd.DataFrame({'M': [100, 300], 'N': [400, 600]}, index=['x', 'z'])
-result = test(df0, lst0)
-assert result.equals(expected_result), 'Test failed'
+lst0 = ['123', '456', '789']
+var0 = r'\d'
+expected_output = True
+assert test(lst0, var0) == expected_output, 'Test failed'

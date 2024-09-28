@@ -1,6 +1,6 @@
-Get the minimum value from the second column of an array arr0
+Append multiple dataframes together from a list of dataframes lst0
 
-import numpy as np
+import pandas as pd
 
-def test(arr0):
+def test(lst0):
 

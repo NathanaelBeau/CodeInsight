@@ -1,6 +1,3 @@
-import random
-import string
 
-
-def test(var0):
-    return ''.join(random.choice(string.ascii_lowercase) for x in range(var0))
+def test(lst0):
+    return [a + b for i, a in enumerate(lst0) for j, b in enumerate(lst0) if i != j]

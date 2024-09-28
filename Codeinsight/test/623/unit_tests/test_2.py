@@ -1,5 +1,4 @@
-var0 = "123"
-var1 = "1,2,3,1,2,3,1,2,3"
-expected_result =  []
-result = test(var0, var1)
-assert result==expected_result, 'Test failed'
+var0 = "πρστυ"
+expected_result =  "\\u03c0\\u03c1\\u03c3\\u03c4\\u03c5"
+result = test(var0)
+assert result == expected_result, 'Test failed'

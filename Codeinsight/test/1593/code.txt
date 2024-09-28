@@ -1,2 +1,4 @@
-def test(lst0: list) -> list:
-    return [x for x in lst0 if x]
+import pandas as pd
+
+def test(df0):
+    return df0.shape[1]

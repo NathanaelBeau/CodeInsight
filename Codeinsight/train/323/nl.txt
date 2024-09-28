@@ -1,1 +1,1 @@
-Expand the numpy array arr0 by adding var0 number of rows and var1 number of columns filled with zeros 
+Extract the first element from each sub-list in a 2-dimensional list lst0.

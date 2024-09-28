@@ -1,5 +1,3 @@
-import pandas as pd
-df0 = pd.DataFrame({'A': [7, 8, 9], 'Value': [True, True, True]})
-expected_output = pd.DataFrame({'A': [7, 8, 9], 'Value': [True, True, True]})
-test3 = test(df0).equals(expected_output)
-assert test3, 'Test failed'
+lst0 = ["some_string,1.2,3.4,5.6,another_string"]
+expected_output = [1.2, 3.4, 5.6]
+assert test(lst0) ==expected_output, 'Test failed'

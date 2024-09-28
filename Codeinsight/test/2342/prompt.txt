@@ -1,4 +1,0 @@
-Switch the positions of each two adjacent characters in a string str0
-
-def test(str0):
-

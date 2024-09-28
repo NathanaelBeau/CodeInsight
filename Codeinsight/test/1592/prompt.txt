@@ -1,7 +1,8 @@
-Merge two dataframes df0 and df1 based on a common column named var0
+Convert a String str0 representation of a Dictionary to a dictionary   with ast.literal_eval:
 
 
-import pandas as pd
 
-def test(df0, df1, var0):
+import ast
+
+def test(str0):
 

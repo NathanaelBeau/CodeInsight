@@ -1,1 +1,1 @@
-check if any value is NaN in a Pandas DataFrame  df0 
+combine two lists lst0 and lst1  into a dictionary in Python  

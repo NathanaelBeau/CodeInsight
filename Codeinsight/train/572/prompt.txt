@@ -1,6 +1,6 @@
- remove all zero elements from a NumPy array arr0   
+Split on all non-alphanumeric characters (whitespace and punctuation) a string var0
 
-import numpy as np
+import re
 
-def test(arr0):
+def test(var0):
 

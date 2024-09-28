@@ -1,4 +1,4 @@
-df = pd.DataFrame({'A': [10], 'B': [20], 'C': [30]})
-result = test(df, axis0=1)
-expected = pd.DataFrame({'A': [-10.0], 'B': [0.0], 'C': [10.0]})
-assert result.equals(expected), 'Test failed'
+df1 = pd.DataFrame({ 'A': ['apple', 'apple', 'banana', 'banana', 'cherry'], 'B': ['red', 'green', 'yellow', 'green', 'red'] })
+key_columns1 = ['A']
+expected_result1 = pd.Series([2, 2, 1], index=pd.Index(['apple', 'banana', 'cherry'], name='A'))
+assert test(df1, key_columns1).equals(expected_result1), 'Test failed'

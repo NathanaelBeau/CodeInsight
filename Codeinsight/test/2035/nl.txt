@@ -1,1 +1,0 @@
-Retrieve all matches of the regular expression pattern in the end of string str0.

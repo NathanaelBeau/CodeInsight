@@ -1,4 +1,5 @@
-Split a string var0 by comma and remove whitespace from the beginning and end of each split 
+Remove duplicates from a dataframe df0 based on columns 'A' and 'B', retaining the row with the maximum value in column 'C
 
-def test(var0):
+import pandas as pd
+def test(df0):
 

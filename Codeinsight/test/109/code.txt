@@ -1,2 +1,6 @@
-def test(str0, lst0):
-    return any(item in str0 for item in lst0)
+import numpy as np
+def test(mat0, part='upper'):
+    if part == 'upper':
+        return np.triu(mat0)
+    elif part == 'lower':
+        return np.tril(mat0)

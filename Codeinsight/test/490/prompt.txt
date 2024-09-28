@@ -1,8 +1,6 @@
-Create two new columns 'B' and 'C' in DataFrame df0, where 'B' contains the square and 'C' contains the cube of the values in column 'A'
-
-
+Exclude columns in list lst0 from dataframe df0.
 
 import pandas as pd
 
-def test(df0):
+def test(df0, lst0):
 

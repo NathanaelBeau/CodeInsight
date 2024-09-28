@@ -1,2 +1,2 @@
-def test(lst0):
-    return [x for x in lst0 if x != [1, 1]]
+def test(x, s):
+    return len(s) - 1 - s[::-1].index(x)

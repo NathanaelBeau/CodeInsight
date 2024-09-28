@@ -1,5 +1,3 @@
-dict0 = {'a': 10, 'b': 20, 'c': 30}
-dict1 = {'a': 2, 'b': 5, 'd': 40}
-expected_result =  {'a': 5.0, 'b': 4.0}
-result = test(dict0, dict1)
-assert result == expected_result, 'Test failed'
+arg = 5
+expected_output = {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
+assert test(arg) == expected_output, 'Test failed'

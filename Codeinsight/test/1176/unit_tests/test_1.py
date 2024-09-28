@@ -1,6 +1,3 @@
-import pandas
-df1 = pandas.DataFrame()
-df2 = pandas.DataFrame()
-expected_output = pandas.DataFrame()
-# Act
-assert expected_output.equals(test(df1,df2)), 'Test failed'
+str0 = '   Hello    world   !    '
+expected_output = ' Hello world ! '
+assert test(str0) ==expected_output, 'Test failed'

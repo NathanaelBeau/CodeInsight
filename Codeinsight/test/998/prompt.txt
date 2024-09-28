@@ -1,4 +1,6 @@
-Reverse indices of a sorted list  lst0
+find most common elements of a list lst0 and return the top 3
+
+from collections import Counter
 
 def test(lst0):
 

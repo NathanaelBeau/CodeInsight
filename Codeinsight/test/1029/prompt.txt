@@ -1,6 +1,6 @@
-Add a new column 'new_col' with sequential numbers to a dataframe df0
+Concatenate dataframe df0 to dataframe df1 and sort by values of the column 'y'
 
 import pandas as pd
 
-def test(df0):
+def test(df0, df1):
 

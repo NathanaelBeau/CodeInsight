@@ -1,3 +1,4 @@
-str0 = 'Hello'
-expected_output = 'H,e,l,l,o'
-assert test(str0) ==expected_output, 'Test failed'
+dict0 = {'a': 1, 'b': 1, 'c': 1}
+expected_result =  set(dict0.keys())  
+result = test(dict0)
+assert result in expected_result, 'Test failed'

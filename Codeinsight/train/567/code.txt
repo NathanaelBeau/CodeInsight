@@ -1,2 +1,2 @@
-def test(lst0):
-    return [i for sub in lst0 for i in sub]
+def test(str0):
+    return [x.strip() for x in str0.split(',')]

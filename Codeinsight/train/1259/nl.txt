@@ -1,0 +1,1 @@
+Perform stratified sampling on dataframe df0 based on column col_name with a sample size of var0 for each group   

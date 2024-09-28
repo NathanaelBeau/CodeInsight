@@ -1,0 +1,4 @@
+Get all items from list lst0 that are not present in list lst1
+
+def test(lst0, lst1):
+

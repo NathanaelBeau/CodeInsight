@@ -1,0 +1,6 @@
+Replace the var0 occurrence of word var1 by var2 in a string var3 
+
+import re
+
+def test(var0, var1, var2, var3):
+

@@ -1,0 +1,1 @@
+Get a list of booleans indicating if the elements at corresponding positions in lists lst0 and lst1 are equal.

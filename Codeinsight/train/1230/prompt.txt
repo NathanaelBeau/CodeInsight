@@ -1,0 +1,6 @@
+Get the var0 element of each tuple in a list lst0 in Python  with itemgetter
+
+from operator import itemgetter
+
+def test(lst0, var0):
+

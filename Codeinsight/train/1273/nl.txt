@@ -1,0 +1,1 @@
+Modify rows in dataframe df0 where column var0 has value var1 and set var2 to the value of var1

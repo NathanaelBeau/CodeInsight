@@ -1,0 +1,1 @@
+Sort the list lst0 in ascending order.

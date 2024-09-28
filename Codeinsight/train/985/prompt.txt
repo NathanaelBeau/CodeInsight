@@ -1,0 +1,6 @@
+Prepend a new level named var0 to the columns of a DataFrame df0 with a MultiIndex.
+
+import pandas as pd
+
+def test(var0, df0):
+

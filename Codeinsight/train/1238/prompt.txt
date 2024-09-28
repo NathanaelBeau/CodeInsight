@@ -1,0 +1,6 @@
+Determine the lengths of sequences of identical values in numpy array arr0 using run length encoding  
+
+import numpy as np
+import itertools
+def test(arr0):
+

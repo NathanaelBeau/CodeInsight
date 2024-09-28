@@ -1,0 +1,6 @@
+Extracting only characters from a string var0   
+
+import re 
+
+def test(var0):
+

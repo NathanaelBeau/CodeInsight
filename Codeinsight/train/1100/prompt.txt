@@ -1,0 +1,6 @@
+Rename the column at position var0 in a dataframe df0 to a new name var1
+
+import pandas as pd
+
+def test(df0, var0, var1):
+

@@ -1,0 +1,1 @@
+Convert a list lst0 into a dictionary where each key is the element at index i and its corresponding value is the element at index i+1

@@ -1,0 +1,4 @@
+Get the count of True values associated with specific key var0 in a dictionary dict0   
+
+def test(var0, dict0):
+

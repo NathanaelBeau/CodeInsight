@@ -1,0 +1,6 @@
+ remove all the punctuation in a string str0    
+
+import string
+
+def test(str0):
+

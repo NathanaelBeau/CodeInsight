@@ -1,0 +1,1 @@
+Flatten all dimensions of the array arr0 except for the last one, and return the reshaped array. 

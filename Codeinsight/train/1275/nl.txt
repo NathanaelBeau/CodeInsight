@@ -1,0 +1,1 @@
+Check if the variable var0 is a pandas DataFrame.

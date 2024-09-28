@@ -1,0 +1,1 @@
+Getting the first elements per row in an array lst0 in Python   

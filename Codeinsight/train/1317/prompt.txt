@@ -1,0 +1,4 @@
+Get all elements from the list lst0 except the one at index var0
+
+def test(lst0, var0):
+

@@ -1,0 +1,4 @@
+Checking for keys wich are in list lst0  in a dictionary dict0
+
+def test(dict0, lst0):
+

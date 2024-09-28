@@ -1,0 +1,4 @@
+In dictionary dict0 , converting the value from string to integer   
+
+def test(dict0):
+

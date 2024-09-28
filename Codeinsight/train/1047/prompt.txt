@@ -1,0 +1,6 @@
+Delete the columns specified in columns_to_delete from the matrix mat0.
+
+
+import numpy as np
+def test(mat0, columns_to_delete):
+

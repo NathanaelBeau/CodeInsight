@@ -1,0 +1,4 @@
+Append the sum of each tuple pair from lists lst0 and lst1 to list lst2
+
+def test(lst0, lst1, lst2):
+

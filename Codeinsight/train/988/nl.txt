@@ -1,0 +1,1 @@
+Get the minimum value from the second column of an array arr0

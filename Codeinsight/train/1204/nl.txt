@@ -1,0 +1,1 @@
+Replace the var0 occurrence of word var1 by var2 in a string var3 

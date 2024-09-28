@@ -1,0 +1,5 @@
+Generate a random integer between two given numbers var0 and var1.
+
+import random
+def test(var0, var1):
+

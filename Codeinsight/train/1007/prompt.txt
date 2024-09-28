@@ -1,0 +1,4 @@
+Get the list of values from a dict dict0
+
+def test(dict0):
+

@@ -1,0 +1,6 @@
+Convert a column var0 in dataframe df0 from Timestamp to datetime.date
+
+import pandas as pd
+
+def test(df0, var0):
+

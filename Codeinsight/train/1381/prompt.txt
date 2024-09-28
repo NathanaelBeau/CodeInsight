@@ -1,0 +1,6 @@
+Split a string var0 with whitespace as separator, returning only plain text
+
+import re
+
+def test(var0):
+

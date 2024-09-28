@@ -1,0 +1,1 @@
+Convert a list lst0 of single element tuple into a string with special delimiter var0 between each element

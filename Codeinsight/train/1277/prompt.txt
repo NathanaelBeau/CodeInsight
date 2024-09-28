@@ -1,0 +1,4 @@
+Sort a list of strings lst0 such that items starting with 's' come first.
+
+def test(lst0):
+

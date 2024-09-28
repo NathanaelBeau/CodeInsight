@@ -1,0 +1,4 @@
+compare two JSON objects dict0 and dict1  with the same elements in a different order equal   
+
+def test(dict0, dict1):
+

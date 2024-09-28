@@ -1,0 +1,5 @@
+Count the number of occurrences of item item0 in a numpy ndarray arr0
+
+import numpy as np
+def test(arr0, item0):
+

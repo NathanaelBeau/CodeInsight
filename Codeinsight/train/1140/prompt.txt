@@ -1,0 +1,5 @@
+Filter elements in list lst0 based on the truth values present in the list of booleans lst1
+
+import itertools
+def test(lst0, lst1):
+

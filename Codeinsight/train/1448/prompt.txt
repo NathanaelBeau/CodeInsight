@@ -1,0 +1,4 @@
+How to expand a string str0 within a string in python using split and simple list comprehension   
+
+def test(str0):
+

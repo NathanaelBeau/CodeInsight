@@ -1,0 +1,4 @@
+Check if the variable var0 is of type string
+
+def test(var0):
+

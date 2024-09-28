@@ -1,0 +1,6 @@
+Sort rows of matrix arr0 in ascending order based on all column values.
+
+import numpy as np
+
+def test(arr0):
+

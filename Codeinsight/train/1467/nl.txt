@@ -1,0 +1,1 @@
+Remove all occurrences of the element var0 from the numpy array arr0.

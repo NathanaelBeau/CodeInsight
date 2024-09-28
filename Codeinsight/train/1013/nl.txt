@@ -1,0 +1,1 @@
+Filter rows in a DataFrame df0 where the value in column var0 is NaN

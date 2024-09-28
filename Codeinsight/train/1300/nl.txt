@@ -1,0 +1,1 @@
+Zip lists lst0 in Python   

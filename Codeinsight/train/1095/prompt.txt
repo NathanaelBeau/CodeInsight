@@ -1,0 +1,5 @@
+Compute the row-wise dot product of two matrices mat0 and mat1  
+
+import numpy as np
+def test(mat0, mat1):
+

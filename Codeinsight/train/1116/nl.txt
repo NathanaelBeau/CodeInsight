@@ -1,0 +1,1 @@
+Translate every element in the numpy array arr0 according to the mapping provided by the dictionary dict0. If not provided, return np.nan.

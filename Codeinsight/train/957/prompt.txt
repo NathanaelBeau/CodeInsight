@@ -1,0 +1,4 @@
+Drop duplicated index in a pandas dataframe df0   
+
+def test(df0):
+

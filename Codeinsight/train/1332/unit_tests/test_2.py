@@ -1,0 +1,1 @@
+assert pd.DataFrame(data=np.concatenate((np.zeros((2,2)), np.ones((2,2))), axis=1), columns=["col_1", "col_2", "col_3", "col_4"]).equals(test(pd.DataFrame(columns=["col_1", "col_2"], data=np.zeros((2, 2))), pd.DataFrame(columns=["col_3", "col_4"], data=np.ones((2, 2))))), 'Test failed'

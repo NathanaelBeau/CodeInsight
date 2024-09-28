@@ -1,0 +1,1 @@
+find indexes of all occurrences of a substring str0 in a string str1

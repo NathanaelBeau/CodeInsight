@@ -1,0 +1,1 @@
+Group DataFrame df0 by column str0 and calculate the sum of column str1 for each group, returning the result as a new DataFrame df1. 

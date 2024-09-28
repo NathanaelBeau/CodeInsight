@@ -1,0 +1,5 @@
+Get the shape of the numpy array arr0
+
+import numpy as np
+def test(arr0):
+

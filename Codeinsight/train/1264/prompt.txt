@@ -1,0 +1,4 @@
+Remove all values from list lst1 that appear in list lst0
+
+def test(lst0, lst1):
+

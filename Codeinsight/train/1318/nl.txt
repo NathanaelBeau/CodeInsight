@@ -1,0 +1,1 @@
+Drop rows with NaN values from a dataframe df0

@@ -1,0 +1,1 @@
+Select columns lst0 from DataFrame df0.

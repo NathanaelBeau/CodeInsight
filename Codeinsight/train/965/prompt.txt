@@ -1,0 +1,6 @@
+Convert the output of the .value_counts() method applied to a Series var0 to a DataFrame.
+
+import pandas as pd
+
+def test(var0):
+

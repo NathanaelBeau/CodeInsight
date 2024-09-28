@@ -1,0 +1,1 @@
+Select all rows from dataframe df0 where the column named var0 contains NaN values.

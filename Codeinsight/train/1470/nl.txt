@@ -1,0 +1,1 @@
+Cut a string var0 after the last appearance of a special character var1

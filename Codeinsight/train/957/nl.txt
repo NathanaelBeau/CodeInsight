@@ -1,0 +1,1 @@
+Drop duplicated index in a pandas dataframe df0   

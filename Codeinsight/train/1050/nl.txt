@@ -1,0 +1,1 @@
+return all the minimum indices in numpy  array var0

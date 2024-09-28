@@ -1,0 +1,6 @@
+tokenize a string str0 keeping delimiters in Python   
+
+import re
+
+def test(str0):
+

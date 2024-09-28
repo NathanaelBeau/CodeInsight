@@ -1,0 +1,4 @@
+Transform a space-separated string of integers str0 into a list of integers.
+
+def test(str0):
+

@@ -1,0 +1,6 @@
+Merge two lists lst0 and lst1 and flattens the resulting pairs into a single list 
+
+from itertools import chain
+
+def test(lst0, lst1):
+

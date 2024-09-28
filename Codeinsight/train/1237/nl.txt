@@ -1,0 +1,1 @@
+Design a function that return the sum of numbers from 0 to var1

@@ -1,0 +1,4 @@
+Python: Check the occurrences in a list lst0 against a value  var0
+
+def test(lst0, var0):
+

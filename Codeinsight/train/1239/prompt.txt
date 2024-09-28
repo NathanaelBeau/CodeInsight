@@ -1,0 +1,6 @@
+Extract all duplicate items from a pandas series lst0
+
+import pandas as pd
+
+def test(lst0):
+

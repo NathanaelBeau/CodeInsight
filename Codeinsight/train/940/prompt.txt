@@ -1,0 +1,6 @@
+get the name of the rows from the index of a data frame df0   
+
+import pandas as pd
+
+def test(df0):
+

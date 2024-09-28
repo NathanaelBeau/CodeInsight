@@ -1,0 +1,6 @@
+Create a numpy array of shape shape0 filled with boolean values var0.
+
+import numpy as np
+
+def test(arr0):
+

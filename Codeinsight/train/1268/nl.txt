@@ -1,0 +1,1 @@
+Case insensitive dictionary dict0 search key var0   

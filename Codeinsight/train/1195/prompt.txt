@@ -1,0 +1,4 @@
+Index a list lst0  with another list  lst1 
+
+def test(lst0, lst1):
+

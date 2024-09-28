@@ -1,0 +1,6 @@
+Counting array elements in Python array lst0  
+
+import numpy as np
+
+def test(lst0):
+

@@ -1,0 +1,6 @@
+Count the occurrences of a specific value value0 in a column col_name0 of a DataFrame df0.
+
+import pandas as pd
+
+def test(df0, col_name0, value0):
+

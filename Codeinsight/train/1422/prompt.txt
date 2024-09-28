@@ -1,0 +1,4 @@
+Add tuple tpl0 to a list of tuples  lst0
+
+def test(lst0, tpl0):
+

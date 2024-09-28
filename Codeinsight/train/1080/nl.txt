@@ -1,0 +1,1 @@
+nitialize a NumPy array with shape shape0 and fill it with the value var0

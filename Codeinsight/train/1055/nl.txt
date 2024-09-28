@@ -1,0 +1,1 @@
+Extracting only characters from a string var0   

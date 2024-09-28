@@ -1,0 +1,6 @@
+Find the unique values in the column var0 of DataFrame df0 and return them in sorted order.
+
+import pandas as pd
+
+def test(df0, var0):
+

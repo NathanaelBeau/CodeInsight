@@ -1,0 +1,4 @@
+From the list of lists x, return the inner list that has the highest sum of values.
+
+def test(x: list) -> list:
+

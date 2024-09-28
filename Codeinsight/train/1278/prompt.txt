@@ -1,0 +1,4 @@
+Find all indexes of a substring var0 in a string var1
+
+def test(var0, var1):
+

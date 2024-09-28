@@ -1,0 +1,4 @@
+How to split a word str0 into letters in Python   
+
+def test(str0):
+

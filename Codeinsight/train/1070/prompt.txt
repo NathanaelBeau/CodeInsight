@@ -1,0 +1,4 @@
+Sum the squares of all elements in a list lst0
+
+def test(lst0):
+

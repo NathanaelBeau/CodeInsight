@@ -1,0 +1,1 @@
+Get the shape of the numpy array arr0

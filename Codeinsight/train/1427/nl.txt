@@ -1,0 +1,1 @@
+Multiplication of 1d arrays arr0 and arr1 in numpy   

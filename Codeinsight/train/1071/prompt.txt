@@ -1,0 +1,6 @@
+Converting a dict dict0 into a list   
+
+from itertools import chain
+
+def test(dict0):
+

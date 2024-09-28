@@ -1,0 +1,6 @@
+ convert and extract first elements from  tuple lst0 to a string   
+
+from functools import reduce
+
+def test(lst0):
+

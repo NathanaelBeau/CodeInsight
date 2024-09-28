@@ -1,0 +1,6 @@
+ get the min value  of List of Tuples lst0 (string, float)with NaN using math
+
+import math
+
+def test(lst0):
+

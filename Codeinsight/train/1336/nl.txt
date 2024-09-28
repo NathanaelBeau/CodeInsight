@@ -1,0 +1,1 @@
+Count the number of occurrences of var0 in a list lst0

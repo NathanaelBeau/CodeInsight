@@ -1,0 +1,6 @@
+Remove all text within parentheses, including the parentheses, from string str0.
+
+import re
+
+def test(str0: str) -> str:
+

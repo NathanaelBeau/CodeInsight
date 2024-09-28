@@ -1,0 +1,1 @@
+Python: Replace with regex  var0  and subvstitue var1 in string str0

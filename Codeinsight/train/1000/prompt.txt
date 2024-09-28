@@ -1,0 +1,6 @@
+Format the floating-point values in columns specified by columns_list0 of dataframe df0 into percentage format with two decimal places.
+
+import pandas as pd
+
+def test(df0, columns_list0):
+

@@ -1,0 +1,4 @@
+Get all tuples which value in position var0 equals to var1 in a list of tuples lst0 
+
+def test(var0, var1, lst0):
+

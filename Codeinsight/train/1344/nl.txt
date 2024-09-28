@@ -1,0 +1,1 @@
+Obtain a slice of the first two rows and columns from numpy array arr0.

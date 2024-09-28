@@ -1,0 +1,4 @@
+Extract elements from lst0 at the indices specified in lst1.
+
+def test(lst0, lst1):
+

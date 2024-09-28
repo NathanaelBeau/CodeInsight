@@ -1,0 +1,6 @@
+Retrieve the key with the maximum value from the dictionary var0.
+
+from operator import itemgetter
+
+def test(var0):
+

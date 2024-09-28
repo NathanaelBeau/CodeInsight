@@ -1,0 +1,4 @@
+Elegant way to transform a list of dict lst0 into a dict of dicts   using key var0
+
+def test(lst0, var0):
+

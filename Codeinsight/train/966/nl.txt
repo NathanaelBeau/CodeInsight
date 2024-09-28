@@ -1,0 +1,1 @@
+reverse tuples elements inside each tuple in list of tuples lst0  in Python  

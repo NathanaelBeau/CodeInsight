@@ -1,0 +1,5 @@
+Separate the numbers and characters in a string var0
+
+from itertools import groupby
+def test(var0):
+

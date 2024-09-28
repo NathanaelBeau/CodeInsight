@@ -1,0 +1,4 @@
+Replace text var0 by var1 in a string var2
+
+def test(var0, var1, var2):
+

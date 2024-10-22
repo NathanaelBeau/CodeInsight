@@ -110,4 +110,4 @@ If you use this dataset in your research, please cite the following:
 
 # Acknowledgements
 
-The creation of the CodeInsight dataset was made possible through the generous support of onepoint. Their financial contribution was essential in enabling the research and development of this dataset, designed to aid developers in common programming tasks. 
+The creation of the CodeInsight dataset was made possible through the generous support of onepoint. Their financial contribution was essential in enabling the research and development of this dataset, designed to aid developers in common programming tasks. We would like to thank also Wahid Ameur for its important contribution to create this dataset.
